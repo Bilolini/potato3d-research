@@ -1,0 +1,3659 @@
+{
+  "sources_sha256": {
+    "studies/rgbd_pointcloud_l4_v1/run.py": "6cdbec66be5476263c6fe03a4347b62939fa433aa9103286c6285423f6ce87a9",
+    "studies/rgbd_pointcloud_l4_v1/protocol.md": "5848dd461b6f7e84308876d7c7618c68d9b6d43f17f28570598b2fac1912369d",
+    "studies/raft_pointcloud_weight_v1/run.py": "87a5162f0fc316722d406ce53ffc32b0dee25911cf57d64e037deb7a15234a34",
+    "studies/raft_pointcloud_weight_v1/inputs.py": "26ad0c6c216f826a232404b528a9e16e496619f7b5028a0e138028d49a51fd1d",
+    "studies/rgb_only_height_value_v1/frame_manifest.json": "2ad263ad73fc52d9e710f7d0fe0d669ffec37480319382eae54f77ed3a0d046b",
+    "studies/rgb_only_height_value_v1/run.py": "e484128f36a3c6d3f25574413a02208d2a250054f36e69e9b7c69f01c204b5cb",
+    "studies/rgb_only_height_value_v1/train_fit.json": "edf029a0816120c36e45afea573838fe769233224ba273e4addbdb407f06e1b7",
+    "studies/rgb_only_height_value_v1/train_features.csv": "bde8afac6d7a4b842ac4cf762b0cea7992c6e863d2eea50f6e00641dab1eb9cf",
+    "studies/rgb_only_height_value_v1/validation_features.csv": "6fb59941f0122cbaf918f47578ad041540a613b385ef51fd03b599c78e8602d2",
+    "studies/sam2_human_prompt_confirmation_v1/cohort_freeze.json": "cc08f9ece8796cc827eff24de0511149cfcd4c5de5a4b8a46438a1e72741e5b8",
+    "data/raw/3DPotatoTwin/1_rgbd/0_camera_intrinsics/realsense_d405_camera_intrinsic.json": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf",
+    "data/raw/3DPotatoTwin/3_pair/non-perfect.txt": "175754f8a5dbe3ee3decb6bc38aef46e2c13abc08c45eebc342f6752d97d911b",
+    "studies/regional_shape_v1/replication_cohort.json": "d9eb49dde8cc1111d564fcdcb528225d6d847d12205d33962b3d9fb69226a809",
+    "studies/regional_shape_v1/support_offset_confirmation_cohort.json": "8e1f11ecf292eefb167a4b3a8d6fe8af6dbeeeb933fcf45cf4b26fb0b76d2188",
+    "studies/regional_shape_v1/corepp_pin_confirmation/roster.json": "502cd15bf479be089dd616216dc5933a61a75f4ddc7d96bc6fb45668e97e8525",
+    "studies/real_lobes_v1/fresh_selection.json": "8064270270a2d1c776abec7d9b56d0495b2201763994d5693035d7783df32016",
+    "data/demo_manifest.json": "d5d30a5410daed0f36c98af69a946ec8933bbea33186e48012a5a14575b15648"
+  },
+  "roster": [
+    {
+      "tuber": "2R1-1",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R1-1/2R1-1_rgb_358.png",
+          "crc32": 382906573,
+          "bytes": 1814112
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R1-1/2R1-1_depth_358.png",
+          "crc32": 3976619996,
+          "bytes": 241943
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R1-11",
+      "split": "train",
+      "suffix_px": 371,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R1-11/2R1-11_rgb_371.png",
+          "crc32": 1985080326,
+          "bytes": 1833074
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R1-11/2R1-11_depth_371.png",
+          "crc32": 2531461984,
+          "bytes": 242089
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R1-2",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R1-2/2R1-2_rgb_353.png",
+          "crc32": 1042254538,
+          "bytes": 1830678
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R1-2/2R1-2_depth_353.png",
+          "crc32": 243823745,
+          "bytes": 238947
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R1-4",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R1-4/2R1-4_rgb_368.png",
+          "crc32": 953006792,
+          "bytes": 1810174
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R1-4/2R1-4_depth_368.png",
+          "crc32": 4099255311,
+          "bytes": 240466
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R1-5",
+      "split": "train",
+      "suffix_px": 348,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R1-5/2R1-5_rgb_348.png",
+          "crc32": 2869542694,
+          "bytes": 1825494
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R1-5/2R1-5_depth_348.png",
+          "crc32": 3295384598,
+          "bytes": 242088
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R1-6",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R1-6/2R1-6_rgb_353.png",
+          "crc32": 1829913527,
+          "bytes": 1816084
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R1-6/2R1-6_depth_353.png",
+          "crc32": 4061641976,
+          "bytes": 240838
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R1-8",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R1-8/2R1-8_rgb_360.png",
+          "crc32": 980816821,
+          "bytes": 1801348
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R1-8/2R1-8_depth_360.png",
+          "crc32": 2145975973,
+          "bytes": 238775
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R1-9",
+      "split": "val",
+      "suffix_px": 356,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R1-9/2R1-9_rgb_356.png",
+          "crc32": 2142651165,
+          "bytes": 1790458
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R1-9/2R1-9_depth_356.png",
+          "crc32": 4145461887,
+          "bytes": 240524
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R2-1",
+      "split": "val",
+      "suffix_px": 351,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R2-1/2R2-1_rgb_351.png",
+          "crc32": 580316489,
+          "bytes": 1890528
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R2-1/2R2-1_depth_351.png",
+          "crc32": 3001988243,
+          "bytes": 254821
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R2-2",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R2-2/2R2-2_rgb_358.png",
+          "crc32": 141584749,
+          "bytes": 1899449
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R2-2/2R2-2_depth_358.png",
+          "crc32": 1879081871,
+          "bytes": 255956
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R2-3",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R2-3/2R2-3_rgb_361.png",
+          "crc32": 3690395386,
+          "bytes": 1865128
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R2-3/2R2-3_depth_361.png",
+          "crc32": 2716663931,
+          "bytes": 242093
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R2-5",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R2-5/2R2-5_rgb_353.png",
+          "crc32": 1398869336,
+          "bytes": 1895931
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R2-5/2R2-5_depth_353.png",
+          "crc32": 2722549623,
+          "bytes": 256236
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R2-7",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R2-7/2R2-7_rgb_355.png",
+          "crc32": 211474047,
+          "bytes": 1854245
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R2-7/2R2-7_depth_355.png",
+          "crc32": 1612731027,
+          "bytes": 244830
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "2R2-9",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "cultivar": "Kitahime",
+      "inputs": {
+        "rgb": {
+          "archive": "2R.zip",
+          "member": "2R2-9/2R2-9_rgb_350.png",
+          "crc32": 4231278847,
+          "bytes": 1894547
+        },
+        "depth": {
+          "archive": "2R.zip",
+          "member": "2R2-9/2R2-9_depth_350.png",
+          "crc32": 3954363830,
+          "bytes": 254011
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R1-1",
+      "split": "val",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R1-1/3R1-1_rgb_366.png",
+          "crc32": 2498140280,
+          "bytes": 1723240
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R1-1/3R1-1_depth_366.png",
+          "crc32": 838670581,
+          "bytes": 213529
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R1-10",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R1-10/3R1-10_rgb_364.png",
+          "crc32": 2474492965,
+          "bytes": 1777919
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R1-10/3R1-10_depth_364.png",
+          "crc32": 1675988689,
+          "bytes": 222275
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R1-2",
+      "split": "train",
+      "suffix_px": 354,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R1-2/3R1-2_rgb_354.png",
+          "crc32": 3773588647,
+          "bytes": 1856915
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R1-2/3R1-2_depth_354.png",
+          "crc32": 1261341349,
+          "bytes": 232303
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R1-3",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R1-3/3R1-3_rgb_358.png",
+          "crc32": 1825112677,
+          "bytes": 1863793
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R1-3/3R1-3_depth_358.png",
+          "crc32": 226989410,
+          "bytes": 231499
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R1-4",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R1-4/3R1-4_rgb_358.png",
+          "crc32": 4194619394,
+          "bytes": 1797468
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R1-4/3R1-4_depth_358.png",
+          "crc32": 3862783799,
+          "bytes": 229920
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R1-5",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R1-5/3R1-5_rgb_358.png",
+          "crc32": 521734373,
+          "bytes": 1780503
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R1-5/3R1-5_depth_358.png",
+          "crc32": 4088549614,
+          "bytes": 216910
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R1-7",
+      "split": "val",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R1-7/3R1-7_rgb_364.png",
+          "crc32": 1628027593,
+          "bytes": 1913238
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R1-7/3R1-7_depth_364.png",
+          "crc32": 1291389696,
+          "bytes": 235977
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R1-8",
+      "split": "val",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R1-8/3R1-8_rgb_353.png",
+          "crc32": 3374789903,
+          "bytes": 1765774
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R1-8/3R1-8_depth_353.png",
+          "crc32": 727865514,
+          "bytes": 224918
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R1-9",
+      "split": "val",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R1-9/3R1-9_rgb_363.png",
+          "crc32": 585758382,
+          "bytes": 1810663
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R1-9/3R1-9_depth_363.png",
+          "crc32": 2682655081,
+          "bytes": 225553
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R3-1",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R3-1/3R3-1_rgb_353.png",
+          "crc32": 2374409235,
+          "bytes": 1777282
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R3-1/3R3-1_depth_353.png",
+          "crc32": 3435687396,
+          "bytes": 232281
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R3-10",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R3-10/3R3-10_rgb_361.png",
+          "crc32": 2989457523,
+          "bytes": 1733426
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R3-10/3R3-10_depth_361.png",
+          "crc32": 3493285913,
+          "bytes": 223927
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R3-5",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R3-5/3R3-5_rgb_367.png",
+          "crc32": 3469912505,
+          "bytes": 1754819
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R3-5/3R3-5_depth_367.png",
+          "crc32": 1308759894,
+          "bytes": 219871
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R3-6",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R3-6/3R3-6_rgb_350.png",
+          "crc32": 4133720729,
+          "bytes": 1777708
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R3-6/3R3-6_depth_350.png",
+          "crc32": 1123203090,
+          "bytes": 224258
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R3-8",
+      "split": "val",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R3-8/3R3-8_rgb_363.png",
+          "crc32": 2289778571,
+          "bytes": 1792321
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R3-8/3R3-8_depth_363.png",
+          "crc32": 2995415674,
+          "bytes": 233013
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R3-9",
+      "split": "train",
+      "suffix_px": 370,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R3-9/3R3-9_rgb_370.png",
+          "crc32": 2305482647,
+          "bytes": 1651163
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R3-9/3R3-9_depth_370.png",
+          "crc32": 3606241421,
+          "bytes": 219264
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R4-1",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R4-1/3R4-1_rgb_357.png",
+          "crc32": 2707285932,
+          "bytes": 1706085
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R4-1/3R4-1_depth_357.png",
+          "crc32": 3567216123,
+          "bytes": 218740
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R4-10",
+      "split": "val",
+      "suffix_px": 368,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R4-10/3R4-10_rgb_368.png",
+          "crc32": 2029131431,
+          "bytes": 1784368
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R4-10/3R4-10_depth_368.png",
+          "crc32": 2217061602,
+          "bytes": 230875
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R4-6",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R4-6/3R4-6_rgb_366.png",
+          "crc32": 571534221,
+          "bytes": 1762130
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R4-6/3R4-6_depth_366.png",
+          "crc32": 2076602932,
+          "bytes": 231233
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R4-7",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R4-7/3R4-7_rgb_364.png",
+          "crc32": 1161190611,
+          "bytes": 1729773
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R4-7/3R4-7_depth_364.png",
+          "crc32": 3632504791,
+          "bytes": 220988
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R4-8",
+      "split": "train",
+      "suffix_px": 370,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R4-8/3R4-8_rgb_370.png",
+          "crc32": 2828439450,
+          "bytes": 1733897
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R4-8/3R4-8_depth_370.png",
+          "crc32": 1940290373,
+          "bytes": 218305
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R5-3",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R5-3/3R5-3_rgb_352.png",
+          "crc32": 1005424895,
+          "bytes": 1736334
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R5-3/3R5-3_depth_352.png",
+          "crc32": 3833765129,
+          "bytes": 221063
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R5-4",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R5-4/3R5-4_rgb_363.png",
+          "crc32": 2797844901,
+          "bytes": 1794971
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R5-4/3R5-4_depth_363.png",
+          "crc32": 3984216168,
+          "bytes": 222988
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R5-7",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R5-7/3R5-7_rgb_367.png",
+          "crc32": 799240854,
+          "bytes": 1807577
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R5-7/3R5-7_depth_367.png",
+          "crc32": 1956156003,
+          "bytes": 222631
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R5-8",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R5-8/3R5-8_rgb_353.png",
+          "crc32": 1514299330,
+          "bytes": 1879398
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R5-8/3R5-8_depth_353.png",
+          "crc32": 149917558,
+          "bytes": 234185
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R5-9",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R5-9/3R5-9_rgb_367.png",
+          "crc32": 473954813,
+          "bytes": 1819783
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R5-9/3R5-9_depth_367.png",
+          "crc32": 1043598246,
+          "bytes": 228019
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R6-10",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R6-10/3R6-10_rgb_358.png",
+          "crc32": 266200291,
+          "bytes": 1900300
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R6-10/3R6-10_depth_358.png",
+          "crc32": 959383453,
+          "bytes": 230135
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R6-2",
+      "split": "val",
+      "suffix_px": 355,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R6-2/3R6-2_rgb_355.png",
+          "crc32": 901603783,
+          "bytes": 1895899
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R6-2/3R6-2_depth_355.png",
+          "crc32": 295125257,
+          "bytes": 236491
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R6-3",
+      "split": "val",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R6-3/3R6-3_rgb_352.png",
+          "crc32": 1423653471,
+          "bytes": 1889935
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R6-3/3R6-3_depth_352.png",
+          "crc32": 675536609,
+          "bytes": 232506
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R6-5",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R6-5/3R6-5_rgb_352.png",
+          "crc32": 3509106284,
+          "bytes": 1883005
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R6-5/3R6-5_depth_352.png",
+          "crc32": 484971980,
+          "bytes": 228638
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R6-9",
+      "split": "train",
+      "suffix_px": 359,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R6-9/3R6-9_rgb_359.png",
+          "crc32": 2348950578,
+          "bytes": 1905378
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R6-9/3R6-9_depth_359.png",
+          "crc32": 712461426,
+          "bytes": 231871
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R7-10",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R7-10/3R7-10_rgb_358.png",
+          "crc32": 1265390306,
+          "bytes": 1791770
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R7-10/3R7-10_depth_358.png",
+          "crc32": 4262065050,
+          "bytes": 224217
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R7-2",
+      "split": "train",
+      "suffix_px": 351,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R7-2/3R7-2_rgb_351.png",
+          "crc32": 1535873527,
+          "bytes": 1938078
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R7-2/3R7-2_depth_351.png",
+          "crc32": 2187141970,
+          "bytes": 235926
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R7-5",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R7-5/3R7-5_rgb_368.png",
+          "crc32": 1644652333,
+          "bytes": 1890559
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R7-5/3R7-5_depth_368.png",
+          "crc32": 2323600389,
+          "bytes": 230591
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R7-9",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R7-9/3R7-9_rgb_361.png",
+          "crc32": 3829846971,
+          "bytes": 1916580
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R7-9/3R7-9_depth_361.png",
+          "crc32": 483678451,
+          "bytes": 240060
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R1-1",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R1-1/4R1-1_rgb_360.png",
+          "crc32": 1050449234,
+          "bytes": 1716957
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R1-1/4R1-1_depth_360.png",
+          "crc32": 520416035,
+          "bytes": 215575
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R1-2",
+      "split": "val",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R1-2/4R1-2_rgb_353.png",
+          "crc32": 3993639243,
+          "bytes": 1791793
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R1-2/4R1-2_depth_353.png",
+          "crc32": 3662092378,
+          "bytes": 230847
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R1-3",
+      "split": "train",
+      "suffix_px": 362,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R1-3/4R1-3_rgb_362.png",
+          "crc32": 3952631432,
+          "bytes": 1837840
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R1-3/4R1-3_depth_362.png",
+          "crc32": 718138712,
+          "bytes": 232754
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R1-4",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R1-4/4R1-4_rgb_363.png",
+          "crc32": 2643956735,
+          "bytes": 1735871
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R1-4/4R1-4_depth_363.png",
+          "crc32": 1703575295,
+          "bytes": 218418
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R1-5",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R1-5/4R1-5_rgb_366.png",
+          "crc32": 1654385137,
+          "bytes": 1754266
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R1-5/4R1-5_depth_366.png",
+          "crc32": 3493492337,
+          "bytes": 216685
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R1-6",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R1-6/4R1-6_rgb_355.png",
+          "crc32": 1767631863,
+          "bytes": 1762993
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R1-6/4R1-6_depth_355.png",
+          "crc32": 3725791956,
+          "bytes": 222174
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R1-7",
+      "split": "train",
+      "suffix_px": 354,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R1-7/4R1-7_rgb_354.png",
+          "crc32": 2039089210,
+          "bytes": 1742253
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R1-7/4R1-7_depth_354.png",
+          "crc32": 1264111389,
+          "bytes": 221036
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R1-9",
+      "split": "train",
+      "suffix_px": 365,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R1-9/4R1-9_rgb_365.png",
+          "crc32": 3209984666,
+          "bytes": 1782119
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R1-9/4R1-9_depth_365.png",
+          "crc32": 3658582760,
+          "bytes": 222918
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R2-2",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R2-2/4R2-2_rgb_364.png",
+          "crc32": 3798111087,
+          "bytes": 1824927
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R2-2/4R2-2_depth_364.png",
+          "crc32": 259302586,
+          "bytes": 231654
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R2-3",
+      "split": "train",
+      "suffix_px": 365,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R2-3/4R2-3_rgb_365.png",
+          "crc32": 4269917162,
+          "bytes": 1850050
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R2-3/4R2-3_depth_365.png",
+          "crc32": 657229814,
+          "bytes": 227936
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R2-6",
+      "split": "train",
+      "suffix_px": 362,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R2-6/4R2-6_rgb_362.png",
+          "crc32": 515723357,
+          "bytes": 1802383
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R2-6/4R2-6_depth_362.png",
+          "crc32": 3100383765,
+          "bytes": 226098
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R2-7",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R2-7/4R2-7_rgb_360.png",
+          "crc32": 4054045732,
+          "bytes": 1825229
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R2-7/4R2-7_depth_360.png",
+          "crc32": 2480385099,
+          "bytes": 235386
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R2-9",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R2-9/4R2-9_rgb_353.png",
+          "crc32": 4219259594,
+          "bytes": 1782714
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R2-9/4R2-9_depth_353.png",
+          "crc32": 819021773,
+          "bytes": 220153
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R3-1",
+      "split": "val",
+      "suffix_px": 357,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R3-1/4R3-1_rgb_357.png",
+          "crc32": 789164884,
+          "bytes": 1831925
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R3-1/4R3-1_depth_357.png",
+          "crc32": 2053509552,
+          "bytes": 224109
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R3-2",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R3-2/4R3-2_rgb_350.png",
+          "crc32": 2310140141,
+          "bytes": 1731683
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R3-2/4R3-2_depth_350.png",
+          "crc32": 805286839,
+          "bytes": 215066
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R3-5",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R3-5/4R3-5_rgb_352.png",
+          "crc32": 1225515678,
+          "bytes": 1817105
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R3-5/4R3-5_depth_352.png",
+          "crc32": 2152661357,
+          "bytes": 215682
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R3-6",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R3-6/4R3-6_rgb_361.png",
+          "crc32": 2946521467,
+          "bytes": 1814838
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R3-6/4R3-6_depth_361.png",
+          "crc32": 2082891258,
+          "bytes": 228191
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R3-8",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R3-8/4R3-8_rgb_368.png",
+          "crc32": 3523102321,
+          "bytes": 1846074
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R3-8/4R3-8_depth_368.png",
+          "crc32": 17480710,
+          "bytes": 226639
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R4-1",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R4-1/4R4-1_rgb_364.png",
+          "crc32": 1794133320,
+          "bytes": 1929799
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R4-1/4R4-1_depth_364.png",
+          "crc32": 3669823262,
+          "bytes": 238074
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R4-10",
+      "split": "val",
+      "suffix_px": 355,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R4-10/4R4-10_rgb_355.png",
+          "crc32": 3976928279,
+          "bytes": 1912773
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R4-10/4R4-10_depth_355.png",
+          "crc32": 2403157451,
+          "bytes": 240220
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R4-2",
+      "split": "train",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R4-2/4R4-2_rgb_356.png",
+          "crc32": 649661932,
+          "bytes": 1890169
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R4-2/4R4-2_depth_356.png",
+          "crc32": 3511950850,
+          "bytes": 235661
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R4-4",
+      "split": "val",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R4-4/4R4-4_rgb_353.png",
+          "crc32": 1416254769,
+          "bytes": 1881214
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R4-4/4R4-4_depth_353.png",
+          "crc32": 1616003830,
+          "bytes": 233323
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R4-5",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R4-5/4R4-5_rgb_352.png",
+          "crc32": 924886181,
+          "bytes": 1891947
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R4-5/4R4-5_depth_352.png",
+          "crc32": 1364219921,
+          "bytes": 232482
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R4-7",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R4-7/4R4-7_rgb_366.png",
+          "crc32": 2658315405,
+          "bytes": 1856580
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R4-7/4R4-7_depth_366.png",
+          "crc32": 3747122788,
+          "bytes": 232833
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R4-8",
+      "split": "val",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R4-8/4R4-8_rgb_356.png",
+          "crc32": 2674513387,
+          "bytes": 1922631
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R4-8/4R4-8_depth_356.png",
+          "crc32": 176204392,
+          "bytes": 239082
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R4-9",
+      "split": "train",
+      "suffix_px": 369,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R4-9/4R4-9_rgb_369.png",
+          "crc32": 2915372057,
+          "bytes": 1917529
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R4-9/4R4-9_depth_369.png",
+          "crc32": 1879002776,
+          "bytes": 232719
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R5-4",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R5-4/4R5-4_rgb_352.png",
+          "crc32": 300485600,
+          "bytes": 1891076
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R5-4/4R5-4_depth_352.png",
+          "crc32": 2746291239,
+          "bytes": 233350
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R5-5",
+      "split": "train",
+      "suffix_px": 371,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R5-5/4R5-5_rgb_371.png",
+          "crc32": 3996038576,
+          "bytes": 1795190
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R5-5/4R5-5_depth_371.png",
+          "crc32": 2788051160,
+          "bytes": 226004
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R5-8",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R5-8/4R5-8_rgb_357.png",
+          "crc32": 1818245391,
+          "bytes": 1816333
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R5-8/4R5-8_depth_357.png",
+          "crc32": 525961280,
+          "bytes": 220509
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R5-9",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R5-9/4R5-9_rgb_363.png",
+          "crc32": 3214224889,
+          "bytes": 1864220
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R5-9/4R5-9_depth_363.png",
+          "crc32": 2680348211,
+          "bytes": 228937
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R6-1",
+      "split": "val",
+      "suffix_px": 349,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R6-1/4R6-1_rgb_349.png",
+          "crc32": 3260933074,
+          "bytes": 1808918
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R6-1/4R6-1_depth_349.png",
+          "crc32": 991372326,
+          "bytes": 228379
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R6-10",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R6-10/4R6-10_rgb_361.png",
+          "crc32": 849910559,
+          "bytes": 1835586
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R6-10/4R6-10_depth_361.png",
+          "crc32": 4184944888,
+          "bytes": 231804
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R6-2",
+      "split": "train",
+      "suffix_px": 370,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R6-2/4R6-2_rgb_370.png",
+          "crc32": 3420800058,
+          "bytes": 1819343
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R6-2/4R6-2_depth_370.png",
+          "crc32": 4023689174,
+          "bytes": 230197
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R6-4",
+      "split": "train",
+      "suffix_px": 362,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R6-4/4R6-4_rgb_362.png",
+          "crc32": 342986943,
+          "bytes": 1883044
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R6-4/4R6-4_depth_362.png",
+          "crc32": 2675536913,
+          "bytes": 233827
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R6-5",
+      "split": "train",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R6-5/4R6-5_rgb_356.png",
+          "crc32": 286745230,
+          "bytes": 1950488
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R6-5/4R6-5_depth_356.png",
+          "crc32": 4042844256,
+          "bytes": 238598
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R6-6",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R6-6/4R6-6_rgb_363.png",
+          "crc32": 828603914,
+          "bytes": 1856420
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R6-6/4R6-6_depth_363.png",
+          "crc32": 873977772,
+          "bytes": 231119
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R6-7",
+      "split": "val",
+      "suffix_px": 359,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R6-7/4R6-7_rgb_359.png",
+          "crc32": 1107700746,
+          "bytes": 1822348
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R6-7/4R6-7_depth_359.png",
+          "crc32": 2306405999,
+          "bytes": 228641
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R8-2",
+      "split": "val",
+      "suffix_px": 369,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R8-2/4R8-2_rgb_369.png",
+          "crc32": 4165032022,
+          "bytes": 1884265
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R8-2/4R8-2_depth_369.png",
+          "crc32": 3149209890,
+          "bytes": 231084
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R8-3",
+      "split": "val",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R8-3/4R8-3_rgb_356.png",
+          "crc32": 1508487533,
+          "bytes": 1821960
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R8-3/4R8-3_depth_356.png",
+          "crc32": 2329693132,
+          "bytes": 215985
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R8-5",
+      "split": "val",
+      "suffix_px": 370,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R8-5/4R8-5_rgb_370.png",
+          "crc32": 948050658,
+          "bytes": 1760489
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R8-5/4R8-5_depth_370.png",
+          "crc32": 4038009615,
+          "bytes": 219395
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R8-6",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R8-6/4R8-6_rgb_366.png",
+          "crc32": 1888935101,
+          "bytes": 1865131
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R8-6/4R8-6_depth_366.png",
+          "crc32": 2941040835,
+          "bytes": 232888
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R8-8",
+      "split": "val",
+      "suffix_px": 359,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R8-8/4R8-8_rgb_359.png",
+          "crc32": 388091278,
+          "bytes": 1851819
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R8-8/4R8-8_depth_359.png",
+          "crc32": 179287463,
+          "bytes": 230079
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "4R8-9",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "4R.zip",
+          "member": "4R8-9/4R8-9_rgb_358.png",
+          "crc32": 2254702707,
+          "bytes": 1879763
+        },
+        "depth": {
+          "archive": "4R.zip",
+          "member": "4R8-9/4R8-9_depth_358.png",
+          "crc32": 446120468,
+          "bytes": 232297
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R1-1",
+      "split": "val",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R1-1/R1-1_rgb_355.png",
+          "crc32": 2575284969,
+          "bytes": 1640483
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R1-1/R1-1_depth_355.png",
+          "crc32": 2633703400,
+          "bytes": 207197
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R1-2",
+      "split": "val",
+      "suffix_px": 370,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R1-2/R1-2_rgb_370.png",
+          "crc32": 310706404,
+          "bytes": 1696548
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R1-2/R1-2_depth_370.png",
+          "crc32": 972788624,
+          "bytes": 221542
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R1-3",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R1-3/R1-3_rgb_358.png",
+          "crc32": 891645354,
+          "bytes": 1704247
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R1-3/R1-3_depth_358.png",
+          "crc32": 477831086,
+          "bytes": 218732
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R1-8",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R1-8/R1-8_rgb_364.png",
+          "crc32": 2441102946,
+          "bytes": 1802794
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R1-8/R1-8_depth_364.png",
+          "crc32": 1089871753,
+          "bytes": 223604
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R1-9",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R1-9/R1-9_rgb_350.png",
+          "crc32": 1969427932,
+          "bytes": 1789841
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R1-9/R1-9_depth_350.png",
+          "crc32": 3151992008,
+          "bytes": 224609
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R10-10",
+      "split": "val",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R10-10/R10-10_rgb_360.png",
+          "crc32": 1163893574,
+          "bytes": 1798372
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R10-10/R10-10_depth_360.png",
+          "crc32": 232765878,
+          "bytes": 221362
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R10-4",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R10-4/R10-4_rgb_355.png",
+          "crc32": 130628526,
+          "bytes": 1726086
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R10-4/R10-4_depth_355.png",
+          "crc32": 3640185767,
+          "bytes": 218876
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R10-6",
+      "split": "train",
+      "suffix_px": 351,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R10-6/R10-6_rgb_351.png",
+          "crc32": 2156490932,
+          "bytes": 1736004
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R10-6/R10-6_depth_351.png",
+          "crc32": 703687405,
+          "bytes": 220688
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R10-7",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R10-7/R10-7_rgb_367.png",
+          "crc32": 3730404061,
+          "bytes": 1691975
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R10-7/R10-7_depth_367.png",
+          "crc32": 98519935,
+          "bytes": 212076
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R10-8",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R10-8/R10-8_rgb_353.png",
+          "crc32": 2197100852,
+          "bytes": 1795869
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R10-8/R10-8_depth_353.png",
+          "crc32": 1684602834,
+          "bytes": 229306
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R10-9",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R10-9/R10-9_rgb_367.png",
+          "crc32": 1585261454,
+          "bytes": 1865596
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R10-9/R10-9_depth_367.png",
+          "crc32": 819427194,
+          "bytes": 232761
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R11-1",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R11-1/R11-1_rgb_352.png",
+          "crc32": 1652365360,
+          "bytes": 1853755
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R11-1/R11-1_depth_352.png",
+          "crc32": 2995950167,
+          "bytes": 239070
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R11-2",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R11-2/R11-2_rgb_357.png",
+          "crc32": 2330046225,
+          "bytes": 1822076
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R11-2/R11-2_depth_357.png",
+          "crc32": 3708275828,
+          "bytes": 217741
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R11-5",
+      "split": "val",
+      "suffix_px": 354,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R11-5/R11-5_rgb_354.png",
+          "crc32": 564040777,
+          "bytes": 1783146
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R11-5/R11-5_depth_354.png",
+          "crc32": 1791954528,
+          "bytes": 230180
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R11-6",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R11-6/R11-6_rgb_355.png",
+          "crc32": 2159306669,
+          "bytes": 1838252
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R11-6/R11-6_depth_355.png",
+          "crc32": 2625567166,
+          "bytes": 225261
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R11-7",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R11-7/R11-7_rgb_360.png",
+          "crc32": 1070590455,
+          "bytes": 1828943
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R11-7/R11-7_depth_360.png",
+          "crc32": 4007419620,
+          "bytes": 224759
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R11-9",
+      "split": "train",
+      "suffix_px": 351,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R11-9/R11-9_rgb_351.png",
+          "crc32": 4263582179,
+          "bytes": 1851580
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R11-9/R11-9_depth_351.png",
+          "crc32": 4050777107,
+          "bytes": 231172
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R13-2",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_05",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R13-2/R13-2_rgb_355.png",
+          "crc32": 3105770870,
+          "bytes": 1751419
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R13-2/R13-2_depth_355.png",
+          "crc32": 3592896634,
+          "bytes": 216854
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R13-4",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_05",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R13-4/R13-4_rgb_366.png",
+          "crc32": 4151172314,
+          "bytes": 1749528
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R13-4/R13-4_depth_366.png",
+          "crc32": 862875532,
+          "bytes": 215073
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R2-10",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R2-10/R2-10_rgb_363.png",
+          "crc32": 2816056245,
+          "bytes": 1781077
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R2-10/R2-10_depth_363.png",
+          "crc32": 3701227692,
+          "bytes": 224643
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R2-2",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R2-2/R2-2_rgb_360.png",
+          "crc32": 2416369819,
+          "bytes": 1869397
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R2-2/R2-2_depth_360.png",
+          "crc32": 4059574499,
+          "bytes": 234240
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R2-4",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R2-4/R2-4_rgb_364.png",
+          "crc32": 1707158694,
+          "bytes": 1859875
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R2-4/R2-4_depth_364.png",
+          "crc32": 297055327,
+          "bytes": 232107
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R2-7",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R2-7/R2-7_rgb_358.png",
+          "crc32": 2734444022,
+          "bytes": 1834078
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R2-7/R2-7_depth_358.png",
+          "crc32": 1455342865,
+          "bytes": 227155
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R3-1",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R3-1/R3-1_rgb_368.png",
+          "crc32": 3636542754,
+          "bytes": 1803421
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R3-1/R3-1_depth_368.png",
+          "crc32": 1845132130,
+          "bytes": 232610
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R3-2",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R3-2/R3-2_rgb_358.png",
+          "crc32": 2173424531,
+          "bytes": 1837895
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R3-2/R3-2_depth_358.png",
+          "crc32": 2625824595,
+          "bytes": 231022
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R3-3",
+      "split": "train",
+      "suffix_px": 365,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R3-3/R3-3_rgb_365.png",
+          "crc32": 4092789743,
+          "bytes": 1854620
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R3-3/R3-3_depth_365.png",
+          "crc32": 2226870116,
+          "bytes": 231708
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R3-8",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R3-8/R3-8_rgb_368.png",
+          "crc32": 1059291993,
+          "bytes": 1757078
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R3-8/R3-8_depth_368.png",
+          "crc32": 726832817,
+          "bytes": 221007
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R4-2",
+      "split": "val",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R4-2/R4-2_rgb_352.png",
+          "crc32": 51150507,
+          "bytes": 1688516
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R4-2/R4-2_depth_352.png",
+          "crc32": 734126424,
+          "bytes": 221006
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R4-3",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R4-3/R4-3_rgb_360.png",
+          "crc32": 1665990728,
+          "bytes": 1729663
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R4-3/R4-3_depth_360.png",
+          "crc32": 2518149765,
+          "bytes": 223220
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R4-4",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R4-4/R4-4_rgb_358.png",
+          "crc32": 2882465192,
+          "bytes": 1736609
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R4-4/R4-4_depth_358.png",
+          "crc32": 1245461862,
+          "bytes": 225552
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R4-5",
+      "split": "train",
+      "suffix_px": 359,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R4-5/R4-5_rgb_359.png",
+          "crc32": 1877306061,
+          "bytes": 1693952
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R4-5/R4-5_depth_359.png",
+          "crc32": 3325873716,
+          "bytes": 215431
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R4-6",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R4-6/R4-6_rgb_352.png",
+          "crc32": 1609548107,
+          "bytes": 1699670
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R4-6/R4-6_depth_352.png",
+          "crc32": 356079733,
+          "bytes": 221389
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R4-7",
+      "split": "val",
+      "suffix_px": 363,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R4-7/R4-7_rgb_363.png",
+          "crc32": 807184288,
+          "bytes": 1688988
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R4-7/R4-7_depth_363.png",
+          "crc32": 2874944362,
+          "bytes": 217676
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R4-9",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R4-9/R4-9_rgb_357.png",
+          "crc32": 3480275850,
+          "bytes": 1689414
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R4-9/R4-9_depth_357.png",
+          "crc32": 274074793,
+          "bytes": 217322
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R5-1",
+      "split": "val",
+      "suffix_px": 356,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R5-1/R5-1_rgb_356.png",
+          "crc32": 114485313,
+          "bytes": 1677163
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R5-1/R5-1_depth_356.png",
+          "crc32": 1764238455,
+          "bytes": 219413
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R5-10",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R5-10/R5-10_rgb_357.png",
+          "crc32": 130536923,
+          "bytes": 1708479
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R5-10/R5-10_depth_357.png",
+          "crc32": 188461168,
+          "bytes": 219798
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R5-3",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R5-3/R5-3_rgb_364.png",
+          "crc32": 1390957623,
+          "bytes": 1602844
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R5-3/R5-3_depth_364.png",
+          "crc32": 2681070187,
+          "bytes": 212975
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R5-4",
+      "split": "train",
+      "suffix_px": 356,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R5-4/R5-4_rgb_356.png",
+          "crc32": 4228511895,
+          "bytes": 1702837
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R5-4/R5-4_depth_356.png",
+          "crc32": 3648303961,
+          "bytes": 219402
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R5-7",
+      "split": "val",
+      "suffix_px": 362,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R5-7/R5-7_rgb_362.png",
+          "crc32": 2972821589,
+          "bytes": 1721907
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R5-7/R5-7_depth_362.png",
+          "crc32": 2757041164,
+          "bytes": 216594
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R5-8",
+      "split": "val",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R5-8/R5-8_rgb_352.png",
+          "crc32": 3095888796,
+          "bytes": 1640423
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R5-8/R5-8_depth_352.png",
+          "crc32": 2579440439,
+          "bytes": 208443
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R5-9",
+      "split": "val",
+      "suffix_px": 349,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R5-9/R5-9_rgb_349.png",
+          "crc32": 1601645814,
+          "bytes": 1620445
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R5-9/R5-9_depth_349.png",
+          "crc32": 76808244,
+          "bytes": 216757
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R6-1",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R6-1/R6-1_rgb_363.png",
+          "crc32": 1119359071,
+          "bytes": 1683201
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R6-1/R6-1_depth_363.png",
+          "crc32": 1436855028,
+          "bytes": 219906
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R6-2",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R6-2/R6-2_rgb_352.png",
+          "crc32": 695126155,
+          "bytes": 1710356
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R6-2/R6-2_depth_352.png",
+          "crc32": 2246851288,
+          "bytes": 226453
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R6-3",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R6-3/R6-3_rgb_367.png",
+          "crc32": 2141856968,
+          "bytes": 1750014
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R6-3/R6-3_depth_367.png",
+          "crc32": 4031847292,
+          "bytes": 218104
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R6-5",
+      "split": "val",
+      "suffix_px": 353,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R6-5/R6-5_rgb_353.png",
+          "crc32": 3758745063,
+          "bytes": 1760001
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R6-5/R6-5_depth_353.png",
+          "crc32": 2965778777,
+          "bytes": 222997
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R6-7",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R6-7/R6-7_rgb_360.png",
+          "crc32": 2850623784,
+          "bytes": 1826405
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R6-7/R6-7_depth_360.png",
+          "crc32": 852185809,
+          "bytes": 228005
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R6-8",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R6-8/R6-8_rgb_364.png",
+          "crc32": 2595714194,
+          "bytes": 1716460
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R6-8/R6-8_depth_364.png",
+          "crc32": 3950761273,
+          "bytes": 220397
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R6-9",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R6-9/R6-9_rgb_364.png",
+          "crc32": 2088579848,
+          "bytes": 1817136
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R6-9/R6-9_depth_364.png",
+          "crc32": 449710653,
+          "bytes": 230120
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R7-10",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R7-10/R7-10_rgb_352.png",
+          "crc32": 1033203668,
+          "bytes": 1797780
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R7-10/R7-10_depth_352.png",
+          "crc32": 461842188,
+          "bytes": 223665
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R7-2",
+      "split": "train",
+      "suffix_px": 359,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R7-2/R7-2_rgb_359.png",
+          "crc32": 2965923839,
+          "bytes": 1741475
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R7-2/R7-2_depth_359.png",
+          "crc32": 3334129044,
+          "bytes": 225745
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R7-3",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R7-3/R7-3_rgb_353.png",
+          "crc32": 471935451,
+          "bytes": 1846629
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R7-3/R7-3_depth_353.png",
+          "crc32": 3288334664,
+          "bytes": 234695
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R7-5",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R7-5/R7-5_rgb_357.png",
+          "crc32": 3022150579,
+          "bytes": 1796110
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R7-5/R7-5_depth_357.png",
+          "crc32": 1107158620,
+          "bytes": 228744
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R7-9",
+      "split": "train",
+      "suffix_px": 362,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R7-9/R7-9_rgb_362.png",
+          "crc32": 134152599,
+          "bytes": 1716384
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R7-9/R7-9_depth_362.png",
+          "crc32": 204329904,
+          "bytes": 219784
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R8-1",
+      "split": "val",
+      "suffix_px": 371,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R8-1/R8-1_rgb_371.png",
+          "crc32": 3230210697,
+          "bytes": 1743730
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R8-1/R8-1_depth_371.png",
+          "crc32": 121188138,
+          "bytes": 224727
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R8-10",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R8-10/R8-10_rgb_357.png",
+          "crc32": 2176297405,
+          "bytes": 1763414
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R8-10/R8-10_depth_357.png",
+          "crc32": 2766075180,
+          "bytes": 222854
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R8-3",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R8-3/R8-3_rgb_352.png",
+          "crc32": 1542067837,
+          "bytes": 1761334
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R8-3/R8-3_depth_352.png",
+          "crc32": 2714517625,
+          "bytes": 227121
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R8-4",
+      "split": "train",
+      "suffix_px": 369,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R8-4/R8-4_rgb_369.png",
+          "crc32": 3464996730,
+          "bytes": 1794105
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R8-4/R8-4_depth_369.png",
+          "crc32": 1665879084,
+          "bytes": 226262
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R8-6",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R8-6/R8-6_rgb_353.png",
+          "crc32": 3159692549,
+          "bytes": 1764428
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R8-6/R8-6_depth_353.png",
+          "crc32": 2669004356,
+          "bytes": 223749
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R8-7",
+      "split": "train",
+      "suffix_px": 369,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R8-7/R8-7_rgb_369.png",
+          "crc32": 63962891,
+          "bytes": 1703510
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R8-7/R8-7_depth_369.png",
+          "crc32": 2230820642,
+          "bytes": 223251
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R8-9",
+      "split": "train",
+      "suffix_px": 354,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R8-9/R8-9_rgb_354.png",
+          "crc32": 3574332171,
+          "bytes": 1777436
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R8-9/R8-9_depth_354.png",
+          "crc32": 752059956,
+          "bytes": 223532
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R9-2",
+      "split": "val",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R9-2/R9-2_rgb_360.png",
+          "crc32": 3570949224,
+          "bytes": 1776020
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R9-2/R9-2_depth_360.png",
+          "crc32": 2262125339,
+          "bytes": 227333
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R9-3",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R9-3/R9-3_rgb_367.png",
+          "crc32": 325647557,
+          "bytes": 1714518
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R9-3/R9-3_depth_367.png",
+          "crc32": 3176093279,
+          "bytes": 220632
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R9-4",
+      "split": "val",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R9-4/R9-4_rgb_355.png",
+          "crc32": 3774433112,
+          "bytes": 1741796
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R9-4/R9-4_depth_355.png",
+          "crc32": 1300048664,
+          "bytes": 220042
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R9-5",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R9-5/R9-5_rgb_361.png",
+          "crc32": 2948019869,
+          "bytes": 1714542
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R9-5/R9-5_depth_361.png",
+          "crc32": 2240972939,
+          "bytes": 217774
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R9-6",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R9-6/R9-6_rgb_357.png",
+          "crc32": 1048356367,
+          "bytes": 1768823
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R9-6/R9-6_depth_357.png",
+          "crc32": 786785255,
+          "bytes": 219017
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R9-7",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R9-7/R9-7_rgb_350.png",
+          "crc32": 4084935565,
+          "bytes": 1759344
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R9-7/R9-7_depth_350.png",
+          "crc32": 2641598767,
+          "bytes": 229743
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "R9-9",
+      "split": "train",
+      "suffix_px": 365,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-B.zip",
+          "member": "R9-9/R9-9_rgb_365.png",
+          "crc32": 2761418382,
+          "bytes": 1703831
+        },
+        "depth": {
+          "archive": "1R-B.zip",
+          "member": "R9-9/R9-9_depth_365.png",
+          "crc32": 2438868627,
+          "bytes": 215268
+        }
+      },
+      "metadata_failures": {}
+    }
+  ],
+  "camera_matrix_px": [
+    [
+      653.7627563476562,
+      0.0,
+      643.483642578125
+    ],
+    [
+      0.0,
+      652.1158447265625,
+      366.064697265625
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "depth_rule": {
+    "min_z_inclusive_mm": 150.0,
+    "max_z_exclusive_mm": 400.0,
+    "quantile": 0.05,
+    "min_count": 100,
+    "min_fraction": 0.5
+  },
+  "height_reference_mm": 350.0,
+  "inner_validation_ids": [
+    "4R4-2",
+    "3R5-7",
+    "4R6-5",
+    "R7-2",
+    "3R6-9",
+    "R8-3",
+    "4R6-2",
+    "3R4-6",
+    "3R4-8",
+    "4R5-4",
+    "R7-3",
+    "R10-8",
+    "R6-2",
+    "R6-8",
+    "R9-5",
+    "R1-9",
+    "R6-1",
+    "4R2-3",
+    "R2-2",
+    "3R1-4",
+    "R10-9",
+    "2R1-2",
+    "2R1-8",
+    "2R2-2"
+  ],
+  "inner_fit_ids": [
+    "4R5-9",
+    "R9-7",
+    "R9-3",
+    "R2-10",
+    "2R2-3",
+    "3R7-9",
+    "4R6-4",
+    "4R4-7",
+    "R8-10",
+    "2R2-7",
+    "2R2-9",
+    "R6-7",
+    "R11-6",
+    "R4-6",
+    "4R6-10",
+    "R2-7",
+    "3R4-1",
+    "4R1-3",
+    "3R5-8",
+    "4R3-6",
+    "4R1-1",
+    "3R7-2",
+    "4R8-9",
+    "3R4-7",
+    "R7-9",
+    "3R3-6",
+    "4R4-9",
+    "4R5-8",
+    "3R3-5",
+    "4R8-6",
+    "R5-3",
+    "3R1-5",
+    "4R3-8",
+    "R7-5",
+    "R10-6",
+    "4R1-4",
+    "4R1-7",
+    "R10-4",
+    "R11-7",
+    "3R1-3",
+    "R3-1",
+    "3R5-9",
+    "R1-8",
+    "R9-6",
+    "2R2-5",
+    "R13-4",
+    "3R3-10",
+    "R8-4",
+    "4R4-5",
+    "R2-4",
+    "R7-10",
+    "R5-4",
+    "R4-9",
+    "4R2-9",
+    "4R1-5",
+    "R9-9",
+    "4R3-5",
+    "3R1-2",
+    "R4-3",
+    "4R2-7",
+    "4R4-1",
+    "R3-3",
+    "2R1-5",
+    "2R1-6",
+    "3R3-9",
+    "R8-9",
+    "4R3-2",
+    "4R6-6",
+    "3R5-3",
+    "3R6-10",
+    "4R2-6",
+    "R3-8",
+    "R13-2",
+    "R11-1",
+    "4R1-9",
+    "R5-10",
+    "R8-6",
+    "R8-7",
+    "R4-5",
+    "2R1-4",
+    "4R5-5",
+    "3R1-10",
+    "4R1-6",
+    "3R7-5",
+    "4R2-2",
+    "3R5-4",
+    "R6-3",
+    "2R1-11",
+    "R10-7",
+    "3R6-5",
+    "R6-9",
+    "R11-9",
+    "R11-2",
+    "3R3-1"
+  ],
+  "seeds": [
+    133,
+    527,
+    2401
+  ],
+  "epochs": 100,
+  "batch_size": 16,
+  "points": 1024,
+  "architecture": "RGBPointRAFT",
+  "parameters": 52505,
+  "prediction": "mean over three independently fitted seed predictions",
+  "device": "CPU",
+  "torch": "2.7.1"
+}

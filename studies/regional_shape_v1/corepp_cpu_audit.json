@@ -1,0 +1,161 @@
+{
+  "stage": "released_corepp_unchanged_frame_cpu_audit",
+  "upstream_commit": "0d6bae40b9215332efd566e6bca83bea171b99e9",
+  "object_id": "2R1-10",
+  "frame_id": "364",
+  "upstream_file_sha256": {
+    "test.py": "1e0d6a1715063537da3701e59e0b2c0c6a659acf26265c9c43499000baa60ad4",
+    "data_preparation/organize_data.py": "497a382bbc30e984f2289d4eaebcedcdd87729ce7ffd6c37d40fe05f4ba27215",
+    "data_preparation/pcd_from_sfm.py": "594ee568cad66f56833b64f9f74de7ecb534f7fbfae37880f1d704fba00754da",
+    "data/potato_example/realsense/intrinsic.json": "07e6324461f2fd72c98e6bc2863f347323a3c0a8f726a0ef0559a67007796a9e",
+    "dataloaders/cameralaser_w_masks.py": "57705741cb5ae8cfef9851d0864b39516074723741ee05bc954d3d638cdae297",
+    "dataloaders/transforms.py": "9403ecc3d7b803882cb4803099bb72a412b12e3dcb52336b550e9ad9992dc0ec",
+    "networks/models.py": "1bd485c3bece904070dd5ae998eea201c5e17d62cf6219960e1e22a6630b246a",
+    "networks/utils.py": "552f7f68e9d3115f8789866aa8646930d2b84e5d578b6b3ce159c64f4f1e0d50",
+    "networks/blocks.py": "a6d4ae9649e4686310bd000b25fd640b11c7adfaf376dfba9b3077f74958b8d0",
+    "networks/resnet.py": "0d0896b928cd2f235b88600d70a863509f261dfcf308ce90da307d14a1cb4a63",
+    "networks/rgb_depth_fusion.py": "1a4794837bab2b8e10b6152965d07a021599451a5ed07d74392edd8f8dcf6a2b",
+    "deepsdf/networks/deep_sdf_decoder.py": "04f3a5e0171094e78fff230a6faa0b92000468fc115f3e3a30bb34e7cbfe6b3e",
+    "sdfrenderer/grid.py": "614b3a789723aa237007d6d558eaa6d72cd4659bf39aa5d1d2611d56dff3dc44",
+    "utils.py": "edd35779e39ec3f7c1a4b2c485c3982a4c07e56ec97840ec93667cbfa29d3449"
+  },
+  "checkpoint_sha256": {
+    "_super3d_32_best_model.pt": "6d5555fad2fe2f5fc2ecbbdd0f2b2b0a9f42e09aa91460c88538970bc345cf9f",
+    "500.pth": "72bdb43a710a4ea28b7332b816474147f2b824679d0241eccdcac6e2d0106132"
+  },
+  "checkpoint_epoch_fields": {
+    "joint": 39,
+    "pretrain": 500
+  },
+  "released_config_sha256": {
+    "super3d_32.json": "c1eb762ad10bd2d0a247941393e1464af1caabbea277955068f1e4f7e4cc9552",
+    "specs.json": "0d81e2a07c316059cc593210dc541849cfaae5455ed2d509c67754232d3afa3c"
+  },
+  "input_sha256": {
+    "development_selection": "8064270270a2d1c776abec7d9b56d0495b2201763994d5693035d7783df32016",
+    "archived_development_results": "ac13f7cc22ec49dd8bef9d243348bf9ec6e61f3c63ec19be9478fd6c1869e3c9",
+    "rgb": "2a89b0ba27607b911e9942d5b45aee3cba62b5324e73b5ba3e8f78b5764866a2",
+    "depth": "bf51e088a1b2eb75e8dd76f0e13965c1e4dcd76541e967bdf8104887f331644e",
+    "reference": "ac2a514a705871525fc77a7d2e1b6a3e32cd1ea242b6c18111ab21f7806aaa92",
+    "registered_pair_json": "2783bbeabdcd698772d1fedf1fa086627be6d1836cae25be2eadbeee7f161b8f",
+    "pin_annotation": "4ef3b328155fe671f2015b6f6fecbed7ed5dd58edc35b890282e539bbe12fd9f",
+    "release_intrinsics": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf",
+    "prepared_sfm_point_cloud_for_grid": "922361c07375be5dce96297ffe02e7a5288b3c1ff98a1425f388dbe9f324ee4b",
+    "upstream_intrinsics_with_depth_scale": "07e6324461f2fd72c98e6bc2863f347323a3c0a8f726a0ef0559a67007796a9e"
+  },
+  "pin_trace": {
+    "coco_annotation_id": 39,
+    "bbox_xywh_px": [
+      1041,
+      325,
+      26,
+      24
+    ],
+    "bbox_area_px": 624,
+    "box_pixels_with_target_alpha": 624,
+    "box_pixels_passing_alpha_and_depth": 624,
+    "box_pixels_retained_after_crop_and_pad": 624,
+    "retained_rgb_pixels_equal_to_source": true,
+    "histogram_depth_range_mm": [
+      290.0,
+      320.1000061035156
+    ],
+    "crop_origin_yx_px": [
+      261,
+      886
+    ],
+    "crop_height_width_px": [
+      189,
+      250
+    ],
+    "pad_ltrb_px": [
+      27,
+      58,
+      27,
+      57
+    ],
+    "bbox_in_model_xywh_px": [
+      182,
+      122,
+      26,
+      24
+    ],
+    "input_shape_nchw": [
+      1,
+      4,
+      304,
+      304
+    ]
+  },
+  "environment": {
+    "machine": "arm64",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.1 (v3.13.1:06714517797, Dec  3 2024, 14:00:22) [Clang 15.0.0 (clang-1500.3.9.4)]",
+    "dependencies": {
+      "torch": "2.7.1",
+      "torchvision": "0.22.1",
+      "numpy": "2.2.6",
+      "open3d": "0.20.0",
+      "opencv-python": "4.10.0.84",
+      "Pillow": "12.2.0"
+    }
+  },
+  "cpu_threads": 1,
+  "seed_once_per_process": 133,
+  "encoder_training_mode": true,
+  "decoder_training_mode": true,
+  "decoder_dropout_prob": 0.2,
+  "grid_bbox_m_single_tuber_split": {
+    "xmin": -0.04741944384351334,
+    "xmax": 0.04741944384351334,
+    "ymin": -0.04741944384351334,
+    "ymax": 0.04741944384351334,
+    "zmin": -0.04741944384351334,
+    "zmax": 0.04741944384351334
+  },
+  "runs": [
+    {
+      "run_number": 1,
+      "preprocessing_seconds": 0.0710205000359565,
+      "forward_and_mesh_seconds": 0.22149958391673863,
+      "volume_ml": 258.27339012291935,
+      "watertight": true,
+      "vertices": 322,
+      "faces": 640,
+      "grid_points": 8000,
+      "negative_sdf_grid_points": 1933,
+      "input_tensor_sha256": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+      "latent_sha256": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+      "sdf_sha256": "9daaf135efe04acf1721362234482a8155a060ee9dacf06a06631cfa9bd0d700",
+      "mesh_file_sha256": "ab2b3403ad1af3f72df416fccc1e8273c74bb529c8ba886ff4a62d89fb797761",
+      "mesh_file": "run_1_mesh.ply"
+    },
+    {
+      "run_number": 2,
+      "preprocessing_seconds": 0.06187620805576444,
+      "forward_and_mesh_seconds": 0.20801562489941716,
+      "volume_ml": 260.84051252132923,
+      "watertight": true,
+      "vertices": 330,
+      "faces": 656,
+      "grid_points": 8000,
+      "negative_sdf_grid_points": 1931,
+      "input_tensor_sha256": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+      "latent_sha256": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+      "sdf_sha256": "2c92e5d255d6ab135130e9e79720749d0f02c51af40c52f411f583d62cba3bac",
+      "mesh_file_sha256": "912d95f9b2387e01606555741c84a4e8db9a86a50bb97d90c7fd0d751d97d28a",
+      "mesh_file": "run_2_mesh.ply"
+    }
+  ],
+  "differences": {
+    "input_tensor_bitwise_equal": true,
+    "latent_max_abs_difference": 0.0,
+    "sdf_max_abs_difference": 0.01981249265372753,
+    "sdf_inside_label_changes": 496,
+    "symmetric_surface_distance_sample_count": 40000,
+    "symmetric_surface_distance_mean_mm": 1.2310045957565308,
+    "symmetric_surface_distance_p95_mm": 3.3287341594696045,
+    "symmetric_surface_distance_max_mm": 4.7963786125183105,
+    "absolute_volume_difference_ml": 2.5671223984098788
+  }
+}

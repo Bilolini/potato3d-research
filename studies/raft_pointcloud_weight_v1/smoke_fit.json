@@ -1,0 +1,33 @@
+{
+  "ids": [
+    "R9-7",
+    "R9-3",
+    "R2-10",
+    "2R2-3",
+    "3R7-9",
+    "4R6-4",
+    "4R4-7",
+    "R8-10"
+  ],
+  "arms": {
+    "center": {
+      "mean_g": 124.0,
+      "sd_g": 58.52349853515625,
+      "inner_mae_g": [],
+      "wall_s": 1.9784184580021247,
+      "smoke_mae_initial_g": 52.284217834472656,
+      "smoke_mae_final_g": 23.468278884887695
+    },
+    "fused": {
+      "mean_g": 124.0,
+      "sd_g": 58.52349853515625,
+      "inner_mae_g": [],
+      "wall_s": 1.9131150419998448,
+      "smoke_mae_initial_g": 52.402320861816406,
+      "smoke_mae_final_g": 12.127863883972168
+    }
+  },
+  "passed": true,
+  "seed": 133,
+  "analysis_sha256": "13e0d467ba0de8fd198c238a921ce09b2aa2b141f9bda44bc068b359197bd408"
+}

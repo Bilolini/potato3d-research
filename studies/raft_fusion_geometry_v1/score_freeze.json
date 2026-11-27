@@ -1,0 +1,25 @@
+{
+  "protocol_sha256": "0afadedf84168f58223b34580e5f430086709acd4a9b57b29e9da7ceaf759881",
+  "registration_sha256": "3dcdbece1b92f4892e001693c51d8e81e56740431c341847c8009a952971b353",
+  "score_code_sha256": "192a4940c5da93531c01f2d002785ef95ee7db29d901221f690742391ea4fb1e",
+  "open3d": "0.20.0",
+  "trimesh": "4.12.2",
+  "known_geometry": {
+    "chain_round_trip_mm": 1.5888218580782548e-14,
+    "pinhole_lift_error_mm": 8.8336923618871e-14,
+    "rigid_ransac_with_outliers_mm": 4.322062729257126e-14,
+    "m_to_mm_anchor_error_mm": 1.1723955140041653e-13,
+    "icp_translation_error_mm": 1.7346558842822478e-13
+  },
+  "known_distances": {
+    "known_triangle_distances_mm": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "known_coverage_at_2_3_mm": [
+      true,
+      false
+    ]
+  }
+}

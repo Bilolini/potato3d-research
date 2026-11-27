@@ -1,0 +1,178 @@
+{
+  "status": "frozen_before_scoring",
+  "protocol_sha256": "715ed03acfa34af07b9d27d29085922c11182c521a987b0ef4e2529062234ddd",
+  "cpu_audit_sha256": "46555e49a2031a8299a22d894b52386e8dbc1930bf510e32d3002b9a00bd5592",
+  "source_hashes": {
+    "development_selection": "8064270270a2d1c776abec7d9b56d0495b2201763994d5693035d7783df32016",
+    "archived_development_results": "ac13f7cc22ec49dd8bef9d243348bf9ec6e61f3c63ec19be9478fd6c1869e3c9",
+    "rgb": "2a89b0ba27607b911e9942d5b45aee3cba62b5324e73b5ba3e8f78b5764866a2",
+    "depth": "bf51e088a1b2eb75e8dd76f0e13965c1e4dcd76541e967bdf8104887f331644e",
+    "reference": "ac2a514a705871525fc77a7d2e1b6a3e32cd1ea242b6c18111ab21f7806aaa92",
+    "registered_pair_json": "2783bbeabdcd698772d1fedf1fa086627be6d1836cae25be2eadbeee7f161b8f",
+    "pin_annotation": "4ef3b328155fe671f2015b6f6fecbed7ed5dd58edc35b890282e539bbe12fd9f",
+    "release_intrinsics": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf"
+  },
+  "model_training_modes": {
+    "encoder": true,
+    "decoder": true
+  },
+  "rng_reset_before": [
+    "preprocessing",
+    "encoder",
+    "decoder",
+    "mesh"
+  ],
+  "cpu_threads": 1,
+  "grid_sha256": "14920c479ff71aeb7c88715bcfeee9b4896f66a5475bc1e389bb1625b9b943f0",
+  "grid_size": 8000,
+  "grid_bbox_m": {
+    "xmin": -0.04741944384351334,
+    "xmax": 0.04741944384351334,
+    "ymin": -0.04741944384351334,
+    "ymax": 0.04741944384351334,
+    "zmin": -0.04741944384351334,
+    "zmax": 0.04741944384351334
+  },
+  "no_op_sha256": "9b04eb2e0c1c47fa25f37fd5a8a62b273bc22ee5237256904c5d58498b41df2d",
+  "source_conditions": {
+    "depth.png": "bf51e088a1b2eb75e8dd76f0e13965c1e4dcd76541e967bdf8104887f331644e",
+    "intrinsic.json": "07e6324461f2fd72c98e6bc2863f347323a3c0a8f726a0ef0559a67007796a9e",
+    "original_rgba.png": "2a89b0ba27607b911e9942d5b45aee3cba62b5324e73b5ba3e8f78b5764866a2",
+    "peel_rgba.png": "a07c6583f3a07c8988d7e9102fcf0d8d1fc66d7b10d18cae446673b3ce4b8867",
+    "pin_rgba.png": "d6370e6a19b6db4361ad110fd7f6f7e5ff7a1e18c520003028b2c19d24eed718"
+  },
+  "evidence_sha256": {
+    "pin_mask.png": "279eb780e7484e7446367eefe69eee6fe270ba68908a8ca0670bdbfb8fdb2dcd",
+    "peel_mask.png": "d47c26f630d9c4df1654d77c973f195eeb9ca93e17d765964754860bb987c656",
+    "masks_and_edits.png": "fd6d006e64b0a4231fa643e0fda82dc991223eb57e579d9d79888ee614054b98",
+    "donor_red_pin.png": "324f114c50356850dd70ba820cd092c4b79721de9d46a9d024c8af0b46db9561",
+    "original_input_rgb.png": "171e4771622801b598c786bcb4b44afe2d49dcc4e9d1ee023c1070059894f55e",
+    "pin_input_rgb.png": "81fb529313dd2ed7271c539227255e346d322ccafd72b687e4c10fad52f54a3c",
+    "peel_input_rgb.png": "15cb83195254f33a1adb88f8cb469e5d7ca8d1156f7ac51cafdc01816604c0c9"
+  },
+  "preprocessed_tensor_sha256": {
+    "original": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+    "pin": "263309b97b952f11f1ed2f1e035cd219912145d9e8bef7f05833727e11b5eb24",
+    "peel": "9336469459208583a5fd09a85b2af30a1486a6a067b5b74caa2a42b214bd6030"
+  },
+  "depth_channel_sha256": "99704fda7751514b44787069ffecf8ce8cdbf9aaaeb5ec3880a9fba52c625e07",
+  "valid_mask_sha256": "62c227ddb59753ebe3acc445832e011d4073ebf5a1370023e881ba1120e18784",
+  "crop_and_mask_trace": {
+    "coco_annotation_id": 39,
+    "bbox_xywh_px": [
+      1041,
+      325,
+      26,
+      24
+    ],
+    "bbox_area_px": 624,
+    "box_pixels_with_target_alpha": 624,
+    "box_pixels_passing_alpha_and_depth": 624,
+    "box_pixels_retained_after_crop_and_pad": 624,
+    "retained_rgb_pixels_equal_to_source": true,
+    "histogram_depth_range_mm": [
+      290.0,
+      320.1000061035156
+    ],
+    "crop_origin_yx_px": [
+      261,
+      886
+    ],
+    "crop_height_width_px": [
+      189,
+      250
+    ],
+    "pad_ltrb_px": [
+      27,
+      58,
+      27,
+      57
+    ],
+    "bbox_in_model_xywh_px": [
+      182,
+      122,
+      26,
+      24
+    ],
+    "input_shape_nchw": [
+      1,
+      4,
+      304,
+      304
+    ]
+  },
+  "donor": {
+    "tuber": "5R2-3",
+    "frame": "356",
+    "annotation_id": 9174,
+    "source_archive": "1_rgbd/1_images/5R.zip",
+    "source_member": "5R2-3/5R2-3_rgb_356.png",
+    "source_sha256": "62c9c096940be9ea1666197303f3efbda55dd19bfedcbfda99376ae3414e7bf1",
+    "sample_center_xy": [
+      801,
+      378
+    ],
+    "sample_size_px": 5,
+    "median_rgb": [
+      251,
+      134,
+      138
+    ],
+    "hue_deg": 357.94873046875,
+    "saturation": 0.4661353826522827
+  },
+  "saturation_cap": 0.22,
+  "edge_distance_tolerance_px": 4,
+  "translation": {
+    "offset_xy_px": [
+      -90,
+      31
+    ],
+    "roi_xyxy_px": [
+      79,
+      148,
+      136,
+      204
+    ],
+    "candidates": 233,
+    "clipped_pixels": 0,
+    "clipped_channels": 0,
+    "mean_edge_distance_pin_px": 48.97351902873944,
+    "mean_edge_distance_peel_px": 48.98198550526506,
+    "mean_edge_distance_gap_px": 0.008466476525623563,
+    "edge_distance_profile_rmse_px": 10.888885428483404
+  },
+  "rgb_change_8bit": {
+    "pin": {
+      "mask_pixels": 495,
+      "changed_pixels": 495,
+      "changed_outside_mask": 0,
+      "mean_rgb_l2_per_mask_pixel": 71.0484919940467,
+      "max_rgb_l2": 78.02563681252464,
+      "mean_abs_by_channel_per_mask_pixel": [
+        4.707070707070707,
+        48.74747474747475,
+        50.71313131313131
+      ],
+      "delta_sha256": "de545c0058eaf7bbee06940957c2c0b4c5d2778afb94f73f95861fb8564e653c",
+      "clipped_channels": 0,
+      "realized_delta_matches_intended": true
+    },
+    "peel": {
+      "mask_pixels": 495,
+      "changed_pixels": 495,
+      "changed_outside_mask": 0,
+      "mean_rgb_l2_per_mask_pixel": 71.0484919940467,
+      "max_rgb_l2": 78.02563681252464,
+      "mean_abs_by_channel_per_mask_pixel": [
+        4.707070707070707,
+        48.74747474747475,
+        50.71313131313131
+      ],
+      "delta_sha256": "3d8c0aac03638de36a2e44e96f3b826ec05d27b20f3f56a8a7d2f6500d980ce7",
+      "clipped_channels": 0,
+      "realized_delta_matches_intended": true
+    }
+  },
+  "intended_rgb_delta_sha256": "27f4de317c8067e8b41783d0a38e2bb0a1ee92ef1d62bd23d67846c5db97e8ee"
+}

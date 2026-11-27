@@ -1,0 +1,307 @@
+{
+  "checked_date": "2026-11-13",
+  "potato_card_total_bytes_label": "111 GB",
+  "potato_access_status": "login and agreement required; not accepted",
+  "bonn": {
+    "archive_url": "https://www.ipb.uni-bonn.de/html/projects/shape_completion/shape_completion_challenge.zip",
+    "archive_bytes": 8369655798,
+    "expanded_bytes": 32493628119,
+    "entries": 29050,
+    "range_metadata_bytes": 4172449,
+    "inventory": {
+      "train": {
+        "objects": 66,
+        "ids": [
+          "lab1",
+          "lab10",
+          "lab11",
+          "lab12",
+          "lab13",
+          "lab14",
+          "lab18",
+          "lab19",
+          "lab2",
+          "lab20",
+          "lab21",
+          "lab22",
+          "lab23",
+          "lab24",
+          "lab25",
+          "lab26",
+          "lab27",
+          "lab28",
+          "lab33",
+          "lab34",
+          "lab35",
+          "lab36",
+          "lab37",
+          "lab38",
+          "lab40",
+          "lab41",
+          "lab42",
+          "lab43",
+          "lab44",
+          "lab49",
+          "lab5",
+          "lab50",
+          "lab51",
+          "lab52",
+          "lab53",
+          "lab54",
+          "lab55",
+          "lab56",
+          "lab58",
+          "lab59",
+          "lab60",
+          "lab64",
+          "lab65",
+          "lab66",
+          "lab67",
+          "lab68",
+          "lab69",
+          "lab7",
+          "lab70",
+          "lab71",
+          "lab72",
+          "lab73",
+          "lab74",
+          "lab78",
+          "lab79",
+          "lab8",
+          "lab80",
+          "lab81",
+          "lab82",
+          "lab84",
+          "lab85",
+          "lab86",
+          "lab87",
+          "lab88",
+          "lab89",
+          "lab9"
+        ],
+        "depth_frames": 4580,
+        "rgb_frames": 4580,
+        "mask_frames": 4580,
+        "pose_files": 4580,
+        "reference_pointclouds": 66,
+        "mesh_files": 0
+      },
+      "val": {
+        "objects": 25,
+        "ids": [
+          "lab15",
+          "lab16",
+          "lab17",
+          "lab29",
+          "lab30",
+          "lab32",
+          "lab45",
+          "lab46",
+          "lab48",
+          "lab61",
+          "lab62",
+          "lab63",
+          "lab75",
+          "lab76",
+          "lab77",
+          "lab90",
+          "p12",
+          "p13",
+          "p14",
+          "p26",
+          "p27",
+          "p28",
+          "p40",
+          "p41",
+          "p42"
+        ],
+        "depth_frames": 1387,
+        "rgb_frames": 1387,
+        "mask_frames": 1387,
+        "pose_files": 1387,
+        "reference_pointclouds": 25,
+        "mesh_files": 0
+      },
+      "test": {
+        "objects": 38,
+        "ids": [
+          "p1",
+          "p10",
+          "p11",
+          "p15",
+          "p16",
+          "p17",
+          "p19",
+          "p2",
+          "p20",
+          "p21",
+          "p22",
+          "p23",
+          "p24",
+          "p25",
+          "p29",
+          "p3",
+          "p30",
+          "p31",
+          "p32",
+          "p33",
+          "p34",
+          "p35",
+          "p36",
+          "p37",
+          "p38",
+          "p39",
+          "p4",
+          "p44",
+          "p45",
+          "p46",
+          "p47",
+          "p48",
+          "p49",
+          "p5",
+          "p50",
+          "p6",
+          "p7",
+          "p8"
+        ],
+        "depth_frames": 980,
+        "rgb_frames": 980,
+        "mask_frames": 980,
+        "pose_files": 980,
+        "reference_pointclouds": 0,
+        "mesh_files": 0
+      }
+    },
+    "data_assets_downloaded": true,
+    "separate_license_in_archive_directory": false,
+    "loader_source_sha256": "6abcbcd87b735e885d399efce24c698b13c4f9f9427260f4aa47cac540aed0a0",
+    "tail_sha256": "73e6b5c14c14c04b8fbfcd7ab7fc0c32a1e205d29629d69491c03feba461710c",
+    "directory_sha256": "4694326b10be48876c3cbe125a179a92a613f3a12e243c83c17d3dbd9b652974",
+    "listing_sha256": "8d8a23057c097cf46856f80177349ea94ab2e9406c596cd5a58db683559f1872",
+    "selected_member_compressed_bytes": 5212041,
+    "member_download_manifest_sha256": "2e1fa1cd4553a68781955adc9f5b77a08bc837907e59c18b6d95781f6dc338cc",
+    "minipair_audit": {
+      "role": "train/validation data-access smoke checks only; no method score",
+      "objects": [
+        {
+          "split": "train",
+          "object_id": "lab1",
+          "frame": "00001",
+          "depth_shape": [
+            720,
+            1280
+          ],
+          "mask_values": [
+            0,
+            1
+          ],
+          "partial_points": 41632,
+          "reference_points": 25326,
+          "reference_has_triangle_faces": false,
+          "source_units": "meters, as used by the official loader; checked against fruit-scale extents",
+          "partial_depth_median_m": 0.31200000643730164,
+          "camera_to_canonical_m": [
+            [
+              0.8041052164066959,
+              -0.25099519253033836,
+              0.5389027874062261,
+              -0.19674485696151844
+            ],
+            [
+              -0.593178818497779,
+              -0.27864527815407103,
+              0.7553116563697534,
+              -0.2581715880870291
+            ],
+            [
+              -0.03941687751612337,
+              -0.9270157616184843,
+              -0.3729451534445526,
+              0.10986458067467599
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "canonical_partial_extents_mm": [
+            303.6129993430833,
+            333.45893623988496,
+            103.1126217238622
+          ],
+          "canonical_reference_extents_mm": [
+            77.068678700361,
+            81.0183333333333,
+            115.63773023578366
+          ],
+          "raw_partial_to_reference_mean_mm": 3.598881355388748,
+          "raw_partial_to_reference_median_mm": 1.6401645005998229,
+          "raw_partial_to_reference_p95_mm": 5.740320162237947,
+          "alignment_policy": "provided pose only, as official loader; no ICP or direction search",
+          "download_manifest_sha256": "2e1fa1cd4553a68781955adc9f5b77a08bc837907e59c18b6d95781f6dc338cc"
+        },
+        {
+          "split": "val",
+          "object_id": "lab15",
+          "frame": "00001",
+          "depth_shape": [
+            720,
+            1280
+          ],
+          "mask_values": [
+            0,
+            1
+          ],
+          "partial_points": 26927,
+          "reference_points": 43667,
+          "reference_has_triangle_faces": false,
+          "source_units": "meters, as used by the official loader; checked against fruit-scale extents",
+          "partial_depth_median_m": 0.41600000858306885,
+          "camera_to_canonical_m": [
+            [
+              0.7845004175030535,
+              -0.4096828012242417,
+              0.4655309842734331,
+              -0.23899455030445846
+            ],
+            [
+              -0.6132537256347561,
+              -0.40105878915040655,
+              0.6804937293173992,
+              -0.27643467653110315
+            ],
+            [
+              -0.09208128437758287,
+              -0.8193362252618075,
+              -0.5658702917110127,
+              0.2503178225690803
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "canonical_partial_extents_mm": [
+            78.77617574266182,
+            74.59056256734564,
+            102.45476628867992
+          ],
+          "canonical_reference_extents_mm": [
+            85.98238683767329,
+            92.9141266427717,
+            124.51419688566561
+          ],
+          "raw_partial_to_reference_mean_mm": 3.4552665942248724,
+          "raw_partial_to_reference_median_mm": 3.1517051205587423,
+          "raw_partial_to_reference_p95_mm": 7.781756664121973,
+          "alignment_policy": "provided pose only, as official loader; no ICP or direction search",
+          "download_manifest_sha256": "2e1fa1cd4553a68781955adc9f5b77a08bc837907e59c18b6d95781f6dc338cc"
+        }
+      ]
+    }
+  }
+}

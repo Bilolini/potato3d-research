@@ -1,0 +1,19 @@
+# Development protocol for one-click SAM 2 center masks
+
+Use all 40 validation potatoes and the exact center suffixes from the archived weight-correction study. Open image and cloud payloads only for those IDs. Keep test and reserved cohorts closed. Use the frozen Model A coefficient of 0.7656776613331925 g/cm³ and intercept of 11.134798597815616 g.
+
+## Baseline and common measurement pipeline
+
+Project the archived center PLY vertices back to their depth pixels and compare their coordinates and pixel membership with the raw reconstruction. Audit the positive-depth alpha reconstruction before applying the release's histogram filter. The filter takes a measured thickness in mm (`x3_depth_mm`) and uses it as the maximum candidate depth range, followed by ten-bin tail removal at 2% bin support and the release’s 400 mm depth truncation. Freeze the release filter for both masks with the same thickness input. Compute its bounds from the mask under evaluation, just as in the release. The thickness is external information already used to create Model A's input clouds. This study varies only the mask under that measurement pipeline. The tracker gets no thickness or depth and this design does not evaluate weight prediction without measured thickness.
+
+Use raw depth in camera-axis mm and the released D405 pinhole intrinsics. Calculate the convex hull area projected onto camera XY, and height as max(0, 350 mm − fifth-percentile Z). Divide area × height by 1000 to obtain cm³. Rebuild in float64 and compare to the released PLY features. Require exact pixel membership, point positions within 0.0001 mm and Model A weights within 0.001 g of the archive before tracking. Record all discrepancies with and without the histogram.
+
+## Frozen tracking
+
+Use Meta SAM 2.1 Hiera Tiny, checkpoint SHA-256 `7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69`, source commit `2b90b9f5ceec907a1c18123530e92e794ad901a4` and `configs/sam2.1/sam2.1_hiera_t.yaml`. Run the official video predictor on CPU in FP32 with six intra-op threads, one inter-op thread and no optional postprocessing. Use a lossless PNG reader with the same RGB conversion, resize, scaling and normalization as the official JPEG reader. Drop alpha without compositing so background is preserved. Use each tuber's earliest released frame by numeric suffix (entry) and every available RGB frame through the archived center. Use the row-major first maximum of the entry mask's Euclidean distance transform as one positive point in original pixel coordinates. Propagate forward with no more prompts. Threshold the center logit at zero.
+
+Freeze the roster, frame order, archive member checksums and clicks before tracking. Define successful tracking as a nonempty finite center mask from the predictor. Weight scoring also requires a nondegenerate XY hull. Keep failed tracks, unscorable estimates and zero-IoU cases visible in the denominator of 40. Do not reject a scorable mask based on IoU or error.
+
+## Paired evaluation
+
+Score once against the archived exact-ID weight in grams including the tack. Report both MAEs over scorable pairs, the mean SAM 2 minus provided-mask absolute error, and a two-sided percentile interval with 10,000 paired tuber bootstrap draws and seed 5272401. Negative changes favor SAM 2. A difference within 1e-9 g is a tie. Include the provided-mask MAE on all 40 for context if any pairs are missing. Report raw binary-mask IoU plus valid-depth overlap. Show the three largest absolute shifts in the predicted weight, with raw mask differences and depth-support changes. Use the actual accepted pixels, their depths and hull vertices to diagnose the shifts. Compare original and propagated predictions after dropping pixels unique to either accepted support; this intersection diagnostic retains each condition's already-computed depth filter and does not alter scoring.

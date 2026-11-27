@@ -1,0 +1,248 @@
+{
+  "seed": 527133301,
+  "methods": [
+    "ellipsoid",
+    "convex",
+    "symmetry",
+    "symmetry_height95",
+    "symmetry_robust95",
+    "symmetry_spatial_height",
+    "symmetry_spatial_surface",
+    "symmetry_spatial"
+  ],
+  "surface_samples": 10000,
+  "thresholds_mm": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "max_fit_points": 5000,
+  "ellipsoid_subdivisions": 4,
+  "synthetic_points": 2500,
+  "synthetic_noise_mm": 0.0,
+  "bootstrap_replicates": 2000,
+  "split": "confirmation",
+  "spatial_protocol": {
+    "protocol_id": "spatial_confidence_v1",
+    "scope": "synthetic_development_then_independent_confirmation",
+    "baseline_config": "configs/baseline.yaml",
+    "splits": {
+      "development": {
+        "families": 6,
+        "shape_seed": 527132101,
+        "observation_seed": 527132201,
+        "evaluation_seed": 527132301
+      },
+      "confirmation": {
+        "families": 12,
+        "shape_seed": 527133101,
+        "observation_seed": 527133201,
+        "evaluation_seed": 527133301
+      }
+    },
+    "axes_ranges_mm": [
+      [
+        30.0,
+        54.0
+      ],
+      [
+        21.0,
+        35.0
+      ],
+      [
+        17.0,
+        30.0
+      ]
+    ],
+    "waist_range": [
+      0.05,
+      0.5
+    ],
+    "yaw_range_rad": [
+      -2.8,
+      2.8
+    ],
+    "underside_warps": [
+      0.0,
+      1.8
+    ],
+    "conditions": [
+      "clean",
+      "depth_jitter_2mm",
+      "outliers_2percent",
+      "depth_gap",
+      "belt_plus3mm",
+      "belt_minus3mm",
+      "correlated_outlier_patch"
+    ],
+    "baseline_methods": [
+      "ellipsoid",
+      "convex",
+      "symmetry",
+      "symmetry_height95",
+      "symmetry_robust95"
+    ],
+    "candidate_options": [
+      {
+        "name": "local32_t3",
+        "neighbors": 32,
+        "threshold_mm": 3.0,
+        "robust_iterations": 3,
+        "sigma_multiplier": 3.0,
+        "scale_floor_mm": 0.5
+      },
+      {
+        "name": "local32_t5",
+        "neighbors": 32,
+        "threshold_mm": 5.0,
+        "robust_iterations": 3,
+        "sigma_multiplier": 3.0,
+        "scale_floor_mm": 0.5
+      }
+    ],
+    "confirmation_methods": [
+      "ellipsoid",
+      "convex",
+      "symmetry",
+      "symmetry_height95",
+      "symmetry_robust95",
+      "symmetry_spatial_height",
+      "symmetry_spatial_surface",
+      "symmetry_spatial"
+    ],
+    "selection": {
+      "score": "mean_hidden_clean_plus_mean_hidden_outliers_plus_0p02_mean_volume_mae_outliers",
+      "tie_break": "candidate_option_order",
+      "reject_if_any_development_failure": true
+    },
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 527134101,
+    "confirmation_criteria": [
+      {
+        "condition": "clean",
+        "metric": "hidden_chamfer_l1_mm",
+        "baseline": "symmetry_robust95",
+        "upper_difference_limit": 0.0,
+        "strict": true
+      },
+      {
+        "condition": "outliers_2percent",
+        "metric": "hidden_chamfer_l1_mm",
+        "baseline": "symmetry",
+        "upper_difference_limit": 0.0,
+        "strict": true
+      },
+      {
+        "condition": "outliers_2percent",
+        "metric": "hidden_chamfer_l1_mm",
+        "baseline": "symmetry_robust95",
+        "upper_difference_limit": 0.1,
+        "strict": false
+      },
+      {
+        "condition": "outliers_2percent",
+        "metric": "volume_absolute_error_analytic_ml",
+        "baseline": "symmetry_robust95",
+        "upper_difference_limit": 1.0,
+        "strict": false
+      },
+      {
+        "condition": "clean",
+        "metric": "clean_observed_to_surface_mean_mm",
+        "baseline": "symmetry",
+        "upper_difference_limit": 0.05,
+        "strict": false
+      }
+    ],
+    "visualize_family": 0
+  },
+  "protocol_sha256": "0a03e96de60073b54002d6418be914ce7b2039fcba31cc0e131df0adc95f4160",
+  "design_sha256": "836542cd64f9d8ca1f92fa28db595d19b61fa174b6244b073dad93b066565f60",
+  "selected_candidate": "local32_t3",
+  "selection_evidence": {
+    "protocol_id": "spatial_confidence_v1",
+    "role": "selected on development only; frozen before confirmation generation",
+    "protocol_sha256": "0a03e96de60073b54002d6418be914ce7b2039fcba31cc0e131df0adc95f4160",
+    "design_sha256": "836542cd64f9d8ca1f92fa28db595d19b61fa174b6244b073dad93b066565f60",
+    "baseline_config_sha256": "60f11fe1f3562f34b39e964bcc34ab88ddd675e221f78b4fa9095036a5a43dac",
+    "development_path": "/Users/meliboevbilol/Desktop/potato/outputs/spatial_confidence_development_v1",
+    "development_evidence_sha256": {
+      "results.json": "42dea1923f3e1f26636d703516586063909bbab1fc1511a49a673577245fa9ea",
+      "inputs.json": "02b1499e8c69e3b2b578d436f94add2a2a399eaadd9defc48a8f70bdd81a43a1",
+      "config.json": "102771694073d7a7209f7e13d526ea9b8d844996336a21c8e7fa3ce86be7fa50",
+      "run.json": "85a6828039639fd8ba37832e800b36dec5283d29ff7f6f7d9ca6c418fb5030d7",
+      "environment.json": "1ded5fc7cab32c29065bf99be5f4911e215a677e4bc7876183f4b360ebe090fa"
+    },
+    "source_sha256": {
+      "__init__.py": "f704b8d571a833ca0096eebe3f648ca888e02a9f2a436295364c2f6617e80022",
+      "calibration.py": "22dbec92067cd0711efdaed43982017e2d136e254046b2d7cf4762a19a60746f",
+      "cli.py": "504559d488e47cd8d86d9b4b1d39396b49c22569408c5a2e8a4f9eeae67042f6",
+      "completion/__init__.py": "835de70956fd74f5c2d95c38248592b02a6d2148457ddc987d970f350cd5aaaa",
+      "completion/confidence.py": "f6b9962eae0c77995d0ad4d37daf3fabacb486473842f3f42588a113cfa2d1d7",
+      "completion/convex.py": "92072957b65cd5928e00a4c89957a455263d3f597959be1dc9b614fe17933b85",
+      "completion/ellipsoid.py": "8c7503ce40d6370d2b83371d01c1293f776dc42cdc803ffbc6671cd8decbac8a",
+      "completion/robust.py": "e0547b7c168bc13ccadf2c1a7289659bb4066ac32990628a29d716f077fcc4d1",
+      "completion/symmetry.py": "c55c924ab9e12e14b290c87f88699442e0922636a72c0ba485eabcab499b7b9b",
+      "development.py": "adefd4d6ab4d3818ea63060bf4993d54b6113d5aaf6fdd8caca1fdceb41dcdda",
+      "geometry.py": "5c60b055dcf36edd1d1703fbd34497bc10396aed07f4dcf61f94657c0aa1c918",
+      "io.py": "148daa49f0f08e2cc77195477d12b14705c44da024db6c7857c880f04d50595f",
+      "metrics.py": "2226e3063d2bef78537704bef50f801a74df4fbac581778c227b4f708148344e",
+      "pipeline.py": "62b2ec69247d7ae0abb6071a3dab001f75acad1c3f821890ae9cb7e0020c7528",
+      "spatial_analysis.py": "19397c8fb142f755a611973798e5414fba4159c6d7162a229d838640eca83a69",
+      "spatial_study.py": "cf0b13a0060d624d497b55048f605291bf16dcb317c58813bfb1badc60a2e623",
+      "study_analysis.py": "672db2e3bfc7a5ee6160877f88217540afe6a2bfaeac374f39bd8a011d7a36c7",
+      "synthetic.py": "dc6029f0e69ae646a09a775a43f12bd547a1ebaadf1bbc9db4de14a0b81a4c93",
+      "visualize.py": "fc0e45b77b7509baa40e07bd3064f30178c41eeec2e08f31782c78c5300b1e29"
+    },
+    "lock_sha256": "46ac027e8763052c14ff4032945ec996cfbb1f85c3d75a3cd6f11bb75c7dc577",
+    "selected_option": "local32_t3",
+    "selected_parameters": {
+      "neighbors": 32,
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5
+    },
+    "selection_scores": [
+      {
+        "option_index": 0,
+        "option_name": "local32_t3",
+        "clean_hidden_mm": 1.6683326859968473,
+        "outlier_hidden_mm": 1.6668996038912234,
+        "outlier_volume_mae_ml": 7.342312197577603,
+        "selection_score": 3.4820785338396223
+      },
+      {
+        "option_index": 1,
+        "option_name": "local32_t5",
+        "clean_hidden_mm": 1.6683326859968473,
+        "outlier_hidden_mm": 1.6668996038912234,
+        "outlier_volume_mae_ml": 7.342312197577603,
+        "selection_score": 3.4820785338396223
+      }
+    ]
+  },
+  "method_options": {
+    "symmetry_spatial": {
+      "neighbors": 32,
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5
+    },
+    "symmetry_spatial_height": {
+      "neighbors": 32,
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5
+    },
+    "symmetry_spatial_surface": {
+      "neighbors": 32,
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5
+    }
+  }
+}

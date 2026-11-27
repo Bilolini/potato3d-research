@@ -1,0 +1,4898 @@
+[
+  {
+    "method": "convex",
+    "condition": "belt_minus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 2.3701301748593546,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      2.0040135940278634,
+      2.7531132611852445
+    ],
+    "mean_fscore_5mm": 0.8235975753812105,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.7790073982470528,
+      0.8679605154859479
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0049424846261089525,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.012714584002370253
+    ],
+    "mean_fit_seconds": 0.011261694327307245,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.01087660769893167,
+      0.011574971180622621
+    ],
+    "mean_hidden_chamfer_l1_mm": 3.9227709025738364,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      3.2282228396601194,
+      4.64062729163413
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5615785168621051,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5303509360209632,
+      0.5918869520325584
+    ],
+    "mean_volume_absolute_error_mesh_ml": 20.802597647487723,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      15.255099624377282,
+      27.173798924763034
+    ],
+    "mean_volume_absolute_error_analytic_ml": 20.75363985324209,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      15.203432640771275,
+      27.12382188455378
+    ],
+    "volume_rmse_mesh_ml": 23.436829020730226,
+    "volume_rmse_analytic_ml": 23.389579382891107,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "convex",
+    "condition": "belt_plus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 3.6945794945006245,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      3.324600379833891,
+      4.086224695436999
+    ],
+    "mean_fscore_5mm": 0.6846867409623072,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.6595528160325762,
+      0.7096649522775722
+    ],
+    "mean_observed_to_surface_mean_mm": 0.004942484626108953,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.012714584002370256
+    ],
+    "mean_fit_seconds": 0.01114581607786628,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.010790391602495219,
+      0.011468537554659026
+    ],
+    "mean_hidden_chamfer_l1_mm": 6.0831498615893125,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      5.392748398950851,
+      6.809930487787232
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5791298612044584,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5484743422607085,
+      0.6091853617747967
+    ],
+    "mean_volume_absolute_error_mesh_ml": 39.3348300959554,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      32.41551639100892,
+      47.24042371329077
+    ],
+    "mean_volume_absolute_error_analytic_ml": 39.28587230170977,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      32.37466573889312,
+      47.18274856101503
+    ],
+    "volume_rmse_mesh_ml": 41.63176198826646,
+    "volume_rmse_analytic_ml": 41.581770460345446,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "convex",
+    "condition": "clean",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 2.981132828520155,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      2.595987346362786,
+      3.385685220329053
+    ],
+    "mean_fscore_5mm": 0.753030104691089,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.7171157559600686,
+      0.7885076130981095
+    ],
+    "mean_observed_to_surface_mean_mm": 0.004942484626108955,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.012714584002370258
+    ],
+    "mean_fit_seconds": 0.011244843752744297,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.010955474013947726,
+      0.011473522885595836
+    ],
+    "mean_hidden_chamfer_l1_mm": 4.930012135203037,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      4.212985224720806,
+      5.684744853105805
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5701415403352558,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5394725300588366,
+      0.6001646025146311
+    ],
+    "mean_volume_absolute_error_mesh_ml": 30.068713871721556,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      23.96791473709335,
+      37.17764651388302
+    ],
+    "mean_volume_absolute_error_analytic_ml": 30.01975607747592,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      23.920227627943603,
+      37.12532726093036
+    ],
+    "volume_rmse_mesh_ml": 32.40089414470716,
+    "volume_rmse_analytic_ml": 32.35168759341504,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "convex",
+    "condition": "correlated_outlier_patch",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 3.536124116793274,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      3.183937385510833,
+      3.910013279812984
+    ],
+    "mean_fscore_5mm": 0.7045275480541768,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.670188091296174,
+      0.7376913370578877
+    ],
+    "mean_observed_to_surface_mean_mm": 1.6644742021997823,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      1.539872807748975,
+      1.7975247646050125
+    ],
+    "mean_fit_seconds": 0.005127010323728125,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.004734906018469095,
+      0.005450488700444112
+    ],
+    "mean_hidden_chamfer_l1_mm": 4.936851188363855,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      4.229999491010571,
+      5.685699778183781
+    ],
+    "mean_visible_chamfer_l1_mm": 1.960516402029132,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      1.8353786317255165,
+      2.093709282971574
+    ],
+    "mean_volume_absolute_error_mesh_ml": 39.0776681793693,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      32.23958096727096,
+      46.89212213266489
+    ],
+    "mean_volume_absolute_error_analytic_ml": 39.02871038512367,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      32.199126342602185,
+      46.839815302605686
+    ],
+    "volume_rmse_mesh_ml": 41.30030361295948,
+    "volume_rmse_analytic_ml": 41.250298371873676,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "convex",
+    "condition": "depth_gap",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 2.984706350644595,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      2.600669803091748,
+      3.3870746970350716
+    ],
+    "mean_fscore_5mm": 0.7528318888768092,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.716975472156945,
+      0.7878622819034541
+    ],
+    "mean_observed_to_surface_mean_mm": 0.003746886460432152,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.009669661603663175
+    ],
+    "mean_fit_seconds": 0.010000215338853499,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.009676647573602775,
+      0.01028705763213414
+    ],
+    "mean_hidden_chamfer_l1_mm": 4.925304164931235,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      4.215942836424105,
+      5.680979629787128
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5815786886125559,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5522008282400768,
+      0.6100616740070288
+    ],
+    "mean_volume_absolute_error_mesh_ml": 29.801734969785247,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      23.745214820146124,
+      36.87186222146949
+    ],
+    "mean_volume_absolute_error_analytic_ml": 29.75277717553962,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      23.702354213194184,
+      36.81984859249063
+    ],
+    "volume_rmse_mesh_ml": 32.13564847688081,
+    "volume_rmse_analytic_ml": 32.08646671104271,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "convex",
+    "condition": "depth_jitter_2mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 3.6863933534042217,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      3.335410306612176,
+      4.062590534705102
+    ],
+    "mean_fscore_5mm": 0.7542478376257383,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.7213985748339362,
+      0.78730841958797
+    ],
+    "mean_observed_to_surface_mean_mm": 2.701982502945359,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      2.5874957572479134,
+      2.8232983987781326
+    ],
+    "mean_fit_seconds": 0.002732701502585163,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.00262582067977443,
+      0.0028284778326148324
+    ],
+    "mean_hidden_chamfer_l1_mm": 4.935844671886204,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      4.227848765150482,
+      5.688242205091158
+    ],
+    "mean_visible_chamfer_l1_mm": 2.2559388517436507,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      2.139382185607049,
+      2.3818647401581527
+    ],
+    "mean_volume_absolute_error_mesh_ml": 42.27323348977277,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      35.03893935678871,
+      50.35735810490673
+    ],
+    "mean_volume_absolute_error_analytic_ml": 42.22427569552713,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      34.992638948076866,
+      50.30400804241992
+    ],
+    "volume_rmse_mesh_ml": 44.545098915011934,
+    "volume_rmse_analytic_ml": 44.49492986323677,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "convex",
+    "condition": "genuine_narrow_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 3.063780476733942,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      2.6878123574872608,
+      3.4622679136563104
+    ],
+    "mean_fscore_5mm": 0.755538994232992,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.7197902787492665,
+      0.790541868807923
+    ],
+    "mean_observed_to_surface_mean_mm": 0.4517139551059221,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.40195886019461474,
+      0.5036087084335938
+    ],
+    "mean_fit_seconds": 0.007455357660849889,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.007081239164836006,
+      0.007784200453897937
+    ],
+    "mean_hidden_chamfer_l1_mm": 4.9300986220116245,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      4.216261588587275,
+      5.679005766556472
+    ],
+    "mean_visible_chamfer_l1_mm": 0.7982479550859184,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.743794408166068,
+      0.8484724121924325
+    ],
+    "mean_volume_absolute_error_mesh_ml": 31.815274700440842,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      25.595407319710233,
+      39.07794461126005
+    ],
+    "mean_volume_absolute_error_analytic_ml": 31.76663750249593,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      25.552206948325406,
+      39.026303160511794
+    ],
+    "volume_rmse_mesh_ml": 34.134540439253705,
+    "volume_rmse_analytic_ml": 34.08543825051088,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "convex",
+    "condition": "genuine_wide_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 3.0607011000627495,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      2.6852549431796393,
+      3.463859525964174
+    ],
+    "mean_fscore_5mm": 0.756014132567942,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.7201161943732468,
+      0.7911176603237101
+    ],
+    "mean_observed_to_surface_mean_mm": 0.46004135196264834,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.4193713442545705,
+      0.5051751973246241
+    ],
+    "mean_fit_seconds": 0.0073271596726651,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.006856979583729602,
+      0.007730039858385377
+    ],
+    "mean_hidden_chamfer_l1_mm": 4.9342165151684565,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      4.2186684062390745,
+      5.6950163217437995
+    ],
+    "mean_visible_chamfer_l1_mm": 0.7953207907918293,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.7580195397421776,
+      0.8307180219500024
+    ],
+    "mean_volume_absolute_error_mesh_ml": 31.81409733514376,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      25.703994522327864,
+      38.995213809786904
+    ],
+    "mean_volume_absolute_error_analytic_ml": 31.76533425225375,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      25.659263869682203,
+      38.94359849226972
+    ],
+    "volume_rmse_mesh_ml": 34.076769589356985,
+    "volume_rmse_analytic_ml": 34.02752531926238,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "convex",
+    "condition": "outliers_2percent",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 5.553499627272031,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      5.219379209979464,
+      5.917035960214452
+    ],
+    "mean_fscore_5mm": 0.5270881612775207,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.49433603988466035,
+      0.5580076143274353
+    ],
+    "mean_observed_to_surface_mean_mm": 6.696651386102182,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      6.255802901400212,
+      7.15891363708103
+    ],
+    "mean_fit_seconds": 0.002372267258275921,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.0022610470516762388,
+      0.00248021664180366
+    ],
+    "mean_hidden_chamfer_l1_mm": 4.9296377128677005,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      4.229831382250127,
+      5.673033310246052
+    ],
+    "mean_visible_chamfer_l1_mm": 6.14345579371805,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      5.765962086374755,
+      6.559089287527128
+    ],
+    "mean_volume_absolute_error_mesh_ml": 72.93395824278464,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      62.10527602142142,
+      83.7829328407896
+    ],
+    "mean_volume_absolute_error_analytic_ml": 72.88500044853902,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      62.06512812466762,
+      83.72412696059041
+    ],
+    "volume_rmse_mesh_ml": 75.54787689491171,
+    "volume_rmse_analytic_ml": 75.49709639392776,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "ellipsoid",
+    "condition": "belt_minus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.2801263927916644,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.1638020474206392,
+      1.3894114569424476
+    ],
+    "mean_fscore_5mm": 1.0,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      1.0,
+      1.0
+    ],
+    "mean_observed_to_surface_mean_mm": 0.3068635460094756,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.20553339915135813,
+      0.4208854303725431
+    ],
+    "mean_fit_seconds": 0.004872347170021385,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.004683173486409942,
+      0.00506531218852615
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.848491099316398,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.68138860455457,
+      1.9975866281894454
+    ],
+    "mean_visible_chamfer_l1_mm": 0.7750625205679412,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.6706425392838264,
+      0.8993369136692781
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.10817327179629,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.001293322019154,
+      9.233235017527404
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.11137707877207,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      4.979389168521722,
+      9.25767435083716
+    ],
+    "volume_rmse_mesh_ml": 8.060189343932224,
+    "volume_rmse_analytic_ml": 8.080815202393795,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "ellipsoid",
+    "condition": "belt_plus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.9548609102169825,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.6254148552978298,
+      2.275159311486964
+    ],
+    "mean_fscore_5mm": 0.8875743369275936,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8218441040057667,
+      0.9524757270464015
+    ],
+    "mean_observed_to_surface_mean_mm": 0.25214702871831013,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.15539199616367258,
+      0.36223505784796434
+    ],
+    "mean_fit_seconds": 0.004911437426926568,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.004708516293855306,
+      0.005112068296390741
+    ],
+    "mean_hidden_chamfer_l1_mm": 3.172469304014849,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.500274797911747,
+      3.858556256301655
+    ],
+    "mean_visible_chamfer_l1_mm": 0.7526381665973728,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.6449740355422772,
+      0.8807025682303775
+    ],
+    "mean_volume_absolute_error_mesh_ml": 17.23708743051446,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      12.883039026321844,
+      22.339546226022634
+    ],
+    "mean_volume_absolute_error_analytic_ml": 17.188129636268823,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      12.836446961617249,
+      22.28429882823112
+    ],
+    "volume_rmse_mesh_ml": 19.162128592644677,
+    "volume_rmse_analytic_ml": 19.115259216589795,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "ellipsoid",
+    "condition": "clean",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.2565953770967602,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.9531267819829385,
+      1.5486100831241265
+    ],
+    "mean_fscore_5mm": 0.9763397576716303,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9532880486046955,
+      0.9945741674788352
+    ],
+    "mean_observed_to_surface_mean_mm": 0.2647041379956915,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.16178078498367132,
+      0.3803094440144983
+    ],
+    "mean_fit_seconds": 0.004952586838044226,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.00472171403040799,
+      0.005170382923824945
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.8191594884539999,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.2194911710774814,
+      2.4320823353840684
+    ],
+    "mean_visible_chamfer_l1_mm": 0.7453485261541947,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.6353026898369581,
+      0.8750444259203843
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.96066068541939,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.8671098843822085,
+      11.315822918545615
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.950834679730051,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.8543087917670262,
+      11.286945956445814
+    ],
+    "volume_rmse_mesh_ml": 10.147402663562882,
+    "volume_rmse_analytic_ml": 10.112822302836591,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "ellipsoid",
+    "condition": "correlated_outlier_patch",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 4.770716459796379,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      4.33570100501461,
+      5.240241666591393
+    ],
+    "mean_fscore_5mm": 0.5514683988749767,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.4887332318138961,
+      0.6137918105877942
+    ],
+    "mean_observed_to_surface_mean_mm": 4.087371366993197,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      3.7682299148420766,
+      4.404919766389109
+    ],
+    "mean_fit_seconds": 0.007098343756903584,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.006846386222605361,
+      0.007413425527435417
+    ],
+    "mean_hidden_chamfer_l1_mm": 4.160525278022553,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      3.4677031800197846,
+      4.91278634233231
+    ],
+    "mean_visible_chamfer_l1_mm": 5.114606820888137,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      4.786511106343115,
+      5.4386362109590225
+    ],
+    "mean_volume_absolute_error_mesh_ml": 15.22536918944256,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      10.70274523628861,
+      20.02798701106096
+    ],
+    "mean_volume_absolute_error_analytic_ml": 15.274326983688198,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      10.746208139734557,
+      20.080295754766745
+    ],
+    "volume_rmse_mesh_ml": 17.408878062990166,
+    "volume_rmse_analytic_ml": 17.45699932776066,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "ellipsoid",
+    "condition": "depth_gap",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.263129286337829,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.9576374686781088,
+      1.5569999415415614
+    ],
+    "mean_fscore_5mm": 0.9764038941116069,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9522596081144189,
+      0.994993218198275
+    ],
+    "mean_observed_to_surface_mean_mm": 0.2632947362251525,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.16158736507774163,
+      0.3777438433361658
+    ],
+    "mean_fit_seconds": 0.004781000073611115,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.004548901393961084,
+      0.004998700408032164
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.8321972551247077,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.2277417546489413,
+      2.452886303859476
+    ],
+    "mean_visible_chamfer_l1_mm": 0.7462161067183858,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.6364898520342948,
+      0.87566107519319
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.318414525199754,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.219565892294242,
+      11.696254727573859
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.2844942356937095,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.1951679447542887,
+      11.652317774363201
+    ],
+    "volume_rmse_mesh_ml": 10.451012441785261,
+    "volume_rmse_analytic_ml": 10.415372150524474,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "ellipsoid",
+    "condition": "depth_jitter_2mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 2.601393549120038,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      2.4154767687545378,
+      2.8139191453673575
+    ],
+    "mean_fscore_5mm": 0.9369612822347403,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9014799356008104,
+      0.9671140575366559
+    ],
+    "mean_observed_to_surface_mean_mm": 2.493300847784853,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      2.3737474513158725,
+      2.6283932554315697
+    ],
+    "mean_fit_seconds": 0.0059903056535404176,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.0057172704997356045,
+      0.006251323494749764
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.5251272607758897,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.2329854946505105,
+      2.8425528339260913
+    ],
+    "mean_visible_chamfer_l1_mm": 2.6557049187961743,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      2.5167366286439106,
+      2.812215697742573
+    ],
+    "mean_volume_absolute_error_mesh_ml": 8.274584970821662,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      4.463889254646785,
+      12.517004310816159
+    ],
+    "mean_volume_absolute_error_analytic_ml": 8.315692131641894,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      4.501421839210539,
+      12.56109793540808
+    ],
+    "volume_rmse_mesh_ml": 10.862001754217657,
+    "volume_rmse_analytic_ml": 10.900032766763207,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "ellipsoid",
+    "condition": "genuine_narrow_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 2.7369316661799927,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      2.498943423256976,
+      2.9835284094253756
+    ],
+    "mean_fscore_5mm": 0.8996320835796737,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8580001483279812,
+      0.938765949379539
+    ],
+    "mean_observed_to_surface_mean_mm": 2.5919801512805303,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      2.4063103411591675,
+      2.7756774363634586
+    ],
+    "mean_fit_seconds": 0.005847750018195559,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.005573216512129875,
+      0.00614984156175827
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.6217270485070743,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.307464208016856,
+      2.9820868783687797
+    ],
+    "mean_visible_chamfer_l1_mm": 2.820819498536354,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      2.586317136860105,
+      3.0534483780101804
+    ],
+    "mean_volume_absolute_error_mesh_ml": 9.071291147101686,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.310045606560716,
+      13.310474975961055
+    ],
+    "mean_volume_absolute_error_analytic_ml": 9.11537598861283,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      5.347272372638711,
+      13.367005727382773
+    ],
+    "volume_rmse_mesh_ml": 11.594875279566603,
+    "volume_rmse_analytic_ml": 11.636967155438885,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "ellipsoid",
+    "condition": "genuine_wide_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 2.8393626550906284,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      2.616250661746479,
+      3.079664617071143
+    ],
+    "mean_fscore_5mm": 0.8813993156149214,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8405805556913386,
+      0.9186564671862726
+    ],
+    "mean_observed_to_surface_mean_mm": 2.680405726515497,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      2.542338109857941,
+      2.825862098438828
+    ],
+    "mean_fit_seconds": 0.006069284834666178,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.005910583499886949,
+      0.006258173033468969
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.7197699382253604,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.369848324754244,
+      3.091871815528468
+    ],
+    "mean_visible_chamfer_l1_mm": 2.924457325634408,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      2.752050985279992,
+      3.1040166414957557
+    ],
+    "mean_volume_absolute_error_mesh_ml": 9.450707891453998,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.514046545389937,
+      13.947112037989719
+    ],
+    "mean_volume_absolute_error_analytic_ml": 9.499470974344005,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      5.560698576675839,
+      13.999339908154559
+    ],
+    "volume_rmse_mesh_ml": 12.08292163785563,
+    "volume_rmse_analytic_ml": 12.125504208717977,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "ellipsoid",
+    "condition": "outliers_2percent",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 5.478010996993677,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      5.013722378126961,
+      5.9715855725337175
+    ],
+    "mean_fscore_5mm": 0.48323664710907455,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.4265331551467494,
+      0.5428377164411727
+    ],
+    "mean_observed_to_surface_mean_mm": 4.434688901664579,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      4.052600369413212,
+      4.824429799041774
+    ],
+    "mean_fit_seconds": 0.00717825682174104,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.006767676034845256,
+      0.0076203968790650835
+    ],
+    "mean_hidden_chamfer_l1_mm": 4.68116235584847,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      3.9328041002529472,
+      5.486699992791989
+    ],
+    "mean_visible_chamfer_l1_mm": 5.865793633885222,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      5.510055896809483,
+      6.225862160750917
+    ],
+    "mean_volume_absolute_error_mesh_ml": 15.858890330785789,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      11.212901978566377,
+      20.62539552116715
+    ],
+    "mean_volume_absolute_error_analytic_ml": 15.907848125031427,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      11.25663547554164,
+      20.683921595883643
+    ],
+    "volume_rmse_mesh_ml": 17.98965457273519,
+    "volume_rmse_analytic_ml": 18.038385154375757,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry",
+    "condition": "belt_minus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1072637935389364,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.9945472827417726,
+      1.2132741339061601
+    ],
+    "mean_fscore_5mm": 1.0,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      1.0,
+      1.0
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.018225836916826665,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018010008802230006,
+      0.01847818851771687
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.748510571252928,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.5445716272615577,
+      1.9451176501441736
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5313236744922955,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5008767573064394,
+      0.5616857490674417
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.1519753592111,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      4.916550016959942,
+      9.348015454180661
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.155179166186879,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      4.8951196993855515,
+      9.371858803441913
+    ],
+    "volume_rmse_mesh_ml": 8.178157726687395,
+    "volume_rmse_analytic_ml": 8.19940266947119,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry",
+    "condition": "belt_plus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.7594631592062104,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.4142780678351978,
+      2.100559558844606
+    ],
+    "mean_fscore_5mm": 0.8929141925681855,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8285095557099281,
+      0.9561949233276984
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.018116031317428376,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.017966895654050553,
+      0.018270970894324518
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.9812545566099247,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.2770201025247103,
+      3.684756919891825
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5465409290869269,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5158503121414593,
+      0.5768312238438795
+    ],
+    "mean_volume_absolute_error_mesh_ml": 15.338512319019324,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      11.039581112827017,
+      20.341562732320792
+    ],
+    "mean_volume_absolute_error_analytic_ml": 15.28955452477369,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      10.984947106383904,
+      20.288064428901695
+    ],
+    "volume_rmse_mesh_ml": 17.418352518475377,
+    "volume_rmse_analytic_ml": 17.37237761502437,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry",
+    "condition": "clean",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0610243343000672,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7563765907820246,
+      1.3672340937834646
+    ],
+    "mean_fscore_5mm": 0.9823601810687163,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9598553499045872,
+      0.9988418737524583
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.01824691319294895,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018090961272779777,
+      0.01839906518847177
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6327653897329462,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.008383499703303,
+      2.2763206729928984
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5382111927893317,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5070603714302035,
+      0.5682023094942967
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.779514808758612,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.9369194390290163,
+      10.879241678548174
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.78271861573439,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.9769454717566415,
+      10.850212528010829
+    ],
+    "volume_rmse_mesh_ml": 9.680614397311817,
+    "volume_rmse_analytic_ml": 9.648238960907802,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry",
+    "condition": "correlated_outlier_patch",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 4.10997313036948,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      3.6284960478232318,
+      4.634629953807331
+    ],
+    "mean_fscore_5mm": 0.6247022282929375,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.5822703889730841,
+      0.6711225394687256
+    ],
+    "mean_observed_to_surface_mean_mm": 0.163233427079563,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.11403716485896748,
+      0.22039046801490772
+    ],
+    "mean_fit_seconds": 0.016719694501565147,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.01636365127293781,
+      0.017093162969104014
+    ],
+    "mean_hidden_chamfer_l1_mm": 8.202527790489313,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      7.106780258051296,
+      9.405661382714957
+    ],
+    "mean_visible_chamfer_l1_mm": 1.5856455731906094,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      1.4163580734924517,
+      1.7877383686036379
+    ],
+    "mean_volume_absolute_error_mesh_ml": 35.54329558680517,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      28.817502204831214,
+      42.3631549214761
+    ],
+    "mean_volume_absolute_error_analytic_ml": 35.59225338105082,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      28.858120153156136,
+      42.41693566792497
+    ],
+    "volume_rmse_mesh_ml": 37.53019581099582,
+    "volume_rmse_analytic_ml": 37.58022120039802,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry",
+    "condition": "depth_gap",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0676549427538642,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7688820609355028,
+      1.3688250026931137
+    ],
+    "mean_fscore_5mm": 0.982419056313593,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.960435334299276,
+      0.9988414904985614
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.01597894461398634,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.01577340715424119,
+      0.016177348497876665
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6258049432022916,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.0163296039506857,
+      2.254514857871549
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5569285431792588,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5282981924908837,
+      0.5856150101950894
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.737767610625556,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.0898315408647448,
+      10.658991859324637
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.740971417601334,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.126627807330991,
+      10.637177679736313
+    ],
+    "volume_rmse_mesh_ml": 9.41456370590185,
+    "volume_rmse_analytic_ml": 9.38320853625198,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry",
+    "condition": "depth_jitter_2mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.6079125161169368,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.3474367729337473,
+      1.9039617593262272
+    ],
+    "mean_fscore_5mm": 0.9614339931035832,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9342177447376043,
+      0.982977758570092
+    ],
+    "mean_observed_to_surface_mean_mm": 0.007097016066657542,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.004893778180293267,
+      0.009449917076748134
+    ],
+    "mean_fit_seconds": 0.01817606592279238,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.017954599399430057,
+      0.018421230875537733
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.3759654445905976,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.8431320536145108,
+      2.9873046920400506
+    ],
+    "mean_visible_chamfer_l1_mm": 0.9280931110785181,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.8880163036875193,
+      0.9659078005455725
+    ],
+    "mean_volume_absolute_error_mesh_ml": 10.923941607339126,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      6.49657761106412,
+      15.88058212955437
+    ],
+    "mean_volume_absolute_error_analytic_ml": 10.959716630048183,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      6.52777738832877,
+      15.927429542524079
+    ],
+    "volume_rmse_mesh_ml": 13.69672426541084,
+    "volume_rmse_analytic_ml": 13.73797331460354,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry",
+    "condition": "genuine_narrow_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.5990894194991503,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.2464024011241686,
+      1.9934646378682135
+    ],
+    "mean_fscore_5mm": 0.9221795863618619,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8614498740192343,
+      0.9732119524763033
+    ],
+    "mean_observed_to_surface_mean_mm": 0.004440461150217356,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.002097233946072563,
+      0.00725503165133666
+    ],
+    "mean_fit_seconds": 0.017957753521235038,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.017796185888922386,
+      0.01811634371842956
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.8407399673276514,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.086353320803085,
+      3.6791257416770167
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5634600103314618,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5277202033091484,
+      0.596357097337948
+    ],
+    "mean_volume_absolute_error_mesh_ml": 13.23861421370608,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      8.561175694693762,
+      18.3633537454457
+    ],
+    "mean_volume_absolute_error_analytic_ml": 13.287251411650992,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      8.604766906398929,
+      18.41165144823334
+    ],
+    "volume_rmse_mesh_ml": 15.886368258456143,
+    "volume_rmse_analytic_ml": 15.93102200490441,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry",
+    "condition": "genuine_wide_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.7031262185579337,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.3245250704080458,
+      2.106969810306192
+    ],
+    "mean_fscore_5mm": 0.8933802966712544,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8322457085047382,
+      0.9464929781583535
+    ],
+    "mean_observed_to_surface_mean_mm": 0.006305671297727234,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0038424809154360357,
+      0.009261384227032326
+    ],
+    "mean_fit_seconds": 0.018200864772855613,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.017921023820963455,
+      0.018543799726709647
+    ],
+    "mean_hidden_chamfer_l1_mm": 3.073774330736154,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.266373707816317,
+      3.9337723414179533
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5783629452960823,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5480953210603426,
+      0.6075358710864022
+    ],
+    "mean_volume_absolute_error_mesh_ml": 14.333988905795087,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      9.70686579105713,
+      19.388928465050927
+    ],
+    "mean_volume_absolute_error_analytic_ml": 14.382751988685095,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      9.753562224477278,
+      19.440571801431684
+    ],
+    "volume_rmse_mesh_ml": 16.757615640817136,
+    "volume_rmse_analytic_ml": 16.802614363891337,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry",
+    "condition": "outliers_2percent",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 3.579446349843252,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      3.2722550502482552,
+      3.884592086806277
+    ],
+    "mean_fscore_5mm": 0.7062560811869814,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.6742937168258514,
+      0.740059656961126
+    ],
+    "mean_observed_to_surface_mean_mm": 0.2146037420946094,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.1625462945697239,
+      0.27091196268002726
+    ],
+    "mean_fit_seconds": 0.015702104166848585,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.015249335893167881,
+      0.01615191267992486
+    ],
+    "mean_hidden_chamfer_l1_mm": 6.485433214020386,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      5.814826220917336,
+      7.19554155412861
+    ],
+    "mean_visible_chamfer_l1_mm": 2.1280067768133732,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      1.9148302447276053,
+      2.3604466306071905
+    ],
+    "mean_volume_absolute_error_mesh_ml": 43.97683653937858,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      36.175376526237045,
+      51.72141298483973
+    ],
+    "mean_volume_absolute_error_analytic_ml": 44.02579433362422,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      36.214632165888084,
+      51.77680886586573
+    ],
+    "volume_rmse_mesh_ml": 46.09219456958151,
+    "volume_rmse_analytic_ml": 46.14268304541633,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_annular",
+    "condition": "belt_minus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1072637935389364,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.9945472827417726,
+      1.2132741339061601
+    ],
+    "mean_fscore_5mm": 1.0,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      1.0,
+      1.0
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.30047502418165095,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.29733894461145,
+      0.3042035425525682
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.748510571252928,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.5445716272615577,
+      1.9451176501441736
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5313236744922955,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5008767573064394,
+      0.5616857490674417
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.1519753592111,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      4.916550016959942,
+      9.348015454180661
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.155179166186879,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      4.8951196993855515,
+      9.371858803441913
+    ],
+    "volume_rmse_mesh_ml": 8.178157726687395,
+    "volume_rmse_analytic_ml": 8.19940266947119,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_annular",
+    "condition": "belt_plus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.7594631592062104,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.4142780678351978,
+      2.100559558844606
+    ],
+    "mean_fscore_5mm": 0.8929141925681855,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8285095557099281,
+      0.9561949233276984
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.300554847305951,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.29824617823639227,
+      0.30284360005583344
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.9812545566099247,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.2770201025247103,
+      3.684756919891825
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5465409290869269,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5158503121414593,
+      0.5768312238438795
+    ],
+    "mean_volume_absolute_error_mesh_ml": 15.338512319019324,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      11.039581112827017,
+      20.341562732320792
+    ],
+    "mean_volume_absolute_error_analytic_ml": 15.28955452477369,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      10.984947106383904,
+      20.288064428901695
+    ],
+    "volume_rmse_mesh_ml": 17.418352518475377,
+    "volume_rmse_analytic_ml": 17.37237761502437,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_annular",
+    "condition": "clean",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0610243343000672,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7563765907820246,
+      1.3672340937834646
+    ],
+    "mean_fscore_5mm": 0.9823601810687163,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9598553499045872,
+      0.9988418737524583
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.2993362184012464,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.2975795121480284,
+      0.3008699188835938
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6327653897329462,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.008383499703303,
+      2.2763206729928984
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5382111927893317,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5070603714302035,
+      0.5682023094942967
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.779514808758612,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.9369194390290163,
+      10.879241678548174
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.78271861573439,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.9769454717566415,
+      10.850212528010829
+    ],
+    "volume_rmse_mesh_ml": 9.680614397311817,
+    "volume_rmse_analytic_ml": 9.648238960907802,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_annular",
+    "condition": "correlated_outlier_patch",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.2010578755326689,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7862781767366883,
+      1.6781269175161173
+    ],
+    "mean_fscore_5mm": 0.9511151683118758,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8821950265807298,
+      0.995746325272641
+    ],
+    "mean_observed_to_surface_mean_mm": 0.26498812224483687,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.25793744017114034,
+      0.2713583166321373
+    ],
+    "mean_fit_seconds": 0.301522069600954,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.2997639971843455,
+      0.3029928643239449
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.953415222206523,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.057845188077359,
+      3.0102947071561807
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5932974573314764,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.516564593477551,
+      0.708231311844842
+    ],
+    "mean_volume_absolute_error_mesh_ml": 8.108368487615268,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.2430793281364716,
+      13.570701845948436
+    ],
+    "mean_volume_absolute_error_analytic_ml": 8.11942292801645,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.2758808399431336,
+      13.57533347365982
+    ],
+    "volume_rmse_mesh_ml": 12.324446641044226,
+    "volume_rmse_analytic_ml": 12.312329413987545,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_annular",
+    "condition": "depth_gap",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0677532923945472,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7691721923755174,
+      1.3689208935927795
+    ],
+    "mean_fscore_5mm": 0.982419056313593,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.960435334299276,
+      0.9988414904985614
+    ],
+    "mean_observed_to_surface_mean_mm": 2.9706504639620974e-05,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      8.911951391886294e-05
+    ],
+    "mean_fit_seconds": 0.2638885243407761,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.25954136000461103,
+      0.2680848830532341
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6261776049799301,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.017445490726868,
+      2.254514857871549
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5567732354173369,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5281395490971484,
+      0.5855112175448318
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.74494971070249,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.0982953326694975,
+      10.668574628053001
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.7481535176782685,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.1338198011361533,
+      10.651182774886337
+    ],
+    "volume_rmse_mesh_ml": 9.415094624544876,
+    "volume_rmse_analytic_ml": 9.383772965456505,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_annular",
+    "condition": "depth_jitter_2mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.4562773736286545,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.2341663425403153,
+      1.6874171493611447
+    ],
+    "mean_fscore_5mm": 0.9803977065754098,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9678316345967046,
+      0.991472090149077
+    ],
+    "mean_observed_to_surface_mean_mm": 0.043047185593590824,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.039644814453651506,
+      0.04642633462717813
+    ],
+    "mean_fit_seconds": 0.3040926805018292,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.3014301843691404,
+      0.3068447154953901
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.0565288249611817,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.6060216590182426,
+      2.5161163779491567
+    ],
+    "mean_visible_chamfer_l1_mm": 0.9098956996287959,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.8708423403011609,
+      0.9472185288417901
+    ],
+    "mean_volume_absolute_error_mesh_ml": 8.7944201505804,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      4.777025635217277,
+      13.131358498101857
+    ],
+    "mean_volume_absolute_error_analytic_ml": 8.817475324937162,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      4.7907402084420525,
+      13.174508404341191
+    ],
+    "volume_rmse_mesh_ml": 11.50204754825201,
+    "volume_rmse_analytic_ml": 11.538342069536213,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_annular",
+    "condition": "genuine_narrow_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0446990714201174,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.8990085582020965,
+      1.1903226658704502
+    ],
+    "mean_fscore_5mm": 0.9991037494657484,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9974361581228801,
+      0.9999666629266265
+    ],
+    "mean_observed_to_surface_mean_mm": 0.008558347497504367,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.006643254955968191,
+      0.010567702931359587
+    ],
+    "mean_fit_seconds": 0.3021970070743312,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.3005791277716829,
+      0.3037457019325908
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.597295359418009,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.2938858681206395,
+      1.8980309392434607
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5451496035636733,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5139642291598098,
+      0.5749268095397637
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.055476740980219,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.246845806877408,
+      8.853036172841286
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.058668571792489,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      5.256394382786304,
+      8.840169081443971
+    ],
+    "volume_rmse_mesh_ml": 7.732920075301912,
+    "volume_rmse_analytic_ml": 7.725586576647778,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_annular",
+    "condition": "genuine_wide_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1080480945703721,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.000266666887121,
+      1.2178418551265293
+    ],
+    "mean_fscore_5mm": 0.9997832420347624,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9996539762783003,
+      0.9998916408266858
+    ],
+    "mean_observed_to_surface_mean_mm": 0.03387276955703595,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.030272204224499423,
+      0.037709163048670315
+    ],
+    "mean_fit_seconds": 0.3029872845897141,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.3002713619631929,
+      0.3056016666198654
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.7198118288399489,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.515744249796813,
+      1.9389443594860964
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5608071478958819,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5286451601655929,
+      0.5917559911935351
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.303593545093686,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.335264368650819,
+      9.284234257154795
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.306787353203377,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      5.332681629055356,
+      9.309302942263692
+    ],
+    "volume_rmse_mesh_ml": 8.058505827717301,
+    "volume_rmse_analytic_ml": 8.072437202020485,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_annular",
+    "condition": "outliers_2percent",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.060925533957604,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7576514116181217,
+      1.3669759875196366
+    ],
+    "mean_fscore_5mm": 0.9828261755232428,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9609551707659523,
+      0.9989085215900927
+    ],
+    "mean_observed_to_surface_mean_mm": 0.2464913471108753,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.23971866447491363,
+      0.25355982164081664
+    ],
+    "mean_fit_seconds": 0.30118493756162934,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.2993213115238177,
+      0.3028795819222675
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6313297875235422,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.0092504878474573,
+      2.2716023088153867
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5393010173113669,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.508600389887082,
+      0.5689931511077823
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.778834160896493,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.9511330097393156,
+      10.858631189610643
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.782037967872271,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.990682966249062,
+      10.829602039073293
+    ],
+    "volume_rmse_mesh_ml": 9.663860324869603,
+    "volume_rmse_analytic_ml": 9.631552204326168,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_height95",
+    "condition": "belt_minus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0792256784861818,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.9925853732233644,
+      1.1625405575566778
+    ],
+    "mean_fscore_5mm": 1.0,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      1.0,
+      1.0
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.01834685409752031,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018231586924715278,
+      0.018458340600773226
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6839770795618039,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.5296368374572584,
+      1.840579668482637
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5331635322404679,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5006746590289454,
+      0.5646930102206358
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.153569964807862,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.4946035035769105,
+      8.729244562990004
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.156773771783641,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      5.488451604892782,
+      8.731302258752098
+    ],
+    "volume_rmse_mesh_ml": 7.713491584864304,
+    "volume_rmse_analytic_ml": 7.723910821819744,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_height95",
+    "condition": "belt_plus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.90324536458171,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.5544975713179403,
+      2.2462063285872786
+    ],
+    "mean_fscore_5mm": 0.8776002035040866,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.805369581449938,
+      0.950019096570438
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.018331913190195337,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018167199228628306,
+      0.018486089739356733
+    ],
+    "mean_hidden_chamfer_l1_mm": 3.248973438400284,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.5394786344146922,
+      3.9511636231143834
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5476321415398556,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5173619428150245,
+      0.5774420953773219
+    ],
+    "mean_volume_absolute_error_mesh_ml": 17.089270230468706,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      12.617592276356001,
+      22.25485308722193
+    ],
+    "mean_volume_absolute_error_analytic_ml": 17.040312436223072,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      12.569371146405805,
+      22.208894146107372
+    ],
+    "volume_rmse_mesh_ml": 19.105521223442633,
+    "volume_rmse_analytic_ml": 19.05870788853841,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_height95",
+    "condition": "clean",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1632302889437411,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.8324347147979329,
+      1.4969228504895242
+    ],
+    "mean_fscore_5mm": 0.9660611864158556,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9357350802876365,
+      0.9918567421548734
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.018404951251189534,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018197565593436594,
+      0.018626983085171862
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.8355430318533175,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.1538934912931589,
+      2.528881510402126
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5386489931886316,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5086042975492808,
+      0.568668297209478
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.823154006234865,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.4934773424456815,
+      12.409024784881446
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.774196211989229,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.4455508099667775,
+      12.356342831061529
+    ],
+    "volume_rmse_mesh_ml": 10.992411373479815,
+    "volume_rmse_analytic_ml": 10.955374633541473,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_height95",
+    "condition": "correlated_outlier_patch",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.2847536549199805,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.959296605709767,
+      1.607342483271122
+    ],
+    "mean_fscore_5mm": 0.9567388903921658,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9292559340235756,
+      0.9783610608939374
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.01837039238307625,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018175655264591722,
+      0.01853034418503133
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.7650725978420772,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.1008595911843344,
+      2.4460444830410424
+    ],
+    "mean_visible_chamfer_l1_mm": 0.8664276090255002,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.8277593564994523,
+      0.9048928485002795
+    ],
+    "mean_volume_absolute_error_mesh_ml": 8.175973225051,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.8323081238516754,
+      12.782448465355193
+    ],
+    "mean_volume_absolute_error_analytic_ml": 8.127015430805367,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.7839962397268327,
+      12.725445018233613
+    ],
+    "volume_rmse_mesh_ml": 11.2978319101916,
+    "volume_rmse_analytic_ml": 11.260060139199009,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_height95",
+    "condition": "depth_gap",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.2169018719468305,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.8875930052612327,
+      1.55270390623603
+    ],
+    "mean_fscore_5mm": 0.9599909925576863,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9275378233343827,
+      0.9888334957651956
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.01609741334686987,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.015922480212854376,
+      0.01626580347462247
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.9214988669258724,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.2478878952695691,
+      2.609641524897011
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5573062836428823,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5299790823278306,
+      0.5842598847753242
+    ],
+    "mean_volume_absolute_error_mesh_ml": 8.222350219365673,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.9876491065779844,
+      12.791652163731575
+    ],
+    "mean_volume_absolute_error_analytic_ml": 8.173392425120037,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.933430268915851,
+      12.733908967685482
+    ],
+    "volume_rmse_mesh_ml": 11.245381079367055,
+    "volume_rmse_analytic_ml": 11.207260474971951,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_height95",
+    "condition": "depth_jitter_2mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.2758700480267877,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.0726184989135639,
+      1.4923524806601332
+    ],
+    "mean_fscore_5mm": 0.9828305232681124,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9684527288813437,
+      0.9950393750019643
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0006493381797229937,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.00034056420566262095,
+      0.0010029922650862384
+    ],
+    "mean_fit_seconds": 0.018481534750511248,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.01833074942769599,
+      0.018623131463634007
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6639028417381816,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.241029399021181,
+      2.1124736725597746
+    ],
+    "mean_visible_chamfer_l1_mm": 0.9226290504766705,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.8846631776193499,
+      0.9599318886151821
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.793506011085502,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.7620090937365878,
+      10.265304200734084
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.796709818061281,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.7902081418776272,
+      10.232584003806197
+    ],
+    "volume_rmse_mesh_ml": 8.88497230090081,
+    "volume_rmse_analytic_ml": 8.85786875977646,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_height95",
+    "condition": "genuine_narrow_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1503459055085261,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.8235560907323268,
+      1.4804306424170524
+    ],
+    "mean_fscore_5mm": 0.9678691829964179,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9381121481775194,
+      0.9923186222769492
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.018227840278996155,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018067470500197184,
+      0.01838406652556538
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.8114742763684266,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.134011473392321,
+      2.500219845355862
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5416101027001724,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5110989678106639,
+      0.5711594646111857
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.64668528876323,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.321223618256005,
+      12.222102777414301
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.59804809081832,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.2737185054088607,
+      12.172324635872686
+    ],
+    "volume_rmse_mesh_ml": 10.862461033252151,
+    "volume_rmse_analytic_ml": 10.8260493981839,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_height95",
+    "condition": "genuine_wide_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.113107125933639,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7901104951047773,
+      1.4383857182018112
+    ],
+    "mean_fscore_5mm": 0.9725515873625894,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9449332364472572,
+      0.9942567391498881
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.018378205005622778,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.01821647016622592,
+      0.018547811070069052
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.7430459214652902,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.0760233532444368,
+      2.414363187250897
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5410467600106973,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.50938108142473,
+      0.5717686821156157
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.130187214007301,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.7970253573326906,
+      11.703898058360753
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.08751108410853,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.7661180296467736,
+      11.651882255669664
+    ],
+    "volume_rmse_mesh_ml": 10.498387867257021,
+    "volume_rmse_analytic_ml": 10.463130564002064,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_height95",
+    "condition": "outliers_2percent",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.6115351070807196,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.2866905224914822,
+      1.932012056893137
+    ],
+    "mean_fscore_5mm": 0.9212399791982021,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8906026444035708,
+      0.9476548117382895
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.018389093864243478,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.01821853057335829,
+      0.018562422857939964
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.059681481959543,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.3549695503937,
+      2.7784858173686304
+    ],
+    "mean_visible_chamfer_l1_mm": 1.2325078140104053,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      1.1874337508251243,
+      1.2795972222690857
+    ],
+    "mean_volume_absolute_error_mesh_ml": 8.697079150687497,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      4.38953617730428,
+      13.36657650379384
+    ],
+    "mean_volume_absolute_error_analytic_ml": 8.64812135644186,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      4.345895760865743,
+      13.316470580243392
+    ],
+    "volume_rmse_mesh_ml": 11.731870103250065,
+    "volume_rmse_analytic_ml": 11.693079042350847,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_multiscale",
+    "condition": "belt_minus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1072637935389364,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.9945472827417726,
+      1.2132741339061601
+    ],
+    "mean_fscore_5mm": 1.0,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      1.0,
+      1.0
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.2999461979100791,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.2973939561830775,
+      0.30265518488085946
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.748510571252928,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.5445716272615577,
+      1.9451176501441736
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5313236744922955,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5008767573064394,
+      0.5616857490674417
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.1519753592111,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      4.916550016959942,
+      9.348015454180661
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.155179166186879,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      4.8951196993855515,
+      9.371858803441913
+    ],
+    "volume_rmse_mesh_ml": 8.178157726687395,
+    "volume_rmse_analytic_ml": 8.19940266947119,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_multiscale",
+    "condition": "belt_plus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.7594631592062104,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.4142780678351978,
+      2.100559558844606
+    ],
+    "mean_fscore_5mm": 0.8929141925681855,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8285095557099281,
+      0.9561949233276984
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.3003865695791319,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.2982508361072784,
+      0.30221398027327573
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.9812545566099247,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.2770201025247103,
+      3.684756919891825
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5465409290869269,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5158503121414593,
+      0.5768312238438795
+    ],
+    "mean_volume_absolute_error_mesh_ml": 15.338512319019324,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      11.039581112827017,
+      20.341562732320792
+    ],
+    "mean_volume_absolute_error_analytic_ml": 15.28955452477369,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      10.984947106383904,
+      20.288064428901695
+    ],
+    "volume_rmse_mesh_ml": 17.418352518475377,
+    "volume_rmse_analytic_ml": 17.37237761502437,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_multiscale",
+    "condition": "clean",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0610243343000672,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7563765907820246,
+      1.3672340937834646
+    ],
+    "mean_fscore_5mm": 0.9823601810687163,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9598553499045872,
+      0.9988418737524583
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.2981357639170407,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.2962469393889478,
+      0.29985639817993315
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6327653897329462,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.008383499703303,
+      2.2763206729928984
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5382111927893317,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5070603714302035,
+      0.5682023094942967
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.779514808758612,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.9369194390290163,
+      10.879241678548174
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.78271861573439,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.9769454717566415,
+      10.850212528010829
+    ],
+    "volume_rmse_mesh_ml": 9.680614397311817,
+    "volume_rmse_analytic_ml": 9.648238960907802,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_multiscale",
+    "condition": "correlated_outlier_patch",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.2010578755326689,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7862781767366883,
+      1.6781269175161173
+    ],
+    "mean_fscore_5mm": 0.9511151683118758,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8821950265807298,
+      0.995746325272641
+    ],
+    "mean_observed_to_surface_mean_mm": 0.26498812224483687,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.25793744017114034,
+      0.2713583166321373
+    ],
+    "mean_fit_seconds": 0.3016612984938547,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.30006922498529703,
+      0.30312732030991657
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.953415222206523,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.057845188077359,
+      3.0102947071561807
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5932974573314764,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.516564593477551,
+      0.708231311844842
+    ],
+    "mean_volume_absolute_error_mesh_ml": 8.108368487615268,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.2430793281364716,
+      13.570701845948436
+    ],
+    "mean_volume_absolute_error_analytic_ml": 8.11942292801645,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.2758808399431336,
+      13.57533347365982
+    ],
+    "volume_rmse_mesh_ml": 12.324446641044226,
+    "volume_rmse_analytic_ml": 12.312329413987545,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_multiscale",
+    "condition": "depth_gap",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0676549427538642,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7688820609355028,
+      1.3688250026931137
+    ],
+    "mean_fscore_5mm": 0.982419056313593,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.960435334299276,
+      0.9988414904985614
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.26205258681632887,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.25863770882448683,
+      0.2652438706102354
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6258049432022916,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.0163296039506857,
+      2.254514857871549
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5569285431792588,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5282981924908837,
+      0.5856150101950894
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.737767610625556,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.0898315408647448,
+      10.658991859324637
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.740971417601334,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.126627807330991,
+      10.637177679736313
+    ],
+    "volume_rmse_mesh_ml": 9.41456370590185,
+    "volume_rmse_analytic_ml": 9.38320853625198,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_multiscale",
+    "condition": "depth_jitter_2mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.4681534421645663,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.2495910099423502,
+      1.6946473006881142
+    ],
+    "mean_fscore_5mm": 0.9798270203886581,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9672012644771131,
+      0.9907640709811649
+    ],
+    "mean_observed_to_surface_mean_mm": 0.041414441732416436,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.03824237343352433,
+      0.04457484447699336
+    ],
+    "mean_fit_seconds": 0.30406146189974,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.30111222758035483,
+      0.3070626124390401
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.0831094968811104,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.6582577565432384,
+      2.5277130389197664
+    ],
+    "mean_visible_chamfer_l1_mm": 0.9105013649531131,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.8686790710764548,
+      0.9492034255749361
+    ],
+    "mean_volume_absolute_error_mesh_ml": 9.388866363822688,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.705981750367403,
+      13.358381190053535
+    ],
+    "mean_volume_absolute_error_analytic_ml": 9.41192153817945,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      5.701042337315393,
+      13.405436227941172
+    ],
+    "volume_rmse_mesh_ml": 11.632358523751455,
+    "volume_rmse_analytic_ml": 11.670198040993194,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_multiscale",
+    "condition": "genuine_narrow_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.3719693488255311,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.1361682364246466,
+      1.626228139837809
+    ],
+    "mean_fscore_5mm": 0.9837049141714899,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9527905577459719,
+      1.0
+    ],
+    "mean_observed_to_surface_mean_mm": 0.004795058534715303,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0027969105232162443,
+      0.0070681257752569
+    ],
+    "mean_fit_seconds": 0.3020836355960152,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.3003657415996713,
+      0.3037973567387477
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.308306228572117,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.8232478333791131,
+      2.8421076180525304
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5427446450302175,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5118098199042231,
+      0.5741159184435779
+    ],
+    "mean_volume_absolute_error_mesh_ml": 10.73799619128267,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      7.0280906449054665,
+      14.821299999916082
+    ],
+    "mean_volume_absolute_error_analytic_ml": 10.748621579305395,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      7.04280307298839,
+      14.838147790489078
+    ],
+    "volume_rmse_mesh_ml": 12.843782670419598,
+    "volume_rmse_analytic_ml": 12.862039118285628,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_multiscale",
+    "condition": "genuine_wide_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.7031262185579337,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.3245250704080458,
+      2.106969810306192
+    ],
+    "mean_fscore_5mm": 0.8933802966712544,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8322457085047382,
+      0.9464929781583535
+    ],
+    "mean_observed_to_surface_mean_mm": 0.006305671297727234,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0038424809154360357,
+      0.009261384227032326
+    ],
+    "mean_fit_seconds": 0.3018039235030301,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.29970157579082296,
+      0.30354246829786763
+    ],
+    "mean_hidden_chamfer_l1_mm": 3.073774330736154,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.266373707816317,
+      3.9337723414179533
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5783629452960823,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5480953210603426,
+      0.6075358710864022
+    ],
+    "mean_volume_absolute_error_mesh_ml": 14.333988905795087,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      9.70686579105713,
+      19.388928465050927
+    ],
+    "mean_volume_absolute_error_analytic_ml": 14.382751988685095,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      9.753562224477278,
+      19.440571801431684
+    ],
+    "volume_rmse_mesh_ml": 16.757615640817136,
+    "volume_rmse_analytic_ml": 16.802614363891337,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_multiscale",
+    "condition": "outliers_2percent",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.06188814531163,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7574906112285393,
+      1.3671461077427314
+    ],
+    "mean_fscore_5mm": 0.9827508580563636,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9608262165180671,
+      0.9989669554749735
+    ],
+    "mean_observed_to_surface_mean_mm": 0.2465352948341443,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.2397582827731289,
+      0.25358844540705006
+    ],
+    "mean_fit_seconds": 0.3019339930809413,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.3002307046515246,
+      0.3035198547093993
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.633908152870258,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.0094823725884017,
+      2.274311336342505
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5389136928771157,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5077598469707246,
+      0.5695292966626502
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.7797216573028045,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.9441273132710855,
+      10.871049349865771
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.782925464278583,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.981514948447341,
+      10.842020199328422
+    ],
+    "volume_rmse_mesh_ml": 9.674777526935568,
+    "volume_rmse_analytic_ml": 9.642427409060332,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_robust95",
+    "condition": "belt_minus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0818068059976642,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.9953335911167447,
+      1.163519907391331
+    ],
+    "mean_fscore_5mm": 1.0,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      1.0,
+      1.0
+    ],
+    "mean_observed_to_surface_mean_mm": 0.014646879089654409,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.012887849530911679,
+      0.01625590058866672
+    ],
+    "mean_fit_seconds": 0.01829786808229983,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018214233162871095,
+      0.01838402197075387
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6852573698216238,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.531001043882526,
+      1.8415158365360662
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5368247543837726,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.504278652497021,
+      0.5685469791733808
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.153588738409847,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.486701959809014,
+      8.730099026961474
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.156792545385625,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      5.488568069641813,
+      8.740337473490609
+    ],
+    "volume_rmse_mesh_ml": 7.720078174307416,
+    "volume_rmse_analytic_ml": 7.730783713528783,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_robust95",
+    "condition": "belt_plus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.9039432869061201,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.5549987455797774,
+      2.2471750223284754
+    ],
+    "mean_fscore_5mm": 0.8776522387277966,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8054178919833488,
+      0.9500718304169922
+    ],
+    "mean_observed_to_surface_mean_mm": 0.014646879089654409,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.012887849530911679,
+      0.01625590058866672
+    ],
+    "mean_fit_seconds": 0.018355698014299076,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018175110137478138,
+      0.01856066169687741
+    ],
+    "mean_hidden_chamfer_l1_mm": 3.247435762464809,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.5386643744123067,
+      3.9483981817465974
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5504705584709823,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5196291291681865,
+      0.5809238938722253
+    ],
+    "mean_volume_absolute_error_mesh_ml": 17.04670699402042,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      12.580370583423289,
+      22.212534915930046
+    ],
+    "mean_volume_absolute_error_analytic_ml": 16.997749199774784,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      12.532149453473092,
+      22.16657597481548
+    ],
+    "volume_rmse_mesh_ml": 19.064226068949743,
+    "volume_rmse_analytic_ml": 19.017431073190057,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_robust95",
+    "condition": "clean",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1646924085430033,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.833979565799921,
+      1.498859533027715
+    ],
+    "mean_fscore_5mm": 0.9659961290123067,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9357462255458012,
+      0.9917333458730581
+    ],
+    "mean_observed_to_surface_mean_mm": 0.014646879089654409,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.012887849530911679,
+      0.01625590058866672
+    ],
+    "mean_fit_seconds": 0.018330579817605514,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018207224808914665,
+      0.018419635377358645
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.835603177210244,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.1560046243596267,
+      2.5283326992973296
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5412541677641644,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5118379680284162,
+      0.5706393644455604
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.780590769786577,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.453569022677212,
+      12.36089952174319
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.731632975540941,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.4057493084190424,
+      12.30752313597115
+    ],
+    "volume_rmse_mesh_ml": 10.958823946570822,
+    "volume_rmse_analytic_ml": 10.921882241796151,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_robust95",
+    "condition": "correlated_outlier_patch",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1332132873498866,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.8054495632870764,
+      1.4609989250099509
+    ],
+    "mean_fscore_5mm": 0.9715714136692554,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9436641270857618,
+      0.9938857250755287
+    ],
+    "mean_observed_to_surface_mean_mm": 0.27527595368859265,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.2691776102268065,
+      0.28013510355961396
+    ],
+    "mean_fit_seconds": 0.018345163320191205,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018143191836134068,
+      0.018547980914930425
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.7640254301403926,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.09671147568766,
+      2.446376214605169
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5508328429274209,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5188678189354329,
+      0.5825878749400469
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.333738986003811,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.013145131442275,
+      11.90844466520891
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.284781191758175,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.9721207719208285,
+      11.858468269832974
+    ],
+    "volume_rmse_mesh_ml": 10.645686593613181,
+    "volume_rmse_analytic_ml": 10.609866894379659,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_robust95",
+    "condition": "depth_gap",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.2214122797685676,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.891273896329758,
+      1.5575410196722568
+    ],
+    "mean_fscore_5mm": 0.9596937531182513,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9272605475620366,
+      0.9885989752472067
+    ],
+    "mean_observed_to_surface_mean_mm": 0.019662150734741663,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.01776962445815287,
+      0.021683314778763896
+    ],
+    "mean_fit_seconds": 0.016104267560876906,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.01590301737402721,
+      0.01630609990073329
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.920069629899718,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.2462662676977554,
+      2.6105417068247148
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5671326128177319,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.540696525118359,
+      0.5938310005887776
+    ],
+    "mean_volume_absolute_error_mesh_ml": 8.123986512703748,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.8864105605194195,
+      12.68341480271171
+    ],
+    "mean_volume_absolute_error_analytic_ml": 8.075028718458112,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.832191722857285,
+      12.625671606665625
+    ],
+    "volume_rmse_mesh_ml": 11.168927445328718,
+    "volume_rmse_analytic_ml": 11.130998876350937,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_robust95",
+    "condition": "depth_jitter_2mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.2641324778008554,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.0589327904316117,
+      1.4827090313107127
+    ],
+    "mean_fscore_5mm": 0.9832067186507748,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9688425967471972,
+      0.9952332928025549
+    ],
+    "mean_observed_to_surface_mean_mm": 0.060720406343829664,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.05883993125963256,
+      0.06258857888404369
+    ],
+    "mean_fit_seconds": 0.01857078824347506,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.01840458211081568,
+      0.018726082113425947
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6543292992881475,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.2287880954157537,
+      2.1003688945808663
+    ],
+    "mean_visible_chamfer_l1_mm": 0.9016659132216289,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.8618818508244768,
+      0.9399586058093005
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.799944438491559,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.8652714550234806,
+      10.148688915093436
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.803148245467337,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.8943162766072303,
+      10.124104512038082
+    ],
+    "volume_rmse_mesh_ml": 8.785957771809771,
+    "volume_rmse_analytic_ml": 8.759636933961826,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_robust95",
+    "condition": "genuine_narrow_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1580322844325077,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.8306333550624055,
+      1.489602373000683
+    ],
+    "mean_fscore_5mm": 0.9675764313963842,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9379550363562358,
+      0.9919754284855554
+    ],
+    "mean_observed_to_surface_mean_mm": 0.026633298309848077,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.024087345519656,
+      0.029250059876483478
+    ],
+    "mean_fit_seconds": 0.018269353905149426,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.01808259217820402,
+      0.018428510738400898
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.810586810095929,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.1311643734701897,
+      2.498558835514452
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5548257523157859,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5246376320925586,
+      0.5846204846341789
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.565459133140827,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.2401056056537114,
+      12.141010727938014
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.516821935195917,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.1926004928065677,
+      12.091232586396401
+    ],
+    "volume_rmse_mesh_ml": 10.804044538092144,
+    "volume_rmse_analytic_ml": 10.767837943600464,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_robust95",
+    "condition": "genuine_wide_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1341636455650972,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.8079221987668156,
+      1.4605059958044344
+    ],
+    "mean_fscore_5mm": 0.9712616942444513,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9437892475941019,
+      0.9930230686795292
+    ],
+    "mean_observed_to_surface_mean_mm": 0.07211260511676694,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.06617455595791616,
+      0.07797103091690832
+    ],
+    "mean_fit_seconds": 0.018306534669439618,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018170260098850123,
+      0.01846014980231606
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.7442510014769645,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.077479152077492,
+      2.417578074532942
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5754854451164396,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5449525215711697,
+      0.6058593986245693
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.970905732881562,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.705760126134347,
+      11.484369722237242
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.946428004625765,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.6865457665755095,
+      11.441727401800357
+    ],
+    "volume_rmse_mesh_ml": 10.344900907856166,
+    "volume_rmse_analytic_ml": 10.310221387021485,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_robust95",
+    "condition": "outliers_2percent",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.3758713888402845,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.0320034477088402,
+      1.7306603438606303
+    ],
+    "mean_fscore_5mm": 0.948274274788336,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9148617109792446,
+      0.9770428041770317
+    ],
+    "mean_observed_to_surface_mean_mm": 0.16596815873739829,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.15526889607764208,
+      0.17544136212436848
+    ],
+    "mean_fit_seconds": 0.018264190982639168,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.018107997934081747,
+      0.01842680972646728
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.0514818068126934,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.3479880629123062,
+      2.7711965622119585
+    ],
+    "mean_visible_chamfer_l1_mm": 0.747694864375315,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.7083245295013408,
+      0.788743815513749
+    ],
+    "mean_volume_absolute_error_mesh_ml": 8.183070072127105,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.846438499904608,
+      12.880473846964872
+    ],
+    "mean_volume_absolute_error_analytic_ml": 8.13411227788147,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.7983567686369457,
+      12.83036792341442
+    ],
+    "volume_rmse_mesh_ml": 11.361705248502917,
+    "volume_rmse_analytic_ml": 11.324006886125671,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_spatial",
+    "condition": "belt_minus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.1072637935389364,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.9945472827417726,
+      1.2132741339061601
+    ],
+    "mean_fscore_5mm": 1.0,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      1.0,
+      1.0
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.06399535757373087,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.0636253720986133,
+      0.06431225508082813
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.748510571252928,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.5445716272615577,
+      1.9451176501441736
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5313236744922955,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5008767573064394,
+      0.5616857490674417
+    ],
+    "mean_volume_absolute_error_mesh_ml": 7.1519753592111,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      4.916550016959942,
+      9.348015454180661
+    ],
+    "mean_volume_absolute_error_analytic_ml": 7.155179166186879,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      4.8951196993855515,
+      9.371858803441913
+    ],
+    "volume_rmse_mesh_ml": 8.178157726687395,
+    "volume_rmse_analytic_ml": 8.19940266947119,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_spatial",
+    "condition": "belt_plus3mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.7594631592062104,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.4142780678351978,
+      2.100559558844606
+    ],
+    "mean_fscore_5mm": 0.8929141925681855,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8285095557099281,
+      0.9561949233276984
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.06394655207986943,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.06350746164146888,
+      0.06437383218969141
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.9812545566099247,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.2770201025247103,
+      3.684756919891825
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5465409290869269,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5158503121414593,
+      0.5768312238438795
+    ],
+    "mean_volume_absolute_error_mesh_ml": 15.338512319019324,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      11.039581112827017,
+      20.341562732320792
+    ],
+    "mean_volume_absolute_error_analytic_ml": 15.28955452477369,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      10.984947106383904,
+      20.288064428901695
+    ],
+    "volume_rmse_mesh_ml": 17.418352518475377,
+    "volume_rmse_analytic_ml": 17.37237761502437,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_spatial",
+    "condition": "clean",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0610243343000672,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7563765907820246,
+      1.3672340937834646
+    ],
+    "mean_fscore_5mm": 0.9823601810687163,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9598553499045872,
+      0.9988418737524583
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.06427535406934719,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.06368340289967213,
+      0.0649936632195022
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6327653897329462,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.008383499703303,
+      2.2763206729928984
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5382111927893317,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5070603714302035,
+      0.5682023094942967
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.779514808758612,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.9369194390290163,
+      10.879241678548174
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.78271861573439,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.9769454717566415,
+      10.850212528010829
+    ],
+    "volume_rmse_mesh_ml": 9.680614397311817,
+    "volume_rmse_analytic_ml": 9.648238960907802,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_spatial",
+    "condition": "correlated_outlier_patch",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 4.076260885319408,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      3.584206068218146,
+      4.609787662780254
+    ],
+    "mean_fscore_5mm": 0.6283410517518985,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.5837494628518379,
+      0.6776828366898867
+    ],
+    "mean_observed_to_surface_mean_mm": 0.16236472698968338,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.11227046772671813,
+      0.21987995504543276
+    ],
+    "mean_fit_seconds": 0.06303864566143602,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.06253619165800046,
+      0.06367799363724772
+    ],
+    "mean_hidden_chamfer_l1_mm": 8.162329640938728,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      7.043648411467414,
+      9.38430222155299
+    ],
+    "mean_visible_chamfer_l1_mm": 1.5506335977051062,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      1.3733997024798041,
+      1.7554693572862123
+    ],
+    "mean_volume_absolute_error_mesh_ml": 35.400890626748684,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      28.659608501218433,
+      42.18599096561656
+    ],
+    "mean_volume_absolute_error_analytic_ml": 35.44984842099433,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      28.706461093382693,
+      42.24279514249162
+    ],
+    "volume_rmse_mesh_ml": 37.384951053694465,
+    "volume_rmse_analytic_ml": 37.43494725842022,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_spatial",
+    "condition": "depth_gap",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0676549427538642,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7688820609355028,
+      1.3688250026931137
+    ],
+    "mean_fscore_5mm": 0.982419056313593,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.960435334299276,
+      0.9988414904985614
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0,
+      0.0
+    ],
+    "mean_fit_seconds": 0.05636554866214283,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.05563566979665969,
+      0.057041427587682846
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6258049432022916,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.0163296039506857,
+      2.254514857871549
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5569285431792588,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5282981924908837,
+      0.5856150101950894
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.737767610625556,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      3.0898315408647448,
+      10.658991859324637
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.740971417601334,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      3.126627807330991,
+      10.637177679736313
+    ],
+    "volume_rmse_mesh_ml": 9.41456370590185,
+    "volume_rmse_analytic_ml": 9.38320853625198,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_spatial",
+    "condition": "depth_jitter_2mm",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.4683853427380695,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.2519716178277078,
+      1.6936616871896255
+    ],
+    "mean_fscore_5mm": 0.9801185853931206,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9678967500057929,
+      0.9907924556566101
+    ],
+    "mean_observed_to_surface_mean_mm": 0.04053749560380187,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.03769254916008018,
+      0.0434426701450522
+    ],
+    "mean_fit_seconds": 0.06402181248995475,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.06364512543853683,
+      0.06438910483581518
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.079252814413238,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.6566063116552645,
+      2.52035766484785
+    ],
+    "mean_visible_chamfer_l1_mm": 0.9138204768760669,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.8728444942820055,
+      0.9521205035877186
+    ],
+    "mean_volume_absolute_error_mesh_ml": 9.386879171750122,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.708223388625889,
+      13.351487596545708
+    ],
+    "mean_volume_absolute_error_analytic_ml": 9.409934346106887,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      5.699176190476804,
+      13.398709840431522
+    ],
+    "volume_rmse_mesh_ml": 11.624721266395103,
+    "volume_rmse_analytic_ml": 11.662515123833831,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_spatial",
+    "condition": "genuine_narrow_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.332315904056412,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.088654522273784,
+      1.6086969801598425
+    ],
+    "mean_fscore_5mm": 0.9840381518675603,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9531237954420423,
+      1.0
+    ],
+    "mean_observed_to_surface_mean_mm": 0.0024989416117564877,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0018180262242252967,
+      0.0032091997818621907
+    ],
+    "mean_fit_seconds": 0.06440615964432557,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.06393619639396396,
+      0.06494876528934886
+    ],
+    "mean_hidden_chamfer_l1_mm": 2.238202301504297,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.724901476807621,
+      2.809182315918608
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5406039247544476,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5098019621819604,
+      0.5713449565060115
+    ],
+    "mean_volume_absolute_error_mesh_ml": 9.700862907539264,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      5.951547318914404,
+      14.24301336506531
+    ],
+    "mean_volume_absolute_error_analytic_ml": 9.727365762275808,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      5.954195851938017,
+      14.267154484002534
+    ],
+    "volume_rmse_mesh_ml": 12.249177028505997,
+    "volume_rmse_analytic_ml": 12.281945539461061,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_spatial",
+    "condition": "genuine_wide_protrusion",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.7031262185579337,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      1.3245250704080458,
+      2.106969810306192
+    ],
+    "mean_fscore_5mm": 0.8933802966712544,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.8322457085047382,
+      0.9464929781583535
+    ],
+    "mean_observed_to_surface_mean_mm": 0.006305671297727234,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.0038424809154360357,
+      0.009261384227032326
+    ],
+    "mean_fit_seconds": 0.06381733315841605,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.06337919782478517,
+      0.06421348353663538
+    ],
+    "mean_hidden_chamfer_l1_mm": 3.073774330736154,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      2.266373707816317,
+      3.9337723414179533
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5783629452960823,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5480953210603426,
+      0.6075358710864022
+    ],
+    "mean_volume_absolute_error_mesh_ml": 14.333988905795087,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      9.70686579105713,
+      19.388928465050927
+    ],
+    "mean_volume_absolute_error_analytic_ml": 14.382751988685095,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      9.753562224477278,
+      19.440571801431684
+    ],
+    "volume_rmse_mesh_ml": 16.757615640817136,
+    "volume_rmse_analytic_ml": 16.802614363891337,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  },
+  {
+    "method": "symmetry_spatial",
+    "condition": "outliers_2percent",
+    "attempted_frames": 12,
+    "successful_frames": 12,
+    "failed_frames": 0,
+    "attempted_objects": 12,
+    "successful_objects": 12,
+    "mean_chamfer_l1_mm": 1.0616724497527656,
+    "objects_with_chamfer_l1_mm": 12,
+    "independent_clusters_with_chamfer_l1_mm": 12,
+    "ci95_chamfer_l1_mm": [
+      0.7575889963030412,
+      1.367399638325203
+    ],
+    "mean_fscore_5mm": 0.9826041461162358,
+    "objects_with_fscore_5mm": 12,
+    "independent_clusters_with_fscore_5mm": 12,
+    "ci95_fscore_5mm": [
+      0.9605911518605362,
+      0.9988916924417799
+    ],
+    "mean_observed_to_surface_mean_mm": 0.2465673646088483,
+    "objects_with_observed_to_surface_mean_mm": 12,
+    "independent_clusters_with_observed_to_surface_mean_mm": 12,
+    "ci95_observed_to_surface_mean_mm": [
+      0.23979501591286523,
+      0.25362246831646196
+    ],
+    "mean_fit_seconds": 0.06466042357108866,
+    "objects_with_fit_seconds": 12,
+    "independent_clusters_with_fit_seconds": 12,
+    "ci95_fit_seconds": [
+      0.06358025747103967,
+      0.06630969190615967
+    ],
+    "mean_hidden_chamfer_l1_mm": 1.6333012909176843,
+    "objects_with_hidden_chamfer_l1_mm": 12,
+    "independent_clusters_with_hidden_chamfer_l1_mm": 12,
+    "ci95_hidden_chamfer_l1_mm": [
+      1.0092095957990095,
+      2.2740882715596116
+    ],
+    "mean_visible_chamfer_l1_mm": 0.5390708911114729,
+    "objects_with_visible_chamfer_l1_mm": 12,
+    "independent_clusters_with_visible_chamfer_l1_mm": 12,
+    "ci95_visible_chamfer_l1_mm": [
+      0.5080683590641244,
+      0.5691015881161606
+    ],
+    "mean_volume_absolute_error_mesh_ml": 6.78038560208687,
+    "objects_with_volume_absolute_error_mesh_ml": 12,
+    "independent_clusters_with_volume_absolute_error_mesh_ml": 12,
+    "ci95_volume_absolute_error_mesh_ml": [
+      2.9386258471040794,
+      10.878892338022899
+    ],
+    "mean_volume_absolute_error_analytic_ml": 6.783589409062649,
+    "objects_with_volume_absolute_error_analytic_ml": 12,
+    "independent_clusters_with_volume_absolute_error_analytic_ml": 12,
+    "ci95_volume_absolute_error_analytic_ml": [
+      2.977979028806215,
+      10.84986318748555
+    ],
+    "volume_rmse_mesh_ml": 9.680957785148207,
+    "volume_rmse_analytic_ml": 9.648587834042637,
+    "ci_note": "Equal independent clusters (object IDs by default, explicit families when supplied); bootstrap at >=10 clusters"
+  }
+]

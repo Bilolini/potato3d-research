@@ -1,0 +1,43 @@
+{
+  "frozen_protocol_sha256": "5874070b1271584a7d9a06e9d2036fcb839ad943b146a264702804cf1ef3f3b1",
+  "scan_only_scores_sha256": "e41b30ffbea359e786cf6826c1be18d2afd0f795fe968193b83d31194a6345aa",
+  "target_sha256": "8c143731353073e78eeb233cb822a9af379abba66aac73dbab0e7612a75f4deb",
+  "rules": {
+    "sensitivity": {
+      "flagged": [
+        "R12-7",
+        "3R2-10"
+      ],
+      "flagged_errors_mm": [
+        2.700255164407965,
+        2.739662754976644
+      ],
+      "accepted_mean_mm": 3.098140254565109
+    },
+    "depth": {
+      "flagged": [
+        "R4-10",
+        "3R5-2"
+      ],
+      "flagged_errors_mm": [
+        2.093494614249437,
+        2.5149101288221183
+      ],
+      "accepted_mean_mm": 3.2020794016042404
+    }
+  },
+  "differences": {
+    "sensitivity_minus_depth_mm": -0.10393914703913154,
+    "sensitivity_minus_random_mean_mm": 0.07563625897456117
+  },
+  "random": {
+    "n_pairs": 45,
+    "accepted_mean_mm": 3.0225039955905477,
+    "min_accepted_mean_mm": 2.709095256174296,
+    "max_accepted_mean_mm": 3.288347764950195,
+    "pairs_with_smaller_accepted_mean": 30,
+    "pairs_with_equal_accepted_mean": 1,
+    "pairs_with_larger_accepted_mean": 14
+  },
+  "decision": "candidate_closed"
+}

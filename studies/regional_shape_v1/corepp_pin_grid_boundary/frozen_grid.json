@@ -1,0 +1,106 @@
+{
+  "stage": "frozen_before_replay_and_scoring",
+  "script_sha256": "64f801a576408f39050d05724d6bf2b9cfa866259ef904bfc9f3e83785976db3",
+  "archived_sha256": {
+    "frozen_inputs.json": "d5888552f907bcd557dcc2d117f0b9e71b1348474758289fe28bfd445e2bb436",
+    "no_op_replay.json": "61d0ef37b44c1a582c02413eda954eaf8a92bd6bdab171f575bb405182ad8393",
+    "results.json": "8a2c8b06666b480f75ff74874d3c932fde5447870ff676cde34b2732d84c1a50"
+  },
+  "frames": [
+    [
+      "5R1-4",
+      "362"
+    ],
+    [
+      "5R3-1",
+      "360"
+    ],
+    [
+      "2R2-6",
+      "358"
+    ],
+    [
+      "2R3-10",
+      "363"
+    ],
+    [
+      "R4-10",
+      "352"
+    ],
+    [
+      "R8-2",
+      "350"
+    ],
+    [
+      "R10-1",
+      "362"
+    ],
+    [
+      "R12-7",
+      "353"
+    ],
+    [
+      "3R2-10",
+      "367"
+    ],
+    [
+      "3R5-2",
+      "359"
+    ]
+  ],
+  "original_shape": [
+    20,
+    20,
+    20
+  ],
+  "expanded_shape": [
+    30,
+    30,
+    30
+  ],
+  "points_per_side_added": 5,
+  "original_grid_sha256": "14920c479ff71aeb7c88715bcfeee9b4896f66a5475bc1e389bb1625b9b943f0",
+  "expanded_grid_npy_sha256": "bdc1888d4916979c73fc95975ee36f29a815f4abf63b47ce654f99cea3bdacaf",
+  "expanded_grid_array_sha256": "bbac4e730a9c8c7cc6b67c3c6ea151180671ad4d25e738231ca8c170c0ac1330",
+  "interior_mask_sha256": "2e16819ec590bb5b0feaa525636dd4a3ab0a506b5711ea242bb8da1c389e9833",
+  "original_points": 8000,
+  "added_points": 19000,
+  "spacing_m": [
+    0.004991520404580352,
+    0.004991520404580352,
+    0.004991520404580352
+  ],
+  "odd_z_plane_xy_shift_m": 0.002370972192175667,
+  "z_index_of_first_expanded_plane": -5,
+  "expanded_min_xyz_m": [
+    -0.072377048432827,
+    -0.072377048432827,
+    -0.072377048432827
+  ],
+  "expanded_max_xyz_m": [
+    0.07474801689386368,
+    0.07474801689386368,
+    0.072377048432827
+  ],
+  "original_interior_coordinates_bitwise_equal": true,
+  "shell_seed_by_interior_seed": {
+    "133": 10133,
+    "134": 10134,
+    "135": 10135,
+    "136": 10136,
+    "137": 10137,
+    "138": 10138,
+    "139": 10139,
+    "140": 10140,
+    "141": 10141,
+    "142": 10142,
+    "143": 10143,
+    "144": 10144,
+    "145": 10145,
+    "146": 10146,
+    "147": 10147,
+    "148": 10148
+  },
+  "shell_order": "C-order ij-indexed grid with the original interior omitted",
+  "decoder_batches": "archived interior first, then one separate shell batch for the same latent"
+}

@@ -1,0 +1,40 @@
+{
+  "roster": 40,
+  "tracked": 40,
+  "scorable_pairs": 40,
+  "failed_pairs": [],
+  "provided_mae_all_g": 16.22732341284482,
+  "mask_iou": {
+    "n": 40,
+    "mean": 0.598040833683385,
+    "median": 0.960010354839542,
+    "min": 0.02252816020025031,
+    "max": 0.9831522135511633,
+    "zero": 0
+  },
+  "tracking_total_wall_seconds_excl_model_load": 799.8801265009988,
+  "tracking_total_process_cpu_seconds_excl_model_load": 2409.8128380000007,
+  "tracking_wall_seconds_per_tuber_median": 20.443309104000036,
+  "tracking_rgb_frames": 585,
+  "entry_predictions_missed_click": [
+    "4R8-3",
+    "R6-5"
+  ],
+  "intermediate_empty_masks": {},
+  "provided_mae_paired_g": 16.22732341284482,
+  "sam2_mae_paired_g": 56.20019465603591,
+  "mean_paired_change_g": 39.97287124319108,
+  "median_paired_change_g": 1.7166795207759264,
+  "interval_95_g": [
+    21.597281365106358,
+    59.62935475796724
+  ],
+  "improved": 16,
+  "tied": 0,
+  "worsened": 24,
+  "largest_predicted_weight_changes": [
+    "R1-2",
+    "R8-1",
+    "R6-5"
+  ]
+}

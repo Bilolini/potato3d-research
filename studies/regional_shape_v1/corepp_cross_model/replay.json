@@ -1,0 +1,145 @@
+{
+  "frame": "2R1-10/364",
+  "input_sha256": {
+    "rgb": "2a89b0ba27607b911e9942d5b45aee3cba62b5324e73b5ba3e8f78b5764866a2",
+    "depth": "bf51e088a1b2eb75e8dd76f0e13965c1e4dcd76541e967bdf8104887f331644e",
+    "release_intrinsics": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf"
+  },
+  "checkpoint_revision": "5b52193",
+  "checkpoint_sha256": "429e2c6b22a0923967459de24d67f05962b235f79cde6b032aa7ed2ffcd970ee",
+  "config_sha256": "74ca708ce086bf68e97709ea6b3d91f14717921c04691e84043f0eb8fcc68e62",
+  "dino_config_sha256": "b87c0270b97db085fd82cf114a761fd0f62ae7914fbd407c752a2260646b689c",
+  "runner_sha256": "4532903f58d186ac2fa0f542df17cf152aa8d675ed20774e4ab48fa54755e4c4",
+  "upstream_source": "107cefdc244c39106fa830359024f6a2f1c78871",
+  "replay_protocol_sha256": "37678a516c493bbccf1b227835d8058652dfcdf46dd87b57120275d1312429eb",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "python": "3.13.1",
+  "torch": "2.7.1",
+  "mesh_lattice": 128,
+  "density_threshold": 25.0,
+  "device": "cpu",
+  "threads": 4,
+  "model_setup_seconds": 6.172014666954055,
+  "preprocess_seconds": 0.047718374989926815,
+  "pin_trace": {
+    "source_box_xywh": [
+      1041,
+      325,
+      26,
+      24
+    ],
+    "source_box_pixels": 624,
+    "source_box_opaque_pixels": 624,
+    "pre_resize_square_px": 247,
+    "model_square_px": 512,
+    "model_pin_support_pixels_gt_half": 2646,
+    "model_box_xywh": [
+      317,
+      191,
+      54,
+      49
+    ],
+    "model_rgb_sha256": "ffacacb64b8723f3e02bf34b7042cb1b06acc1e72a4115a90b5e50f31f8018b9"
+  },
+  "metric": {
+    "local_xy_mm_per_normalized_unit": [
+      80.16119589738909,
+      86.07469072326849
+    ],
+    "uniform_mm_per_normalized_unit": 83.06533660243065,
+    "camera_axis_rotation": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "camera_translation_mm": [
+      172.65457973514364,
+      -4.303399921358755,
+      296.753634380446
+    ],
+    "perspective_silhouette_iou": 0.8165632085641007,
+    "held_out_depth_pixels": 12109,
+    "covered_held_out_depth_pixels": 10875,
+    "held_out_median_abs_depth_mm": 4.258819580078125,
+    "held_out_p90_abs_depth_mm": 14.85538330078125,
+    "calibration_fit_points": 12110,
+    "metric_bounds_mm": [
+      [
+        126.77718535457954,
+        -37.51705586059809,
+        291.43182753975515
+      ],
+      [
+        218.65192392799287,
+        28.847731305599133,
+        301.6445289347446
+      ]
+    ],
+    "gates": {
+      "lateral_scale_ratio_at_most_1_25": true,
+      "perspective_silhouette_iou_at_least_0_75": true,
+      "visible_holdout_median_abs_depth_at_most_10_mm": true
+    },
+    "passed": true
+  },
+  "passes": [
+    {
+      "forward_seconds": 5.297685833182186,
+      "forward_and_mesh_seconds": 6.362673708004877,
+      "forward_and_mesh_cpu_seconds": 15.691098,
+      "tokenizer_input_sha256": "ffacacb64b8723f3e02bf34b7042cb1b06acc1e72a4115a90b5e50f31f8018b9",
+      "triplane_sha256": "50b6b0b9fc946a4bc88221954fdd5919ad9b2e64a5177994a163f5eea7e8bc9c",
+      "density_sha256": "1afe6d51201557f929d4218e0b6633a39354007ceaf9105fd415a36b3ffb87d5",
+      "vertex_sha256": "7a82ad1685e0dfbd1c7e23a6f6a9d271d80ab696b8d9d4471b0e409e1377eda6",
+      "faces_sha256": "ae27646653ca0ba5c80bffc36d2913b03dedbf1997d2decbf3e101e0018937ae",
+      "vertices": 9568,
+      "faces": 19132,
+      "watertight": true,
+      "solid_grid_nodes_on_boundary": 0,
+      "normalized_extents": [
+        0.1229478120803833,
+        1.10605388879776,
+        0.7989468276500702
+      ]
+    },
+    {
+      "forward_seconds": 5.3169976668432355,
+      "forward_and_mesh_seconds": 6.413583541987464,
+      "forward_and_mesh_cpu_seconds": 15.668717999999998,
+      "tokenizer_input_sha256": "ffacacb64b8723f3e02bf34b7042cb1b06acc1e72a4115a90b5e50f31f8018b9",
+      "triplane_sha256": "50b6b0b9fc946a4bc88221954fdd5919ad9b2e64a5177994a163f5eea7e8bc9c",
+      "density_sha256": "1afe6d51201557f929d4218e0b6633a39354007ceaf9105fd415a36b3ffb87d5",
+      "vertex_sha256": "7a82ad1685e0dfbd1c7e23a6f6a9d271d80ab696b8d9d4471b0e409e1377eda6",
+      "faces_sha256": "ae27646653ca0ba5c80bffc36d2913b03dedbf1997d2decbf3e101e0018937ae",
+      "vertices": 9568,
+      "faces": 19132,
+      "watertight": true,
+      "solid_grid_nodes_on_boundary": 0,
+      "normalized_extents": [
+        0.1229478120803833,
+        1.10605388879776,
+        0.7989468276500702
+      ]
+    }
+  ],
+  "hashes_equal": {
+    "tokenizer_input_sha256": true,
+    "triplane_sha256": true,
+    "density_sha256": true,
+    "vertex_sha256": true,
+    "faces_sha256": true
+  },
+  "max_corresponding_vertex_difference_mm": 0.0
+}

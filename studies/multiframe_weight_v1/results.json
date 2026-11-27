@@ -1,0 +1,147 @@
+{
+  "training": {
+    "model": "tuber-balanced weighted least squares on XY hull area times robust height",
+    "intercept_g": 12.248482230830191,
+    "slope_g_per_cm3": 0.7672316362591997,
+    "nominal_belt_depth_mm": 350.0,
+    "training_tubers": 118,
+    "training_frames": 3368,
+    "failed_training_frames": [],
+    "frame_manifest_sha256": "ad4e112a3a3c928263890bc193d0e7971c51e0992a10032c1aceca90382c20c0"
+  },
+  "validation_frozen": 40,
+  "validation_scored": 40,
+  "validation_failures": [],
+  "validation_by_cultivar": {
+    "Kitahime": 3,
+    "Sayaka": 37
+  },
+  "validation_acquisition_groups": 13,
+  "mae_g": {
+    "center": 16.148863867013233,
+    "adjacent": 16.82452054205184,
+    "spaced": 16.627055168491108
+  },
+  "paired_comparisons": {
+    "spaced_minus_adjacent": {
+      "mean_change_g": -0.19746537356073066,
+      "median_change_g": -0.13266041179522858,
+      "bootstrap_95_g": [
+        -0.909902615333367,
+        0.41210217420619977
+      ],
+      "wins": 21,
+      "ties": 0,
+      "losses": 19
+    },
+    "spaced_minus_center": {
+      "mean_change_g": 0.4781913014778745,
+      "median_change_g": 0.3797231232517859,
+      "bootstrap_95_g": [
+        -0.5280475060809671,
+        1.3726151365661547
+      ],
+      "wins": 13,
+      "ties": 0,
+      "losses": 27
+    },
+    "adjacent_minus_center": {
+      "mean_change_g": 0.6756566750386052,
+      "median_change_g": 0.34400577030596935,
+      "bootstrap_95_g": [
+        -0.003054161634306986,
+        1.426292317275731
+      ],
+      "wins": 16,
+      "ties": 0,
+      "losses": 24
+    }
+  },
+  "spacing": {
+    "adjacent": {
+      "lower_to_center_px": {
+        "median": 20.0,
+        "min": 16,
+        "max": 24
+      },
+      "center_to_upper_px": {
+        "median": 20.5,
+        "min": 17,
+        "max": 24
+      },
+      "outer_span_px": {
+        "median": 41.0,
+        "min": 35,
+        "max": 46
+      }
+    },
+    "spaced": {
+      "lower_to_center_px": {
+        "median": 137.0,
+        "min": 109,
+        "max": 163
+      },
+      "center_to_upper_px": {
+        "median": 141.5,
+        "min": 106,
+        "max": 163
+      },
+      "outer_span_px": {
+        "median": 275.5,
+        "min": 228,
+        "max": 307
+      }
+    }
+  },
+  "center_deviation_from_360_px": {
+    "median": 5.0,
+    "max": 11
+  },
+  "extremes": {
+    "largest_improvement": {
+      "tuber": "2R1-1",
+      "cultivar": "Kitahime",
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "measured_g": 346.0,
+      "status": "complete",
+      "center_suffixes_px": "358",
+      "center_frame_predictions_g": "361.7329169825924",
+      "center_prediction_g": 361.7329169825924,
+      "center_abs_error_g": 15.732916982592428,
+      "adjacent_suffixes_px": "337/358/381",
+      "adjacent_frame_predictions_g": "359.1616889614604/361.7329169825924/357.25239908496894",
+      "adjacent_prediction_g": 359.3823350096739,
+      "adjacent_abs_error_g": 13.382335009673909,
+      "spaced_suffixes_px": "229/358/490",
+      "spaced_frame_predictions_g": "338.07826279662464/361.7329169825924/350.6409278883397",
+      "spaced_prediction_g": 350.1507025558523,
+      "spaced_abs_error_g": 4.15070255585232,
+      "spaced_minus_adjacent_error_g": -9.23163245382159
+    },
+    "largest_worsening": {
+      "tuber": "4R6-7",
+      "cultivar": "Sayaka",
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "measured_g": 470.0,
+      "status": "complete",
+      "center_suffixes_px": "359",
+      "center_frame_predictions_g": "370.04596387731266",
+      "center_prediction_g": 370.04596387731266,
+      "center_abs_error_g": 99.95403612268734,
+      "adjacent_suffixes_px": "341/359/382",
+      "adjacent_frame_predictions_g": "365.1716035815517/370.04596387731266/363.6930215302718",
+      "adjacent_prediction_g": 366.30352966304537,
+      "adjacent_abs_error_g": 103.69647033695463,
+      "spaced_suffixes_px": "237/359/465",
+      "spaced_frame_predictions_g": "355.8891549730715/370.04596387731266/361.6428606921748",
+      "spaced_prediction_g": 362.525993180853,
+      "spaced_abs_error_g": 107.47400681914701,
+      "spaced_minus_adjacent_error_g": 3.7775364821923745
+    }
+  },
+  "bootstrap_seed": 5272401,
+  "bootstrap_draws": 10000,
+  "per_potato_sha256": "18bdce97aae2925593bb8ac4add8c592436beca1c4358632726919572649d49b",
+  "per_frame_sha256": "7618c9d0bde4c7a03fc0a7524c402c2469cc38faafa2255a63f487d7baf980ef",
+  "train_fit_sha256": "f0b0ec48c88d052c499989aac1030ea121d39cc9fac55973b7613446065617b3"
+}

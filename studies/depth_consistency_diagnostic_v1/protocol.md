@@ -1,0 +1,13 @@
+# Does cross-view foreground discrepancy rank raw-point errors?
+
+Use only the ten development potatoes, frozen frames, SAM 2 masks, accepted depth pixels, RAFT poses and pair-specific tolerances from the [depth-consistency study](../depth_consistency_fusion_v1/frozen_filter.json). Reconstruct raw source-point order and replay the archived rejection map. Use the archived thickness-dependent depth support. The fusion output remains fixed.
+
+## Reference-free freeze
+
+A comparison is usable exactly when the frozen four-pixel check can read all four supported depths around the projection in the other camera. For a usable comparison, take the closest of the four axial depths minus the point's projected axial depth. Divide by that pair's frozen tolerance. The point's score is the largest of these signed values across the usable comparison views. Positive means the point is in front. Keep negative values. Points with zero usable views get a missing score and their own accounting. Save one score per raw outer point in the archived fused point order. Check that a score above one reproduces the archived rejection decisions. Freeze all scores and hashes before reading an SfM mesh.
+
+## Evaluation
+
+Apply the archived center-to-SfM alignment to the original raw outer points. Label a point inaccurate if its closest-triangle distance exceeds 2 mm. This evaluation includes raw outer points before any voxelization, with center points excluded. The earlier headline far-point fraction instead used the 1 mm voxel centroids of the fused center and outer views together.
+
+For each potato report prevalence among all raw added points, among points with a usable score and among points with no score. From the usable set, take the highest scoring tenth, rounded up, breaking a tie by earlier archived fused point index. Report its inaccurate fraction and the change from the usable-set prevalence. Plot a precision–recall curve for each potato, grouping exact score ties. Average precision is the sum of the precision at each distinct cutoff times the increase in recall. Compare it with the usable-set prevalence, the horizontal precision level of an uninformative ranking. A set with no positives has undefined average precision. Give potatoes equal weight in the summary, omitting undefined rates from their own averages and reporting applicability counts. Report the number of potatoes with top-tenth enrichment and the number with average precision above prevalence. Interpret consistency using direction across potatoes and the size of these differences. Stop after this descriptive diagnostic without changing the filter, its thresholds or the fusion outputs.

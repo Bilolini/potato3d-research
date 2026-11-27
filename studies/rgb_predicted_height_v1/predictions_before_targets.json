@@ -1,0 +1,853 @@
+{
+  "fit_sha256": "242436a35412958739aa6a3ec496e5e26fdd1bd134d47f11c0b4c8ca787db27e",
+  "trait_fit_sha256": "edf029a0816120c36e45afea573838fe769233224ba273e4addbdb407f06e1b7",
+  "validation_rgb_features_sha256": "c8910880eacd64de40d8e0729bd0ac436fcdac09b4dcb1e1dd0de8da348dfe0d",
+  "inputs": [
+    "center RGB",
+    "provided alpha",
+    "fixed D405 intrinsics and scale",
+    "fitted model coefficients"
+  ],
+  "rows": [
+    {
+      "tuber": "2R1-1",
+      "suffix_px": 358,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 68.7168804457871,
+        "rgb_height": 65.5981768045742
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 386.315273761973,
+          "sil_height": 385.30527419920224,
+          "rgb_height": 381.5948111799271
+        },
+        "volume": {
+          "mask_only": 360.17585589756754,
+          "sil_height": 359.35031908143606,
+          "rgb_height": 356.31752189991795
+        }
+      }
+    },
+    {
+      "tuber": "2R1-9",
+      "suffix_px": 356,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 49.61122252405261,
+        "rgb_height": 51.68354701679058
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 121.51548783002553,
+          "sil_height": 121.2052644263195,
+          "rgb_height": 122.21792284667313
+        },
+        "volume": {
+          "mask_only": 111.51696453797469,
+          "sil_height": 111.26339923911222,
+          "rgb_height": 112.09110930848492
+        }
+      }
+    },
+    {
+      "tuber": "2R2-1",
+      "suffix_px": 351,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 48.05335230405083,
+        "rgb_height": 49.48936286851746
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 111.18413002640018,
+          "sil_height": 110.90987211770587,
+          "rgb_height": 111.5530580505418
+        },
+        "volume": {
+          "mask_only": 101.19433522526161,
+          "sil_height": 100.97016681065237,
+          "rgb_height": 101.49588354038761
+        }
+      }
+    },
+    {
+      "tuber": "3R1-1",
+      "suffix_px": 366,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 50.91642034417854,
+        "rgb_height": 52.295567489225206
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 141.84057612236109,
+          "sil_height": 142.36118249342547,
+          "rgb_height": 143.1037713442881
+        },
+        "volume": {
+          "mask_only": 127.87864322334102,
+          "sil_height": 128.30416788876482,
+          "rgb_height": 128.91113293927836
+        }
+      }
+    },
+    {
+      "tuber": "3R1-7",
+      "suffix_px": 364,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 58.85464276121313,
+        "rgb_height": 58.532028506209805
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 229.00250001992558,
+          "sil_height": 229.44202502723968,
+          "rgb_height": 229.1840248195351
+        },
+        "volume": {
+          "mask_only": 210.4596872413847,
+          "sil_height": 210.8189389564575,
+          "rgb_height": 210.608058993851
+        }
+      }
+    },
+    {
+      "tuber": "3R1-8",
+      "suffix_px": 353,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 53.124139725450874,
+        "rgb_height": 52.27950955837602
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 160.54094914060468,
+          "sil_height": 160.9340939879897,
+          "rgb_height": 160.42439071275902
+        },
+        "volume": {
+          "mask_only": 146.28403889776112,
+          "sil_height": 146.60538116121552,
+          "rgb_height": 146.18876828877885
+        }
+      }
+    },
+    {
+      "tuber": "3R1-9",
+      "suffix_px": 363,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 58.61576188425616,
+        "rgb_height": 54.93479362610499
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 222.70587160306664,
+          "sil_height": 223.44427754074735,
+          "rgb_height": 220.56788854505794
+        },
+        "volume": {
+          "mask_only": 204.3186861716223,
+          "sil_height": 204.92223226141778,
+          "rgb_height": 202.57117677487616
+        }
+      }
+    },
+    {
+      "tuber": "3R3-8",
+      "suffix_px": 363,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 56.676303248603624,
+        "rgb_height": 53.62108445502122
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 195.65352352024635,
+          "sil_height": 195.78312981366997,
+          "rgb_height": 193.5968992810014
+        },
+        "volume": {
+          "mask_only": 180.591464390706,
+          "sil_height": 180.69739984926198,
+          "rgb_height": 178.9104547259223
+        }
+      }
+    },
+    {
+      "tuber": "3R4-10",
+      "suffix_px": 368,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 48.210789855748295,
+        "rgb_height": 48.95347133544224
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 112.12918921824318,
+          "sil_height": 111.85853432531066,
+          "rgb_height": 112.19398267205004
+        },
+        "volume": {
+          "mask_only": 102.13445737797528,
+          "sil_height": 101.91323393707702,
+          "rgb_height": 102.18741718462623
+        }
+      }
+    },
+    {
+      "tuber": "3R6-2",
+      "suffix_px": 355,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 59.28261037580811,
+        "rgb_height": 59.26827345592391
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 234.30458935387898,
+          "sil_height": 234.7210767400038,
+          "rgb_height": 234.70940048860183
+        },
+        "volume": {
+          "mask_only": 215.5298376037537,
+          "sil_height": 215.87025920726126,
+          "rgb_height": 215.86071546510328
+        }
+      }
+    },
+    {
+      "tuber": "3R6-3",
+      "suffix_px": 352,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 54.54304003850809,
+        "rgb_height": 53.13598805852275
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 169.9412725610025,
+          "sil_height": 170.10024217765232,
+          "rgb_height": 169.1992480203074
+        },
+        "volume": {
+          "mask_only": 156.4379076305664,
+          "sil_height": 156.5678435988857,
+          "rgb_height": 155.831403826608
+        }
+      }
+    },
+    {
+      "tuber": "3R7-10",
+      "suffix_px": 358,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 41.42306917441929,
+        "rgb_height": 41.61607585069564
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 70.38579515786205,
+          "sil_height": 69.45805343856739,
+          "rgb_height": 69.51278278908984
+        },
+        "volume": {
+          "mask_only": 62.684825800108385,
+          "sil_height": 61.926523545959185,
+          "rgb_height": 61.97125732154152
+        }
+      }
+    },
+    {
+      "tuber": "4R1-2",
+      "suffix_px": 353,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 48.275578906978424,
+        "rgb_height": 47.222555891163445
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 112.48318808505019,
+          "sil_height": 112.28570261802454,
+          "rgb_height": 111.80981677470864
+        },
+        "volume": {
+          "mask_only": 102.32648000075397,
+          "sil_height": 102.16506258069757,
+          "rgb_height": 101.7760908440611
+        }
+      }
+    },
+    {
+      "tuber": "4R3-1",
+      "suffix_px": 357,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 48.138936772853256,
+        "rgb_height": 47.85768375462753
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 110.244812783633,
+          "sil_height": 109.84836074458275,
+          "rgb_height": 109.72236792556603
+        },
+        "volume": {
+          "mask_only": 100.78694714654236,
+          "sil_height": 100.46290170520726,
+          "rgb_height": 100.35991976887738
+        }
+      }
+    },
+    {
+      "tuber": "4R4-10",
+      "suffix_px": 355,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 43.00921696878632,
+        "rgb_height": 44.17381151104071
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 77.68002163701173,
+          "sil_height": 76.86199296727159,
+          "rgb_height": 77.23245527486301
+        },
+        "volume": {
+          "mask_only": 69.81906694312306,
+          "sil_height": 69.15044013533627,
+          "rgb_height": 69.45324251781128
+        }
+      }
+    },
+    {
+      "tuber": "4R4-4",
+      "suffix_px": 353,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 58.568932713246575,
+        "rgb_height": 57.31854830483611
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 228.90817580065365,
+          "sil_height": 229.51142432138923,
+          "rgb_height": 228.51749271813043
+        },
+        "volume": {
+          "mask_only": 209.53373903977214,
+          "sil_height": 210.02681238504942,
+          "rgb_height": 209.21440893315517
+        }
+      }
+    },
+    {
+      "tuber": "4R4-8",
+      "suffix_px": 356,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 45.52844476885365,
+        "rgb_height": 45.892488767666514
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 94.63737740539372,
+          "sil_height": 94.24663366974578,
+          "rgb_height": 94.3859778097721
+        },
+        "volume": {
+          "mask_only": 85.21783553192245,
+          "sil_height": 84.89845584965292,
+          "rgb_height": 85.01235066896186
+        }
+      }
+    },
+    {
+      "tuber": "4R6-1",
+      "suffix_px": 349,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 56.64747142418278,
+        "rgb_height": 55.12814755051851
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 193.91430772391305,
+          "sil_height": 193.89290189072142,
+          "rgb_height": 192.80877370635608
+        },
+        "volume": {
+          "mask_only": 179.4690863426274,
+          "sil_height": 179.4515899950734,
+          "rgb_height": 178.5654631465191
+        }
+      }
+    },
+    {
+      "tuber": "4R6-7",
+      "suffix_px": 359,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 73.35990295859321,
+        "rgb_height": 72.05504790487493
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 488.3006115358983,
+          "sil_height": 486.5984884687544,
+          "rgb_height": 484.76908894973957
+        },
+        "volume": {
+          "mask_only": 455.1332689386707,
+          "sil_height": 453.74201560618513,
+          "rgb_height": 452.2467311426783
+        }
+      }
+    },
+    {
+      "tuber": "4R8-2",
+      "suffix_px": 369,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 52.62264283604252,
+        "rgb_height": 52.360397003760475
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 152.23378660197577,
+          "sil_height": 152.3380189868887,
+          "rgb_height": 152.18491936874835
+        },
+        "volume": {
+          "mask_only": 139.47984964232825,
+          "sil_height": 139.56504539324794,
+          "rgb_height": 139.43990734767908
+        }
+      }
+    },
+    {
+      "tuber": "4R8-3",
+      "suffix_px": 356,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 51.79365950211618,
+        "rgb_height": 51.05901102039565
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 140.9218964251613,
+          "sil_height": 140.79067384446094,
+          "rgb_height": 140.38441475353994
+        },
+        "volume": {
+          "mask_only": 129.68104752897426,
+          "sil_height": 129.57379097613108,
+          "rgb_height": 129.24172960818026
+        }
+      }
+    },
+    {
+      "tuber": "4R8-5",
+      "suffix_px": 370,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 48.55286157417239,
+        "rgb_height": 49.12312940555346
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 116.51281659232887,
+          "sil_height": 116.4929533960248,
+          "rgb_height": 116.75655366486761
+        },
+        "volume": {
+          "mask_only": 105.55020133276156,
+          "sil_height": 105.53396588035201,
+          "rgb_height": 105.74942312874416
+        }
+      }
+    },
+    {
+      "tuber": "4R8-8",
+      "suffix_px": 359,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 57.16787009174581,
+        "rgb_height": 57.741811723919014
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 211.97103488143813,
+          "sil_height": 212.7495864708087,
+          "rgb_height": 213.1776329266625
+        },
+        "volume": {
+          "mask_only": 193.15170357528555,
+          "sil_height": 193.78806325698662,
+          "rgb_height": 194.1379328226253
+        }
+      }
+    },
+    {
+      "tuber": "R1-1",
+      "suffix_px": 355,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 45.529151527033434,
+        "rgb_height": 47.88724140242718
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 95.02871339603749,
+          "sil_height": 94.71685934591092,
+          "rgb_height": 95.61886573678336
+        },
+        "volume": {
+          "mask_only": 85.35968814759698,
+          "sil_height": 85.1047900178068,
+          "rgb_height": 85.842057152862
+        }
+      }
+    },
+    {
+      "tuber": "R1-2",
+      "suffix_px": 370,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 60.453804380916296,
+        "rgb_height": 62.08840299003178
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 253.44375663157243,
+          "sil_height": 253.9232368575885,
+          "rgb_height": 255.33156924047273
+        },
+        "volume": {
+          "mask_only": 232.90569243540887,
+          "sil_height": 233.29760208940652,
+          "rgb_height": 234.44872162873733
+        }
+      }
+    },
+    {
+      "tuber": "R1-3",
+      "suffix_px": 358,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 52.575585037065565,
+        "rgb_height": 52.55155656703905
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 150.94578460774625,
+          "sil_height": 151.3337179508483,
+          "rgb_height": 151.3198714566109
+        },
+        "volume": {
+          "mask_only": 137.72599365030482,
+          "sil_height": 138.0430762201795,
+          "rgb_height": 138.031758600659
+        }
+      }
+    },
+    {
+      "tuber": "R10-10",
+      "suffix_px": 360,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 47.370545448634346,
+        "rgb_height": 46.371535981059296
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 107.97694820327295,
+          "sil_height": 107.97616114893933,
+          "rgb_height": 107.54759483299159
+        },
+        "volume": {
+          "mask_only": 97.19628468971146,
+          "sil_height": 97.19564138019665,
+          "rgb_height": 96.84534689987225
+        }
+      }
+    },
+    {
+      "tuber": "R11-5",
+      "suffix_px": 354,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 64.86471702888902,
+        "rgb_height": 66.16022027149882
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 315.4446681436358,
+          "sil_height": 315.00942281848836,
+          "rgb_height": 316.33961362709147
+        },
+        "volume": {
+          "mask_only": 293.4343200035159,
+          "sil_height": 293.0785663446008,
+          "rgb_height": 294.16581581030255
+        }
+      }
+    },
+    {
+      "tuber": "R3-2",
+      "suffix_px": 358,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 44.296664198476385,
+        "rgb_height": 46.667461455258476
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 87.855807389848,
+          "sil_height": 87.4521300505833,
+          "rgb_height": 88.28860891536564
+        },
+        "volume": {
+          "mask_only": 78.47292822074743,
+          "sil_height": 78.14297708246501,
+          "rgb_height": 78.82668440695059
+        }
+      }
+    },
+    {
+      "tuber": "R4-2",
+      "suffix_px": 352,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 60.09056170232284,
+        "rgb_height": 62.00432579091761
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 240.0640707449484,
+          "sil_height": 240.33046271998433,
+          "rgb_height": 241.92855188233324
+        },
+        "volume": {
+          "mask_only": 221.9398421419275,
+          "sil_height": 222.15758122917103,
+          "rgb_height": 223.46380104114834
+        }
+      }
+    },
+    {
+      "tuber": "R4-4",
+      "suffix_px": 358,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 38.760469725465796,
+        "rgb_height": 39.723115966884485
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 61.15498406310699,
+          "sil_height": 60.14808310643274,
+          "rgb_height": 60.37112324543124
+        },
+        "volume": {
+          "mask_only": 53.17493126345941,
+          "sil_height": 52.35192713497034,
+          "rgb_height": 52.534232012126125
+        }
+      }
+    },
+    {
+      "tuber": "R4-7",
+      "suffix_px": 363,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 50.31650682424034,
+        "rgb_height": 51.72976749241963
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 131.0485718512723,
+          "sil_height": 131.07710456341334,
+          "rgb_height": 131.80326475758122
+        },
+        "volume": {
+          "mask_only": 119.41345542751633,
+          "sil_height": 119.43677702606425,
+          "rgb_height": 120.03031389161511
+        }
+      }
+    },
+    {
+      "tuber": "R5-1",
+      "suffix_px": 356,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 47.761293588096535,
+        "rgb_height": 46.502153575812244
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 112.06226891748202,
+          "sil_height": 112.06991187985568,
+          "rgb_height": 111.51160318420438
+        },
+        "volume": {
+          "mask_only": 100.9678917251646,
+          "sil_height": 100.97413880393212,
+          "rgb_height": 100.5177976330884
+        }
+      }
+    },
+    {
+      "tuber": "R5-7",
+      "suffix_px": 362,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 47.632798463442555,
+        "rgb_height": 46.77196177478749
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 109.38769569429036,
+          "sil_height": 109.22766951523374,
+          "rgb_height": 108.85085923365926
+        },
+        "volume": {
+          "mask_only": 99.0049002457338,
+          "sil_height": 98.87410068182739,
+          "rgb_height": 98.56610969687765
+        }
+      }
+    },
+    {
+      "tuber": "R5-8",
+      "suffix_px": 352,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 50.70539029500912,
+        "rgb_height": 51.1134751811021
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 134.75070207423659,
+          "sil_height": 134.87864938428194,
+          "rgb_height": 135.09283428974476
+        },
+        "volume": {
+          "mask_only": 122.6926959550656,
+          "sil_height": 122.79727542109791,
+          "rgb_height": 122.97234235324004
+        }
+      }
+    },
+    {
+      "tuber": "R5-9",
+      "suffix_px": 349,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 50.50040899197831,
+        "rgb_height": 51.132275163412096
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 130.14510445905668,
+          "sil_height": 129.9947422647588,
+          "rgb_height": 130.32061083814406
+        },
+        "volume": {
+          "mask_only": 119.29306024775607,
+          "sil_height": 119.17015967262445,
+          "rgb_height": 119.4365127627305
+        }
+      }
+    },
+    {
+      "tuber": "R6-5",
+      "suffix_px": 353,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 55.40461165413731,
+        "rgb_height": 55.602114446042584
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 183.6471564697371,
+          "sil_height": 183.9148892283498,
+          "rgb_height": 184.0485498372458
+        },
+        "volume": {
+          "mask_only": 168.60014494029323,
+          "sil_height": 168.81897993514497,
+          "rgb_height": 168.92822924334018
+        }
+      }
+    },
+    {
+      "tuber": "R8-1",
+      "suffix_px": 371,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 55.327436498693125,
+        "rgb_height": 54.28600188220527
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 180.2904811519776,
+          "sil_height": 180.62154512032856,
+          "rgb_height": 179.92595969864746
+        },
+        "volume": {
+          "mask_only": 165.6186585756042,
+          "sil_height": 165.88925819212136,
+          "rgb_height": 165.32071203078766
+        }
+      }
+    },
+    {
+      "tuber": "R9-2",
+      "suffix_px": 360,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 45.899810301292405,
+        "rgb_height": 43.78383953950113
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 93.78830978770242,
+          "sil_height": 93.15352890294886,
+          "rgb_height": 92.33394531808652
+        },
+        "volume": {
+          "mask_only": 85.42291153185538,
+          "sil_height": 84.90406478195888,
+          "rgb_height": 84.23416704324632
+        }
+      }
+    },
+    {
+      "tuber": "R9-4",
+      "suffix_px": 355,
+      "input_failure": null,
+      "height_predictions_mm": {
+        "sil_height": 56.81462373946017,
+        "rgb_height": 58.0879763097278
+      },
+      "trait_predictions": {
+        "weight": {
+          "mask_only": 203.78450085801583,
+          "sil_height": 204.34265979169265,
+          "rgb_height": 205.2702212911783
+        },
+        "volume": {
+          "mask_only": 186.45108106880517,
+          "sil_height": 186.90729982967153,
+          "rgb_height": 187.66545477872
+        }
+      }
+    }
+  ]
+}

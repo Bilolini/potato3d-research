@@ -1,0 +1,827 @@
+[
+  {
+    "object_id": "2R2-8",
+    "frame_id": "356",
+    "condition": "registered_center",
+    "input_points": 22085,
+    "fit_points": 5000,
+    "split": "demo_smoke_only",
+    "unit": "m",
+    "partial": "1_rgbd/2_pcd/2R2-8/2R2-8_pcd_356.ply",
+    "reference": "2_sfm/1_mesh/2R2-8/2R2-8.obj",
+    "registration": "3_pair/tmatrix/2R2-8.json",
+    "rgbd_to_sfm_m": [
+      [
+        0.27536089279180154,
+        0.6984664602052201,
+        -0.6605459731837682,
+        0.19065222123946834
+      ],
+      [
+        0.4495452246748738,
+        0.5137999705137805,
+        0.7306973937766963,
+        -0.2655604812944539
+      ],
+      [
+        0.8497561236572055,
+        -0.49815077463397384,
+        -0.17251184318374363,
+        0.08799447028431229
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_sha256": "e5cc9dc4f2f8f739641e5f2bdcc11135e5da0e40420200166909795e563641bf",
+    "reference_sha256": "837c63ea75cfd50aec5dd613223bada576a95bf94672704c162f465944940105",
+    "registration_sha256": "57f73e0b234a6a385a5d1ba2eb778173b1aac1fdf18ce19a3863ce301da71671",
+    "ground_truth_sha256": "07a06bae2f20617f853adbc0ba28e34dc6af0e248b40f3f8df82f20bc4e4525c",
+    "available_frames": 25,
+    "evaluatable_registered_frames": 1,
+    "rgb_images": 25,
+    "depth_images": 25,
+    "cultivar": "Kitahime",
+    "physical_volume_ml": 85.0,
+    "reported_sfm_volume_ml": 86.0,
+    "measured_dimensions_mm": [
+      51.0,
+      55.0,
+      49.0
+    ],
+    "published_registration_rmse_mm": 0.6566845279955553,
+    "belt_depth_mm": 350.0,
+    "belt_calibration_status": "approximate paper value, not per-scan calibration",
+    "camera_mm_to_belt_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        350.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "sfm_mm_to_belt_mm": [
+      [
+        0.2753608927918015,
+        0.44954522467487334,
+        0.8497561236572048,
+        -7.89055959702359
+      ],
+      [
+        -0.6984664602052203,
+        -0.51379997051378,
+        0.4981507746339736,
+        -47.115298894957995
+      ],
+      [
+        0.6605459731837684,
+        -0.7306973937766957,
+        0.17251184318374346,
+        14.841003151061955
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_geometry": {
+      "bounds_mm": [
+        [
+          37.951336086853715,
+          -37.64610287273381,
+          33.999985456466675
+        ],
+        [
+          124.24785201325581,
+          40.56812937636569,
+          65.99999070167542
+        ]
+      ],
+      "extents_mm": [
+        86.2965159264021,
+        78.2142322490995,
+        32.00000524520874
+      ],
+      "point_count": 22085
+    },
+    "reference_geometry": {
+      "bounds_mm": [
+        [
+          37.99221488275741,
+          -38.869785586709995,
+          -3.5313297769149337
+        ],
+        [
+          126.34028415147752,
+          41.86542777885811,
+          63.870866816841826
+        ]
+      ],
+      "extents_mm": [
+        88.34806926872011,
+        80.73521336556811,
+        67.40219659375676
+      ],
+      "point_count": 21009
+    },
+    "reference_quality": {
+      "vertices": 21009,
+      "faces": 41138,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 874,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 12,
+      "finite": true,
+      "positive_orientation": true,
+      "volume_ml": null,
+      "volume_valid": false
+    },
+    "canonical_partial_sha256": "693d67931ca27764c2b142f0a9894223ff1fe41a08836ba5182f1bf3cf875dda",
+    "canonical_reference_sha256": "f9da8c6cbe55b2294017790495f376e1dfb57d49f19ba03c0b6829d093516663",
+    "sample_total_seconds_including_visualization": 2.3129463749937713
+  },
+  {
+    "object_id": "4R3-4",
+    "frame_id": "367",
+    "condition": "registered_center",
+    "input_points": 15847,
+    "fit_points": 5000,
+    "split": "demo_smoke_only",
+    "unit": "m",
+    "partial": "1_rgbd/2_pcd/4R3-4/4R3-4_pcd_367.ply",
+    "reference": "2_sfm/1_mesh/4R3-4/4R3-4.obj",
+    "registration": "3_pair/tmatrix/4R3-4.json",
+    "rgbd_to_sfm_m": [
+      [
+        -0.8118516289862535,
+        -0.3029126323177102,
+        -0.4991401303188532,
+        0.10826652140033827
+      ],
+      [
+        -0.5308546727319491,
+        0.027029967908694854,
+        0.8470316979154384,
+        -0.3059306608008663
+      ],
+      [
+        -0.2430848595676445,
+        0.952634934283438,
+        -0.18274690977351138,
+        0.15832819089196537
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_sha256": "aaddfa09978e6a2f1c0d03ae10819c6013812566414c28cf103c00907da0634c",
+    "reference_sha256": "4b78b81ff4ebeb4fe9c4923c082b62951bff3275cb4d519e41af27ba7d535e12",
+    "registration_sha256": "35d8c696245a0b4b3cdd13c9468d5410509c30e5612e19c2c8f36f62a073c254",
+    "ground_truth_sha256": "07a06bae2f20617f853adbc0ba28e34dc6af0e248b40f3f8df82f20bc4e4525c",
+    "available_frames": 28,
+    "evaluatable_registered_frames": 1,
+    "rgb_images": 28,
+    "depth_images": 28,
+    "cultivar": "Sayaka",
+    "physical_volume_ml": 150.0,
+    "reported_sfm_volume_ml": 154.0,
+    "measured_dimensions_mm": [
+      83.0,
+      62.0,
+      50.0
+    ],
+    "published_registration_rmse_mm": 0.6335902155720338,
+    "belt_depth_mm": 350.0,
+    "belt_calibration_status": "approximate paper value, not per-scan calibration",
+    "camera_mm_to_belt_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        350.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "sfm_mm_to_belt_mm": [
+      [
+        -0.811851628986254,
+        -0.530854672731949,
+        -0.2430848595676447,
+        -36.02118300600036
+      ],
+      [
+        0.3029126323177104,
+        -0.027029967908694906,
+        -0.9526349342834385,
+        109.7643727925917
+      ],
+      [
+        0.49914013031885346,
+        -0.8470316979154381,
+        0.18274690977351143,
+        7.892879720979181
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_geometry": {
+      "bounds_mm": [
+        [
+          -92.94546451658826,
+          -33.40442782180733,
+          30.9999942779541
+        ],
+        [
+          -31.351403099071085,
+          46.40338009625302,
+          53.000009059906006
+        ]
+      ],
+      "extents_mm": [
+        61.594061417517175,
+        79.80780791806035,
+        22.000014781951904
+      ],
+      "point_count": 15847
+    },
+    "reference_geometry": {
+      "bounds_mm": [
+        [
+          -94.0190889956109,
+          -35.92986410276066,
+          -3.788782222506029
+        ],
+        [
+          -30.118943554011338,
+          50.469984873806645,
+          52.21192333763128
+        ]
+      ],
+      "extents_mm": [
+        63.90014544159956,
+        86.39984897656731,
+        56.00070556013731
+      ],
+      "point_count": 16060
+    },
+    "reference_quality": {
+      "vertices": 16060,
+      "faces": 31386,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 728,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 18,
+      "finite": true,
+      "positive_orientation": true,
+      "volume_ml": null,
+      "volume_valid": false
+    },
+    "canonical_partial_sha256": "35842cb2e029a21098c250c56a122be63f73ce026ad0e6a70a858ec321e69f08",
+    "canonical_reference_sha256": "e81d605c04c0a0bd95a065391a6c04e1d98ef7efada865f1228c1c9594cad8d7",
+    "sample_total_seconds_including_visualization": 1.6874615419656038
+  },
+  {
+    "object_id": "5R3-2",
+    "frame_id": "356",
+    "condition": "registered_center",
+    "input_points": 10955,
+    "fit_points": 5000,
+    "split": "demo_smoke_only",
+    "unit": "m",
+    "partial": "1_rgbd/2_pcd/5R3-2/5R3-2_pcd_356.ply",
+    "reference": "2_sfm/1_mesh/5R3-2/5R3-2.obj",
+    "registration": "3_pair/tmatrix/5R3-2.json",
+    "rgbd_to_sfm_m": [
+      [
+        0.07755894369750259,
+        0.509516058926894,
+        0.8569585730641438,
+        -0.2857187718329437
+      ],
+      [
+        -0.2261292512140547,
+        -0.8281564366949778,
+        0.5128571712534085,
+        -0.17304923441036202
+      ],
+      [
+        0.971004722953446,
+        -0.23356006091856324,
+        0.050985546440324575,
+        0.08239061850628845
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_sha256": "b8d44ed69008c80c62bc553a247fd76ce3fb882725cff18f871e8103af7c364b",
+    "reference_sha256": "b1e0a719223415bc07104b9ebed5dac9cd2aecf2d962c14029f5ffd7e78e2541",
+    "registration_sha256": "51f4878adbb09a2e07f92c41cff94b8f11c75bceb73d3d7b0c50602f21c04a33",
+    "ground_truth_sha256": "07a06bae2f20617f853adbc0ba28e34dc6af0e248b40f3f8df82f20bc4e4525c",
+    "available_frames": 31,
+    "evaluatable_registered_frames": 1,
+    "rgb_images": 31,
+    "depth_images": 31,
+    "cultivar": "Corolle",
+    "physical_volume_ml": 70.0,
+    "reported_sfm_volume_ml": 86.0,
+    "measured_dimensions_mm": [
+      80.0,
+      49.0,
+      38.0
+    ],
+    "published_registration_rmse_mm": 0.6387024429854341,
+    "belt_depth_mm": 350.0,
+    "belt_calibration_status": "approximate paper value, not per-scan calibration",
+    "camera_mm_to_belt_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        350.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "sfm_mm_to_belt_mm": [
+      [
+        0.07755894369750263,
+        -0.2261292512140548,
+        0.9710047229534463,
+        -96.97312735913142
+      ],
+      [
+        -0.509516058926894,
+        0.828156436694978,
+        0.2335600609185632,
+        -21.509623121121408
+      ],
+      [
+        -0.8569585730641438,
+        -0.5128571712534086,
+        -0.05098554644032457,
+        20.602038851234056
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_geometry": {
+      "bounds_mm": [
+        [
+          -27.992876730114006,
+          -22.165869068969602,
+          21.000003814697266
+        ],
+        [
+          50.58391731139176,
+          24.753708016391244,
+          44.99999284744263
+        ]
+      ],
+      "extents_mm": [
+        78.57679404150576,
+        46.91957708536084,
+        23.99998903274536
+      ],
+      "point_count": 10955
+    },
+    "reference_geometry": {
+      "bounds_mm": [
+        [
+          -29.38682823456925,
+          -23.846046032555524,
+          -4.7700159695703555
+        ],
+        [
+          51.70755666025492,
+          24.656425447624223,
+          44.69080168964108
+        ]
+      ],
+      "extents_mm": [
+        81.09438489482417,
+        48.50247148017975,
+        49.46081765921143
+      ],
+      "point_count": 11194
+    },
+    "reference_quality": {
+      "vertices": 11194,
+      "faces": 21966,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 418,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 14,
+      "finite": true,
+      "positive_orientation": true,
+      "volume_ml": null,
+      "volume_valid": false
+    },
+    "canonical_partial_sha256": "bddffd6e8a7763c0788fd6f2a3bc5727ffc2405b7ef23eaf63749c731cf9d354",
+    "canonical_reference_sha256": "7e683f9ca44dd85945f7af64f1f7673bed826503dd789fcf9cd6391e1410d254",
+    "sample_total_seconds_including_visualization": 0.8859310420230031
+  },
+  {
+    "object_id": "R13-8",
+    "frame_id": "357",
+    "condition": "registered_center",
+    "input_points": 38302,
+    "fit_points": 5000,
+    "split": "demo_smoke_only",
+    "unit": "m",
+    "partial": "1_rgbd/2_pcd/R13-8/R13-8_pcd_357.ply",
+    "reference": "2_sfm/1_mesh/R13-8/R13-8.obj",
+    "registration": "3_pair/tmatrix/R13-8.json",
+    "rgbd_to_sfm_m": [
+      [
+        -0.5075340978922147,
+        0.14672965716309988,
+        -0.8490462573885688,
+        0.3478597059431154
+      ],
+      [
+        0.8287466507029254,
+        -0.18650600846091192,
+        -0.5276310242552672,
+        0.034997228063382874
+      ],
+      [
+        -0.23577134776180847,
+        -0.9714349780179719,
+        -0.026943553177020914,
+        0.17437042742027448
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_sha256": "9f06153863208e821e872c149566f488c396ca2f043ecb932402f25b1ee9c0de",
+    "reference_sha256": "a9a2efe17138540a245b77b5b7228c18f4d6b0d6b5be321b30a8658b3b505da0",
+    "registration_sha256": "f471ee7c8604de21ab3444bc66a6bbe54f508b47f5e06517e73a304c495454bf",
+    "ground_truth_sha256": "07a06bae2f20617f853adbc0ba28e34dc6af0e248b40f3f8df82f20bc4e4525c",
+    "available_frames": 22,
+    "evaluatable_registered_frames": 1,
+    "rgb_images": 22,
+    "depth_images": 22,
+    "cultivar": "Sayaka",
+    "physical_volume_ml": 470.0,
+    "reported_sfm_volume_ml": 458.0,
+    "measured_dimensions_mm": [
+      120.4,
+      91.7,
+      72.6
+    ],
+    "published_registration_rmse_mm": 0.693710710759141,
+    "belt_depth_mm": 350.0,
+    "belt_calibration_status": "approximate paper value, not per-scan calibration",
+    "camera_mm_to_belt_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        350.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "sfm_mm_to_belt_mm": [
+      [
+        -0.5075340978922146,
+        0.8287466507029249,
+        -0.23577134776180844,
+        188.65837719015582
+      ],
+      [
+        -0.14672965716309994,
+        0.18650600846091184,
+        0.971434978017972,
+        -124.87539024740639
+      ],
+      [
+        0.8490462573885679,
+        0.5276310242552665,
+        0.026943553177020817,
+        31.487236399834273
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_geometry": {
+      "bounds_mm": [
+        [
+          115.63004711472692,
+          -56.4451609126311,
+          37.000006437301636
+        ],
+        [
+          196.69501919198737,
+          59.70053792086778,
+          69.9999988079071
+        ]
+      ],
+      "extents_mm": [
+        81.06497207726045,
+        116.14569883349888,
+        32.99999237060547
+      ],
+      "point_count": 38302
+    },
+    "reference_geometry": {
+      "bounds_mm": [
+        [
+          116.96339371638302,
+          -61.58918681968934,
+          -5.036523735479214
+        ],
+        [
+          208.94385704980914,
+          63.330453542834874,
+          69.39526268648942
+        ]
+      ],
+      "extents_mm": [
+        91.98046333342612,
+        124.9196403625242,
+        74.43178642196864
+      ],
+      "point_count": 24161
+    },
+    "reference_quality": {
+      "vertices": 24161,
+      "faces": 47542,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 774,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 18,
+      "finite": true,
+      "positive_orientation": true,
+      "volume_ml": null,
+      "volume_valid": false
+    },
+    "canonical_partial_sha256": "2ed628a36a82f90b68303220d77d3f2ad7902213b9d5f4f8f26663922914a006",
+    "canonical_reference_sha256": "d3235ec106d7b95e61bdfff36e0055183ac84e1c2396532d42ce4fefc4c32982",
+    "sample_total_seconds_including_visualization": 3.23084133293014
+  },
+  {
+    "object_id": "R7-7",
+    "frame_id": "357",
+    "condition": "registered_center",
+    "input_points": 5604,
+    "fit_points": 5000,
+    "split": "demo_smoke_only",
+    "unit": "m",
+    "partial": "1_rgbd/2_pcd/R7-7/R7-7_pcd_357.ply",
+    "reference": "2_sfm/1_mesh/R7-7/R7-7.obj",
+    "registration": "3_pair/tmatrix/R7-7.json",
+    "rgbd_to_sfm_m": [
+      [
+        0.33295625512337884,
+        -0.21720573055624076,
+        -0.9175847659958971,
+        0.3359631901186547
+      ],
+      [
+        -0.28326983588470217,
+        -0.951200545005698,
+        0.12237533762452914,
+        -0.061781415706123916
+      ],
+      [
+        -0.8993877541150257,
+        0.21917845193903807,
+        -0.3782360029842971,
+        0.1525866691853233
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_sha256": "bb5e1c94c4ded719cc23865b87373798ea6450412b24819995ad8d56a2f723d6",
+    "reference_sha256": "fa1bb1556216f95a3814f7c2f55232d89dc15035626e9dc232a12fd8716ff298",
+    "registration_sha256": "0ebc11161fe822f5bd22efeb68299209f2342a0974125fa7c81f72be4c6eb2a3",
+    "ground_truth_sha256": "07a06bae2f20617f853adbc0ba28e34dc6af0e248b40f3f8df82f20bc4e4525c",
+    "available_frames": 32,
+    "evaluatable_registered_frames": 1,
+    "rgb_images": 32,
+    "depth_images": 32,
+    "cultivar": "Sayaka",
+    "physical_volume_ml": 30.0,
+    "reported_sfm_volume_ml": 34.0,
+    "measured_dimensions_mm": [
+      46.5,
+      37.1,
+      30.5
+    ],
+    "published_registration_rmse_mm": 0.5964445284246415,
+    "belt_depth_mm": 350.0,
+    "belt_calibration_status": "approximate paper value, not per-scan calibration",
+    "camera_mm_to_belt_mm": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        350.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "sfm_mm_to_belt_mm": [
+      [
+        0.3329562551233786,
+        -0.28326983588470184,
+        -0.8993877541150251,
+        7.872724577471029
+      ],
+      [
+        0.2172057305562407,
+        0.9512005450056976,
+        -0.21917845193903815,
+        19.23709607973434
+      ],
+      [
+        0.9175847659958971,
+        -0.12237533762452918,
+        0.3782360029842971,
+        -23.548998655563082
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "partial_geometry": {
+      "bounds_mm": [
+        [
+          -114.68615176736044,
+          -16.66674782113661,
+          16.000008583068848
+        ],
+        [
+          -64.15495149373078,
+          19.495935672806343,
+          37.999993562698364
+        ]
+      ],
+      "extents_mm": [
+        50.531200273629665,
+        36.16268349394295,
+        21.999984979629517
+      ],
+      "point_count": 5604
+    },
+    "reference_geometry": {
+      "bounds_mm": [
+        [
+          -111.11499988125587,
+          -17.121005814280398,
+          -1.2614508286705188
+        ],
+        [
+          -62.75829303651682,
+          19.576527617029193,
+          37.41249337502335
+        ]
+      ],
+      "extents_mm": [
+        48.35670684473905,
+        36.697533431309594,
+        38.67394420369387
+      ],
+      "point_count": 5685
+    },
+    "reference_quality": {
+      "vertices": 5685,
+      "faces": 10910,
+      "watertight": false,
+      "winding_consistent": true,
+      "boundary_edges": 454,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 12,
+      "finite": true,
+      "positive_orientation": true,
+      "volume_ml": null,
+      "volume_valid": false
+    },
+    "canonical_partial_sha256": "0f27c5cb97fe974a5ee2e817309025e7fb632c0de29d6375066c7020585c47d4",
+    "canonical_reference_sha256": "4cf7cd8c28f3b62eb13fb095e2fdb1429eda035fcd18383e0b6383e160765ed7",
+    "sample_total_seconds_including_visualization": 0.6384904999285936
+  }
+]

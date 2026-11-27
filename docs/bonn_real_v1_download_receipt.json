@@ -1,0 +1,692 @@
+{
+  "manifest_sha256": "d095270a3f3d77f120f46dbbfdaa3488fc8bdc6e8122c1a81ccd9aec32fa0852",
+  "source_url": "https://www.ipb.uni-bonn.de/html/projects/shape_completion/shape_completion_challenge.zip",
+  "members": [
+    {
+      "name": "shape_completion_challenge/train/lab1/gt/pcd/fruit.ply",
+      "bytes": 1215853,
+      "sha256": "75c4483501883b63a5c3cc85db26b7df66a0121530449865358d06b41ab031b9",
+      "crc32_verified": true,
+      "range_bytes": 1159542
+    },
+    {
+      "name": "shape_completion_challenge/train/lab18/gt/pcd/fruit.ply",
+      "bytes": 1717645,
+      "sha256": "b66b61c79d6c8e60682c2594119336617e4d23ab4b5486b3baf97e1a55c41362",
+      "crc32_verified": true,
+      "range_bytes": 1640119
+    },
+    {
+      "name": "shape_completion_challenge/train/lab23/gt/pcd/fruit.ply",
+      "bytes": 2127373,
+      "sha256": "dcfbe904607c7d38b390c4db9faf9449119194bca30a1e15434582e5b5f12450",
+      "crc32_verified": true,
+      "range_bytes": 2031419
+    },
+    {
+      "name": "shape_completion_challenge/train/lab37/gt/pcd/fruit.ply",
+      "bytes": 1383037,
+      "sha256": "8b50d0a7acec658443cd083a3c6f9bbdefbd72ab928bfe8527b2213d5ed530dc",
+      "crc32_verified": true,
+      "range_bytes": 1321173
+    },
+    {
+      "name": "shape_completion_challenge/train/lab52/gt/pcd/fruit.ply",
+      "bytes": 1928317,
+      "sha256": "3774c11ddcaebde1c0bc2a49f53252aaad9f345969090dfe2c82e8a189954e93",
+      "crc32_verified": true,
+      "range_bytes": 1841614
+    },
+    {
+      "name": "shape_completion_challenge/train/lab54/gt/pcd/fruit.ply",
+      "bytes": 1895917,
+      "sha256": "2c674b0afc9b80b701c1913d5e4d68cb2600944e09675a39f5cee24a22199f62",
+      "crc32_verified": true,
+      "range_bytes": 1809963
+    },
+    {
+      "name": "shape_completion_challenge/train/lab60/gt/pcd/fruit.ply",
+      "bytes": 2095117,
+      "sha256": "3199843788cf42e2b52fb9d57179200bf52a096e7c058265b478f2bea7e92d8a",
+      "crc32_verified": true,
+      "range_bytes": 2001773
+    },
+    {
+      "name": "shape_completion_challenge/train/lab74/gt/pcd/fruit.ply",
+      "bytes": 1941949,
+      "sha256": "37669d290b6da674c5810fe4f2233e70ec96841779334022c22477c1b5330a75",
+      "crc32_verified": true,
+      "range_bytes": 1853522
+    },
+    {
+      "name": "shape_completion_challenge/val/lab16/gt/pcd/fruit.ply",
+      "bytes": 1712845,
+      "sha256": "8a0070562b228516e1de967ad8167e0d38af85fed3a366b980d23a9c2c5438b5",
+      "crc32_verified": true,
+      "range_bytes": 1637329
+    },
+    {
+      "name": "shape_completion_challenge/val/lab16/input/color/00001.png",
+      "bytes": 788414,
+      "sha256": "89b572a1befe9162623934fbe9f88b3f7a180d68a4097edc302cf5e3b2e4b960",
+      "crc32_verified": true,
+      "range_bytes": 789254
+    },
+    {
+      "name": "shape_completion_challenge/val/lab16/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "6e38b6ea779bb48840b17a5add1763f04f474fadd37e0ebd743cc8aac3c33310",
+      "crc32_verified": true,
+      "range_bytes": 236958
+    },
+    {
+      "name": "shape_completion_challenge/val/lab16/input/intrinsic.json",
+      "bytes": 197,
+      "sha256": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "crc32_verified": true,
+      "range_bytes": 727
+    },
+    {
+      "name": "shape_completion_challenge/val/lab16/input/masks/00001.png",
+      "bytes": 3125,
+      "sha256": "51318052de613ba9fab4bdfb12ebc15e8dd9e35090eea3a2dcf03b782a3e4594",
+      "crc32_verified": true,
+      "range_bytes": 2084
+    },
+    {
+      "name": "shape_completion_challenge/val/lab16/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "fa56f7196824e390f505372165da9ff26c26254d5d53e17be2b55d36e6a48a33",
+      "crc32_verified": true,
+      "range_bytes": 783
+    },
+    {
+      "name": "shape_completion_challenge/val/lab17/gt/pcd/fruit.ply",
+      "bytes": 1953133,
+      "sha256": "e38d10545539a3bbcc9bb464cb83661385dcca0ab736910f598790bc2cc8d7f8",
+      "crc32_verified": true,
+      "range_bytes": 1866269
+    },
+    {
+      "name": "shape_completion_challenge/val/lab17/input/color/00001.png",
+      "bytes": 852979,
+      "sha256": "d7b01e9a867349ab9968d914d7aa0f7c4705b7b9546cde6d2f5e54a11b0a7150",
+      "crc32_verified": true,
+      "range_bytes": 853839
+    },
+    {
+      "name": "shape_completion_challenge/val/lab17/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "7861b5797216f3fcc5e569530786fe2e80dc7ffb503aa9202dcd9794ffdf15b6",
+      "crc32_verified": true,
+      "range_bytes": 231532
+    },
+    {
+      "name": "shape_completion_challenge/val/lab17/input/intrinsic.json",
+      "bytes": 197,
+      "sha256": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "crc32_verified": true,
+      "range_bytes": 727
+    },
+    {
+      "name": "shape_completion_challenge/val/lab17/input/masks/00001.png",
+      "bytes": 3344,
+      "sha256": "8e9e0849712c86a2578ca9d722d1b57e40352a2616a9a8ce9a04615afa8ca584",
+      "crc32_verified": true,
+      "range_bytes": 2189
+    },
+    {
+      "name": "shape_completion_challenge/val/lab17/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "95612ed0ddc436971c8edb060613c567bc1aa0ab5fb33063375259a822b594a9",
+      "crc32_verified": true,
+      "range_bytes": 783
+    },
+    {
+      "name": "shape_completion_challenge/val/lab29/gt/pcd/fruit.ply",
+      "bytes": 2027437,
+      "sha256": "11b6a621a0bd3ac66d2af11b91876481bd660169a395c366cb4ef048ef3ccc4c",
+      "crc32_verified": true,
+      "range_bytes": 1936905
+    },
+    {
+      "name": "shape_completion_challenge/val/lab29/input/color/00001.png",
+      "bytes": 759647,
+      "sha256": "0a066add365b4298183fb3581404c8345774365dcc09cb86d6940b81389d3300",
+      "crc32_verified": true,
+      "range_bytes": 760482
+    },
+    {
+      "name": "shape_completion_challenge/val/lab29/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "e6be440f23529538c367929c6dee39a1c7c363da64d4d3dafd60edc8a8096250",
+      "crc32_verified": true,
+      "range_bytes": 207129
+    },
+    {
+      "name": "shape_completion_challenge/val/lab29/input/intrinsic.json",
+      "bytes": 197,
+      "sha256": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "crc32_verified": true,
+      "range_bytes": 727
+    },
+    {
+      "name": "shape_completion_challenge/val/lab29/input/masks/00001.png",
+      "bytes": 3489,
+      "sha256": "42df557c8f97dd23f50e515c9320d3f9d6bcb53cf3bd3c744a1d7ff2a0b62bae",
+      "crc32_verified": true,
+      "range_bytes": 2575
+    },
+    {
+      "name": "shape_completion_challenge/val/lab29/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "3e7038633b84fa17f7e1c1f5a224ac7014b5f1d8032b5fb3d22d0ff019bedf31",
+      "crc32_verified": true,
+      "range_bytes": 782
+    },
+    {
+      "name": "shape_completion_challenge/val/lab30/gt/pcd/fruit.ply",
+      "bytes": 1510909,
+      "sha256": "bab127b6613be832e3c113144e75258ae84674d45648a7d37b8fc9adce3b2cef",
+      "crc32_verified": true,
+      "range_bytes": 1443344
+    },
+    {
+      "name": "shape_completion_challenge/val/lab30/input/color/00001.png",
+      "bytes": 784829,
+      "sha256": "3e72c3f11559389407c249532127a736d41774cf4e43c56c7f80e11f84de2396",
+      "crc32_verified": true,
+      "range_bytes": 785669
+    },
+    {
+      "name": "shape_completion_challenge/val/lab30/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "e150f14ffba8ef6e5586324da050e8424b918e89b9733920fd7fd43f5f74ad42",
+      "crc32_verified": true,
+      "range_bytes": 207705
+    },
+    {
+      "name": "shape_completion_challenge/val/lab30/input/intrinsic.json",
+      "bytes": 197,
+      "sha256": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "crc32_verified": true,
+      "range_bytes": 727
+    },
+    {
+      "name": "shape_completion_challenge/val/lab30/input/masks/00001.png",
+      "bytes": 3050,
+      "sha256": "aeedb592341db635ac3ac831b65112cb2a35993756dc820a165d255f210b5001",
+      "crc32_verified": true,
+      "range_bytes": 1731
+    },
+    {
+      "name": "shape_completion_challenge/val/lab30/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "e9071ce200a2dfaa881856afe0858223afb658e4a098a8e0c1ec156884498d9e",
+      "crc32_verified": true,
+      "range_bytes": 779
+    },
+    {
+      "name": "shape_completion_challenge/val/lab32/gt/pcd/fruit.ply",
+      "bytes": 2094349,
+      "sha256": "05c89003403e60d09eb24942270309c2ae873698f91f2d22ae4fa25d0f26148d",
+      "crc32_verified": true,
+      "range_bytes": 2000722
+    },
+    {
+      "name": "shape_completion_challenge/val/lab32/input/color/00001.png",
+      "bytes": 776622,
+      "sha256": "96b7f5d99f8274af5ba3893893615f633b2473965446e5b34bbdf59648a991fd",
+      "crc32_verified": true,
+      "range_bytes": 777462
+    },
+    {
+      "name": "shape_completion_challenge/val/lab32/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "bb046f449ccc9b01aa2711b804de5bd65ae7a5767e2836fe19a824274b428706",
+      "crc32_verified": true,
+      "range_bytes": 206807
+    },
+    {
+      "name": "shape_completion_challenge/val/lab32/input/intrinsic.json",
+      "bytes": 197,
+      "sha256": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "crc32_verified": true,
+      "range_bytes": 727
+    },
+    {
+      "name": "shape_completion_challenge/val/lab32/input/masks/00001.png",
+      "bytes": 3350,
+      "sha256": "40409eb60516e1eb5ee8dc82fa5990374b3bfd40992c6837f67769e43ec827cd",
+      "crc32_verified": true,
+      "range_bytes": 2363
+    },
+    {
+      "name": "shape_completion_challenge/val/lab32/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "6ce489063d53d7e39c856c45405650adf89ad15d035e8a4d199ffbcca90f0ca2",
+      "crc32_verified": true,
+      "range_bytes": 782
+    },
+    {
+      "name": "shape_completion_challenge/val/lab45/gt/pcd/fruit.ply",
+      "bytes": 1662397,
+      "sha256": "01a0b303128cd2d7ab77a0593deea3f104d4b53808453d9e09cc652577cd70a2",
+      "crc32_verified": true,
+      "range_bytes": 1586500
+    },
+    {
+      "name": "shape_completion_challenge/val/lab45/input/color/00001.png",
+      "bytes": 802375,
+      "sha256": "c5469ccd44f86141f29d9c86978d7c768fba357803d618eb0be15db32688c00b",
+      "crc32_verified": true,
+      "range_bytes": 803220
+    },
+    {
+      "name": "shape_completion_challenge/val/lab45/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "6770e062636a00bee26040a3d607f4e46968ccb9556565c99eca5fef314e2d14",
+      "crc32_verified": true,
+      "range_bytes": 217321
+    },
+    {
+      "name": "shape_completion_challenge/val/lab45/input/intrinsic.json",
+      "bytes": 197,
+      "sha256": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "crc32_verified": true,
+      "range_bytes": 727
+    },
+    {
+      "name": "shape_completion_challenge/val/lab45/input/masks/00001.png",
+      "bytes": 3275,
+      "sha256": "f5984d4a53619109abbf35aa8147d45547b1ac199d676820c6787dca884b4dc0",
+      "crc32_verified": true,
+      "range_bytes": 2145
+    },
+    {
+      "name": "shape_completion_challenge/val/lab45/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "08af829e1fcfc7010c82520aba9560b7f85b85bfd4b425da47373494d175baa2",
+      "crc32_verified": true,
+      "range_bytes": 778
+    },
+    {
+      "name": "shape_completion_challenge/val/lab46/gt/pcd/fruit.ply",
+      "bytes": 1898749,
+      "sha256": "cc803220a53950c75e365ceb69255343d02a46ce0d422b24fa8082fc319395fe",
+      "crc32_verified": true,
+      "range_bytes": 1814151
+    },
+    {
+      "name": "shape_completion_challenge/val/lab46/input/color/00001.png",
+      "bytes": 789871,
+      "sha256": "d34121eafbc6865283163609e4d62dcdff374167133d05ea8d9c26459c9a577a",
+      "crc32_verified": true,
+      "range_bytes": 790716
+    },
+    {
+      "name": "shape_completion_challenge/val/lab46/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "742c1a63f2655130594b516a1c4656fda3e52878d7e2fe7071dacfb2c711b6ac",
+      "crc32_verified": true,
+      "range_bytes": 178738
+    },
+    {
+      "name": "shape_completion_challenge/val/lab46/input/intrinsic.json",
+      "bytes": 197,
+      "sha256": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "crc32_verified": true,
+      "range_bytes": 727
+    },
+    {
+      "name": "shape_completion_challenge/val/lab46/input/masks/00001.png",
+      "bytes": 3202,
+      "sha256": "ae245617b67fc64acebb5f9b8fabd28ec278d0ce2ef5558350652b039f0cae07",
+      "crc32_verified": true,
+      "range_bytes": 2156
+    },
+    {
+      "name": "shape_completion_challenge/val/lab46/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "0b47a432ff18a198bb6ff43633ac75e93e1ca825f7e8e4dd3d0ab210e579f6ba",
+      "crc32_verified": true,
+      "range_bytes": 781
+    },
+    {
+      "name": "shape_completion_challenge/val/lab48/gt/pcd/fruit.ply",
+      "bytes": 1740397,
+      "sha256": "3b40af1e4744903da97c30a79afe7c63b6227503540605f15628c9d756334150",
+      "crc32_verified": true,
+      "range_bytes": 1661555
+    },
+    {
+      "name": "shape_completion_challenge/val/lab48/input/color/00001.png",
+      "bytes": 786646,
+      "sha256": "382a73982cca463860091ee296c420a7940948a1baaa7b550adab95168840bd2",
+      "crc32_verified": true,
+      "range_bytes": 787486
+    },
+    {
+      "name": "shape_completion_challenge/val/lab48/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "73645ba13461f49e6f1d80ff2f2c329e898cb444ccd70e68d6ca097a202f4c39",
+      "crc32_verified": true,
+      "range_bytes": 210800
+    },
+    {
+      "name": "shape_completion_challenge/val/lab48/input/intrinsic.json",
+      "bytes": 197,
+      "sha256": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "crc32_verified": true,
+      "range_bytes": 727
+    },
+    {
+      "name": "shape_completion_challenge/val/lab48/input/masks/00001.png",
+      "bytes": 3230,
+      "sha256": "e60fd2784fb1dd859eadec24920b0373641e9260174e667179d717fa9dc9f931",
+      "crc32_verified": true,
+      "range_bytes": 2123
+    },
+    {
+      "name": "shape_completion_challenge/val/lab48/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "d15fd540a5b964f63c583395a69ade3f9592445644ab0215859636daa7f3fa4b",
+      "crc32_verified": true,
+      "range_bytes": 778
+    },
+    {
+      "name": "shape_completion_challenge/val/lab61/gt/pcd/fruit.ply",
+      "bytes": 1495693,
+      "sha256": "3f1f7507d228a8e85d2e72e381f6995bed3b7047afb6002efeabeae7d28298b8",
+      "crc32_verified": true,
+      "range_bytes": 1428324
+    },
+    {
+      "name": "shape_completion_challenge/val/lab61/input/color/00001.png",
+      "bytes": 787373,
+      "sha256": "8f4815792aa5cb1a9f7b8f09a06d3d46c3ed6420b6811fa423d61be697cf6801",
+      "crc32_verified": true,
+      "range_bytes": 788210
+    },
+    {
+      "name": "shape_completion_challenge/val/lab61/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "047c59cf8c1ae43af57883d3cf2b9d90716f8df922fe65313fa04566d6efcd2c",
+      "crc32_verified": true,
+      "range_bytes": 212887
+    },
+    {
+      "name": "shape_completion_challenge/val/lab61/input/intrinsic.json",
+      "bytes": 202,
+      "sha256": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "crc32_verified": true,
+      "range_bytes": 728
+    },
+    {
+      "name": "shape_completion_challenge/val/lab61/input/masks/00001.png",
+      "bytes": 3134,
+      "sha256": "cdcad719cfbce4953c3146e7a0a181e0145e985d60a2a9dee5b42fc1c94593d7",
+      "crc32_verified": true,
+      "range_bytes": 2054
+    },
+    {
+      "name": "shape_completion_challenge/val/lab61/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "3e5755e9c2ad78812254965080219228036a60fd8aadc9ab84ee2a2a2b92392d",
+      "crc32_verified": true,
+      "range_bytes": 780
+    },
+    {
+      "name": "shape_completion_challenge/val/lab62/gt/pcd/fruit.ply",
+      "bytes": 1600861,
+      "sha256": "7c623126518c67f84efc27255a885d57b9e93d3b68f6433d9f6c32c0176b0c78",
+      "crc32_verified": true,
+      "range_bytes": 1529139
+    },
+    {
+      "name": "shape_completion_challenge/val/lab62/input/color/00001.png",
+      "bytes": 864763,
+      "sha256": "2119930037eeb76b7553ce7036b1ecdf8089ac51b05e7236fe5868104b5ccded",
+      "crc32_verified": true,
+      "range_bytes": 865628
+    },
+    {
+      "name": "shape_completion_challenge/val/lab62/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "4f3399d79660cdab1174a0a810626eb8f7f786740ab447e63179d55ed1041aed",
+      "crc32_verified": true,
+      "range_bytes": 204069
+    },
+    {
+      "name": "shape_completion_challenge/val/lab62/input/intrinsic.json",
+      "bytes": 202,
+      "sha256": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "crc32_verified": true,
+      "range_bytes": 728
+    },
+    {
+      "name": "shape_completion_challenge/val/lab62/input/masks/00001.png",
+      "bytes": 3121,
+      "sha256": "10003cb1754609a3bdead1db8b780a84f1502cbbd1a9db2e991cdd1241fe5513",
+      "crc32_verified": true,
+      "range_bytes": 1921
+    },
+    {
+      "name": "shape_completion_challenge/val/lab62/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "43f58036f63650fe6b05efd4d283654635540696d5ad41cb741abb719ed98ef2",
+      "crc32_verified": true,
+      "range_bytes": 777
+    },
+    {
+      "name": "shape_completion_challenge/val/lab63/gt/pcd/fruit.ply",
+      "bytes": 2290621,
+      "sha256": "13ad1ac6865eea471886692080c27087335ab112c1b869e64b6ca220c50e73de",
+      "crc32_verified": true,
+      "range_bytes": 2186586
+    },
+    {
+      "name": "shape_completion_challenge/val/lab63/input/color/00001.png",
+      "bytes": 771627,
+      "sha256": "04e0ae801c7c7c394bc2e367a196b38031e849014ec54510684778e42b28d584",
+      "crc32_verified": true,
+      "range_bytes": 772462
+    },
+    {
+      "name": "shape_completion_challenge/val/lab63/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "a3942c54121a4b1ddd7862bb2e98ecfd5133dd443418bf3a2fad0743ecce08aa",
+      "crc32_verified": true,
+      "range_bytes": 217396
+    },
+    {
+      "name": "shape_completion_challenge/val/lab63/input/intrinsic.json",
+      "bytes": 202,
+      "sha256": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "crc32_verified": true,
+      "range_bytes": 728
+    },
+    {
+      "name": "shape_completion_challenge/val/lab63/input/masks/00001.png",
+      "bytes": 3104,
+      "sha256": "f90e131e6c5dc1ace446c58d19a7e47de038b47708bf2ceb20c5daf16bb9d69a",
+      "crc32_verified": true,
+      "range_bytes": 1904
+    },
+    {
+      "name": "shape_completion_challenge/val/lab63/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "d35d54b56a72fa190843bdba80e016553a3f9f59088569a48792348fef7181c0",
+      "crc32_verified": true,
+      "range_bytes": 780
+    },
+    {
+      "name": "shape_completion_challenge/val/lab75/gt/pcd/fruit.ply",
+      "bytes": 1719085,
+      "sha256": "dc0837af52647638b9ff10583306d2f3eb1bcc02e50298a075cc7968fa796956",
+      "crc32_verified": true,
+      "range_bytes": 1640901
+    },
+    {
+      "name": "shape_completion_challenge/val/lab75/input/color/00001.png",
+      "bytes": 831446,
+      "sha256": "c3d0578c542b15eaed4e8e0b1d0dd6ac73afc75c91266c8c03b9da35ae5e8007",
+      "crc32_verified": true,
+      "range_bytes": 832301
+    },
+    {
+      "name": "shape_completion_challenge/val/lab75/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "e4edd084f6d11f97a69b33ed63de3111541573c487b641bd12d6954309590f8f",
+      "crc32_verified": true,
+      "range_bytes": 210561
+    },
+    {
+      "name": "shape_completion_challenge/val/lab75/input/intrinsic.json",
+      "bytes": 202,
+      "sha256": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "crc32_verified": true,
+      "range_bytes": 728
+    },
+    {
+      "name": "shape_completion_challenge/val/lab75/input/masks/00001.png",
+      "bytes": 3010,
+      "sha256": "057fa0403463c4c4be0184f44da5741b11b43e9a9bc1350d35c69c6fc1b9238d",
+      "crc32_verified": true,
+      "range_bytes": 1907
+    },
+    {
+      "name": "shape_completion_challenge/val/lab75/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "c4b6c76f9d6ae43e459050bd45e7eafba8c81f3a18a90664135d5f4f524b502b",
+      "crc32_verified": true,
+      "range_bytes": 779
+    },
+    {
+      "name": "shape_completion_challenge/val/lab76/gt/pcd/fruit.ply",
+      "bytes": 1900573,
+      "sha256": "b43df6014a6d5890b98e1a2398d1984fe360ce7a9b817d6b8e6efeb5e9e246b2",
+      "crc32_verified": true,
+      "range_bytes": 1815116
+    },
+    {
+      "name": "shape_completion_challenge/val/lab76/input/color/00001.png",
+      "bytes": 906830,
+      "sha256": "2e987b55d8eba94fd923463ab51c5496dfc1f3ca39f25e3bd50f812461de082f",
+      "crc32_verified": true,
+      "range_bytes": 907710
+    },
+    {
+      "name": "shape_completion_challenge/val/lab76/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "5cc3a6f4eb4faa04d0e1043937a23b02b482f1483fe45474407bf7ad438cc60a",
+      "crc32_verified": true,
+      "range_bytes": 205552
+    },
+    {
+      "name": "shape_completion_challenge/val/lab76/input/intrinsic.json",
+      "bytes": 202,
+      "sha256": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "crc32_verified": true,
+      "range_bytes": 728
+    },
+    {
+      "name": "shape_completion_challenge/val/lab76/input/masks/00001.png",
+      "bytes": 2760,
+      "sha256": "c373c3916a52079a8934e37e6b56e18e6dec25c39a95f73d39e6d08ea058d8ad",
+      "crc32_verified": true,
+      "range_bytes": 1571
+    },
+    {
+      "name": "shape_completion_challenge/val/lab76/input/poses/00001.txt",
+      "bytes": 408,
+      "sha256": "9f7e6a02e911ee35a6a750b86f6a8ab66a56fd16a1a2a4d38d41520de6a77c8d",
+      "crc32_verified": true,
+      "range_bytes": 781
+    },
+    {
+      "name": "shape_completion_challenge/val/lab77/gt/pcd/fruit.ply",
+      "bytes": 1936333,
+      "sha256": "157811b10a37102491c179c810eac492828ba3f2f13fa39798ef258adefcb06c",
+      "crc32_verified": true,
+      "range_bytes": 1848158
+    },
+    {
+      "name": "shape_completion_challenge/val/lab77/input/color/00001.png",
+      "bytes": 860891,
+      "sha256": "f684ea0a83a9876c4a99811597f0e8411e62a5e3cbbe7a06c126b3f8edeaf0df",
+      "crc32_verified": true,
+      "range_bytes": 861756
+    },
+    {
+      "name": "shape_completion_challenge/val/lab77/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "a3481a6cf9572be1759c800ebeb41938eb6a9895eb0f0a740dfc4982931ef35c",
+      "crc32_verified": true,
+      "range_bytes": 204776
+    },
+    {
+      "name": "shape_completion_challenge/val/lab77/input/intrinsic.json",
+      "bytes": 202,
+      "sha256": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "crc32_verified": true,
+      "range_bytes": 728
+    },
+    {
+      "name": "shape_completion_challenge/val/lab77/input/masks/00001.png",
+      "bytes": 3102,
+      "sha256": "89e6e446d0bdc78fff0566d80b21de33b68e60890a465e1099d7e99abcc3a9de",
+      "crc32_verified": true,
+      "range_bytes": 1884
+    },
+    {
+      "name": "shape_completion_challenge/val/lab77/input/poses/00001.txt",
+      "bytes": 408,
+      "sha256": "394ca2a77ddb823536b076c5d293b71c87fcea689d8a2353da1f7d47905742f0",
+      "crc32_verified": true,
+      "range_bytes": 779
+    },
+    {
+      "name": "shape_completion_challenge/val/lab90/gt/pcd/fruit.ply",
+      "bytes": 1665613,
+      "sha256": "5bad1ad15e7efce1ae13269fc3ac3852f4ffc078efbf03ce8f5aa0c59ce7286b",
+      "crc32_verified": true,
+      "range_bytes": 1590740
+    },
+    {
+      "name": "shape_completion_challenge/val/lab90/input/color/00001.png",
+      "bytes": 818905,
+      "sha256": "3de20f7ad8fc872f36813936232aefba530ee8a4ce0e987bfb5557bde29a47b4",
+      "crc32_verified": true,
+      "range_bytes": 819752
+    },
+    {
+      "name": "shape_completion_challenge/val/lab90/input/depth/00001.npy",
+      "bytes": 3686528,
+      "sha256": "55b238caa54c724be2555f50547c21e2957a55eb55f5802ddd11f02d698e6c04",
+      "crc32_verified": true,
+      "range_bytes": 216697
+    },
+    {
+      "name": "shape_completion_challenge/val/lab90/input/intrinsic.json",
+      "bytes": 202,
+      "sha256": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "crc32_verified": true,
+      "range_bytes": 728
+    },
+    {
+      "name": "shape_completion_challenge/val/lab90/input/masks/00001.png",
+      "bytes": 3105,
+      "sha256": "ae9b8c0380f466db2399583ea5e8032512a9979a5828bc4bc29a73022832239c",
+      "crc32_verified": true,
+      "range_bytes": 2021
+    },
+    {
+      "name": "shape_completion_challenge/val/lab90/input/poses/00001.txt",
+      "bytes": 407,
+      "sha256": "1b664c064ae5af971da58a2c52ed40d5a0c5b621c4785c4e30475c809f6a8376",
+      "crc32_verified": true,
+      "range_bytes": 783
+    }
+  ]
+}

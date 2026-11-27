@@ -1,0 +1,69 @@
+{
+  "stage": "exact_no_op_verified_before_edited_inference",
+  "passed": true,
+  "frozen_inputs_sha256": "e1b724ca89a2054431c08ffd492697b84eae9a8a93344f4cab8e9b2ab4d740f3",
+  "unchanged": {
+    "forward_seconds": 5.1199858749751,
+    "forward_and_mesh_seconds": 6.243918874999508,
+    "forward_and_mesh_cpu_seconds": 16.081723,
+    "tokenizer_input_sha256": "ffacacb64b8723f3e02bf34b7042cb1b06acc1e72a4115a90b5e50f31f8018b9",
+    "triplane_sha256": "50b6b0b9fc946a4bc88221954fdd5919ad9b2e64a5177994a163f5eea7e8bc9c",
+    "density_sha256": "1afe6d51201557f929d4218e0b6633a39354007ceaf9105fd415a36b3ffb87d5",
+    "vertex_sha256": "7a82ad1685e0dfbd1c7e23a6f6a9d271d80ab696b8d9d4471b0e409e1377eda6",
+    "faces_sha256": "ae27646653ca0ba5c80bffc36d2913b03dedbf1997d2decbf3e101e0018937ae",
+    "vertices": 9568,
+    "faces": 19132,
+    "watertight": true,
+    "solid_grid_nodes_on_boundary": 0,
+    "normalized_extents": [
+      0.1229478120803833,
+      1.10605388879776,
+      0.7989468276500702
+    ],
+    "valid_mesh": true
+  },
+  "noop": {
+    "forward_seconds": 5.086824750062078,
+    "forward_and_mesh_seconds": 6.32568879192695,
+    "forward_and_mesh_cpu_seconds": 16.089873,
+    "tokenizer_input_sha256": "ffacacb64b8723f3e02bf34b7042cb1b06acc1e72a4115a90b5e50f31f8018b9",
+    "triplane_sha256": "50b6b0b9fc946a4bc88221954fdd5919ad9b2e64a5177994a163f5eea7e8bc9c",
+    "density_sha256": "1afe6d51201557f929d4218e0b6633a39354007ceaf9105fd415a36b3ffb87d5",
+    "vertex_sha256": "7a82ad1685e0dfbd1c7e23a6f6a9d271d80ab696b8d9d4471b0e409e1377eda6",
+    "faces_sha256": "ae27646653ca0ba5c80bffc36d2913b03dedbf1997d2decbf3e101e0018937ae",
+    "vertices": 9568,
+    "faces": 19132,
+    "watertight": true,
+    "solid_grid_nodes_on_boundary": 0,
+    "normalized_extents": [
+      0.1229478120803833,
+      1.10605388879776,
+      0.7989468276500702
+    ],
+    "valid_mesh": true
+  },
+  "self_distance": {
+    "native_units": {
+      "mean": 2.1234943989006937e-09,
+      "p95": 7.450580596923828e-09,
+      "max": 1.0536712125031045e-07
+    },
+    "approx_mm": {
+      "mean": 1.7638877701806225e-07,
+      "p95": 6.188849851670164e-07,
+      "max": 8.75235539348616e-06
+    }
+  },
+  "no_op_distance": {
+    "native_units": {
+      "mean": 2.1234943989006937e-09,
+      "p95": 7.450580596923828e-09,
+      "max": 1.0536712125031045e-07
+    },
+    "approx_mm": {
+      "mean": 1.7638877701806225e-07,
+      "p95": 6.188849851670164e-07,
+      "max": 8.75235539348616e-06
+    }
+  }
+}

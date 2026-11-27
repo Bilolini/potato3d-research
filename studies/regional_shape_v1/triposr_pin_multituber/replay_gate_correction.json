@@ -1,0 +1,9 @@
+{
+  "initial_frozen_inputs_sha256": "5e0c727ab3ed58ae59c8311db0ef6f06f1c8060f03efe367a36fceab57ec50ac",
+  "corrected_frozen_inputs_sha256": "bba12b4ceef1f4c2fe6b4fac837735a744210fa9a9b36a86e35ba7a2a7252759",
+  "initial_runner_sha256": "5c22b4640fb7a95e44a6bd251eeccc84f4eed3387f51cc48d9cd87751cacaee8",
+  "corrected_runner_sha256": "fc3663c5b80bcd5e28c278c4192aad06022ee31ef46f214eaaa81047810728bb",
+  "unchanged_manifest_content_except_runner_hash": true,
+  "edited_predictions_before_correction": 0,
+  "reason": "Remove an extra gate on numerical self-distance maxima. The protocol gates replay on exact arrays and mesh validity, with self-distances recorded and the contrast tie tolerance kept unchanged."
+}

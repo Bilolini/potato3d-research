@@ -1,0 +1,371 @@
+{
+  "source_commit": "04c2ed46737533630ff8665646bef402e9225f35",
+  "corepp_commit": "0d6bae40b9215332efd566e6bca83bea171b99e9",
+  "source_files": [
+    {
+      "path": "PotatoScan_README.md",
+      "sha256": "c7ecbeba026a5cd598bddd95f0545198337f7ac1fc4461a8fe1e7c70b00f75ba"
+    },
+    {
+      "path": "export_volume_2023.ipynb",
+      "sha256": "f190185caf1bc95df871e2eb1c6fa813960121001b6b469a8bf936bafee329c9"
+    },
+    {
+      "path": "reference_list.ipynb",
+      "sha256": "c60ca79da8897f05dc339ae87c4ddc28092671bff5ff765df5aa2126a1459d18"
+    }
+  ],
+  "audit": {
+    "source": "data/raw/3DPotatoTwinDemo",
+    "intrinsic_sha256": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf",
+    "calibration_source_sha256": "c27b30dd226c96414733b09a38c064cce7953b983381de52192714e3f1bb47e9",
+    "objects": [
+      {
+        "object_id": "2R2-8",
+        "frame_id": "356",
+        "depth_sha256": "8ec41435d1cb937c979b027848c17a0903c85d0455e7caee59cf2dc1ff30c41d",
+        "rgb_sha256": "3e2c8449942d7c2e07b5cb8f4db092a04aad5ae8cc6a090387b282f69986bcba",
+        "partial_sha256": "e5cc9dc4f2f8f739641e5f2bdcc11135e5da0e40420200166909795e563641bf",
+        "ply_depth_consistency": {
+          "points": 22085,
+          "max_pixel_rounding_error": 0.0,
+          "p99_xyz_reprojection_error_mm": 1.4875769745378346e-05,
+          "max_xyz_reprojection_error_mm": 1.5640863416764788e-05,
+          "fraction_inside_object_alpha": 1.0
+        },
+        "background_plane_proxy": {
+          "status": "candidate background proxy; not certified physical belt calibration",
+          "uses_reference_geometry": false,
+          "uses_physical_measurements": false,
+          "selection": "image x10-90%, y5-95%; target alpha dilated 15 px excluded; depth 330-375 mm",
+          "candidate_pixels": 98206,
+          "sampled_pixels": 12000,
+          "training_pixels": 9600,
+          "heldout_pixels": 2400,
+          "seed": 527,
+          "plane_z_ax_by_d": [
+            0.03054999489073638,
+            -0.0031929042736468516,
+            348.3607220027433
+          ],
+          "camera_axis_intercept_mm": 348.3607220027433,
+          "tilt_deg": 1.7593665258036513,
+          "train_inlier_fraction_at_1p5mm": 0.3642708333333333,
+          "heldout_inlier_fraction_at_1p5mm": 0.35791666666666666,
+          "heldout_all_candidates_median_residual_mm": 2.3907071599783976,
+          "heldout_inlier_median_residual_mm": 0.7217038450360039,
+          "inlier_coverage_tiles_of_16": 16,
+          "camera_mm_to_proxy_plane_mm": [
+            [
+              0.9995336800477499,
+              9.749672895801478e-05,
+              0.030535437520855135,
+              0.0
+            ],
+            [
+              0.0,
+              -0.9999949027201233,
+              0.0031928879985201487,
+              0.0
+            ],
+            [
+              0.03053559316931972,
+              -0.0031913990911411395,
+              -0.9995285851448366,
+              348.1964995834357
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "limitations": [
+            "Other potatoes/rollers/voids are not semantically labeled",
+            "Dominant plane can intersect round rods instead of their support envelope",
+            "Single-frame holdout pixels validate fit support, not physical support height",
+            "No prediction or existing experiment is recalibrated"
+          ]
+        }
+      },
+      {
+        "object_id": "4R3-4",
+        "frame_id": "367",
+        "depth_sha256": "f0259582f0899c19482313e3a4c16c55e453417bf74f47bd876aa35d009a44d1",
+        "rgb_sha256": "707c08330b0493c9e02f736ccb652573286a85e86a41482b2a223ee88af76ddd",
+        "partial_sha256": "aaddfa09978e6a2f1c0d03ae10819c6013812566414c28cf103c00907da0634c",
+        "ply_depth_consistency": {
+          "points": 15847,
+          "max_pixel_rounding_error": 0.0,
+          "p99_xyz_reprojection_error_mm": 1.5082344905717743e-05,
+          "max_xyz_reprojection_error_mm": 1.5146629170758696e-05,
+          "fraction_inside_object_alpha": 1.0
+        },
+        "background_plane_proxy": {
+          "status": "candidate background proxy; not certified physical belt calibration",
+          "uses_reference_geometry": false,
+          "uses_physical_measurements": false,
+          "selection": "image x10-90%, y5-95%; target alpha dilated 15 px excluded; depth 330-375 mm",
+          "candidate_pixels": 192882,
+          "sampled_pixels": 12000,
+          "training_pixels": 9600,
+          "heldout_pixels": 2400,
+          "seed": 527,
+          "plane_z_ax_by_d": [
+            0.017940213176360013,
+            0.0032900616725136116,
+            350.6444851192837
+          ],
+          "camera_axis_intercept_mm": 350.6444851192837,
+          "tilt_deg": 1.044924843787886,
+          "train_inlier_fraction_at_1p5mm": 0.4354166666666667,
+          "heldout_inlier_fraction_at_1p5mm": 0.43416666666666665,
+          "heldout_all_candidates_median_residual_mm": 1.7612831465537488,
+          "heldout_inlier_median_residual_mm": 0.7020385004730552,
+          "inlier_coverage_tiles_of_16": 16,
+          "camera_mm_to_proxy_plane_mm": [
+            [
+              0.9998391149518433,
+              -5.9014272823240556e-05,
+              0.017937132703702046,
+              0.0
+            ],
+            [
+              0.0,
+              -0.9999945877910338,
+              -0.0032900438660123286,
+              0.0
+            ],
+            [
+              0.01793722978373791,
+              0.0032895145471465077,
+              -0.9998337036136207,
+              350.58617420850453
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "limitations": [
+            "Other potatoes/rollers/voids are not semantically labeled",
+            "Dominant plane can intersect round rods instead of their support envelope",
+            "Single-frame holdout pixels validate fit support, not physical support height",
+            "No prediction or existing experiment is recalibrated"
+          ]
+        }
+      },
+      {
+        "object_id": "5R3-2",
+        "frame_id": "356",
+        "depth_sha256": "54498d55cf5849e1e1a937152543bbd69c719d8b38553ea37dced9d887835a12",
+        "rgb_sha256": "554371c1d42cae27804a776d7910b74a94872399bcaa70e17a74fe932dcd97ac",
+        "partial_sha256": "b8d44ed69008c80c62bc553a247fd76ce3fb882725cff18f871e8103af7c364b",
+        "ply_depth_consistency": {
+          "points": 10955,
+          "max_pixel_rounding_error": 0.0,
+          "p99_xyz_reprojection_error_mm": 1.4616020336209223e-05,
+          "max_xyz_reprojection_error_mm": 1.4660639658180124e-05,
+          "fraction_inside_object_alpha": 1.0
+        },
+        "background_plane_proxy": {
+          "status": "candidate background proxy; not certified physical belt calibration",
+          "uses_reference_geometry": false,
+          "uses_physical_measurements": false,
+          "selection": "image x10-90%, y5-95%; target alpha dilated 15 px excluded; depth 330-375 mm",
+          "candidate_pixels": 144410,
+          "sampled_pixels": 12000,
+          "training_pixels": 9600,
+          "heldout_pixels": 2400,
+          "seed": 527,
+          "plane_z_ax_by_d": [
+            0.029241075697677605,
+            0.008812186510444764,
+            348.6764014419385
+          ],
+          "camera_axis_intercept_mm": 348.6764014419385,
+          "tilt_deg": 1.749272715261898,
+          "train_inlier_fraction_at_1p5mm": 0.2888541666666667,
+          "heldout_inlier_fraction_at_1p5mm": 0.29875,
+          "heldout_all_candidates_median_residual_mm": 3.186289162166105,
+          "heldout_inlier_median_residual_mm": 0.7019216521538587,
+          "inlier_coverage_tiles_of_16": 16,
+          "camera_mm_to_proxy_plane_mm": [
+            [
+              0.9995727868649907,
+              -0.00025754772969379563,
+              0.029226313967428363,
+              0.0
+            ],
+            [
+              0.0,
+              -0.999961174945647,
+              -0.008811844376824527,
+              0.0
+            ],
+            [
+              0.0292274487247137,
+              0.00880807984116309,
+              -0.9995339783972109,
+              348.5139107064838
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "limitations": [
+            "Other potatoes/rollers/voids are not semantically labeled",
+            "Dominant plane can intersect round rods instead of their support envelope",
+            "Single-frame holdout pixels validate fit support, not physical support height",
+            "No prediction or existing experiment is recalibrated"
+          ]
+        }
+      },
+      {
+        "object_id": "R13-8",
+        "frame_id": "357",
+        "depth_sha256": "e8fa08618036b7032f750718195b1e8be5591ccb3e17745735a017d74dc151b4",
+        "rgb_sha256": "38db1db38b0a9fef4f5356c3fe1e43f75cb549c1da097733d20d84eb69a53147",
+        "partial_sha256": "9f06153863208e821e872c149566f488c396ca2f043ecb932402f25b1ee9c0de",
+        "ply_depth_consistency": {
+          "points": 38302,
+          "max_pixel_rounding_error": 0.0,
+          "p99_xyz_reprojection_error_mm": 1.574814498660756e-05,
+          "max_xyz_reprojection_error_mm": 1.6352111597190285e-05,
+          "fraction_inside_object_alpha": 1.0
+        },
+        "background_plane_proxy": {
+          "status": "candidate background proxy; not certified physical belt calibration",
+          "uses_reference_geometry": false,
+          "uses_physical_measurements": false,
+          "selection": "image x10-90%, y5-95%; target alpha dilated 15 px excluded; depth 330-375 mm",
+          "candidate_pixels": 249887,
+          "sampled_pixels": 12000,
+          "training_pixels": 9600,
+          "heldout_pixels": 2400,
+          "seed": 527,
+          "plane_z_ax_by_d": [
+            0.017602036964198896,
+            0.0031940362384989545,
+            350.34067820478674
+          ],
+          "camera_axis_intercept_mm": 350.34067820478674,
+          "tilt_deg": 1.02488250382929,
+          "train_inlier_fraction_at_1p5mm": 0.4451041666666667,
+          "heldout_inlier_fraction_at_1p5mm": 0.45458333333333334,
+          "heldout_all_candidates_median_residual_mm": 1.7162309391351525,
+          "heldout_inlier_median_residual_mm": 0.7367484745690478,
+          "inlier_coverage_tiles_of_16": 16,
+          "camera_mm_to_proxy_plane_mm": [
+            [
+              0.9998451217161262,
+              -5.621226296874972e-05,
+              0.017599131246916228,
+              0.0
+            ],
+            [
+              0.0,
+              -0.9999948991052825,
+              -0.003194019946056378,
+              0.0
+            ],
+            [
+              0.017599221018689753,
+              0.0031935252617284744,
+              -0.9998400216114266,
+              350.2846312676358
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "limitations": [
+            "Other potatoes/rollers/voids are not semantically labeled",
+            "Dominant plane can intersect round rods instead of their support envelope",
+            "Single-frame holdout pixels validate fit support, not physical support height",
+            "No prediction or existing experiment is recalibrated"
+          ]
+        }
+      },
+      {
+        "object_id": "R7-7",
+        "frame_id": "357",
+        "depth_sha256": "2eed9a388d77aeb83b230e8ef2f45e11dffe710312d4a54a96624644283bc829",
+        "rgb_sha256": "7e482403c5765d23adf466e7fde9678eb8cc45d3fc22e627f6518e5d8fee65fe",
+        "partial_sha256": "bb5e1c94c4ded719cc23865b87373798ea6450412b24819995ad8d56a2f723d6",
+        "ply_depth_consistency": {
+          "points": 5604,
+          "max_pixel_rounding_error": 0.0,
+          "p99_xyz_reprojection_error_mm": 1.5232523470296589e-05,
+          "max_xyz_reprojection_error_mm": 1.5299874189390585e-05,
+          "fraction_inside_object_alpha": 1.0
+        },
+        "background_plane_proxy": {
+          "status": "candidate background proxy; not certified physical belt calibration",
+          "uses_reference_geometry": false,
+          "uses_physical_measurements": false,
+          "selection": "image x10-90%, y5-95%; target alpha dilated 15 px excluded; depth 330-375 mm",
+          "candidate_pixels": 280316,
+          "sampled_pixels": 12000,
+          "training_pixels": 9600,
+          "heldout_pixels": 2400,
+          "seed": 527,
+          "plane_z_ax_by_d": [
+            0.019433339469700647,
+            0.004908141271116353,
+            350.45029429505496
+          ],
+          "camera_axis_intercept_mm": 350.45029429505496,
+          "tilt_deg": 1.148257979706492,
+          "train_inlier_fraction_at_1p5mm": 0.49083333333333334,
+          "heldout_inlier_fraction_at_1p5mm": 0.49375,
+          "heldout_all_candidates_median_residual_mm": 1.5256662562040957,
+          "heldout_inlier_median_residual_mm": 0.6829920008328875,
+          "inlier_coverage_tiles_of_16": 16,
+          "camera_mm_to_proxy_plane_mm": [
+            [
+              0.9998112306714859,
+              -9.536127313205897e-05,
+              0.01942920300465784,
+              0.0
+            ],
+            [
+              1.3552527156068805e-20,
+              -0.9999879552922472,
+              -0.004908082153989133,
+              0.0
+            ],
+            [
+              0.01942943702654862,
+              0.004907155658616633,
+              -0.9997991882374047,
+              350.37991975375553
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "limitations": [
+            "Other potatoes/rollers/voids are not semantically labeled",
+            "Dominant plane can intersect round rods instead of their support envelope",
+            "Single-frame holdout pixels validate fit support, not physical support height",
+            "No prediction or existing experiment is recalibrated"
+          ]
+        }
+      }
+    ]
+  },
+  "status": "PLY/depth consistency verified; support-plane proxy available; physical calibration and 2R2-8 measurement inconsistency unresolved"
+}

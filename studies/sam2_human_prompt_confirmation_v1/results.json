@@ -1,0 +1,39 @@
+{
+  "enrolled": 45,
+  "center_iou_threshold": 0.5,
+  "potato_matches": 45,
+  "center_match_fraction": 1.0,
+  "center_match_binomial_95": [
+    0.9212948995931569,
+    1.0
+  ],
+  "responses": {
+    "click": 45
+  },
+  "click_regions": {
+    "potato_outside_pin": 45
+  },
+  "scorable_paired_weights": 45,
+  "paired_mae_g": {
+    "human": 12.25712774625709,
+    "provided": 12.363723915328965
+  },
+  "paired_mean_change_g": -0.10659616907187844,
+  "paired_mean_change_bootstrap_95_g": [
+    -0.847583645669645,
+    0.6025145573901137
+  ],
+  "mask_failure_counts": {},
+  "mask_failure_ids": [],
+  "weight_failure_ids": [],
+  "pin_at_entry_failure_ids": [],
+  "lost_potato_later_failure_ids": [],
+  "tracking_wall_s": 894.4372803770002,
+  "freeze_receipt": {
+    "manifest_sha256": "bf61425cdb572bd3876b3cf8387f890882ff292935474191c30facec72c40465",
+    "protocol_sha256": "cb1e0f307d77c257b216e8a1cd27c233ff62884ab23713c0b7e03956788a10ac",
+    "completed": 45,
+    "clicks_sha256": "9bdd5b51ba38866292a4982d67d4e1a9426296328279f86f3a5fa0aae984e993",
+    "cohort_sha256": "cc08f9ece8796cc827eff24de0511149cfcd4c5de5a4b8a46438a1e72741e5b8"
+  }
+}

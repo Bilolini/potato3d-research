@@ -1,0 +1,1123 @@
+{
+  "protocol_id": "bonn_real_v1",
+  "role": "frozen lab-only object-level train/development/local-holdout; not official hidden test",
+  "source_url": "https://www.ipb.uni-bonn.de/html/projects/shape_completion/shape_completion_challenge.zip",
+  "archive_bytes": 8369655798,
+  "partition_seed": 527151101,
+  "excluded_prior_audit_id": "lab15",
+  "roles": {
+    "train": [
+      "lab1",
+      "lab18",
+      "lab23",
+      "lab37",
+      "lab52",
+      "lab54",
+      "lab60",
+      "lab74"
+    ],
+    "development": [
+      "lab46",
+      "lab61",
+      "lab75"
+    ],
+    "holdout": [
+      "lab16",
+      "lab17",
+      "lab29",
+      "lab30",
+      "lab32",
+      "lab45",
+      "lab48",
+      "lab62",
+      "lab63",
+      "lab76",
+      "lab77",
+      "lab90"
+    ]
+  },
+  "objects": [
+    {
+      "object_id": "lab1",
+      "role": "train",
+      "source_split": "train",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/train/lab1/gt/pcd/fruit.ply",
+      "members": [
+        {
+          "name": "shape_completion_challenge/train/lab1/gt/pcd/fruit.ply",
+          "compressed_bytes": 1158946,
+          "bytes": 1215853,
+          "offset": 494,
+          "compression": 8,
+          "crc32": 2744418278
+        }
+      ]
+    },
+    {
+      "object_id": "lab18",
+      "role": "train",
+      "source_split": "train",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/train/lab18/gt/pcd/fruit.ply",
+      "members": [
+        {
+          "name": "shape_completion_challenge/train/lab18/gt/pcd/fruit.ply",
+          "compressed_bytes": 1639522,
+          "bytes": 1717645,
+          "offset": 524690157,
+          "compression": 8,
+          "crc32": 865334466
+        }
+      ]
+    },
+    {
+      "object_id": "lab23",
+      "role": "train",
+      "source_split": "train",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/train/lab23/gt/pcd/fruit.ply",
+      "members": [
+        {
+          "name": "shape_completion_challenge/train/lab23/gt/pcd/fruit.ply",
+          "compressed_bytes": 2030822,
+          "bytes": 2127373,
+          "offset": 827499035,
+          "compression": 8,
+          "crc32": 2854139041
+        }
+      ]
+    },
+    {
+      "object_id": "lab37",
+      "role": "train",
+      "source_split": "train",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/train/lab37/gt/pcd/fruit.ply",
+      "members": [
+        {
+          "name": "shape_completion_challenge/train/lab37/gt/pcd/fruit.ply",
+          "compressed_bytes": 1320576,
+          "bytes": 1383037,
+          "offset": 1845781143,
+          "compression": 8,
+          "crc32": 3544961458
+        }
+      ]
+    },
+    {
+      "object_id": "lab52",
+      "role": "train",
+      "source_split": "train",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/train/lab52/gt/pcd/fruit.ply",
+      "members": [
+        {
+          "name": "shape_completion_challenge/train/lab52/gt/pcd/fruit.ply",
+          "compressed_bytes": 1841017,
+          "bytes": 1928317,
+          "offset": 2766284564,
+          "compression": 8,
+          "crc32": 839174686
+        }
+      ]
+    },
+    {
+      "object_id": "lab54",
+      "role": "train",
+      "source_split": "train",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/train/lab54/gt/pcd/fruit.ply",
+      "members": [
+        {
+          "name": "shape_completion_challenge/train/lab54/gt/pcd/fruit.ply",
+          "compressed_bytes": 1809366,
+          "bytes": 1895917,
+          "offset": 2973983041,
+          "compression": 8,
+          "crc32": 2135331387
+        }
+      ]
+    },
+    {
+      "object_id": "lab60",
+      "role": "train",
+      "source_split": "train",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/train/lab60/gt/pcd/fruit.ply",
+      "members": [
+        {
+          "name": "shape_completion_challenge/train/lab60/gt/pcd/fruit.ply",
+          "compressed_bytes": 2001176,
+          "bytes": 2095117,
+          "offset": 3619804404,
+          "compression": 8,
+          "crc32": 1955318574
+        }
+      ]
+    },
+    {
+      "object_id": "lab74",
+      "role": "train",
+      "source_split": "train",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/train/lab74/gt/pcd/fruit.ply",
+      "members": [
+        {
+          "name": "shape_completion_challenge/train/lab74/gt/pcd/fruit.ply",
+          "compressed_bytes": 1852925,
+          "bytes": 1941949,
+          "offset": 4151342667,
+          "compression": 8,
+          "crc32": 4222922399
+        }
+      ]
+    },
+    {
+      "object_id": "lab46",
+      "role": "development",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab46/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab46/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab46/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab46/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab46/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab46/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab46/gt/pcd/fruit.ply",
+          "compressed_bytes": 1813556,
+          "bytes": 1898749,
+          "offset": 6300389937,
+          "compression": 8,
+          "crc32": 1176612512
+        },
+        {
+          "name": "shape_completion_challenge/val/lab46/input/intrinsic.json",
+          "compressed_bytes": 128,
+          "bytes": 197,
+          "offset": 6302203836,
+          "compression": 8,
+          "crc32": 1272693019
+        },
+        {
+          "name": "shape_completion_challenge/val/lab46/input/color/00001.png",
+          "compressed_bytes": 790116,
+          "bytes": 789871,
+          "offset": 6302204210,
+          "compression": 8,
+          "crc32": 1196780751
+        },
+        {
+          "name": "shape_completion_challenge/val/lab46/input/depth/00001.npy",
+          "compressed_bytes": 178138,
+          "bytes": 3686528,
+          "offset": 6328707463,
+          "compression": 8,
+          "crc32": 4116063879
+        },
+        {
+          "name": "shape_completion_challenge/val/lab46/input/masks/00001.png",
+          "compressed_bytes": 1556,
+          "bytes": 3202,
+          "offset": 6334989527,
+          "compression": 8,
+          "crc32": 2599614325
+        },
+        {
+          "name": "shape_completion_challenge/val/lab46/input/poses/00001.txt",
+          "compressed_bytes": 181,
+          "bytes": 407,
+          "offset": 6335043585,
+          "compression": 8,
+          "crc32": 2231310578
+        }
+      ]
+    },
+    {
+      "object_id": "lab61",
+      "role": "development",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab61/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab61/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab61/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab61/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab61/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab61/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab61/gt/pcd/fruit.ply",
+          "compressed_bytes": 1427729,
+          "bytes": 1495693,
+          "offset": 6497907213,
+          "compression": 8,
+          "crc32": 4235686820
+        },
+        {
+          "name": "shape_completion_challenge/val/lab61/input/intrinsic.json",
+          "compressed_bytes": 129,
+          "bytes": 202,
+          "offset": 6499335285,
+          "compression": 8,
+          "crc32": 3749279125
+        },
+        {
+          "name": "shape_completion_challenge/val/lab61/input/color/00001.png",
+          "compressed_bytes": 787610,
+          "bytes": 787373,
+          "offset": 6499335660,
+          "compression": 8,
+          "crc32": 328278455
+        },
+        {
+          "name": "shape_completion_challenge/val/lab61/input/depth/00001.npy",
+          "compressed_bytes": 212287,
+          "bytes": 3686528,
+          "offset": 6578131155,
+          "compression": 8,
+          "crc32": 4264695617
+        },
+        {
+          "name": "shape_completion_challenge/val/lab61/input/masks/00001.png",
+          "compressed_bytes": 1454,
+          "bytes": 3134,
+          "offset": 6598100031,
+          "compression": 8,
+          "crc32": 3199295351
+        },
+        {
+          "name": "shape_completion_challenge/val/lab61/input/poses/00001.txt",
+          "compressed_bytes": 180,
+          "bytes": 407,
+          "offset": 6598282458,
+          "compression": 8,
+          "crc32": 2489362011
+        }
+      ]
+    },
+    {
+      "object_id": "lab75",
+      "role": "development",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab75/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab75/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab75/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab75/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab75/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab75/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab75/gt/pcd/fruit.ply",
+          "compressed_bytes": 1640306,
+          "bytes": 1719085,
+          "offset": 6745740064,
+          "compression": 8,
+          "crc32": 1563944904
+        },
+        {
+          "name": "shape_completion_challenge/val/lab75/input/intrinsic.json",
+          "compressed_bytes": 129,
+          "bytes": 202,
+          "offset": 6747380713,
+          "compression": 8,
+          "crc32": 3749279125
+        },
+        {
+          "name": "shape_completion_challenge/val/lab75/input/color/00001.png",
+          "compressed_bytes": 831701,
+          "bytes": 831446,
+          "offset": 6747381088,
+          "compression": 8,
+          "crc32": 1148210145
+        },
+        {
+          "name": "shape_completion_challenge/val/lab75/input/depth/00001.npy",
+          "compressed_bytes": 209961,
+          "bytes": 3686528,
+          "offset": 6768751114,
+          "compression": 8,
+          "crc32": 4155477121
+        },
+        {
+          "name": "shape_completion_challenge/val/lab75/input/masks/00001.png",
+          "compressed_bytes": 1307,
+          "bytes": 3010,
+          "offset": 6774032667,
+          "compression": 8,
+          "crc32": 1012802529
+        },
+        {
+          "name": "shape_completion_challenge/val/lab75/input/poses/00001.txt",
+          "compressed_bytes": 179,
+          "bytes": 407,
+          "offset": 6774068241,
+          "compression": 8,
+          "crc32": 2843185924
+        }
+      ]
+    },
+    {
+      "object_id": "lab16",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab16/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab16/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab16/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab16/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab16/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab16/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab16/gt/pcd/fruit.ply",
+          "compressed_bytes": 1636734,
+          "bytes": 1712845,
+          "offset": 4880455392,
+          "compression": 8,
+          "crc32": 1214382721
+        },
+        {
+          "name": "shape_completion_challenge/val/lab16/input/intrinsic.json",
+          "compressed_bytes": 128,
+          "bytes": 197,
+          "offset": 4882092469,
+          "compression": 8,
+          "crc32": 1272693019
+        },
+        {
+          "name": "shape_completion_challenge/val/lab16/input/color/00001.png",
+          "compressed_bytes": 788654,
+          "bytes": 788414,
+          "offset": 4882092843,
+          "compression": 8,
+          "crc32": 2239762758
+        },
+        {
+          "name": "shape_completion_challenge/val/lab16/input/depth/00001.npy",
+          "compressed_bytes": 236358,
+          "bytes": 3686528,
+          "offset": 4918569714,
+          "compression": 8,
+          "crc32": 2477835641
+        },
+        {
+          "name": "shape_completion_challenge/val/lab16/input/masks/00001.png",
+          "compressed_bytes": 1484,
+          "bytes": 3125,
+          "offset": 4929145003,
+          "compression": 8,
+          "crc32": 711480215
+        },
+        {
+          "name": "shape_completion_challenge/val/lab16/input/poses/00001.txt",
+          "compressed_bytes": 183,
+          "bytes": 407,
+          "offset": 4929216579,
+          "compression": 8,
+          "crc32": 1438264881
+        }
+      ]
+    },
+    {
+      "object_id": "lab17",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab17/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab17/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab17/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab17/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab17/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab17/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab17/gt/pcd/fruit.ply",
+          "compressed_bytes": 1865674,
+          "bytes": 1953133,
+          "offset": 5079111392,
+          "compression": 8,
+          "crc32": 3684163711
+        },
+        {
+          "name": "shape_completion_challenge/val/lab17/input/intrinsic.json",
+          "compressed_bytes": 128,
+          "bytes": 197,
+          "offset": 5080977409,
+          "compression": 8,
+          "crc32": 1272693019
+        },
+        {
+          "name": "shape_completion_challenge/val/lab17/input/color/00001.png",
+          "compressed_bytes": 853239,
+          "bytes": 852979,
+          "offset": 5080977783,
+          "compression": 8,
+          "crc32": 2581160305
+        },
+        {
+          "name": "shape_completion_challenge/val/lab17/input/depth/00001.npy",
+          "compressed_bytes": 230932,
+          "bytes": 3686528,
+          "offset": 5117678112,
+          "compression": 8,
+          "crc32": 2403926368
+        },
+        {
+          "name": "shape_completion_challenge/val/lab17/input/masks/00001.png",
+          "compressed_bytes": 1589,
+          "bytes": 3344,
+          "offset": 5127416358,
+          "compression": 8,
+          "crc32": 1920239313
+        },
+        {
+          "name": "shape_completion_challenge/val/lab17/input/poses/00001.txt",
+          "compressed_bytes": 183,
+          "bytes": 407,
+          "offset": 5127486618,
+          "compression": 8,
+          "crc32": 1378440114
+        }
+      ]
+    },
+    {
+      "object_id": "lab29",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab29/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab29/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab29/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab29/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab29/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab29/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab29/gt/pcd/fruit.ply",
+          "compressed_bytes": 1936310,
+          "bytes": 2027437,
+          "offset": 5265279641,
+          "compression": 8,
+          "crc32": 2429091277
+        },
+        {
+          "name": "shape_completion_challenge/val/lab29/input/intrinsic.json",
+          "compressed_bytes": 128,
+          "bytes": 197,
+          "offset": 5267216294,
+          "compression": 8,
+          "crc32": 1272693019
+        },
+        {
+          "name": "shape_completion_challenge/val/lab29/input/color/00001.png",
+          "compressed_bytes": 759882,
+          "bytes": 759647,
+          "offset": 5267216668,
+          "compression": 8,
+          "crc32": 3121168503
+        },
+        {
+          "name": "shape_completion_challenge/val/lab29/input/depth/00001.npy",
+          "compressed_bytes": 206529,
+          "bytes": 3686528,
+          "offset": 5364529459,
+          "compression": 8,
+          "crc32": 1355266578
+        },
+        {
+          "name": "shape_completion_challenge/val/lab29/input/masks/00001.png",
+          "compressed_bytes": 1975,
+          "bytes": 3489,
+          "offset": 5390457732,
+          "compression": 8,
+          "crc32": 2352887014
+        },
+        {
+          "name": "shape_completion_challenge/val/lab29/input/poses/00001.txt",
+          "compressed_bytes": 182,
+          "bytes": 407,
+          "offset": 5390707294,
+          "compression": 8,
+          "crc32": 2019223811
+        }
+      ]
+    },
+    {
+      "object_id": "lab30",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab30/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab30/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab30/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab30/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab30/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab30/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab30/gt/pcd/fruit.ply",
+          "compressed_bytes": 1442749,
+          "bytes": 1510909,
+          "offset": 5762840324,
+          "compression": 8,
+          "crc32": 740518389
+        },
+        {
+          "name": "shape_completion_challenge/val/lab30/input/intrinsic.json",
+          "compressed_bytes": 128,
+          "bytes": 197,
+          "offset": 5764283416,
+          "compression": 8,
+          "crc32": 1272693019
+        },
+        {
+          "name": "shape_completion_challenge/val/lab30/input/color/00001.png",
+          "compressed_bytes": 785069,
+          "bytes": 784829,
+          "offset": 5764283790,
+          "compression": 8,
+          "crc32": 822502384
+        },
+        {
+          "name": "shape_completion_challenge/val/lab30/input/depth/00001.npy",
+          "compressed_bytes": 207105,
+          "bytes": 3686528,
+          "offset": 5858408068,
+          "compression": 8,
+          "crc32": 4079257047
+        },
+        {
+          "name": "shape_completion_challenge/val/lab30/input/masks/00001.png",
+          "compressed_bytes": 1131,
+          "bytes": 3050,
+          "offset": 5881319922,
+          "compression": 8,
+          "crc32": 2279047616
+        },
+        {
+          "name": "shape_completion_challenge/val/lab30/input/poses/00001.txt",
+          "compressed_bytes": 179,
+          "bytes": 407,
+          "offset": 5881522064,
+          "compression": 8,
+          "crc32": 3070543276
+        }
+      ]
+    },
+    {
+      "object_id": "lab32",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab32/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab32/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab32/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab32/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab32/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab32/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab32/gt/pcd/fruit.ply",
+          "compressed_bytes": 2000127,
+          "bytes": 2094349,
+          "offset": 6042067979,
+          "compression": 8,
+          "crc32": 1706151082
+        },
+        {
+          "name": "shape_completion_challenge/val/lab32/input/intrinsic.json",
+          "compressed_bytes": 128,
+          "bytes": 197,
+          "offset": 6044068449,
+          "compression": 8,
+          "crc32": 1272693019
+        },
+        {
+          "name": "shape_completion_challenge/val/lab32/input/color/00001.png",
+          "compressed_bytes": 776862,
+          "bytes": 776622,
+          "offset": 6044068823,
+          "compression": 8,
+          "crc32": 1838884914
+        },
+        {
+          "name": "shape_completion_challenge/val/lab32/input/depth/00001.npy",
+          "compressed_bytes": 206207,
+          "bytes": 3686528,
+          "offset": 6151778917,
+          "compression": 8,
+          "crc32": 4059015152
+        },
+        {
+          "name": "shape_completion_challenge/val/lab32/input/masks/00001.png",
+          "compressed_bytes": 1763,
+          "bytes": 3350,
+          "offset": 6179024923,
+          "compression": 8,
+          "crc32": 3139828667
+        },
+        {
+          "name": "shape_completion_challenge/val/lab32/input/poses/00001.txt",
+          "compressed_bytes": 182,
+          "bytes": 407,
+          "offset": 6179314433,
+          "compression": 8,
+          "crc32": 3230054053
+        }
+      ]
+    },
+    {
+      "object_id": "lab45",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab45/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab45/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab45/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab45/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab45/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab45/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab45/gt/pcd/fruit.ply",
+          "compressed_bytes": 1585905,
+          "bytes": 1662397,
+          "offset": 6179359848,
+          "compression": 8,
+          "crc32": 1366121989
+        },
+        {
+          "name": "shape_completion_challenge/val/lab45/input/intrinsic.json",
+          "compressed_bytes": 128,
+          "bytes": 197,
+          "offset": 6180946096,
+          "compression": 8,
+          "crc32": 1272693019
+        },
+        {
+          "name": "shape_completion_challenge/val/lab45/input/color/00001.png",
+          "compressed_bytes": 802620,
+          "bytes": 802375,
+          "offset": 6180946470,
+          "compression": 8,
+          "crc32": 3186553039
+        },
+        {
+          "name": "shape_completion_challenge/val/lab45/input/depth/00001.npy",
+          "compressed_bytes": 216721,
+          "bytes": 3686528,
+          "offset": 6276888280,
+          "compression": 8,
+          "crc32": 3098830378
+        },
+        {
+          "name": "shape_completion_challenge/val/lab45/input/masks/00001.png",
+          "compressed_bytes": 1545,
+          "bytes": 3275,
+          "offset": 6300133321,
+          "compression": 8,
+          "crc32": 3803541887
+        },
+        {
+          "name": "shape_completion_challenge/val/lab45/input/poses/00001.txt",
+          "compressed_bytes": 178,
+          "bytes": 407,
+          "offset": 6300351595,
+          "compression": 8,
+          "crc32": 2142328356
+        }
+      ]
+    },
+    {
+      "object_id": "lab48",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab48/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab48/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab48/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab48/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab48/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab48/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab48/gt/pcd/fruit.ply",
+          "compressed_bytes": 1660960,
+          "bytes": 1740397,
+          "offset": 6335054392,
+          "compression": 8,
+          "crc32": 706716785
+        },
+        {
+          "name": "shape_completion_challenge/val/lab48/input/intrinsic.json",
+          "compressed_bytes": 128,
+          "bytes": 197,
+          "offset": 6336715695,
+          "compression": 8,
+          "crc32": 1272693019
+        },
+        {
+          "name": "shape_completion_challenge/val/lab48/input/color/00001.png",
+          "compressed_bytes": 786886,
+          "bytes": 786646,
+          "offset": 6336716069,
+          "compression": 8,
+          "crc32": 3310066798
+        },
+        {
+          "name": "shape_completion_challenge/val/lab48/input/depth/00001.npy",
+          "compressed_bytes": 210200,
+          "bytes": 3686528,
+          "offset": 6465337540,
+          "compression": 8,
+          "crc32": 3018435336
+        },
+        {
+          "name": "shape_completion_challenge/val/lab48/input/masks/00001.png",
+          "compressed_bytes": 1523,
+          "bytes": 3230,
+          "offset": 6497576136,
+          "compression": 8,
+          "crc32": 2323732794
+        },
+        {
+          "name": "shape_completion_challenge/val/lab48/input/poses/00001.txt",
+          "compressed_bytes": 178,
+          "bytes": 407,
+          "offset": 6497854785,
+          "compression": 8,
+          "crc32": 784755835
+        }
+      ]
+    },
+    {
+      "object_id": "lab62",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab62/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab62/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab62/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab62/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab62/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab62/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab62/gt/pcd/fruit.ply",
+          "compressed_bytes": 1528544,
+          "bytes": 1600861,
+          "offset": 6598314482,
+          "compression": 8,
+          "crc32": 2285118411
+        },
+        {
+          "name": "shape_completion_challenge/val/lab62/input/intrinsic.json",
+          "compressed_bytes": 129,
+          "bytes": 202,
+          "offset": 6599843369,
+          "compression": 8,
+          "crc32": 3749279125
+        },
+        {
+          "name": "shape_completion_challenge/val/lab62/input/color/00001.png",
+          "compressed_bytes": 865028,
+          "bytes": 864763,
+          "offset": 6599843744,
+          "compression": 8,
+          "crc32": 2695853234
+        },
+        {
+          "name": "shape_completion_challenge/val/lab62/input/depth/00001.npy",
+          "compressed_bytes": 203469,
+          "bytes": 3686528,
+          "offset": 6677867118,
+          "compression": 8,
+          "crc32": 2365951161
+        },
+        {
+          "name": "shape_completion_challenge/val/lab62/input/masks/00001.png",
+          "compressed_bytes": 1321,
+          "bytes": 3121,
+          "offset": 6695916875,
+          "compression": 8,
+          "crc32": 493841456
+        },
+        {
+          "name": "shape_completion_challenge/val/lab62/input/poses/00001.txt",
+          "compressed_bytes": 177,
+          "bytes": 407,
+          "offset": 6696059548,
+          "compression": 8,
+          "crc32": 778230284
+        }
+      ]
+    },
+    {
+      "object_id": "lab63",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab63/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab63/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab63/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab63/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab63/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab63/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab63/gt/pcd/fruit.ply",
+          "compressed_bytes": 2185991,
+          "bytes": 2290621,
+          "offset": 6696087803,
+          "compression": 8,
+          "crc32": 3828142948
+        },
+        {
+          "name": "shape_completion_challenge/val/lab63/input/intrinsic.json",
+          "compressed_bytes": 129,
+          "bytes": 202,
+          "offset": 6698274137,
+          "compression": 8,
+          "crc32": 3749279125
+        },
+        {
+          "name": "shape_completion_challenge/val/lab63/input/color/00001.png",
+          "compressed_bytes": 771862,
+          "bytes": 771627,
+          "offset": 6698274512,
+          "compression": 8,
+          "crc32": 74661931
+        },
+        {
+          "name": "shape_completion_challenge/val/lab63/input/depth/00001.npy",
+          "compressed_bytes": 216796,
+          "bytes": 3686528,
+          "offset": 6735979781,
+          "compression": 8,
+          "crc32": 3515643533
+        },
+        {
+          "name": "shape_completion_challenge/val/lab63/input/masks/00001.png",
+          "compressed_bytes": 1304,
+          "bytes": 3104,
+          "offset": 6745643581,
+          "compression": 8,
+          "crc32": 3653190466
+        },
+        {
+          "name": "shape_completion_challenge/val/lab63/input/poses/00001.txt",
+          "compressed_bytes": 180,
+          "bytes": 407,
+          "offset": 6745724823,
+          "compression": 8,
+          "crc32": 710522918
+        }
+      ]
+    },
+    {
+      "object_id": "lab76",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab76/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab76/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab76/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab76/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab76/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab76/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab76/gt/pcd/fruit.ply",
+          "compressed_bytes": 1814521,
+          "bytes": 1900573,
+          "offset": 6774076490,
+          "compression": 8,
+          "crc32": 664610952
+        },
+        {
+          "name": "shape_completion_challenge/val/lab76/input/intrinsic.json",
+          "compressed_bytes": 129,
+          "bytes": 202,
+          "offset": 6775891354,
+          "compression": 8,
+          "crc32": 3749279125
+        },
+        {
+          "name": "shape_completion_challenge/val/lab76/input/color/00001.png",
+          "compressed_bytes": 907110,
+          "bytes": 906830,
+          "offset": 6775891729,
+          "compression": 8,
+          "crc32": 1822812955
+        },
+        {
+          "name": "shape_completion_challenge/val/lab76/input/depth/00001.npy",
+          "compressed_bytes": 204952,
+          "bytes": 3686528,
+          "offset": 6824004598,
+          "compression": 8,
+          "crc32": 621043329
+        },
+        {
+          "name": "shape_completion_challenge/val/lab76/input/masks/00001.png",
+          "compressed_bytes": 971,
+          "bytes": 2760,
+          "offset": 6835887937,
+          "compression": 8,
+          "crc32": 1282163932
+        },
+        {
+          "name": "shape_completion_challenge/val/lab76/input/poses/00001.txt",
+          "compressed_bytes": 181,
+          "bytes": 408,
+          "offset": 6835955344,
+          "compression": 8,
+          "crc32": 1251676324
+        }
+      ]
+    },
+    {
+      "object_id": "lab77",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab77/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab77/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab77/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab77/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab77/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab77/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab77/gt/pcd/fruit.ply",
+          "compressed_bytes": 1847563,
+          "bytes": 1936333,
+          "offset": 6835973451,
+          "compression": 8,
+          "crc32": 2645216932
+        },
+        {
+          "name": "shape_completion_challenge/val/lab77/input/intrinsic.json",
+          "compressed_bytes": 129,
+          "bytes": 202,
+          "offset": 6837821357,
+          "compression": 8,
+          "crc32": 3749279125
+        },
+        {
+          "name": "shape_completion_challenge/val/lab77/input/color/00001.png",
+          "compressed_bytes": 861156,
+          "bytes": 860891,
+          "offset": 6837821732,
+          "compression": 8,
+          "crc32": 2329983272
+        },
+        {
+          "name": "shape_completion_challenge/val/lab77/input/depth/00001.npy",
+          "compressed_bytes": 204176,
+          "bytes": 3686528,
+          "offset": 6843860947,
+          "compression": 8,
+          "crc32": 1126351893
+        },
+        {
+          "name": "shape_completion_challenge/val/lab77/input/masks/00001.png",
+          "compressed_bytes": 1284,
+          "bytes": 3102,
+          "offset": 6845276278,
+          "compression": 8,
+          "crc32": 1202812949
+        },
+        {
+          "name": "shape_completion_challenge/val/lab77/input/poses/00001.txt",
+          "compressed_bytes": 179,
+          "bytes": 408,
+          "offset": 6845286994,
+          "compression": 8,
+          "crc32": 408167648
+        }
+      ]
+    },
+    {
+      "object_id": "lab90",
+      "role": "holdout",
+      "source_split": "val",
+      "scenario": "lab",
+      "reference": "shape_completion_challenge/val/lab90/gt/pcd/fruit.ply",
+      "frame_id": "00001",
+      "intrinsic": "shape_completion_challenge/val/lab90/input/intrinsic.json",
+      "rgb": "shape_completion_challenge/val/lab90/input/color/00001.png",
+      "depth": "shape_completion_challenge/val/lab90/input/depth/00001.npy",
+      "mask": "shape_completion_challenge/val/lab90/input/masks/00001.png",
+      "pose": "shape_completion_challenge/val/lab90/input/poses/00001.txt",
+      "members": [
+        {
+          "name": "shape_completion_challenge/val/lab90/gt/pcd/fruit.ply",
+          "compressed_bytes": 1590145,
+          "bytes": 1665613,
+          "offset": 6845289528,
+          "compression": 8,
+          "crc32": 4072583166
+        },
+        {
+          "name": "shape_completion_challenge/val/lab90/input/intrinsic.json",
+          "compressed_bytes": 129,
+          "bytes": 202,
+          "offset": 6846880016,
+          "compression": 8,
+          "crc32": 3749279125
+        },
+        {
+          "name": "shape_completion_challenge/val/lab90/input/color/00001.png",
+          "compressed_bytes": 819152,
+          "bytes": 818905,
+          "offset": 6846880391,
+          "compression": 8,
+          "crc32": 290840563
+        },
+        {
+          "name": "shape_completion_challenge/val/lab90/input/depth/00001.npy",
+          "compressed_bytes": 216097,
+          "bytes": 3686528,
+          "offset": 6858440090,
+          "compression": 8,
+          "crc32": 116251683
+        },
+        {
+          "name": "shape_completion_challenge/val/lab90/input/masks/00001.png",
+          "compressed_bytes": 1421,
+          "bytes": 3105,
+          "offset": 6861473623,
+          "compression": 8,
+          "crc32": 2709304873
+        },
+        {
+          "name": "shape_completion_challenge/val/lab90/input/poses/00001.txt",
+          "compressed_bytes": 183,
+          "bytes": 407,
+          "offset": 6861495377,
+          "compression": 8,
+          "crc32": 2651109975
+        }
+      ]
+    }
+  ],
+  "compressed_bytes": 55004299
+}

@@ -1,0 +1,139 @@
+{
+  "role": "post-hoc presentation from saved geometry; no prediction fitting or aggregate rescoring",
+  "visualization_seed": 5271313,
+  "samples_per_surface": 1800,
+  "color_range_mm": [
+    0,
+    8
+  ],
+  "display_distance": "exact one-way prediction-sample to reference-triangle distance; color saturates above 8 mm",
+  "case_selection": "fixed family 0; not performance-selected; profiles and conditions named explicitly",
+  "cases": [
+    {
+      "run": "spatial_confidence_confirmation_v1",
+      "object_id": "spatial_confirmation_family_00_warp_0",
+      "condition": "clean",
+      "methods": [
+        "symmetry",
+        "symmetry_robust95",
+        "symmetry_spatial"
+      ],
+      "files": {
+        "outputs/spatial_confidence_confirmation_v1/results.json": "fad1e70c65cd3f91d46f461e5ebb7f231f30d4c7c2253049a9476e6deb5c9268",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/clean/partial.ply": "ddc3d6d4feeb336abceeb5f6a327a1c63c806b816da9c0c3117a9c399408337e",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/clean/reference.ply": "c3debc4a68036e04260a5143a3653a75463bed7bc01d75e2fbd65a16c4420cab",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/clean/symmetry.ply": "6056908cc8623ecf5abba4eb3b4068d856f4d8b3aabc5bb9f89b9b8d191cac96",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/clean/symmetry_parameters.json": "771d839eea791934d0595091f4e4c3b2f67f14a1a81971eb77629653992b16be",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/clean/symmetry_robust95.ply": "a036780fc6f3d05c0440a50e7fd798d806d41cd81933a589a10202cfb26d4a5c",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/clean/symmetry_robust95_parameters.json": "54a14fb376ee35be2b3518d28e7e7e90619d20097a8fb61d547e6ac65b3998aa",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/clean/symmetry_spatial.ply": "6056908cc8623ecf5abba4eb3b4068d856f4d8b3aabc5bb9f89b9b8d191cac96",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/clean/symmetry_spatial_parameters.json": "cbe9a96df3c47b70d1a50bb3201ddf2672e9f0f18f2f18591990bf02c46d7234"
+      }
+    },
+    {
+      "run": "spatial_confidence_confirmation_v1",
+      "object_id": "spatial_confirmation_family_00_warp_0",
+      "condition": "outliers_2percent",
+      "methods": [
+        "symmetry",
+        "symmetry_robust95",
+        "symmetry_spatial"
+      ],
+      "files": {
+        "outputs/spatial_confidence_confirmation_v1/results.json": "fad1e70c65cd3f91d46f461e5ebb7f231f30d4c7c2253049a9476e6deb5c9268",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/outliers_2percent/partial.ply": "0c7c2dfab3f380b75062ee2a82c4e8ce06167c4370b85d3d2c19c21632f39a57",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/outliers_2percent/reference.ply": "c3debc4a68036e04260a5143a3653a75463bed7bc01d75e2fbd65a16c4420cab",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/outliers_2percent/symmetry.ply": "17d073cfff38dcc4d64776d72761d53fcaa32998a6cf341df5fc0d20687bd4da",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/outliers_2percent/symmetry_parameters.json": "6ab334b8e26762271d27a6115851a1b6a58de8f245bb21a98b9b454d2cb2c470",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/outliers_2percent/symmetry_robust95.ply": "f572de301a2b7af1947da27f98d30a8723d98aa2b7d137e1bcdb382721c5b018",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/outliers_2percent/symmetry_robust95_parameters.json": "d35084deb2059d59a87fac5dcecead76a23d97643a61040e23de9c90d3e91d72",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/outliers_2percent/symmetry_spatial.ply": "81f907e19075fe824f5a07e7eb3e16f61a30c9649069b2a28330b4e0c71c0412",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/outliers_2percent/symmetry_spatial_parameters.json": "bb77f3ded37001cff02c7eb036a1ccb258e05df5c0e7b92d2cf7d35ba3e641ee"
+      }
+    },
+    {
+      "run": "spatial_confidence_confirmation_v1",
+      "object_id": "spatial_confirmation_family_00_warp_0",
+      "condition": "correlated_outlier_patch",
+      "methods": [
+        "symmetry",
+        "symmetry_robust95",
+        "symmetry_spatial"
+      ],
+      "files": {
+        "outputs/spatial_confidence_confirmation_v1/results.json": "fad1e70c65cd3f91d46f461e5ebb7f231f30d4c7c2253049a9476e6deb5c9268",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/correlated_outlier_patch/partial.ply": "f3553e2214201d9838bd49250d0072d5414516b3e81c429f19b46226924080eb",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/correlated_outlier_patch/reference.ply": "c3debc4a68036e04260a5143a3653a75463bed7bc01d75e2fbd65a16c4420cab",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/correlated_outlier_patch/symmetry.ply": "43dd5efb47f6e1a4d210997f4940ff1c5eb5582eb18eb22f9bb983209df6b9f6",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/correlated_outlier_patch/symmetry_parameters.json": "d721c8738e65b07a8fe5b6b9a1095d459a3ad4c0b9b432c2c17863a3cea5d27c",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/correlated_outlier_patch/symmetry_robust95.ply": "fa61e14c3354488cfb7979800fa6ca99f2b9f75495cae1b4098f85513193d5be",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/correlated_outlier_patch/symmetry_robust95_parameters.json": "da29c0b60d3182368a46d65394e59512e48434fbdda9f67833004f4a47bea0ee",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/correlated_outlier_patch/symmetry_spatial.ply": "3c7278fe5d1098d1226d6c00e01620b09f32167a6c428d394b26c108021331fa",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_0/correlated_outlier_patch/symmetry_spatial_parameters.json": "1d7f6dc6ede034542a5fe5ff3489261183fec19139fd0966381936a089811f2c"
+      }
+    },
+    {
+      "run": "multiscale_confidence_confirmation_v1",
+      "object_id": "multiscale_confirmation_family_00_smooth_warp_0",
+      "condition": "correlated_outlier_patch",
+      "methods": [
+        "symmetry_robust95",
+        "symmetry_spatial",
+        "symmetry_multiscale"
+      ],
+      "files": {
+        "outputs/multiscale_confidence_confirmation_v1/results.json": "03546c4a391f86e176fe6cead632dbd33fd1b0d116394e46bc74607d76f37cd6",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_smooth_warp_0/correlated_outlier_patch/partial.ply": "d7b2ae1375e0d64151ad338706449d98999234947f4954a6b5d77dfd8161da5b",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_smooth_warp_0/correlated_outlier_patch/reference.ply": "ca36d62cc6bd99a69eb2306eb36329ff83172ce420b6b92d7fcdce0b380bf28b",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_smooth_warp_0/correlated_outlier_patch/symmetry_robust95.ply": "15f7d345937108d4c29480c4ea39e4b84faa85fb56002e17e58124f4a0d01c2f",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_smooth_warp_0/correlated_outlier_patch/symmetry_robust95_parameters.json": "cecac9f0ab46a751d818f92ae9b1b42b08c77e402a20ee9398aecb84e34d670f",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_smooth_warp_0/correlated_outlier_patch/symmetry_spatial.ply": "bb5cee8af083ea9deee797a6c6dde0875c2b1751ed45b986e2bd7fc76bfe0bfd",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_smooth_warp_0/correlated_outlier_patch/symmetry_spatial_parameters.json": "9a806a1076d55c6c213df8201d87671047dd40bfd582e68eaf747dce095b81d8",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_smooth_warp_0/correlated_outlier_patch/symmetry_multiscale.ply": "f7e19457fabb42bc6b45d5b1e01fef3817c07a5de2c40f4596b799773bf3d355",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_smooth_warp_0/correlated_outlier_patch/symmetry_multiscale_parameters.json": "ba49c2ef16b3e087b86d2faec1b4a409f62c89331c68b9714cffb15206fc95e4"
+      }
+    },
+    {
+      "run": "multiscale_confidence_confirmation_v1",
+      "object_id": "multiscale_confirmation_family_00_narrow_warp_0",
+      "condition": "genuine_narrow_protrusion",
+      "methods": [
+        "symmetry",
+        "symmetry_spatial",
+        "symmetry_multiscale"
+      ],
+      "files": {
+        "outputs/multiscale_confidence_confirmation_v1/results.json": "03546c4a391f86e176fe6cead632dbd33fd1b0d116394e46bc74607d76f37cd6",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_narrow_warp_0/genuine_narrow_protrusion/partial.ply": "c29bf92d177685d311c91d8f3a252bfced76e3a42eee5fd73896cff8156fd601",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_narrow_warp_0/genuine_narrow_protrusion/reference.ply": "a220dd9ac14f8396e593285d03c899df6f48eeae1c290bf4ef0d4770bba50523",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_narrow_warp_0/genuine_narrow_protrusion/symmetry.ply": "76b1957d88209bfc4b3fc1cb43ceedd07cde207362bf2797cf93c3cf7569a463",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_narrow_warp_0/genuine_narrow_protrusion/symmetry_parameters.json": "283770825a3924e9dc469c3d19b21aafcf2ec6d80c7bda80b447f0f531956af3",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_narrow_warp_0/genuine_narrow_protrusion/symmetry_spatial.ply": "f6f88d0b6cc8b27e422da57811b79541af810c49b62a7b9f1754cf233d2cbd80",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_narrow_warp_0/genuine_narrow_protrusion/symmetry_spatial_parameters.json": "85df1ccd352b74392fb5baa2c4e906dff81bad38f77a54a598add1700a2df75b",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_narrow_warp_0/genuine_narrow_protrusion/symmetry_multiscale.ply": "ba6d750bb7b9d59027ca97c8240cc2a86033ef90cdca3c8505ca64bd6e3906d9",
+        "outputs/multiscale_confidence_confirmation_v1/multiscale_confirmation_family_00_narrow_warp_0/genuine_narrow_protrusion/symmetry_multiscale_parameters.json": "a4e9d6c31d10ef1c59069287ee1623a1275c9904592440a178f9db83a92ea3d6"
+      }
+    },
+    {
+      "run": "spatial_confidence_confirmation_v1",
+      "object_id": "spatial_confirmation_family_00_warp_1.8",
+      "condition": "clean",
+      "methods": [
+        "symmetry",
+        "symmetry_robust95",
+        "symmetry_spatial"
+      ],
+      "files": {
+        "outputs/spatial_confidence_confirmation_v1/results.json": "fad1e70c65cd3f91d46f461e5ebb7f231f30d4c7c2253049a9476e6deb5c9268",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_1.8/clean/partial.ply": "ddc3d6d4feeb336abceeb5f6a327a1c63c806b816da9c0c3117a9c399408337e",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_1.8/clean/reference.ply": "2b494f0c2a0ed0ae6b7b93c62f92f6fb897b339d8cf2834408e8fc68067dc1a5",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_1.8/clean/symmetry.ply": "6056908cc8623ecf5abba4eb3b4068d856f4d8b3aabc5bb9f89b9b8d191cac96",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_1.8/clean/symmetry_parameters.json": "771d839eea791934d0595091f4e4c3b2f67f14a1a81971eb77629653992b16be",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_1.8/clean/symmetry_robust95.ply": "a036780fc6f3d05c0440a50e7fd798d806d41cd81933a589a10202cfb26d4a5c",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_1.8/clean/symmetry_robust95_parameters.json": "54a14fb376ee35be2b3518d28e7e7e90619d20097a8fb61d547e6ac65b3998aa",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_1.8/clean/symmetry_spatial.ply": "6056908cc8623ecf5abba4eb3b4068d856f4d8b3aabc5bb9f89b9b8d191cac96",
+        "outputs/spatial_confidence_confirmation_v1/spatial_confirmation_family_00_warp_1.8/clean/symmetry_spatial_parameters.json": "cbe9a96df3c47b70d1a50bb3201ddf2672e9f0f18f2f18591990bf02c46d7234"
+      }
+    }
+  ]
+}

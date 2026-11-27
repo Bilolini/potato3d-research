@@ -1,0 +1,132 @@
+{
+  "stage": "continuous_scores_frozen_before_reference_meshes",
+  "sources_sha256": {
+    "studies/depth_consistency_diagnostic_v1/run.py": "30ca3af42c4a115e91f682d2873b945b99183c488a0d4ff3c4b0f6293dcfd1dd",
+    "studies/depth_consistency_diagnostic_v1/protocol.md": "7d6fb21e859142334f7b800800ec3df5dbfdffd2dc402e3faba0e415c39d41bc",
+    "studies/depth_consistency_fusion_v1/frozen_filter.json": "4cb968a5ad8bf5b11898bdd600e7ffac132c8913d8a3c9cec9aef7aa3b59adc8",
+    "studies/depth_consistency_fusion_v1/run.py": "f9015b15782e988ae061b77576f0150db3fb5a7ee747894746d780aa0ee40249",
+    "studies/raft_fusion_geometry_v1/frame_manifest.json": "1c31fc57d9d0097a1b9b9402b79d9fbce34e49c5310ee8ce146cecaabb183cd4"
+  },
+  "rows": [
+    {
+      "tuber": "4R4-8",
+      "frames": [
+        196,
+        356,
+        495
+      ],
+      "cloud_sha256": "ed6751f76dff253a1c6985518f34981e4e4171b08bfee1e272b68efdf2f91aae",
+      "points": 21014,
+      "without_score": 1317,
+      "scores_sha256": "6c23dab24e5f9f9372694925ab9e0e222ecd18432931d4cc7bd02d4b7aa1c35c"
+    },
+    {
+      "tuber": "3R7-10",
+      "frames": [
+        214,
+        358,
+        521
+      ],
+      "cloud_sha256": "fb60510fdeb2dc16d53f35787ce67d02f9d7807e6f27540edfb2907018daaa78",
+      "points": 15888,
+      "without_score": 471,
+      "scores_sha256": "aa3368e372c5eefb4c345185408cfc94ee0b6e82f904c17fbae70a14863483e5"
+    },
+    {
+      "tuber": "2R1-9",
+      "frames": [
+        231,
+        356,
+        501
+      ],
+      "cloud_sha256": "334016b6f7a6defd16ecf7072b9caecf7124410f8e488ce1c454348ab6979d4f",
+      "points": 26771,
+      "without_score": 935,
+      "scores_sha256": "5315551f7868b835548f78b8f82fca8905b9ad16d562f1a119477ee6c0abcda0"
+    },
+    {
+      "tuber": "R1-3",
+      "frames": [
+        231,
+        358,
+        505
+      ],
+      "cloud_sha256": "f29c42f225a2126256a8c080045733dad306842b6f524dd867abd2f797ad7d62",
+      "points": 31584,
+      "without_score": 1375,
+      "scores_sha256": "43b33e0721fc7b1499504bc2615f3f5d7a1f2e8e81d143166ddc5abfca2dfa0c"
+    },
+    {
+      "tuber": "R9-2",
+      "frames": [
+        220,
+        360,
+        503
+      ],
+      "cloud_sha256": "b7cedf78810ed44337872f5ade5a31d90b8af2d2fc4ce26ea91adef82c6200cc",
+      "points": 21791,
+      "without_score": 687,
+      "scores_sha256": "96ff8e61f9ef349ec831623fec7287f3e02e8e5ae3c6a083e5c6982ece8018c0"
+    },
+    {
+      "tuber": "4R4-10",
+      "frames": [
+        216,
+        355,
+        495
+      ],
+      "cloud_sha256": "d2e381363428157e8b96d633913164df3a2be4da2b22f56b7e5847707c5fd149",
+      "points": 16989,
+      "without_score": 956,
+      "scores_sha256": "a14463523a3b4fc10607a53e6ff0006d92f1d18fa95891e583e70c6062c26dbb"
+    },
+    {
+      "tuber": "4R6-7",
+      "frames": [
+        237,
+        359,
+        465
+      ],
+      "cloud_sha256": "ca2f022a2819551001ad3236fad731d084bda9023ac3312ea23ed1dd4b7bcf86",
+      "points": 73978,
+      "without_score": 1826,
+      "scores_sha256": "e4dc6cb5c69fb8f4b74d2c21b2d2e1f19269b5b6c091d67919681fe9af2a7048"
+    },
+    {
+      "tuber": "4R8-8",
+      "frames": [
+        220,
+        359,
+        479
+      ],
+      "cloud_sha256": "952930fa9df730f8c902e157d766c142340663b563217d5d92fcf98234c38a57",
+      "points": 39795,
+      "without_score": 1176,
+      "scores_sha256": "0ece21535be5a44ae9e7a6f2ef73e92e5ac480ae4cd6e710513ddb5ffd5615d7"
+    },
+    {
+      "tuber": "R11-5",
+      "frames": [
+        245,
+        354,
+        507
+      ],
+      "cloud_sha256": "dc1688cfbdc7b85fa09d7f122dcf927a3e3924a6c7c2d3aa91897a0a2977c788",
+      "points": 54503,
+      "without_score": 2272,
+      "scores_sha256": "b1f2cbc021ccc71dfcf35b30c1aad796222b63680ff73e6869d11938ee695835"
+    },
+    {
+      "tuber": "R10-10",
+      "frames": [
+        222,
+        360,
+        497
+      ],
+      "cloud_sha256": "ac00b16ece2676e9d984f0dfad16a7fe91f6f369f7c8cd28878a531ff2e3854d",
+      "points": 23388,
+      "without_score": 1129,
+      "scores_sha256": "6daf4317ae3b84b9ac66e4c147afc494e676d2ef1df3af8c8e8cada6455e667b"
+    }
+  ]
+}

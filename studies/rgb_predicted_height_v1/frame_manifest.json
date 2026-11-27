@@ -1,0 +1,1962 @@
+{
+  "sources_sha256": {
+    "studies/rgb_predicted_height_v1/run.py": "69ddf8b9ebc32499c0cf848ac1a4f8c81b24263539131861950fc03dd4cf47e5",
+    "studies/rgb_predicted_height_v1/protocol.md": "f19640caa07673ae7f7b191f520e17871ebfaec80a492f4f7ed2f0a4cfd188d1",
+    "studies/rgb_only_height_value_v1/run.py": "e484128f36a3c6d3f25574413a02208d2a250054f36e69e9b7c69f01c204b5cb",
+    "studies/rgb_only_height_value_v1/frame_manifest.json": "2ad263ad73fc52d9e710f7d0fe0d669ffec37480319382eae54f77ed3a0d046b",
+    "studies/rgb_only_height_value_v1/train_fit.json": "edf029a0816120c36e45afea573838fe769233224ba273e4addbdb407f06e1b7",
+    "studies/sam2_human_prompt_confirmation_v1/cohort_freeze.json": "cc08f9ece8796cc827eff24de0511149cfcd4c5de5a4b8a46438a1e72741e5b8",
+    "data/raw/3DPotatoTwin/1_rgbd/0_camera_intrinsics/realsense_d405_camera_intrinsic.json": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf",
+    "data/raw/3DPotatoTwin/3_pair/non-perfect.txt": "175754f8a5dbe3ee3decb6bc38aef46e2c13abc08c45eebc342f6752d97d911b",
+    "studies/regional_shape_v1/replication_cohort.json": "d9eb49dde8cc1111d564fcdcb528225d6d847d12205d33962b3d9fb69226a809",
+    "studies/regional_shape_v1/support_offset_confirmation_cohort.json": "8e1f11ecf292eefb167a4b3a8d6fe8af6dbeeeb933fcf45cf4b26fb0b76d2188",
+    "studies/regional_shape_v1/corepp_pin_confirmation/roster.json": "502cd15bf479be089dd616216dc5933a61a75f4ddc7d96bc6fb45668e97e8525",
+    "studies/real_lobes_v1/fresh_selection.json": "8064270270a2d1c776abec7d9b56d0495b2201763994d5693035d7783df32016",
+    "data/demo_manifest.json": "d5d30a5410daed0f36c98af69a946ec8933bbea33186e48012a5a14575b15648"
+  },
+  "roster": [
+    {
+      "tuber": "2R1-1",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-1/2R1-1_rgb_358.png",
+        "crc32": 382906573,
+        "bytes": 1814112
+      }
+    },
+    {
+      "tuber": "2R1-11",
+      "split": "train",
+      "suffix_px": 371,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-11/2R1-11_rgb_371.png",
+        "crc32": 1985080326,
+        "bytes": 1833074
+      }
+    },
+    {
+      "tuber": "2R1-2",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-2/2R1-2_rgb_353.png",
+        "crc32": 1042254538,
+        "bytes": 1830678
+      }
+    },
+    {
+      "tuber": "2R1-4",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-4/2R1-4_rgb_368.png",
+        "crc32": 953006792,
+        "bytes": 1810174
+      }
+    },
+    {
+      "tuber": "2R1-5",
+      "split": "train",
+      "suffix_px": 348,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-5/2R1-5_rgb_348.png",
+        "crc32": 2869542694,
+        "bytes": 1825494
+      }
+    },
+    {
+      "tuber": "2R1-6",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-6/2R1-6_rgb_353.png",
+        "crc32": 1829913527,
+        "bytes": 1816084
+      }
+    },
+    {
+      "tuber": "2R1-8",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-8/2R1-8_rgb_360.png",
+        "crc32": 980816821,
+        "bytes": 1801348
+      }
+    },
+    {
+      "tuber": "2R1-9",
+      "split": "val",
+      "suffix_px": 356,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-9/2R1-9_rgb_356.png",
+        "crc32": 2142651165,
+        "bytes": 1790458
+      }
+    },
+    {
+      "tuber": "2R2-1",
+      "split": "val",
+      "suffix_px": 351,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R2-1/2R2-1_rgb_351.png",
+        "crc32": 580316489,
+        "bytes": 1890528
+      }
+    },
+    {
+      "tuber": "2R2-2",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R2-2/2R2-2_rgb_358.png",
+        "crc32": 141584749,
+        "bytes": 1899449
+      }
+    },
+    {
+      "tuber": "2R2-3",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R2-3/2R2-3_rgb_361.png",
+        "crc32": 3690395386,
+        "bytes": 1865128
+      }
+    },
+    {
+      "tuber": "2R2-5",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R2-5/2R2-5_rgb_353.png",
+        "crc32": 1398869336,
+        "bytes": 1895931
+      }
+    },
+    {
+      "tuber": "2R2-7",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R2-7/2R2-7_rgb_355.png",
+        "crc32": 211474047,
+        "bytes": 1854245
+      }
+    },
+    {
+      "tuber": "2R2-9",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R2-9/2R2-9_rgb_350.png",
+        "crc32": 4231278847,
+        "bytes": 1894547
+      }
+    },
+    {
+      "tuber": "3R1-1",
+      "split": "val",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-1/3R1-1_rgb_366.png",
+        "crc32": 2498140280,
+        "bytes": 1723240
+      }
+    },
+    {
+      "tuber": "3R1-10",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-10/3R1-10_rgb_364.png",
+        "crc32": 2474492965,
+        "bytes": 1777919
+      }
+    },
+    {
+      "tuber": "3R1-2",
+      "split": "train",
+      "suffix_px": 354,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-2/3R1-2_rgb_354.png",
+        "crc32": 3773588647,
+        "bytes": 1856915
+      }
+    },
+    {
+      "tuber": "3R1-3",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-3/3R1-3_rgb_358.png",
+        "crc32": 1825112677,
+        "bytes": 1863793
+      }
+    },
+    {
+      "tuber": "3R1-4",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-4/3R1-4_rgb_358.png",
+        "crc32": 4194619394,
+        "bytes": 1797468
+      }
+    },
+    {
+      "tuber": "3R1-5",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-5/3R1-5_rgb_358.png",
+        "crc32": 521734373,
+        "bytes": 1780503
+      }
+    },
+    {
+      "tuber": "3R1-7",
+      "split": "val",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-7/3R1-7_rgb_364.png",
+        "crc32": 1628027593,
+        "bytes": 1913238
+      }
+    },
+    {
+      "tuber": "3R1-8",
+      "split": "val",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-8/3R1-8_rgb_353.png",
+        "crc32": 3374789903,
+        "bytes": 1765774
+      }
+    },
+    {
+      "tuber": "3R1-9",
+      "split": "val",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-9/3R1-9_rgb_363.png",
+        "crc32": 585758382,
+        "bytes": 1810663
+      }
+    },
+    {
+      "tuber": "3R3-1",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R3-1/3R3-1_rgb_353.png",
+        "crc32": 2374409235,
+        "bytes": 1777282
+      }
+    },
+    {
+      "tuber": "3R3-10",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R3-10/3R3-10_rgb_361.png",
+        "crc32": 2989457523,
+        "bytes": 1733426
+      }
+    },
+    {
+      "tuber": "3R3-5",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R3-5/3R3-5_rgb_367.png",
+        "crc32": 3469912505,
+        "bytes": 1754819
+      }
+    },
+    {
+      "tuber": "3R3-6",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R3-6/3R3-6_rgb_350.png",
+        "crc32": 4133720729,
+        "bytes": 1777708
+      }
+    },
+    {
+      "tuber": "3R3-8",
+      "split": "val",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R3-8/3R3-8_rgb_363.png",
+        "crc32": 2289778571,
+        "bytes": 1792321
+      }
+    },
+    {
+      "tuber": "3R3-9",
+      "split": "train",
+      "suffix_px": 370,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R3-9/3R3-9_rgb_370.png",
+        "crc32": 2305482647,
+        "bytes": 1651163
+      }
+    },
+    {
+      "tuber": "3R4-1",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R4-1/3R4-1_rgb_357.png",
+        "crc32": 2707285932,
+        "bytes": 1706085
+      }
+    },
+    {
+      "tuber": "3R4-10",
+      "split": "val",
+      "suffix_px": 368,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R4-10/3R4-10_rgb_368.png",
+        "crc32": 2029131431,
+        "bytes": 1784368
+      }
+    },
+    {
+      "tuber": "3R4-6",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R4-6/3R4-6_rgb_366.png",
+        "crc32": 571534221,
+        "bytes": 1762130
+      }
+    },
+    {
+      "tuber": "3R4-7",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R4-7/3R4-7_rgb_364.png",
+        "crc32": 1161190611,
+        "bytes": 1729773
+      }
+    },
+    {
+      "tuber": "3R4-8",
+      "split": "train",
+      "suffix_px": 370,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R4-8/3R4-8_rgb_370.png",
+        "crc32": 2828439450,
+        "bytes": 1733897
+      }
+    },
+    {
+      "tuber": "3R5-3",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R5-3/3R5-3_rgb_352.png",
+        "crc32": 1005424895,
+        "bytes": 1736334
+      }
+    },
+    {
+      "tuber": "3R5-4",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R5-4/3R5-4_rgb_363.png",
+        "crc32": 2797844901,
+        "bytes": 1794971
+      }
+    },
+    {
+      "tuber": "3R5-7",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R5-7/3R5-7_rgb_367.png",
+        "crc32": 799240854,
+        "bytes": 1807577
+      }
+    },
+    {
+      "tuber": "3R5-8",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R5-8/3R5-8_rgb_353.png",
+        "crc32": 1514299330,
+        "bytes": 1879398
+      }
+    },
+    {
+      "tuber": "3R5-9",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R5-9/3R5-9_rgb_367.png",
+        "crc32": 473954813,
+        "bytes": 1819783
+      }
+    },
+    {
+      "tuber": "3R6-10",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R6-10/3R6-10_rgb_358.png",
+        "crc32": 266200291,
+        "bytes": 1900300
+      }
+    },
+    {
+      "tuber": "3R6-2",
+      "split": "val",
+      "suffix_px": 355,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R6-2/3R6-2_rgb_355.png",
+        "crc32": 901603783,
+        "bytes": 1895899
+      }
+    },
+    {
+      "tuber": "3R6-3",
+      "split": "val",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R6-3/3R6-3_rgb_352.png",
+        "crc32": 1423653471,
+        "bytes": 1889935
+      }
+    },
+    {
+      "tuber": "3R6-5",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R6-5/3R6-5_rgb_352.png",
+        "crc32": 3509106284,
+        "bytes": 1883005
+      }
+    },
+    {
+      "tuber": "3R6-9",
+      "split": "train",
+      "suffix_px": 359,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R6-9/3R6-9_rgb_359.png",
+        "crc32": 2348950578,
+        "bytes": 1905378
+      }
+    },
+    {
+      "tuber": "3R7-10",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R7-10/3R7-10_rgb_358.png",
+        "crc32": 1265390306,
+        "bytes": 1791770
+      }
+    },
+    {
+      "tuber": "3R7-2",
+      "split": "train",
+      "suffix_px": 351,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R7-2/3R7-2_rgb_351.png",
+        "crc32": 1535873527,
+        "bytes": 1938078
+      }
+    },
+    {
+      "tuber": "3R7-5",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R7-5/3R7-5_rgb_368.png",
+        "crc32": 1644652333,
+        "bytes": 1890559
+      }
+    },
+    {
+      "tuber": "3R7-9",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R7-9/3R7-9_rgb_361.png",
+        "crc32": 3829846971,
+        "bytes": 1916580
+      }
+    },
+    {
+      "tuber": "4R1-1",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R1-1/4R1-1_rgb_360.png",
+        "crc32": 1050449234,
+        "bytes": 1716957
+      }
+    },
+    {
+      "tuber": "4R1-2",
+      "split": "val",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R1-2/4R1-2_rgb_353.png",
+        "crc32": 3993639243,
+        "bytes": 1791793
+      }
+    },
+    {
+      "tuber": "4R1-3",
+      "split": "train",
+      "suffix_px": 362,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R1-3/4R1-3_rgb_362.png",
+        "crc32": 3952631432,
+        "bytes": 1837840
+      }
+    },
+    {
+      "tuber": "4R1-4",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R1-4/4R1-4_rgb_363.png",
+        "crc32": 2643956735,
+        "bytes": 1735871
+      }
+    },
+    {
+      "tuber": "4R1-5",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R1-5/4R1-5_rgb_366.png",
+        "crc32": 1654385137,
+        "bytes": 1754266
+      }
+    },
+    {
+      "tuber": "4R1-6",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R1-6/4R1-6_rgb_355.png",
+        "crc32": 1767631863,
+        "bytes": 1762993
+      }
+    },
+    {
+      "tuber": "4R1-7",
+      "split": "train",
+      "suffix_px": 354,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R1-7/4R1-7_rgb_354.png",
+        "crc32": 2039089210,
+        "bytes": 1742253
+      }
+    },
+    {
+      "tuber": "4R1-9",
+      "split": "train",
+      "suffix_px": 365,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R1-9/4R1-9_rgb_365.png",
+        "crc32": 3209984666,
+        "bytes": 1782119
+      }
+    },
+    {
+      "tuber": "4R2-2",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R2-2/4R2-2_rgb_364.png",
+        "crc32": 3798111087,
+        "bytes": 1824927
+      }
+    },
+    {
+      "tuber": "4R2-3",
+      "split": "train",
+      "suffix_px": 365,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R2-3/4R2-3_rgb_365.png",
+        "crc32": 4269917162,
+        "bytes": 1850050
+      }
+    },
+    {
+      "tuber": "4R2-6",
+      "split": "train",
+      "suffix_px": 362,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R2-6/4R2-6_rgb_362.png",
+        "crc32": 515723357,
+        "bytes": 1802383
+      }
+    },
+    {
+      "tuber": "4R2-7",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R2-7/4R2-7_rgb_360.png",
+        "crc32": 4054045732,
+        "bytes": 1825229
+      }
+    },
+    {
+      "tuber": "4R2-9",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R2-9/4R2-9_rgb_353.png",
+        "crc32": 4219259594,
+        "bytes": 1782714
+      }
+    },
+    {
+      "tuber": "4R3-1",
+      "split": "val",
+      "suffix_px": 357,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R3-1/4R3-1_rgb_357.png",
+        "crc32": 789164884,
+        "bytes": 1831925
+      }
+    },
+    {
+      "tuber": "4R3-2",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R3-2/4R3-2_rgb_350.png",
+        "crc32": 2310140141,
+        "bytes": 1731683
+      }
+    },
+    {
+      "tuber": "4R3-5",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R3-5/4R3-5_rgb_352.png",
+        "crc32": 1225515678,
+        "bytes": 1817105
+      }
+    },
+    {
+      "tuber": "4R3-6",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R3-6/4R3-6_rgb_361.png",
+        "crc32": 2946521467,
+        "bytes": 1814838
+      }
+    },
+    {
+      "tuber": "4R3-8",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R3-8/4R3-8_rgb_368.png",
+        "crc32": 3523102321,
+        "bytes": 1846074
+      }
+    },
+    {
+      "tuber": "4R4-1",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-1/4R4-1_rgb_364.png",
+        "crc32": 1794133320,
+        "bytes": 1929799
+      }
+    },
+    {
+      "tuber": "4R4-10",
+      "split": "val",
+      "suffix_px": 355,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-10/4R4-10_rgb_355.png",
+        "crc32": 3976928279,
+        "bytes": 1912773
+      }
+    },
+    {
+      "tuber": "4R4-2",
+      "split": "train",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-2/4R4-2_rgb_356.png",
+        "crc32": 649661932,
+        "bytes": 1890169
+      }
+    },
+    {
+      "tuber": "4R4-4",
+      "split": "val",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-4/4R4-4_rgb_353.png",
+        "crc32": 1416254769,
+        "bytes": 1881214
+      }
+    },
+    {
+      "tuber": "4R4-5",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-5/4R4-5_rgb_352.png",
+        "crc32": 924886181,
+        "bytes": 1891947
+      }
+    },
+    {
+      "tuber": "4R4-7",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-7/4R4-7_rgb_366.png",
+        "crc32": 2658315405,
+        "bytes": 1856580
+      }
+    },
+    {
+      "tuber": "4R4-8",
+      "split": "val",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-8/4R4-8_rgb_356.png",
+        "crc32": 2674513387,
+        "bytes": 1922631
+      }
+    },
+    {
+      "tuber": "4R4-9",
+      "split": "train",
+      "suffix_px": 369,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-9/4R4-9_rgb_369.png",
+        "crc32": 2915372057,
+        "bytes": 1917529
+      }
+    },
+    {
+      "tuber": "4R5-4",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R5-4/4R5-4_rgb_352.png",
+        "crc32": 300485600,
+        "bytes": 1891076
+      }
+    },
+    {
+      "tuber": "4R5-5",
+      "split": "train",
+      "suffix_px": 371,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R5-5/4R5-5_rgb_371.png",
+        "crc32": 3996038576,
+        "bytes": 1795190
+      }
+    },
+    {
+      "tuber": "4R5-8",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R5-8/4R5-8_rgb_357.png",
+        "crc32": 1818245391,
+        "bytes": 1816333
+      }
+    },
+    {
+      "tuber": "4R5-9",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R5-9/4R5-9_rgb_363.png",
+        "crc32": 3214224889,
+        "bytes": 1864220
+      }
+    },
+    {
+      "tuber": "4R6-1",
+      "split": "val",
+      "suffix_px": 349,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R6-1/4R6-1_rgb_349.png",
+        "crc32": 3260933074,
+        "bytes": 1808918
+      }
+    },
+    {
+      "tuber": "4R6-10",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R6-10/4R6-10_rgb_361.png",
+        "crc32": 849910559,
+        "bytes": 1835586
+      }
+    },
+    {
+      "tuber": "4R6-2",
+      "split": "train",
+      "suffix_px": 370,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R6-2/4R6-2_rgb_370.png",
+        "crc32": 3420800058,
+        "bytes": 1819343
+      }
+    },
+    {
+      "tuber": "4R6-4",
+      "split": "train",
+      "suffix_px": 362,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R6-4/4R6-4_rgb_362.png",
+        "crc32": 342986943,
+        "bytes": 1883044
+      }
+    },
+    {
+      "tuber": "4R6-5",
+      "split": "train",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R6-5/4R6-5_rgb_356.png",
+        "crc32": 286745230,
+        "bytes": 1950488
+      }
+    },
+    {
+      "tuber": "4R6-6",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R6-6/4R6-6_rgb_363.png",
+        "crc32": 828603914,
+        "bytes": 1856420
+      }
+    },
+    {
+      "tuber": "4R6-7",
+      "split": "val",
+      "suffix_px": 359,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R6-7/4R6-7_rgb_359.png",
+        "crc32": 1107700746,
+        "bytes": 1822348
+      }
+    },
+    {
+      "tuber": "4R8-2",
+      "split": "val",
+      "suffix_px": 369,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-2/4R8-2_rgb_369.png",
+        "crc32": 4165032022,
+        "bytes": 1884265
+      }
+    },
+    {
+      "tuber": "4R8-3",
+      "split": "val",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-3/4R8-3_rgb_356.png",
+        "crc32": 1508487533,
+        "bytes": 1821960
+      }
+    },
+    {
+      "tuber": "4R8-5",
+      "split": "val",
+      "suffix_px": 370,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-5/4R8-5_rgb_370.png",
+        "crc32": 948050658,
+        "bytes": 1760489
+      }
+    },
+    {
+      "tuber": "4R8-6",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-6/4R8-6_rgb_366.png",
+        "crc32": 1888935101,
+        "bytes": 1865131
+      }
+    },
+    {
+      "tuber": "4R8-8",
+      "split": "val",
+      "suffix_px": 359,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-8/4R8-8_rgb_359.png",
+        "crc32": 388091278,
+        "bytes": 1851819
+      }
+    },
+    {
+      "tuber": "4R8-9",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-9/4R8-9_rgb_358.png",
+        "crc32": 2254702707,
+        "bytes": 1879763
+      }
+    },
+    {
+      "tuber": "R1-1",
+      "split": "val",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R1-1/R1-1_rgb_355.png",
+        "crc32": 2575284969,
+        "bytes": 1640483
+      }
+    },
+    {
+      "tuber": "R1-2",
+      "split": "val",
+      "suffix_px": 370,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R1-2/R1-2_rgb_370.png",
+        "crc32": 310706404,
+        "bytes": 1696548
+      }
+    },
+    {
+      "tuber": "R1-3",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R1-3/R1-3_rgb_358.png",
+        "crc32": 891645354,
+        "bytes": 1704247
+      }
+    },
+    {
+      "tuber": "R1-8",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R1-8/R1-8_rgb_364.png",
+        "crc32": 2441102946,
+        "bytes": 1802794
+      }
+    },
+    {
+      "tuber": "R1-9",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R1-9/R1-9_rgb_350.png",
+        "crc32": 1969427932,
+        "bytes": 1789841
+      }
+    },
+    {
+      "tuber": "R10-10",
+      "split": "val",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R10-10/R10-10_rgb_360.png",
+        "crc32": 1163893574,
+        "bytes": 1798372
+      }
+    },
+    {
+      "tuber": "R10-4",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R10-4/R10-4_rgb_355.png",
+        "crc32": 130628526,
+        "bytes": 1726086
+      }
+    },
+    {
+      "tuber": "R10-6",
+      "split": "train",
+      "suffix_px": 351,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R10-6/R10-6_rgb_351.png",
+        "crc32": 2156490932,
+        "bytes": 1736004
+      }
+    },
+    {
+      "tuber": "R10-7",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R10-7/R10-7_rgb_367.png",
+        "crc32": 3730404061,
+        "bytes": 1691975
+      }
+    },
+    {
+      "tuber": "R10-8",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R10-8/R10-8_rgb_353.png",
+        "crc32": 2197100852,
+        "bytes": 1795869
+      }
+    },
+    {
+      "tuber": "R10-9",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R10-9/R10-9_rgb_367.png",
+        "crc32": 1585261454,
+        "bytes": 1865596
+      }
+    },
+    {
+      "tuber": "R11-1",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R11-1/R11-1_rgb_352.png",
+        "crc32": 1652365360,
+        "bytes": 1853755
+      }
+    },
+    {
+      "tuber": "R11-2",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R11-2/R11-2_rgb_357.png",
+        "crc32": 2330046225,
+        "bytes": 1822076
+      }
+    },
+    {
+      "tuber": "R11-5",
+      "split": "val",
+      "suffix_px": 354,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R11-5/R11-5_rgb_354.png",
+        "crc32": 564040777,
+        "bytes": 1783146
+      }
+    },
+    {
+      "tuber": "R11-6",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R11-6/R11-6_rgb_355.png",
+        "crc32": 2159306669,
+        "bytes": 1838252
+      }
+    },
+    {
+      "tuber": "R11-7",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R11-7/R11-7_rgb_360.png",
+        "crc32": 1070590455,
+        "bytes": 1828943
+      }
+    },
+    {
+      "tuber": "R11-9",
+      "split": "train",
+      "suffix_px": 351,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R11-9/R11-9_rgb_351.png",
+        "crc32": 4263582179,
+        "bytes": 1851580
+      }
+    },
+    {
+      "tuber": "R13-2",
+      "split": "train",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_05",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R13-2/R13-2_rgb_355.png",
+        "crc32": 3105770870,
+        "bytes": 1751419
+      }
+    },
+    {
+      "tuber": "R13-4",
+      "split": "train",
+      "suffix_px": 366,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_05",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R13-4/R13-4_rgb_366.png",
+        "crc32": 4151172314,
+        "bytes": 1749528
+      }
+    },
+    {
+      "tuber": "R2-10",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R2-10/R2-10_rgb_363.png",
+        "crc32": 2816056245,
+        "bytes": 1781077
+      }
+    },
+    {
+      "tuber": "R2-2",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R2-2/R2-2_rgb_360.png",
+        "crc32": 2416369819,
+        "bytes": 1869397
+      }
+    },
+    {
+      "tuber": "R2-4",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R2-4/R2-4_rgb_364.png",
+        "crc32": 1707158694,
+        "bytes": 1859875
+      }
+    },
+    {
+      "tuber": "R2-7",
+      "split": "train",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R2-7/R2-7_rgb_358.png",
+        "crc32": 2734444022,
+        "bytes": 1834078
+      }
+    },
+    {
+      "tuber": "R3-1",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R3-1/R3-1_rgb_368.png",
+        "crc32": 3636542754,
+        "bytes": 1803421
+      }
+    },
+    {
+      "tuber": "R3-2",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R3-2/R3-2_rgb_358.png",
+        "crc32": 2173424531,
+        "bytes": 1837895
+      }
+    },
+    {
+      "tuber": "R3-3",
+      "split": "train",
+      "suffix_px": 365,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R3-3/R3-3_rgb_365.png",
+        "crc32": 4092789743,
+        "bytes": 1854620
+      }
+    },
+    {
+      "tuber": "R3-8",
+      "split": "train",
+      "suffix_px": 368,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R3-8/R3-8_rgb_368.png",
+        "crc32": 1059291993,
+        "bytes": 1757078
+      }
+    },
+    {
+      "tuber": "R4-2",
+      "split": "val",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-2/R4-2_rgb_352.png",
+        "crc32": 51150507,
+        "bytes": 1688516
+      }
+    },
+    {
+      "tuber": "R4-3",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-3/R4-3_rgb_360.png",
+        "crc32": 1665990728,
+        "bytes": 1729663
+      }
+    },
+    {
+      "tuber": "R4-4",
+      "split": "val",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-4/R4-4_rgb_358.png",
+        "crc32": 2882465192,
+        "bytes": 1736609
+      }
+    },
+    {
+      "tuber": "R4-5",
+      "split": "train",
+      "suffix_px": 359,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-5/R4-5_rgb_359.png",
+        "crc32": 1877306061,
+        "bytes": 1693952
+      }
+    },
+    {
+      "tuber": "R4-6",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-6/R4-6_rgb_352.png",
+        "crc32": 1609548107,
+        "bytes": 1699670
+      }
+    },
+    {
+      "tuber": "R4-7",
+      "split": "val",
+      "suffix_px": 363,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-7/R4-7_rgb_363.png",
+        "crc32": 807184288,
+        "bytes": 1688988
+      }
+    },
+    {
+      "tuber": "R4-9",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-9/R4-9_rgb_357.png",
+        "crc32": 3480275850,
+        "bytes": 1689414
+      }
+    },
+    {
+      "tuber": "R5-1",
+      "split": "val",
+      "suffix_px": 356,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-1/R5-1_rgb_356.png",
+        "crc32": 114485313,
+        "bytes": 1677163
+      }
+    },
+    {
+      "tuber": "R5-10",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-10/R5-10_rgb_357.png",
+        "crc32": 130536923,
+        "bytes": 1708479
+      }
+    },
+    {
+      "tuber": "R5-3",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-3/R5-3_rgb_364.png",
+        "crc32": 1390957623,
+        "bytes": 1602844
+      }
+    },
+    {
+      "tuber": "R5-4",
+      "split": "train",
+      "suffix_px": 356,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-4/R5-4_rgb_356.png",
+        "crc32": 4228511895,
+        "bytes": 1702837
+      }
+    },
+    {
+      "tuber": "R5-7",
+      "split": "val",
+      "suffix_px": 362,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-7/R5-7_rgb_362.png",
+        "crc32": 2972821589,
+        "bytes": 1721907
+      }
+    },
+    {
+      "tuber": "R5-8",
+      "split": "val",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-8/R5-8_rgb_352.png",
+        "crc32": 3095888796,
+        "bytes": 1640423
+      }
+    },
+    {
+      "tuber": "R5-9",
+      "split": "val",
+      "suffix_px": 349,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-9/R5-9_rgb_349.png",
+        "crc32": 1601645814,
+        "bytes": 1620445
+      }
+    },
+    {
+      "tuber": "R6-1",
+      "split": "train",
+      "suffix_px": 363,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R6-1/R6-1_rgb_363.png",
+        "crc32": 1119359071,
+        "bytes": 1683201
+      }
+    },
+    {
+      "tuber": "R6-2",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R6-2/R6-2_rgb_352.png",
+        "crc32": 695126155,
+        "bytes": 1710356
+      }
+    },
+    {
+      "tuber": "R6-3",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R6-3/R6-3_rgb_367.png",
+        "crc32": 2141856968,
+        "bytes": 1750014
+      }
+    },
+    {
+      "tuber": "R6-5",
+      "split": "val",
+      "suffix_px": 353,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R6-5/R6-5_rgb_353.png",
+        "crc32": 3758745063,
+        "bytes": 1760001
+      }
+    },
+    {
+      "tuber": "R6-7",
+      "split": "train",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R6-7/R6-7_rgb_360.png",
+        "crc32": 2850623784,
+        "bytes": 1826405
+      }
+    },
+    {
+      "tuber": "R6-8",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R6-8/R6-8_rgb_364.png",
+        "crc32": 2595714194,
+        "bytes": 1716460
+      }
+    },
+    {
+      "tuber": "R6-9",
+      "split": "train",
+      "suffix_px": 364,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R6-9/R6-9_rgb_364.png",
+        "crc32": 2088579848,
+        "bytes": 1817136
+      }
+    },
+    {
+      "tuber": "R7-10",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R7-10/R7-10_rgb_352.png",
+        "crc32": 1033203668,
+        "bytes": 1797780
+      }
+    },
+    {
+      "tuber": "R7-2",
+      "split": "train",
+      "suffix_px": 359,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R7-2/R7-2_rgb_359.png",
+        "crc32": 2965923839,
+        "bytes": 1741475
+      }
+    },
+    {
+      "tuber": "R7-3",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R7-3/R7-3_rgb_353.png",
+        "crc32": 471935451,
+        "bytes": 1846629
+      }
+    },
+    {
+      "tuber": "R7-5",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R7-5/R7-5_rgb_357.png",
+        "crc32": 3022150579,
+        "bytes": 1796110
+      }
+    },
+    {
+      "tuber": "R7-9",
+      "split": "train",
+      "suffix_px": 362,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R7-9/R7-9_rgb_362.png",
+        "crc32": 134152599,
+        "bytes": 1716384
+      }
+    },
+    {
+      "tuber": "R8-1",
+      "split": "val",
+      "suffix_px": 371,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R8-1/R8-1_rgb_371.png",
+        "crc32": 3230210697,
+        "bytes": 1743730
+      }
+    },
+    {
+      "tuber": "R8-10",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R8-10/R8-10_rgb_357.png",
+        "crc32": 2176297405,
+        "bytes": 1763414
+      }
+    },
+    {
+      "tuber": "R8-3",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R8-3/R8-3_rgb_352.png",
+        "crc32": 1542067837,
+        "bytes": 1761334
+      }
+    },
+    {
+      "tuber": "R8-4",
+      "split": "train",
+      "suffix_px": 369,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R8-4/R8-4_rgb_369.png",
+        "crc32": 3464996730,
+        "bytes": 1794105
+      }
+    },
+    {
+      "tuber": "R8-6",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R8-6/R8-6_rgb_353.png",
+        "crc32": 3159692549,
+        "bytes": 1764428
+      }
+    },
+    {
+      "tuber": "R8-7",
+      "split": "train",
+      "suffix_px": 369,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R8-7/R8-7_rgb_369.png",
+        "crc32": 63962891,
+        "bytes": 1703510
+      }
+    },
+    {
+      "tuber": "R8-9",
+      "split": "train",
+      "suffix_px": 354,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R8-9/R8-9_rgb_354.png",
+        "crc32": 3574332171,
+        "bytes": 1777436
+      }
+    },
+    {
+      "tuber": "R9-2",
+      "split": "val",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R9-2/R9-2_rgb_360.png",
+        "crc32": 3570949224,
+        "bytes": 1776020
+      }
+    },
+    {
+      "tuber": "R9-3",
+      "split": "train",
+      "suffix_px": 367,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R9-3/R9-3_rgb_367.png",
+        "crc32": 325647557,
+        "bytes": 1714518
+      }
+    },
+    {
+      "tuber": "R9-4",
+      "split": "val",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R9-4/R9-4_rgb_355.png",
+        "crc32": 3774433112,
+        "bytes": 1741796
+      }
+    },
+    {
+      "tuber": "R9-5",
+      "split": "train",
+      "suffix_px": 361,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R9-5/R9-5_rgb_361.png",
+        "crc32": 2948019869,
+        "bytes": 1714542
+      }
+    },
+    {
+      "tuber": "R9-6",
+      "split": "train",
+      "suffix_px": 357,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R9-6/R9-6_rgb_357.png",
+        "crc32": 1048356367,
+        "bytes": 1768823
+      }
+    },
+    {
+      "tuber": "R9-7",
+      "split": "train",
+      "suffix_px": 350,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R9-7/R9-7_rgb_350.png",
+        "crc32": 4084935565,
+        "bytes": 1759344
+      }
+    },
+    {
+      "tuber": "R9-9",
+      "split": "train",
+      "suffix_px": 365,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R9-9/R9-9_rgb_365.png",
+        "crc32": 2761418382,
+        "bytes": 1703831
+      }
+    }
+  ],
+  "belt_depth_mm": 350.0,
+  "pixel_area_mm2": 0.28733674000105974,
+  "camera_matrix_px": [
+    [
+      653.7627563476562,
+      0.0,
+      643.483642578125
+    ],
+    [
+      0.0,
+      652.1158447265625,
+      366.064697265625
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "image_payloads": "frozen center RGBA only",
+  "height_features": {
+    "sil_height": [
+      "area_sqrt_mm",
+      "log_silhouette_axis_ratio",
+      "silhouette_hull_fill"
+    ],
+    "rgb_height": [
+      "area_sqrt_mm",
+      "log_silhouette_axis_ratio",
+      "silhouette_hull_fill",
+      "luma_median",
+      "luma_90_minus_10",
+      "red_chromaticity_median",
+      "green_chromaticity_median",
+      "core_minus_rim_luma"
+    ]
+  },
+  "ridge_penalties": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "bootstrap_seed": 5272401,
+  "bootstrap_draws": 10000,
+  "trait_fit_sha256": "edf029a0816120c36e45afea573838fe769233224ba273e4addbdb407f06e1b7"
+}

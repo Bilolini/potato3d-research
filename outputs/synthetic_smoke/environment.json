@@ -1,0 +1,32 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "processor": "arm",
+  "device": "CPU only; no neural framework/CUDA dependency",
+  "packages": {
+    "potato3d": "0.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "trimesh": "4.12.2",
+    "rtree": "1.4.1",
+    "matplotlib": "3.11.2",
+    "plotly": "6.9.0",
+    "PyYAML": "6.0.3"
+  },
+  "source_sha256": {
+    "__init__.py": "f704b8d571a833ca0096eebe3f648ca888e02a9f2a436295364c2f6617e80022",
+    "cli.py": "504559d488e47cd8d86d9b4b1d39396b49c22569408c5a2e8a4f9eeae67042f6",
+    "completion/__init__.py": "7e04313352580cda59ccefdcc2773f62f953f21f4512ccd7af2cebff097a0500",
+    "completion/convex.py": "92072957b65cd5928e00a4c89957a455263d3f597959be1dc9b614fe17933b85",
+    "completion/ellipsoid.py": "8c7503ce40d6370d2b83371d01c1293f776dc42cdc803ffbc6671cd8decbac8a",
+    "completion/symmetry.py": "e80d139b1df38b7098e62fb5df9bd91b9635c53639e7c0db0a61e4c9d1362a75",
+    "geometry.py": "5c60b055dcf36edd1d1703fbd34497bc10396aed07f4dcf61f94657c0aa1c918",
+    "io.py": "148daa49f0f08e2cc77195477d12b14705c44da024db6c7857c880f04d50595f",
+    "metrics.py": "63d079ee049b40b60758bead2352aa92f1aed1813551a99c801c8bcdc700f528",
+    "pipeline.py": "5e75a2dc18958e0c7a2ea8d51b902f9ea3ac1c6931ca50425bdca0405ce9df84",
+    "synthetic.py": "4d77109398bb984060091e5116dc4a03ab5bba5988f15e4b49475e08cc935ee4",
+    "visualize.py": "fc0e45b77b7509baa40e07bd3064f30178c41eeec2e08f31782c78c5300b1e29"
+  },
+  "lock_sha256": "46ac027e8763052c14ff4032945ec996cfbb1f85c3d75a3cd6f11bb75c7dc577"
+}

@@ -1,0 +1,43 @@
+{
+  "n_selected": 10,
+  "n_complete": 10,
+  "failed_tubers": [],
+  "center_replays_passed": 160,
+  "second_predictions_passed": 160,
+  "mean_absolute_error_ml": {
+    "center": 29.922069698702728,
+    "second": 32.17138071405297,
+    "average": 28.478413604429075
+  },
+  "paired_comparisons": {
+    "average_minus_center_error_ml": {
+      "n": 10,
+      "mean_change_ml": -1.443656094273652,
+      "median_change_ml": -1.9102437675841344,
+      "wins": 7,
+      "ties": 0,
+      "losses": 3
+    },
+    "second_minus_center_error_ml": {
+      "n": 10,
+      "mean_change_ml": 2.2493110153502416,
+      "median_change_ml": -2.7692794993674212,
+      "wins": 7,
+      "ties": 0,
+      "losses": 3
+    },
+    "average_minus_second_error_ml": {
+      "n": 10,
+      "mean_change_ml": -3.6929671096238934,
+      "median_change_ml": 1.384639749683707,
+      "wins": 4,
+      "ties": 0,
+      "losses": 6
+    }
+  },
+  "total_center_replay_cpu_seconds": 120.04295699999999,
+  "total_additional_second_frame_cpu_seconds": 120.73088600000003,
+  "batch_wall_seconds": 55.50689491722733,
+  "prediction_sha256": "442cfe24b0f2528cd44fa40f77320da883af4909218dc4e56758a688211a3ce0",
+  "reference_sha256": "d00708bec4cc2424a444ef250974399e2ab6756a61dcccfad0136e5161b23a99"
+}

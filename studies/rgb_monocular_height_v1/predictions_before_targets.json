@@ -1,0 +1,1489 @@
+{
+  "manifest_sha256": "dbc8407c25ea3800063ac70a7c67564ffe7a159f794fa1d3e59d1f1f0faf0b6f",
+  "training_preflight_sha256": "742ca9edc0bd30cbb5f4e6ca0ab60df74dd66ad54a9201f7cbfa88c1c13a392f",
+  "load_s": 0.1489892499994312,
+  "model_revision": "d2fc6a93601aabb1139a3bf0ebfcb4e89c67817f",
+  "checkpoint_sha256": "04d3295ff4f9cbee72b8998a85930fe870b45ba4431e7af47415fbded02388ca",
+  "per_frame": [
+    {
+      "tuber": "2R1-1",
+      "suffix_px": 358,
+      "B_m": 1.4222667455673217,
+      "T_m": 1.0129018664360045,
+      "estimated_height_mm": 100.7389845417567,
+      "valid_background_pixels": 888500,
+      "valid_target_pixels": 33100,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.017947416003153194,
+        "forward_s": 4.947675041999901,
+        "postprocess_s": 0.002712333000090439,
+        "raw_min_m": 0.9779595732688904,
+        "raw_max_m": 1.7049469947814941
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 33100,
+        "projected_area_mm2": 9510.846094035078,
+        "area_volume_proxy_cm3": 927.5316349925474,
+        "log_silhouette_axis_ratio": 0.1516927492033927
+      },
+      "trait_predictions": {
+        "weight": 423.4034222493532,
+        "volume": 390.4903561677317
+      },
+      "wall_s": 5.000048292000429
+    },
+    {
+      "tuber": "2R1-9",
+      "suffix_px": 356,
+      "B_m": 1.3313489437103272,
+      "T_m": 1.0253617763519287,
+      "estimated_height_mm": 80.44135166921436,
+      "valid_background_pixels": 908005,
+      "valid_target_pixels": 13595,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.0209024590003537,
+        "forward_s": 3.8672334999973828,
+        "postprocess_s": 0.001742416003253311,
+        "raw_min_m": 0.909018874168396,
+        "raw_max_m": 1.6290147304534912
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 13595,
+        "projected_area_mm2": 3906.342980314407,
+        "area_volume_proxy_cm3": 244.1493419563475,
+        "log_silhouette_axis_ratio": 0.06278978698764505
+      },
+      "trait_predictions": {
+        "weight": 136.27066079105063,
+        "volume": 123.57730491504998
+      },
+      "wall_s": 3.9179689590018825
+    },
+    {
+      "tuber": "2R2-1",
+      "suffix_px": 351,
+      "B_m": 1.4747765779495239,
+      "T_m": 1.155371904373169,
+      "estimated_height_mm": 75.80242148078817,
+      "valid_background_pixels": 909139,
+      "valid_target_pixels": 12461,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.014996542002336355,
+        "forward_s": 3.742073375000473,
+        "postprocess_s": 0.002507874996808823,
+        "raw_min_m": 1.08207368850708,
+        "raw_max_m": 1.7533931732177734
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 12461,
+        "projected_area_mm2": 3580.5031171532055,
+        "area_volume_proxy_cm3": 214.24765849538932,
+        "log_silhouette_axis_ratio": 0.1376919725280466
+      },
+      "trait_predictions": {
+        "weight": 123.33861838559815,
+        "volume": 111.12897083463933
+      },
+      "wall_s": 3.786282041000959
+    },
+    {
+      "tuber": "3R1-1",
+      "suffix_px": 366,
+      "B_m": 1.3352911233901978,
+      "T_m": 0.9899610310792923,
+      "estimated_height_mm": 90.51624038505474,
+      "valid_background_pixels": 906620,
+      "valid_target_pixels": 14980,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.014957917002902832,
+        "forward_s": 4.053965499999322,
+        "postprocess_s": 0.0022278750002442393,
+        "raw_min_m": 0.9855284690856934,
+        "raw_max_m": 1.673274278640747
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 14980,
+        "projected_area_mm2": 4304.304365215875,
+        "area_volume_proxy_cm3": 282.3933466351444,
+        "log_silhouette_axis_ratio": 0.4134359236959419
+      },
+      "trait_predictions": {
+        "weight": 163.68333434947445,
+        "volume": 145.73211737027148
+      },
+      "wall_s": 4.097600166001939
+    },
+    {
+      "tuber": "3R1-7",
+      "suffix_px": 364,
+      "B_m": 1.4061639904975891,
+      "T_m": 1.0874934434890746,
+      "estimated_height_mm": 79.3184096639483,
+      "valid_background_pixels": 899351,
+      "valid_target_pixels": 22249,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.014901917002134724,
+        "forward_s": 3.827547249999043,
+        "postprocess_s": 0.0017106250015785918,
+        "raw_min_m": 1.032637119293213,
+        "raw_max_m": 1.6597603559494019
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 22249,
+        "projected_area_mm2": 6392.955128283578,
+        "area_volume_proxy_cm3": 511.154848078372,
+        "log_silhouette_axis_ratio": 0.3503128152209662
+      },
+      "trait_predictions": {
+        "weight": 245.80725387079954,
+        "volume": 224.195280306261
+      },
+      "wall_s": 3.8710534169986204
+    },
+    {
+      "tuber": "3R1-8",
+      "suffix_px": 353,
+      "B_m": 1.2884191274642944,
+      "T_m": 1.0271932125091552,
+      "estimated_height_mm": 70.9622111977164,
+      "valid_background_pixels": 904811,
+      "valid_target_pixels": 16789,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01467666700045811,
+        "forward_s": 4.061744708000333,
+        "postprocess_s": 0.0027214580004510935,
+        "raw_min_m": 0.9927731156349182,
+        "raw_max_m": 1.4480466842651367
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 16789,
+        "projected_area_mm2": 4824.096527877792,
+        "area_volume_proxy_cm3": 335.06107988339676,
+        "log_silhouette_axis_ratio": 0.31308991747097303
+      },
+      "trait_predictions": {
+        "weight": 171.69871477426966,
+        "volume": 155.4039896936672
+      },
+      "wall_s": 4.105635291998624
+    },
+    {
+      "tuber": "3R1-9",
+      "suffix_px": 363,
+      "B_m": 1.2491435348987578,
+      "T_m": 0.9328537523746491,
+      "estimated_height_mm": 88.62186033121515,
+      "valid_background_pixels": 899860,
+      "valid_target_pixels": 21740,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015870667000854155,
+        "forward_s": 4.014251707998483,
+        "postprocess_s": 0.001655291998758912,
+        "raw_min_m": 0.9283822774887085,
+        "raw_max_m": 1.4216444492340088
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 21740,
+        "projected_area_mm2": 6246.700727623039,
+        "area_volume_proxy_cm3": 493.71469046391377,
+        "log_silhouette_axis_ratio": 0.3769949299853478
+      },
+      "trait_predictions": {
+        "weight": 246.89169825275212,
+        "volume": 224.08729901449615
+      },
+      "wall_s": 4.058542917002342
+    },
+    {
+      "tuber": "3R3-8",
+      "suffix_px": 363,
+      "B_m": 1.330445909500122,
+      "T_m": 0.9952605754137039,
+      "estimated_height_mm": 88.1771037007616,
+      "valid_background_pixels": 901692,
+      "valid_target_pixels": 19908,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.014824750000116182,
+        "forward_s": 3.577470000000176,
+        "postprocess_s": 0.0016690000011294615,
+        "raw_min_m": 0.9821885824203491,
+        "raw_max_m": 1.659873604774475
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 19908,
+        "projected_area_mm2": 5720.299819941098,
+        "area_volume_proxy_cm3": 432.64151260466906,
+        "log_silhouette_axis_ratio": 0.156387900564557
+      },
+      "trait_predictions": {
+        "weight": 218.32423616476547,
+        "volume": 199.12167828965374
+      },
+      "wall_s": 3.6206930830012425
+    },
+    {
+      "tuber": "3R4-10",
+      "suffix_px": 368,
+      "B_m": 1.1444763123989106,
+      "T_m": 0.9154049903154373,
+      "estimated_height_mm": 70.05384197175975,
+      "valid_background_pixels": 909034,
+      "valid_target_pixels": 12566,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01488308300031349,
+        "forward_s": 3.8288517499968293,
+        "postprocess_s": 0.001702917001239257,
+        "raw_min_m": 0.8722434043884277,
+        "raw_max_m": 1.3605003356933594
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 12566,
+        "projected_area_mm2": 3610.6734748533167,
+        "area_volume_proxy_cm3": 216.9613244045093,
+        "log_silhouette_axis_ratio": 0.13136258633670156
+      },
+      "trait_predictions": {
+        "weight": 121.72442693256625,
+        "volume": 109.9772548253084
+      },
+      "wall_s": 3.8708671250024054
+    },
+    {
+      "tuber": "3R6-2",
+      "suffix_px": 355,
+      "B_m": 1.3602584064006806,
+      "T_m": 1.0620871126651763,
+      "estimated_height_mm": 76.72068212654442,
+      "valid_background_pixels": 898942,
+      "valid_target_pixels": 22658,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.014957791998313041,
+        "forward_s": 3.614555291002034,
+        "postprocess_s": 0.0016387920004490297,
+        "raw_min_m": 1.0283576250076294,
+        "raw_max_m": 1.5314593315124512
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 22658,
+        "projected_area_mm2": 6510.475854944012,
+        "area_volume_proxy_cm3": 525.3141495931541,
+        "log_silhouette_axis_ratio": 0.34057741443911355
+      },
+      "trait_predictions": {
+        "weight": 248.92296329388782,
+        "volume": 227.47836344899903
+      },
+      "wall_s": 3.6583537080005044
+    },
+    {
+      "tuber": "3R6-3",
+      "suffix_px": 352,
+      "B_m": 1.403415560722351,
+      "T_m": 1.1092632174491883,
+      "estimated_height_mm": 73.35911260141361,
+      "valid_background_pixels": 903785,
+      "valid_target_pixels": 17815,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015118958999664756,
+        "forward_s": 3.6628975409985287,
+        "postprocess_s": 0.0017905839995364659,
+        "raw_min_m": 1.0287456512451172,
+        "raw_max_m": 1.6342973709106445
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 17815,
+        "projected_area_mm2": 5118.904023118879,
+        "area_volume_proxy_cm3": 366.23975114605673,
+        "log_silhouette_axis_ratio": 0.148840443299155
+      },
+      "trait_predictions": {
+        "weight": 182.14895941376483,
+        "volume": 166.41602574886682
+      },
+      "wall_s": 3.706999874997564
+    },
+    {
+      "tuber": "3R7-10",
+      "suffix_px": 358,
+      "B_m": 1.3896201848983765,
+      "T_m": 1.0780404567718507,
+      "estimated_height_mm": 78.4767708683356,
+      "valid_background_pixels": 913711,
+      "valid_target_pixels": 7889,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01488041600168799,
+        "forward_s": 3.6701047089991334,
+        "postprocess_s": 0.0016652910017000977,
+        "raw_min_m": 1.0099732875823975,
+        "raw_max_m": 1.8527973890304565
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 7889,
+        "projected_area_mm2": 2266.7995418683604,
+        "area_volume_proxy_cm3": 107.9244078022529,
+        "log_silhouette_axis_ratio": 0.1489865895446549
+      },
+      "trait_predictions": {
+        "weight": 79.96507354422042,
+        "volume": 70.51457867467018
+      },
+      "wall_s": 3.713861749998614
+    },
+    {
+      "tuber": "4R1-2",
+      "suffix_px": 353,
+      "B_m": 1.3153658509254456,
+      "T_m": 1.028654146194458,
+      "estimated_height_mm": 76.28987523527655,
+      "valid_background_pixels": 909027,
+      "valid_target_pixels": 12573,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01487375000215252,
+        "forward_s": 3.61300774999836,
+        "postprocess_s": 0.0015561250002065208,
+        "raw_min_m": 0.9547094106674194,
+        "raw_max_m": 1.5217676162719727
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 12573,
+        "projected_area_mm2": 3612.6848320333243,
+        "area_volume_proxy_cm3": 217.14263994921907,
+        "log_silhouette_axis_ratio": 0.14919924610587054
+      },
+      "trait_predictions": {
+        "weight": 124.9460213697244,
+        "volume": 112.51314550938196
+      },
+      "wall_s": 3.6564165000017965
+    },
+    {
+      "tuber": "4R3-1",
+      "suffix_px": 357,
+      "B_m": 1.3132851362228393,
+      "T_m": 0.9812117755413056,
+      "estimated_height_mm": 88.49995559442281,
+      "valid_background_pixels": 909137,
+      "valid_target_pixels": 12463,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015771792001032736,
+        "forward_s": 3.649141416997736,
+        "postprocess_s": 0.0016489160007040482,
+        "raw_min_m": 0.9651654362678528,
+        "raw_max_m": 1.580775499343872
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 12463,
+        "projected_area_mm2": 3581.0777906332078,
+        "area_volume_proxy_cm3": 214.2992409337956,
+        "log_silhouette_axis_ratio": 0.07747438118907762
+      },
+      "trait_predictions": {
+        "weight": 127.92887263311519,
+        "volume": 115.24125287353601
+      },
+      "wall_s": 3.693862457999785
+    },
+    {
+      "tuber": "4R4-10",
+      "suffix_px": 355,
+      "B_m": 1.3681653201580048,
+      "T_m": 1.0640070557594299,
+      "estimated_height_mm": 77.80886634899288,
+      "valid_background_pixels": 912750,
+      "valid_target_pixels": 8850,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.014844583998637972,
+        "forward_s": 3.632503832999646,
+        "postprocess_s": 0.001677374999417225,
+        "raw_min_m": 1.0121198892593384,
+        "raw_max_m": 1.5913190841674805
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 8850,
+        "projected_area_mm2": 2542.9301490093785,
+        "area_volume_proxy_cm3": 128.23354435090775,
+        "log_silhouette_axis_ratio": 0.11551550671259508
+      },
+      "trait_predictions": {
+        "weight": 87.9319043785062,
+        "volume": 78.19858209315743
+      },
+      "wall_s": 3.6754053750009916
+    },
+    {
+      "tuber": "4R4-4",
+      "suffix_px": 353,
+      "B_m": 1.2735438346862793,
+      "T_m": 1.023452389240265,
+      "estimated_height_mm": 68.73105072796129,
+      "valid_background_pixels": 899485,
+      "valid_target_pixels": 22115,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015214792001643218,
+        "forward_s": 4.671873540999513,
+        "postprocess_s": 0.0035807499989459757,
+        "raw_min_m": 0.9317241907119751,
+        "raw_max_m": 1.4518665075302124
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 22115,
+        "projected_area_mm2": 6354.452005123436,
+        "area_volume_proxy_cm3": 506.54397696120105,
+        "log_silhouette_axis_ratio": 0.4559550324328453
+      },
+      "trait_predictions": {
+        "weight": 237.5893003592955,
+        "volume": 216.62937372393066
+      },
+      "wall_s": 4.749600625000312
+    },
+    {
+      "tuber": "4R4-8",
+      "suffix_px": 356,
+      "B_m": 1.2635056972503662,
+      "T_m": 0.9973783850669861,
+      "estimated_height_mm": 73.7191446519661,
+      "valid_background_pixels": 910951,
+      "valid_target_pixels": 10649,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.020625417000701418,
+        "forward_s": 3.979628999997658,
+        "postprocess_s": 0.0018238750017189886,
+        "raw_min_m": 0.9681147336959839,
+        "raw_max_m": 1.4608285427093506
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 10649,
+        "projected_area_mm2": 3059.8489442712853,
+        "area_volume_proxy_cm3": 169.2583024055248,
+        "log_silhouette_axis_ratio": 0.18745574297053885
+      },
+      "trait_predictions": {
+        "weight": 105.03711186678284,
+        "volume": 93.71819928684782
+      },
+      "wall_s": 4.030524540998158
+    },
+    {
+      "tuber": "4R6-1",
+      "suffix_px": 349,
+      "B_m": 1.160734337568283,
+      "T_m": 0.8985051095485688,
+      "estimated_height_mm": 79.07083200379671,
+      "valid_background_pixels": 901748,
+      "valid_target_pixels": 19852,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015566583002510015,
+        "forward_s": 3.9364659169987135,
+        "postprocess_s": 0.002796291999402456,
+        "raw_min_m": 0.8440238237380981,
+        "raw_max_m": 1.3999766111373901
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 19852,
+        "projected_area_mm2": 5704.208962501038,
+        "area_volume_proxy_cm3": 430.81730534216786,
+        "log_silhouette_axis_ratio": 0.09133965070721387
+      },
+      "trait_predictions": {
+        "weight": 209.89330681683902,
+        "volume": 192.5297375769235
+      },
+      "wall_s": 3.9825296660019376
+    },
+    {
+      "tuber": "4R6-7",
+      "suffix_px": 359,
+      "B_m": 1.171817171573639,
+      "T_m": 0.9200011134147644,
+      "estimated_height_mm": 75.21277422249098,
+      "valid_background_pixels": 882595,
+      "valid_target_pixels": 39005,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.014969290998124052,
+        "forward_s": 4.079378124999494,
+        "postprocess_s": 0.002750042000116082,
+        "raw_min_m": 0.870661199092865,
+        "raw_max_m": 1.3096239566802979
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 39005,
+        "projected_area_mm2": 11207.569543741336,
+        "area_volume_proxy_cm3": 1186.4984181814173,
+        "log_silhouette_axis_ratio": 0.28832898258829726
+      },
+      "trait_predictions": {
+        "weight": 489.19620366272324,
+        "volume": 455.86529328816954
+      },
+      "wall_s": 4.124674208000215
+    },
+    {
+      "tuber": "4R8-2",
+      "suffix_px": 369,
+      "B_m": 1.245540654659271,
+      "T_m": 0.9621159136295319,
+      "estimated_height_mm": 79.64305218728121,
+      "valid_background_pixels": 905358,
+      "valid_target_pixels": 16242,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015038416000606958,
+        "forward_s": 3.880681792001269,
+        "postprocess_s": 0.0026564580002741423,
+        "raw_min_m": 0.9086436033248901,
+        "raw_max_m": 1.5077455043792725
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 16242,
+        "projected_area_mm2": 4666.923331097212,
+        "area_volume_proxy_cm3": 318.8203244693083,
+        "log_silhouette_axis_ratio": 0.1845319449138963
+      },
+      "trait_predictions": {
+        "weight": 168.1125856126869,
+        "volume": 152.45860098290476
+      },
+      "wall_s": 3.9255295830007526
+    },
+    {
+      "tuber": "4R8-3",
+      "suffix_px": 356,
+      "B_m": 1.2326230525970459,
+      "T_m": 0.9067806959152221,
+      "estimated_height_mm": 92.5220606562195,
+      "valid_background_pixels": 906215,
+      "valid_target_pixels": 15385,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01509783399887965,
+        "forward_s": 4.413870374999533,
+        "postprocess_s": 0.0018626660021254793,
+        "raw_min_m": 0.8538410067558289,
+        "raw_max_m": 1.4925156831741333
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 15385,
+        "projected_area_mm2": 4420.675744916304,
+        "area_volume_proxy_cm3": 293.9226070314885,
+        "log_silhouette_axis_ratio": 0.07680210622240743
+      },
+      "trait_predictions": {
+        "weight": 163.31339544429468,
+        "volume": 147.98304239118391
+      },
+      "wall_s": 4.458808041003067
+    },
+    {
+      "tuber": "4R8-5",
+      "suffix_px": 370,
+      "B_m": 1.2985030949115752,
+      "T_m": 0.921207320690155,
+      "estimated_height_mm": 101.69673179445874,
+      "valid_background_pixels": 908740,
+      "valid_target_pixels": 12860,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015067666001414182,
+        "forward_s": 4.173449792000611,
+        "postprocess_s": 0.001977916999749141,
+        "raw_min_m": 0.9050711989402771,
+        "raw_max_m": 1.4776630401611328
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 12860,
+        "projected_area_mm2": 3695.1504764136284,
+        "area_volume_proxy_cm3": 224.61988113413798,
+        "log_silhouette_axis_ratio": 0.2212578025009927
+      },
+      "trait_predictions": {
+        "weight": 141.05814488418594,
+        "volume": 125.61265770984267
+      },
+      "wall_s": 4.217881833003048
+    },
+    {
+      "tuber": "4R8-8",
+      "suffix_px": 359,
+      "B_m": 1.2477898001670837,
+      "T_m": 0.9359467029571533,
+      "estimated_height_mm": 87.47072945207655,
+      "valid_background_pixels": 900851,
+      "valid_target_pixels": 20749,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015768208999361377,
+        "forward_s": 4.7405073330010055,
+        "postprocess_s": 0.0026244580003549345,
+        "raw_min_m": 0.9036698341369629,
+        "raw_max_m": 1.6131479740142822
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 20749,
+        "projected_area_mm2": 5961.950018281988,
+        "area_volume_proxy_cm3": 460.3440097422865,
+        "log_silhouette_axis_ratio": 0.5105022975229883
+      },
+      "trait_predictions": {
+        "weight": 235.3495005113901,
+        "volume": 212.26040895852552
+      },
+      "wall_s": 4.787122833000467
+    },
+    {
+      "tuber": "R1-1",
+      "suffix_px": 355,
+      "B_m": 1.0826208531856536,
+      "T_m": 0.8429931372404098,
+      "estimated_height_mm": 77.46913458580214,
+      "valid_background_pixels": 910958,
+      "valid_target_pixels": 10642,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.020050999999511987,
+        "forward_s": 4.045381375002762,
+        "postprocess_s": 0.003217582998331636,
+        "raw_min_m": 0.7981364727020264,
+        "raw_max_m": 1.339787244796753
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 10642,
+        "projected_area_mm2": 3057.837587091278,
+        "area_volume_proxy_cm3": 169.0914397812727,
+        "log_silhouette_axis_ratio": 0.2160608510005492
+      },
+      "trait_predictions": {
+        "weight": 106.9344042088081,
+        "volume": 95.09096571414993
+      },
+      "wall_s": 4.096183582998492
+    },
+    {
+      "tuber": "R1-2",
+      "suffix_px": 370,
+      "B_m": 1.1138055682182313,
+      "T_m": 0.821447291970253,
+      "estimated_height_mm": 91.87007104883091,
+      "valid_background_pixels": 897630,
+      "valid_target_pixels": 23970,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.017150625000795117,
+        "forward_s": 4.118322791997343,
+        "postprocess_s": 0.0017267910006921738,
+        "raw_min_m": 0.7729473114013672,
+        "raw_max_m": 1.5022081136703491
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 23970,
+        "projected_area_mm2": 6887.461657825402,
+        "area_volume_proxy_cm3": 571.5954870916634,
+        "log_silhouette_axis_ratio": 0.4223026104433956
+      },
+      "trait_predictions": {
+        "weight": 280.99076612808756,
+        "volume": 255.4216135822537
+      },
+      "wall_s": 4.165398750003078
+    },
+    {
+      "tuber": "R1-3",
+      "suffix_px": 358,
+      "B_m": 1.1139142334461212,
+      "T_m": 0.8178461283445358,
+      "estimated_height_mm": 93.02676424644775,
+      "valid_background_pixels": 905568,
+      "valid_target_pixels": 16032,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01509829199858359,
+        "forward_s": 4.106919833000575,
+        "postprocess_s": 0.0016587499994784594,
+        "raw_min_m": 0.7621150612831116,
+        "raw_max_m": 1.4263784885406494
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 16032,
+        "projected_area_mm2": 4606.58261569699,
+        "area_volume_proxy_cm3": 312.6571008231238,
+        "log_silhouette_axis_ratio": 0.25279656208028617
+      },
+      "trait_predictions": {
+        "weight": 174.64385876296976,
+        "volume": 157.09593538857573
+      },
+      "wall_s": 4.150620707998314
+    },
+    {
+      "tuber": "R10-10",
+      "suffix_px": 360,
+      "B_m": 1.2104234218597412,
+      "T_m": 1.0044686794281006,
+      "estimated_height_mm": 59.55284617701905,
+      "valid_background_pixels": 909665,
+      "valid_target_pixels": 11935,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01632120799695258,
+        "forward_s": 3.828300459001184,
+        "postprocess_s": 0.002543291000620229,
+        "raw_min_m": 0.9278050065040588,
+        "raw_max_m": 1.4528095722198486
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 11935,
+        "projected_area_mm2": 3429.363991912648,
+        "area_volume_proxy_cm3": 200.82620209392937,
+        "log_silhouette_axis_ratio": 0.26109106008534144
+      },
+      "trait_predictions": {
+        "weight": 113.20226151373787,
+        "volume": 101.46726526496668
+      },
+      "wall_s": 3.8752339169986953
+    },
+    {
+      "tuber": "R11-5",
+      "suffix_px": 354,
+      "B_m": 1.2701586425304412,
+      "T_m": 0.932957261800766,
+      "estimated_height_mm": 92.91790749875388,
+      "valid_background_pixels": 893034,
+      "valid_target_pixels": 28566,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015892791998339817,
+        "forward_s": 4.638768000000709,
+        "postprocess_s": 0.0025777080008992925,
+        "raw_min_m": 0.9179413318634033,
+        "raw_max_m": 1.5368492603302002
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 28566,
+        "projected_area_mm2": 8208.061314870272,
+        "area_volume_proxy_cm3": 743.6368250601306,
+        "log_silhouette_axis_ratio": 0.1519841135995524
+      },
+      "trait_predictions": {
+        "weight": 343.81374756863977,
+        "volume": 316.6221711356969
+      },
+      "wall_s": 4.684209666000243
+    },
+    {
+      "tuber": "R3-2",
+      "suffix_px": 358,
+      "B_m": 1.2730819880962372,
+      "T_m": 1.0336395502090454,
+      "estimated_height_mm": 65.8283237404361,
+      "valid_background_pixels": 911784,
+      "valid_target_pixels": 9816,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015284000000974629,
+        "forward_s": 3.9143530410001404,
+        "postprocess_s": 0.0024407499986409675,
+        "raw_min_m": 0.8823952078819275,
+        "raw_max_m": 1.5132157802581787
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 9816,
+        "projected_area_mm2": 2820.4974398504023,
+        "area_volume_proxy_cm3": 149.791981145583,
+        "log_silhouette_axis_ratio": 0.23271834129979307
+      },
+      "trait_predictions": {
+        "weight": 95.04905892293417,
+        "volume": 84.35242974445651
+      },
+      "wall_s": 3.9589277080012835
+    },
+    {
+      "tuber": "R4-2",
+      "suffix_px": 352,
+      "B_m": 1.158382874727249,
+      "T_m": 0.8857369869947433,
+      "estimated_height_mm": 82.37868738248211,
+      "valid_background_pixels": 898368,
+      "valid_target_pixels": 23232,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01590066599965212,
+        "forward_s": 4.301734333999775,
+        "postprocess_s": 0.002648124998813728,
+        "raw_min_m": 0.8189041614532471,
+        "raw_max_m": 1.6618568897247314
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 23232,
+        "projected_area_mm2": 6675.40714370462,
+        "area_volume_proxy_cm3": 545.4018901885141,
+        "log_silhouette_axis_ratio": 0.21611323893697312
+      },
+      "trait_predictions": {
+        "weight": 258.94216742841917,
+        "volume": 237.370110040202
+      },
+      "wall_s": 4.355246625000291
+    },
+    {
+      "tuber": "R4-4",
+      "suffix_px": 358,
+      "B_m": 1.1410094916820526,
+      "T_m": 0.9504885822534561,
+      "estimated_height_mm": 58.44151059752104,
+      "valid_background_pixels": 915154,
+      "valid_target_pixels": 6446,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.017133792000095127,
+        "forward_s": 4.227358707998064,
+        "postprocess_s": 0.0023625419999007136,
+        "raw_min_m": 0.8613690137863159,
+        "raw_max_m": 1.4804874658584595
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 6446,
+        "projected_area_mm2": 1852.172626046831,
+        "area_volume_proxy_cm3": 79.71172213594532,
+        "log_silhouette_axis_ratio": 0.2521134442660818
+      },
+      "trait_predictions": {
+        "weight": 64.70807815224433,
+        "volume": 56.07910081944906
+      },
+      "wall_s": 4.27538845899835
+    },
+    {
+      "tuber": "R4-7",
+      "suffix_px": 363,
+      "B_m": 1.2085072994232178,
+      "T_m": 0.9149085640907287,
+      "estimated_height_mm": 85.03015034780098,
+      "valid_background_pixels": 907305,
+      "valid_target_pixels": 14295,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01574550000077579,
+        "forward_s": 3.7026409579993924,
+        "postprocess_s": 0.002784042000712361,
+        "raw_min_m": 0.8590302467346191,
+        "raw_max_m": 1.5319632291793823
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 14295,
+        "projected_area_mm2": 4107.478698315149,
+        "area_volume_proxy_cm3": 263.2467267123067,
+        "log_silhouette_axis_ratio": 0.19919154388995214
+      },
+      "trait_predictions": {
+        "weight": 148.91363443289475,
+        "volume": 134.01570618806247
+      },
+      "wall_s": 3.7491303330025403
+    },
+    {
+      "tuber": "R5-1",
+      "suffix_px": 356,
+      "B_m": 1.218488585948944,
+      "T_m": 0.8942446410655975,
+      "estimated_height_mm": 93.13618692684777,
+      "valid_background_pixels": 909264,
+      "valid_target_pixels": 12336,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.014851541000098223,
+        "forward_s": 4.053306875000999,
+        "postprocess_s": 0.0017651250018388964,
+        "raw_min_m": 0.8792001008987427,
+        "raw_max_m": 1.480324387550354
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 12336,
+        "projected_area_mm2": 3544.586024653073,
+        "area_volume_proxy_cm3": 211.03198367049907,
+        "log_silhouette_axis_ratio": 0.2706266513931615
+      },
+      "trait_predictions": {
+        "weight": 132.1893563166318,
+        "volume": 117.41903909389231
+      },
+      "wall_s": 4.096408583998709
+    },
+    {
+      "tuber": "R5-7",
+      "suffix_px": 362,
+      "B_m": 1.2214702308177947,
+      "T_m": 0.9608799457550049,
+      "estimated_height_mm": 74.6695232276861,
+      "valid_background_pixels": 909422,
+      "valid_target_pixels": 12178,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015072457998030586,
+        "forward_s": 4.002056249999441,
+        "postprocess_s": 0.0021069169997645076,
+        "raw_min_m": 0.8714225888252258,
+        "raw_max_m": 1.4839953184127808
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 12178,
+        "projected_area_mm2": 3499.1868197329054,
+        "area_volume_proxy_cm3": 206.99063401009013,
+        "log_silhouette_axis_ratio": 0.20050306237304377
+      },
+      "trait_predictions": {
+        "weight": 121.06233688655952,
+        "volume": 108.54732627699113
+      },
+      "wall_s": 4.046243374999904
+    },
+    {
+      "tuber": "R5-8",
+      "suffix_px": 352,
+      "B_m": 1.1778229236602784,
+      "T_m": 0.8467873483896255,
+      "estimated_height_mm": 98.37000878253149,
+      "valid_background_pixels": 906998,
+      "valid_target_pixels": 14602,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01535883299948182,
+        "forward_s": 4.09557954200136,
+        "postprocess_s": 0.0027565829986997414,
+        "raw_min_m": 0.8054795265197754,
+        "raw_max_m": 1.4304070472717285
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 14602,
+        "projected_area_mm2": 4195.691077495474,
+        "area_volume_proxy_cm3": 271.77234164444184,
+        "log_silhouette_axis_ratio": 0.22532378271093548
+      },
+      "trait_predictions": {
+        "weight": 159.89560578865118,
+        "volume": 143.24522342090134
+      },
+      "wall_s": 4.1415481670010195
+    },
+    {
+      "tuber": "R5-9",
+      "suffix_px": 349,
+      "B_m": 0.9699676096439361,
+      "T_m": 0.7419561982154846,
+      "estimated_height_mm": 82.27490609635218,
+      "valid_background_pixels": 907252,
+      "valid_target_pixels": 14348,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.017618166999454843,
+        "forward_s": 4.037357875000453,
+        "postprocess_s": 0.002868625000701286,
+        "raw_min_m": 0.6809984445571899,
+        "raw_max_m": 1.3552695512771606
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 14348,
+        "projected_area_mm2": 4122.707545535205,
+        "area_volume_proxy_cm3": 264.7120992916073,
+        "log_silhouette_axis_ratio": 0.10701676253211961
+      },
+      "trait_predictions": {
+        "weight": 146.38161421573122,
+        "volume": 132.5641913092787
+      },
+      "wall_s": 4.086752958999568
+    },
+    {
+      "tuber": "R6-5",
+      "suffix_px": 353,
+      "B_m": 1.1274816811084747,
+      "T_m": 0.8543712168931961,
+      "estimated_height_mm": 84.78067899193739,
+      "valid_background_pixels": 902772,
+      "valid_target_pixels": 18828,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01582533300097566,
+        "forward_s": 4.207038874999853,
+        "postprocess_s": 0.002656584001670126,
+        "raw_min_m": 0.8128933906555176,
+        "raw_max_m": 1.3368971347808838
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 18828,
+        "projected_area_mm2": 5409.976140739953,
+        "area_volume_proxy_cm3": 397.91748650142557,
+        "log_silhouette_axis_ratio": 0.24281501189026541
+      },
+      "trait_predictions": {
+        "weight": 203.79523121978374,
+        "volume": 185.06844660440584
+      },
+      "wall_s": 4.2525167079984385
+    },
+    {
+      "tuber": "R8-1",
+      "suffix_px": 371,
+      "B_m": 1.1844036877155304,
+      "T_m": 0.8895246624946594,
+      "estimated_height_mm": 87.13892053677326,
+      "valid_background_pixels": 903018,
+      "valid_target_pixels": 18582,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.0155342500002007,
+        "forward_s": 4.288767458998336,
+        "postprocess_s": 0.002767875001154607,
+        "raw_min_m": 0.8691854476928711,
+        "raw_max_m": 1.496952772140503
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 18582,
+        "projected_area_mm2": 5339.291302699692,
+        "area_volume_proxy_cm3": 390.1444415335286,
+        "log_silhouette_axis_ratio": 0.22016108115890715
+      },
+      "trait_predictions": {
+        "weight": 201.86877868507554,
+        "volume": 183.25597219397912
+      },
+      "wall_s": 4.33588266699735
+    },
+    {
+      "tuber": "R9-2",
+      "suffix_px": 360,
+      "B_m": 1.2906662464141845,
+      "T_m": 1.0163669288158417,
+      "estimated_height_mm": 74.38387842414477,
+      "valid_background_pixels": 910824,
+      "valid_target_pixels": 10776,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.01566866699795355,
+        "forward_s": 4.035451166000712,
+        "postprocess_s": 0.0016426250003860332,
+        "raw_min_m": 0.9057677388191223,
+        "raw_max_m": 1.6329333782196045
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 10776,
+        "projected_area_mm2": 3096.3407102514198,
+        "area_volume_proxy_cm3": 172.29517450666657,
+        "log_silhouette_axis_ratio": 0.060672411698731415
+      },
+      "trait_predictions": {
+        "weight": 104.18632533149096,
+        "volume": 93.92187030620902
+      },
+      "wall_s": 4.080849833000684
+    },
+    {
+      "tuber": "R9-4",
+      "suffix_px": 355,
+      "B_m": 1.151932406425476,
+      "T_m": 0.8481538146734238,
+      "estimated_height_mm": 92.29925863718357,
+      "valid_background_pixels": 901334,
+      "valid_target_pixels": 20266,
+      "runtime": {
+        "input_hw": [
+          518,
+          924
+        ],
+        "raw_output_hw": [
+          518,
+          924
+        ],
+        "preprocess_s": 0.015665124999941327,
+        "forward_s": 4.000110000000859,
+        "postprocess_s": 0.0027186670013179537,
+        "raw_min_m": 0.8212971091270447,
+        "raw_max_m": 1.4314219951629639
+      },
+      "failure_type": null,
+      "failure_detail": null,
+      "geometry": {
+        "mask_pixels": 20266,
+        "projected_area_mm2": 5823.166372861477,
+        "area_volume_proxy_cm3": 444.3639285862406,
+        "log_silhouette_axis_ratio": 0.3832100497580746
+      },
+      "trait_predictions": {
+        "weight": 230.19110265266366,
+        "volume": 208.03487454154634
+      },
+      "wall_s": 4.04592383400086
+    }
+  ]
+}

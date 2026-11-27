@@ -1,0 +1,21 @@
+{
+  "frame_manifest_sha256": "dbc8407c25ea3800063ac70a7c67564ffe7a159f794fa1d3e59d1f1f0faf0b6f",
+  "scorer_sha256": "f82f117056935f53a132f2b24a7a977d981f9bd090e0f8320be4407cb2d43a08",
+  "seed": 5272401,
+  "resamples": 10000,
+  "primary": "monocular minus silhouette absolute weight error",
+  "contrasts": {
+    "mono_minus_silhouette": [
+      "monocular",
+      "silhouette"
+    ],
+    "mono_minus_learned_rgb": [
+      "monocular",
+      "learned_rgb"
+    ],
+    "mono_minus_camera": [
+      "monocular",
+      "camera"
+    ]
+  }
+}

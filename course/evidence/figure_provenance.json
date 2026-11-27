@@ -1,0 +1,24 @@
+{
+  "error_fields.png": {
+    "source": "showcase_provenance.json",
+    "sha256": "ca236b8bee7230967964fffa5aaddcd20aedcc52212770ab17cbc138674bf56c"
+  },
+  "spatial_confirmation.png": {
+    "source": "outputs/spatial_confidence_confirmation_v1_analysis/analysis.json",
+    "source_sha256": "8c015baf0eba58f0b65981be4638a769722499b242405806d6f10d85ed4512ae",
+    "sha256": "d1b013015647f750fe6358c6d105b31721d8bb04e44afb0f87dfbaaf4cc9e67f",
+    "operation": "publication-sized redraw from saved values; no fitting or metric recomputation"
+  },
+  "multiscale_tradeoffs.png": {
+    "source": "docs/multiscale_confidence_results.json",
+    "source_sha256": "8c5cdf4c74e9fb858d072d193b55299acfc05258c10ef91d520204026520ad9f",
+    "sha256": "ef8872a4349c70aaae9a9fd27cb15de5562e8ad176567bf66b2f2b1d8f5e2867",
+    "operation": "publication-sized redraw from saved values; no fitting or metric recomputation"
+  },
+  "bonn_objects.png": {
+    "source": "outputs/bonn_holdout_v1/results.json",
+    "source_sha256": "c6c7e9ac30d59092dec70c4380b024247a206b8a2ab1ecef83a7195e99fbfb20",
+    "sha256": "6f98558248db70bc360de5ddd066f840804fe536d78231fe4170058b5695c4d7",
+    "operation": "publication-sized redraw from saved values; no fitting or metric recomputation"
+  }
+}

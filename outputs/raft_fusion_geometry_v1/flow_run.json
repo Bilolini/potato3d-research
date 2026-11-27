@@ -1,0 +1,2061 @@
+{
+  "flow_code_sha256": "d9897d302a790dc53d36483779b72ed36cde6bdd835a04d2f9908e654e9eda3d",
+  "manifest_sha256": "1c31fc57d9d0097a1b9b9402b79d9fbce34e49c5310ee8ce146cecaabb183cd4",
+  "checkpoint_sha256": "01064c6dba73b0fc9fc8edf772248560a00a3acfd62ac6677e9eeebad9680e27",
+  "checkpoint_url": "https://download.pytorch.org/models/raft_small_C_T_V2-01064c6d.pth",
+  "torch": "2.7.1",
+  "torchvision": "0.22.1",
+  "cpu_setup_s": 0.05517241699999431,
+  "synthetic": {
+    "expected_dx_dy_px": [
+      8.0,
+      -6.0
+    ],
+    "median_dx_dy_px": [
+      8.007043838500977,
+      -6.242974281311035
+    ]
+  },
+  "links": [
+    {
+      "tuber": "R1-3",
+      "source": 231,
+      "target": 252,
+      "file": "R1-3_231_252.npz",
+      "error": null,
+      "sha256": "2b0de04f1497499cecbc4544cd3b4b7eed9054c29df03d4f32c61102938a4a2c",
+      "crop_xyxy": [
+        315,
+        364,
+        496,
+        594
+      ],
+      "wall_s": 0.22391137500017066
+    },
+    {
+      "tuber": "R1-3",
+      "source": 252,
+      "target": 275,
+      "file": "R1-3_252_275.npz",
+      "error": null,
+      "sha256": "8599ac88b1259c3cd1e3e6c5ff33b7ad5e1d79c3bd3cf295406199226c8aba9d",
+      "crop_xyxy": [
+        315,
+        342,
+        495,
+        573
+      ],
+      "wall_s": 0.21165370800008532
+    },
+    {
+      "tuber": "R1-3",
+      "source": 275,
+      "target": 297,
+      "file": "R1-3_275_297.npz",
+      "error": null,
+      "sha256": "fa21270e120fe49df606b4ae057b069c707d5d505388fb0c56a08a9b176492ec",
+      "crop_xyxy": [
+        316,
+        320,
+        495,
+        549
+      ],
+      "wall_s": 0.21359341700008372
+    },
+    {
+      "tuber": "R1-3",
+      "source": 297,
+      "target": 319,
+      "file": "R1-3_297_319.npz",
+      "error": null,
+      "sha256": "e9f0ac3498610853ad6350ac059624d64741a810b79afc06c8e99ce35b80a3c6",
+      "crop_xyxy": [
+        316,
+        299,
+        495,
+        527
+      ],
+      "wall_s": 0.18745708300048136
+    },
+    {
+      "tuber": "R1-3",
+      "source": 319,
+      "target": 339,
+      "file": "R1-3_319_339.npz",
+      "error": null,
+      "sha256": "d42fa3f3aa4ff1bf1046e6f84ff3835611a167c5e8097c6d30da0e3b3fbf6d26",
+      "crop_xyxy": [
+        317,
+        279,
+        497,
+        504
+      ],
+      "wall_s": 0.18396945799941022
+    },
+    {
+      "tuber": "R1-3",
+      "source": 339,
+      "target": 358,
+      "file": "R1-3_339_358.npz",
+      "error": null,
+      "sha256": "8e98b10fcdf84f54c5b947c26cc0d918cc93cd8d6f960180270b41173514c719",
+      "crop_xyxy": [
+        318,
+        259,
+        497,
+        483
+      ],
+      "wall_s": 0.18103095900005428
+    },
+    {
+      "tuber": "R1-3",
+      "source": 358,
+      "target": 381,
+      "file": "R1-3_358_381.npz",
+      "error": null,
+      "sha256": "029e734dc1376c3b25c500adb1a6db2b787e5044b00e62c09f56518c8ff4281f",
+      "crop_xyxy": [
+        317,
+        237,
+        497,
+        465
+      ],
+      "wall_s": 0.20697525000105088
+    },
+    {
+      "tuber": "R1-3",
+      "source": 381,
+      "target": 402,
+      "file": "R1-3_381_402.npz",
+      "error": null,
+      "sha256": "85a40ec5b557743c2e16ea72bec969385a3b1cabd5af5bfe9fcdeb5f854edc76",
+      "crop_xyxy": [
+        317,
+        217,
+        498,
+        441
+      ],
+      "wall_s": 0.19712704199992004
+    },
+    {
+      "tuber": "R1-3",
+      "source": 402,
+      "target": 425,
+      "file": "R1-3_402_425.npz",
+      "error": null,
+      "sha256": "7a54e73d91aafb6c7182046a7886b21d4a5be9543e31cc89ef3d1e9cb2733536",
+      "crop_xyxy": [
+        321,
+        193,
+        500,
+        420
+      ],
+      "wall_s": 0.1814994590004062
+    },
+    {
+      "tuber": "R1-3",
+      "source": 425,
+      "target": 444,
+      "file": "R1-3_425_444.npz",
+      "error": null,
+      "sha256": "830f086341ee3e38490ad7a2a9cd0365c46bafe3da7fb4ec5d832d31172ad971",
+      "crop_xyxy": [
+        322,
+        174,
+        500,
+        398
+      ],
+      "wall_s": 0.1895474169996305
+    },
+    {
+      "tuber": "R1-3",
+      "source": 444,
+      "target": 465,
+      "file": "R1-3_444_465.npz",
+      "error": null,
+      "sha256": "a4b6ccd82ffaa27bdfb166db7463588ad7e5c9e08b56ad287dfd9a5b1e9da8c1",
+      "crop_xyxy": [
+        322,
+        151,
+        499,
+        379
+      ],
+      "wall_s": 0.20174954200047068
+    },
+    {
+      "tuber": "R1-3",
+      "source": 465,
+      "target": 484,
+      "file": "R1-3_465_484.npz",
+      "error": null,
+      "sha256": "e36057c72fdbece7521f3d1f58b5a68baaa1aa76d4b1c5e66f3540bef4843fe6",
+      "crop_xyxy": [
+        323,
+        133,
+        499,
+        359
+      ],
+      "wall_s": 0.1831394580003689
+    },
+    {
+      "tuber": "R1-3",
+      "source": 484,
+      "target": 505,
+      "file": "R1-3_484_505.npz",
+      "error": null,
+      "sha256": "bb71a3eef6485e4696d26614f75ed95ef4ec138affbe916ec914c8bf1d953129",
+      "crop_xyxy": [
+        323,
+        113,
+        499,
+        340
+      ],
+      "wall_s": 0.1943102090008324
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 237,
+      "target": 261,
+      "file": "4R6-7_237_261.npz",
+      "error": null,
+      "sha256": "a9be30459e8f5ecff6d06e52391bbb4d4867f1730a19090d3b7a0ca0325cef06",
+      "crop_xyxy": [
+        946,
+        308,
+        1188,
+        635
+      ],
+      "wall_s": 0.3926592920015537
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 261,
+      "target": 281,
+      "file": "4R6-7_261_281.npz",
+      "error": null,
+      "sha256": "fcdf413149665cf583dbeaf1952a94a36322daa89aef2f8add1baf4565b7512a",
+      "crop_xyxy": [
+        946,
+        287,
+        1188,
+        610
+      ],
+      "wall_s": 0.3595244170010119
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 281,
+      "target": 299,
+      "file": "4R6-7_281_299.npz",
+      "error": null,
+      "sha256": "5bbb1b4fc4d14adf36e2972a2b1d164647b7a268b0dc5893cdf2bb0ebdd7afcd",
+      "crop_xyxy": [
+        946,
+        269,
+        1188,
+        592
+      ],
+      "wall_s": 0.35459883399926184
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 299,
+      "target": 321,
+      "file": "4R6-7_299_321.npz",
+      "error": null,
+      "sha256": "f53faef15bb64a651e57e23a07470eb1a1593ce3caf06e05bff729f7a5ed767f",
+      "crop_xyxy": [
+        947,
+        249,
+        1190,
+        574
+      ],
+      "wall_s": 0.37956312500136846
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 321,
+      "target": 341,
+      "file": "4R6-7_321_341.npz",
+      "error": null,
+      "sha256": "349e8eea3fdc17ca68b6d1bf8b1ea123d7af7cf86762c28edfa69280c0065b30",
+      "crop_xyxy": [
+        947,
+        229,
+        1190,
+        550
+      ],
+      "wall_s": 0.3343829170007666
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 341,
+      "target": 359,
+      "file": "4R6-7_341_359.npz",
+      "error": null,
+      "sha256": "129ba6d5c4fd9bc50141d6b3f2418d90fd7ded8bac38ee3694688a4c07ae254a",
+      "crop_xyxy": [
+        947,
+        211,
+        1193,
+        529
+      ],
+      "wall_s": 0.33465345799959323
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 359,
+      "target": 382,
+      "file": "4R6-7_359_382.npz",
+      "error": null,
+      "sha256": "3cd93b69d12391aeceb192ad3593cc470cd0a73f80649a0a8878b76ad49add9f",
+      "crop_xyxy": [
+        949,
+        189,
+        1193,
+        512
+      ],
+      "wall_s": 0.3203440409997711
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 382,
+      "target": 406,
+      "file": "4R6-7_382_406.npz",
+      "error": null,
+      "sha256": "df19e7872243500787681f712776dcb38f5fed52cea3dc9498d55dd4faf021ec",
+      "crop_xyxy": [
+        949,
+        165,
+        1193,
+        488
+      ],
+      "wall_s": 0.31185741599983885
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 406,
+      "target": 423,
+      "file": "4R6-7_406_423.npz",
+      "error": null,
+      "sha256": "8e983f02c3ecea71ac532568d3dfec70e5540234fe662ea8b454701140c69f27",
+      "crop_xyxy": [
+        949,
+        149,
+        1193,
+        464
+      ],
+      "wall_s": 0.30224045899922203
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 423,
+      "target": 443,
+      "file": "4R6-7_423_443.npz",
+      "error": null,
+      "sha256": "66a0b153fa42d40de0a75803c4f6e497908e9f5d0fb9087b3524e85689989529",
+      "crop_xyxy": [
+        949,
+        130,
+        1194,
+        445
+      ],
+      "wall_s": 0.30192491699926904
+    },
+    {
+      "tuber": "4R6-7",
+      "source": 443,
+      "target": 465,
+      "file": "4R6-7_443_465.npz",
+      "error": null,
+      "sha256": "c3360387001922c695055dc24b9ea2f358a0c0c483836e6712f97eb41c34f918",
+      "crop_xyxy": [
+        951,
+        107,
+        1195,
+        425
+      ],
+      "wall_s": 0.3958215830007248
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 216,
+      "target": 235,
+      "file": "4R4-10_216_235.npz",
+      "error": null,
+      "sha256": "c829f5e5bd8a3af27070c52c6d01bdd358972fdcf5e38d43096b9dc5371b1ac4",
+      "crop_xyxy": [
+        468,
+        410,
+        630,
+        580
+      ],
+      "wall_s": 0.17408937499931199
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 235,
+      "target": 254,
+      "file": "4R4-10_235_254.npz",
+      "error": null,
+      "sha256": "e610a9ce92f11a6e4f3c50d590c60332ae54152c5f90493941277d43180785e1",
+      "crop_xyxy": [
+        466,
+        391,
+        631,
+        560
+      ],
+      "wall_s": 0.1520282910005335
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 254,
+      "target": 274,
+      "file": "4R4-10_254_274.npz",
+      "error": null,
+      "sha256": "a74a105f337e32095a0d7cba31f3736b7ddbff6292f902e19bd18dbc4af3dd67",
+      "crop_xyxy": [
+        466,
+        371,
+        632,
+        541
+      ],
+      "wall_s": 0.1527075000012701
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 274,
+      "target": 294,
+      "file": "4R4-10_274_294.npz",
+      "error": null,
+      "sha256": "19ebda74bb10ddb27723058d569dde93d778967de7207fe260d6014f95cc8265",
+      "crop_xyxy": [
+        469,
+        351,
+        632,
+        521
+      ],
+      "wall_s": 0.15878924999924493
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 294,
+      "target": 315,
+      "file": "4R4-10_294_315.npz",
+      "error": null,
+      "sha256": "609e1047ae7afa6db68cf7a0399f2b1f96d28ef38192866da7b81f20f5db77b2",
+      "crop_xyxy": [
+        469,
+        330,
+        631,
+        501
+      ],
+      "wall_s": 0.15290454200112436
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 315,
+      "target": 334,
+      "file": "4R4-10_315_334.npz",
+      "error": null,
+      "sha256": "ab9510302e3fbe6681f5f9ee1e0457c5ea6aeeddd6aaa911d1b9473404461595",
+      "crop_xyxy": [
+        468,
+        311,
+        632,
+        480
+      ],
+      "wall_s": 0.15704691700011608
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 334,
+      "target": 355,
+      "file": "4R4-10_334_355.npz",
+      "error": null,
+      "sha256": "3d5de5f61d988a9425b8499d4f1be5e750bc0e2ad34bc63db6709b879092f7a2",
+      "crop_xyxy": [
+        468,
+        291,
+        633,
+        461
+      ],
+      "wall_s": 0.17957904099966981
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 355,
+      "target": 374,
+      "file": "4R4-10_355_374.npz",
+      "error": null,
+      "sha256": "8bf6dbdf927c751596a806c9cdad95e189427518d871b8cfd038a2d80c43c0cd",
+      "crop_xyxy": [
+        469,
+        271,
+        633,
+        439
+      ],
+      "wall_s": 0.16680554199956532
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 374,
+      "target": 394,
+      "file": "4R4-10_374_394.npz",
+      "error": null,
+      "sha256": "264a058db8e52236d58138da90eeb5c5340d7fd077d13d21bd80ba22de8faa2a",
+      "crop_xyxy": [
+        471,
+        253,
+        633,
+        421
+      ],
+      "wall_s": 0.16085679099887784
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 394,
+      "target": 414,
+      "file": "4R4-10_394_414.npz",
+      "error": null,
+      "sha256": "9dfd645af04cf6d0a88c36029c634d1b86102de3837b40ddd6b82e80494cd4ad",
+      "crop_xyxy": [
+        471,
+        231,
+        635,
+        400
+      ],
+      "wall_s": 0.18184629200004565
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 414,
+      "target": 435,
+      "file": "4R4-10_414_435.npz",
+      "error": null,
+      "sha256": "9e10a79ad9449b5e7ddaf4b6ee5f7772e543bbded6f526770c9a08acffd63c41",
+      "crop_xyxy": [
+        472,
+        210,
+        635,
+        381
+      ],
+      "wall_s": 0.15762212499976158
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 435,
+      "target": 455,
+      "file": "4R4-10_435_455.npz",
+      "error": null,
+      "sha256": "362aa4ca0ac6545d20a6acff362419ae9d70eef7894da1b08a38d2bebd1683c6",
+      "crop_xyxy": [
+        472,
+        190,
+        634,
+        360
+      ],
+      "wall_s": 0.15482370800054923
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 455,
+      "target": 474,
+      "file": "4R4-10_455_474.npz",
+      "error": null,
+      "sha256": "4c9ed67cb105d2f36fff8e8fe53b0d0555cc30a64432ded1fdce56b72dd0caa2",
+      "crop_xyxy": [
+        472,
+        171,
+        635,
+        341
+      ],
+      "wall_s": 0.17737750000014785
+    },
+    {
+      "tuber": "4R4-10",
+      "source": 474,
+      "target": 495,
+      "file": "4R4-10_474_495.npz",
+      "error": null,
+      "sha256": "9ba0b21d57b48764371362195a3c2be4efb9d951c57768b9936c9c90127587bf",
+      "crop_xyxy": [
+        472,
+        150,
+        636,
+        322
+      ],
+      "wall_s": 0.16551545900074416
+    },
+    {
+      "tuber": "R11-5",
+      "source": 245,
+      "target": 266,
+      "file": "R11-5_245_266.npz",
+      "error": null,
+      "sha256": "8c5c8d6743f605f15e1f3a2b05e17682318a036b80c87d0a9340f1b87cd828f9",
+      "crop_xyxy": [
+        110,
+        341,
+        363,
+        589
+      ],
+      "wall_s": 0.2944811249999475
+    },
+    {
+      "tuber": "R11-5",
+      "source": 266,
+      "target": 287,
+      "file": "R11-5_266_287.npz",
+      "error": null,
+      "sha256": "22e2df9d8aa66de10bf48eed699a79e302053e912e1be54b8fce05bce93f8915",
+      "crop_xyxy": [
+        113,
+        320,
+        364,
+        568
+      ],
+      "wall_s": 0.2478741249997256
+    },
+    {
+      "tuber": "R11-5",
+      "source": 287,
+      "target": 309,
+      "file": "R11-5_287_309.npz",
+      "error": null,
+      "sha256": "6c67898b74875c4b681bcdfe11615144e129ba5eb86a8bb00a7c6526c8f57741",
+      "crop_xyxy": [
+        114,
+        298,
+        367,
+        547
+      ],
+      "wall_s": 0.26268987499861396
+    },
+    {
+      "tuber": "R11-5",
+      "source": 309,
+      "target": 334,
+      "file": "R11-5_309_334.npz",
+      "error": null,
+      "sha256": "d7667ec9ac26a4599cd8b7112a21fe21e674db5d5471373b19c06a9bc27905c6",
+      "crop_xyxy": [
+        115,
+        275,
+        367,
+        524
+      ],
+      "wall_s": 0.28897737500119547
+    },
+    {
+      "tuber": "R11-5",
+      "source": 334,
+      "target": 354,
+      "file": "R11-5_334_354.npz",
+      "error": null,
+      "sha256": "aea469d614bd21ef33cbeedcd171099778bffee68c28e00991053c0254794792",
+      "crop_xyxy": [
+        115,
+        253,
+        366,
+        498
+      ],
+      "wall_s": 0.2908975000009377
+    },
+    {
+      "tuber": "R11-5",
+      "source": 354,
+      "target": 377,
+      "file": "R11-5_354_377.npz",
+      "error": null,
+      "sha256": "785e22b6932d64de6cbbd3cdbddae591dc947a8e10cc88fdf5fb6ce1c1e985fb",
+      "crop_xyxy": [
+        115,
+        232,
+        367,
+        480
+      ],
+      "wall_s": 0.30186049999974784
+    },
+    {
+      "tuber": "R11-5",
+      "source": 377,
+      "target": 399,
+      "file": "R11-5_377_399.npz",
+      "error": null,
+      "sha256": "d48c665ce6c7ad9a98e8c8be7616e690469b1a99a6ab961df3b3c19c01369241",
+      "crop_xyxy": [
+        116,
+        211,
+        367,
+        454
+      ],
+      "wall_s": 0.2545228750004753
+    },
+    {
+      "tuber": "R11-5",
+      "source": 399,
+      "target": 420,
+      "file": "R11-5_399_420.npz",
+      "error": null,
+      "sha256": "715a9090e86146687d61a30a034a6667586889220f14c7eaff9d3e65d1f9190a",
+      "crop_xyxy": [
+        116,
+        190,
+        368,
+        431
+      ],
+      "wall_s": 0.25844675000007555
+    },
+    {
+      "tuber": "R11-5",
+      "source": 420,
+      "target": 440,
+      "file": "R11-5_420_440.npz",
+      "error": null,
+      "sha256": "6a5ff05b2120dc954b8cf8f0662eb9f13b480b06063d9816988e16396fa1f660",
+      "crop_xyxy": [
+        117,
+        170,
+        369,
+        411
+      ],
+      "wall_s": 0.2937149999997928
+    },
+    {
+      "tuber": "R11-5",
+      "source": 440,
+      "target": 462,
+      "file": "R11-5_440_462.npz",
+      "error": null,
+      "sha256": "cf5c784195ccb32f76ce3e34559f5959518905bfa2e4291cf8ee47e5d6171e3f",
+      "crop_xyxy": [
+        117,
+        149,
+        373,
+        391
+      ],
+      "wall_s": 0.40873854200071946
+    },
+    {
+      "tuber": "R11-5",
+      "source": 462,
+      "target": 486,
+      "file": "R11-5_462_486.npz",
+      "error": null,
+      "sha256": "f84ca4f545768c67902ab992ed00c7c06bdc0cdaa6d449c59821e9f8a19c9fde",
+      "crop_xyxy": [
+        119,
+        125,
+        373,
+        368
+      ],
+      "wall_s": 0.2689985830002115
+    },
+    {
+      "tuber": "R11-5",
+      "source": 486,
+      "target": 507,
+      "file": "R11-5_486_507.npz",
+      "error": null,
+      "sha256": "daac6236408fc7dafe59359e3ad18fa2b060365a6d8d454c281a34609fea1b95",
+      "crop_xyxy": [
+        117,
+        103,
+        373,
+        343
+      ],
+      "wall_s": 0.26026049999927636
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 220,
+      "target": 240,
+      "file": "4R8-8_220_240.npz",
+      "error": null,
+      "sha256": "7936b47bcfe9cdbdc7d2eca38eed2fc863f46b3dcc7f595ee891695eb50957a1",
+      "crop_xyxy": [
+        683,
+        359,
+        879,
+        621
+      ],
+      "wall_s": 0.26928529200085904
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 240,
+      "target": 258,
+      "file": "4R8-8_240_258.npz",
+      "error": null,
+      "sha256": "c0427fab4e88ba8cd5248de58520c6c9319e3b6589bb9e4e20b3f31d349d2087",
+      "crop_xyxy": [
+        684,
+        342,
+        880,
+        601
+      ],
+      "wall_s": 0.2455414579999342
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 258,
+      "target": 279,
+      "file": "4R8-8_258_279.npz",
+      "error": null,
+      "sha256": "515d0f07577353ce604d00f58551bce08049eee65e95e41e210023497505e3d9",
+      "crop_xyxy": [
+        683,
+        320,
+        880,
+        582
+      ],
+      "wall_s": 0.23345108300054562
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 279,
+      "target": 300,
+      "file": "4R8-8_279_300.npz",
+      "error": null,
+      "sha256": "bd8f3ead9d699e41405417e278ba26dc4638df7d78c37b9197dc03514569a6e9",
+      "crop_xyxy": [
+        683,
+        298,
+        880,
+        562
+      ],
+      "wall_s": 0.2352607499997248
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 300,
+      "target": 319,
+      "file": "4R8-8_300_319.npz",
+      "error": null,
+      "sha256": "807894ddd845a02b48c447c80d3c310f8c7ce7eea42801b9cf530289a204d333",
+      "crop_xyxy": [
+        684,
+        280,
+        880,
+        543
+      ],
+      "wall_s": 0.2334562089999963
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 319,
+      "target": 338,
+      "file": "4R8-8_319_338.npz",
+      "error": null,
+      "sha256": "c26ab4fb674adf827ff9a332823df4d18eee1adeaf63e3b524c609618e4160b6",
+      "crop_xyxy": [
+        684,
+        260,
+        881,
+        523
+      ],
+      "wall_s": 0.23080916599974444
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 338,
+      "target": 359,
+      "file": "4R8-8_338_359.npz",
+      "error": null,
+      "sha256": "acc15e918677734ca54f6a2c1edd757e3c93dbc414b70f85a0e0768141fb37c0",
+      "crop_xyxy": [
+        686,
+        238,
+        882,
+        505
+      ],
+      "wall_s": 0.24551029199938057
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 359,
+      "target": 379,
+      "file": "4R8-8_359_379.npz",
+      "error": null,
+      "sha256": "cbc5d71498db03ca3bfe7b4ea1b0d4b11ac57628e96de1e8b78c4757077f6a44",
+      "crop_xyxy": [
+        686,
+        218,
+        882,
+        484
+      ],
+      "wall_s": 0.2393195000004198
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 379,
+      "target": 398,
+      "file": "4R8-8_379_398.npz",
+      "error": null,
+      "sha256": "02b2c4d4549cae93cbd4b7f07e6ffbe0e6ccebc0aef5c2db4715f0587571dc25",
+      "crop_xyxy": [
+        686,
+        199,
+        882,
+        464
+      ],
+      "wall_s": 0.23334791700108326
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 398,
+      "target": 417,
+      "file": "4R8-8_398_417.npz",
+      "error": null,
+      "sha256": "e80032d394728956c6aef52a161d1181dd31892c3dd3170ffe01bcd9910eff9c",
+      "crop_xyxy": [
+        686,
+        179,
+        884,
+        445
+      ],
+      "wall_s": 0.23760616700019455
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 417,
+      "target": 440,
+      "file": "4R8-8_417_440.npz",
+      "error": null,
+      "sha256": "0448838f50130dcebdc258a5b8315993fa157c1440157b9d198d01e1306edbf4",
+      "crop_xyxy": [
+        688,
+        157,
+        884,
+        427
+      ],
+      "wall_s": 0.23983195900109422
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 440,
+      "target": 460,
+      "file": "4R8-8_440_460.npz",
+      "error": null,
+      "sha256": "dc6814aadc0a2941821d6a6154d0de92bc12a7c48772702ecf4b5062ca9b98ec",
+      "crop_xyxy": [
+        687,
+        136,
+        884,
+        403
+      ],
+      "wall_s": 0.2635695000008127
+    },
+    {
+      "tuber": "4R8-8",
+      "source": 460,
+      "target": 479,
+      "file": "4R8-8_460_479.npz",
+      "error": null,
+      "sha256": "27b9c8646bebaf2897168cffa7bd55136853237ba8e66951a9112e52561f881a",
+      "crop_xyxy": [
+        687,
+        116,
+        886,
+        384
+      ],
+      "wall_s": 0.2415882090008381
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 196,
+      "target": 218,
+      "file": "4R4-8_196_218.npz",
+      "error": null,
+      "sha256": "773c5da0f382210e7c17fe21ee127e9359ceb5f7ac53a943f7ad3fd2c8d92a34",
+      "crop_xyxy": [
+        476,
+        428,
+        651,
+        598
+      ],
+      "wall_s": 0.18424562499967578
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 218,
+      "target": 238,
+      "file": "4R4-8_218_238.npz",
+      "error": null,
+      "sha256": "711c92960cb97233041c1dde89636dd9de1878767ec3b53f433d0ab4e26f3b36",
+      "crop_xyxy": [
+        477,
+        408,
+        651,
+        576
+      ],
+      "wall_s": 0.15960366699982842
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 238,
+      "target": 257,
+      "file": "4R4-8_238_257.npz",
+      "error": null,
+      "sha256": "3bda5e7d873a8c1b5abcee6e589c7ca47bf105e54f9509ddbb43917219777444",
+      "crop_xyxy": [
+        477,
+        389,
+        651,
+        556
+      ],
+      "wall_s": 0.15662820800025656
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 257,
+      "target": 276,
+      "file": "4R4-8_257_276.npz",
+      "error": null,
+      "sha256": "5a4a77eb9c9fed10459ac04c285410e55a1e7d57e4a78c9f14da4f3f46e71ea1",
+      "crop_xyxy": [
+        477,
+        370,
+        652,
+        537
+      ],
+      "wall_s": 0.16636737499902665
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 276,
+      "target": 296,
+      "file": "4R4-8_276_296.npz",
+      "error": null,
+      "sha256": "e52933ec7d7bc101555d784672fd398ce80b8cab56ddc74e68d791fbd7265377",
+      "crop_xyxy": [
+        478,
+        350,
+        653,
+        519
+      ],
+      "wall_s": 0.17231620900020062
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 296,
+      "target": 315,
+      "file": "4R4-8_296_315.npz",
+      "error": null,
+      "sha256": "526f3587fd55881da86c4b6243116f568cdf7a6dea3e0eba5b54bf21f1e04cb7",
+      "crop_xyxy": [
+        478,
+        330,
+        653,
+        498
+      ],
+      "wall_s": 0.1562140839996573
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 315,
+      "target": 335,
+      "file": "4R4-8_315_335.npz",
+      "error": null,
+      "sha256": "9caa427b875155ea12855d53b23a25e642d617d979bac96ed7b9f363b6ad53b7",
+      "crop_xyxy": [
+        478,
+        310,
+        653,
+        481
+      ],
+      "wall_s": 0.15920537499914644
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 335,
+      "target": 356,
+      "file": "4R4-8_335_356.npz",
+      "error": null,
+      "sha256": "465dff14e029c3131ee4014ad9eaa4c4ab7f735e854927d17a835f0c39cd327f",
+      "crop_xyxy": [
+        479,
+        288,
+        653,
+        461
+      ],
+      "wall_s": 0.16048137500001758
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 356,
+      "target": 374,
+      "file": "4R4-8_356_374.npz",
+      "error": null,
+      "sha256": "ce89da47a9cedad205796c5bd4546cbc942b1014f563355f5b857a9723fed9ac",
+      "crop_xyxy": [
+        479,
+        269,
+        653,
+        441
+      ],
+      "wall_s": 0.16274608399908175
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 374,
+      "target": 394,
+      "file": "4R4-8_374_394.npz",
+      "error": null,
+      "sha256": "777187f4057e7d8a43fa530a26a674fda9fad448938bec656e10e82b17c1f1b0",
+      "crop_xyxy": [
+        479,
+        249,
+        654,
+        423
+      ],
+      "wall_s": 0.18492033400070795
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 394,
+      "target": 416,
+      "file": "4R4-8_394_416.npz",
+      "error": null,
+      "sha256": "181262bd64f9ca7dcadcdd8e69592602b8dd5879abeb500dd426725e439d7b06",
+      "crop_xyxy": [
+        480,
+        226,
+        654,
+        403
+      ],
+      "wall_s": 0.16550787500091246
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 416,
+      "target": 433,
+      "file": "4R4-8_416_433.npz",
+      "error": null,
+      "sha256": "ccaa0eda732ce17dde914d4545563f803eca3e07aee416bdbb89de9e147c79c2",
+      "crop_xyxy": [
+        480,
+        209,
+        654,
+        383
+      ],
+      "wall_s": 0.15828262499962875
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 433,
+      "target": 454,
+      "file": "4R4-8_433_454.npz",
+      "error": null,
+      "sha256": "7fa8a72f63b4b635dc50b03db71b6f669509be790cfed62b5f1a91b6e363eed1",
+      "crop_xyxy": [
+        480,
+        188,
+        654,
+        365
+      ],
+      "wall_s": 0.1597565409992967
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 454,
+      "target": 473,
+      "file": "4R4-8_454_473.npz",
+      "error": null,
+      "sha256": "618f845fb209191efc7caccb2d9d151e9a534cf184d093537e77b653b5c85691",
+      "crop_xyxy": [
+        482,
+        169,
+        655,
+        345
+      ],
+      "wall_s": 0.16273191700020107
+    },
+    {
+      "tuber": "4R4-8",
+      "source": 473,
+      "target": 495,
+      "file": "4R4-8_473_495.npz",
+      "error": null,
+      "sha256": "eb5d3638bdef427f171049a276e74c0a83e447de6001bcc7e8aa8db3105ce4f0",
+      "crop_xyxy": [
+        482,
+        145,
+        655,
+        326
+      ],
+      "wall_s": 0.1874454999997397
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 214,
+      "target": 230,
+      "file": "3R7-10_214_230.npz",
+      "error": null,
+      "sha256": "df55865109e363c23562a454c2085fc68ddc85f92bcc4c281de2c634bc81f3d5",
+      "crop_xyxy": [
+        395,
+        414,
+        543,
+        582
+      ],
+      "wall_s": 0.1669430830006604
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 230,
+      "target": 249,
+      "file": "3R7-10_230_249.npz",
+      "error": null,
+      "sha256": "e746040abc82fa8bb251cbdd927c52ea6ab9401b7cb60ed1d178270779f9d01a",
+      "crop_xyxy": [
+        395,
+        395,
+        543,
+        566
+      ],
+      "wall_s": 0.1466622499992809
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 249,
+      "target": 267,
+      "file": "3R7-10_249_267.npz",
+      "error": null,
+      "sha256": "3be3aab657874d4faf73dae942a567cf29875d8cb2758c8489a6312da10cc631",
+      "crop_xyxy": [
+        395,
+        378,
+        543,
+        547
+      ],
+      "wall_s": 0.14769804200113867
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 267,
+      "target": 285,
+      "file": "3R7-10_267_285.npz",
+      "error": null,
+      "sha256": "f6351cae62f9a740c3bf77c3063558e36f4870b48982ed40d7aaed6ed773b221",
+      "crop_xyxy": [
+        396,
+        360,
+        544,
+        529
+      ],
+      "wall_s": 0.1468414999999368
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 285,
+      "target": 302,
+      "file": "3R7-10_285_302.npz",
+      "error": null,
+      "sha256": "7948b07f32f96da83ff68868a5317f72b5ba7442c085b3238628c55fe75a9b2e",
+      "crop_xyxy": [
+        396,
+        343,
+        545,
+        510
+      ],
+      "wall_s": 0.14417779200084624
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 302,
+      "target": 320,
+      "file": "3R7-10_302_320.npz",
+      "error": null,
+      "sha256": "039d6b5ac76f86dc2c45b783b9a950416215104b833111173c1a82ee8a7db203",
+      "crop_xyxy": [
+        396,
+        325,
+        545,
+        494
+      ],
+      "wall_s": 0.15226795800117543
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 320,
+      "target": 340,
+      "file": "3R7-10_320_340.npz",
+      "error": null,
+      "sha256": "af0690751e99b44551cae986182db63f4a79c7f96be214fe462048abf6364fb2",
+      "crop_xyxy": [
+        396,
+        305,
+        545,
+        475
+      ],
+      "wall_s": 0.15273412500027916
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 340,
+      "target": 358,
+      "file": "3R7-10_340_358.npz",
+      "error": null,
+      "sha256": "cbb23de3f90894bb660129d96018c6119990842afc70e3320008bd764ec92bf9",
+      "crop_xyxy": [
+        396,
+        286,
+        545,
+        456
+      ],
+      "wall_s": 0.14689854199968977
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 358,
+      "target": 375,
+      "file": "3R7-10_358_375.npz",
+      "error": null,
+      "sha256": "13587bba53d46a7cfd4aa04d52a09e59bd59bb7be2d9c4e34f386e2272ccf61d",
+      "crop_xyxy": [
+        396,
+        269,
+        546,
+        438
+      ],
+      "wall_s": 0.1487652910000179
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 375,
+      "target": 394,
+      "file": "3R7-10_375_394.npz",
+      "error": null,
+      "sha256": "34c21dead84f5e799a3719e7f9e6aed511fe0c34870efcf82ed222799d042bd8",
+      "crop_xyxy": [
+        397,
+        250,
+        546,
+        421
+      ],
+      "wall_s": 0.15026908300023933
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 394,
+      "target": 413,
+      "file": "3R7-10_394_413.npz",
+      "error": null,
+      "sha256": "5edbeaae4e93d8edb94f8f283e407ccf34847ea1bf6424c6ebcf716d298af35b",
+      "crop_xyxy": [
+        398,
+        231,
+        546,
+        403
+      ],
+      "wall_s": 0.16327183400062495
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 413,
+      "target": 430,
+      "file": "3R7-10_413_430.npz",
+      "error": null,
+      "sha256": "67b65f039bd2b9961acfcdc09ace53bc7d289459c72a2bd6ecfda7ddce06b2e8",
+      "crop_xyxy": [
+        397,
+        214,
+        546,
+        383
+      ],
+      "wall_s": 0.15754316699894844
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 430,
+      "target": 448,
+      "file": "3R7-10_430_448.npz",
+      "error": null,
+      "sha256": "fb7eebdd2333b7a691fd1c86c5b7f4a50e6b03d8b6daa58e86ad5a0fcc76501b",
+      "crop_xyxy": [
+        397,
+        196,
+        546,
+        366
+      ],
+      "wall_s": 0.17036866700073006
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 448,
+      "target": 466,
+      "file": "3R7-10_448_466.npz",
+      "error": null,
+      "sha256": "44fd1afddecc999cdf2c096c2c38fb1cb4ef161f078880685e7cca5f238451e8",
+      "crop_xyxy": [
+        397,
+        179,
+        547,
+        349
+      ],
+      "wall_s": 0.167951917001119
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 466,
+      "target": 487,
+      "file": "3R7-10_466_487.npz",
+      "error": null,
+      "sha256": "8755176d405a78e074ded68ac29fb11d078bb39df964c097722506e376cf434b",
+      "crop_xyxy": [
+        398,
+        158,
+        547,
+        330
+      ],
+      "wall_s": 0.15816737499881128
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 487,
+      "target": 504,
+      "file": "3R7-10_487_504.npz",
+      "error": null,
+      "sha256": "2bc5f1393ce33d1b8eedafc43270fa1865b1265a90019034ff9bfa3c9b28f68e",
+      "crop_xyxy": [
+        399,
+        141,
+        547,
+        309
+      ],
+      "wall_s": 0.1489326670016453
+    },
+    {
+      "tuber": "3R7-10",
+      "source": 504,
+      "target": 521,
+      "file": "3R7-10_504_521.npz",
+      "error": null,
+      "sha256": "8cbe89aa268880dd5f155cc6b62ba04ce16cfd0aa0b28c4cd6cbe42989d28510",
+      "crop_xyxy": [
+        399,
+        122,
+        547,
+        292
+      ],
+      "wall_s": 0.14944074999948498
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 231,
+      "target": 252,
+      "file": "2R1-9_231_252.npz",
+      "error": null,
+      "sha256": "780a9b1c00ab9d4abb26628230eb2ccc9bdd3c7776ed45b2d6e93814bebb802d",
+      "crop_xyxy": [
+        768,
+        377,
+        943,
+        580
+      ],
+      "wall_s": 0.19010549999984505
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 252,
+      "target": 271,
+      "file": "2R1-9_252_271.npz",
+      "error": null,
+      "sha256": "ad52050e463225143ac27a436badf3dfec31deae46a12177dba5e65ad9bb6497",
+      "crop_xyxy": [
+        769,
+        358,
+        944,
+        559
+      ],
+      "wall_s": 0.18885179099925153
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 271,
+      "target": 294,
+      "file": "2R1-9_271_294.npz",
+      "error": null,
+      "sha256": "d8394c7f6669a5435315f6d311cb64e8337f836690fd07df5408f61364378175",
+      "crop_xyxy": [
+        770,
+        335,
+        945,
+        540
+      ],
+      "wall_s": 0.28589041699888185
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 294,
+      "target": 315,
+      "file": "2R1-9_294_315.npz",
+      "error": null,
+      "sha256": "d830141ce4e9d8e114055bc3bd59c2e3c93b106d71fb96c16d02031210bfeb2a",
+      "crop_xyxy": [
+        770,
+        314,
+        945,
+        518
+      ],
+      "wall_s": 0.23084891700091248
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 315,
+      "target": 335,
+      "file": "2R1-9_315_335.npz",
+      "error": null,
+      "sha256": "60b32c65799c4d1764390a55e4ae9f10ce52fd3d2121ccfce777f6e722d09ee8",
+      "crop_xyxy": [
+        770,
+        294,
+        946,
+        496
+      ],
+      "wall_s": 0.18655000000035216
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 335,
+      "target": 356,
+      "file": "2R1-9_335_356.npz",
+      "error": null,
+      "sha256": "d544d5c7396109a0fbef5b254eca42e4bd09d05e657940f18310f9b4a163f050",
+      "crop_xyxy": [
+        769,
+        272,
+        946,
+        477
+      ],
+      "wall_s": 0.17801004099965212
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 356,
+      "target": 378,
+      "file": "2R1-9_356_378.npz",
+      "error": null,
+      "sha256": "a640f58e1c5a664a7351ee57fd9457712eafd37f8645445ab4961880654d28cc",
+      "crop_xyxy": [
+        768,
+        250,
+        945,
+        456
+      ],
+      "wall_s": 0.20284470899969165
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 378,
+      "target": 397,
+      "file": "2R1-9_378_397.npz",
+      "error": null,
+      "sha256": "9fcc77bd9b2646eb0000d1220b6b062503dc7e88f9cac031eff806f93fedf2c2",
+      "crop_xyxy": [
+        768,
+        231,
+        945,
+        435
+      ],
+      "wall_s": 0.2015099159998499
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 397,
+      "target": 419,
+      "file": "2R1-9_397_419.npz",
+      "error": null,
+      "sha256": "b7d8cf6e8a026ddce248eea6d78c334a077095fa047bd3d3fa26599e1941f65a",
+      "crop_xyxy": [
+        769,
+        209,
+        946,
+        415
+      ],
+      "wall_s": 0.19662404200062156
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 419,
+      "target": 440,
+      "file": "2R1-9_419_440.npz",
+      "error": null,
+      "sha256": "ea3d53a324a131c9edebd147876695296eb1dcba8200e29b0dfdbdfc083f4acc",
+      "crop_xyxy": [
+        771,
+        188,
+        946,
+        394
+      ],
+      "wall_s": 0.18221258300036425
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 440,
+      "target": 460,
+      "file": "2R1-9_440_460.npz",
+      "error": null,
+      "sha256": "e5ec3290c216270ba36139696e4981648135bc9d2e7b44611047263f53a2e5c1",
+      "crop_xyxy": [
+        771,
+        168,
+        946,
+        373
+      ],
+      "wall_s": 0.17184091600029205
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 460,
+      "target": 480,
+      "file": "2R1-9_460_480.npz",
+      "error": null,
+      "sha256": "4372ebb4c6eb46937f6c4bf2053b8df57d8b79612112ffe53efc9176165b7129",
+      "crop_xyxy": [
+        771,
+        148,
+        946,
+        352
+      ],
+      "wall_s": 0.17055320800136542
+    },
+    {
+      "tuber": "2R1-9",
+      "source": 480,
+      "target": 501,
+      "file": "2R1-9_480_501.npz",
+      "error": null,
+      "sha256": "96bd77d3835b5f23bb8b23dc4facb0042cb0385c041aab74a3366b2cf01af2ae",
+      "crop_xyxy": [
+        771,
+        127,
+        946,
+        333
+      ],
+      "wall_s": 0.16992758299966226
+    },
+    {
+      "tuber": "R10-10",
+      "source": 222,
+      "target": 241,
+      "file": "R10-10_222_241.npz",
+      "error": null,
+      "sha256": "e8ab2f42ce53ed3866ac433e1c4b1adfa2981c59ee72f4e8b383e9ccb5af1bf1",
+      "crop_xyxy": [
+        614,
+        389,
+        777,
+        588
+      ],
+      "wall_s": 0.1834399580002355
+    },
+    {
+      "tuber": "R10-10",
+      "source": 241,
+      "target": 259,
+      "file": "R10-10_241_259.npz",
+      "error": null,
+      "sha256": "59dbab1a88231e6ae164215cdcd74c746be8e4219da66eabb4b3ff87b2fec5be",
+      "crop_xyxy": [
+        615,
+        371,
+        777,
+        569
+      ],
+      "wall_s": 0.17079320800075948
+    },
+    {
+      "tuber": "R10-10",
+      "source": 259,
+      "target": 279,
+      "file": "R10-10_259_279.npz",
+      "error": null,
+      "sha256": "c4c42735f5a03522e21bccc14ccd1738bcce8b4a52ecceae89d185bdfb45b80f",
+      "crop_xyxy": [
+        615,
+        351,
+        777,
+        551
+      ],
+      "wall_s": 0.17175904200121295
+    },
+    {
+      "tuber": "R10-10",
+      "source": 279,
+      "target": 301,
+      "file": "R10-10_279_301.npz",
+      "error": null,
+      "sha256": "58d28881acfc99374cb8afa98dfc4a8a1084452ab77022dadf2a0a9081a26f1c",
+      "crop_xyxy": [
+        615,
+        329,
+        778,
+        531
+      ],
+      "wall_s": 0.18132329100080824
+    },
+    {
+      "tuber": "R10-10",
+      "source": 301,
+      "target": 318,
+      "file": "R10-10_301_318.npz",
+      "error": null,
+      "sha256": "225fb8bbaf3b2162f943f24ec69396373e4749619925a94ac247e3a03d2ff29e",
+      "crop_xyxy": [
+        616,
+        311,
+        778,
+        510
+      ],
+      "wall_s": 0.18026525000095717
+    },
+    {
+      "tuber": "R10-10",
+      "source": 318,
+      "target": 337,
+      "file": "R10-10_318_337.npz",
+      "error": null,
+      "sha256": "0cfd00f90b8a0fa2d3815138ddd31a5f4910c73d0fcb2a2232296b91b74ca5ac",
+      "crop_xyxy": [
+        617,
+        292,
+        778,
+        493
+      ],
+      "wall_s": 0.1766237079991697
+    },
+    {
+      "tuber": "R10-10",
+      "source": 337,
+      "target": 360,
+      "file": "R10-10_337_360.npz",
+      "error": null,
+      "sha256": "60e0f64ea81d7637d9d5e44a7750eefdec23cdc55ed5d74205fba2124c877b0f",
+      "crop_xyxy": [
+        617,
+        269,
+        778,
+        474
+      ],
+      "wall_s": 0.17446120900058304
+    },
+    {
+      "tuber": "R10-10",
+      "source": 360,
+      "target": 381,
+      "file": "R10-10_360_381.npz",
+      "error": null,
+      "sha256": "9c5f649d43072a39addee02c5b8d497137dea134f3db73bcb3c82114432cfe0f",
+      "crop_xyxy": [
+        617,
+        248,
+        779,
+        451
+      ],
+      "wall_s": 0.17520395799874677
+    },
+    {
+      "tuber": "R10-10",
+      "source": 381,
+      "target": 400,
+      "file": "R10-10_381_400.npz",
+      "error": null,
+      "sha256": "c8b269efec4b9cf9c1a89a7d0b9a666543c310a6b138567a262fd4ecec52a376",
+      "crop_xyxy": [
+        618,
+        229,
+        780,
+        430
+      ],
+      "wall_s": 0.1936962500003574
+    },
+    {
+      "tuber": "R10-10",
+      "source": 400,
+      "target": 419,
+      "file": "R10-10_400_419.npz",
+      "error": null,
+      "sha256": "c2a3f790ff26c9e2125b552e7b497d2f420ec8a26028acec67e46a7cdc09aae1",
+      "crop_xyxy": [
+        618,
+        210,
+        780,
+        411
+      ],
+      "wall_s": 0.1867202499997802
+    },
+    {
+      "tuber": "R10-10",
+      "source": 419,
+      "target": 439,
+      "file": "R10-10_419_439.npz",
+      "error": null,
+      "sha256": "e61d572f31d7e98bba0ae78ff3c7b7d509c4f02515ce3497125e0eb404217a17",
+      "crop_xyxy": [
+        618,
+        189,
+        780,
+        393
+      ],
+      "wall_s": 0.19231000000036147
+    },
+    {
+      "tuber": "R10-10",
+      "source": 439,
+      "target": 459,
+      "file": "R10-10_439_459.npz",
+      "error": null,
+      "sha256": "def920d235ebc5ea14bf3e194c4f7f7c23de52cda25a80984fc2f849ad01bc19",
+      "crop_xyxy": [
+        619,
+        170,
+        780,
+        373
+      ],
+      "wall_s": 0.18539612499989744
+    },
+    {
+      "tuber": "R10-10",
+      "source": 459,
+      "target": 478,
+      "file": "R10-10_459_478.npz",
+      "error": null,
+      "sha256": "864818b519e91fea7431c70c7c0cd6b5baea954e2dd2f04c898270033d37f124",
+      "crop_xyxy": [
+        620,
+        150,
+        782,
+        353
+      ],
+      "wall_s": 0.19250583299981372
+    },
+    {
+      "tuber": "R10-10",
+      "source": 478,
+      "target": 497,
+      "file": "R10-10_478_497.npz",
+      "error": null,
+      "sha256": "1f46f38125140c2382d672e658bb1eba0dddaf9b89fe2b04d70cd0f00745565b",
+      "crop_xyxy": [
+        618,
+        131,
+        782,
+        334
+      ],
+      "wall_s": 0.19820312499905413
+    },
+    {
+      "tuber": "R9-2",
+      "source": 220,
+      "target": 238,
+      "file": "R9-2_220_238.npz",
+      "error": null,
+      "sha256": "526505b4d992cc709b6f1422b681d1280958ae2eb8b6ad4aec79bdce82ec67b8",
+      "crop_xyxy": [
+        386,
+        401,
+        552,
+        583
+      ],
+      "wall_s": 0.19748400000025867
+    },
+    {
+      "tuber": "R9-2",
+      "source": 238,
+      "target": 259,
+      "file": "R9-2_238_259.npz",
+      "error": null,
+      "sha256": "8d7195dce76bf4dfc0a5466a96e603a6f379611f2fbacccfcfe181a3c1d8b6db",
+      "crop_xyxy": [
+        387,
+        380,
+        552,
+        564
+      ],
+      "wall_s": 0.17394824999973935
+    },
+    {
+      "tuber": "R9-2",
+      "source": 259,
+      "target": 280,
+      "file": "R9-2_259_280.npz",
+      "error": null,
+      "sha256": "395d63739d286135d455e172b7f5f3ec53e21ad6ddfddc1b3d1f9ee2524d44dc",
+      "crop_xyxy": [
+        388,
+        360,
+        553,
+        543
+      ],
+      "wall_s": 0.2437534999990021
+    },
+    {
+      "tuber": "R9-2",
+      "source": 280,
+      "target": 299,
+      "file": "R9-2_280_299.npz",
+      "error": null,
+      "sha256": "68f7978151a11b25c033abb1681c66bc71130ed0e1086bfb7ccfe54dc11bba4b",
+      "crop_xyxy": [
+        388,
+        340,
+        553,
+        521
+      ],
+      "wall_s": 0.17337587499969231
+    },
+    {
+      "tuber": "R9-2",
+      "source": 299,
+      "target": 319,
+      "file": "R9-2_299_319.npz",
+      "error": null,
+      "sha256": "7980673fddf4e5271c71fb60bca53ca54f232b22eb849ae63bf3e00b8b1212f2",
+      "crop_xyxy": [
+        389,
+        320,
+        554,
+        503
+      ],
+      "wall_s": 0.1615544999986014
+    },
+    {
+      "tuber": "R9-2",
+      "source": 319,
+      "target": 342,
+      "file": "R9-2_319_342.npz",
+      "error": null,
+      "sha256": "9e3343c0fde1856f851a713809fc7b42f87b16d673303be79c77aafa01ee3f79",
+      "crop_xyxy": [
+        390,
+        297,
+        554,
+        483
+      ],
+      "wall_s": 0.16344945800119604
+    },
+    {
+      "tuber": "R9-2",
+      "source": 342,
+      "target": 360,
+      "file": "R9-2_342_360.npz",
+      "error": null,
+      "sha256": "e6df686c65c4862a28de4e949fd4dae9afef59e4a390dcf220c20330e0af132b",
+      "crop_xyxy": [
+        390,
+        279,
+        555,
+        460
+      ],
+      "wall_s": 0.16927587499958463
+    },
+    {
+      "tuber": "R9-2",
+      "source": 360,
+      "target": 382,
+      "file": "R9-2_360_382.npz",
+      "error": null,
+      "sha256": "9dd6d3265c1d2bc2ef21ccd0681edaecea3cb9377a9db0e25386a4d28db20902",
+      "crop_xyxy": [
+        391,
+        255,
+        555,
+        442
+      ],
+      "wall_s": 0.16421170800094842
+    },
+    {
+      "tuber": "R9-2",
+      "source": 382,
+      "target": 401,
+      "file": "R9-2_382_401.npz",
+      "error": null,
+      "sha256": "8ac4da893094c5639cb9c5ffe807f7cd73266d015dd93a6e995b9ca2c1361e92",
+      "crop_xyxy": [
+        392,
+        236,
+        556,
+        421
+      ],
+      "wall_s": 0.16149762499844655
+    },
+    {
+      "tuber": "R9-2",
+      "source": 401,
+      "target": 420,
+      "file": "R9-2_401_420.npz",
+      "error": null,
+      "sha256": "5e7a6ea8e7809e8b938e2a582b3f97149950b0f4db85560a9a35b065e0c65553",
+      "crop_xyxy": [
+        392,
+        218,
+        557,
+        403
+      ],
+      "wall_s": 0.16347900000073423
+    },
+    {
+      "tuber": "R9-2",
+      "source": 420,
+      "target": 441,
+      "file": "R9-2_420_441.npz",
+      "error": null,
+      "sha256": "9778d301af00f3fdbab6c3b77871069b68579278c062613f659b54c2ca4092d4",
+      "crop_xyxy": [
+        392,
+        196,
+        557,
+        382
+      ],
+      "wall_s": 0.170619832999364
+    },
+    {
+      "tuber": "R9-2",
+      "source": 441,
+      "target": 463,
+      "file": "R9-2_441_463.npz",
+      "error": null,
+      "sha256": "1516c4b7c17463c984a78ee41f48c7bf9d83a98cfdc8610f135b29a234a7a63f",
+      "crop_xyxy": [
+        393,
+        174,
+        557,
+        362
+      ],
+      "wall_s": 0.16308912500062434
+    },
+    {
+      "tuber": "R9-2",
+      "source": 463,
+      "target": 482,
+      "file": "R9-2_463_482.npz",
+      "error": null,
+      "sha256": "17c4f90dccd1270f0926e1a12017492fb9520d5251ee9c1bc36e04ef0287cda4",
+      "crop_xyxy": [
+        394,
+        155,
+        558,
+        341
+      ],
+      "wall_s": 0.1621793330014043
+    },
+    {
+      "tuber": "R9-2",
+      "source": 482,
+      "target": 503,
+      "file": "R9-2_482_503.npz",
+      "error": null,
+      "sha256": "8726774423cfed902dc8289877b0e3682f894be2251cc043ccc1c2d576dc3279",
+      "crop_xyxy": [
+        394,
+        133,
+        559,
+        322
+      ],
+      "wall_s": 0.16132249999827764
+    }
+  ]
+}

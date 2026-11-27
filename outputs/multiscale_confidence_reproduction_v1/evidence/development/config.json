@@ -1,0 +1,229 @@
+{
+  "seed": 527141301,
+  "methods": [
+    "ellipsoid",
+    "convex",
+    "symmetry",
+    "symmetry_height95",
+    "symmetry_robust95",
+    "symmetry_spatial",
+    "symmetry_multiscale_option_0",
+    "symmetry_multiscale_option_1"
+  ],
+  "surface_samples": 10000,
+  "thresholds_mm": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "max_fit_points": 5000,
+  "ellipsoid_subdivisions": 4,
+  "synthetic_points": 2500,
+  "synthetic_noise_mm": 0.0,
+  "bootstrap_replicates": 2000,
+  "split": "development",
+  "multiscale_protocol": {
+    "protocol_id": "multiscale_confidence_v1",
+    "scope": "fresh_synthetic_development_and_confirmation_with_genuine_features",
+    "baseline_config": "configs/baseline.yaml",
+    "splits": {
+      "development": {
+        "families": 6,
+        "shape_seed": 527141101,
+        "observation_seed": 527141201,
+        "evaluation_seed": 527141301
+      },
+      "confirmation": {
+        "families": 12,
+        "shape_seed": 527142101,
+        "observation_seed": 527142201,
+        "evaluation_seed": 527142301
+      }
+    },
+    "axes_ranges_mm": [
+      [
+        30.0,
+        54.0
+      ],
+      [
+        21.0,
+        35.0
+      ],
+      [
+        17.0,
+        30.0
+      ]
+    ],
+    "waist_range": [
+      0.05,
+      0.5
+    ],
+    "yaw_range_rad": [
+      -2.8,
+      2.8
+    ],
+    "hidden_profile_assignment": "alternating_0_and_1p8_one_per_family",
+    "reference_subdivisions": 5,
+    "conditions": [
+      "clean",
+      "depth_jitter_2mm",
+      "outliers_2percent",
+      "depth_gap",
+      "belt_plus3mm",
+      "belt_minus3mm",
+      "correlated_outlier_patch",
+      "genuine_wide_protrusion",
+      "genuine_narrow_protrusion"
+    ],
+    "protrusion_amplitude_mm": 8.0,
+    "protrusion_center_unit_xy": [
+      0.25,
+      0.2
+    ],
+    "protrusion_wide_radius_unit": 0.22,
+    "protrusion_narrow_radius_unit": 0.1,
+    "protrusion_core_fraction_of_amplitude": 0.25,
+    "baseline_methods": [
+      "ellipsoid",
+      "convex",
+      "symmetry",
+      "symmetry_height95",
+      "symmetry_robust95",
+      "symmetry_spatial"
+    ],
+    "single_scale_parameters": {
+      "neighbors": 32,
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5
+    },
+    "candidate_options": [
+      {
+        "name": "ring32_160",
+        "inner_neighbors": 32,
+        "outer_neighbors": 160
+      },
+      {
+        "name": "ring64_256",
+        "inner_neighbors": 64,
+        "outer_neighbors": 256
+      }
+    ],
+    "fixed_candidate_parameters": {
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5,
+      "boundary_neighbors": 8,
+      "boundary_step_mm": 6.0,
+      "minimum_boundary_points": 2,
+      "connectivity_multiplier": 3.0
+    },
+    "confirmation_methods": [
+      "ellipsoid",
+      "convex",
+      "symmetry",
+      "symmetry_height95",
+      "symmetry_robust95",
+      "symmetry_spatial",
+      "symmetry_annular",
+      "symmetry_multiscale"
+    ],
+    "selection": {
+      "score": "clean_hidden_plus_patch_hidden_plus_0p02_patch_volume_mae_plus_2_wide_core_error_plus_2_narrow_core_error",
+      "tie_break": "candidate_option_order",
+      "reject_if_any_development_failure": true
+    },
+    "bootstrap_replicates": 2000,
+    "bootstrap_seed": 527143101,
+    "confirmation_criteria": [
+      {
+        "condition": "correlated_outlier_patch",
+        "metric": "hidden_chamfer_l1_mm",
+        "baseline": "symmetry_spatial",
+        "upper_difference_limit": 0.0,
+        "strict": true
+      },
+      {
+        "condition": "correlated_outlier_patch",
+        "metric": "volume_absolute_error_analytic_ml",
+        "baseline": "symmetry_spatial",
+        "upper_difference_limit": 0.0,
+        "strict": true
+      },
+      {
+        "condition": "correlated_outlier_patch",
+        "metric": "hidden_chamfer_l1_mm",
+        "baseline": "symmetry_robust95",
+        "upper_difference_limit": 0.2,
+        "strict": false
+      },
+      {
+        "condition": "outliers_2percent",
+        "metric": "hidden_chamfer_l1_mm",
+        "baseline": "symmetry_spatial",
+        "upper_difference_limit": 0.1,
+        "strict": false
+      },
+      {
+        "condition": "clean",
+        "metric": "hidden_chamfer_l1_mm",
+        "baseline": "symmetry",
+        "upper_difference_limit": 0.05,
+        "strict": false
+      },
+      {
+        "condition": "genuine_wide_protrusion",
+        "metric": "feature_observed_to_surface_mean_mm",
+        "baseline": "symmetry",
+        "upper_difference_limit": 0.5,
+        "strict": false
+      },
+      {
+        "condition": "genuine_narrow_protrusion",
+        "metric": "feature_observed_to_surface_mean_mm",
+        "baseline": "symmetry",
+        "upper_difference_limit": 0.5,
+        "strict": false
+      }
+    ],
+    "visualize_family": 0
+  },
+  "protocol_sha256": "9c759b3e5fc56af1de1a801cc973fc903ba5fafc59db81554a7e6ce8be004ec3",
+  "design_sha256": "10ce867a0a4003122280c22b5903f9a0ed305da8f473edf4a535a609548e5f2b",
+  "reference_subdivisions": 5,
+  "method_options": {
+    "symmetry_spatial": {
+      "neighbors": 32,
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5
+    },
+    "symmetry_multiscale_option_0": {
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5,
+      "boundary_neighbors": 8,
+      "boundary_step_mm": 6.0,
+      "minimum_boundary_points": 2,
+      "connectivity_multiplier": 3.0,
+      "inner_neighbors": 32,
+      "outer_neighbors": 160
+    },
+    "symmetry_multiscale_option_1": {
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5,
+      "boundary_neighbors": 8,
+      "boundary_step_mm": 6.0,
+      "minimum_boundary_points": 2,
+      "connectivity_multiplier": 3.0,
+      "inner_neighbors": 64,
+      "outer_neighbors": 256
+    }
+  }
+}

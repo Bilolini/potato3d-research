@@ -1,0 +1,149 @@
+{
+  "frame": "2R1-10/364",
+  "grid": 128,
+  "threshold": 25.0,
+  "frozen_inputs_sha256": "e1b724ca89a2054431c08ffd492697b84eae9a8a93344f4cab8e9b2ab4d740f3",
+  "no_op_replay_sha256": "39eed78531ab58a10ac089d89fda9bf87a9368585ff918131343735e4e5eb244",
+  "asset_sha256": {
+    "checkpoint_sha256": "429e2c6b22a0923967459de24d67f05962b235f79cde6b032aa7ed2ffcd970ee",
+    "config_sha256": "74ca708ce086bf68e97709ea6b3d91f14717921c04691e84043f0eb8fcc68e62",
+    "dino_config_sha256": "b87c0270b97db085fd82cf114a761fd0f62ae7914fbd407c752a2260646b689c"
+  },
+  "uniform_mm_per_native_unit": 83.06533660243065,
+  "self_distance": {
+    "native_units": {
+      "mean": 2.1234943989006937e-09,
+      "p95": 7.450580596923828e-09,
+      "max": 1.0536712125031045e-07
+    },
+    "approx_mm": {
+      "mean": 1.7638877701806225e-07,
+      "p95": 6.188849851670164e-07,
+      "max": 8.75235539348616e-06
+    }
+  },
+  "no_op_distance": {
+    "native_units": {
+      "mean": 2.1234943989006937e-09,
+      "p95": 7.450580596923828e-09,
+      "max": 1.0536712125031045e-07
+    },
+    "approx_mm": {
+      "mean": 1.7638877701806225e-07,
+      "p95": 6.188849851670164e-07,
+      "max": 8.75235539348616e-06
+    }
+  },
+  "conditions": {
+    "unchanged": {
+      "forward_seconds": 5.1199858749751,
+      "forward_and_mesh_seconds": 6.243918874999508,
+      "forward_and_mesh_cpu_seconds": 16.081723,
+      "tokenizer_input_sha256": "ffacacb64b8723f3e02bf34b7042cb1b06acc1e72a4115a90b5e50f31f8018b9",
+      "triplane_sha256": "50b6b0b9fc946a4bc88221954fdd5919ad9b2e64a5177994a163f5eea7e8bc9c",
+      "density_sha256": "1afe6d51201557f929d4218e0b6633a39354007ceaf9105fd415a36b3ffb87d5",
+      "vertex_sha256": "7a82ad1685e0dfbd1c7e23a6f6a9d271d80ab696b8d9d4471b0e409e1377eda6",
+      "faces_sha256": "ae27646653ca0ba5c80bffc36d2913b03dedbf1997d2decbf3e101e0018937ae",
+      "vertices": 9568,
+      "faces": 19132,
+      "watertight": true,
+      "solid_grid_nodes_on_boundary": 0,
+      "normalized_extents": [
+        0.1229478120803833,
+        1.10605388879776,
+        0.7989468276500702
+      ],
+      "valid_mesh": true
+    },
+    "noop": {
+      "forward_seconds": 5.086824750062078,
+      "forward_and_mesh_seconds": 6.32568879192695,
+      "forward_and_mesh_cpu_seconds": 16.089873,
+      "tokenizer_input_sha256": "ffacacb64b8723f3e02bf34b7042cb1b06acc1e72a4115a90b5e50f31f8018b9",
+      "triplane_sha256": "50b6b0b9fc946a4bc88221954fdd5919ad9b2e64a5177994a163f5eea7e8bc9c",
+      "density_sha256": "1afe6d51201557f929d4218e0b6633a39354007ceaf9105fd415a36b3ffb87d5",
+      "vertex_sha256": "7a82ad1685e0dfbd1c7e23a6f6a9d271d80ab696b8d9d4471b0e409e1377eda6",
+      "faces_sha256": "ae27646653ca0ba5c80bffc36d2913b03dedbf1997d2decbf3e101e0018937ae",
+      "vertices": 9568,
+      "faces": 19132,
+      "watertight": true,
+      "solid_grid_nodes_on_boundary": 0,
+      "normalized_extents": [
+        0.1229478120803833,
+        1.10605388879776,
+        0.7989468276500702
+      ],
+      "valid_mesh": true
+    },
+    "pin": {
+      "forward_seconds": 6.058356541907415,
+      "forward_and_mesh_seconds": 7.3732838339637965,
+      "forward_and_mesh_cpu_seconds": 16.829249000000004,
+      "tokenizer_input_sha256": "da6baf383db37f0632455868a8ae73dea5da9fc2e2736f5d3ef117abdf410ac9",
+      "triplane_sha256": "69b0d74301e5ede04bce6ca0f0eb8d7188370b0402c0924aa6d069e62b579c88",
+      "density_sha256": "ff03cac2d6524b9d7f954d8e608dd5acf9475c2a17eb3806394c504ac5f85ef6",
+      "vertex_sha256": "5a19562968e645459d3a6fb8c2b096add00d16ce4133191c32b220867e82549a",
+      "faces_sha256": "8bc492c46e9da1533f41ddf2c11e6821396fa63690758923edbcef0202764b6c",
+      "vertices": 9592,
+      "faces": 19180,
+      "watertight": true,
+      "solid_grid_nodes_on_boundary": 0,
+      "normalized_extents": [
+        0.12404024600982666,
+        1.106457769870758,
+        0.8002112507820129
+      ],
+      "valid_mesh": true,
+      "density_field_changed": true,
+      "displacement": {
+        "native_units": {
+          "mean": 0.0025827501264416544,
+          "p95": 0.0073006410850211916,
+          "max": 0.011284302920103073
+        },
+        "approx_mm": {
+          "mean": 0.21453700861284633,
+          "p95": 0.6064302091408198,
+          "max": 0.9373344203821529
+        }
+      }
+    },
+    "peel": {
+      "forward_seconds": 5.531935667153448,
+      "forward_and_mesh_seconds": 6.811178917065263,
+      "forward_and_mesh_cpu_seconds": 16.405918999999997,
+      "tokenizer_input_sha256": "19cd599ffee12ac2962debdf403dfa1fbf3f08b2e06c27a6058db0e73eed659e",
+      "triplane_sha256": "5aa5d051b5023228294890681d60b16ab8fea27831fa8ebc54f7b1eacf29bf60",
+      "density_sha256": "48694919b52f51c250037c636e79f07cef6d9b621ccf51589f3ebfae10bb7457",
+      "vertex_sha256": "86e064acec31c93d55f7e1e7244d9e6b193d6b4773d26fc435222f345dd70d2c",
+      "faces_sha256": "e9413ae3c36dcb0df12080fea8f6234c1e2984800491d7d3ebd99d23f41cbcbc",
+      "vertices": 9638,
+      "faces": 19272,
+      "watertight": true,
+      "solid_grid_nodes_on_boundary": 0,
+      "normalized_extents": [
+        0.11055123805999756,
+        1.1079868078231812,
+        0.8002142608165741
+      ],
+      "valid_mesh": true,
+      "density_field_changed": true,
+      "displacement": {
+        "native_units": {
+          "mean": 0.004064547567138742,
+          "p95": 0.010386845842003816,
+          "max": 0.01670324243605137
+        },
+        "approx_mm": {
+          "mean": 0.3376230118009702,
+          "p95": 0.8627868461036041,
+          "max": 1.3874604553026106
+        }
+      }
+    }
+  },
+  "pin_minus_peel": {
+    "native_units": -0.0014817974406970877,
+    "approx_mm": -0.12308600318812388
+  }
+}

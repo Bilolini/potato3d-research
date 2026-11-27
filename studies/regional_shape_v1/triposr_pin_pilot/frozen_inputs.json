@@ -1,0 +1,116 @@
+{
+  "stage": "matched_rgb_frozen_before_edited_inference",
+  "frame": "2R1-10/364",
+  "code_and_replay_sha256": {
+    "triposr_pin_pilot.py": "27f7bc59f01ea6b5c35a15da695cd2c96697ac1e2fc60770ffc28651179fbbd5",
+    "triposr_pin_pilot_protocol.md": "c46f69852da1c968985402a1ab7db44cfe24bd3f4770481945ae1b02e6362304",
+    "corepp_cross_model_replay.py": "4532903f58d186ac2fa0f542df17cf152aa8d675ed20774e4ab48fa54755e4c4",
+    "corepp_cross_model/replay.json": "4e367baef25db5a0284eb7f2b4aa5878a8916b300d2d030a412cc667c62f6aaf",
+    "corepp_pin_pilot/frozen_inputs.json": "0a8a5f2172aa1a4d575fb1de425182f76055c0dc3caa1d2f6b961c445fc48963"
+  },
+  "input_archive_sha256": "8f3787a0b024c72be7a89675015966be5c12711d3e5730c3a4abb9f3e9ce3bb7",
+  "source_sha256": {
+    "original_rgba.png": "2a89b0ba27607b911e9942d5b45aee3cba62b5324e73b5ba3e8f78b5764866a2",
+    "pin_rgba.png": "d6370e6a19b6db4361ad110fd7f6f7e5ff7a1e18c520003028b2c19d24eed718",
+    "pin_mask.png": "279eb780e7484e7446367eefe69eee6fe270ba68908a8ca0670bdbfb8fdb2dcd",
+    "peel_mask.png": "d47c26f630d9c4df1654d77c973f195eeb9ca93e17d765964754860bb987c656"
+  },
+  "images_sha256": {
+    "unchanged": "ffacacb64b8723f3e02bf34b7042cb1b06acc1e72a4115a90b5e50f31f8018b9",
+    "noop": "ffacacb64b8723f3e02bf34b7042cb1b06acc1e72a4115a90b5e50f31f8018b9",
+    "pin": "da6baf383db37f0632455868a8ae73dea5da9fc2e2736f5d3ef117abdf410ac9",
+    "peel": "19cd599ffee12ac2962debdf403dfa1fbf3f08b2e06c27a6058db0e73eed659e"
+  },
+  "visuals_sha256": {
+    "paired_crops.png": "1514a1dc5bbb1855cba6607be90fad74d4840d06956f6852d8818e0d284fba34",
+    "mask_locations.png": "4abeb09a7ddab0d451f9a225bacdba6e71f37a0159f53bfa9fcfb6433f02fb8b"
+  },
+  "crop_size": 247,
+  "shift_xy_model_px": [
+    -187,
+    64
+  ],
+  "transported_support_pixels": {
+    "pin": 2106,
+    "peel": 2113
+  },
+  "checks": {
+    "pin": {
+      "paired_mask_pixels": 2079,
+      "changed_pixels": 2079,
+      "off_mask_changes": 0
+    },
+    "peel": {
+      "paired_mask_pixels": 2079,
+      "changed_pixels": 2079,
+      "off_mask_changes": 0
+    },
+    "shared_delta": {
+      "mean_rgb_l2_8bit_equivalent": 70.9374077908014,
+      "max_rgb_l2_8bit_equivalent": 77.88924589055354,
+      "mean_signed_rgb_change_8bit_equivalent": [
+        4.456669090458154,
+        -48.9397532805736,
+        -50.5283108005276
+      ]
+    }
+  },
+  "edit_construction": {
+    "quantization_steps_per_rgb_unit": 4096,
+    "channels_capped_to_common_range": 268,
+    "channels_reduced_for_exact_float32_match": 0
+  },
+  "camera_transform": {
+    "local_xy_mm_per_normalized_unit": [
+      80.16119589738909,
+      86.07469072326849
+    ],
+    "uniform_mm_per_normalized_unit": 83.06533660243065,
+    "camera_axis_rotation": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "camera_translation_mm": [
+      172.65457973514364,
+      -4.303399921358755,
+      296.753634380446
+    ],
+    "perspective_silhouette_iou": 0.8165632085641007,
+    "held_out_depth_pixels": 12109,
+    "covered_held_out_depth_pixels": 10875,
+    "held_out_median_abs_depth_mm": 4.258819580078125,
+    "held_out_p90_abs_depth_mm": 14.85538330078125,
+    "calibration_fit_points": 12110,
+    "metric_bounds_mm": [
+      [
+        126.77718535457954,
+        -37.51705586059809,
+        291.43182753975515
+      ],
+      [
+        218.65192392799287,
+        28.847731305599133,
+        301.6445289347446
+      ]
+    ],
+    "gates": {
+      "lateral_scale_ratio_at_most_1_25": true,
+      "perspective_silhouette_iou_at_least_0_75": true,
+      "visible_holdout_median_abs_depth_at_most_10_mm": true
+    },
+    "passed": true
+  }
+}

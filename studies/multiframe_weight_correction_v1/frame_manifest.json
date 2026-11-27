@@ -1,0 +1,4960 @@
+{
+  "stage": "frames_features_and_model_specifications_frozen_before_fit",
+  "source_sha256": {
+    "studies/multiframe_weight_v1/frame_manifest.json": "ad4e112a3a3c928263890bc193d0e7971c51e0992a10032c1aceca90382c20c0",
+    "studies/multiframe_weight_v1/per_frame_predictions.csv": "7618c9d0bde4c7a03fc0a7524c402c2469cc38faafa2255a63f487d7baf980ef",
+    "studies/multiframe_weight_correction_v1/protocol.md": "efd96372788d287bef0ec842d47af948056fa5a30c5dc1c6e22771182823e819",
+    "studies/multiframe_weight_correction_v1/run.py": "77e60dd7a792364bf4324473a72c11541b03df4527a6c622687607d72694ef61"
+  },
+  "features_sha256": "f59371e4115751d016c8e5c96e29bf415db18abfa318c56967bee0ec98212f9f",
+  "frame_count": 474,
+  "validation_triples_and_features_replayed": true,
+  "roster_counts": {
+    "train": 118,
+    "val": 40
+  },
+  "checked_area_change": {
+    "train": {
+      "min_cm3": -14.673717133471005,
+      "max_cm3": 7.502411231052433,
+      "mean_cm3": -1.2363953964201349,
+      "sample_sd_cm3": 3.9919099929024435,
+      "negative": 70,
+      "positive": 48,
+      "zero": 0
+    },
+    "val": {
+      "min_cm3": -19.087307264435207,
+      "max_cm3": 8.57740708675107,
+      "mean_cm3": -1.2142978741723978,
+      "sample_sd_cm3": 4.895178930925016,
+      "negative": 24,
+      "positive": 16,
+      "zero": 0
+    }
+  },
+  "model_features": {
+    "A": [
+      "center_proxy_cm3"
+    ],
+    "B": [
+      "center_proxy_cm3",
+      "area_change_at_center_height_cm3"
+    ]
+  },
+  "training_adjacent_overlaps": [
+    {
+      "tuber": "4R5-9",
+      "triplet": [
+        189,
+        363,
+        520
+      ],
+      "adjacent": [
+        189,
+        363,
+        403
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "tuber": "2R1-1",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          229,
+          358,
+          490
+        ]
+      },
+      "members": [
+        {
+          "suffix": 229,
+          "member": "2_pcd/2R1-1/2R1-1_pcd_229.ply",
+          "crc32": 1059896195,
+          "bytes": 806347
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/2R1-1/2R1-1_pcd_358.ply",
+          "crc32": 1670038719,
+          "bytes": 860914
+        },
+        {
+          "suffix": 490,
+          "member": "2_pcd/2R1-1/2R1-1_pcd_490.ply",
+          "crc32": 2472310742,
+          "bytes": 868258
+        }
+      ]
+    },
+    {
+      "tuber": "2R1-11",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          215,
+          371,
+          502
+        ]
+      },
+      "members": [
+        {
+          "suffix": 215,
+          "member": "2_pcd/2R1-11/2R1-11_pcd_215.ply",
+          "crc32": 133313179,
+          "bytes": 358876
+        },
+        {
+          "suffix": 371,
+          "member": "2_pcd/2R1-11/2R1-11_pcd_371.ply",
+          "crc32": 1136715533,
+          "bytes": 338950
+        },
+        {
+          "suffix": 502,
+          "member": "2_pcd/2R1-11/2R1-11_pcd_502.ply",
+          "crc32": 2326054686,
+          "bytes": 321616
+        }
+      ]
+    },
+    {
+      "tuber": "2R1-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          219,
+          353,
+          485
+        ]
+      },
+      "members": [
+        {
+          "suffix": 219,
+          "member": "2_pcd/2R1-2/2R1-2_pcd_219.ply",
+          "crc32": 1460131647,
+          "bytes": 597556
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/2R1-2/2R1-2_pcd_353.ply",
+          "crc32": 1088298896,
+          "bytes": 585406
+        },
+        {
+          "suffix": 485,
+          "member": "2_pcd/2R1-2/2R1-2_pcd_485.ply",
+          "crc32": 1494220902,
+          "bytes": 592480
+        }
+      ]
+    },
+    {
+      "tuber": "2R1-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          214,
+          368,
+          499
+        ]
+      },
+      "members": [
+        {
+          "suffix": 214,
+          "member": "2_pcd/2R1-4/2R1-4_pcd_214.ply",
+          "crc32": 2256545823,
+          "bytes": 578251
+        },
+        {
+          "suffix": 368,
+          "member": "2_pcd/2R1-4/2R1-4_pcd_368.ply",
+          "crc32": 2598559997,
+          "bytes": 578791
+        },
+        {
+          "suffix": 499,
+          "member": "2_pcd/2R1-4/2R1-4_pcd_499.ply",
+          "crc32": 2721366792,
+          "bytes": 590833
+        }
+      ]
+    },
+    {
+      "tuber": "2R1-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          220,
+          348,
+          501
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/2R1-5/2R1-5_pcd_220.ply",
+          "crc32": 2418258256,
+          "bytes": 483994
+        },
+        {
+          "suffix": 348,
+          "member": "2_pcd/2R1-5/2R1-5_pcd_348.ply",
+          "crc32": 3034009534,
+          "bytes": 484210
+        },
+        {
+          "suffix": 501,
+          "member": "2_pcd/2R1-5/2R1-5_pcd_501.ply",
+          "crc32": 965928291,
+          "bytes": 487477
+        }
+      ]
+    },
+    {
+      "tuber": "2R1-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          225,
+          353,
+          504
+        ]
+      },
+      "members": [
+        {
+          "suffix": 225,
+          "member": "2_pcd/2R1-6/2R1-6_pcd_225.ply",
+          "crc32": 1438845148,
+          "bytes": 347725
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/2R1-6/2R1-6_pcd_353.ply",
+          "crc32": 2366203179,
+          "bytes": 355231
+        },
+        {
+          "suffix": 504,
+          "member": "2_pcd/2R1-6/2R1-6_pcd_504.ply",
+          "crc32": 259081401,
+          "bytes": 365545
+        }
+      ]
+    },
+    {
+      "tuber": "2R1-8",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          230,
+          360,
+          510
+        ]
+      },
+      "members": [
+        {
+          "suffix": 230,
+          "member": "2_pcd/2R1-8/2R1-8_pcd_230.ply",
+          "crc32": 324975596,
+          "bytes": 354124
+        },
+        {
+          "suffix": 360,
+          "member": "2_pcd/2R1-8/2R1-8_pcd_360.ply",
+          "crc32": 3155701304,
+          "bytes": 340462
+        },
+        {
+          "suffix": 510,
+          "member": "2_pcd/2R1-8/2R1-8_pcd_510.ply",
+          "crc32": 1151428862,
+          "bytes": 344215
+        }
+      ]
+    },
+    {
+      "tuber": "2R1-9",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          231,
+          356,
+          501
+        ]
+      },
+      "members": [
+        {
+          "suffix": 231,
+          "member": "2_pcd/2R1-9/2R1-9_pcd_231.ply",
+          "crc32": 232536260,
+          "bytes": 352693
+        },
+        {
+          "suffix": 356,
+          "member": "2_pcd/2R1-9/2R1-9_pcd_356.ply",
+          "crc32": 296910659,
+          "bytes": 352288
+        },
+        {
+          "suffix": 501,
+          "member": "2_pcd/2R1-9/2R1-9_pcd_501.ply",
+          "crc32": 2757549659,
+          "bytes": 362467
+        }
+      ]
+    },
+    {
+      "tuber": "2R2-1",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          224,
+          351,
+          503
+        ]
+      },
+      "members": [
+        {
+          "suffix": 224,
+          "member": "2_pcd/2R2-1/2R2-1_pcd_224.ply",
+          "crc32": 3582165279,
+          "bytes": 322534
+        },
+        {
+          "suffix": 351,
+          "member": "2_pcd/2R2-1/2R2-1_pcd_351.ply",
+          "crc32": 3301007148,
+          "bytes": 326341
+        },
+        {
+          "suffix": 503,
+          "member": "2_pcd/2R2-1/2R2-1_pcd_503.ply",
+          "crc32": 2645591534,
+          "bytes": 337249
+        }
+      ]
+    },
+    {
+      "tuber": "2R2-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          225,
+          358,
+          514
+        ]
+      },
+      "members": [
+        {
+          "suffix": 225,
+          "member": "2_pcd/2R2-2/2R2-2_pcd_225.ply",
+          "crc32": 3120831898,
+          "bytes": 478000
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/2R2-2/2R2-2_pcd_358.ply",
+          "crc32": 1657077498,
+          "bytes": 468793
+        },
+        {
+          "suffix": 514,
+          "member": "2_pcd/2R2-2/2R2-2_pcd_514.ply",
+          "crc32": 4209298997,
+          "bytes": 471898
+        }
+      ]
+    },
+    {
+      "tuber": "2R2-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          232,
+          361,
+          494
+        ]
+      },
+      "members": [
+        {
+          "suffix": 232,
+          "member": "2_pcd/2R2-3/2R2-3_pcd_232.ply",
+          "crc32": 2021582377,
+          "bytes": 533080
+        },
+        {
+          "suffix": 361,
+          "member": "2_pcd/2R2-3/2R2-3_pcd_361.ply",
+          "crc32": 2775640418,
+          "bytes": 538615
+        },
+        {
+          "suffix": 494,
+          "member": "2_pcd/2R2-3/2R2-3_pcd_494.ply",
+          "crc32": 1871150923,
+          "bytes": 558055
+        }
+      ]
+    },
+    {
+      "tuber": "2R2-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          231,
+          353,
+          507
+        ]
+      },
+      "members": [
+        {
+          "suffix": 231,
+          "member": "2_pcd/2R2-5/2R2-5_pcd_231.ply",
+          "crc32": 3683469481,
+          "bytes": 329446
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/2R2-5/2R2-5_pcd_353.ply",
+          "crc32": 3524346782,
+          "bytes": 330283
+        },
+        {
+          "suffix": 507,
+          "member": "2_pcd/2R2-5/2R2-5_pcd_507.ply",
+          "crc32": 3712323904,
+          "bytes": 328933
+        }
+      ]
+    },
+    {
+      "tuber": "2R2-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          222,
+          355,
+          509
+        ]
+      },
+      "members": [
+        {
+          "suffix": 222,
+          "member": "2_pcd/2R2-7/2R2-7_pcd_222.ply",
+          "crc32": 3781417232,
+          "bytes": 594343
+        },
+        {
+          "suffix": 355,
+          "member": "2_pcd/2R2-7/2R2-7_pcd_355.ply",
+          "crc32": 3007619600,
+          "bytes": 594235
+        },
+        {
+          "suffix": 509,
+          "member": "2_pcd/2R2-7/2R2-7_pcd_509.ply",
+          "crc32": 315481272,
+          "bytes": 599311
+        }
+      ]
+    },
+    {
+      "tuber": "2R2-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          220,
+          350,
+          503
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/2R2-9/2R2-9_pcd_220.ply",
+          "crc32": 2324383112,
+          "bytes": 524953
+        },
+        {
+          "suffix": 350,
+          "member": "2_pcd/2R2-9/2R2-9_pcd_350.ply",
+          "crc32": 2454992396,
+          "bytes": 511615
+        },
+        {
+          "suffix": 503,
+          "member": "2_pcd/2R2-9/2R2-9_pcd_503.ply",
+          "crc32": 2836906711,
+          "bytes": 516475
+        }
+      ]
+    },
+    {
+      "tuber": "3R1-1",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          230,
+          366,
+          524
+        ]
+      },
+      "members": [
+        {
+          "suffix": 230,
+          "member": "2_pcd/3R1-1/3R1-1_pcd_230.ply",
+          "crc32": 1962425739,
+          "bytes": 390061
+        },
+        {
+          "suffix": 366,
+          "member": "2_pcd/3R1-1/3R1-1_pcd_366.ply",
+          "crc32": 35777574,
+          "bytes": 375157
+        },
+        {
+          "suffix": 524,
+          "member": "2_pcd/3R1-1/3R1-1_pcd_524.ply",
+          "crc32": 1674820790,
+          "bytes": 359875
+        }
+      ]
+    },
+    {
+      "tuber": "3R1-10",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          212,
+          364,
+          515
+        ]
+      },
+      "members": [
+        {
+          "suffix": 212,
+          "member": "2_pcd/3R1-10/3R1-10_pcd_212.ply",
+          "crc32": 2414022752,
+          "bytes": 221094
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/3R1-10/3R1-10_pcd_364.ply",
+          "crc32": 3492968890,
+          "bytes": 210051
+        },
+        {
+          "suffix": 515,
+          "member": "2_pcd/3R1-10/3R1-10_pcd_515.ply",
+          "crc32": 3045010384,
+          "bytes": 215343
+        }
+      ]
+    },
+    {
+      "tuber": "3R1-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          224,
+          354,
+          506
+        ]
+      },
+      "members": [
+        {
+          "suffix": 224,
+          "member": "2_pcd/3R1-2/3R1-2_pcd_224.ply",
+          "crc32": 3905586173,
+          "bytes": 351397
+        },
+        {
+          "suffix": 354,
+          "member": "2_pcd/3R1-2/3R1-2_pcd_354.ply",
+          "crc32": 189023255,
+          "bytes": 354178
+        },
+        {
+          "suffix": 506,
+          "member": "2_pcd/3R1-2/3R1-2_pcd_506.ply",
+          "crc32": 4058503773,
+          "bytes": 367597
+        }
+      ]
+    },
+    {
+      "tuber": "3R1-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          221,
+          358,
+          492
+        ]
+      },
+      "members": [
+        {
+          "suffix": 221,
+          "member": "2_pcd/3R1-3/3R1-3_pcd_221.ply",
+          "crc32": 2806946845,
+          "bytes": 505837
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/3R1-3/3R1-3_pcd_358.ply",
+          "crc32": 594565089,
+          "bytes": 507781
+        },
+        {
+          "suffix": 492,
+          "member": "2_pcd/3R1-3/3R1-3_pcd_492.ply",
+          "crc32": 1656834669,
+          "bytes": 535510
+        }
+      ]
+    },
+    {
+      "tuber": "3R1-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          211,
+          358,
+          523
+        ]
+      },
+      "members": [
+        {
+          "suffix": 211,
+          "member": "2_pcd/3R1-4/3R1-4_pcd_211.ply",
+          "crc32": 501378312,
+          "bytes": 247419
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/3R1-4/3R1-4_pcd_358.ply",
+          "crc32": 3946212843,
+          "bytes": 235458
+        },
+        {
+          "suffix": 523,
+          "member": "2_pcd/3R1-4/3R1-4_pcd_523.ply",
+          "crc32": 390741239,
+          "bytes": 233055
+        }
+      ]
+    },
+    {
+      "tuber": "3R1-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          207,
+          358,
+          491
+        ]
+      },
+      "members": [
+        {
+          "suffix": 207,
+          "member": "2_pcd/3R1-5/3R1-5_pcd_207.ply",
+          "crc32": 613709903,
+          "bytes": 278605
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/3R1-5/3R1-5_pcd_358.ply",
+          "crc32": 3837995121,
+          "bytes": 275257
+        },
+        {
+          "suffix": 491,
+          "member": "2_pcd/3R1-5/3R1-5_pcd_491.ply",
+          "crc32": 15547755,
+          "bytes": 272800
+        }
+      ]
+    },
+    {
+      "tuber": "3R1-7",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          227,
+          364,
+          499
+        ]
+      },
+      "members": [
+        {
+          "suffix": 227,
+          "member": "2_pcd/3R1-7/3R1-7_pcd_227.ply",
+          "crc32": 3771237823,
+          "bytes": 572041
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/3R1-7/3R1-7_pcd_364.ply",
+          "crc32": 2958062201,
+          "bytes": 567262
+        },
+        {
+          "suffix": 499,
+          "member": "2_pcd/3R1-7/3R1-7_pcd_499.ply",
+          "crc32": 3425504208,
+          "bytes": 563158
+        }
+      ]
+    },
+    {
+      "tuber": "3R1-8",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          235,
+          353,
+          507
+        ]
+      },
+      "members": [
+        {
+          "suffix": 235,
+          "member": "2_pcd/3R1-8/3R1-8_pcd_235.ply",
+          "crc32": 1723682523,
+          "bytes": 444979
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/3R1-8/3R1-8_pcd_353.ply",
+          "crc32": 1089126169,
+          "bytes": 440146
+        },
+        {
+          "suffix": 507,
+          "member": "2_pcd/3R1-8/3R1-8_pcd_507.ply",
+          "crc32": 1834997826,
+          "bytes": 437770
+        }
+      ]
+    },
+    {
+      "tuber": "3R1-9",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          245,
+          363,
+          497
+        ]
+      },
+      "members": [
+        {
+          "suffix": 245,
+          "member": "2_pcd/3R1-9/3R1-9_pcd_245.ply",
+          "crc32": 3722864797,
+          "bytes": 599284
+        },
+        {
+          "suffix": 363,
+          "member": "2_pcd/3R1-9/3R1-9_pcd_363.ply",
+          "crc32": 990598333,
+          "bytes": 576820
+        },
+        {
+          "suffix": 497,
+          "member": "2_pcd/3R1-9/3R1-9_pcd_497.ply",
+          "crc32": 3023074837,
+          "bytes": 566425
+        }
+      ]
+    },
+    {
+      "tuber": "3R3-1",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          216,
+          353,
+          490
+        ]
+      },
+      "members": [
+        {
+          "suffix": 216,
+          "member": "2_pcd/3R3-1/3R3-1_pcd_216.ply",
+          "crc32": 945244822,
+          "bytes": 695593
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/3R3-1/3R3-1_pcd_353.ply",
+          "crc32": 4062630048,
+          "bytes": 692380
+        },
+        {
+          "suffix": 490,
+          "member": "2_pcd/3R3-1/3R3-1_pcd_490.ply",
+          "crc32": 1806860431,
+          "bytes": 708391
+        }
+      ]
+    },
+    {
+      "tuber": "3R3-10",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          211,
+          361,
+          494
+        ]
+      },
+      "members": [
+        {
+          "suffix": 211,
+          "member": "2_pcd/3R3-10/3R3-10_pcd_211.ply",
+          "crc32": 2973195951,
+          "bytes": 312409
+        },
+        {
+          "suffix": 361,
+          "member": "2_pcd/3R3-10/3R3-10_pcd_361.ply",
+          "crc32": 2613901558,
+          "bytes": 317161
+        },
+        {
+          "suffix": 494,
+          "member": "2_pcd/3R3-10/3R3-10_pcd_494.ply",
+          "crc32": 4116314132,
+          "bytes": 324640
+        }
+      ]
+    },
+    {
+      "tuber": "3R3-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          227,
+          367,
+          488
+        ]
+      },
+      "members": [
+        {
+          "suffix": 227,
+          "member": "2_pcd/3R3-5/3R3-5_pcd_227.ply",
+          "crc32": 3444321409,
+          "bytes": 762364
+        },
+        {
+          "suffix": 367,
+          "member": "2_pcd/3R3-5/3R3-5_pcd_367.ply",
+          "crc32": 2972935114,
+          "bytes": 744895
+        },
+        {
+          "suffix": 488,
+          "member": "2_pcd/3R3-5/3R3-5_pcd_488.ply",
+          "crc32": 2187201020,
+          "bytes": 785908
+        }
+      ]
+    },
+    {
+      "tuber": "3R3-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          230,
+          350,
+          491
+        ]
+      },
+      "members": [
+        {
+          "suffix": 230,
+          "member": "2_pcd/3R3-6/3R3-6_pcd_230.ply",
+          "crc32": 3232509923,
+          "bytes": 586135
+        },
+        {
+          "suffix": 350,
+          "member": "2_pcd/3R3-6/3R3-6_pcd_350.ply",
+          "crc32": 1752313724,
+          "bytes": 584083
+        },
+        {
+          "suffix": 491,
+          "member": "2_pcd/3R3-6/3R3-6_pcd_491.ply",
+          "crc32": 2367758785,
+          "bytes": 575929
+        }
+      ]
+    },
+    {
+      "tuber": "3R3-8",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          226,
+          363,
+          502
+        ]
+      },
+      "members": [
+        {
+          "suffix": 226,
+          "member": "2_pcd/3R3-8/3R3-8_pcd_226.ply",
+          "crc32": 2008204559,
+          "bytes": 497656
+        },
+        {
+          "suffix": 363,
+          "member": "2_pcd/3R3-8/3R3-8_pcd_363.ply",
+          "crc32": 3543679636,
+          "bytes": 524413
+        },
+        {
+          "suffix": 502,
+          "member": "2_pcd/3R3-8/3R3-8_pcd_502.ply",
+          "crc32": 2701760628,
+          "bytes": 559972
+        }
+      ]
+    },
+    {
+      "tuber": "3R3-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          211,
+          370,
+          481
+        ]
+      },
+      "members": [
+        {
+          "suffix": 211,
+          "member": "2_pcd/3R3-9/3R3-9_pcd_211.ply",
+          "crc32": 2007806629,
+          "bytes": 590833
+        },
+        {
+          "suffix": 370,
+          "member": "2_pcd/3R3-9/3R3-9_pcd_370.ply",
+          "crc32": 1065356322,
+          "bytes": 589753
+        },
+        {
+          "suffix": 481,
+          "member": "2_pcd/3R3-9/3R3-9_pcd_481.ply",
+          "crc32": 3939929741,
+          "bytes": 589537
+        }
+      ]
+    },
+    {
+      "tuber": "3R4-1",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          221,
+          357,
+          512
+        ]
+      },
+      "members": [
+        {
+          "suffix": 221,
+          "member": "2_pcd/3R4-1/3R4-1_pcd_221.ply",
+          "crc32": 2119873033,
+          "bytes": 404317
+        },
+        {
+          "suffix": 357,
+          "member": "2_pcd/3R4-1/3R4-1_pcd_357.ply",
+          "crc32": 4144517861,
+          "bytes": 384634
+        },
+        {
+          "suffix": 512,
+          "member": "2_pcd/3R4-1/3R4-1_pcd_512.ply",
+          "crc32": 2666763060,
+          "bytes": 359146
+        }
+      ]
+    },
+    {
+      "tuber": "3R4-10",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          215,
+          368,
+          499
+        ]
+      },
+      "members": [
+        {
+          "suffix": 215,
+          "member": "2_pcd/3R4-10/3R4-10_pcd_215.ply",
+          "crc32": 2297588530,
+          "bytes": 325504
+        },
+        {
+          "suffix": 368,
+          "member": "2_pcd/3R4-10/3R4-10_pcd_368.ply",
+          "crc32": 2964532376,
+          "bytes": 312193
+        },
+        {
+          "suffix": 499,
+          "member": "2_pcd/3R4-10/3R4-10_pcd_499.ply",
+          "crc32": 2980445976,
+          "bytes": 305254
+        }
+      ]
+    },
+    {
+      "tuber": "3R4-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          211,
+          366,
+          519
+        ]
+      },
+      "members": [
+        {
+          "suffix": 211,
+          "member": "2_pcd/3R4-6/3R4-6_pcd_211.ply",
+          "crc32": 4113971951,
+          "bytes": 221175
+        },
+        {
+          "suffix": 366,
+          "member": "2_pcd/3R4-6/3R4-6_pcd_366.ply",
+          "crc32": 3859269332,
+          "bytes": 206325
+        },
+        {
+          "suffix": 519,
+          "member": "2_pcd/3R4-6/3R4-6_pcd_519.ply",
+          "crc32": 3937092929,
+          "bytes": 222903
+        }
+      ]
+    },
+    {
+      "tuber": "3R4-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          239,
+          364,
+          506
+        ]
+      },
+      "members": [
+        {
+          "suffix": 239,
+          "member": "2_pcd/3R4-7/3R4-7_pcd_239.ply",
+          "crc32": 397091609,
+          "bytes": 671914
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/3R4-7/3R4-7_pcd_364.ply",
+          "crc32": 2794805508,
+          "bytes": 638596
+        },
+        {
+          "suffix": 506,
+          "member": "2_pcd/3R4-7/3R4-7_pcd_506.ply",
+          "crc32": 3351872357,
+          "bytes": 623530
+        }
+      ]
+    },
+    {
+      "tuber": "3R4-8",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          215,
+          370,
+          507
+        ]
+      },
+      "members": [
+        {
+          "suffix": 215,
+          "member": "2_pcd/3R4-8/3R4-8_pcd_215.ply",
+          "crc32": 3381568418,
+          "bytes": 420301
+        },
+        {
+          "suffix": 370,
+          "member": "2_pcd/3R4-8/3R4-8_pcd_370.ply",
+          "crc32": 229831314,
+          "bytes": 398323
+        },
+        {
+          "suffix": 507,
+          "member": "2_pcd/3R4-8/3R4-8_pcd_507.ply",
+          "crc32": 4176134384,
+          "bytes": 399727
+        }
+      ]
+    },
+    {
+      "tuber": "3R5-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          221,
+          352,
+          497
+        ]
+      },
+      "members": [
+        {
+          "suffix": 221,
+          "member": "2_pcd/3R5-3/3R5-3_pcd_221.ply",
+          "crc32": 3833882631,
+          "bytes": 520471
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/3R5-3/3R5-3_pcd_352.ply",
+          "crc32": 2379308807,
+          "bytes": 498682
+        },
+        {
+          "suffix": 497,
+          "member": "2_pcd/3R5-3/3R5-3_pcd_497.ply",
+          "crc32": 1055220229,
+          "bytes": 503353
+        }
+      ]
+    },
+    {
+      "tuber": "3R5-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          213,
+          363,
+          494
+        ]
+      },
+      "members": [
+        {
+          "suffix": 213,
+          "member": "2_pcd/3R5-4/3R5-4_pcd_213.ply",
+          "crc32": 2845691424,
+          "bytes": 472708
+        },
+        {
+          "suffix": 363,
+          "member": "2_pcd/3R5-4/3R5-4_pcd_363.ply",
+          "crc32": 97133824,
+          "bytes": 479944
+        },
+        {
+          "suffix": 494,
+          "member": "2_pcd/3R5-4/3R5-4_pcd_494.ply",
+          "crc32": 3161204331,
+          "bytes": 489610
+        }
+      ]
+    },
+    {
+      "tuber": "3R5-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          216,
+          367,
+          483
+        ]
+      },
+      "members": [
+        {
+          "suffix": 216,
+          "member": "2_pcd/3R5-7/3R5-7_pcd_216.ply",
+          "crc32": 2524226458,
+          "bytes": 418276
+        },
+        {
+          "suffix": 367,
+          "member": "2_pcd/3R5-7/3R5-7_pcd_367.ply",
+          "crc32": 1496921752,
+          "bytes": 420571
+        },
+        {
+          "suffix": 483,
+          "member": "2_pcd/3R5-7/3R5-7_pcd_483.ply",
+          "crc32": 1297161164,
+          "bytes": 419815
+        }
+      ]
+    },
+    {
+      "tuber": "3R5-8",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          234,
+          353,
+          510
+        ]
+      },
+      "members": [
+        {
+          "suffix": 234,
+          "member": "2_pcd/3R5-8/3R5-8_pcd_234.ply",
+          "crc32": 3302762727,
+          "bytes": 568963
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/3R5-8/3R5-8_pcd_353.ply",
+          "crc32": 2189363423,
+          "bytes": 554383
+        },
+        {
+          "suffix": 510,
+          "member": "2_pcd/3R5-8/3R5-8_pcd_510.ply",
+          "crc32": 3415078398,
+          "bytes": 533188
+        }
+      ]
+    },
+    {
+      "tuber": "3R5-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          217,
+          367,
+          500
+        ]
+      },
+      "members": [
+        {
+          "suffix": 217,
+          "member": "2_pcd/3R5-9/3R5-9_pcd_217.ply",
+          "crc32": 1380440244,
+          "bytes": 292618
+        },
+        {
+          "suffix": 367,
+          "member": "2_pcd/3R5-9/3R5-9_pcd_367.ply",
+          "crc32": 2150655668,
+          "bytes": 291295
+        },
+        {
+          "suffix": 500,
+          "member": "2_pcd/3R5-9/3R5-9_pcd_500.ply",
+          "crc32": 705555507,
+          "bytes": 301960
+        }
+      ]
+    },
+    {
+      "tuber": "3R6-10",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          221,
+          358,
+          516
+        ]
+      },
+      "members": [
+        {
+          "suffix": 221,
+          "member": "2_pcd/3R6-10/3R6-10_pcd_221.ply",
+          "crc32": 2264959435,
+          "bytes": 349264
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/3R6-10/3R6-10_pcd_358.ply",
+          "crc32": 22664568,
+          "bytes": 327691
+        },
+        {
+          "suffix": 516,
+          "member": "2_pcd/3R6-10/3R6-10_pcd_516.ply",
+          "crc32": 3667646923,
+          "bytes": 335899
+        }
+      ]
+    },
+    {
+      "tuber": "3R6-2",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          226,
+          355,
+          492
+        ]
+      },
+      "members": [
+        {
+          "suffix": 226,
+          "member": "2_pcd/3R6-2/3R6-2_pcd_226.ply",
+          "crc32": 3658683375,
+          "bytes": 601309
+        },
+        {
+          "suffix": 355,
+          "member": "2_pcd/3R6-2/3R6-2_pcd_355.ply",
+          "crc32": 3721778010,
+          "bytes": 588187
+        },
+        {
+          "suffix": 492,
+          "member": "2_pcd/3R6-2/3R6-2_pcd_492.ply",
+          "crc32": 4116532614,
+          "bytes": 621748
+        }
+      ]
+    },
+    {
+      "tuber": "3R6-3",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          220,
+          352,
+          504
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/3R6-3/3R6-3_pcd_220.ply",
+          "crc32": 1400303722,
+          "bytes": 463609
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/3R6-3/3R6-3_pcd_352.ply",
+          "crc32": 2931956846,
+          "bytes": 460207
+        },
+        {
+          "suffix": 504,
+          "member": "2_pcd/3R6-3/3R6-3_pcd_504.ply",
+          "crc32": 2446403846,
+          "bytes": 465283
+        }
+      ]
+    },
+    {
+      "tuber": "3R6-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          240,
+          352,
+          492
+        ]
+      },
+      "members": [
+        {
+          "suffix": 240,
+          "member": "2_pcd/3R6-5/3R6-5_pcd_240.ply",
+          "crc32": 575546339,
+          "bytes": 671239
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/3R6-5/3R6-5_pcd_352.ply",
+          "crc32": 1767918368,
+          "bytes": 653932
+        },
+        {
+          "suffix": 492,
+          "member": "2_pcd/3R6-5/3R6-5_pcd_492.ply",
+          "crc32": 1105750793,
+          "bytes": 646993
+        }
+      ]
+    },
+    {
+      "tuber": "3R6-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          225,
+          359,
+          493
+        ]
+      },
+      "members": [
+        {
+          "suffix": 225,
+          "member": "2_pcd/3R6-9/3R6-9_pcd_225.ply",
+          "crc32": 3393904176,
+          "bytes": 739549
+        },
+        {
+          "suffix": 359,
+          "member": "2_pcd/3R6-9/3R6-9_pcd_359.ply",
+          "crc32": 2036503052,
+          "bytes": 700021
+        },
+        {
+          "suffix": 493,
+          "member": "2_pcd/3R6-9/3R6-9_pcd_493.ply",
+          "crc32": 1996964235,
+          "bytes": 666730
+        }
+      ]
+    },
+    {
+      "tuber": "3R7-10",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          214,
+          358,
+          521
+        ]
+      },
+      "members": [
+        {
+          "suffix": 214,
+          "member": "2_pcd/3R7-10/3R7-10_pcd_214.ply",
+          "crc32": 1809352331,
+          "bytes": 204408
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/3R7-10/3R7-10_pcd_358.ply",
+          "crc32": 3048216960,
+          "bytes": 209268
+        },
+        {
+          "suffix": 521,
+          "member": "2_pcd/3R7-10/3R7-10_pcd_521.ply",
+          "crc32": 4127562537,
+          "bytes": 213669
+        }
+      ]
+    },
+    {
+      "tuber": "3R7-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          218,
+          351,
+          502
+        ]
+      },
+      "members": [
+        {
+          "suffix": 218,
+          "member": "2_pcd/3R7-2/3R7-2_pcd_218.ply",
+          "crc32": 12918581,
+          "bytes": 498412
+        },
+        {
+          "suffix": 351,
+          "member": "2_pcd/3R7-2/3R7-2_pcd_351.ply",
+          "crc32": 3337532445,
+          "bytes": 493768
+        },
+        {
+          "suffix": 502,
+          "member": "2_pcd/3R7-2/3R7-2_pcd_502.ply",
+          "crc32": 912909001,
+          "bytes": 506728
+        }
+      ]
+    },
+    {
+      "tuber": "3R7-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          220,
+          368,
+          505
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/3R7-5/3R7-5_pcd_220.ply",
+          "crc32": 1036030578,
+          "bytes": 441172
+        },
+        {
+          "suffix": 368,
+          "member": "2_pcd/3R7-5/3R7-5_pcd_368.ply",
+          "crc32": 1655807888,
+          "bytes": 434719
+        },
+        {
+          "suffix": 505,
+          "member": "2_pcd/3R7-5/3R7-5_pcd_505.ply",
+          "crc32": 3808419955,
+          "bytes": 444682
+        }
+      ]
+    },
+    {
+      "tuber": "3R7-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          217,
+          361,
+          509
+        ]
+      },
+      "members": [
+        {
+          "suffix": 217,
+          "member": "2_pcd/3R7-9/3R7-9_pcd_217.ply",
+          "crc32": 3427779759,
+          "bytes": 263025
+        },
+        {
+          "suffix": 361,
+          "member": "2_pcd/3R7-9/3R7-9_pcd_361.ply",
+          "crc32": 1733588717,
+          "bytes": 254223
+        },
+        {
+          "suffix": 509,
+          "member": "2_pcd/3R7-9/3R7-9_pcd_509.ply",
+          "crc32": 714704118,
+          "bytes": 246285
+        }
+      ]
+    },
+    {
+      "tuber": "4R1-1",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          235,
+          360,
+          501
+        ]
+      },
+      "members": [
+        {
+          "suffix": 235,
+          "member": "2_pcd/4R1-1/4R1-1_pcd_235.ply",
+          "crc32": 2983868701,
+          "bytes": 507916
+        },
+        {
+          "suffix": 360,
+          "member": "2_pcd/4R1-1/4R1-1_pcd_360.ply",
+          "crc32": 3315762402,
+          "bytes": 520822
+        },
+        {
+          "suffix": 501,
+          "member": "2_pcd/4R1-1/4R1-1_pcd_501.ply",
+          "crc32": 2792183525,
+          "bytes": 545608
+        }
+      ]
+    },
+    {
+      "tuber": "4R1-2",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          231,
+          353,
+          513
+        ]
+      },
+      "members": [
+        {
+          "suffix": 231,
+          "member": "2_pcd/4R1-2/4R1-2_pcd_231.ply",
+          "crc32": 996600639,
+          "bytes": 338815
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/4R1-2/4R1-2_pcd_353.ply",
+          "crc32": 3565579018,
+          "bytes": 325342
+        },
+        {
+          "suffix": 513,
+          "member": "2_pcd/4R1-2/4R1-2_pcd_513.ply",
+          "crc32": 1350485728,
+          "bytes": 315487
+        }
+      ]
+    },
+    {
+      "tuber": "4R1-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          218,
+          362,
+          507
+        ]
+      },
+      "members": [
+        {
+          "suffix": 218,
+          "member": "2_pcd/4R1-3/4R1-3_pcd_218.ply",
+          "crc32": 2887341492,
+          "bytes": 408178
+        },
+        {
+          "suffix": 362,
+          "member": "2_pcd/4R1-3/4R1-3_pcd_362.ply",
+          "crc32": 851680682,
+          "bytes": 406342
+        },
+        {
+          "suffix": 507,
+          "member": "2_pcd/4R1-3/4R1-3_pcd_507.ply",
+          "crc32": 4005716430,
+          "bytes": 387064
+        }
+      ]
+    },
+    {
+      "tuber": "4R1-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          222,
+          363,
+          501
+        ]
+      },
+      "members": [
+        {
+          "suffix": 222,
+          "member": "2_pcd/4R1-4/4R1-4_pcd_222.ply",
+          "crc32": 2661040865,
+          "bytes": 391033
+        },
+        {
+          "suffix": 363,
+          "member": "2_pcd/4R1-4/4R1-4_pcd_363.ply",
+          "crc32": 4027419579,
+          "bytes": 385309
+        },
+        {
+          "suffix": 501,
+          "member": "2_pcd/4R1-4/4R1-4_pcd_501.ply",
+          "crc32": 2307656347,
+          "bytes": 390601
+        }
+      ]
+    },
+    {
+      "tuber": "4R1-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          211,
+          366,
+          503
+        ]
+      },
+      "members": [
+        {
+          "suffix": 211,
+          "member": "2_pcd/4R1-5/4R1-5_pcd_211.ply",
+          "crc32": 597756886,
+          "bytes": 289891
+        },
+        {
+          "suffix": 366,
+          "member": "2_pcd/4R1-5/4R1-5_pcd_366.ply",
+          "crc32": 1910899576,
+          "bytes": 293590
+        },
+        {
+          "suffix": 503,
+          "member": "2_pcd/4R1-5/4R1-5_pcd_503.ply",
+          "crc32": 1928476317,
+          "bytes": 300286
+        }
+      ]
+    },
+    {
+      "tuber": "4R1-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          215,
+          355,
+          477
+        ]
+      },
+      "members": [
+        {
+          "suffix": 215,
+          "member": "2_pcd/4R1-6/4R1-6_pcd_215.ply",
+          "crc32": 1587353012,
+          "bytes": 498628
+        },
+        {
+          "suffix": 355,
+          "member": "2_pcd/4R1-6/4R1-6_pcd_355.ply",
+          "crc32": 4277910067,
+          "bytes": 485101
+        },
+        {
+          "suffix": 477,
+          "member": "2_pcd/4R1-6/4R1-6_pcd_477.ply",
+          "crc32": 2181459805,
+          "bytes": 470089
+        }
+      ]
+    },
+    {
+      "tuber": "4R1-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          215,
+          354,
+          511
+        ]
+      },
+      "members": [
+        {
+          "suffix": 215,
+          "member": "2_pcd/4R1-7/4R1-7_pcd_215.ply",
+          "crc32": 2836203198,
+          "bytes": 167931
+        },
+        {
+          "suffix": 354,
+          "member": "2_pcd/4R1-7/4R1-7_pcd_354.ply",
+          "crc32": 709938556,
+          "bytes": 164340
+        },
+        {
+          "suffix": 511,
+          "member": "2_pcd/4R1-7/4R1-7_pcd_511.ply",
+          "crc32": 2417414840,
+          "bytes": 167877
+        }
+      ]
+    },
+    {
+      "tuber": "4R1-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          224,
+          365,
+          507
+        ]
+      },
+      "members": [
+        {
+          "suffix": 224,
+          "member": "2_pcd/4R1-9/4R1-9_pcd_224.ply",
+          "crc32": 2355325450,
+          "bytes": 591481
+        },
+        {
+          "suffix": 365,
+          "member": "2_pcd/4R1-9/4R1-9_pcd_365.ply",
+          "crc32": 2395292439,
+          "bytes": 579223
+        },
+        {
+          "suffix": 507,
+          "member": "2_pcd/4R1-9/4R1-9_pcd_507.ply",
+          "crc32": 4247022625,
+          "bytes": 567262
+        }
+      ]
+    },
+    {
+      "tuber": "4R2-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          221,
+          364,
+          505
+        ]
+      },
+      "members": [
+        {
+          "suffix": 221,
+          "member": "2_pcd/4R2-2/4R2-2_pcd_221.ply",
+          "crc32": 2475420288,
+          "bytes": 215856
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/4R2-2/4R2-2_pcd_364.ply",
+          "crc32": 2512590402,
+          "bytes": 207027
+        },
+        {
+          "suffix": 505,
+          "member": "2_pcd/4R2-2/4R2-2_pcd_505.ply",
+          "crc32": 1198580140,
+          "bytes": 192798
+        }
+      ]
+    },
+    {
+      "tuber": "4R2-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          220,
+          365,
+          509
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/4R2-3/4R2-3_pcd_220.ply",
+          "crc32": 2497624423,
+          "bytes": 479809
+        },
+        {
+          "suffix": 365,
+          "member": "2_pcd/4R2-3/4R2-3_pcd_365.ply",
+          "crc32": 569040111,
+          "bytes": 440227
+        },
+        {
+          "suffix": 509,
+          "member": "2_pcd/4R2-3/4R2-3_pcd_509.ply",
+          "crc32": 1419038285,
+          "bytes": 429589
+        }
+      ]
+    },
+    {
+      "tuber": "4R2-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          220,
+          362,
+          492
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/4R2-6/4R2-6_pcd_220.ply",
+          "crc32": 2872551451,
+          "bytes": 398566
+        },
+        {
+          "suffix": 362,
+          "member": "2_pcd/4R2-6/4R2-6_pcd_362.ply",
+          "crc32": 563224168,
+          "bytes": 406261
+        },
+        {
+          "suffix": 492,
+          "member": "2_pcd/4R2-6/4R2-6_pcd_492.ply",
+          "crc32": 1593262529,
+          "bytes": 415090
+        }
+      ]
+    },
+    {
+      "tuber": "4R2-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          219,
+          360,
+          485
+        ]
+      },
+      "members": [
+        {
+          "suffix": 219,
+          "member": "2_pcd/4R2-7/4R2-7_pcd_219.ply",
+          "crc32": 25930301,
+          "bytes": 347293
+        },
+        {
+          "suffix": 360,
+          "member": "2_pcd/4R2-7/4R2-7_pcd_360.ply",
+          "crc32": 2743578696,
+          "bytes": 360415
+        },
+        {
+          "suffix": 485,
+          "member": "2_pcd/4R2-7/4R2-7_pcd_485.ply",
+          "crc32": 4100594396,
+          "bytes": 392059
+        }
+      ]
+    },
+    {
+      "tuber": "4R2-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          226,
+          353,
+          500
+        ]
+      },
+      "members": [
+        {
+          "suffix": 226,
+          "member": "2_pcd/4R2-9/4R2-9_pcd_226.ply",
+          "crc32": 2953676362,
+          "bytes": 447463
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/4R2-9/4R2-9_pcd_353.ply",
+          "crc32": 2399361067,
+          "bytes": 446005
+        },
+        {
+          "suffix": 500,
+          "member": "2_pcd/4R2-9/4R2-9_pcd_500.ply",
+          "crc32": 590502120,
+          "bytes": 478891
+        }
+      ]
+    },
+    {
+      "tuber": "4R3-1",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          212,
+          357,
+          500
+        ]
+      },
+      "members": [
+        {
+          "suffix": 212,
+          "member": "2_pcd/4R3-1/4R3-1_pcd_212.ply",
+          "crc32": 4276947910,
+          "bytes": 335305
+        },
+        {
+          "suffix": 357,
+          "member": "2_pcd/4R3-1/4R3-1_pcd_357.ply",
+          "crc32": 535028995,
+          "bytes": 325747
+        },
+        {
+          "suffix": 500,
+          "member": "2_pcd/4R3-1/4R3-1_pcd_500.ply",
+          "crc32": 1559310695,
+          "bytes": 333658
+        }
+      ]
+    },
+    {
+      "tuber": "4R3-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          229,
+          350,
+          497
+        ]
+      },
+      "members": [
+        {
+          "suffix": 229,
+          "member": "2_pcd/4R3-2/4R3-2_pcd_229.ply",
+          "crc32": 2500729445,
+          "bytes": 593398
+        },
+        {
+          "suffix": 350,
+          "member": "2_pcd/4R3-2/4R3-2_pcd_350.ply",
+          "crc32": 558351199,
+          "bytes": 606358
+        },
+        {
+          "suffix": 497,
+          "member": "2_pcd/4R3-2/4R3-2_pcd_497.ply",
+          "crc32": 383712126,
+          "bytes": 623800
+        }
+      ]
+    },
+    {
+      "tuber": "4R3-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          231,
+          352,
+          493
+        ]
+      },
+      "members": [
+        {
+          "suffix": 231,
+          "member": "2_pcd/4R3-5/4R3-5_pcd_231.ply",
+          "crc32": 4070020627,
+          "bytes": 650260
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/4R3-5/4R3-5_pcd_352.ply",
+          "crc32": 1040722919,
+          "bytes": 640486
+        },
+        {
+          "suffix": 493,
+          "member": "2_pcd/4R3-5/4R3-5_pcd_493.ply",
+          "crc32": 2304185182,
+          "bytes": 655066
+        }
+      ]
+    },
+    {
+      "tuber": "4R3-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          221,
+          361,
+          520
+        ]
+      },
+      "members": [
+        {
+          "suffix": 221,
+          "member": "2_pcd/4R3-6/4R3-6_pcd_221.ply",
+          "crc32": 4223103662,
+          "bytes": 386713
+        },
+        {
+          "suffix": 361,
+          "member": "2_pcd/4R3-6/4R3-6_pcd_361.ply",
+          "crc32": 2286661555,
+          "bytes": 385525
+        },
+        {
+          "suffix": 520,
+          "member": "2_pcd/4R3-6/4R3-6_pcd_520.ply",
+          "crc32": 3600604510,
+          "bytes": 381151
+        }
+      ]
+    },
+    {
+      "tuber": "4R3-8",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          232,
+          368,
+          506
+        ]
+      },
+      "members": [
+        {
+          "suffix": 232,
+          "member": "2_pcd/4R3-8/4R3-8_pcd_232.ply",
+          "crc32": 2932346060,
+          "bytes": 429751
+        },
+        {
+          "suffix": 368,
+          "member": "2_pcd/4R3-8/4R3-8_pcd_368.ply",
+          "crc32": 1973066841,
+          "bytes": 414766
+        },
+        {
+          "suffix": 506,
+          "member": "2_pcd/4R3-8/4R3-8_pcd_506.ply",
+          "crc32": 1097172597,
+          "bytes": 416791
+        }
+      ]
+    },
+    {
+      "tuber": "4R4-1",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          207,
+          364,
+          501
+        ]
+      },
+      "members": [
+        {
+          "suffix": 207,
+          "member": "2_pcd/4R4-1/4R4-1_pcd_207.ply",
+          "crc32": 679825481,
+          "bytes": 287245
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/4R4-1/4R4-1_pcd_364.ply",
+          "crc32": 1254232421,
+          "bytes": 284896
+        },
+        {
+          "suffix": 501,
+          "member": "2_pcd/4R4-1/4R4-1_pcd_501.ply",
+          "crc32": 353214319,
+          "bytes": 284842
+        }
+      ]
+    },
+    {
+      "tuber": "4R4-10",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          216,
+          355,
+          495
+        ]
+      },
+      "members": [
+        {
+          "suffix": 216,
+          "member": "2_pcd/4R4-10/4R4-10_pcd_216.ply",
+          "crc32": 2782141922,
+          "bytes": 236997
+        },
+        {
+          "suffix": 355,
+          "member": "2_pcd/4R4-10/4R4-10_pcd_355.ply",
+          "crc32": 1530546248,
+          "bytes": 227547
+        },
+        {
+          "suffix": 495,
+          "member": "2_pcd/4R4-10/4R4-10_pcd_495.ply",
+          "crc32": 1680807606,
+          "bytes": 221904
+        }
+      ]
+    },
+    {
+      "tuber": "4R4-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          235,
+          356,
+          496
+        ]
+      },
+      "members": [
+        {
+          "suffix": 235,
+          "member": "2_pcd/4R4-2/4R4-2_pcd_235.ply",
+          "crc32": 3425893198,
+          "bytes": 627769
+        },
+        {
+          "suffix": 356,
+          "member": "2_pcd/4R4-2/4R4-2_pcd_356.ply",
+          "crc32": 1620918624,
+          "bytes": 609706
+        },
+        {
+          "suffix": 496,
+          "member": "2_pcd/4R4-2/4R4-2_pcd_496.ply",
+          "crc32": 423807172,
+          "bytes": 597880
+        }
+      ]
+    },
+    {
+      "tuber": "4R4-4",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          222,
+          353,
+          513
+        ]
+      },
+      "members": [
+        {
+          "suffix": 222,
+          "member": "2_pcd/4R4-4/4R4-4_pcd_222.ply",
+          "crc32": 3031842088,
+          "bytes": 557758
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/4R4-4/4R4-4_pcd_353.ply",
+          "crc32": 1788405814,
+          "bytes": 563239
+        },
+        {
+          "suffix": 513,
+          "member": "2_pcd/4R4-4/4R4-4_pcd_513.ply",
+          "crc32": 2394485600,
+          "bytes": 576550
+        }
+      ]
+    },
+    {
+      "tuber": "4R4-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          212,
+          352,
+          510
+        ]
+      },
+      "members": [
+        {
+          "suffix": 212,
+          "member": "2_pcd/4R4-5/4R4-5_pcd_212.ply",
+          "crc32": 4182576710,
+          "bytes": 376264
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/4R4-5/4R4-5_pcd_352.ply",
+          "crc32": 3360789544,
+          "bytes": 374023
+        },
+        {
+          "suffix": 510,
+          "member": "2_pcd/4R4-5/4R4-5_pcd_510.ply",
+          "crc32": 3763802979,
+          "bytes": 394003
+        }
+      ]
+    },
+    {
+      "tuber": "4R4-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          219,
+          366,
+          479
+        ]
+      },
+      "members": [
+        {
+          "suffix": 219,
+          "member": "2_pcd/4R4-7/4R4-7_pcd_219.ply",
+          "crc32": 1872906777,
+          "bytes": 605305
+        },
+        {
+          "suffix": 366,
+          "member": "2_pcd/4R4-7/4R4-7_pcd_366.ply",
+          "crc32": 1774678407,
+          "bytes": 651907
+        },
+        {
+          "suffix": 479,
+          "member": "2_pcd/4R4-7/4R4-7_pcd_479.ply",
+          "crc32": 1686841488,
+          "bytes": 645076
+        }
+      ]
+    },
+    {
+      "tuber": "4R4-8",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          196,
+          356,
+          495
+        ]
+      },
+      "members": [
+        {
+          "suffix": 196,
+          "member": "2_pcd/4R4-8/4R4-8_pcd_196.ply",
+          "crc32": 3134217449,
+          "bytes": 266292
+        },
+        {
+          "suffix": 356,
+          "member": "2_pcd/4R4-8/4R4-8_pcd_356.ply",
+          "crc32": 2408178067,
+          "bytes": 271207
+        },
+        {
+          "suffix": 495,
+          "member": "2_pcd/4R4-8/4R4-8_pcd_495.ply",
+          "crc32": 2733149832,
+          "bytes": 291295
+        }
+      ]
+    },
+    {
+      "tuber": "4R4-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          207,
+          369,
+          506
+        ]
+      },
+      "members": [
+        {
+          "suffix": 207,
+          "member": "2_pcd/4R4-9/4R4-9_pcd_207.ply",
+          "crc32": 1912156837,
+          "bytes": 305632
+        },
+        {
+          "suffix": 369,
+          "member": "2_pcd/4R4-9/4R4-9_pcd_369.ply",
+          "crc32": 1187289583,
+          "bytes": 311734
+        },
+        {
+          "suffix": 506,
+          "member": "2_pcd/4R4-9/4R4-9_pcd_506.ply",
+          "crc32": 3554309907,
+          "bytes": 316945
+        }
+      ]
+    },
+    {
+      "tuber": "4R5-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          229,
+          352,
+          495
+        ]
+      },
+      "members": [
+        {
+          "suffix": 229,
+          "member": "2_pcd/4R5-4/4R5-4_pcd_229.ply",
+          "crc32": 3685586227,
+          "bytes": 593101
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/4R5-4/4R5-4_pcd_352.ply",
+          "crc32": 925833754,
+          "bytes": 586756
+        },
+        {
+          "suffix": 495,
+          "member": "2_pcd/4R5-4/4R5-4_pcd_495.ply",
+          "crc32": 2980187229,
+          "bytes": 580519
+        }
+      ]
+    },
+    {
+      "tuber": "4R5-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          229,
+          371,
+          493
+        ]
+      },
+      "members": [
+        {
+          "suffix": 229,
+          "member": "2_pcd/4R5-5/4R5-5_pcd_229.ply",
+          "crc32": 1988510256,
+          "bytes": 456157
+        },
+        {
+          "suffix": 371,
+          "member": "2_pcd/4R5-5/4R5-5_pcd_371.ply",
+          "crc32": 1311181841,
+          "bytes": 431263
+        },
+        {
+          "suffix": 493,
+          "member": "2_pcd/4R5-5/4R5-5_pcd_493.ply",
+          "crc32": 804723414,
+          "bytes": 435124
+        }
+      ]
+    },
+    {
+      "tuber": "4R5-8",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          221,
+          357,
+          494
+        ]
+      },
+      "members": [
+        {
+          "suffix": 221,
+          "member": "2_pcd/4R5-8/4R5-8_pcd_221.ply",
+          "crc32": 2855927227,
+          "bytes": 375238
+        },
+        {
+          "suffix": 357,
+          "member": "2_pcd/4R5-8/4R5-8_pcd_357.ply",
+          "crc32": 3311088559,
+          "bytes": 366328
+        },
+        {
+          "suffix": 494,
+          "member": "2_pcd/4R5-8/4R5-8_pcd_494.ply",
+          "crc32": 317941718,
+          "bytes": 365734
+        }
+      ]
+    },
+    {
+      "tuber": "4R5-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          189,
+          363,
+          520
+        ]
+      },
+      "members": [
+        {
+          "suffix": 189,
+          "member": "2_pcd/4R5-9/4R5-9_pcd_189.ply",
+          "crc32": 419390548,
+          "bytes": 198900
+        },
+        {
+          "suffix": 363,
+          "member": "2_pcd/4R5-9/4R5-9_pcd_363.ply",
+          "crc32": 3025417008,
+          "bytes": 189612
+        },
+        {
+          "suffix": 520,
+          "member": "2_pcd/4R5-9/4R5-9_pcd_520.ply",
+          "crc32": 394426833,
+          "bytes": 191232
+        }
+      ]
+    },
+    {
+      "tuber": "4R6-1",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          228,
+          349,
+          494
+        ]
+      },
+      "members": [
+        {
+          "suffix": 228,
+          "member": "2_pcd/4R6-1/4R6-1_pcd_228.ply",
+          "crc32": 1933467520,
+          "bytes": 502543
+        },
+        {
+          "suffix": 349,
+          "member": "2_pcd/4R6-1/4R6-1_pcd_349.ply",
+          "crc32": 879493079,
+          "bytes": 515584
+        },
+        {
+          "suffix": 494,
+          "member": "2_pcd/4R6-1/4R6-1_pcd_494.ply",
+          "crc32": 4099271482,
+          "bytes": 537967
+        }
+      ]
+    },
+    {
+      "tuber": "4R6-10",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          221,
+          361,
+          504
+        ]
+      },
+      "members": [
+        {
+          "suffix": 221,
+          "member": "2_pcd/4R6-10/4R6-10_pcd_221.ply",
+          "crc32": 228581867,
+          "bytes": 307495
+        },
+        {
+          "suffix": 361,
+          "member": "2_pcd/4R6-10/4R6-10_pcd_361.ply",
+          "crc32": 3935819347,
+          "bytes": 287515
+        },
+        {
+          "suffix": 504,
+          "member": "2_pcd/4R6-10/4R6-10_pcd_504.ply",
+          "crc32": 3178419887,
+          "bytes": 272557
+        }
+      ]
+    },
+    {
+      "tuber": "4R6-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          224,
+          370,
+          498
+        ]
+      },
+      "members": [
+        {
+          "suffix": 224,
+          "member": "2_pcd/4R6-2/4R6-2_pcd_224.ply",
+          "crc32": 330263989,
+          "bytes": 454024
+        },
+        {
+          "suffix": 370,
+          "member": "2_pcd/4R6-2/4R6-2_pcd_370.ply",
+          "crc32": 3666672909,
+          "bytes": 449650
+        },
+        {
+          "suffix": 498,
+          "member": "2_pcd/4R6-2/4R6-2_pcd_498.ply",
+          "crc32": 3312279982,
+          "bytes": 437392
+        }
+      ]
+    },
+    {
+      "tuber": "4R6-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          220,
+          362,
+          504
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/4R6-4/4R6-4_pcd_220.ply",
+          "crc32": 3607383266,
+          "bytes": 227277
+        },
+        {
+          "suffix": 362,
+          "member": "2_pcd/4R6-4/4R6-4_pcd_362.ply",
+          "crc32": 1584791222,
+          "bytes": 231597
+        },
+        {
+          "suffix": 504,
+          "member": "2_pcd/4R6-4/4R6-4_pcd_504.ply",
+          "crc32": 315868555,
+          "bytes": 213102
+        }
+      ]
+    },
+    {
+      "tuber": "4R6-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          230,
+          356,
+          483
+        ]
+      },
+      "members": [
+        {
+          "suffix": 230,
+          "member": "2_pcd/4R6-5/4R6-5_pcd_230.ply",
+          "crc32": 1411446603,
+          "bytes": 526168
+        },
+        {
+          "suffix": 356,
+          "member": "2_pcd/4R6-5/4R6-5_pcd_356.ply",
+          "crc32": 1771654438,
+          "bytes": 527518
+        },
+        {
+          "suffix": 483,
+          "member": "2_pcd/4R6-5/4R6-5_pcd_483.ply",
+          "crc32": 883326314,
+          "bytes": 525169
+        }
+      ]
+    },
+    {
+      "tuber": "4R6-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          215,
+          363,
+          485
+        ]
+      },
+      "members": [
+        {
+          "suffix": 215,
+          "member": "2_pcd/4R6-6/4R6-6_pcd_215.ply",
+          "crc32": 3463966612,
+          "bytes": 492742
+        },
+        {
+          "suffix": 363,
+          "member": "2_pcd/4R6-6/4R6-6_pcd_363.ply",
+          "crc32": 4179234892,
+          "bytes": 485533
+        },
+        {
+          "suffix": 485,
+          "member": "2_pcd/4R6-6/4R6-6_pcd_485.ply",
+          "crc32": 1957341642,
+          "bytes": 511129
+        }
+      ]
+    },
+    {
+      "tuber": "4R6-7",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          237,
+          359,
+          465
+        ]
+      },
+      "members": [
+        {
+          "suffix": 237,
+          "member": "2_pcd/4R6-7/4R6-7_pcd_237.ply",
+          "crc32": 4030620074,
+          "bytes": 1008280
+        },
+        {
+          "suffix": 359,
+          "member": "2_pcd/4R6-7/4R6-7_pcd_359.ply",
+          "crc32": 2761606520,
+          "bytes": 984952
+        },
+        {
+          "suffix": 465,
+          "member": "2_pcd/4R6-7/4R6-7_pcd_465.ply",
+          "crc32": 3090998410,
+          "bytes": 980011
+        }
+      ]
+    },
+    {
+      "tuber": "4R8-2",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          225,
+          369,
+          490
+        ]
+      },
+      "members": [
+        {
+          "suffix": 225,
+          "member": "2_pcd/4R8-2/4R8-2_pcd_225.ply",
+          "crc32": 2077591101,
+          "bytes": 391465
+        },
+        {
+          "suffix": 369,
+          "member": "2_pcd/4R8-2/4R8-2_pcd_369.ply",
+          "crc32": 3772173660,
+          "bytes": 414685
+        },
+        {
+          "suffix": 490,
+          "member": "2_pcd/4R8-2/4R8-2_pcd_490.ply",
+          "crc32": 4000580873,
+          "bytes": 427402
+        }
+      ]
+    },
+    {
+      "tuber": "4R8-3",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          211,
+          356,
+          499
+        ]
+      },
+      "members": [
+        {
+          "suffix": 211,
+          "member": "2_pcd/4R8-3/4R8-3_pcd_211.ply",
+          "crc32": 2866145179,
+          "bytes": 381745
+        },
+        {
+          "suffix": 356,
+          "member": "2_pcd/4R8-3/4R8-3_pcd_356.ply",
+          "crc32": 3213543853,
+          "bytes": 393328
+        },
+        {
+          "suffix": 499,
+          "member": "2_pcd/4R8-3/4R8-3_pcd_499.ply",
+          "crc32": 4133500265,
+          "bytes": 410905
+        }
+      ]
+    },
+    {
+      "tuber": "4R8-5",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          207,
+          370,
+          514
+        ]
+      },
+      "members": [
+        {
+          "suffix": 207,
+          "member": "2_pcd/4R8-5/4R8-5_pcd_207.ply",
+          "crc32": 476727472,
+          "bytes": 323668
+        },
+        {
+          "suffix": 370,
+          "member": "2_pcd/4R8-5/4R8-5_pcd_370.ply",
+          "crc32": 573691341,
+          "bytes": 321319
+        },
+        {
+          "suffix": 514,
+          "member": "2_pcd/4R8-5/4R8-5_pcd_514.ply",
+          "crc32": 997136511,
+          "bytes": 334819
+        }
+      ]
+    },
+    {
+      "tuber": "4R8-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          205,
+          366,
+          507
+        ]
+      },
+      "members": [
+        {
+          "suffix": 205,
+          "member": "2_pcd/4R8-6/4R8-6_pcd_205.ply",
+          "crc32": 3998317524,
+          "bytes": 335683
+        },
+        {
+          "suffix": 366,
+          "member": "2_pcd/4R8-6/4R8-6_pcd_366.ply",
+          "crc32": 2465949523,
+          "bytes": 333685
+        },
+        {
+          "suffix": 507,
+          "member": "2_pcd/4R8-6/4R8-6_pcd_507.ply",
+          "crc32": 3173761720,
+          "bytes": 340327
+        }
+      ]
+    },
+    {
+      "tuber": "4R8-8",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          220,
+          359,
+          479
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/4R8-8/4R8-8_pcd_220.ply",
+          "crc32": 2272500305,
+          "bytes": 534376
+        },
+        {
+          "suffix": 359,
+          "member": "2_pcd/4R8-8/4R8-8_pcd_359.ply",
+          "crc32": 3891806546,
+          "bytes": 519526
+        },
+        {
+          "suffix": 479,
+          "member": "2_pcd/4R8-8/4R8-8_pcd_479.ply",
+          "crc32": 2787820023,
+          "bytes": 544879
+        }
+      ]
+    },
+    {
+      "tuber": "4R8-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          240,
+          358,
+          501
+        ]
+      },
+      "members": [
+        {
+          "suffix": 240,
+          "member": "2_pcd/4R8-9/4R8-9_pcd_240.ply",
+          "crc32": 799353845,
+          "bytes": 578197
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/4R8-9/4R8-9_pcd_358.ply",
+          "crc32": 3057759252,
+          "bytes": 585379
+        },
+        {
+          "suffix": 501,
+          "member": "2_pcd/4R8-9/4R8-9_pcd_501.ply",
+          "crc32": 2107390815,
+          "bytes": 572635
+        }
+      ]
+    },
+    {
+      "tuber": "R1-1",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          209,
+          355,
+          493
+        ]
+      },
+      "members": [
+        {
+          "suffix": 209,
+          "member": "2_pcd/R1-1/R1-1_pcd_209.ply",
+          "crc32": 3347115927,
+          "bytes": 267048
+        },
+        {
+          "suffix": 355,
+          "member": "2_pcd/R1-1/R1-1_pcd_355.ply",
+          "crc32": 3790903424,
+          "bytes": 264645
+        },
+        {
+          "suffix": 493,
+          "member": "2_pcd/R1-1/R1-1_pcd_493.ply",
+          "crc32": 2721713314,
+          "bytes": 285922
+        }
+      ]
+    },
+    {
+      "tuber": "R1-2",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          242,
+          370,
+          496
+        ]
+      },
+      "members": [
+        {
+          "suffix": 242,
+          "member": "2_pcd/R1-2/R1-2_pcd_242.ply",
+          "crc32": 1808088541,
+          "bytes": 629713
+        },
+        {
+          "suffix": 370,
+          "member": "2_pcd/R1-2/R1-2_pcd_370.ply",
+          "crc32": 2438787472,
+          "bytes": 608437
+        },
+        {
+          "suffix": 496,
+          "member": "2_pcd/R1-2/R1-2_pcd_496.ply",
+          "crc32": 2926592789,
+          "bytes": 611920
+        }
+      ]
+    },
+    {
+      "tuber": "R1-3",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          231,
+          358,
+          505
+        ]
+      },
+      "members": [
+        {
+          "suffix": 231,
+          "member": "2_pcd/R1-3/R1-3_pcd_231.ply",
+          "crc32": 3366348999,
+          "bytes": 439525
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/R1-3/R1-3_pcd_358.ply",
+          "crc32": 3789961193,
+          "bytes": 422542
+        },
+        {
+          "suffix": 505,
+          "member": "2_pcd/R1-3/R1-3_pcd_505.ply",
+          "crc32": 3265923189,
+          "bytes": 417304
+        }
+      ]
+    },
+    {
+      "tuber": "R1-8",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          242,
+          364,
+          484
+        ]
+      },
+      "members": [
+        {
+          "suffix": 242,
+          "member": "2_pcd/R1-8/R1-8_pcd_242.ply",
+          "crc32": 718913546,
+          "bytes": 601606
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/R1-8/R1-8_pcd_364.ply",
+          "crc32": 1150889686,
+          "bytes": 596692
+        },
+        {
+          "suffix": 484,
+          "member": "2_pcd/R1-8/R1-8_pcd_484.ply",
+          "crc32": 371093483,
+          "bytes": 591265
+        }
+      ]
+    },
+    {
+      "tuber": "R1-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          230,
+          350,
+          491
+        ]
+      },
+      "members": [
+        {
+          "suffix": 230,
+          "member": "2_pcd/R1-9/R1-9_pcd_230.ply",
+          "crc32": 3778270511,
+          "bytes": 385039
+        },
+        {
+          "suffix": 350,
+          "member": "2_pcd/R1-9/R1-9_pcd_350.ply",
+          "crc32": 2329073442,
+          "bytes": 383041
+        },
+        {
+          "suffix": 491,
+          "member": "2_pcd/R1-9/R1-9_pcd_491.ply",
+          "crc32": 2261961051,
+          "bytes": 393274
+        }
+      ]
+    },
+    {
+      "tuber": "R10-10",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          222,
+          360,
+          497
+        ]
+      },
+      "members": [
+        {
+          "suffix": 222,
+          "member": "2_pcd/R10-10/R10-10_pcd_222.ply",
+          "crc32": 1792962538,
+          "bytes": 309412
+        },
+        {
+          "suffix": 360,
+          "member": "2_pcd/R10-10/R10-10_pcd_360.ply",
+          "crc32": 3523948546,
+          "bytes": 310627
+        },
+        {
+          "suffix": 497,
+          "member": "2_pcd/R10-10/R10-10_pcd_497.ply",
+          "crc32": 4041889781,
+          "bytes": 310276
+        }
+      ]
+    },
+    {
+      "tuber": "R10-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          215,
+          355,
+          505
+        ]
+      },
+      "members": [
+        {
+          "suffix": 215,
+          "member": "2_pcd/R10-4/R10-4_pcd_215.ply",
+          "crc32": 3824961838,
+          "bytes": 357472
+        },
+        {
+          "suffix": 355,
+          "member": "2_pcd/R10-4/R10-4_pcd_355.ply",
+          "crc32": 716433145,
+          "bytes": 347077
+        },
+        {
+          "suffix": 505,
+          "member": "2_pcd/R10-4/R10-4_pcd_505.ply",
+          "crc32": 1428346661,
+          "bytes": 382123
+        }
+      ]
+    },
+    {
+      "tuber": "R10-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          205,
+          351,
+          493
+        ]
+      },
+      "members": [
+        {
+          "suffix": 205,
+          "member": "2_pcd/R10-6/R10-6_pcd_205.ply",
+          "crc32": 1668361085,
+          "bytes": 423163
+        },
+        {
+          "suffix": 351,
+          "member": "2_pcd/R10-6/R10-6_pcd_351.ply",
+          "crc32": 905082535,
+          "bytes": 430021
+        },
+        {
+          "suffix": 493,
+          "member": "2_pcd/R10-6/R10-6_pcd_493.ply",
+          "crc32": 3522205130,
+          "bytes": 449866
+        }
+      ]
+    },
+    {
+      "tuber": "R10-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          209,
+          367,
+          499
+        ]
+      },
+      "members": [
+        {
+          "suffix": 209,
+          "member": "2_pcd/R10-7/R10-7_pcd_209.ply",
+          "crc32": 4155452204,
+          "bytes": 427402
+        },
+        {
+          "suffix": 367,
+          "member": "2_pcd/R10-7/R10-7_pcd_367.ply",
+          "crc32": 122623740,
+          "bytes": 426430
+        },
+        {
+          "suffix": 499,
+          "member": "2_pcd/R10-7/R10-7_pcd_499.ply",
+          "crc32": 411182776,
+          "bytes": 443440
+        }
+      ]
+    },
+    {
+      "tuber": "R10-8",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          224,
+          353,
+          497
+        ]
+      },
+      "members": [
+        {
+          "suffix": 224,
+          "member": "2_pcd/R10-8/R10-8_pcd_224.ply",
+          "crc32": 1117351113,
+          "bytes": 639217
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/R10-8/R10-8_pcd_353.ply",
+          "crc32": 2053326990,
+          "bytes": 619291
+        },
+        {
+          "suffix": 497,
+          "member": "2_pcd/R10-8/R10-8_pcd_497.ply",
+          "crc32": 3352726758,
+          "bytes": 609166
+        }
+      ]
+    },
+    {
+      "tuber": "R10-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          209,
+          367,
+          518
+        ]
+      },
+      "members": [
+        {
+          "suffix": 209,
+          "member": "2_pcd/R10-9/R10-9_pcd_209.ply",
+          "crc32": 3590115842,
+          "bytes": 172224
+        },
+        {
+          "suffix": 367,
+          "member": "2_pcd/R10-9/R10-9_pcd_367.ply",
+          "crc32": 3384017169,
+          "bytes": 168336
+        },
+        {
+          "suffix": 518,
+          "member": "2_pcd/R10-9/R10-9_pcd_518.ply",
+          "crc32": 3643824037,
+          "bytes": 165555
+        }
+      ]
+    },
+    {
+      "tuber": "R11-1",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          226,
+          352,
+          497
+        ]
+      },
+      "members": [
+        {
+          "suffix": 226,
+          "member": "2_pcd/R11-1/R11-1_pcd_226.ply",
+          "crc32": 3450107530,
+          "bytes": 436339
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/R11-1/R11-1_pcd_352.ply",
+          "crc32": 1889935581,
+          "bytes": 417763
+        },
+        {
+          "suffix": 497,
+          "member": "2_pcd/R11-1/R11-1_pcd_497.ply",
+          "crc32": 282451806,
+          "bytes": 396838
+        }
+      ]
+    },
+    {
+      "tuber": "R11-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          218,
+          357,
+          496
+        ]
+      },
+      "members": [
+        {
+          "suffix": 218,
+          "member": "2_pcd/R11-2/R11-2_pcd_218.ply",
+          "crc32": 2657988806,
+          "bytes": 330850
+        },
+        {
+          "suffix": 357,
+          "member": "2_pcd/R11-2/R11-2_pcd_357.ply",
+          "crc32": 2887248310,
+          "bytes": 315352
+        },
+        {
+          "suffix": 496,
+          "member": "2_pcd/R11-2/R11-2_pcd_496.ply",
+          "crc32": 2267710519,
+          "bytes": 316621
+        }
+      ]
+    },
+    {
+      "tuber": "R11-5",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          245,
+          354,
+          507
+        ]
+      },
+      "members": [
+        {
+          "suffix": 245,
+          "member": "2_pcd/R11-5/R11-5_pcd_245.ply",
+          "crc32": 2945226170,
+          "bytes": 734338
+        },
+        {
+          "suffix": 354,
+          "member": "2_pcd/R11-5/R11-5_pcd_354.ply",
+          "crc32": 2335033636,
+          "bytes": 729289
+        },
+        {
+          "suffix": 507,
+          "member": "2_pcd/R11-5/R11-5_pcd_507.ply",
+          "crc32": 2323068976,
+          "bytes": 741061
+        }
+      ]
+    },
+    {
+      "tuber": "R11-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          228,
+          355,
+          498
+        ]
+      },
+      "members": [
+        {
+          "suffix": 228,
+          "member": "2_pcd/R11-6/R11-6_pcd_228.ply",
+          "crc32": 247709883,
+          "bytes": 621883
+        },
+        {
+          "suffix": 355,
+          "member": "2_pcd/R11-6/R11-6_pcd_355.ply",
+          "crc32": 1224577532,
+          "bytes": 613648
+        },
+        {
+          "suffix": 498,
+          "member": "2_pcd/R11-6/R11-6_pcd_498.ply",
+          "crc32": 4050330294,
+          "bytes": 633790
+        }
+      ]
+    },
+    {
+      "tuber": "R11-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          235,
+          360,
+          484
+        ]
+      },
+      "members": [
+        {
+          "suffix": 235,
+          "member": "2_pcd/R11-7/R11-7_pcd_235.ply",
+          "crc32": 1050423986,
+          "bytes": 596476
+        },
+        {
+          "suffix": 360,
+          "member": "2_pcd/R11-7/R11-7_pcd_360.ply",
+          "crc32": 4189748301,
+          "bytes": 608194
+        },
+        {
+          "suffix": 484,
+          "member": "2_pcd/R11-7/R11-7_pcd_484.ply",
+          "crc32": 3415754862,
+          "bytes": 625528
+        }
+      ]
+    },
+    {
+      "tuber": "R11-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          227,
+          351,
+          491
+        ]
+      },
+      "members": [
+        {
+          "suffix": 227,
+          "member": "2_pcd/R11-9/R11-9_pcd_227.ply",
+          "crc32": 1047153783,
+          "bytes": 559135
+        },
+        {
+          "suffix": 351,
+          "member": "2_pcd/R11-9/R11-9_pcd_351.ply",
+          "crc32": 4021942349,
+          "bytes": 577090
+        },
+        {
+          "suffix": 491,
+          "member": "2_pcd/R11-9/R11-9_pcd_491.ply",
+          "crc32": 3190880714,
+          "bytes": 587350
+        }
+      ]
+    },
+    {
+      "tuber": "R13-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          247,
+          355,
+          522
+        ]
+      },
+      "members": [
+        {
+          "suffix": 247,
+          "member": "2_pcd/R13-2/R13-2_pcd_247.ply",
+          "crc32": 3196747617,
+          "bytes": 457210
+        },
+        {
+          "suffix": 355,
+          "member": "2_pcd/R13-2/R13-2_pcd_355.ply",
+          "crc32": 4244735969,
+          "bytes": 452890
+        },
+        {
+          "suffix": 522,
+          "member": "2_pcd/R13-2/R13-2_pcd_522.ply",
+          "crc32": 4195265342,
+          "bytes": 436690
+        }
+      ]
+    },
+    {
+      "tuber": "R13-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          223,
+          366,
+          488
+        ]
+      },
+      "members": [
+        {
+          "suffix": 223,
+          "member": "2_pcd/R13-4/R13-4_pcd_223.ply",
+          "crc32": 480087444,
+          "bytes": 500734
+        },
+        {
+          "suffix": 366,
+          "member": "2_pcd/R13-4/R13-4_pcd_366.ply",
+          "crc32": 620298610,
+          "bytes": 473653
+        },
+        {
+          "suffix": 488,
+          "member": "2_pcd/R13-4/R13-4_pcd_488.ply",
+          "crc32": 2229943920,
+          "bytes": 487639
+        }
+      ]
+    },
+    {
+      "tuber": "R2-10",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          222,
+          363,
+          514
+        ]
+      },
+      "members": [
+        {
+          "suffix": 222,
+          "member": "2_pcd/R2-10/R2-10_pcd_222.ply",
+          "crc32": 128343799,
+          "bytes": 266481
+        },
+        {
+          "suffix": 363,
+          "member": "2_pcd/R2-10/R2-10_pcd_363.ply",
+          "crc32": 3679880626,
+          "bytes": 258084
+        },
+        {
+          "suffix": 514,
+          "member": "2_pcd/R2-10/R2-10_pcd_514.ply",
+          "crc32": 200930084,
+          "bytes": 274771
+        }
+      ]
+    },
+    {
+      "tuber": "R2-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          234,
+          360,
+          503
+        ]
+      },
+      "members": [
+        {
+          "suffix": 234,
+          "member": "2_pcd/R2-2/R2-2_pcd_234.ply",
+          "crc32": 1733995201,
+          "bytes": 474436
+        },
+        {
+          "suffix": 360,
+          "member": "2_pcd/R2-2/R2-2_pcd_360.ply",
+          "crc32": 1876001794,
+          "bytes": 496846
+        },
+        {
+          "suffix": 503,
+          "member": "2_pcd/R2-2/R2-2_pcd_503.ply",
+          "crc32": 3697048167,
+          "bytes": 519526
+        }
+      ]
+    },
+    {
+      "tuber": "R2-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          202,
+          364,
+          502
+        ]
+      },
+      "members": [
+        {
+          "suffix": 202,
+          "member": "2_pcd/R2-4/R2-4_pcd_202.ply",
+          "crc32": 4128653671,
+          "bytes": 188991
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/R2-4/R2-4_pcd_364.ply",
+          "crc32": 2309118550,
+          "bytes": 200817
+        },
+        {
+          "suffix": 502,
+          "member": "2_pcd/R2-4/R2-4_pcd_502.ply",
+          "crc32": 2670592310,
+          "bytes": 212373
+        }
+      ]
+    },
+    {
+      "tuber": "R2-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          214,
+          358,
+          493
+        ]
+      },
+      "members": [
+        {
+          "suffix": 214,
+          "member": "2_pcd/R2-7/R2-7_pcd_214.ply",
+          "crc32": 1435524399,
+          "bytes": 355312
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/R2-7/R2-7_pcd_358.ply",
+          "crc32": 473672078,
+          "bytes": 354799
+        },
+        {
+          "suffix": 493,
+          "member": "2_pcd/R2-7/R2-7_pcd_493.ply",
+          "crc32": 3158670785,
+          "bytes": 340516
+        }
+      ]
+    },
+    {
+      "tuber": "R3-1",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          206,
+          368,
+          506
+        ]
+      },
+      "members": [
+        {
+          "suffix": 206,
+          "member": "2_pcd/R3-1/R3-1_pcd_206.ply",
+          "crc32": 169019392,
+          "bytes": 298153
+        },
+        {
+          "suffix": 368,
+          "member": "2_pcd/R3-1/R3-1_pcd_368.ply",
+          "crc32": 3100420398,
+          "bytes": 290917
+        },
+        {
+          "suffix": 506,
+          "member": "2_pcd/R3-1/R3-1_pcd_506.ply",
+          "crc32": 1205792381,
+          "bytes": 297235
+        }
+      ]
+    },
+    {
+      "tuber": "R3-2",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          216,
+          358,
+          501
+        ]
+      },
+      "members": [
+        {
+          "suffix": 216,
+          "member": "2_pcd/R3-2/R3-2_pcd_216.ply",
+          "crc32": 1433384385,
+          "bytes": 268317
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/R3-2/R3-2_pcd_358.ply",
+          "crc32": 1128651965,
+          "bytes": 260784
+        },
+        {
+          "suffix": 501,
+          "member": "2_pcd/R3-2/R3-2_pcd_501.ply",
+          "crc32": 2068389941,
+          "bytes": 258651
+        }
+      ]
+    },
+    {
+      "tuber": "R3-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          202,
+          365,
+          499
+        ]
+      },
+      "members": [
+        {
+          "suffix": 202,
+          "member": "2_pcd/R3-3/R3-3_pcd_202.ply",
+          "crc32": 3936800163,
+          "bytes": 328015
+        },
+        {
+          "suffix": 365,
+          "member": "2_pcd/R3-3/R3-3_pcd_365.ply",
+          "crc32": 2608818045,
+          "bytes": 327826
+        },
+        {
+          "suffix": 499,
+          "member": "2_pcd/R3-3/R3-3_pcd_499.ply",
+          "crc32": 3849514212,
+          "bytes": 337654
+        }
+      ]
+    },
+    {
+      "tuber": "R3-8",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          242,
+          368,
+          472
+        ]
+      },
+      "members": [
+        {
+          "suffix": 242,
+          "member": "2_pcd/R3-8/R3-8_pcd_242.ply",
+          "crc32": 2771780,
+          "bytes": 825355
+        },
+        {
+          "suffix": 368,
+          "member": "2_pcd/R3-8/R3-8_pcd_368.ply",
+          "crc32": 3248054083,
+          "bytes": 812503
+        },
+        {
+          "suffix": 472,
+          "member": "2_pcd/R3-8/R3-8_pcd_472.ply",
+          "crc32": 3742465812,
+          "bytes": 819550
+        }
+      ]
+    },
+    {
+      "tuber": "R4-2",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          231,
+          352,
+          496
+        ]
+      },
+      "members": [
+        {
+          "suffix": 231,
+          "member": "2_pcd/R4-2/R4-2_pcd_231.ply",
+          "crc32": 930161346,
+          "bytes": 613027
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/R4-2/R4-2_pcd_352.ply",
+          "crc32": 2126544617,
+          "bytes": 597664
+        },
+        {
+          "suffix": 496,
+          "member": "2_pcd/R4-2/R4-2_pcd_496.ply",
+          "crc32": 2447743837,
+          "bytes": 630955
+        }
+      ]
+    },
+    {
+      "tuber": "R4-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          232,
+          360,
+          500
+        ]
+      },
+      "members": [
+        {
+          "suffix": 232,
+          "member": "2_pcd/R4-3/R4-3_pcd_232.ply",
+          "crc32": 1269647705,
+          "bytes": 476002
+        },
+        {
+          "suffix": 360,
+          "member": "2_pcd/R4-3/R4-3_pcd_360.ply",
+          "crc32": 3545518072,
+          "bytes": 454267
+        },
+        {
+          "suffix": 500,
+          "member": "2_pcd/R4-3/R4-3_pcd_500.ply",
+          "crc32": 1026114686,
+          "bytes": 460666
+        }
+      ]
+    },
+    {
+      "tuber": "R4-4",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          220,
+          358,
+          519
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/R4-4/R4-4_pcd_220.ply",
+          "crc32": 172209111,
+          "bytes": 167175
+        },
+        {
+          "suffix": 358,
+          "member": "2_pcd/R4-4/R4-4_pcd_358.ply",
+          "crc32": 2354807288,
+          "bytes": 171846
+        },
+        {
+          "suffix": 519,
+          "member": "2_pcd/R4-4/R4-4_pcd_519.ply",
+          "crc32": 1131304669,
+          "bytes": 173142
+        }
+      ]
+    },
+    {
+      "tuber": "R4-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          217,
+          359,
+          496
+        ]
+      },
+      "members": [
+        {
+          "suffix": 217,
+          "member": "2_pcd/R4-5/R4-5_pcd_217.ply",
+          "crc32": 462972249,
+          "bytes": 286732
+        },
+        {
+          "suffix": 359,
+          "member": "2_pcd/R4-5/R4-5_pcd_359.ply",
+          "crc32": 2660799933,
+          "bytes": 290485
+        },
+        {
+          "suffix": 496,
+          "member": "2_pcd/R4-5/R4-5_pcd_496.ply",
+          "crc32": 3177423117,
+          "bytes": 304390
+        }
+      ]
+    },
+    {
+      "tuber": "R4-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          226,
+          352,
+          493
+        ]
+      },
+      "members": [
+        {
+          "suffix": 226,
+          "member": "2_pcd/R4-6/R4-6_pcd_226.ply",
+          "crc32": 2814524158,
+          "bytes": 361279
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/R4-6/R4-6_pcd_352.ply",
+          "crc32": 1927833992,
+          "bytes": 374455
+        },
+        {
+          "suffix": 493,
+          "member": "2_pcd/R4-6/R4-6_pcd_493.ply",
+          "crc32": 1666786422,
+          "bytes": 391897
+        }
+      ]
+    },
+    {
+      "tuber": "R4-7",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          222,
+          363,
+          504
+        ]
+      },
+      "members": [
+        {
+          "suffix": 222,
+          "member": "2_pcd/R4-7/R4-7_pcd_222.ply",
+          "crc32": 3067685503,
+          "bytes": 378397
+        },
+        {
+          "suffix": 363,
+          "member": "2_pcd/R4-7/R4-7_pcd_363.ply",
+          "crc32": 3784440500,
+          "bytes": 354556
+        },
+        {
+          "suffix": 504,
+          "member": "2_pcd/R4-7/R4-7_pcd_504.ply",
+          "crc32": 298315404,
+          "bytes": 366193
+        }
+      ]
+    },
+    {
+      "tuber": "R4-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          235,
+          357,
+          495
+        ]
+      },
+      "members": [
+        {
+          "suffix": 235,
+          "member": "2_pcd/R4-9/R4-9_pcd_235.ply",
+          "crc32": 4036977975,
+          "bytes": 360172
+        },
+        {
+          "suffix": 357,
+          "member": "2_pcd/R4-9/R4-9_pcd_357.ply",
+          "crc32": 2333205631,
+          "bytes": 334036
+        },
+        {
+          "suffix": 495,
+          "member": "2_pcd/R4-9/R4-9_pcd_495.ply",
+          "crc32": 3172282744,
+          "bytes": 346429
+        }
+      ]
+    },
+    {
+      "tuber": "R5-1",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          208,
+          356,
+          497
+        ]
+      },
+      "members": [
+        {
+          "suffix": 208,
+          "member": "2_pcd/R5-1/R5-1_pcd_208.ply",
+          "crc32": 1604737563,
+          "bytes": 317620
+        },
+        {
+          "suffix": 356,
+          "member": "2_pcd/R5-1/R5-1_pcd_356.ply",
+          "crc32": 2827316776,
+          "bytes": 317674
+        },
+        {
+          "suffix": 497,
+          "member": "2_pcd/R5-1/R5-1_pcd_497.ply",
+          "crc32": 2939635437,
+          "bytes": 313894
+        }
+      ]
+    },
+    {
+      "tuber": "R5-10",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          213,
+          357,
+          483
+        ]
+      },
+      "members": [
+        {
+          "suffix": 213,
+          "member": "2_pcd/R5-10/R5-10_pcd_213.ply",
+          "crc32": 1439625335,
+          "bytes": 480700
+        },
+        {
+          "suffix": 357,
+          "member": "2_pcd/R5-10/R5-10_pcd_357.ply",
+          "crc32": 4164478623,
+          "bytes": 461341
+        },
+        {
+          "suffix": 483,
+          "member": "2_pcd/R5-10/R5-10_pcd_483.ply",
+          "crc32": 3831443974,
+          "bytes": 446599
+        }
+      ]
+    },
+    {
+      "tuber": "R5-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          216,
+          364,
+          478
+        ]
+      },
+      "members": [
+        {
+          "suffix": 216,
+          "member": "2_pcd/R5-3/R5-3_pcd_216.ply",
+          "crc32": 3385122390,
+          "bytes": 531001
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/R5-3/R5-3_pcd_364.ply",
+          "crc32": 2691022696,
+          "bytes": 513559
+        },
+        {
+          "suffix": 478,
+          "member": "2_pcd/R5-3/R5-3_pcd_478.ply",
+          "crc32": 686916397,
+          "bytes": 511453
+        }
+      ]
+    },
+    {
+      "tuber": "R5-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          210,
+          356,
+          523
+        ]
+      },
+      "members": [
+        {
+          "suffix": 210,
+          "member": "2_pcd/R5-4/R5-4_pcd_210.ply",
+          "crc32": 168955878,
+          "bytes": 234783
+        },
+        {
+          "suffix": 356,
+          "member": "2_pcd/R5-4/R5-4_pcd_356.ply",
+          "crc32": 1569884331,
+          "bytes": 230031
+        },
+        {
+          "suffix": 523,
+          "member": "2_pcd/R5-4/R5-4_pcd_523.ply",
+          "crc32": 3346068165,
+          "bytes": 229761
+        }
+      ]
+    },
+    {
+      "tuber": "R5-7",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          204,
+          362,
+          503
+        ]
+      },
+      "members": [
+        {
+          "suffix": 204,
+          "member": "2_pcd/R5-7/R5-7_pcd_204.ply",
+          "crc32": 3988136274,
+          "bytes": 319645
+        },
+        {
+          "suffix": 362,
+          "member": "2_pcd/R5-7/R5-7_pcd_362.ply",
+          "crc32": 678253286,
+          "bytes": 321886
+        },
+        {
+          "suffix": 503,
+          "member": "2_pcd/R5-7/R5-7_pcd_503.ply",
+          "crc32": 1624212317,
+          "bytes": 320617
+        }
+      ]
+    },
+    {
+      "tuber": "R5-8",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          221,
+          352,
+          494
+        ]
+      },
+      "members": [
+        {
+          "suffix": 221,
+          "member": "2_pcd/R5-8/R5-8_pcd_221.ply",
+          "crc32": 1538780198,
+          "bytes": 413740
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/R5-8/R5-8_pcd_352.ply",
+          "crc32": 3981635345,
+          "bytes": 367867
+        },
+        {
+          "suffix": 494,
+          "member": "2_pcd/R5-8/R5-8_pcd_494.ply",
+          "crc32": 199914732,
+          "bytes": 349075
+        }
+      ]
+    },
+    {
+      "tuber": "R5-9",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          229,
+          349,
+          493
+        ]
+      },
+      "members": [
+        {
+          "suffix": 229,
+          "member": "2_pcd/R5-9/R5-9_pcd_229.ply",
+          "crc32": 1004024530,
+          "bytes": 376669
+        },
+        {
+          "suffix": 349,
+          "member": "2_pcd/R5-9/R5-9_pcd_349.ply",
+          "crc32": 44400259,
+          "bytes": 366436
+        },
+        {
+          "suffix": 493,
+          "member": "2_pcd/R5-9/R5-9_pcd_493.ply",
+          "crc32": 2428699016,
+          "bytes": 357553
+        }
+      ]
+    },
+    {
+      "tuber": "R6-1",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          201,
+          363,
+          504
+        ]
+      },
+      "members": [
+        {
+          "suffix": 201,
+          "member": "2_pcd/R6-1/R6-1_pcd_201.ply",
+          "crc32": 1090517949,
+          "bytes": 385309
+        },
+        {
+          "suffix": 363,
+          "member": "2_pcd/R6-1/R6-1_pcd_363.ply",
+          "crc32": 3921232506,
+          "bytes": 373888
+        },
+        {
+          "suffix": 504,
+          "member": "2_pcd/R6-1/R6-1_pcd_504.ply",
+          "crc32": 3466731533,
+          "bytes": 370378
+        }
+      ]
+    },
+    {
+      "tuber": "R6-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          213,
+          352,
+          496
+        ]
+      },
+      "members": [
+        {
+          "suffix": 213,
+          "member": "2_pcd/R6-2/R6-2_pcd_213.ply",
+          "crc32": 2553050925,
+          "bytes": 363250
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/R6-2/R6-2_pcd_352.ply",
+          "crc32": 1148833802,
+          "bytes": 370243
+        },
+        {
+          "suffix": 496,
+          "member": "2_pcd/R6-2/R6-2_pcd_496.ply",
+          "crc32": 2360611521,
+          "bytes": 396514
+        }
+      ]
+    },
+    {
+      "tuber": "R6-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          227,
+          367,
+          486
+        ]
+      },
+      "members": [
+        {
+          "suffix": 227,
+          "member": "2_pcd/R6-3/R6-3_pcd_227.ply",
+          "crc32": 1984337637,
+          "bytes": 596449
+        },
+        {
+          "suffix": 367,
+          "member": "2_pcd/R6-3/R6-3_pcd_367.ply",
+          "crc32": 178848723,
+          "bytes": 581275
+        },
+        {
+          "suffix": 486,
+          "member": "2_pcd/R6-3/R6-3_pcd_486.ply",
+          "crc32": 771197231,
+          "bytes": 562078
+        }
+      ]
+    },
+    {
+      "tuber": "R6-5",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          216,
+          353,
+          490
+        ]
+      },
+      "members": [
+        {
+          "suffix": 216,
+          "member": "2_pcd/R6-5/R6-5_pcd_216.ply",
+          "crc32": 375727696,
+          "bytes": 504946
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/R6-5/R6-5_pcd_353.ply",
+          "crc32": 541888423,
+          "bytes": 490447
+        },
+        {
+          "suffix": 490,
+          "member": "2_pcd/R6-5/R6-5_pcd_490.ply",
+          "crc32": 624583218,
+          "bytes": 493336
+        }
+      ]
+    },
+    {
+      "tuber": "R6-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          224,
+          360,
+          517
+        ]
+      },
+      "members": [
+        {
+          "suffix": 224,
+          "member": "2_pcd/R6-7/R6-7_pcd_224.ply",
+          "crc32": 1835105169,
+          "bytes": 256680
+        },
+        {
+          "suffix": 360,
+          "member": "2_pcd/R6-7/R6-7_pcd_360.ply",
+          "crc32": 2634817419,
+          "bytes": 253170
+        },
+        {
+          "suffix": 517,
+          "member": "2_pcd/R6-7/R6-7_pcd_517.ply",
+          "crc32": 696056990,
+          "bytes": 270775
+        }
+      ]
+    },
+    {
+      "tuber": "R6-8",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          224,
+          364,
+          506
+        ]
+      },
+      "members": [
+        {
+          "suffix": 224,
+          "member": "2_pcd/R6-8/R6-8_pcd_224.ply",
+          "crc32": 1454677753,
+          "bytes": 405964
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/R6-8/R6-8_pcd_364.ply",
+          "crc32": 2926183083,
+          "bytes": 389683
+        },
+        {
+          "suffix": 506,
+          "member": "2_pcd/R6-8/R6-8_pcd_506.ply",
+          "crc32": 1401774664,
+          "bytes": 385066
+        }
+      ]
+    },
+    {
+      "tuber": "R6-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          241,
+          364,
+          488
+        ]
+      },
+      "members": [
+        {
+          "suffix": 241,
+          "member": "2_pcd/R6-9/R6-9_pcd_241.ply",
+          "crc32": 2487509153,
+          "bytes": 562348
+        },
+        {
+          "suffix": 364,
+          "member": "2_pcd/R6-9/R6-9_pcd_364.ply",
+          "crc32": 131453924,
+          "bytes": 555409
+        },
+        {
+          "suffix": 488,
+          "member": "2_pcd/R6-9/R6-9_pcd_488.ply",
+          "crc32": 1978594407,
+          "bytes": 563563
+        }
+      ]
+    },
+    {
+      "tuber": "R7-10",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          215,
+          352,
+          494
+        ]
+      },
+      "members": [
+        {
+          "suffix": 215,
+          "member": "2_pcd/R7-10/R7-10_pcd_215.ply",
+          "crc32": 2274808508,
+          "bytes": 267291
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/R7-10/R7-10_pcd_352.ply",
+          "crc32": 2607772745,
+          "bytes": 261567
+        },
+        {
+          "suffix": 494,
+          "member": "2_pcd/R7-10/R7-10_pcd_494.ply",
+          "crc32": 3247887853,
+          "bytes": 255708
+        }
+      ]
+    },
+    {
+      "tuber": "R7-2",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          220,
+          359,
+          477
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/R7-2/R7-2_pcd_220.ply",
+          "crc32": 4219997875,
+          "bytes": 556813
+        },
+        {
+          "suffix": 359,
+          "member": "2_pcd/R7-2/R7-2_pcd_359.ply",
+          "crc32": 3141385959,
+          "bytes": 548902
+        },
+        {
+          "suffix": 477,
+          "member": "2_pcd/R7-2/R7-2_pcd_477.ply",
+          "crc32": 2538348346,
+          "bytes": 556867
+        }
+      ]
+    },
+    {
+      "tuber": "R7-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          216,
+          353,
+          492
+        ]
+      },
+      "members": [
+        {
+          "suffix": 216,
+          "member": "2_pcd/R7-3/R7-3_pcd_216.ply",
+          "crc32": 633009156,
+          "bytes": 316054
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/R7-3/R7-3_pcd_353.ply",
+          "crc32": 2779200773,
+          "bytes": 331579
+        },
+        {
+          "suffix": 492,
+          "member": "2_pcd/R7-3/R7-3_pcd_492.ply",
+          "crc32": 1294489402,
+          "bytes": 345268
+        }
+      ]
+    },
+    {
+      "tuber": "R7-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          212,
+          357,
+          516
+        ]
+      },
+      "members": [
+        {
+          "suffix": 212,
+          "member": "2_pcd/R7-5/R7-5_pcd_212.ply",
+          "crc32": 463648629,
+          "bytes": 226116
+        },
+        {
+          "suffix": 357,
+          "member": "2_pcd/R7-5/R7-5_pcd_357.ply",
+          "crc32": 2582354729,
+          "bytes": 224685
+        },
+        {
+          "suffix": 516,
+          "member": "2_pcd/R7-5/R7-5_pcd_516.ply",
+          "crc32": 857707635,
+          "bytes": 226251
+        }
+      ]
+    },
+    {
+      "tuber": "R7-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          245,
+          362,
+          504
+        ]
+      },
+      "members": [
+        {
+          "suffix": 245,
+          "member": "2_pcd/R7-9/R7-9_pcd_245.ply",
+          "crc32": 1128293091,
+          "bytes": 510184
+        },
+        {
+          "suffix": 362,
+          "member": "2_pcd/R7-9/R7-9_pcd_362.ply",
+          "crc32": 3219185374,
+          "bytes": 496306
+        },
+        {
+          "suffix": 504,
+          "member": "2_pcd/R7-9/R7-9_pcd_504.ply",
+          "crc32": 2949369822,
+          "bytes": 511723
+        }
+      ]
+    },
+    {
+      "tuber": "R8-1",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          225,
+          371,
+          491
+        ]
+      },
+      "members": [
+        {
+          "suffix": 225,
+          "member": "2_pcd/R8-1/R8-1_pcd_225.ply",
+          "crc32": 3952884273,
+          "bytes": 490258
+        },
+        {
+          "suffix": 371,
+          "member": "2_pcd/R8-1/R8-1_pcd_371.ply",
+          "crc32": 3707091341,
+          "bytes": 480781
+        },
+        {
+          "suffix": 491,
+          "member": "2_pcd/R8-1/R8-1_pcd_491.ply",
+          "crc32": 3000659035,
+          "bytes": 487126
+        }
+      ]
+    },
+    {
+      "tuber": "R8-10",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          218,
+          357,
+          498
+        ]
+      },
+      "members": [
+        {
+          "suffix": 218,
+          "member": "2_pcd/R8-10/R8-10_pcd_218.ply",
+          "crc32": 2300364762,
+          "bytes": 442711
+        },
+        {
+          "suffix": 357,
+          "member": "2_pcd/R8-10/R8-10_pcd_357.ply",
+          "crc32": 3577460959,
+          "bytes": 447679
+        },
+        {
+          "suffix": 498,
+          "member": "2_pcd/R8-10/R8-10_pcd_498.ply",
+          "crc32": 2065920342,
+          "bytes": 469279
+        }
+      ]
+    },
+    {
+      "tuber": "R8-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          229,
+          352,
+          499
+        ]
+      },
+      "members": [
+        {
+          "suffix": 229,
+          "member": "2_pcd/R8-3/R8-3_pcd_229.ply",
+          "crc32": 3315475671,
+          "bytes": 662302
+        },
+        {
+          "suffix": 352,
+          "member": "2_pcd/R8-3/R8-3_pcd_352.ply",
+          "crc32": 292142408,
+          "bytes": 672049
+        },
+        {
+          "suffix": 499,
+          "member": "2_pcd/R8-3/R8-3_pcd_499.ply",
+          "crc32": 3830208381,
+          "bytes": 670348
+        }
+      ]
+    },
+    {
+      "tuber": "R8-4",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          226,
+          369,
+          511
+        ]
+      },
+      "members": [
+        {
+          "suffix": 226,
+          "member": "2_pcd/R8-4/R8-4_pcd_226.ply",
+          "crc32": 585514434,
+          "bytes": 296506
+        },
+        {
+          "suffix": 369,
+          "member": "2_pcd/R8-4/R8-4_pcd_369.ply",
+          "crc32": 2058532000,
+          "bytes": 281737
+        },
+        {
+          "suffix": 511,
+          "member": "2_pcd/R8-4/R8-4_pcd_511.ply",
+          "crc32": 3149158724,
+          "bytes": 286570
+        }
+      ]
+    },
+    {
+      "tuber": "R8-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          245,
+          353,
+          499
+        ]
+      },
+      "members": [
+        {
+          "suffix": 245,
+          "member": "2_pcd/R8-6/R8-6_pcd_245.ply",
+          "crc32": 3703584119,
+          "bytes": 647965
+        },
+        {
+          "suffix": 353,
+          "member": "2_pcd/R8-6/R8-6_pcd_353.ply",
+          "crc32": 313625059,
+          "bytes": 638920
+        },
+        {
+          "suffix": 499,
+          "member": "2_pcd/R8-6/R8-6_pcd_499.ply",
+          "crc32": 2910485030,
+          "bytes": 647803
+        }
+      ]
+    },
+    {
+      "tuber": "R8-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          226,
+          369,
+          508
+        ]
+      },
+      "members": [
+        {
+          "suffix": 226,
+          "member": "2_pcd/R8-7/R8-7_pcd_226.ply",
+          "crc32": 451111585,
+          "bytes": 284329
+        },
+        {
+          "suffix": 369,
+          "member": "2_pcd/R8-7/R8-7_pcd_369.ply",
+          "crc32": 992208587,
+          "bytes": 281818
+        },
+        {
+          "suffix": 508,
+          "member": "2_pcd/R8-7/R8-7_pcd_508.ply",
+          "crc32": 2863980275,
+          "bytes": 280468
+        }
+      ]
+    },
+    {
+      "tuber": "R8-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          211,
+          354,
+          512
+        ]
+      },
+      "members": [
+        {
+          "suffix": 211,
+          "member": "2_pcd/R8-9/R8-9_pcd_211.ply",
+          "crc32": 774980846,
+          "bytes": 266265
+        },
+        {
+          "suffix": 354,
+          "member": "2_pcd/R8-9/R8-9_pcd_354.ply",
+          "crc32": 2253750917,
+          "bytes": 264213
+        },
+        {
+          "suffix": 512,
+          "member": "2_pcd/R8-9/R8-9_pcd_512.ply",
+          "crc32": 976786975,
+          "bytes": 269883
+        }
+      ]
+    },
+    {
+      "tuber": "R9-2",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          220,
+          360,
+          503
+        ]
+      },
+      "members": [
+        {
+          "suffix": 220,
+          "member": "2_pcd/R9-2/R9-2_pcd_220.ply",
+          "crc32": 3905055071,
+          "bytes": 286813
+        },
+        {
+          "suffix": 360,
+          "member": "2_pcd/R9-2/R9-2_pcd_360.ply",
+          "crc32": 405717447,
+          "bytes": 284707
+        },
+        {
+          "suffix": 503,
+          "member": "2_pcd/R9-2/R9-2_pcd_503.ply",
+          "crc32": 3264841629,
+          "bytes": 293023
+        }
+      ]
+    },
+    {
+      "tuber": "R9-3",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          204,
+          367,
+          512
+        ]
+      },
+      "members": [
+        {
+          "suffix": 204,
+          "member": "2_pcd/R9-3/R9-3_pcd_204.ply",
+          "crc32": 206106294,
+          "bytes": 268695
+        },
+        {
+          "suffix": 367,
+          "member": "2_pcd/R9-3/R9-3_pcd_367.ply",
+          "crc32": 3329077155,
+          "bytes": 268749
+        },
+        {
+          "suffix": 512,
+          "member": "2_pcd/R9-3/R9-3_pcd_512.ply",
+          "crc32": 1242664092,
+          "bytes": 282736
+        }
+      ]
+    },
+    {
+      "tuber": "R9-4",
+      "split": "val",
+      "frames": {
+        "spaced": [
+          207,
+          355,
+          478
+        ]
+      },
+      "members": [
+        {
+          "suffix": 207,
+          "member": "2_pcd/R9-4/R9-4_pcd_207.ply",
+          "crc32": 2569807018,
+          "bytes": 529165
+        },
+        {
+          "suffix": 355,
+          "member": "2_pcd/R9-4/R9-4_pcd_355.ply",
+          "crc32": 3621327427,
+          "bytes": 531055
+        },
+        {
+          "suffix": 478,
+          "member": "2_pcd/R9-4/R9-4_pcd_478.ply",
+          "crc32": 2092225189,
+          "bytes": 547147
+        }
+      ]
+    },
+    {
+      "tuber": "R9-5",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          236,
+          361,
+          470
+        ]
+      },
+      "members": [
+        {
+          "suffix": 236,
+          "member": "2_pcd/R9-5/R9-5_pcd_236.ply",
+          "crc32": 3686923235,
+          "bytes": 583570
+        },
+        {
+          "suffix": 361,
+          "member": "2_pcd/R9-5/R9-5_pcd_361.ply",
+          "crc32": 2660989534,
+          "bytes": 592048
+        },
+        {
+          "suffix": 470,
+          "member": "2_pcd/R9-5/R9-5_pcd_470.ply",
+          "crc32": 1582365008,
+          "bytes": 613216
+        }
+      ]
+    },
+    {
+      "tuber": "R9-6",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          213,
+          357,
+          482
+        ]
+      },
+      "members": [
+        {
+          "suffix": 213,
+          "member": "2_pcd/R9-6/R9-6_pcd_213.ply",
+          "crc32": 4118018203,
+          "bytes": 378505
+        },
+        {
+          "suffix": 357,
+          "member": "2_pcd/R9-6/R9-6_pcd_357.ply",
+          "crc32": 2085401562,
+          "bytes": 387928
+        },
+        {
+          "suffix": 482,
+          "member": "2_pcd/R9-6/R9-6_pcd_482.ply",
+          "crc32": 2829694898,
+          "bytes": 415225
+        }
+      ]
+    },
+    {
+      "tuber": "R9-7",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          207,
+          350,
+          494
+        ]
+      },
+      "members": [
+        {
+          "suffix": 207,
+          "member": "2_pcd/R9-7/R9-7_pcd_207.ply",
+          "crc32": 1994232139,
+          "bytes": 296371
+        },
+        {
+          "suffix": 350,
+          "member": "2_pcd/R9-7/R9-7_pcd_350.ply",
+          "crc32": 3246343690,
+          "bytes": 301663
+        },
+        {
+          "suffix": 494,
+          "member": "2_pcd/R9-7/R9-7_pcd_494.ply",
+          "crc32": 4120040681,
+          "bytes": 306334
+        }
+      ]
+    },
+    {
+      "tuber": "R9-9",
+      "split": "train",
+      "frames": {
+        "spaced": [
+          219,
+          365,
+          505
+        ]
+      },
+      "members": [
+        {
+          "suffix": 219,
+          "member": "2_pcd/R9-9/R9-9_pcd_219.ply",
+          "crc32": 555527194,
+          "bytes": 312922
+        },
+        {
+          "suffix": 365,
+          "member": "2_pcd/R9-9/R9-9_pcd_365.ply",
+          "crc32": 3913897826,
+          "bytes": 296452
+        },
+        {
+          "suffix": 505,
+          "member": "2_pcd/R9-9/R9-9_pcd_505.ply",
+          "crc32": 60163412,
+          "bytes": 295291
+        }
+      ]
+    }
+  ]
+}

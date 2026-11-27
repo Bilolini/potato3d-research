@@ -1,0 +1,2868 @@
+{
+  "protocol_id": "height_development_v1",
+  "scope": "synthetic development only; no real-data or novelty claim",
+  "results_sha256": "34ce52ce6cb37b8d270a50322009ce4a84256e563cbe881a6bb8fa316a65ad9f",
+  "inputs_sha256": "bb4b8c4f58e7c60459d9b864d3b0ee7f63eee394fc267881577b7ae655e461e8",
+  "protocol_sha256": "be1e1552ff4baddfcfca8e762d8d7bec14b1a44c98ecedb7e910fcd80efcc745",
+  "families": 12,
+  "shape_objects": 24,
+  "predictions": 720,
+  "failed_predictions": 0,
+  "primary": [
+    {
+      "candidate": "symmetry_robust95",
+      "baseline": "symmetry",
+      "condition": "outliers_2percent",
+      "metric": "hidden_chamfer_l1_mm",
+      "profile": "combined",
+      "difference_sign": "candidate minus baseline; negative favors candidate for these errors",
+      "expected_shape_pairs": 24,
+      "available_shape_pairs": 24,
+      "missing_shape_pairs": [],
+      "complete_case_only": false,
+      "mean": -3.90419241775675,
+      "ci95": [
+        -4.289402281644208,
+        -3.5341433946906133
+      ],
+      "independent_families": 12,
+      "per_object_differences": [
+        {
+          "object_id": "family_00_warp_0",
+          "family_id": "family_00",
+          "difference": -4.62436012259734
+        },
+        {
+          "object_id": "family_00_warp_1.8",
+          "family_id": "family_00",
+          "difference": -1.218597349455889
+        },
+        {
+          "object_id": "family_01_warp_0",
+          "family_id": "family_01",
+          "difference": -5.190594944657474
+        },
+        {
+          "object_id": "family_01_warp_1.8",
+          "family_id": "family_01",
+          "difference": -0.5917822124014496
+        },
+        {
+          "object_id": "family_02_warp_0",
+          "family_id": "family_02",
+          "difference": -6.488525716968461
+        },
+        {
+          "object_id": "family_02_warp_1.8",
+          "family_id": "family_02",
+          "difference": -2.075408638225753
+        },
+        {
+          "object_id": "family_03_warp_0",
+          "family_id": "family_03",
+          "difference": -5.63857006421454
+        },
+        {
+          "object_id": "family_03_warp_1.8",
+          "family_id": "family_03",
+          "difference": -1.7361875356395755
+        },
+        {
+          "object_id": "family_04_warp_0",
+          "family_id": "family_04",
+          "difference": -5.417601650213083
+        },
+        {
+          "object_id": "family_04_warp_1.8",
+          "family_id": "family_04",
+          "difference": -1.1656643383916618
+        },
+        {
+          "object_id": "family_05_warp_0",
+          "family_id": "family_05",
+          "difference": -7.436573284678177
+        },
+        {
+          "object_id": "family_05_warp_1.8",
+          "family_id": "family_05",
+          "difference": -2.890674724727809
+        },
+        {
+          "object_id": "family_06_warp_0",
+          "family_id": "family_06",
+          "difference": -5.749338755225392
+        },
+        {
+          "object_id": "family_06_warp_1.8",
+          "family_id": "family_06",
+          "difference": -1.3351707883487816
+        },
+        {
+          "object_id": "family_07_warp_0",
+          "family_id": "family_07",
+          "difference": -5.873584303007595
+        },
+        {
+          "object_id": "family_07_warp_1.8",
+          "family_id": "family_07",
+          "difference": -1.9454410962605255
+        },
+        {
+          "object_id": "family_08_warp_0",
+          "family_id": "family_08",
+          "difference": -6.104485784384108
+        },
+        {
+          "object_id": "family_08_warp_1.8",
+          "family_id": "family_08",
+          "difference": -1.356166938470357
+        },
+        {
+          "object_id": "family_09_warp_0",
+          "family_id": "family_09",
+          "difference": -5.9426635735327
+        },
+        {
+          "object_id": "family_09_warp_1.8",
+          "family_id": "family_09",
+          "difference": -2.2744833304589704
+        },
+        {
+          "object_id": "family_10_warp_0",
+          "family_id": "family_10",
+          "difference": -6.356558048214101
+        },
+        {
+          "object_id": "family_10_warp_1.8",
+          "family_id": "family_10",
+          "difference": -2.694734659038617
+        },
+        {
+          "object_id": "family_11_warp_0",
+          "family_id": "family_11",
+          "difference": -6.954210422944732
+        },
+        {
+          "object_id": "family_11_warp_1.8",
+          "family_id": "family_11",
+          "difference": -2.6392397441049056
+        }
+      ]
+    },
+    {
+      "candidate": "symmetry_robust95",
+      "baseline": "symmetry",
+      "condition": "outliers_2percent",
+      "metric": "volume_absolute_error_analytic_ml",
+      "profile": "combined",
+      "difference_sign": "candidate minus baseline; negative favors candidate for these errors",
+      "expected_shape_pairs": 24,
+      "available_shape_pairs": 24,
+      "missing_shape_pairs": [],
+      "complete_case_only": false,
+      "mean": -30.965498701136188,
+      "ci95": [
+        -33.50664825509499,
+        -28.30150640651009
+      ],
+      "independent_families": 12,
+      "per_object_differences": [
+        {
+          "object_id": "family_00_warp_0",
+          "family_id": "family_00",
+          "difference": -28.367680927617435
+        },
+        {
+          "object_id": "family_00_warp_1.8",
+          "family_id": "family_00",
+          "difference": -12.474522380072763
+        },
+        {
+          "object_id": "family_01_warp_0",
+          "family_id": "family_01",
+          "difference": -42.59885205731375
+        },
+        {
+          "object_id": "family_01_warp_1.8",
+          "family_id": "family_01",
+          "difference": -10.586632184642653
+        },
+        {
+          "object_id": "family_02_warp_0",
+          "family_id": "family_02",
+          "difference": -42.55162614359285
+        },
+        {
+          "object_id": "family_02_warp_1.8",
+          "family_id": "family_02",
+          "difference": -17.98041945030767
+        },
+        {
+          "object_id": "family_03_warp_0",
+          "family_id": "family_03",
+          "difference": -48.09525546034111
+        },
+        {
+          "object_id": "family_03_warp_1.8",
+          "family_id": "family_03",
+          "difference": -20.810901952542153
+        },
+        {
+          "object_id": "family_04_warp_0",
+          "family_id": "family_04",
+          "difference": -42.86246455351213
+        },
+        {
+          "object_id": "family_04_warp_1.8",
+          "family_id": "family_04",
+          "difference": -14.435684493477773
+        },
+        {
+          "object_id": "family_05_warp_0",
+          "family_id": "family_05",
+          "difference": -50.1888714197221
+        },
+        {
+          "object_id": "family_05_warp_1.8",
+          "family_id": "family_05",
+          "difference": -22.670207493974864
+        },
+        {
+          "object_id": "family_06_warp_0",
+          "family_id": "family_06",
+          "difference": -42.101995735603865
+        },
+        {
+          "object_id": "family_06_warp_1.8",
+          "family_id": "family_06",
+          "difference": -13.61816919663805
+        },
+        {
+          "object_id": "family_07_warp_0",
+          "family_id": "family_07",
+          "difference": -45.53144674099749
+        },
+        {
+          "object_id": "family_07_warp_1.8",
+          "family_id": "family_07",
+          "difference": -17.29354406624619
+        },
+        {
+          "object_id": "family_08_warp_0",
+          "family_id": "family_08",
+          "difference": -47.673945696609685
+        },
+        {
+          "object_id": "family_08_warp_1.8",
+          "family_id": "family_08",
+          "difference": -16.671541954675355
+        },
+        {
+          "object_id": "family_09_warp_0",
+          "family_id": "family_09",
+          "difference": -43.271988554943476
+        },
+        {
+          "object_id": "family_09_warp_1.8",
+          "family_id": "family_09",
+          "difference": -20.08314648051578
+        },
+        {
+          "object_id": "family_10_warp_0",
+          "family_id": "family_10",
+          "difference": -42.52322762095082
+        },
+        {
+          "object_id": "family_10_warp_1.8",
+          "family_id": "family_10",
+          "difference": -23.537267407447118
+        },
+        {
+          "object_id": "family_11_warp_0",
+          "family_id": "family_11",
+          "difference": -52.51048594865926
+        },
+        {
+          "object_id": "family_11_warp_1.8",
+          "family_id": "family_11",
+          "difference": -24.73209090686418
+        }
+      ]
+    }
+  ],
+  "clean_guardrail": {
+    "candidate": "symmetry_robust95",
+    "baseline": "symmetry",
+    "condition": "clean",
+    "metric": "clean_observed_to_surface_mean_mm",
+    "profile": "combined",
+    "difference_sign": "candidate minus baseline; negative favors candidate for these errors",
+    "expected_shape_pairs": 24,
+    "available_shape_pairs": 24,
+    "missing_shape_pairs": [],
+    "complete_case_only": false,
+    "mean": 0.015875063291737417,
+    "ci95": [
+      0.014358486463532546,
+      0.017475489260399418
+    ],
+    "independent_families": 12,
+    "per_object_differences": [
+      {
+        "object_id": "family_00_warp_0",
+        "family_id": "family_00",
+        "difference": 0.015090156875083974
+      },
+      {
+        "object_id": "family_00_warp_1.8",
+        "family_id": "family_00",
+        "difference": 0.015090156875083974
+      },
+      {
+        "object_id": "family_01_warp_0",
+        "family_id": "family_01",
+        "difference": 0.01796623951111889
+      },
+      {
+        "object_id": "family_01_warp_1.8",
+        "family_id": "family_01",
+        "difference": 0.01796623951111889
+      },
+      {
+        "object_id": "family_02_warp_0",
+        "family_id": "family_02",
+        "difference": 0.01567119842178099
+      },
+      {
+        "object_id": "family_02_warp_1.8",
+        "family_id": "family_02",
+        "difference": 0.01567119842178099
+      },
+      {
+        "object_id": "family_03_warp_0",
+        "family_id": "family_03",
+        "difference": 0.015808458731076537
+      },
+      {
+        "object_id": "family_03_warp_1.8",
+        "family_id": "family_03",
+        "difference": 0.015808458731076537
+      },
+      {
+        "object_id": "family_04_warp_0",
+        "family_id": "family_04",
+        "difference": 0.022122859707640982
+      },
+      {
+        "object_id": "family_04_warp_1.8",
+        "family_id": "family_04",
+        "difference": 0.022122859707640982
+      },
+      {
+        "object_id": "family_05_warp_0",
+        "family_id": "family_05",
+        "difference": 0.015006135192347284
+      },
+      {
+        "object_id": "family_05_warp_1.8",
+        "family_id": "family_05",
+        "difference": 0.015006135192347284
+      },
+      {
+        "object_id": "family_06_warp_0",
+        "family_id": "family_06",
+        "difference": 0.01652003564104196
+      },
+      {
+        "object_id": "family_06_warp_1.8",
+        "family_id": "family_06",
+        "difference": 0.01652003564104196
+      },
+      {
+        "object_id": "family_07_warp_0",
+        "family_id": "family_07",
+        "difference": 0.01689108860737979
+      },
+      {
+        "object_id": "family_07_warp_1.8",
+        "family_id": "family_07",
+        "difference": 0.01689108860737979
+      },
+      {
+        "object_id": "family_08_warp_0",
+        "family_id": "family_08",
+        "difference": 0.018105684713691027
+      },
+      {
+        "object_id": "family_08_warp_1.8",
+        "family_id": "family_08",
+        "difference": 0.018105684713691027
+      },
+      {
+        "object_id": "family_09_warp_0",
+        "family_id": "family_09",
+        "difference": 0.013496876002136025
+      },
+      {
+        "object_id": "family_09_warp_1.8",
+        "family_id": "family_09",
+        "difference": 0.013496876002136025
+      },
+      {
+        "object_id": "family_10_warp_0",
+        "family_id": "family_10",
+        "difference": 0.01145159776975215
+      },
+      {
+        "object_id": "family_10_warp_1.8",
+        "family_id": "family_10",
+        "difference": 0.01145159776975215
+      },
+      {
+        "object_id": "family_11_warp_0",
+        "family_id": "family_11",
+        "difference": 0.012370428327799379
+      },
+      {
+        "object_id": "family_11_warp_1.8",
+        "family_id": "family_11",
+        "difference": 0.012370428327799379
+      }
+    ]
+  },
+  "primary_endpoints_passed": true,
+  "clean_guardrail_passed": true,
+  "predefined_development_hypothesis_supported": true,
+  "identifiability_check": {
+    "expected_twin_input_pairs": 72,
+    "identical_twin_input_pairs": 72,
+    "expected_twin_prediction_pairs": 360,
+    "identical_twin_prediction_pairs": 360,
+    "missing_twin_prediction_pairs": 0,
+    "interpretation": "Identical visible inputs must not reveal which hidden underside was used"
+  },
+  "group_summary": [
+    {
+      "condition": "clean",
+      "method": "ellipsoid",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.2954763008381123,
+        "ci95": [
+          1.1707396181710321,
+          1.4395622354064337
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.841063689932603,
+        "ci95": [
+          1.7113021735526075,
+          1.982033606534647
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 6.758940063154879,
+        "ci95": [
+          5.970334913773456,
+          7.472649238976405
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.3213605802676979,
+        "ci95": [
+          0.21977080224643594,
+          0.4384610084744185
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.3213605802676979,
+        "ci95": [
+          0.21977080224643594,
+          0.4384610084744185
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.005422847253309253,
+        "ci95": [
+          0.005289122619433329,
+          0.005555877595422014
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "clean",
+      "method": "convex",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 2.999856086302708,
+        "ci95": [
+          2.8639393660574837,
+          3.1279812653146295
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 4.970334239633325,
+        "ci95": [
+          4.734332026197706,
+          5.1948269517060055
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 29.462017410492052,
+        "ci95": [
+          26.160424455220593,
+          32.22309038731481
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.004754135154947991,
+        "ci95": [
+          2.631432331558053e-07,
+          0.01160051615267639
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.004754135154947991,
+        "ci95": [
+          2.631432331558053e-07,
+          0.01160051615267639
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.011610142299711393,
+        "ci95": [
+          0.01124343512528867,
+          0.011953929859009805
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "clean",
+      "method": "symmetry",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.0631185707294224,
+        "ci95": [
+          1.0186886647190485,
+          1.1013446594347809
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.6291026342747303,
+        "ci95": [
+          1.5567814652613925,
+          1.6957866775563522
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 6.528827351926238,
+        "ci95": [
+          5.843846691093829,
+          7.116346267944315
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.007688363214559975,
+        "ci95": [
+          0.004321885154259715,
+          0.011614695860754847
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.018802533003812034,
+        "ci95": [
+          0.01862566799475947,
+          0.018992952570624767
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "clean",
+      "method": "symmetry_height95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.1658236681837737,
+        "ci95": [
+          1.1123808438431884,
+          1.2122333581081945
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.8275085893760672,
+        "ci95": [
+          1.7391002247137848,
+          1.908317726654467
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 7.517163022878688,
+        "ci95": [
+          6.670127026536288,
+          8.237612130889014
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.6379450955909048,
+        "ci95": [
+          0.5770671306675449,
+          0.6983253885120709
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.018840920165530406,
+        "ci95": [
+          0.01862737559301119,
+          0.01907237150723328
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "clean",
+      "method": "symmetry_robust95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.1672680973167364,
+        "ci95": [
+          1.1142200837930731,
+          1.2136591174170839
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.8282783273260446,
+        "ci95": [
+          1.73909901499587,
+          1.908711235516512
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 7.476971406119351,
+        "ci95": [
+          6.637080620242142,
+          8.19070326026959
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.015875063291737417,
+        "ci95": [
+          0.014358486463532546,
+          0.017475489260399418
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.015875063291737417,
+        "ci95": [
+          0.014358486463532546,
+          0.017475489260399418
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.6379450955909048,
+        "ci95": [
+          0.5770671306675449,
+          0.6983253885120709
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.018723307463612098,
+        "ci95": [
+          0.018532308952853783,
+          0.01889363701690551
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "ellipsoid",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 2.3096999348637093,
+        "ci95": [
+          2.1835735413427244,
+          2.4489794952742443
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 2.307991835652842,
+        "ci95": [
+          2.2121924696944246,
+          2.4057045045614758
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 7.277890465852803,
+        "ci95": [
+          6.583133348975319,
+          7.962434511707256
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 2.2088345140203693,
+        "ci95": [
+          2.0844286925622773,
+          2.333415334925842
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 2.1243526720847026,
+        "ci95": [
+          1.9928390500302902,
+          2.2552126943104476
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.005902272590901703,
+        "ci95": [
+          0.005652473206403859,
+          0.006138797553042726
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "convex",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 3.6171307596310203,
+        "ci95": [
+          3.4838694077002517,
+          3.733291871620585
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 4.973246302970976,
+        "ci95": [
+          4.731643271864055,
+          5.195806336004497
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 40.224367450961964,
+        "ci95": [
+          36.44546895177019,
+          43.349343262481945
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 2.5349232306610774,
+        "ci95": [
+          2.452173571002262,
+          2.624971412129949
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 2.575170235650861,
+        "ci95": [
+          2.497588406214371,
+          2.6645535831417106
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.0028191858727950603,
+        "ci95": [
+          0.0027007923124377463,
+          0.0029362906929842813
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "symmetry",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.4320339129776822,
+        "ci95": [
+          1.3552574430718023,
+          1.5236674719555647
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 2.0164470073144245,
+        "ci95": [
+          1.8583921726859225,
+          2.203393498980356
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 8.578183136036237,
+        "ci95": [
+          7.438455822762348,
+          9.96084674577576
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0035794128196597556,
+        "ci95": [
+          0.0019829180971873265,
+          0.006062225291055968
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.2564787164735273,
+        "ci95": [
+          0.24583370686405026,
+          0.2643321734248681
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 5.049003716379331,
+        "ci95": [
+          4.603983343041613,
+          5.525689747631654
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.018852722375110414,
+        "ci95": [
+          0.01850922184542772,
+          0.019175922481614784
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "symmetry_height95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.276316093958719,
+        "ci95": [
+          1.2267871496824263,
+          1.319523644298056
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.6862791025474368,
+        "ci95": [
+          1.5964750684658229,
+          1.7671736891567513
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 6.528827351926238,
+        "ci95": [
+          5.843846691093829,
+          7.116346267944315
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.00029885322472503206,
+        "ci95": [
+          0.0001490868782275942,
+          0.0004823086364264072
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.25658674743379445,
+        "ci95": [
+          0.24591280510272934,
+          0.26445356426367317
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.27878821133514603,
+        "ci95": [
+          0.1884460303081714,
+          0.37695426846307106
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.019279604171363946,
+        "ci95": [
+          0.019087542345369003,
+          0.019460142348543742
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "symmetry_robust95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.2669385177164036,
+        "ci95": [
+          1.2167944579647525,
+          1.310799145207509
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.6790681803881098,
+        "ci95": [
+          1.588770226801046,
+          1.7617025610310355
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 6.528827351926238,
+        "ci95": [
+          5.843846691093829,
+          7.116346267944315
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0603977395346935,
+        "ci95": [
+          0.057226378901556164,
+          0.0636439835553558
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.257039033289104,
+        "ci95": [
+          0.24655788602175488,
+          0.26490369697900934
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.27878821133514603,
+        "ci95": [
+          0.1884460303081714,
+          0.37695426846307106
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.01917215788368291,
+        "ci95": [
+          0.018945106985847813,
+          0.019392136126286156
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "ellipsoid",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 5.073361896784678,
+        "ci95": [
+          4.893374083485247,
+          5.27214057106084
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 4.34481606289564,
+        "ci95": [
+          4.19389157656485,
+          4.494167511645745
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 14.89125411742521,
+        "ci95": [
+          13.411942591954645,
+          16.05066538637642
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 4.016812651933038,
+        "ci95": [
+          3.800561832295134,
+          4.217656314360147
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 4.017901111346837,
+        "ci95": [
+          3.8013763749047746,
+          4.21823449170648
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.007043260338832624,
+        "ci95": [
+          0.006686127217957013,
+          0.007411096706224877
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "convex",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 5.286335137441875,
+        "ci95": [
+          5.134064065310852,
+          5.425908199196979
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 4.98730120830193,
+        "ci95": [
+          4.752545523042783,
+          5.217204207592828
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 67.64113367271784,
+        "ci95": [
+          62.1464060264754,
+          72.09912712508296
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 6.15333639742369,
+        "ci95": [
+          5.884363816688383,
+          6.405108814919233
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 6.255326659072172,
+        "ci95": [
+          5.985728160878772,
+          6.51091397317598
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.002504659802070819,
+        "ci95": [
+          0.002366916779889531,
+          0.00264935868193182
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "symmetry",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 3.277761505187829,
+        "ci95": [
+          3.1290555133865237,
+          3.4280688420321064
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 5.948688376541281,
+        "ci95": [
+          5.594212542683445,
+          6.305749009847041
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 38.72548143775017,
+        "ci95": [
+          35.51951387750926,
+          41.37111883662438
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.144903471298913,
+        "ci95": [
+          0.11387864296959975,
+          0.1824420842756999
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.15223681782492235,
+        "ci95": [
+          0.12133503304170423,
+          0.18964031848390925
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 17.661691545549907,
+        "ci95": [
+          17.01096692887627,
+          18.270497444169887
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.016687888914020732,
+        "ci95": [
+          0.016120041695103282,
+          0.01719362665692946
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "symmetry_height95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.5872302228767443,
+        "ci95": [
+          1.5437112637185115,
+          1.6298702127116966
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 2.0575590794992276,
+        "ci95": [
+          1.9672858224421934,
+          2.1434682824074214
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 8.160123488006924,
+        "ci95": [
+          7.271972238193911,
+          8.907391248734145
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.008197381059360251,
+        "ci95": [
+          0.007707416426582903,
+          0.008626589444418969
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.4310040520525605,
+        "ci95": [
+          0.37937437583670625,
+          0.47392249493955885
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.019357086915988475,
+        "ci95": [
+          0.018783683019986105,
+          0.02019909503336142
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "symmetry_robust95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.3825265235090127,
+        "ci95": [
+          1.3261612820756563,
+          1.4374597851528828
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 2.0444959587845304,
+        "ci95": [
+          1.9536035974561905,
+          2.133313760186265
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 7.759982736613982,
+        "ci95": [
+          6.903807881453384,
+          8.477350054129836
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.15650503546218852,
+        "ci95": [
+          0.1505796758473628,
+          0.1628446132662636
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.014591163206674584,
+        "ci95": [
+          0.013403712269370836,
+          0.015564326339872328
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.4310040520525605,
+        "ci95": [
+          0.37937437583670625,
+          0.47392249493955885
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.01893240975914523,
+        "ci95": [
+          0.018716639646784945,
+          0.01915781485452802
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_gap",
+      "method": "ellipsoid",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.3051376992560486,
+        "ci95": [
+          1.1790203287763181,
+          1.450013469780869
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.8602741360653345,
+        "ci95": [
+          1.7287327931905718,
+          2.0051817423247784
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 7.207376986191943,
+        "ci95": [
+          6.311891593360677,
+          8.083127779670585
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.3214576258543836,
+        "ci95": [
+          0.22006877494818602,
+          0.43765961062667563
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.3214576258543836,
+        "ci95": [
+          0.22006877494818602,
+          0.43765961062667563
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.004958762210056496,
+        "ci95": [
+          0.004840301515165872,
+          0.005078338426998622
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_gap",
+      "method": "convex",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 2.9991720139104667,
+        "ci95": [
+          2.859113901007954,
+          3.1341407601513733
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 4.959700136008861,
+        "ci95": [
+          4.71784030510471,
+          5.192923662792391
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 29.21384012960824,
+        "ci95": [
+          25.946235114185377,
+          31.956320670018233
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.003556008263175418,
+        "ci95": [
+          2.960657438746984e-07,
+          0.00856610581816402
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.003556008263175418,
+        "ci95": [
+          2.960657438746984e-07,
+          0.00856610581816402
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.01023955385123069,
+        "ci95": [
+          0.00996750435406284,
+          0.010484097301014116
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_gap",
+      "method": "symmetry",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.0682464004637082,
+        "ci95": [
+          1.0235301812714082,
+          1.107650829351509
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.624579271335304,
+        "ci95": [
+          1.5517474313191624,
+          1.690704092139273
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 6.528827351926238,
+        "ci95": [
+          5.843846691093829,
+          7.116346267944315
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.014786417446233694,
+        "ci95": [
+          0.007973832406671554,
+          0.02293878768940845
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.01652717883310591,
+        "ci95": [
+          0.016172935518989108,
+          0.016889135109158813
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_gap",
+      "method": "symmetry_height95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.2254850566154125,
+        "ci95": [
+          1.1695827744877643,
+          1.2763091245468392
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.9294195118836228,
+        "ci95": [
+          1.834416634129815,
+          2.0178889101157735
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 7.998670100364486,
+        "ci95": [
+          7.058054362087705,
+          8.82751890432838
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.9669972828814354,
+        "ci95": [
+          0.869932003080283,
+          1.0607760547949088
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.01668503299879376,
+        "ci95": [
+          0.016396240961087945,
+          0.016977580036594494
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "depth_gap",
+      "method": "symmetry_robust95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.230662627932637,
+        "ci95": [
+          1.1748589156808174,
+          1.2817145130521002
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.9287565871472483,
+        "ci95": [
+          1.8339951652287623,
+          2.0176015247626173
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 7.898462186364032,
+        "ci95": [
+          6.965345374600337,
+          8.717413941676192
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.022336834021024297,
+        "ci95": [
+          0.020199889602674003,
+          0.024451423989844744
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.022336834021024297,
+        "ci95": [
+          0.020199889602674003,
+          0.024451423989844744
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 0.9669972828814354,
+        "ci95": [
+          0.869932003080283,
+          1.0607760547949088
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.01662263555044774,
+        "ci95": [
+          0.016300763735489453,
+          0.016936721229891795
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "ellipsoid",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.909382232075588,
+        "ci95": [
+          1.808700816113253,
+          2.025972213169099
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 3.0288579530208204,
+        "ci95": [
+          2.925546825925995,
+          3.1310982631661712
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 15.73621809854342,
+        "ci95": [
+          14.420412753748973,
+          16.81380522376668
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.30559037419756513,
+        "ci95": [
+          0.21015275928940494,
+          0.41753520647840775
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.30559037419756513,
+        "ci95": [
+          0.21015275928940494,
+          0.41753520647840775
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 3.0,
+        "ci95": [
+          3.0,
+          3.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.005403461798171823,
+        "ci95": [
+          0.0052142413972129965,
+          0.005645886054238265
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "convex",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 3.6290167994450804,
+        "ci95": [
+          3.501392070225382,
+          3.746459465953471
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 5.9941477922797715,
+        "ci95": [
+          5.770217363603094,
+          6.197853594444377
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 37.65790893053899,
+        "ci95": [
+          33.82749104943383,
+          40.76243855262558
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.004754135154947993,
+        "ci95": [
+          2.6314323315575436e-07,
+          0.011600516152676396
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.004754135154947993,
+        "ci95": [
+          2.6314323315575436e-07,
+          0.011600516152676396
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 3.0,
+        "ci95": [
+          3.0,
+          3.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.011568175332892375,
+        "ci95": [
+          0.011211739610735095,
+          0.011896760205490865
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "symmetry",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.689790869226017,
+        "ci95": [
+          1.6432238350939443,
+          1.7287483867472244
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 2.8401001550374247,
+        "ci95": [
+          2.7578563133739205,
+          2.9130618639653902
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 14.0253345699744,
+        "ci95": [
+          12.842392902751577,
+          14.98548727677765
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 2.99231163678544,
+        "ci95": [
+          2.988385304139245,
+          2.9956781148457403
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 3.0,
+        "ci95": [
+          3.0,
+          3.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.01876869269957145,
+        "ci95": [
+          0.018542259499493716,
+          0.018980647146114884
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "symmetry_height95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.823548516291184,
+        "ci95": [
+          1.7691122167016702,
+          1.8688862310015706
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 3.0926522258192297,
+        "ci95": [
+          2.995548470952972,
+          3.1785073264344215
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 15.713054542925628,
+        "ci95": [
+          14.349742633398451,
+          16.826616859178426
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 2.3620549044090953,
+        "ci95": [
+          2.301674611487929,
+          2.422932869332455
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 3.0,
+        "ci95": [
+          3.0,
+          3.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.018890025986668963,
+        "ci95": [
+          0.01871343770447614,
+          0.01906172519690396
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "symmetry_robust95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.8249207442599218,
+        "ci95": [
+          1.7707663034612857,
+          1.8703894403390215
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 3.092972111352024,
+        "ci95": [
+          2.995752186614026,
+          3.178530209674059
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 15.672862926166294,
+        "ci95": [
+          14.313693455469934,
+          16.77989597897704
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.015875063291737417,
+        "ci95": [
+          0.014358486463532546,
+          0.017475489260399418
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.015875063291737417,
+        "ci95": [
+          0.014358486463532546,
+          0.017475489260399418
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 2.3620549044090953,
+        "ci95": [
+          2.301674611487929,
+          2.422932869332455
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 3.0,
+        "ci95": [
+          3.0,
+          3.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.01892637330456637,
+        "ci95": [
+          0.018711730640764777,
+          0.0191396755418585
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_minus3mm",
+      "method": "ellipsoid",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.2701068322949667,
+        "ci95": [
+          1.1759010669652596,
+          1.3815139433872814
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.7746887835757714,
+        "ci95": [
+          1.6974800626445632,
+          1.8568960055523942
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 6.528827351926238,
+        "ci95": [
+          5.843846691093829,
+          7.116346267944315
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.35631470862019654,
+        "ci95": [
+          0.2565401401696797,
+          0.47242624192930016
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.35631470862019654,
+        "ci95": [
+          0.2565401401696797,
+          0.47242624192930016
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.005138215298453967,
+        "ci95": [
+          0.004930031895128195,
+          0.005311102372070308
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_minus3mm",
+      "method": "convex",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 2.437061130183349,
+        "ci95": [
+          2.298062183283947,
+          2.568870138424911
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 4.038516251439254,
+        "ci95": [
+          3.8043833605508555,
+          4.265583431360177
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 21.2661258904451,
+        "ci95": [
+          18.490557337822196,
+          23.766684180965893
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.004754135154947989,
+        "ci95": [
+          2.6314323315577496e-07,
+          0.011600516152676389
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.004754135154947989,
+        "ci95": [
+          2.6314323315577496e-07,
+          0.011600516152676389
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": null,
+        "ci95": null,
+        "independent_families": 0
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.01236557996404978,
+        "ci95": [
+          0.011385495582847701,
+          0.014048519288553506
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_minus3mm",
+      "method": "symmetry",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.0669687761949895,
+        "ci95": [
+          1.031941072365648,
+          1.0986201328002412
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.648917368675816,
+        "ci95": [
+          1.5933217024309998,
+          1.7010488343417527
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 6.528827351926238,
+        "ci95": [
+          5.843846691093829,
+          7.116346267944315
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 3.00768836321456,
+        "ci95": [
+          3.0043218851542597,
+          3.011614695860755
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.019082381773235586,
+        "ci95": [
+          0.018664828026400453,
+          0.01968368632781979
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_minus3mm",
+      "method": "symmetry_height95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.0413953700443088,
+        "ci95": [
+          1.0055177386599958,
+          1.0737414988996914
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.5910090335611866,
+        "ci95": [
+          1.5327239948907123,
+          1.645819290186657
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 6.528827351926238,
+        "ci95": [
+          5.843846691093829,
+          7.116346267944315
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 3.6379450955909047,
+        "ci95": [
+          3.577067130667545,
+          3.698325388512071
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.018918722281038452,
+        "ci95": [
+          0.01865139652242457,
+          0.01924353120351346
+        ],
+        "independent_families": 12
+      }
+    },
+    {
+      "condition": "belt_minus3mm",
+      "method": "symmetry_robust95",
+      "profile": "combined",
+      "attempted_shapes": 24,
+      "failed_shapes": 0,
+      "chamfer_l1_mm": {
+        "mean": 1.0430239820255645,
+        "ci95": [
+          1.0068981535999064,
+          1.0756688009542812
+        ],
+        "independent_families": 12
+      },
+      "hidden_chamfer_l1_mm": {
+        "mean": 1.591813899404291,
+        "ci95": [
+          1.5335809645651832,
+          1.6464746967306887
+        ],
+        "independent_families": 12
+      },
+      "volume_absolute_error_analytic_ml": {
+        "mean": 6.528827351926238,
+        "ci95": [
+          5.843846691093829,
+          7.116346267944315
+        ],
+        "independent_families": 12
+      },
+      "observed_to_surface_mean_mm": {
+        "mean": 0.015875063291737417,
+        "ci95": [
+          0.014358486463532546,
+          0.017475489260399418
+        ],
+        "independent_families": 12
+      },
+      "clean_observed_to_surface_mean_mm": {
+        "mean": 0.015875063291737417,
+        "ci95": [
+          0.014358486463532546,
+          0.017475489260399418
+        ],
+        "independent_families": 12
+      },
+      "height_absolute_error_mm": {
+        "mean": 3.6379450955909047,
+        "ci95": [
+          3.577067130667545,
+          3.698325388512071
+        ],
+        "independent_families": 12
+      },
+      "prediction_below_true_belt_mm": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "independent_families": 12
+      },
+      "fit_seconds": {
+        "mean": 0.018874496498028748,
+        "ci95": [
+          0.01866997832294146,
+          0.019058219022432845
+        ],
+        "independent_families": 12
+      }
+    }
+  ],
+  "run": {
+    "finished_utc": "2026-11-13T02:19:02.225809+00:00",
+    "total_seconds": 168.0852588750422,
+    "unique_objects": 24,
+    "unique_frames": 24,
+    "condition_instances": 144,
+    "failed_predictions": 0,
+    "process_peak_rss_mib": 425.578125,
+    "timing_boundary": "total includes input loading/generation, exports, metrics, visualization; excludes process startup/imports/downloads",
+    "fit_timing_boundary": "completion and its mesh construction only; shared loading/subsampling excluded",
+    "memory_boundary": "process lifetime high-water RSS, includes imports and visualization; not per-method peak"
+  },
+  "config": {
+    "seed": 527131301,
+    "methods": [
+      "ellipsoid",
+      "convex",
+      "symmetry",
+      "symmetry_height95",
+      "symmetry_robust95"
+    ],
+    "surface_samples": 10000,
+    "thresholds_mm": [
+      2.0,
+      5.0,
+      10.0
+    ],
+    "max_fit_points": 5000,
+    "ellipsoid_subdivisions": 4,
+    "synthetic_points": 2500,
+    "synthetic_noise_mm": 0.0,
+    "bootstrap_replicates": 2000,
+    "development_protocol": {
+      "protocol_id": "height_development_v1",
+      "scope": "synthetic_development_only",
+      "baseline_config": "configs/baseline.yaml",
+      "shape_seed": 527131101,
+      "observation_seed": 527131201,
+      "evaluation_seed": 527131301,
+      "families": 12,
+      "axes_ranges_mm": [
+        [
+          30.0,
+          54.0
+        ],
+        [
+          21.0,
+          35.0
+        ],
+        [
+          17.0,
+          30.0
+        ]
+      ],
+      "waist_range": [
+        0.05,
+        0.5
+      ],
+      "yaw_range_rad": [
+        -2.8,
+        2.8
+      ],
+      "underside_warps": [
+        0.0,
+        1.8
+      ],
+      "conditions": [
+        "clean",
+        "depth_jitter_2mm",
+        "outliers_2percent",
+        "depth_gap",
+        "belt_plus3mm",
+        "belt_minus3mm"
+      ],
+      "methods": [
+        "ellipsoid",
+        "convex",
+        "symmetry",
+        "symmetry_height95",
+        "symmetry_robust95"
+      ],
+      "height_quantile": 0.95,
+      "bootstrap_replicates": 2000,
+      "bootstrap_seed": 527131401,
+      "primary_comparison": [
+        "symmetry_robust95",
+        "symmetry"
+      ],
+      "primary_condition": "outliers_2percent",
+      "primary_metrics": [
+        "hidden_chamfer_l1_mm",
+        "volume_absolute_error_analytic_ml"
+      ],
+      "guardrail_metric": "clean_observed_to_surface_mean_mm",
+      "guardrail_max_degradation_mm": 0.5,
+      "visualize_object_id": "family_00_warp_0"
+    },
+    "protocol_sha256": "be1e1552ff4baddfcfca8e762d8d7bec14b1a44c98ecedb7e910fcd80efcc745",
+    "protocol_design_sha256": "6433f0a034597d7774cc1f87d9d453b62abd6d338ed3aa264d3edafee09ad304"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "architecture": "arm64",
+    "processor": "arm",
+    "cpu_model_declared": "Apple M2 Pro",
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1"
+    },
+    "device": "CPU only; no neural framework/CUDA dependency",
+    "packages": {
+      "potato3d": "0.1.0",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "trimesh": "4.12.2",
+      "rtree": "1.4.1",
+      "matplotlib": "3.11.2",
+      "plotly": "6.9.0",
+      "PyYAML": "6.0.3"
+    },
+    "source_sha256": {
+      "__init__.py": "f704b8d571a833ca0096eebe3f648ca888e02a9f2a436295364c2f6617e80022",
+      "calibration.py": "22dbec92067cd0711efdaed43982017e2d136e254046b2d7cf4762a19a60746f",
+      "cli.py": "504559d488e47cd8d86d9b4b1d39396b49c22569408c5a2e8a4f9eeae67042f6",
+      "completion/__init__.py": "cd4b0f3b7b42c6b04be9872fff9bbf931c716322b9af574c2bac97d49ebb8997",
+      "completion/convex.py": "92072957b65cd5928e00a4c89957a455263d3f597959be1dc9b614fe17933b85",
+      "completion/ellipsoid.py": "8c7503ce40d6370d2b83371d01c1293f776dc42cdc803ffbc6671cd8decbac8a",
+      "completion/robust.py": "e0547b7c168bc13ccadf2c1a7289659bb4066ac32990628a29d716f077fcc4d1",
+      "completion/symmetry.py": "c55c924ab9e12e14b290c87f88699442e0922636a72c0ba485eabcab499b7b9b",
+      "development.py": "adefd4d6ab4d3818ea63060bf4993d54b6113d5aaf6fdd8caca1fdceb41dcdda",
+      "geometry.py": "5c60b055dcf36edd1d1703fbd34497bc10396aed07f4dcf61f94657c0aa1c918",
+      "io.py": "148daa49f0f08e2cc77195477d12b14705c44da024db6c7857c880f04d50595f",
+      "metrics.py": "2226e3063d2bef78537704bef50f801a74df4fbac581778c227b4f708148344e",
+      "pipeline.py": "640375616d378563a2f32c8ef542cc532ee4d6fd52fd057ebcba6458458ac0fe",
+      "study_analysis.py": "672db2e3bfc7a5ee6160877f88217540afe6a2bfaeac374f39bd8a011d7a36c7",
+      "synthetic.py": "dc6029f0e69ae646a09a775a43f12bd547a1ebaadf1bbc9db4de14a0b81a4c93",
+      "visualize.py": "fc0e45b77b7509baa40e07bd3064f30178c41eeec2e08f31782c78c5300b1e29"
+    },
+    "lock_sha256": "46ac027e8763052c14ff4032945ec996cfbb1f85c3d75a3cd6f11bb75c7dc577"
+  },
+  "ambiguity_diagnostic": {
+    "scope": "post-hoc explanatory diagnostic; not a new primary endpoint or calibrated uncertainty interval",
+    "results_sha256": "34ce52ce6cb37b8d270a50322009ce4a84256e563cbe881a6bb8fa316a65ad9f",
+    "script_sha256": "7808e0ee9739d62821266221cbd44b5da14b53e88e633c41d2aa37651994b16d",
+    "bound_definition": "For identical observed inputs and a shared deterministic volume prediction, mean absolute error across two equiprobable hidden volumes is at least half their absolute difference.",
+    "mean_two_profile_volume_mae_lower_bound_ml": 6.528827351926238,
+    "family_lower_bounds_ml": {
+      "family_00": 3.973289636886168,
+      "family_01": 8.003054968167774,
+      "family_02": 6.142801673321294,
+      "family_03": 6.821088376949739,
+      "family_04": 7.10669501500859,
+      "family_05": 6.879665981436808,
+      "family_06": 7.120956634741454,
+      "family_07": 7.059475668687824,
+      "family_08": 7.7506009354835825,
+      "family_09": 5.797210518606924,
+      "family_10": 4.7464900533759256,
+      "family_11": 6.94459876044877
+    },
+    "excess_mae_over_two_profile_bound": [
+      {
+        "condition": "belt_minus3mm",
+        "method": "convex",
+        "mean_excess_ml": 14.737298538518862
+      },
+      {
+        "condition": "belt_minus3mm",
+        "method": "ellipsoid",
+        "mean_excess_ml": 0.0
+      },
+      {
+        "condition": "belt_minus3mm",
+        "method": "symmetry",
+        "mean_excess_ml": 0.0
+      },
+      {
+        "condition": "belt_minus3mm",
+        "method": "symmetry_height95",
+        "mean_excess_ml": 0.0
+      },
+      {
+        "condition": "belt_minus3mm",
+        "method": "symmetry_robust95",
+        "mean_excess_ml": 0.0
+      },
+      {
+        "condition": "belt_plus3mm",
+        "method": "convex",
+        "mean_excess_ml": 31.129081578612745
+      },
+      {
+        "condition": "belt_plus3mm",
+        "method": "ellipsoid",
+        "mean_excess_ml": 9.207390746617184
+      },
+      {
+        "condition": "belt_plus3mm",
+        "method": "symmetry",
+        "mean_excess_ml": 7.496507218048161
+      },
+      {
+        "condition": "belt_plus3mm",
+        "method": "symmetry_height95",
+        "mean_excess_ml": 9.184227190999392
+      },
+      {
+        "condition": "belt_plus3mm",
+        "method": "symmetry_robust95",
+        "mean_excess_ml": 9.144035574240055
+      },
+      {
+        "condition": "clean",
+        "method": "convex",
+        "mean_excess_ml": 22.933190058565813
+      },
+      {
+        "condition": "clean",
+        "method": "ellipsoid",
+        "mean_excess_ml": 0.2301127112286411
+      },
+      {
+        "condition": "clean",
+        "method": "symmetry",
+        "mean_excess_ml": 0.0
+      },
+      {
+        "condition": "clean",
+        "method": "symmetry_height95",
+        "mean_excess_ml": 0.988335670952452
+      },
+      {
+        "condition": "clean",
+        "method": "symmetry_robust95",
+        "mean_excess_ml": 0.9481440541931155
+      },
+      {
+        "condition": "depth_gap",
+        "method": "convex",
+        "mean_excess_ml": 22.685012777681994
+      },
+      {
+        "condition": "depth_gap",
+        "method": "ellipsoid",
+        "mean_excess_ml": 0.6785496342657057
+      },
+      {
+        "condition": "depth_gap",
+        "method": "symmetry",
+        "mean_excess_ml": 0.0
+      },
+      {
+        "condition": "depth_gap",
+        "method": "symmetry_height95",
+        "mean_excess_ml": 1.4698427484382492
+      },
+      {
+        "condition": "depth_gap",
+        "method": "symmetry_robust95",
+        "mean_excess_ml": 1.3696348344377949
+      },
+      {
+        "condition": "depth_jitter_2mm",
+        "method": "convex",
+        "mean_excess_ml": 33.69554009903573
+      },
+      {
+        "condition": "depth_jitter_2mm",
+        "method": "ellipsoid",
+        "mean_excess_ml": 0.7490631139265632
+      },
+      {
+        "condition": "depth_jitter_2mm",
+        "method": "symmetry",
+        "mean_excess_ml": 2.049355784109999
+      },
+      {
+        "condition": "depth_jitter_2mm",
+        "method": "symmetry_height95",
+        "mean_excess_ml": 0.0
+      },
+      {
+        "condition": "depth_jitter_2mm",
+        "method": "symmetry_robust95",
+        "mean_excess_ml": 0.0
+      },
+      {
+        "condition": "outliers_2percent",
+        "method": "convex",
+        "mean_excess_ml": 61.11230632079161
+      },
+      {
+        "condition": "outliers_2percent",
+        "method": "ellipsoid",
+        "mean_excess_ml": 8.362426765498972
+      },
+      {
+        "condition": "outliers_2percent",
+        "method": "symmetry",
+        "mean_excess_ml": 32.19665408582393
+      },
+      {
+        "condition": "outliers_2percent",
+        "method": "symmetry_height95",
+        "mean_excess_ml": 1.6312961360806852
+      },
+      {
+        "condition": "outliers_2percent",
+        "method": "symmetry_robust95",
+        "mean_excess_ml": 1.2311553846877434
+      }
+    ]
+  },
+  "tests_passed_before_scoring": 31,
+  "analysis_sha256": "d2b4996b1a305fe38bf039ca6d20c0a9b9d7d2b2a0a7a9712f7bad9129a17647",
+  "reproducibility": {
+    "fixture_role": "separate fixed validation fixture; not height_development_v1",
+    "fresh_processes": 2,
+    "geometry_files": 3,
+    "geometry_bytes_equal": true,
+    "parameters_and_metrics_equal": true,
+    "script_sha256": "2825f66cb4980298f86db25bb8cefe2af4ce1e2334c261386c4e349d7e136da7"
+  },
+  "aggregation_recomputation_equal": true,
+  "protocol_and_design_seals_match": true,
+  "source_and_lock_hashes_match": true
+}

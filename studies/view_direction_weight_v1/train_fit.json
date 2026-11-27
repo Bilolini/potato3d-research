@@ -1,0 +1,47 @@
+{
+  "frame_manifest_sha256": "64756b7139f458ac14aa036edb0544f360c6a412169370d8cae882157f0f08dd",
+  "training_potatoes": 118,
+  "training_frames": 3368,
+  "frames_per_potato": {
+    "min": 23.0,
+    "median": 29.0,
+    "max": 34.0
+  },
+  "weight_per_frame": "1 / number of archived frames for this tuber",
+  "training_ray_ranges": {
+    "rx": {
+      "min": -0.7819085995565084,
+      "median": -0.08621228530813838,
+      "max": 0.65803079212357
+    },
+    "ry": {
+      "min": -0.4900147985374319,
+      "median": -0.01235301649007053,
+      "max": 0.46247976550046566
+    }
+  },
+  "models": {
+    "A": {
+      "coefficients": {
+        "intercept": 12.248482230830191,
+        "proxy_cm3": 0.7672316362591997
+      },
+      "rank": 2
+    },
+    "B": {
+      "coefficients": {
+        "intercept": 13.84785015087887,
+        "proxy_cm3": 0.7671799711731522,
+        "rx": 4.0611144550007054,
+        "ry": 2.063356936761704,
+        "proxy_rx": 0.07658306466635192,
+        "proxy_ry": 0.030407205596821203
+      },
+      "rank": 6
+    }
+  },
+  "model_a_archived_coefficient_abs_delta": {
+    "intercept": 0.0,
+    "proxy_cm3": 0.0
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "stage": "intake_demo_check",
+  "registration_warning_review": "pending manual review",
+  "metadata": {
+    "ground_truth": {
+      "path": "ground_truth.csv",
+      "sha256": "07a06bae2f20617f853adbc0ba28e34dc6af0e248b40f3f8df82f20bc4e4525c"
+    },
+    "intrinsics": {
+      "path": "1_rgbd/0_camera_intrinsics/realsense_d405_camera_intrinsic.json",
+      "sha256": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf"
+    }
+  },
+  "pairs": [
+    {
+      "object_id": "2R2-8",
+      "frame_id": "356",
+      "cultivar": "Kitahime",
+      "unit": "m",
+      "published_registration_rmse_mm": 0.6566845279955553,
+      "rgbd_to_sfm_m": [
+        [
+          0.27536089279180154,
+          0.6984664602052201,
+          -0.6605459731837682,
+          0.19065222123946834
+        ],
+        [
+          0.4495452246748738,
+          0.5137999705137805,
+          0.7306973937766963,
+          -0.2655604812944539
+        ],
+        [
+          0.8497561236572055,
+          -0.49815077463397384,
+          -0.17251184318374363,
+          0.08799447028431229
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "files": {
+        "partial": {
+          "path": "1_rgbd/2_pcd/2R2-8/2R2-8_pcd_356.ply",
+          "sha256": "e5cc9dc4f2f8f739641e5f2bdcc11135e5da0e40420200166909795e563641bf"
+        },
+        "reference": {
+          "path": "2_sfm/1_mesh/2R2-8/2R2-8.obj",
+          "sha256": "837c63ea75cfd50aec5dd613223bada576a95bf94672704c162f465944940105"
+        },
+        "registration": {
+          "path": "3_pair/tmatrix/2R2-8.json",
+          "sha256": "57f73e0b234a6a385a5d1ba2eb778173b1aac1fdf18ce19a3863ce301da71671"
+        },
+        "rgb": {
+          "path": "1_rgbd/1_image/2R2-8/2R2-8_rgb_356.png",
+          "sha256": "3e2c8449942d7c2e07b5cb8f4db092a04aad5ae8cc6a090387b282f69986bcba"
+        },
+        "depth": {
+          "path": "1_rgbd/1_image/2R2-8/2R2-8_depth_356.png",
+          "sha256": "8ec41435d1cb937c979b027848c17a0903c85d0455e7caee59cf2dc1ff30c41d"
+        }
+      },
+      "raster_check": {
+        "point_count": 22085,
+        "mask_fraction": 1.0,
+        "max_depth_error_mm": 1.4543533325195312e-05
+      }
+    },
+    {
+      "object_id": "4R3-4",
+      "frame_id": "367",
+      "cultivar": "Sayaka",
+      "unit": "m",
+      "published_registration_rmse_mm": 0.6335902155720338,
+      "rgbd_to_sfm_m": [
+        [
+          -0.8118516289862535,
+          -0.3029126323177102,
+          -0.4991401303188532,
+          0.10826652140033827
+        ],
+        [
+          -0.5308546727319491,
+          0.027029967908694854,
+          0.8470316979154384,
+          -0.3059306608008663
+        ],
+        [
+          -0.2430848595676445,
+          0.952634934283438,
+          -0.18274690977351138,
+          0.15832819089196537
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "files": {
+        "partial": {
+          "path": "1_rgbd/2_pcd/4R3-4/4R3-4_pcd_367.ply",
+          "sha256": "aaddfa09978e6a2f1c0d03ae10819c6013812566414c28cf103c00907da0634c"
+        },
+        "reference": {
+          "path": "2_sfm/1_mesh/4R3-4/4R3-4.obj",
+          "sha256": "4b78b81ff4ebeb4fe9c4923c082b62951bff3275cb4d519e41af27ba7d535e12"
+        },
+        "registration": {
+          "path": "3_pair/tmatrix/4R3-4.json",
+          "sha256": "35d8c696245a0b4b3cdd13c9468d5410509c30e5612e19c2c8f36f62a073c254"
+        },
+        "rgb": {
+          "path": "1_rgbd/1_image/4R3-4/4R3-4_rgb_367.png",
+          "sha256": "707c08330b0493c9e02f736ccb652573286a85e86a41482b2a223ee88af76ddd"
+        },
+        "depth": {
+          "path": "1_rgbd/1_image/4R3-4/4R3-4_depth_367.png",
+          "sha256": "f0259582f0899c19482313e3a4c16c55e453417bf74f47bd876aa35d009a44d1"
+        }
+      },
+      "raster_check": {
+        "point_count": 15847,
+        "mask_fraction": 1.0,
+        "max_depth_error_mm": 1.4543533325195312e-05
+      }
+    },
+    {
+      "object_id": "5R3-2",
+      "frame_id": "356",
+      "cultivar": "Corolle",
+      "unit": "m",
+      "published_registration_rmse_mm": 0.6387024429854341,
+      "rgbd_to_sfm_m": [
+        [
+          0.07755894369750259,
+          0.509516058926894,
+          0.8569585730641438,
+          -0.2857187718329437
+        ],
+        [
+          -0.2261292512140547,
+          -0.8281564366949778,
+          0.5128571712534085,
+          -0.17304923441036202
+        ],
+        [
+          0.971004722953446,
+          -0.23356006091856324,
+          0.050985546440324575,
+          0.08239061850628845
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "files": {
+        "partial": {
+          "path": "1_rgbd/2_pcd/5R3-2/5R3-2_pcd_356.ply",
+          "sha256": "b8d44ed69008c80c62bc553a247fd76ce3fb882725cff18f871e8103af7c364b"
+        },
+        "reference": {
+          "path": "2_sfm/1_mesh/5R3-2/5R3-2.obj",
+          "sha256": "b1e0a719223415bc07104b9ebed5dac9cd2aecf2d962c14029f5ffd7e78e2541"
+        },
+        "registration": {
+          "path": "3_pair/tmatrix/5R3-2.json",
+          "sha256": "51f4878adbb09a2e07f92c41cff94b8f11c75bceb73d3d7b0c50602f21c04a33"
+        },
+        "rgb": {
+          "path": "1_rgbd/1_image/5R3-2/5R3-2_rgb_356.png",
+          "sha256": "554371c1d42cae27804a776d7910b74a94872399bcaa70e17a74fe932dcd97ac"
+        },
+        "depth": {
+          "path": "1_rgbd/1_image/5R3-2/5R3-2_depth_356.png",
+          "sha256": "54498d55cf5849e1e1a937152543bbd69c719d8b38553ea37dced9d887835a12"
+        }
+      },
+      "raster_check": {
+        "point_count": 10955,
+        "mask_fraction": 1.0,
+        "max_depth_error_mm": 1.4543533325195312e-05
+      }
+    },
+    {
+      "object_id": "R13-8",
+      "frame_id": "357",
+      "cultivar": "Sayaka",
+      "unit": "m",
+      "published_registration_rmse_mm": 0.693710710759141,
+      "rgbd_to_sfm_m": [
+        [
+          -0.5075340978922147,
+          0.14672965716309988,
+          -0.8490462573885688,
+          0.3478597059431154
+        ],
+        [
+          0.8287466507029254,
+          -0.18650600846091192,
+          -0.5276310242552672,
+          0.034997228063382874
+        ],
+        [
+          -0.23577134776180847,
+          -0.9714349780179719,
+          -0.026943553177020914,
+          0.17437042742027448
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "files": {
+        "partial": {
+          "path": "1_rgbd/2_pcd/R13-8/R13-8_pcd_357.ply",
+          "sha256": "9f06153863208e821e872c149566f488c396ca2f043ecb932402f25b1ee9c0de"
+        },
+        "reference": {
+          "path": "2_sfm/1_mesh/R13-8/R13-8.obj",
+          "sha256": "a9a2efe17138540a245b77b5b7228c18f4d6b0d6b5be321b30a8658b3b505da0"
+        },
+        "registration": {
+          "path": "3_pair/tmatrix/R13-8.json",
+          "sha256": "f471ee7c8604de21ab3444bc66a6bbe54f508b47f5e06517e73a304c495454bf"
+        },
+        "rgb": {
+          "path": "1_rgbd/1_image/R13-8/R13-8_rgb_357.png",
+          "sha256": "38db1db38b0a9fef4f5356c3fe1e43f75cb549c1da097733d20d84eb69a53147"
+        },
+        "depth": {
+          "path": "1_rgbd/1_image/R13-8/R13-8_depth_357.png",
+          "sha256": "e8fa08618036b7032f750718195b1e8be5591ccb3e17745735a017d74dc151b4"
+        }
+      },
+      "raster_check": {
+        "point_count": 38302,
+        "mask_fraction": 1.0,
+        "max_depth_error_mm": 1.4543533325195312e-05
+      }
+    },
+    {
+      "object_id": "R7-7",
+      "frame_id": "357",
+      "cultivar": "Sayaka",
+      "unit": "m",
+      "published_registration_rmse_mm": 0.5964445284246415,
+      "rgbd_to_sfm_m": [
+        [
+          0.33295625512337884,
+          -0.21720573055624076,
+          -0.9175847659958971,
+          0.3359631901186547
+        ],
+        [
+          -0.28326983588470217,
+          -0.951200545005698,
+          0.12237533762452914,
+          -0.061781415706123916
+        ],
+        [
+          -0.8993877541150257,
+          0.21917845193903807,
+          -0.3782360029842971,
+          0.1525866691853233
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "files": {
+        "partial": {
+          "path": "1_rgbd/2_pcd/R7-7/R7-7_pcd_357.ply",
+          "sha256": "bb5e1c94c4ded719cc23865b87373798ea6450412b24819995ad8d56a2f723d6"
+        },
+        "reference": {
+          "path": "2_sfm/1_mesh/R7-7/R7-7.obj",
+          "sha256": "fa1bb1556216f95a3814f7c2f55232d89dc15035626e9dc232a12fd8716ff298"
+        },
+        "registration": {
+          "path": "3_pair/tmatrix/R7-7.json",
+          "sha256": "0ebc11161fe822f5bd22efeb68299209f2342a0974125fa7c81f72be4c6eb2a3"
+        },
+        "rgb": {
+          "path": "1_rgbd/1_image/R7-7/R7-7_rgb_357.png",
+          "sha256": "7e482403c5765d23adf466e7fde9678eb8cc45d3fc22e627f6518e5d8fee65fe"
+        },
+        "depth": {
+          "path": "1_rgbd/1_image/R7-7/R7-7_depth_357.png",
+          "sha256": "2eed9a388d77aeb83b230e8ef2f45e11dffe710312d4a54a96624644283bc829"
+        }
+      },
+      "raster_check": {
+        "point_count": 5604,
+        "mask_fraction": 1.0,
+        "max_depth_error_mm": 1.4543533325195312e-05
+      }
+    }
+  ]
+}

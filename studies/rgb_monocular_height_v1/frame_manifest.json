@@ -1,0 +1,598 @@
+{
+  "sources_sha256": {
+    "studies/rgb_monocular_height_v1/infer.py": "1185dd5d2600467b151dce28c7407fb0eef7e3949e1af666dbc4d202fb93a7b2",
+    "studies/rgb_monocular_height_v1/protocol.md": "9f1cacc166f976465ef8ab161f5f8ce5e69135ad883944e0a2bbe3a504e6316c",
+    "studies/rgb_only_height_value_v1/frame_manifest.json": "2ad263ad73fc52d9e710f7d0fe0d669ffec37480319382eae54f77ed3a0d046b",
+    "studies/rgb_only_height_value_v1/train_fit.json": "edf029a0816120c36e45afea573838fe769233224ba273e4addbdb407f06e1b7",
+    "studies/rgb_only_height_value_v1/run.py": "e484128f36a3c6d3f25574413a02208d2a250054f36e69e9b7c69f01c204b5cb",
+    "studies/rgb_predicted_height_v1/run.py": "69ddf8b9ebc32499c0cf848ac1a4f8c81b24263539131861950fc03dd4cf47e5",
+    "studies/sam2_human_prompt_confirmation_v1/cohort_freeze.json": "cc08f9ece8796cc827eff24de0511149cfcd4c5de5a4b8a46438a1e72741e5b8",
+    "data/raw/3DPotatoTwin/1_rgbd/0_camera_intrinsics/realsense_d405_camera_intrinsic.json": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf",
+    "data/raw/3DPotatoTwin/3_pair/non-perfect.txt": "175754f8a5dbe3ee3decb6bc38aef46e2c13abc08c45eebc342f6752d97d911b",
+    "studies/regional_shape_v1/replication_cohort.json": "d9eb49dde8cc1111d564fcdcb528225d6d847d12205d33962b3d9fb69226a809",
+    "studies/regional_shape_v1/support_offset_confirmation_cohort.json": "8e1f11ecf292eefb167a4b3a8d6fe8af6dbeeeb933fcf45cf4b26fb0b76d2188",
+    "studies/regional_shape_v1/corepp_pin_confirmation/roster.json": "502cd15bf479be089dd616216dc5933a61a75f4ddc7d96bc6fb45668e97e8525",
+    "studies/real_lobes_v1/fresh_selection.json": "8064270270a2d1c776abec7d9b56d0495b2201763994d5693035d7783df32016",
+    "data/demo_manifest.json": "d5d30a5410daed0f36c98af69a946ec8933bbea33186e48012a5a14575b15648"
+  },
+  "model": {
+    "model": "depth-anything/Depth-Anything-V2-Metric-Indoor-Large-hf",
+    "revision": "d2fc6a93601aabb1139a3bf0ebfcb4e89c67817f",
+    "weight_sha256": "04d3295ff4f9cbee72b8998a85930fe870b45ba4431e7af47415fbded02388ca",
+    "config_git_blob_ids": {
+      "config.json": "304986b2891231c224ad429a3efd50afe2d22e7d",
+      "preprocessor_config.json": "4b48811870a9d567ee23549c08249fe943e57916"
+    },
+    "nominal_unit": "m",
+    "max_depth_m": 20,
+    "processor": {
+      "do_normalize": true,
+      "do_pad": false,
+      "do_rescale": true,
+      "do_resize": true,
+      "ensure_multiple_of": 14,
+      "image_mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "image_processor_type": "DPTImageProcessor",
+      "image_std": [
+        0.229,
+        0.224,
+        0.225
+      ],
+      "keep_aspect_ratio": true,
+      "resample": 3,
+      "rescale_factor": 0.00392156862745098,
+      "size": {
+        "height": 518,
+        "width": 518
+      },
+      "size_divisor": null
+    }
+  },
+  "training_preflight": [
+    {
+      "tuber": "R7-10",
+      "split": "train",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "1R-A.zip",
+          "member": "R7-10/R7-10_rgb_352.png",
+          "crc32": 1033203668,
+          "bytes": 1797780
+        },
+        "depth": {
+          "archive": "1R-A.zip",
+          "member": "R7-10/R7-10_depth_352.png",
+          "crc32": 461842188,
+          "bytes": 223665
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R7-2",
+      "split": "train",
+      "suffix_px": 351,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R7-2/3R7-2_rgb_351.png",
+          "crc32": 1535873527,
+          "bytes": 1938078
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R7-2/3R7-2_depth_351.png",
+          "crc32": 2187141970,
+          "bytes": 235926
+        }
+      },
+      "metadata_failures": {}
+    },
+    {
+      "tuber": "3R5-8",
+      "split": "train",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "inputs": {
+        "rgb": {
+          "archive": "3R.zip",
+          "member": "3R5-8/3R5-8_rgb_353.png",
+          "crc32": 1514299330,
+          "bytes": 1879398
+        },
+        "depth": {
+          "archive": "3R.zip",
+          "member": "3R5-8/3R5-8_depth_353.png",
+          "crc32": 149917558,
+          "bytes": 234185
+        }
+      },
+      "metadata_failures": {}
+    }
+  ],
+  "evaluation": [
+    {
+      "tuber": "2R1-1",
+      "suffix_px": 358,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-1/2R1-1_rgb_358.png",
+        "crc32": 382906573,
+        "bytes": 1814112
+      }
+    },
+    {
+      "tuber": "2R1-9",
+      "suffix_px": 356,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R1-9/2R1-9_rgb_356.png",
+        "crc32": 2142651165,
+        "bytes": 1790458
+      }
+    },
+    {
+      "tuber": "2R2-1",
+      "suffix_px": 351,
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "2R.zip",
+        "member": "2R2-1/2R2-1_rgb_351.png",
+        "crc32": 580316489,
+        "bytes": 1890528
+      }
+    },
+    {
+      "tuber": "3R1-1",
+      "suffix_px": 366,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-1/3R1-1_rgb_366.png",
+        "crc32": 2498140280,
+        "bytes": 1723240
+      }
+    },
+    {
+      "tuber": "3R1-7",
+      "suffix_px": 364,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-7/3R1-7_rgb_364.png",
+        "crc32": 1628027593,
+        "bytes": 1913238
+      }
+    },
+    {
+      "tuber": "3R1-8",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-8/3R1-8_rgb_353.png",
+        "crc32": 3374789903,
+        "bytes": 1765774
+      }
+    },
+    {
+      "tuber": "3R1-9",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R1-9/3R1-9_rgb_363.png",
+        "crc32": 585758382,
+        "bytes": 1810663
+      }
+    },
+    {
+      "tuber": "3R3-8",
+      "suffix_px": 363,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R3-8/3R3-8_rgb_363.png",
+        "crc32": 2289778571,
+        "bytes": 1792321
+      }
+    },
+    {
+      "tuber": "3R4-10",
+      "suffix_px": 368,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R4-10/3R4-10_rgb_368.png",
+        "crc32": 2029131431,
+        "bytes": 1784368
+      }
+    },
+    {
+      "tuber": "3R6-2",
+      "suffix_px": 355,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R6-2/3R6-2_rgb_355.png",
+        "crc32": 901603783,
+        "bytes": 1895899
+      }
+    },
+    {
+      "tuber": "3R6-3",
+      "suffix_px": 352,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R6-3/3R6-3_rgb_352.png",
+        "crc32": 1423653471,
+        "bytes": 1889935
+      }
+    },
+    {
+      "tuber": "3R7-10",
+      "suffix_px": 358,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "rgb": {
+        "archive": "3R.zip",
+        "member": "3R7-10/3R7-10_rgb_358.png",
+        "crc32": 1265390306,
+        "bytes": 1791770
+      }
+    },
+    {
+      "tuber": "4R1-2",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R1-2/4R1-2_rgb_353.png",
+        "crc32": 3993639243,
+        "bytes": 1791793
+      }
+    },
+    {
+      "tuber": "4R3-1",
+      "suffix_px": 357,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R3-1/4R3-1_rgb_357.png",
+        "crc32": 789164884,
+        "bytes": 1831925
+      }
+    },
+    {
+      "tuber": "4R4-10",
+      "suffix_px": 355,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-10/4R4-10_rgb_355.png",
+        "crc32": 3976928279,
+        "bytes": 1912773
+      }
+    },
+    {
+      "tuber": "4R4-4",
+      "suffix_px": 353,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-4/4R4-4_rgb_353.png",
+        "crc32": 1416254769,
+        "bytes": 1881214
+      }
+    },
+    {
+      "tuber": "4R4-8",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R4-8/4R4-8_rgb_356.png",
+        "crc32": 2674513387,
+        "bytes": 1922631
+      }
+    },
+    {
+      "tuber": "4R6-1",
+      "suffix_px": 349,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R6-1/4R6-1_rgb_349.png",
+        "crc32": 3260933074,
+        "bytes": 1808918
+      }
+    },
+    {
+      "tuber": "4R6-7",
+      "suffix_px": 359,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R6-7/4R6-7_rgb_359.png",
+        "crc32": 1107700746,
+        "bytes": 1822348
+      }
+    },
+    {
+      "tuber": "4R8-2",
+      "suffix_px": 369,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-2/4R8-2_rgb_369.png",
+        "crc32": 4165032022,
+        "bytes": 1884265
+      }
+    },
+    {
+      "tuber": "4R8-3",
+      "suffix_px": 356,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-3/4R8-3_rgb_356.png",
+        "crc32": 1508487533,
+        "bytes": 1821960
+      }
+    },
+    {
+      "tuber": "4R8-5",
+      "suffix_px": 370,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-5/4R8-5_rgb_370.png",
+        "crc32": 948050658,
+        "bytes": 1760489
+      }
+    },
+    {
+      "tuber": "4R8-8",
+      "suffix_px": 359,
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "rgb": {
+        "archive": "4R.zip",
+        "member": "4R8-8/4R8-8_rgb_359.png",
+        "crc32": 388091278,
+        "bytes": 1851819
+      }
+    },
+    {
+      "tuber": "R1-1",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R1-1/R1-1_rgb_355.png",
+        "crc32": 2575284969,
+        "bytes": 1640483
+      }
+    },
+    {
+      "tuber": "R1-2",
+      "suffix_px": 370,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R1-2/R1-2_rgb_370.png",
+        "crc32": 310706404,
+        "bytes": 1696548
+      }
+    },
+    {
+      "tuber": "R1-3",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R1-3/R1-3_rgb_358.png",
+        "crc32": 891645354,
+        "bytes": 1704247
+      }
+    },
+    {
+      "tuber": "R10-10",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R10-10/R10-10_rgb_360.png",
+        "crc32": 1163893574,
+        "bytes": 1798372
+      }
+    },
+    {
+      "tuber": "R11-5",
+      "suffix_px": 354,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R11-5/R11-5_rgb_354.png",
+        "crc32": 564040777,
+        "bytes": 1783146
+      }
+    },
+    {
+      "tuber": "R3-2",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R3-2/R3-2_rgb_358.png",
+        "crc32": 2173424531,
+        "bytes": 1837895
+      }
+    },
+    {
+      "tuber": "R4-2",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-2/R4-2_rgb_352.png",
+        "crc32": 51150507,
+        "bytes": 1688516
+      }
+    },
+    {
+      "tuber": "R4-4",
+      "suffix_px": 358,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-4/R4-4_rgb_358.png",
+        "crc32": 2882465192,
+        "bytes": 1736609
+      }
+    },
+    {
+      "tuber": "R4-7",
+      "suffix_px": 363,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R4-7/R4-7_rgb_363.png",
+        "crc32": 807184288,
+        "bytes": 1688988
+      }
+    },
+    {
+      "tuber": "R5-1",
+      "suffix_px": 356,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-1/R5-1_rgb_356.png",
+        "crc32": 114485313,
+        "bytes": 1677163
+      }
+    },
+    {
+      "tuber": "R5-7",
+      "suffix_px": 362,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-7/R5-7_rgb_362.png",
+        "crc32": 2972821589,
+        "bytes": 1721907
+      }
+    },
+    {
+      "tuber": "R5-8",
+      "suffix_px": 352,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-8/R5-8_rgb_352.png",
+        "crc32": 3095888796,
+        "bytes": 1640423
+      }
+    },
+    {
+      "tuber": "R5-9",
+      "suffix_px": 349,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R5-9/R5-9_rgb_349.png",
+        "crc32": 1601645814,
+        "bytes": 1620445
+      }
+    },
+    {
+      "tuber": "R6-5",
+      "suffix_px": 353,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-A.zip",
+        "member": "R6-5/R6-5_rgb_353.png",
+        "crc32": 3758745063,
+        "bytes": 1760001
+      }
+    },
+    {
+      "tuber": "R8-1",
+      "suffix_px": 371,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R8-1/R8-1_rgb_371.png",
+        "crc32": 3230210697,
+        "bytes": 1743730
+      }
+    },
+    {
+      "tuber": "R9-2",
+      "suffix_px": 360,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R9-2/R9-2_rgb_360.png",
+        "crc32": 3570949224,
+        "bytes": 1776020
+      }
+    },
+    {
+      "tuber": "R9-4",
+      "suffix_px": 355,
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "rgb": {
+        "archive": "1R-B.zip",
+        "member": "R9-4/R9-4_rgb_355.png",
+        "crc32": 3774433112,
+        "bytes": 1741796
+      }
+    }
+  ],
+  "image_size_hw": [
+    720,
+    1280
+  ],
+  "belt_mm": 350.0,
+  "projection_pixel_area_mm2": 0.28733674000105974,
+  "camera_matrix_px": [
+    [
+      653.7627563476562,
+      0.0,
+      643.483642578125
+    ],
+    [
+      0.0,
+      652.1158447265625,
+      366.064697265625
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "quantiles": {
+    "background": 0.85,
+    "target": 0.05
+  },
+  "python": "3.13.1",
+  "machine": "arm64",
+  "torch": "2.7.1",
+  "transformers": "4.53.2",
+  "threads": 6,
+  "precision": "float32"
+}

@@ -1,0 +1,295 @@
+{
+  "status": "passed",
+  "protocol_sha256": "715ed03acfa34af07b9d27d29085922c11182c521a987b0ef4e2529062234ddd",
+  "cpu_audit_sha256": "46555e49a2031a8299a22d894b52386e8dbc1930bf510e32d3002b9a00bd5592",
+  "source_hashes": {
+    "development_selection": "8064270270a2d1c776abec7d9b56d0495b2201763994d5693035d7783df32016",
+    "archived_development_results": "ac13f7cc22ec49dd8bef9d243348bf9ec6e61f3c63ec19be9478fd6c1869e3c9",
+    "rgb": "2a89b0ba27607b911e9942d5b45aee3cba62b5324e73b5ba3e8f78b5764866a2",
+    "depth": "bf51e088a1b2eb75e8dd76f0e13965c1e4dcd76541e967bdf8104887f331644e",
+    "reference": "ac2a514a705871525fc77a7d2e1b6a3e32cd1ea242b6c18111ab21f7806aaa92",
+    "registered_pair_json": "2783bbeabdcd698772d1fedf1fa086627be6d1836cae25be2eadbeee7f161b8f",
+    "pin_annotation": "4ef3b328155fe671f2015b6f6fecbed7ed5dd58edc35b890282e539bbe12fd9f",
+    "release_intrinsics": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf"
+  },
+  "model_training_modes": {
+    "encoder": true,
+    "decoder": true
+  },
+  "rng_reset_before": [
+    "preprocessing",
+    "encoder",
+    "decoder",
+    "mesh"
+  ],
+  "cpu_threads": 1,
+  "grid_sha256": "14920c479ff71aeb7c88715bcfeee9b4896f66a5475bc1e389bb1625b9b943f0",
+  "grid_size": 8000,
+  "grid_bbox_m": {
+    "xmin": -0.04741944384351334,
+    "xmax": 0.04741944384351334,
+    "ymin": -0.04741944384351334,
+    "ymax": 0.04741944384351334,
+    "zmin": -0.04741944384351334,
+    "zmax": 0.04741944384351334
+  },
+  "surface_tolerance_mm": 0.0001,
+  "pairs": [
+    {
+      "seed": 133,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "506d9951654f911e905ed40ab9de1bbb0551f9e1527279dac220b0967c09e559"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.0936856824628194e-06,
+        "p95_mm": 3.7751558465970447e-06,
+        "max_mm": 1.2803569006791804e-05,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 134,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "c5f7a57e4a715f6275239624fcbe8324b26a0b6f3dcb44346f5ed78b8899875a"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.1548061138455523e-06,
+        "p95_mm": 3.839941200567409e-06,
+        "max_mm": 6.177695468068123e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 135,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "40060ebf706f04a3dcb94ecf5736d9e67db6ec289c34ffabce6786314293eb5d"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.1042623100365745e-06,
+        "p95_mm": 3.7614943266817136e-06,
+        "max_mm": 5.268355835141847e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 136,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "507a870f956a81ae7ef8265039e2cf727b8dc167db98fdb2af79d121a6bcd127"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.0980529623338953e-06,
+        "p95_mm": 3.7615172914229333e-06,
+        "max_mm": 4.74883199785836e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 137,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "141b39a7e239dffa5bd2106bda68dc3d5f9c24506c234a8bfa4bbdd14f708477"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.098694610845996e-06,
+        "p95_mm": 3.7544396036537364e-06,
+        "max_mm": 8.535712368029635e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 138,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "703e334288bf9ae7269ae2921e82ff8b8df55597f3f620bf03e9652a0881f405"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.1367546903784387e-06,
+        "p95_mm": 3.7973532016621903e-06,
+        "max_mm": 5.288895408739336e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 139,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "3f72973aa8963a8e6058661917625e211b4f4c533abe3933bf251eae26272692"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.1183747119503096e-06,
+        "p95_mm": 3.7718598377978196e-06,
+        "max_mm": 5.890201009606244e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 140,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "aa38033f21c2f070051369a60eced5817c77edd57b1482d052ec292174c3e4da"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.139413939199585e-06,
+        "p95_mm": 3.839941200567409e-06,
+        "max_mm": 5.35004073753953e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 141,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "2d75556915bd24af719271b1d5bd392ae70d5930fd34779d5845610a1fcba43f"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.118873569794232e-06,
+        "p95_mm": 3.7973532016621903e-06,
+        "max_mm": 6.9693801378889475e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 142,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "cba7d2d58ea816296bb5cc403d28329b4e85fe3069c919485cfc97ecfdb7868c"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.1004925681845634e-06,
+        "p95_mm": 3.754281351575628e-06,
+        "max_mm": 1.5387973689939827e-05,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 143,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "528bb2fcd7b97d4646effc66e94f2f5894e78b756711353b43b3492bce874672"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.1229442407056922e-06,
+        "p95_mm": 3.7830502606084337e-06,
+        "max_mm": 5.268355835141847e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 144,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "e42ddb5037fd3fb2b0548cc48acc48f8121a0bc47d7a226bb99b9ce277198ab5"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.118371642405691e-06,
+        "p95_mm": 3.813379407802131e-06,
+        "max_mm": 5.35004073753953e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 145,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "54081d99c6efc186d2a4691c66a344ab83c0d9ff9028f7915496bf531e9703e8"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.0903876273005153e-06,
+        "p95_mm": 3.75608556169027e-06,
+        "max_mm": 4.562530193652492e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 146,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "daa25bd1dd4c48529f149f0bc725b2f6c8c49c332cadf3de84df8f8c3248c97b"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.0773658232210437e-06,
+        "p95_mm": 3.754281351575628e-06,
+        "max_mm": 6.51925802230835e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 147,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "129d7be778dddd360011f2b3daac23eda7edbe386ecf74c287f6bcb94a3f7e3d"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.1837942111014854e-06,
+        "p95_mm": 3.839941200567409e-06,
+        "max_mm": 6.05359673500061e-06,
+        "identical_mesh_arrays": true
+      }
+    },
+    {
+      "seed": 148,
+      "hashes": {
+        "tensor": "11dd7ff7ae4081414061ccbf5407994d16dff97191ada57fc0c34617bb9eb75d",
+        "latent": "05f3dc9655755b5efdf992f22391fec0837da12002be36e0543877de02dde854",
+        "sdf": "c51db7387ac62e55392311d53753faaa8bbaf1c3799e697b8fa3bf9b5742307c"
+      },
+      "grid_label_changes": 0,
+      "volume_change_ml": 0,
+      "surface_distance": {
+        "mean_mm": 1.1556322760952753e-06,
+        "p95_mm": 3.839941200567409e-06,
+        "max_mm": 8.381903171539307e-06,
+        "identical_mesh_arrays": true
+      }
+    }
+  ]
+}

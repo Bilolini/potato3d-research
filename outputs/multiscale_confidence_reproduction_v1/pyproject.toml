@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "potato3d"
+version = "0.1.0"
+description = "Reproducible CPU shape-completion baselines for partial potato scans"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "numpy>=2.2,<3", "scipy>=1.15,<2", "trimesh>=4.6,<5",
+  "rtree>=1.4,<2", "matplotlib>=3.10,<4", "PyYAML>=6.0,<7",
+  "plotly>=6,<7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+potato3d = "potato3d.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/potato3d"]

@@ -1,0 +1,6 @@
+{
+  "frozen_manifest_sha256": "227739071c230fc287b8bbfaa1eb35e991eb641813236c8f686ac24ad0eadee7",
+  "original_common_sha256": "d059d088748001854b9416892c1846fcdab0dd3bd539ad4f3c21cd70bd455b53",
+  "corrected_common_sha256": "3dfe68e187100ad8190d72988031b19b5cf413c00bf29ad44b8e19b8aaea8eca",
+  "reason": "Decode the separately named prompt mask without parsing its name as a numeric frame suffix. The calculation had not reconstructed an object or opened any scoring targets. The original tracking code did not call this reader. Tracking and input hashes are unchanged."
+}

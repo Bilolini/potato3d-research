@@ -1,0 +1,278 @@
+{
+  "n": 10,
+  "reference_samples_per_tuber": 50000,
+  "distance_threshold_mm": 2.0,
+  "equal_density_repeats": 10,
+  "output_voxel_mm": 1.0,
+  "methods": {
+    "center": {
+      "coverage_fraction": {
+        "n": 10,
+        "mean": 0.363074,
+        "median": 0.34506,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "far_fraction": {
+        "n": 10,
+        "mean": 0.039942589514608405,
+        "median": 0.04086818496422208,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "equal_coverage_fraction": {
+        "n": 10,
+        "mean": 0.363074,
+        "median": 0.34506,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "new_fraction": {
+        "n": 10,
+        "mean": 0.0,
+        "median": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      },
+      "lost_fraction": {
+        "n": 10,
+        "mean": 0.0,
+        "median": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      },
+      "new_area_mm2": {
+        "n": 10,
+        "mean": 0.0,
+        "median": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      },
+      "lost_area_mm2": {
+        "n": 10,
+        "mean": 0.0,
+        "median": 0.0,
+        "positive": 0,
+        "negative": 0,
+        "ties": 10
+      },
+      "points": {
+        "n": 10,
+        "mean": 6276.5,
+        "median": 5369.5,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      }
+    },
+    "icp": {
+      "coverage_fraction": {
+        "n": 10,
+        "mean": 0.400108,
+        "median": 0.39309,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "far_fraction": {
+        "n": 10,
+        "mean": 0.06457019311956655,
+        "median": 0.07378609721279372,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "equal_coverage_fraction": {
+        "n": 10,
+        "mean": 0.394808,
+        "median": 0.387167,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "new_fraction": {
+        "n": 10,
+        "mean": 0.037177999999999996,
+        "median": 0.035129999999999995,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "lost_fraction": {
+        "n": 10,
+        "mean": 0.00014399999999999998,
+        "median": 9e-05,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "new_area_mm2": {
+        "n": 10,
+        "mean": 495.7815875919724,
+        "median": 439.494645761488,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "lost_area_mm2": {
+        "n": 10,
+        "mean": 1.9704137689259906,
+        "median": 0.9149315979429733,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "points": {
+        "n": 10,
+        "mean": 11579.4,
+        "median": 10082.5,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      }
+    },
+    "raft": {
+      "coverage_fraction": {
+        "n": 10,
+        "mean": 0.4079440000000001,
+        "median": 0.40304,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "far_fraction": {
+        "n": 10,
+        "mean": 0.05538629059282829,
+        "median": 0.054021016290683455,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "equal_coverage_fraction": {
+        "n": 10,
+        "mean": 0.40317759999999997,
+        "median": 0.39752299999999996,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "new_fraction": {
+        "n": 10,
+        "mean": 0.045142,
+        "median": 0.04173,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "lost_fraction": {
+        "n": 10,
+        "mean": 0.000272,
+        "median": 0.00021,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "new_area_mm2": {
+        "n": 10,
+        "mean": 606.3380753913041,
+        "median": 558.3027780663633,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "lost_area_mm2": {
+        "n": 10,
+        "mean": 3.1480601608690284,
+        "median": 2.6939162776197163,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "points": {
+        "n": 10,
+        "mean": 11069.1,
+        "median": 9551.5,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      }
+    }
+  },
+  "paired_raft_comparison": {
+    "raft_vs_center": {
+      "coverage_fraction": {
+        "n": 10,
+        "mean": 0.044870000000000014,
+        "median": 0.04150000000000001,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      },
+      "far_fraction": {
+        "n": 10,
+        "mean": 0.015443701078219884,
+        "median": 0.01339315062839491,
+        "positive": 9,
+        "negative": 1,
+        "ties": 0
+      },
+      "equal_coverage_fraction": {
+        "n": 10,
+        "mean": 0.0401036,
+        "median": 0.036701999999999985,
+        "positive": 10,
+        "negative": 0,
+        "ties": 0
+      }
+    },
+    "raft_vs_icp": {
+      "coverage_fraction": {
+        "n": 10,
+        "mean": 0.00783600000000001,
+        "median": 0.009110000000000007,
+        "positive": 8,
+        "negative": 2,
+        "ties": 0
+      },
+      "far_fraction": {
+        "n": 10,
+        "mean": -0.009183902526738261,
+        "median": -0.005630305644130799,
+        "positive": 2,
+        "negative": 8,
+        "ties": 0
+      },
+      "equal_coverage_fraction": {
+        "n": 10,
+        "mean": 0.0083696,
+        "median": 0.009846000000000021,
+        "positive": 8,
+        "negative": 2,
+        "ties": 0
+      }
+    }
+  },
+  "runtime_s": {
+    "center_geometry": 0.08117591599693696,
+    "center_flow": 0.0,
+    "icp_geometry": 17.866553624999142,
+    "icp_flow": 0.0,
+    "raft_geometry": 4.668669331998899,
+    "raft_flow": 27.878665670014016
+  },
+  "reference_coverage_failures": [],
+  "measurement_wall_s": 46.378974168999775,
+  "figures": {
+    "worst_alignment": "4R4-10",
+    "typical_coverage": "R1-3"
+  },
+  "shared_support_loading_s": 4.372479789999488,
+  "raft_model_setup_s": 0.05517241699999431,
+  "score_freeze_sha256": "426ef5737431d81f0164577540d5e9bee09197bb33f781037e7276d6748b81c8"
+}

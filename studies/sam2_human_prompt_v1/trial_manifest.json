@@ -1,0 +1,1894 @@
+{
+  "schema": 1,
+  "source": "development",
+  "order_seed": "sam2-human-operator-order-v1/133",
+  "protocol_sha256": "773826a54286ac89da4ea7ad688fe7501381081674fa294afe0ce24486dc2859",
+  "parent_frame_manifest_sha256": "a5af54d34bd650c1544727a2b2a5be3f9d1ed8fd8e0cccafb9af64379989d229",
+  "parent_pin_manifest_sha256": "385e96631cc3597c742e28f6a50025481a7cc7defa73f8412094e19b68fe621a",
+  "prior_scores_sha256": "2fd3f9a8d440f457990718f2af947b725ec829994003faf714ff7f7d9b2369cd",
+  "parent_scores_sha256": "5f5ede1a630e6c1dd889a4fdd13ef5fc42546af68c67a4abaecfdf0668dc200b",
+  "parent_tracking_config_sha256": "189849e809414919b6af27915d045a5f48bc7ac177ac0f4be871914ef0e33a04",
+  "pin_annotations_sha256": "4ef3b328155fe671f2015b6f6fecbed7ed5dd58edc35b890282e539bbe12fd9f",
+  "trials": [
+    {
+      "trial": 1,
+      "tuber": "4R4-4",
+      "archive": "4R.zip",
+      "entry_file": "4R4-4/4R4-4_rgb_085.png",
+      "entry_crc32": "eda6d289",
+      "center_file": "4R4-4/4R4-4_rgb_353.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "e282e0bf2e670b5328520e8cf62b963a939db2531db1ac6e56a3b3e3d5659639",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            1174,
+            624,
+            1144,
+            624
+          ],
+          [
+            1157,
+            616,
+            1144,
+            624
+          ],
+          [
+            1157,
+            632,
+            1144,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          1141,
+          613,
+          1178,
+          636
+        ],
+        "patch_p90_rgb": 53.333333333333336
+      },
+      "private_target_bbox_xyxy": [
+        924,
+        569,
+        1129,
+        700
+      ]
+    },
+    {
+      "trial": 2,
+      "tuber": "R6-5",
+      "archive": "1R-A.zip",
+      "entry_file": "R6-5/R6-5_rgb_073.png",
+      "entry_crc32": "33d57c52",
+      "center_file": "R6-5/R6-5_rgb_353.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "d441d632455c32ae2e8967e3957006c771af799213c12498fb925cef183d8b74",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            475,
+            648,
+            505,
+            648
+          ],
+          [
+            492,
+            656,
+            505,
+            648
+          ],
+          [
+            492,
+            640,
+            505,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          472,
+          637,
+          509,
+          660
+        ],
+        "patch_p90_rgb": 47.333333333333336
+      },
+      "private_target_bbox_xyxy": [
+        520,
+        575,
+        690,
+        719
+      ]
+    },
+    {
+      "trial": 3,
+      "tuber": "3R3-8",
+      "archive": "3R.zip",
+      "entry_file": "3R3-8/3R3-8_rgb_090.png",
+      "entry_crc32": "b29767c7",
+      "center_file": "3R3-8/3R3-8_rgb_363.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "cd1562f714b524ca551137162fefc99e484093d4d47a9efa94ca9e615a885876",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            581,
+            624,
+            611,
+            624
+          ],
+          [
+            598,
+            632,
+            611,
+            624
+          ],
+          [
+            598,
+            616,
+            611,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          578,
+          613,
+          615,
+          636
+        ],
+        "patch_p90_rgb": 55.0
+      },
+      "private_target_bbox_xyxy": [
+        626,
+        557,
+        784,
+        703
+      ]
+    },
+    {
+      "trial": 4,
+      "tuber": "4R6-1",
+      "archive": "4R.zip",
+      "entry_file": "4R6-1/4R6-1_rgb_085.png",
+      "entry_crc32": "764bbbc6",
+      "center_file": "4R6-1/4R6-1_rgb_349.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "136410bd720e2e70d5c19c94ff0ce06f409000d56e79c758e427ee79772cb97a",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            371,
+            624,
+            401,
+            624
+          ],
+          [
+            388,
+            632,
+            401,
+            624
+          ],
+          [
+            388,
+            616,
+            401,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          368,
+          613,
+          405,
+          636
+        ],
+        "patch_p90_rgb": 57.0
+      },
+      "private_target_bbox_xyxy": [
+        416,
+        552,
+        564,
+        718
+      ]
+    },
+    {
+      "trial": 5,
+      "tuber": "4R4-8",
+      "archive": "4R.zip",
+      "entry_file": "4R4-8/4R4-8_rgb_059.png",
+      "entry_crc32": "4a86aff4",
+      "center_file": "4R4-8/4R4-8_rgb_356.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "9bd4e8cb0b6563ac624ad8a3f9c4718022cca6bb4eacfe76405fa158d1f04605",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            454,
+            672,
+            484,
+            672
+          ],
+          [
+            471,
+            680,
+            484,
+            672
+          ],
+          [
+            471,
+            664,
+            484,
+            672
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          451,
+          661,
+          488,
+          684
+        ],
+        "patch_p90_rgb": 54.0
+      },
+      "private_target_bbox_xyxy": [
+        499,
+        611,
+        623,
+        711
+      ]
+    },
+    {
+      "trial": 6,
+      "tuber": "R9-4",
+      "archive": "1R-B.zip",
+      "entry_file": "R9-4/R9-4_rgb_078.png",
+      "entry_crc32": "07861b0f",
+      "center_file": "R9-4/R9-4_rgb_355.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "3a6f67ab3ed5763e0c331b7a6cbbd0e326c29af9d170fdff5c126f4984e1ce61",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            48,
+            648,
+            78,
+            648
+          ],
+          [
+            65,
+            656,
+            78,
+            648
+          ],
+          [
+            65,
+            640,
+            78,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          45,
+          637,
+          82,
+          660
+        ],
+        "patch_p90_rgb": 101.0
+      },
+      "private_target_bbox_xyxy": [
+        93,
+        577,
+        284,
+        706
+      ]
+    },
+    {
+      "trial": 7,
+      "tuber": "4R3-1",
+      "archive": "4R.zip",
+      "entry_file": "4R3-1/4R3-1_rgb_070.png",
+      "entry_crc32": "dfabc8f7",
+      "center_file": "4R3-1/4R3-1_rgb_357.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "69d627ca80c897311e91111a6f008c57dcc94ca56823a3c2d9b86273165c8f3d",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            646,
+            648,
+            616,
+            648
+          ],
+          [
+            629,
+            640,
+            616,
+            648
+          ],
+          [
+            629,
+            656,
+            616,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          613,
+          637,
+          650,
+          660
+        ],
+        "patch_p90_rgb": 58.0
+      },
+      "private_target_bbox_xyxy": [
+        473,
+        587,
+        601,
+        713
+      ]
+    },
+    {
+      "trial": 8,
+      "tuber": "R1-2",
+      "archive": "1R-A.zip",
+      "entry_file": "R1-2/R1-2_rgb_097.png",
+      "entry_crc32": "4519bc2f",
+      "center_file": "R1-2/R1-2_rgb_370.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "53c525e71ad4f74157ffc62a41da95d5f24aec7ba57a31bd4130614075f9729b",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            480,
+            501,
+            480,
+            531
+          ],
+          [
+            472,
+            518,
+            480,
+            531
+          ],
+          [
+            488,
+            518,
+            480,
+            531
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          469,
+          498,
+          492,
+          535
+        ],
+        "patch_p90_rgb": 54.0
+      },
+      "private_target_bbox_xyxy": [
+        366,
+        546,
+        576,
+        699
+      ]
+    },
+    {
+      "trial": 9,
+      "tuber": "3R7-10",
+      "archive": "3R.zip",
+      "entry_file": "3R7-10/3R7-10_rgb_071.png",
+      "entry_crc32": "61ef6f37",
+      "center_file": "3R7-10/3R7-10_rgb_358.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "da2b802526421dd6dab3f8fa0face6531477c71331e0c165f81dc584a7949c13",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            456,
+            550,
+            456,
+            580
+          ],
+          [
+            448,
+            567,
+            456,
+            580
+          ],
+          [
+            464,
+            567,
+            456,
+            580
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          445,
+          547,
+          468,
+          584
+        ],
+        "patch_p90_rgb": 53.0
+      },
+      "private_target_bbox_xyxy": [
+        418,
+        595,
+        516,
+        702
+      ]
+    },
+    {
+      "trial": 10,
+      "tuber": "R4-4",
+      "archive": "1R-A.zip",
+      "entry_file": "R4-4/R4-4_rgb_061.png",
+      "entry_crc32": "ddca2884",
+      "center_file": "R4-4/R4-4_rgb_358.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "b706eb425895da3a05b7bbb45a3ece3778932e03aa6ff67c6432dc70789186e7",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            678,
+            648,
+            708,
+            648
+          ],
+          [
+            695,
+            656,
+            708,
+            648
+          ],
+          [
+            695,
+            640,
+            708,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          675,
+          637,
+          712,
+          660
+        ],
+        "patch_p90_rgb": 35.666666666666664
+      },
+      "private_target_bbox_xyxy": [
+        723,
+        619,
+        822,
+        698
+      ]
+    },
+    {
+      "trial": 11,
+      "tuber": "3R1-7",
+      "archive": "3R.zip",
+      "entry_file": "3R1-7/3R1-7_rgb_090.png",
+      "entry_crc32": "38dc3bb6",
+      "center_file": "3R1-7/3R1-7_rgb_364.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "e383cc0d2c97eb49f8701c64ca896e2906b917b7155204f4ded20e5b6f561517",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            428,
+            624,
+            458,
+            624
+          ],
+          [
+            445,
+            632,
+            458,
+            624
+          ],
+          [
+            445,
+            616,
+            458,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          425,
+          613,
+          462,
+          636
+        ],
+        "patch_p90_rgb": 64.0
+      },
+      "private_target_bbox_xyxy": [
+        473,
+        547,
+        658,
+        713
+      ]
+    },
+    {
+      "trial": 12,
+      "tuber": "R5-8",
+      "archive": "1R-A.zip",
+      "entry_file": "R5-8/R5-8_rgb_074.png",
+      "entry_crc32": "c8aa4f2f",
+      "center_file": "R5-8/R5-8_rgb_352.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "730a09dd26e624ecf8a7fed6d5fe86c999e102eb4aee2e246f8e0bd9e2c5cdee",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            576,
+            528,
+            576,
+            558
+          ],
+          [
+            568,
+            545,
+            576,
+            558
+          ],
+          [
+            584,
+            545,
+            576,
+            558
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          565,
+          525,
+          588,
+          562
+        ],
+        "patch_p90_rgb": 58.333333333333336
+      },
+      "private_target_bbox_xyxy": [
+        489,
+        573,
+        643,
+        719
+      ]
+    },
+    {
+      "trial": 13,
+      "tuber": "R5-7",
+      "archive": "1R-A.zip",
+      "entry_file": "R5-7/R5-7_rgb_065.png",
+      "entry_crc32": "2ee621b8",
+      "center_file": "R5-7/R5-7_rgb_362.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "a9d55d6f4c735bd361f069bfdec7914457ed6034c4ac8a966ea85310bbee3404",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            840,
+            545,
+            840,
+            575
+          ],
+          [
+            832,
+            562,
+            840,
+            575
+          ],
+          [
+            848,
+            562,
+            840,
+            575
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          829,
+          542,
+          852,
+          579
+        ],
+        "patch_p90_rgb": 57.666666666666664
+      },
+      "private_target_bbox_xyxy": [
+        784,
+        590,
+        914,
+        719
+      ]
+    },
+    {
+      "trial": 14,
+      "tuber": "3R6-3",
+      "archive": "3R.zip",
+      "entry_file": "3R6-3/3R6-3_rgb_090.png",
+      "entry_crc32": "930d8773",
+      "center_file": "3R6-3/3R6-3_rgb_352.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "7f35c853fafa34755f15c5a6cdbd8cc757cbdc68db273743c9fd15fb8a8bd1db",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            696,
+            503,
+            696,
+            533
+          ],
+          [
+            688,
+            520,
+            696,
+            533
+          ],
+          [
+            704,
+            520,
+            696,
+            533
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          685,
+          500,
+          708,
+          537
+        ],
+        "patch_p90_rgb": 64.33333333333333
+      },
+      "private_target_bbox_xyxy": [
+        620,
+        548,
+        758,
+        711
+      ]
+    },
+    {
+      "trial": 15,
+      "tuber": "R8-1",
+      "archive": "1R-B.zip",
+      "entry_file": "R8-1/R8-1_rgb_099.png",
+      "entry_crc32": "b10615c3",
+      "center_file": "R8-1/R8-1_rgb_371.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "e47d9d2c2aa13e18080cb091f8879346f19a60d3335ba578c1595b82c3d8e7b8",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            399,
+            624,
+            429,
+            624
+          ],
+          [
+            416,
+            632,
+            429,
+            624
+          ],
+          [
+            416,
+            616,
+            429,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          396,
+          613,
+          433,
+          636
+        ],
+        "patch_p90_rgb": 103.66666666666667
+      },
+      "private_target_bbox_xyxy": [
+        444,
+        544,
+        607,
+        698
+      ]
+    },
+    {
+      "trial": 16,
+      "tuber": "2R1-9",
+      "archive": "2R.zip",
+      "entry_file": "2R1-9/2R1-9_rgb_086.png",
+      "entry_crc32": "7a895265",
+      "center_file": "2R1-9/2R1-9_rgb_356.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "ad342afd2efad2e3d8be371b951b2989d85498016da7affe23e2037215789440",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            745,
+            624,
+            775,
+            624
+          ],
+          [
+            762,
+            632,
+            775,
+            624
+          ],
+          [
+            762,
+            616,
+            775,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          742,
+          613,
+          779,
+          636
+        ],
+        "patch_p90_rgb": 34.0
+      },
+      "private_target_bbox_xyxy": [
+        790,
+        568,
+        917,
+        700
+      ]
+    },
+    {
+      "trial": 17,
+      "tuber": "R3-2",
+      "archive": "1R-A.zip",
+      "entry_file": "R3-2/R3-2_rgb_071.png",
+      "entry_crc32": "d01f1ffd",
+      "center_file": "R3-2/R3-2_rgb_358.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "370285f5bec063f81972804dbfc43c29e708582f638f349d536ebb30ffae6c55",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            648,
+            536,
+            648,
+            566
+          ],
+          [
+            640,
+            553,
+            648,
+            566
+          ],
+          [
+            656,
+            553,
+            648,
+            566
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          637,
+          533,
+          660,
+          570
+        ],
+        "patch_p90_rgb": 109.33333333333333
+      },
+      "private_target_bbox_xyxy": [
+        603,
+        581,
+        703,
+        717
+      ]
+    },
+    {
+      "trial": 18,
+      "tuber": "2R2-1",
+      "archive": "2R.zip",
+      "entry_file": "2R2-1/2R2-1_rgb_074.png",
+      "entry_crc32": "afef16bc",
+      "center_file": "2R2-1/2R2-1_rgb_351.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "3af5f72bb33da696263fe262681fe0cbe9e744790410cf5ae86d0ed0b2298036",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            218,
+            648,
+            248,
+            648
+          ],
+          [
+            235,
+            656,
+            248,
+            648
+          ],
+          [
+            235,
+            640,
+            248,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          215,
+          637,
+          252,
+          660
+        ],
+        "patch_p90_rgb": 46.333333333333336
+      },
+      "private_target_bbox_xyxy": [
+        263,
+        588,
+        397,
+        704
+      ]
+    },
+    {
+      "trial": 19,
+      "tuber": "R1-3",
+      "archive": "1R-A.zip",
+      "entry_file": "R1-3/R1-3_rgb_106.png",
+      "entry_crc32": "5ac69f9f",
+      "center_file": "R1-3/R1-3_rgb_358.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "49e99a1d3317e67bf2b12635fb7e5e0004b4f06c8dcea12505dd6ccbab14aae0",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            292,
+            624,
+            322,
+            624
+          ],
+          [
+            309,
+            632,
+            322,
+            624
+          ],
+          [
+            309,
+            616,
+            322,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          289,
+          613,
+          326,
+          636
+        ],
+        "patch_p90_rgb": 56.0
+      },
+      "private_target_bbox_xyxy": [
+        337,
+        528,
+        470,
+        700
+      ]
+    },
+    {
+      "trial": 20,
+      "tuber": "R4-2",
+      "archive": "1R-A.zip",
+      "entry_file": "R4-2/R4-2_rgb_106.png",
+      "entry_crc32": "84fb918d",
+      "center_file": "R4-2/R4-2_rgb_352.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "3480eacdb505d6cfb123c7f8d7d0f7872a4bc393629dbef3cf5ff81331a8edcc",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            192,
+            479,
+            192,
+            509
+          ],
+          [
+            184,
+            496,
+            192,
+            509
+          ],
+          [
+            200,
+            496,
+            192,
+            509
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          181,
+          476,
+          204,
+          513
+        ],
+        "patch_p90_rgb": 41.333333333333336
+      },
+      "private_target_bbox_xyxy": [
+        109,
+        524,
+        290,
+        703
+      ]
+    },
+    {
+      "trial": 21,
+      "tuber": "4R8-5",
+      "archive": "4R.zip",
+      "entry_file": "4R8-5/4R8-5_rgb_065.png",
+      "entry_crc32": "d95dfe7c",
+      "center_file": "4R8-5/4R8-5_rgb_370.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "9b0e63fe905b02db72d5ba3c52803bfb176969ca116c90579316f2c7eae5bc96",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            632,
+            648,
+            602,
+            648
+          ],
+          [
+            615,
+            640,
+            602,
+            648
+          ],
+          [
+            615,
+            656,
+            602,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          599,
+          637,
+          636,
+          660
+        ],
+        "patch_p90_rgb": 52.333333333333336
+      },
+      "private_target_bbox_xyxy": [
+        444,
+        596,
+        587,
+        714
+      ]
+    },
+    {
+      "trial": 22,
+      "tuber": "R4-7",
+      "archive": "1R-A.zip",
+      "entry_file": "R4-7/R4-7_rgb_082.png",
+      "entry_crc32": "342f2f86",
+      "center_file": "R4-7/R4-7_rgb_363.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "28cdd1cc237a544f97cf6c41cc32ddcf380b771783a430dbee728c0741be32d9",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            480,
+            531,
+            480,
+            561
+          ],
+          [
+            472,
+            548,
+            480,
+            561
+          ],
+          [
+            488,
+            548,
+            480,
+            561
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          469,
+          528,
+          492,
+          565
+        ],
+        "patch_p90_rgb": 53.0
+      },
+      "private_target_bbox_xyxy": [
+        395,
+        576,
+        543,
+        699
+      ]
+    },
+    {
+      "trial": 23,
+      "tuber": "R1-1",
+      "archive": "1R-A.zip",
+      "entry_file": "R1-1/R1-1_rgb_068.png",
+      "entry_crc32": "41051263",
+      "center_file": "R1-1/R1-1_rgb_355.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "42baffdfd1a63ff575a8ac6a0af97c1a979807880ea87b59004908030210b87a",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            677,
+            648,
+            707,
+            648
+          ],
+          [
+            694,
+            656,
+            707,
+            648
+          ],
+          [
+            694,
+            640,
+            707,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          674,
+          637,
+          711,
+          660
+        ],
+        "patch_p90_rgb": 60.0
+      },
+      "private_target_bbox_xyxy": [
+        722,
+        586,
+        836,
+        718
+      ]
+    },
+    {
+      "trial": 24,
+      "tuber": "R9-2",
+      "archive": "1R-B.zip",
+      "entry_file": "R9-2/R9-2_rgb_077.png",
+      "entry_crc32": "22a674c2",
+      "center_file": "R9-2/R9-2_rgb_360.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "957c38e146ce1412cef855f08e48487c28e836e379f224ecd746f78533dce054",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            365,
+            648,
+            395,
+            648
+          ],
+          [
+            382,
+            656,
+            395,
+            648
+          ],
+          [
+            382,
+            640,
+            395,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          362,
+          637,
+          399,
+          660
+        ],
+        "patch_p90_rgb": 53.333333333333336
+      },
+      "private_target_bbox_xyxy": [
+        410,
+        584,
+        525,
+        702
+      ]
+    },
+    {
+      "trial": 25,
+      "tuber": "4R1-2",
+      "archive": "4R.zip",
+      "entry_file": "4R1-2/4R1-2_rgb_090.png",
+      "entry_crc32": "e3cacda6",
+      "center_file": "4R1-2/4R1-2_rgb_353.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "1df557f9cbf70392751d84d1142809f9ed827be71e9226af59866da608c2cedc",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            543,
+            624,
+            573,
+            624
+          ],
+          [
+            560,
+            632,
+            573,
+            624
+          ],
+          [
+            560,
+            616,
+            573,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          540,
+          613,
+          577,
+          636
+        ],
+        "patch_p90_rgb": 68.66666666666667
+      },
+      "private_target_bbox_xyxy": [
+        588,
+        558,
+        713,
+        701
+      ]
+    },
+    {
+      "trial": 26,
+      "tuber": "4R4-10",
+      "archive": "4R.zip",
+      "entry_file": "4R4-10/4R4-10_rgb_060.png",
+      "entry_crc32": "98c66f70",
+      "center_file": "4R4-10/4R4-10_rgb_355.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "20f98bfd0a66fb8e144c42ecdf493a3e3cec1820da1d3379a3438e94f44f0961",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            648,
+            648,
+            618,
+            648
+          ],
+          [
+            631,
+            640,
+            618,
+            648
+          ],
+          [
+            631,
+            656,
+            618,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          615,
+          637,
+          652,
+          660
+        ],
+        "patch_p90_rgb": 47.0
+      },
+      "private_target_bbox_xyxy": [
+        491,
+        606,
+        603,
+        713
+      ]
+    },
+    {
+      "trial": 27,
+      "tuber": "3R1-8",
+      "archive": "3R.zip",
+      "entry_file": "3R1-8/3R1-8_rgb_101.png",
+      "entry_crc32": "b06f7322",
+      "center_file": "3R1-8/3R1-8_rgb_353.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "e641c06f4351743c4737fbc1d866b25f8222fe1a02e798e5c9fc448cfb2344e1",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            560,
+            624,
+            590,
+            624
+          ],
+          [
+            577,
+            632,
+            590,
+            624
+          ],
+          [
+            577,
+            616,
+            590,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          557,
+          613,
+          594,
+          636
+        ],
+        "patch_p90_rgb": 73.66666666666667
+      },
+      "private_target_bbox_xyxy": [
+        605,
+        535,
+        734,
+        703
+      ]
+    },
+    {
+      "trial": 28,
+      "tuber": "4R6-7",
+      "archive": "4R.zip",
+      "entry_file": "4R6-7/4R6-7_rgb_134.png",
+      "entry_crc32": "97353400",
+      "center_file": "4R6-7/4R6-7_rgb_359.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "39813dbbffe94a0efdde10c3bfe8a59c8b0da8986aa0f03e34774da9a42f3ba9",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            921,
+            576,
+            951,
+            576
+          ],
+          [
+            938,
+            584,
+            951,
+            576
+          ],
+          [
+            938,
+            568,
+            951,
+            576
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          918,
+          565,
+          955,
+          588
+        ],
+        "patch_p90_rgb": 42.666666666666664
+      },
+      "private_target_bbox_xyxy": [
+        966,
+        458,
+        1159,
+        714
+      ]
+    },
+    {
+      "trial": 29,
+      "tuber": "4R8-2",
+      "archive": "4R.zip",
+      "entry_file": "4R8-2/4R8-2_rgb_085.png",
+      "entry_crc32": "997dbb79",
+      "center_file": "4R8-2/4R8-2_rgb_369.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "3656f4c060348086c939dead7d3aff0c664bd3601da16e0fdd16dde19ab8051a",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            455,
+            624,
+            485,
+            624
+          ],
+          [
+            472,
+            632,
+            485,
+            624
+          ],
+          [
+            472,
+            616,
+            485,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          452,
+          613,
+          489,
+          636
+        ],
+        "patch_p90_rgb": 48.0
+      },
+      "private_target_bbox_xyxy": [
+        500,
+        561,
+        625,
+        709
+      ]
+    },
+    {
+      "trial": 30,
+      "tuber": "3R1-1",
+      "archive": "3R.zip",
+      "entry_file": "3R1-1/3R1-1_rgb_077.png",
+      "entry_crc32": "41e28f2a",
+      "center_file": "3R1-1/3R1-1_rgb_366.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "98f040fab9ef86fdb6944af20b2089efeb5b3b9592b1b8561d4f5e532920cb50",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            347,
+            648,
+            377,
+            648
+          ],
+          [
+            364,
+            656,
+            377,
+            648
+          ],
+          [
+            364,
+            640,
+            377,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          344,
+          637,
+          381,
+          660
+        ],
+        "patch_p90_rgb": 53.666666666666664
+      },
+      "private_target_bbox_xyxy": [
+        392,
+        576,
+        560,
+        710
+      ]
+    },
+    {
+      "trial": 31,
+      "tuber": "4R8-8",
+      "archive": "4R.zip",
+      "entry_file": "4R8-8/4R8-8_rgb_099.png",
+      "entry_crc32": "429bd272",
+      "center_file": "4R8-8/4R8-8_rgb_359.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "ed3878d57619844c929c0a3e101ad5ae5326767f25dd2992759ff0941295338d",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            659,
+            624,
+            689,
+            624
+          ],
+          [
+            676,
+            632,
+            689,
+            624
+          ],
+          [
+            676,
+            616,
+            689,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          656,
+          613,
+          693,
+          636
+        ],
+        "patch_p90_rgb": 71.66666666666667
+      },
+      "private_target_bbox_xyxy": [
+        704,
+        525,
+        852,
+        717
+      ]
+    },
+    {
+      "trial": 32,
+      "tuber": "R11-5",
+      "archive": "1R-B.zip",
+      "entry_file": "R11-5/R11-5_rgb_114.png",
+      "entry_crc32": "431e3843",
+      "center_file": "R11-5/R11-5_rgb_354.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "43912625c03bdf88af098edce3cd9e16f6d8c27dfbb0f2f6312df9c268a24e6e",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            240,
+            465,
+            240,
+            495
+          ],
+          [
+            232,
+            482,
+            240,
+            495
+          ],
+          [
+            248,
+            482,
+            240,
+            495
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          229,
+          462,
+          252,
+          499
+        ],
+        "patch_p90_rgb": 54.666666666666664
+      },
+      "private_target_bbox_xyxy": [
+        129,
+        510,
+        334,
+        701
+      ]
+    },
+    {
+      "trial": 33,
+      "tuber": "R5-9",
+      "archive": "1R-A.zip",
+      "entry_file": "R5-9/R5-9_rgb_084.png",
+      "entry_crc32": "928ebba9",
+      "center_file": "R5-9/R5-9_rgb_349.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "0662ba9262fb73710f31488c82bd333a779ecceb87758f6deb8a9042efc63bd5",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            759,
+            648,
+            729,
+            648
+          ],
+          [
+            742,
+            640,
+            729,
+            648
+          ],
+          [
+            742,
+            656,
+            729,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          726,
+          637,
+          763,
+          660
+        ],
+        "patch_p90_rgb": 56.333333333333336
+      },
+      "private_target_bbox_xyxy": [
+        583,
+        556,
+        714,
+        716
+      ]
+    },
+    {
+      "trial": 34,
+      "tuber": "2R1-1",
+      "archive": "2R.zip",
+      "entry_file": "2R1-1/2R1-1_rgb_100.png",
+      "entry_crc32": "45dcbfc4",
+      "center_file": "2R1-1/2R1-1_rgb_358.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "06c137271bcb62dd912053c4e818e64f1128933d32d71a418fc752272d254c98",
+      "cue": {
+        "side": "left",
+        "lines": [
+          [
+            643,
+            624,
+            673,
+            624
+          ],
+          [
+            660,
+            632,
+            673,
+            624
+          ],
+          [
+            660,
+            616,
+            673,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          640,
+          613,
+          677,
+          636
+        ],
+        "patch_p90_rgb": 81.66666666666667
+      },
+      "private_target_bbox_xyxy": [
+        688,
+        527,
+        902,
+        712
+      ]
+    },
+    {
+      "trial": 35,
+      "tuber": "3R6-2",
+      "archive": "3R.zip",
+      "entry_file": "3R6-2/3R6-2_rgb_092.png",
+      "entry_crc32": "007a6124",
+      "center_file": "3R6-2/3R6-2_rgb_355.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "812731e966c306607c55369c99350e85d4d2d2f5744bdf4fe45ff1d0c1306cbc",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            960,
+            624,
+            930,
+            624
+          ],
+          [
+            943,
+            616,
+            930,
+            624
+          ],
+          [
+            943,
+            632,
+            930,
+            624
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          927,
+          613,
+          964,
+          636
+        ],
+        "patch_p90_rgb": 108.66666666666667
+      },
+      "private_target_bbox_xyxy": [
+        707,
+        552,
+        915,
+        704
+      ]
+    },
+    {
+      "trial": 36,
+      "tuber": "3R1-9",
+      "archive": "3R.zip",
+      "entry_file": "3R1-9/3R1-9_rgb_110.png",
+      "entry_crc32": "01d809b5",
+      "center_file": "3R1-9/3R1-9_rgb_363.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "b0373715d9e6fe53534e32c6d1a089a376d65437210c4a04de803dc2af434d8b",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            696,
+            600,
+            666,
+            600
+          ],
+          [
+            679,
+            592,
+            666,
+            600
+          ],
+          [
+            679,
+            608,
+            666,
+            600
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          663,
+          589,
+          700,
+          612
+        ],
+        "patch_p90_rgb": 102.0
+      },
+      "private_target_bbox_xyxy": [
+        474,
+        513,
+        651,
+        707
+      ]
+    },
+    {
+      "trial": 37,
+      "tuber": "R10-10",
+      "archive": "1R-B.zip",
+      "entry_file": "R10-10/R10-10_rgb_083.png",
+      "entry_crc32": "d4a950f2",
+      "center_file": "R10-10/R10-10_rgb_360.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "d14757740f5ebd4469406732a535e863eecad30f9e1f8ef1b7fcad2b38ec2c35",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            792,
+            648,
+            762,
+            648
+          ],
+          [
+            775,
+            640,
+            762,
+            648
+          ],
+          [
+            775,
+            656,
+            762,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          759,
+          637,
+          796,
+          660
+        ],
+        "patch_p90_rgb": 87.0
+      },
+      "private_target_bbox_xyxy": [
+        634,
+        572,
+        747,
+        701
+      ]
+    },
+    {
+      "trial": 38,
+      "tuber": "3R4-10",
+      "archive": "3R.zip",
+      "entry_file": "3R4-10/3R4-10_rgb_082.png",
+      "entry_crc32": "3ec249be",
+      "center_file": "3R4-10/3R4-10_rgb_368.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "2b9dfa721380a7f3c700903425d7ae6c89597b405333db1ccb5f2e8c1766898d",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            636,
+            648,
+            606,
+            648
+          ],
+          [
+            619,
+            640,
+            606,
+            648
+          ],
+          [
+            619,
+            656,
+            606,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          603,
+          637,
+          640,
+          660
+        ],
+        "patch_p90_rgb": 58.666666666666664
+      },
+      "private_target_bbox_xyxy": [
+        464,
+        569,
+        591,
+        707
+      ]
+    },
+    {
+      "trial": 39,
+      "tuber": "4R8-3",
+      "archive": "4R.zip",
+      "entry_file": "4R8-3/4R8-3_rgb_068.png",
+      "entry_crc32": "c1579ef5",
+      "center_file": "4R8-3/4R8-3_rgb_356.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "e0205e02e22d9dcd62c9d193d60148e6d01b7031d6425ff1982198eeafb5fcba",
+      "cue": {
+        "side": "right",
+        "lines": [
+          [
+            911,
+            648,
+            881,
+            648
+          ],
+          [
+            894,
+            640,
+            881,
+            648
+          ],
+          [
+            894,
+            656,
+            881,
+            648
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          878,
+          637,
+          915,
+          660
+        ],
+        "patch_p90_rgb": 61.666666666666664
+      },
+      "private_target_bbox_xyxy": [
+        719,
+        588,
+        866,
+        715
+      ]
+    },
+    {
+      "trial": 40,
+      "tuber": "R5-1",
+      "archive": "1R-A.zip",
+      "entry_file": "R5-1/R5-1_rgb_072.png",
+      "entry_crc32": "b85ffc61",
+      "center_file": "R5-1/R5-1_rgb_356.png",
+      "width": 1280,
+      "height": 720,
+      "rgb_pixels_sha256": "5d09cb02b3cc2f354b0c9128ecf99a9ecdea1f63962c1505bb957936f0f76333",
+      "cue": {
+        "side": "above",
+        "lines": [
+          [
+            696,
+            551,
+            696,
+            581
+          ],
+          [
+            688,
+            568,
+            696,
+            581
+          ],
+          [
+            704,
+            568,
+            696,
+            581
+          ]
+        ],
+        "bounds_xyxy_exclusive_max": [
+          685,
+          548,
+          708,
+          585
+        ],
+        "patch_p90_rgb": 49.666666666666664
+      },
+      "private_target_bbox_xyxy": [
+        614,
+        596,
+        756,
+        700
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3923 @@
+{
+  "stage": "metadata_only_freeze",
+  "sources": {
+    "studies/raft_fusion_geometry_v1/prepare.py": "3d43ccde22b7cabfab72b8aae1c0c0f0dc9778d665660bf74f71b855428905a6",
+    "studies/raft_fusion_geometry_v1/protocol.md": "0afadedf84168f58223b34580e5f430086709acd4a9b57b29e9da7ceaf759881",
+    "studies/multiframe_weight_v1/frame_manifest.json": "ad4e112a3a3c928263890bc193d0e7971c51e0992a10032c1aceca90382c20c0",
+    "studies/sam2_human_prompt_confirmation_v1/cohort_freeze.json": "cc08f9ece8796cc827eff24de0511149cfcd4c5de5a4b8a46438a1e72741e5b8",
+    "data/raw/3DPotatoTwin/1_rgbd/0_camera_intrinsics/realsense_d405_camera_intrinsic.json": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf",
+    "studies/regional_shape_v1/replication_cohort.json": "d9eb49dde8cc1111d564fcdcb528225d6d847d12205d33962b3d9fb69226a809",
+    "studies/regional_shape_v1/support_offset_confirmation_cohort.json": "8e1f11ecf292eefb167a4b3a8d6fe8af6dbeeeb933fcf45cf4b26fb0b76d2188",
+    "studies/regional_shape_v1/corepp_pin_confirmation/roster.json": "502cd15bf479be089dd616216dc5933a61a75f4ddc7d96bc6fb45668e97e8525"
+  },
+  "seed": 5272401,
+  "selection_order_key": "raft-fusion-geometry-v1/133/",
+  "candidate_count": 40,
+  "eligible_count": 40,
+  "candidate_audit": [
+    {
+      "tuber": "2R1-1",
+      "selected_suffixes": [
+        229,
+        358,
+        490
+      ],
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "reason": "",
+      "frame_count": 13
+    },
+    {
+      "tuber": "2R1-9",
+      "selected_suffixes": [
+        231,
+        356,
+        501
+      ],
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "2R2-1",
+      "selected_suffixes": [
+        224,
+        351,
+        503
+      ],
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "cultivar": "Kitahime",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "3R1-1",
+      "selected_suffixes": [
+        230,
+        366,
+        524
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 16
+    },
+    {
+      "tuber": "3R1-7",
+      "selected_suffixes": [
+        227,
+        364,
+        499
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "3R1-8",
+      "selected_suffixes": [
+        235,
+        353,
+        507
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "3R1-9",
+      "selected_suffixes": [
+        245,
+        363,
+        497
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "3R3-8",
+      "selected_suffixes": [
+        226,
+        363,
+        502
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "3R4-10",
+      "selected_suffixes": [
+        215,
+        368,
+        499
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 16
+    },
+    {
+      "tuber": "3R6-2",
+      "selected_suffixes": [
+        226,
+        355,
+        492
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 17
+    },
+    {
+      "tuber": "3R6-3",
+      "selected_suffixes": [
+        220,
+        352,
+        504
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_05",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 16
+    },
+    {
+      "tuber": "3R7-10",
+      "selected_suffixes": [
+        214,
+        358,
+        521
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 18
+    },
+    {
+      "tuber": "4R1-2",
+      "selected_suffixes": [
+        231,
+        353,
+        513
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_08",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "4R3-1",
+      "selected_suffixes": [
+        212,
+        357,
+        500
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "4R4-10",
+      "selected_suffixes": [
+        216,
+        355,
+        495
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "4R4-4",
+      "selected_suffixes": [
+        222,
+        353,
+        513
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 16
+    },
+    {
+      "tuber": "4R4-8",
+      "selected_suffixes": [
+        196,
+        356,
+        495
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 16
+    },
+    {
+      "tuber": "4R6-1",
+      "selected_suffixes": [
+        228,
+        349,
+        494
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "4R6-7",
+      "selected_suffixes": [
+        237,
+        359,
+        465
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 12
+    },
+    {
+      "tuber": "4R8-2",
+      "selected_suffixes": [
+        225,
+        369,
+        490
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "4R8-3",
+      "selected_suffixes": [
+        211,
+        356,
+        499
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "4R8-5",
+      "selected_suffixes": [
+        207,
+        370,
+        514
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 16
+    },
+    {
+      "tuber": "4R8-8",
+      "selected_suffixes": [
+        220,
+        359,
+        479
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "R1-1",
+      "selected_suffixes": [
+        209,
+        355,
+        493
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "R1-2",
+      "selected_suffixes": [
+        242,
+        370,
+        496
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 13
+    },
+    {
+      "tuber": "R1-3",
+      "selected_suffixes": [
+        231,
+        358,
+        505
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "R10-10",
+      "selected_suffixes": [
+        222,
+        360,
+        497
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "R11-5",
+      "selected_suffixes": [
+        245,
+        354,
+        507
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 13
+    },
+    {
+      "tuber": "R3-2",
+      "selected_suffixes": [
+        216,
+        358,
+        501
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "R4-2",
+      "selected_suffixes": [
+        231,
+        352,
+        496
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "R4-4",
+      "selected_suffixes": [
+        220,
+        358,
+        519
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 16
+    },
+    {
+      "tuber": "R4-7",
+      "selected_suffixes": [
+        222,
+        363,
+        504
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "R5-1",
+      "selected_suffixes": [
+        208,
+        356,
+        497
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "R5-7",
+      "selected_suffixes": [
+        204,
+        362,
+        503
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 16
+    },
+    {
+      "tuber": "R5-8",
+      "selected_suffixes": [
+        221,
+        352,
+        494
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "R5-9",
+      "selected_suffixes": [
+        229,
+        349,
+        493
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "R6-5",
+      "selected_suffixes": [
+        216,
+        353,
+        490
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "R8-1",
+      "selected_suffixes": [
+        225,
+        371,
+        491
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    },
+    {
+      "tuber": "R9-2",
+      "selected_suffixes": [
+        220,
+        360,
+        503
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15
+    },
+    {
+      "tuber": "R9-4",
+      "selected_suffixes": [
+        207,
+        355,
+        478
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14
+    }
+  ],
+  "roster": [
+    {
+      "tuber": "R1-3",
+      "selected_suffixes": [
+        231,
+        358,
+        505
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14,
+      "frames": [
+        {
+          "suffix": 231,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_231.png",
+            "bytes": 1716214,
+            "crc32": 3415412614,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_231.png",
+            "bytes": 215732,
+            "crc32": 2278248067,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_231.ply",
+            "bytes": 439525,
+            "crc32": 3366348999
+          }
+        },
+        {
+          "suffix": 252,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_252.png",
+            "bytes": 1710381,
+            "crc32": 3198384772,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_252.png",
+            "bytes": 212770,
+            "crc32": 2564392803,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_252.ply",
+            "bytes": 439255,
+            "crc32": 1352056545
+          }
+        },
+        {
+          "suffix": 275,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_275.png",
+            "bytes": 1710154,
+            "crc32": 2568970487,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_275.png",
+            "bytes": 215616,
+            "crc32": 4181717769,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_275.ply",
+            "bytes": 434206,
+            "crc32": 3592960536
+          }
+        },
+        {
+          "suffix": 297,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_297.png",
+            "bytes": 1702832,
+            "crc32": 2043509735,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_297.png",
+            "bytes": 224637,
+            "crc32": 3773705236,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_297.ply",
+            "bytes": 432370,
+            "crc32": 3171558858
+          }
+        },
+        {
+          "suffix": 319,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_319.png",
+            "bytes": 1719389,
+            "crc32": 3437810712,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_319.png",
+            "bytes": 217284,
+            "crc32": 2970848811,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_319.ply",
+            "bytes": 427510,
+            "crc32": 1453156010
+          }
+        },
+        {
+          "suffix": 339,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_339.png",
+            "bytes": 1699764,
+            "crc32": 733560080,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_339.png",
+            "bytes": 221689,
+            "crc32": 3948320604,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_339.ply",
+            "bytes": 424918,
+            "crc32": 1764838334
+          }
+        },
+        {
+          "suffix": 358,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_358.png",
+            "bytes": 1704247,
+            "crc32": 891645354,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_358.png",
+            "bytes": 218732,
+            "crc32": 477831086,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_358.ply",
+            "bytes": 422542,
+            "crc32": 3789961193
+          }
+        },
+        {
+          "suffix": 381,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_381.png",
+            "bytes": 1700975,
+            "crc32": 1479058144,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_381.png",
+            "bytes": 220539,
+            "crc32": 1079844710,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_381.ply",
+            "bytes": 422974,
+            "crc32": 295140736
+          }
+        },
+        {
+          "suffix": 402,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_402.png",
+            "bytes": 1708342,
+            "crc32": 1560381165,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_402.png",
+            "bytes": 218893,
+            "crc32": 3934441072,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_402.ply",
+            "bytes": 413497,
+            "crc32": 621429135
+          }
+        },
+        {
+          "suffix": 425,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_425.png",
+            "bytes": 1701052,
+            "crc32": 886386933,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_425.png",
+            "bytes": 224716,
+            "crc32": 3030071024,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_425.ply",
+            "bytes": 417466,
+            "crc32": 4106138550
+          }
+        },
+        {
+          "suffix": 444,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_444.png",
+            "bytes": 1713556,
+            "crc32": 1602440894,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_444.png",
+            "bytes": 223203,
+            "crc32": 2086686368,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_444.ply",
+            "bytes": 415765,
+            "crc32": 594812192
+          }
+        },
+        {
+          "suffix": 465,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_465.png",
+            "bytes": 1712982,
+            "crc32": 2511712860,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_465.png",
+            "bytes": 218878,
+            "crc32": 1541097261,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_465.ply",
+            "bytes": 416980,
+            "crc32": 3536674115
+          }
+        },
+        {
+          "suffix": 484,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_484.png",
+            "bytes": 1701838,
+            "crc32": 2597918555,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_484.png",
+            "bytes": 219165,
+            "crc32": 1150406829,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_484.ply",
+            "bytes": 416386,
+            "crc32": 551777965
+          }
+        },
+        {
+          "suffix": 505,
+          "rgb": {
+            "member": "R1-3/R1-3_rgb_505.png",
+            "bytes": 1708946,
+            "crc32": 1113244378,
+            "archive": "1R-A.zip"
+          },
+          "depth": {
+            "member": "R1-3/R1-3_depth_505.png",
+            "bytes": 223224,
+            "crc32": 1120292321,
+            "archive": "1R-A.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R1-3/R1-3_pcd_505.ply",
+            "bytes": 417304,
+            "crc32": 3265923189
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/R1-3/R1-3.obj",
+        "bytes": 2857258,
+        "crc32": 2854386774
+      },
+      "registration": {
+        "member": "tmatrix/R1-3.json",
+        "bytes": 2204,
+        "crc32": 3838977043
+      },
+      "center_to_sfm_m": [
+        [
+          0.5598971755744201,
+          -0.3365467759055572,
+          -0.7571336872781202,
+          0.30426813352437726
+        ],
+        [
+          0.8131214014523762,
+          0.04759156062117256,
+          0.5801453523538441,
+          -0.09342264115762569
+        ],
+        [
+          -0.1592128741148509,
+          -0.9404633490919337,
+          0.3002997664515786,
+          -0.008086289491642211
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tuber": "4R6-7",
+      "selected_suffixes": [
+        237,
+        359,
+        465
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_10",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 12,
+      "frames": [
+        {
+          "suffix": 237,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_237.png",
+            "bytes": 1832591,
+            "crc32": 1644160099,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_237.png",
+            "bytes": 227641,
+            "crc32": 3372080963,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_237.ply",
+            "bytes": 1008280,
+            "crc32": 4030620074
+          }
+        },
+        {
+          "suffix": 261,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_261.png",
+            "bytes": 1835060,
+            "crc32": 3252477442,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_261.png",
+            "bytes": 228462,
+            "crc32": 2621740714,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_261.ply",
+            "bytes": 991189,
+            "crc32": 3925531157
+          }
+        },
+        {
+          "suffix": 281,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_281.png",
+            "bytes": 1836682,
+            "crc32": 685469039,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_281.png",
+            "bytes": 229109,
+            "crc32": 1861144931,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_281.ply",
+            "bytes": 1002745,
+            "crc32": 3575336634
+          }
+        },
+        {
+          "suffix": 299,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_299.png",
+            "bytes": 1828418,
+            "crc32": 3844441464,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_299.png",
+            "bytes": 223576,
+            "crc32": 249203938,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_299.ply",
+            "bytes": 990136,
+            "crc32": 234826608
+          }
+        },
+        {
+          "suffix": 321,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_321.png",
+            "bytes": 1826242,
+            "crc32": 2665608239,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_321.png",
+            "bytes": 225030,
+            "crc32": 3810785993,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_321.ply",
+            "bytes": 997453,
+            "crc32": 3185954316
+          }
+        },
+        {
+          "suffix": 341,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_341.png",
+            "bytes": 1823188,
+            "crc32": 1052486119,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_341.png",
+            "bytes": 228366,
+            "crc32": 1634522576,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_341.ply",
+            "bytes": 986302,
+            "crc32": 446121493
+          }
+        },
+        {
+          "suffix": 359,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_359.png",
+            "bytes": 1822348,
+            "crc32": 1107700746,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_359.png",
+            "bytes": 228641,
+            "crc32": 2306405999,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_359.ply",
+            "bytes": 984952,
+            "crc32": 2761606520
+          }
+        },
+        {
+          "suffix": 382,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_382.png",
+            "bytes": 1810582,
+            "crc32": 4030050007,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_382.png",
+            "bytes": 224967,
+            "crc32": 520102664,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_382.ply",
+            "bytes": 982549,
+            "crc32": 3299141324
+          }
+        },
+        {
+          "suffix": 406,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_406.png",
+            "bytes": 1820738,
+            "crc32": 2186292396,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_406.png",
+            "bytes": 221412,
+            "crc32": 156200834,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_406.ply",
+            "bytes": 988138,
+            "crc32": 196678877
+          }
+        },
+        {
+          "suffix": 423,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_423.png",
+            "bytes": 1832257,
+            "crc32": 2973643465,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_423.png",
+            "bytes": 225640,
+            "crc32": 340689722,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_423.ply",
+            "bytes": 981604,
+            "crc32": 2079579813
+          }
+        },
+        {
+          "suffix": 443,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_443.png",
+            "bytes": 1825007,
+            "crc32": 398398631,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_443.png",
+            "bytes": 219517,
+            "crc32": 2553278544,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_443.ply",
+            "bytes": 978823,
+            "crc32": 3413583213
+          }
+        },
+        {
+          "suffix": 465,
+          "rgb": {
+            "member": "4R6-7/4R6-7_rgb_465.png",
+            "bytes": 1833592,
+            "crc32": 762357929,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R6-7/4R6-7_depth_465.png",
+            "bytes": 224984,
+            "crc32": 3100682691,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R6-7/4R6-7_pcd_465.ply",
+            "bytes": 980011,
+            "crc32": 3090998410
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/4R6-7/4R6-7.obj",
+        "bytes": 6465088,
+        "crc32": 2723733339
+      },
+      "registration": {
+        "member": "tmatrix/4R6-7.json",
+        "bytes": 2191,
+        "crc32": 3842108502
+      },
+      "center_to_sfm_m": [
+        [
+          -0.7844873481663828,
+          -0.05011454408557363,
+          -0.618116601490343,
+          0.35857692068109953
+        ],
+        [
+          -0.5941177651491107,
+          -0.2249935545596,
+          0.7722706659849656,
+          -0.12917880873184143
+        ],
+        [
+          -0.17777424363811092,
+          0.9730706207042384,
+          0.1467306560374015,
+          0.08220878836824845
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tuber": "4R4-10",
+      "selected_suffixes": [
+        216,
+        355,
+        495
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15,
+      "frames": [
+        {
+          "suffix": 216,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_216.png",
+            "bytes": 1901277,
+            "crc32": 3861204678,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_216.png",
+            "bytes": 236557,
+            "crc32": 1438955330,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_216.ply",
+            "bytes": 236997,
+            "crc32": 2782141922
+          }
+        },
+        {
+          "suffix": 235,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_235.png",
+            "bytes": 1907004,
+            "crc32": 2450432962,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_235.png",
+            "bytes": 236931,
+            "crc32": 3637619635,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_235.ply",
+            "bytes": 234567,
+            "crc32": 3377723084
+          }
+        },
+        {
+          "suffix": 254,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_254.png",
+            "bytes": 1910461,
+            "crc32": 2132432293,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_254.png",
+            "bytes": 236178,
+            "crc32": 104725582,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_254.ply",
+            "bytes": 227196,
+            "crc32": 3807465329
+          }
+        },
+        {
+          "suffix": 274,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_274.png",
+            "bytes": 1912444,
+            "crc32": 642803898,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_274.png",
+            "bytes": 235504,
+            "crc32": 2614786688,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_274.ply",
+            "bytes": 228195,
+            "crc32": 1306966265
+          }
+        },
+        {
+          "suffix": 294,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_294.png",
+            "bytes": 1905312,
+            "crc32": 1940915490,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_294.png",
+            "bytes": 239995,
+            "crc32": 4237414876,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_294.ply",
+            "bytes": 229518,
+            "crc32": 2842303284
+          }
+        },
+        {
+          "suffix": 315,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_315.png",
+            "bytes": 1910348,
+            "crc32": 3441928190,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_315.png",
+            "bytes": 240019,
+            "crc32": 575726970,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_315.ply",
+            "bytes": 229491,
+            "crc32": 2947069907
+          }
+        },
+        {
+          "suffix": 334,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_334.png",
+            "bytes": 1910976,
+            "crc32": 389292487,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_334.png",
+            "bytes": 238370,
+            "crc32": 1714070299,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_334.ply",
+            "bytes": 224388,
+            "crc32": 3370790983
+          }
+        },
+        {
+          "suffix": 355,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_355.png",
+            "bytes": 1912773,
+            "crc32": 3976928279,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_355.png",
+            "bytes": 240220,
+            "crc32": 2403157451,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_355.ply",
+            "bytes": 227547,
+            "crc32": 1530546248
+          }
+        },
+        {
+          "suffix": 374,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_374.png",
+            "bytes": 1904389,
+            "crc32": 3797332010,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_374.png",
+            "bytes": 239434,
+            "crc32": 2898410746,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_374.ply",
+            "bytes": 218637,
+            "crc32": 1748568154
+          }
+        },
+        {
+          "suffix": 394,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_394.png",
+            "bytes": 1919148,
+            "crc32": 3796373980,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_394.png",
+            "bytes": 235684,
+            "crc32": 3206453245,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_394.ply",
+            "bytes": 227061,
+            "crc32": 1119906467
+          }
+        },
+        {
+          "suffix": 414,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_414.png",
+            "bytes": 1917548,
+            "crc32": 1152598875,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_414.png",
+            "bytes": 241397,
+            "crc32": 388324783,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_414.ply",
+            "bytes": 227223,
+            "crc32": 1666662888
+          }
+        },
+        {
+          "suffix": 435,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_435.png",
+            "bytes": 1911991,
+            "crc32": 3448590709,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_435.png",
+            "bytes": 235734,
+            "crc32": 1068370961,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_435.ply",
+            "bytes": 223254,
+            "crc32": 1031677008
+          }
+        },
+        {
+          "suffix": 455,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_455.png",
+            "bytes": 1907494,
+            "crc32": 2285625810,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_455.png",
+            "bytes": 234252,
+            "crc32": 1658553694,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_455.ply",
+            "bytes": 219204,
+            "crc32": 604887357
+          }
+        },
+        {
+          "suffix": 474,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_474.png",
+            "bytes": 1899394,
+            "crc32": 3013118571,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_474.png",
+            "bytes": 231557,
+            "crc32": 4068812997,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_474.ply",
+            "bytes": 226980,
+            "crc32": 794190400
+          }
+        },
+        {
+          "suffix": 495,
+          "rgb": {
+            "member": "4R4-10/4R4-10_rgb_495.png",
+            "bytes": 1905378,
+            "crc32": 1862865582,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-10/4R4-10_depth_495.png",
+            "bytes": 236209,
+            "crc32": 3413649688,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-10/4R4-10_pcd_495.ply",
+            "bytes": 221904,
+            "crc32": 1680807606
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/4R4-10/4R4-10.obj",
+        "bytes": 1913688,
+        "crc32": 1623761271
+      },
+      "registration": {
+        "member": "tmatrix/4R4-10.json",
+        "bytes": 2202,
+        "crc32": 1369868422
+      },
+      "center_to_sfm_m": [
+        [
+          -0.25882337848121795,
+          0.5539137543494053,
+          -0.7913216864803563,
+          0.25317078931611403
+        ],
+        [
+          0.003409954273713517,
+          0.8197563444390983,
+          0.5727022856281421,
+          -0.18381432484946117
+        ],
+        [
+          0.9659186461412886,
+          0.14553036966349522,
+          -0.21406092717305283,
+          0.2192445749894394
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tuber": "R11-5",
+      "selected_suffixes": [
+        245,
+        354,
+        507
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 13,
+      "frames": [
+        {
+          "suffix": 245,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_245.png",
+            "bytes": 1778029,
+            "crc32": 2061755176,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_245.png",
+            "bytes": 225928,
+            "crc32": 1339175983,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_245.ply",
+            "bytes": 734338,
+            "crc32": 2945226170
+          }
+        },
+        {
+          "suffix": 266,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_266.png",
+            "bytes": 1771057,
+            "crc32": 623516270,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_266.png",
+            "bytes": 222429,
+            "crc32": 2256171873,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_266.ply",
+            "bytes": 713143,
+            "crc32": 4176991299
+          }
+        },
+        {
+          "suffix": 287,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_287.png",
+            "bytes": 1777254,
+            "crc32": 2843797733,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_287.png",
+            "bytes": 221348,
+            "crc32": 898156871,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_287.ply",
+            "bytes": 735418,
+            "crc32": 306004066
+          }
+        },
+        {
+          "suffix": 309,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_309.png",
+            "bytes": 1781721,
+            "crc32": 3310345334,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_309.png",
+            "bytes": 226273,
+            "crc32": 961181846,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_309.ply",
+            "bytes": 734500,
+            "crc32": 1820262501
+          }
+        },
+        {
+          "suffix": 334,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_334.png",
+            "bytes": 1782324,
+            "crc32": 3533931068,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_334.png",
+            "bytes": 224955,
+            "crc32": 3396330570,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_334.ply",
+            "bytes": 733285,
+            "crc32": 175836229
+          }
+        },
+        {
+          "suffix": 354,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_354.png",
+            "bytes": 1783146,
+            "crc32": 564040777,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_354.png",
+            "bytes": 230180,
+            "crc32": 1791954528,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_354.ply",
+            "bytes": 729289,
+            "crc32": 2335033636
+          }
+        },
+        {
+          "suffix": 377,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_377.png",
+            "bytes": 1786395,
+            "crc32": 743891044,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_377.png",
+            "bytes": 227063,
+            "crc32": 2018325834,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_377.ply",
+            "bytes": 709822,
+            "crc32": 2771819160
+          }
+        },
+        {
+          "suffix": 399,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_399.png",
+            "bytes": 1777890,
+            "crc32": 4046362895,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_399.png",
+            "bytes": 226646,
+            "crc32": 3428847408,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_399.ply",
+            "bytes": 713197,
+            "crc32": 3139323015
+          }
+        },
+        {
+          "suffix": 420,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_420.png",
+            "bytes": 1786484,
+            "crc32": 2513043130,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_420.png",
+            "bytes": 227063,
+            "crc32": 3863298530,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_420.ply",
+            "bytes": 732745,
+            "crc32": 3055683479
+          }
+        },
+        {
+          "suffix": 440,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_440.png",
+            "bytes": 1786801,
+            "crc32": 1007534397,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_440.png",
+            "bytes": 224889,
+            "crc32": 3576409072,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_440.ply",
+            "bytes": 735175,
+            "crc32": 1977170541
+          }
+        },
+        {
+          "suffix": 462,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_462.png",
+            "bytes": 1783181,
+            "crc32": 3923277315,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_462.png",
+            "bytes": 227987,
+            "crc32": 84077550,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_462.ply",
+            "bytes": 727696,
+            "crc32": 2967215570
+          }
+        },
+        {
+          "suffix": 486,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_486.png",
+            "bytes": 1785103,
+            "crc32": 517701871,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_486.png",
+            "bytes": 229429,
+            "crc32": 3051547181,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_486.ply",
+            "bytes": 731449,
+            "crc32": 1132847613
+          }
+        },
+        {
+          "suffix": 507,
+          "rgb": {
+            "member": "R11-5/R11-5_rgb_507.png",
+            "bytes": 1796845,
+            "crc32": 2126161750,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R11-5/R11-5_depth_507.png",
+            "bytes": 229420,
+            "crc32": 3559557604,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R11-5/R11-5_pcd_507.ply",
+            "bytes": 741061,
+            "crc32": 2323068976
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/R11-5/R11-5.obj",
+        "bytes": 4775560,
+        "crc32": 115872526
+      },
+      "registration": {
+        "member": "tmatrix/R11-5.json",
+        "bytes": 2189,
+        "crc32": 4032838632
+      },
+      "center_to_sfm_m": [
+        [
+          0.5038872313470586,
+          0.020225950642419638,
+          -0.8635326102736407,
+          0.35551343971585053
+        ],
+        [
+          -0.1527115976346262,
+          -0.9818914973445598,
+          -0.1121082306984597,
+          0.006746515813384134
+        ],
+        [
+          -0.8501628232481568,
+          0.18836135050235087,
+          -0.491673850843885,
+          0.11242704411182855
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tuber": "4R8-8",
+      "selected_suffixes": [
+        220,
+        359,
+        479
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_11",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 14,
+      "frames": [
+        {
+          "suffix": 220,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_220.png",
+            "bytes": 1870262,
+            "crc32": 2895696045,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_220.png",
+            "bytes": 227563,
+            "crc32": 1545112551,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_220.ply",
+            "bytes": 534376,
+            "crc32": 2272500305
+          }
+        },
+        {
+          "suffix": 240,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_240.png",
+            "bytes": 1872814,
+            "crc32": 3807330694,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_240.png",
+            "bytes": 224616,
+            "crc32": 1623552322,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_240.ply",
+            "bytes": 534970,
+            "crc32": 591392711
+          }
+        },
+        {
+          "suffix": 258,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_258.png",
+            "bytes": 1866587,
+            "crc32": 288226376,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_258.png",
+            "bytes": 225458,
+            "crc32": 1043225618,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_258.ply",
+            "bytes": 523252,
+            "crc32": 1746800647
+          }
+        },
+        {
+          "suffix": 279,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_279.png",
+            "bytes": 1861833,
+            "crc32": 1927920465,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_279.png",
+            "bytes": 228202,
+            "crc32": 971617898,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_279.ply",
+            "bytes": 522793,
+            "crc32": 2571993042
+          }
+        },
+        {
+          "suffix": 300,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_300.png",
+            "bytes": 1854894,
+            "crc32": 1337699203,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_300.png",
+            "bytes": 227953,
+            "crc32": 3641226613,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_300.ply",
+            "bytes": 526978,
+            "crc32": 3415712480
+          }
+        },
+        {
+          "suffix": 319,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_319.png",
+            "bytes": 1861882,
+            "crc32": 1981209227,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_319.png",
+            "bytes": 228026,
+            "crc32": 3211354622,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_319.ply",
+            "bytes": 524386,
+            "crc32": 16807634
+          }
+        },
+        {
+          "suffix": 338,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_338.png",
+            "bytes": 1853919,
+            "crc32": 4278635185,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_338.png",
+            "bytes": 225115,
+            "crc32": 2739488597,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_338.ply",
+            "bytes": 527680,
+            "crc32": 4179263678
+          }
+        },
+        {
+          "suffix": 359,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_359.png",
+            "bytes": 1851819,
+            "crc32": 388091278,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_359.png",
+            "bytes": 230079,
+            "crc32": 179287463,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_359.ply",
+            "bytes": 519526,
+            "crc32": 3891806546
+          }
+        },
+        {
+          "suffix": 379,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_379.png",
+            "bytes": 1847483,
+            "crc32": 1869839287,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_379.png",
+            "bytes": 225068,
+            "crc32": 3019515661,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_379.ply",
+            "bytes": 529651,
+            "crc32": 793864103
+          }
+        },
+        {
+          "suffix": 398,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_398.png",
+            "bytes": 1844042,
+            "crc32": 2015355610,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_398.png",
+            "bytes": 223203,
+            "crc32": 3450538992,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_398.ply",
+            "bytes": 530866,
+            "crc32": 1460953196
+          }
+        },
+        {
+          "suffix": 417,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_417.png",
+            "bytes": 1853001,
+            "crc32": 3797104373,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_417.png",
+            "bytes": 223386,
+            "crc32": 3780006217,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_417.ply",
+            "bytes": 532918,
+            "crc32": 3852949345
+          }
+        },
+        {
+          "suffix": 440,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_440.png",
+            "bytes": 1839155,
+            "crc32": 4180561904,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_440.png",
+            "bytes": 222910,
+            "crc32": 1025260434,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_440.ply",
+            "bytes": 531433,
+            "crc32": 484281622
+          }
+        },
+        {
+          "suffix": 460,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_460.png",
+            "bytes": 1842320,
+            "crc32": 2815655349,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_460.png",
+            "bytes": 225956,
+            "crc32": 2634517500,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_460.ply",
+            "bytes": 543178,
+            "crc32": 120453542
+          }
+        },
+        {
+          "suffix": 479,
+          "rgb": {
+            "member": "4R8-8/4R8-8_rgb_479.png",
+            "bytes": 1846209,
+            "crc32": 2600865661,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R8-8/4R8-8_depth_479.png",
+            "bytes": 222773,
+            "crc32": 3077936385,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R8-8/4R8-8_pcd_479.ply",
+            "bytes": 544879,
+            "crc32": 2787820023
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/4R8-8/4R8-8.obj",
+        "bytes": 4091629,
+        "crc32": 2786816495
+      },
+      "registration": {
+        "member": "tmatrix/4R8-8.json",
+        "bytes": 2193,
+        "crc32": 943154806
+      },
+      "center_to_sfm_m": [
+        [
+          -0.7293675606903764,
+          0.03498901450443209,
+          -0.6832267048912679,
+          0.26665974296960004
+        ],
+        [
+          -0.5122131527313214,
+          -0.6899527034967798,
+          0.5114713609837068,
+          -0.13352634927957432
+        ],
+        [
+          -0.45349823327286626,
+          0.7230083234662613,
+          0.5211509537714537,
+          -0.0457724581199599
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tuber": "4R4-8",
+      "selected_suffixes": [
+        196,
+        356,
+        495
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_09",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 16,
+      "frames": [
+        {
+          "suffix": 196,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_196.png",
+            "bytes": 1933190,
+            "crc32": 1072515961,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_196.png",
+            "bytes": 233727,
+            "crc32": 4194841825,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_196.ply",
+            "bytes": 266292,
+            "crc32": 3134217449
+          }
+        },
+        {
+          "suffix": 218,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_218.png",
+            "bytes": 1940672,
+            "crc32": 4147527895,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_218.png",
+            "bytes": 235647,
+            "crc32": 1238698993,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_218.ply",
+            "bytes": 264402,
+            "crc32": 960275044
+          }
+        },
+        {
+          "suffix": 238,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_238.png",
+            "bytes": 1938042,
+            "crc32": 847045377,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_238.png",
+            "bytes": 232752,
+            "crc32": 3726195144,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_238.ply",
+            "bytes": 267669,
+            "crc32": 1685388137
+          }
+        },
+        {
+          "suffix": 257,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_257.png",
+            "bytes": 1940670,
+            "crc32": 258354528,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_257.png",
+            "bytes": 236113,
+            "crc32": 728789954,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_257.ply",
+            "bytes": 264294,
+            "crc32": 1287196998
+          }
+        },
+        {
+          "suffix": 276,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_276.png",
+            "bytes": 1933398,
+            "crc32": 843857456,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_276.png",
+            "bytes": 237251,
+            "crc32": 4045500611,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_276.ply",
+            "bytes": 267345,
+            "crc32": 2170257664
+          }
+        },
+        {
+          "suffix": 296,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_296.png",
+            "bytes": 1930564,
+            "crc32": 1135821067,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_296.png",
+            "bytes": 234762,
+            "crc32": 3284568907,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_296.ply",
+            "bytes": 271369,
+            "crc32": 357560210
+          }
+        },
+        {
+          "suffix": 315,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_315.png",
+            "bytes": 1927122,
+            "crc32": 207890316,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_315.png",
+            "bytes": 235726,
+            "crc32": 1842198233,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_315.ply",
+            "bytes": 267561,
+            "crc32": 1632752440
+          }
+        },
+        {
+          "suffix": 335,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_335.png",
+            "bytes": 1923519,
+            "crc32": 104828239,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_335.png",
+            "bytes": 235019,
+            "crc32": 945682391,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_335.ply",
+            "bytes": 270775,
+            "crc32": 3605444732
+          }
+        },
+        {
+          "suffix": 356,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_356.png",
+            "bytes": 1922631,
+            "crc32": 2674513387,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_356.png",
+            "bytes": 239082,
+            "crc32": 176204392,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_356.ply",
+            "bytes": 271207,
+            "crc32": 2408178067
+          }
+        },
+        {
+          "suffix": 374,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_374.png",
+            "bytes": 1919009,
+            "crc32": 1217583220,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_374.png",
+            "bytes": 239100,
+            "crc32": 202117881,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_374.ply",
+            "bytes": 273988,
+            "crc32": 3388193512
+          }
+        },
+        {
+          "suffix": 394,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_394.png",
+            "bytes": 1920969,
+            "crc32": 3843553322,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_394.png",
+            "bytes": 237199,
+            "crc32": 3262388291,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_394.ply",
+            "bytes": 277795,
+            "crc32": 2154570633
+          }
+        },
+        {
+          "suffix": 416,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_416.png",
+            "bytes": 1923992,
+            "crc32": 4178004676,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_416.png",
+            "bytes": 236948,
+            "crc32": 25037414,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_416.ply",
+            "bytes": 283384,
+            "crc32": 3477647430
+          }
+        },
+        {
+          "suffix": 433,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_433.png",
+            "bytes": 1930372,
+            "crc32": 3622146569,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_433.png",
+            "bytes": 238536,
+            "crc32": 4259007660,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_433.ply",
+            "bytes": 282817,
+            "crc32": 2598526562
+          }
+        },
+        {
+          "suffix": 454,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_454.png",
+            "bytes": 1925946,
+            "crc32": 1037434039,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_454.png",
+            "bytes": 241787,
+            "crc32": 562806568,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_454.ply",
+            "bytes": 286381,
+            "crc32": 1323001200
+          }
+        },
+        {
+          "suffix": 473,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_473.png",
+            "bytes": 1935667,
+            "crc32": 1828689947,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_473.png",
+            "bytes": 239422,
+            "crc32": 2620168940,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_473.ply",
+            "bytes": 290134,
+            "crc32": 628083238
+          }
+        },
+        {
+          "suffix": 495,
+          "rgb": {
+            "member": "4R4-8/4R4-8_rgb_495.png",
+            "bytes": 1939216,
+            "crc32": 1613999770,
+            "archive": "4R.zip"
+          },
+          "depth": {
+            "member": "4R4-8/4R4-8_depth_495.png",
+            "bytes": 243196,
+            "crc32": 3771318858,
+            "archive": "4R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/4R4-8/4R4-8_pcd_495.ply",
+            "bytes": 291295,
+            "crc32": 2733149832
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/4R4-8/4R4-8.obj",
+        "bytes": 2168903,
+        "crc32": 2601096432
+      },
+      "registration": {
+        "member": "tmatrix/4R4-8.json",
+        "bytes": 2190,
+        "crc32": 1803865967
+      },
+      "center_to_sfm_m": [
+        [
+          0.2696667377507004,
+          0.36394035883641307,
+          -0.8915308551928632,
+          0.30526599270537164
+        ],
+        [
+          0.2837455230430397,
+          0.8546926867036839,
+          0.4347285238493919,
+          -0.13016231532328193
+        ],
+        [
+          0.9202001568701927,
+          -0.37019971164935017,
+          0.12721574112825434,
+          0.09394939196689642
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tuber": "3R7-10",
+      "selected_suffixes": [
+        214,
+        358,
+        521
+      ],
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_06",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 18,
+      "frames": [
+        {
+          "suffix": 214,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_214.png",
+            "bytes": 1836453,
+            "crc32": 3365595643,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_214.png",
+            "bytes": 230675,
+            "crc32": 2395360937,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_214.ply",
+            "bytes": 204408,
+            "crc32": 1809352331
+          }
+        },
+        {
+          "suffix": 230,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_230.png",
+            "bytes": 1830438,
+            "crc32": 3540090833,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_230.png",
+            "bytes": 224736,
+            "crc32": 1121059498,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_230.ply",
+            "bytes": 207486,
+            "crc32": 3986200922
+          }
+        },
+        {
+          "suffix": 249,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_249.png",
+            "bytes": 1825024,
+            "crc32": 1428922972,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_249.png",
+            "bytes": 229520,
+            "crc32": 2929758974,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_249.ply",
+            "bytes": 207945,
+            "crc32": 1573631446
+          }
+        },
+        {
+          "suffix": 267,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_267.png",
+            "bytes": 1814927,
+            "crc32": 2768939851,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_267.png",
+            "bytes": 226071,
+            "crc32": 3305290322,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_267.ply",
+            "bytes": 204651,
+            "crc32": 350008416
+          }
+        },
+        {
+          "suffix": 285,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_285.png",
+            "bytes": 1815096,
+            "crc32": 3102277149,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_285.png",
+            "bytes": 226340,
+            "crc32": 2036471988,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_285.ply",
+            "bytes": 208134,
+            "crc32": 3151862822
+          }
+        },
+        {
+          "suffix": 302,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_302.png",
+            "bytes": 1804770,
+            "crc32": 3470495753,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_302.png",
+            "bytes": 223813,
+            "crc32": 1045443581,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_302.ply",
+            "bytes": 207702,
+            "crc32": 1359817458
+          }
+        },
+        {
+          "suffix": 320,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_320.png",
+            "bytes": 1801837,
+            "crc32": 675926103,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_320.png",
+            "bytes": 226540,
+            "crc32": 985154622,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_320.ply",
+            "bytes": 204273,
+            "crc32": 3217404819
+          }
+        },
+        {
+          "suffix": 340,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_340.png",
+            "bytes": 1792926,
+            "crc32": 1299719230,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_340.png",
+            "bytes": 226640,
+            "crc32": 1050993584,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_340.ply",
+            "bytes": 207135,
+            "crc32": 3945926697
+          }
+        },
+        {
+          "suffix": 358,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_358.png",
+            "bytes": 1791770,
+            "crc32": 1265390306,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_358.png",
+            "bytes": 224217,
+            "crc32": 4262065050,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_358.ply",
+            "bytes": 209268,
+            "crc32": 3048216960
+          }
+        },
+        {
+          "suffix": 375,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_375.png",
+            "bytes": 1791206,
+            "crc32": 1876341568,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_375.png",
+            "bytes": 225044,
+            "crc32": 3630896758,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_375.ply",
+            "bytes": 205353,
+            "crc32": 157671024
+          }
+        },
+        {
+          "suffix": 394,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_394.png",
+            "bytes": 1779579,
+            "crc32": 2714348132,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_394.png",
+            "bytes": 221772,
+            "crc32": 2002226950,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_394.ply",
+            "bytes": 209700,
+            "crc32": 3288211188
+          }
+        },
+        {
+          "suffix": 413,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_413.png",
+            "bytes": 1797688,
+            "crc32": 2880894711,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_413.png",
+            "bytes": 226850,
+            "crc32": 3823200269,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_413.ply",
+            "bytes": 211671,
+            "crc32": 52880947
+          }
+        },
+        {
+          "suffix": 430,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_430.png",
+            "bytes": 1796388,
+            "crc32": 1612463773,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_430.png",
+            "bytes": 226396,
+            "crc32": 2251164046,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_430.ply",
+            "bytes": 205002,
+            "crc32": 124614079
+          }
+        },
+        {
+          "suffix": 448,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_448.png",
+            "bytes": 1809776,
+            "crc32": 2117257412,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_448.png",
+            "bytes": 231879,
+            "crc32": 1330863722,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_448.ply",
+            "bytes": 207918,
+            "crc32": 1756087622
+          }
+        },
+        {
+          "suffix": 466,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_466.png",
+            "bytes": 1810071,
+            "crc32": 93207187,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_466.png",
+            "bytes": 227808,
+            "crc32": 2432690540,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_466.ply",
+            "bytes": 210078,
+            "crc32": 1407646573
+          }
+        },
+        {
+          "suffix": 487,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_487.png",
+            "bytes": 1826688,
+            "crc32": 2326659239,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_487.png",
+            "bytes": 235611,
+            "crc32": 2962389216,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_487.ply",
+            "bytes": 205920,
+            "crc32": 1939457209
+          }
+        },
+        {
+          "suffix": 504,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_504.png",
+            "bytes": 1827850,
+            "crc32": 4172927114,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_504.png",
+            "bytes": 227406,
+            "crc32": 3359228281,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_504.ply",
+            "bytes": 205569,
+            "crc32": 685102855
+          }
+        },
+        {
+          "suffix": 521,
+          "rgb": {
+            "member": "3R7-10/3R7-10_rgb_521.png",
+            "bytes": 1835204,
+            "crc32": 1936767338,
+            "archive": "3R.zip"
+          },
+          "depth": {
+            "member": "3R7-10/3R7-10_depth_521.png",
+            "bytes": 235582,
+            "crc32": 210286142,
+            "archive": "3R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/3R7-10/3R7-10_pcd_521.ply",
+            "bytes": 213669,
+            "crc32": 4127562537
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/3R7-10/3R7-10.obj",
+        "bytes": 1643701,
+        "crc32": 2137440553
+      },
+      "registration": {
+        "member": "tmatrix/3R7-10.json",
+        "bytes": 2194,
+        "crc32": 2656601828
+      },
+      "center_to_sfm_m": [
+        [
+          -0.5459529120594478,
+          -0.4730140623732172,
+          -0.691515086322052,
+          0.18013356279695025
+        ],
+        [
+          -0.6336236570177939,
+          -0.3068905271135486,
+          0.7101684769372446,
+          -0.29314766192156305
+        ],
+        [
+          -0.548139105593832,
+          0.8258788659150651,
+          -0.1321651230606598,
+          0.08783677498478583
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tuber": "2R1-9",
+      "selected_suffixes": [
+        231,
+        356,
+        501
+      ],
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "cultivar": "Kitahime",
+      "reason": "",
+      "frame_count": 14,
+      "frames": [
+        {
+          "suffix": 231,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_231.png",
+            "bytes": 1808477,
+            "crc32": 1043083384,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_231.png",
+            "bytes": 238614,
+            "crc32": 3722782486,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_231.ply",
+            "bytes": 352693,
+            "crc32": 232536260
+          }
+        },
+        {
+          "suffix": 252,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_252.png",
+            "bytes": 1812624,
+            "crc32": 3091965216,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_252.png",
+            "bytes": 238060,
+            "crc32": 1216176027,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_252.ply",
+            "bytes": 351235,
+            "crc32": 137306302
+          }
+        },
+        {
+          "suffix": 271,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_271.png",
+            "bytes": 1811266,
+            "crc32": 3221001811,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_271.png",
+            "bytes": 239420,
+            "crc32": 1841901007,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_271.ply",
+            "bytes": 352990,
+            "crc32": 1791797904
+          }
+        },
+        {
+          "suffix": 294,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_294.png",
+            "bytes": 1810933,
+            "crc32": 3681060881,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_294.png",
+            "bytes": 239887,
+            "crc32": 1267441496,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_294.ply",
+            "bytes": 354178,
+            "crc32": 1207481566
+          }
+        },
+        {
+          "suffix": 315,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_315.png",
+            "bytes": 1790957,
+            "crc32": 3146658566,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_315.png",
+            "bytes": 238179,
+            "crc32": 3128529069,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_315.ply",
+            "bytes": 351370,
+            "crc32": 3019954969
+          }
+        },
+        {
+          "suffix": 335,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_335.png",
+            "bytes": 1795904,
+            "crc32": 2773279424,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_335.png",
+            "bytes": 239600,
+            "crc32": 2908510944,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_335.ply",
+            "bytes": 348670,
+            "crc32": 256981270
+          }
+        },
+        {
+          "suffix": 356,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_356.png",
+            "bytes": 1790458,
+            "crc32": 2142651165,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_356.png",
+            "bytes": 240524,
+            "crc32": 4145461887,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_356.ply",
+            "bytes": 352288,
+            "crc32": 296910659
+          }
+        },
+        {
+          "suffix": 378,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_378.png",
+            "bytes": 1786614,
+            "crc32": 959081841,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_378.png",
+            "bytes": 238241,
+            "crc32": 2326995533,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_378.ply",
+            "bytes": 359389,
+            "crc32": 88968540
+          }
+        },
+        {
+          "suffix": 397,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_397.png",
+            "bytes": 1788072,
+            "crc32": 3324676115,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_397.png",
+            "bytes": 238170,
+            "crc32": 502634716,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_397.ply",
+            "bytes": 354367,
+            "crc32": 332801638
+          }
+        },
+        {
+          "suffix": 419,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_419.png",
+            "bytes": 1787340,
+            "crc32": 859926753,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_419.png",
+            "bytes": 240084,
+            "crc32": 2244036331,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_419.ply",
+            "bytes": 360334,
+            "crc32": 3468919331
+          }
+        },
+        {
+          "suffix": 440,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_440.png",
+            "bytes": 1789977,
+            "crc32": 1551869492,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_440.png",
+            "bytes": 242060,
+            "crc32": 3679764963,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_440.ply",
+            "bytes": 359335,
+            "crc32": 3865165819
+          }
+        },
+        {
+          "suffix": 460,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_460.png",
+            "bytes": 1795791,
+            "crc32": 3985403500,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_460.png",
+            "bytes": 241221,
+            "crc32": 2914283100,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_460.ply",
+            "bytes": 361414,
+            "crc32": 2092546300
+          }
+        },
+        {
+          "suffix": 480,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_480.png",
+            "bytes": 1797057,
+            "crc32": 580232985,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_480.png",
+            "bytes": 240651,
+            "crc32": 1527332278,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_480.ply",
+            "bytes": 356419,
+            "crc32": 2866388434
+          }
+        },
+        {
+          "suffix": 501,
+          "rgb": {
+            "member": "2R1-9/2R1-9_rgb_501.png",
+            "bytes": 1804785,
+            "crc32": 2826026934,
+            "archive": "2R.zip"
+          },
+          "depth": {
+            "member": "2R1-9/2R1-9_depth_501.png",
+            "bytes": 243241,
+            "crc32": 2408340458,
+            "archive": "2R.zip"
+          },
+          "ply": {
+            "member": "2_pcd/2R1-9/2R1-9_pcd_501.ply",
+            "bytes": 362467,
+            "crc32": 2757549659
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/2R1-9/2R1-9.obj",
+        "bytes": 2348166,
+        "crc32": 3297000129
+      },
+      "registration": {
+        "member": "tmatrix/2R1-9.json",
+        "bytes": 2187,
+        "crc32": 2814382950
+      },
+      "center_to_sfm_m": [
+        [
+          0.7886218395300645,
+          0.08792492049865537,
+          -0.6085596129973811,
+          0.11676116787764287
+        ],
+        [
+          0.5838051630937641,
+          -0.4177202078923976,
+          0.6961906056988965,
+          -0.28880766079923015
+        ],
+        [
+          -0.1929951443981966,
+          -0.9043113602480275,
+          -0.3807543013087073,
+          0.2544381642284379
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tuber": "R10-10",
+      "selected_suffixes": [
+        222,
+        360,
+        497
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15,
+      "frames": [
+        {
+          "suffix": 222,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_222.png",
+            "bytes": 1801447,
+            "crc32": 3470776014,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_222.png",
+            "bytes": 222726,
+            "crc32": 3776323721,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_222.ply",
+            "bytes": 309412,
+            "crc32": 1792962538
+          }
+        },
+        {
+          "suffix": 241,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_241.png",
+            "bytes": 1810014,
+            "crc32": 1787705194,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_241.png",
+            "bytes": 224109,
+            "crc32": 3494443643,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_241.ply",
+            "bytes": 309385,
+            "crc32": 2709467332
+          }
+        },
+        {
+          "suffix": 259,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_259.png",
+            "bytes": 1802990,
+            "crc32": 969677145,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_259.png",
+            "bytes": 223940,
+            "crc32": 1342417331,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_259.ply",
+            "bytes": 311788,
+            "crc32": 3251090308
+          }
+        },
+        {
+          "suffix": 279,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_279.png",
+            "bytes": 1812150,
+            "crc32": 428213409,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_279.png",
+            "bytes": 219585,
+            "crc32": 2078651707,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_279.ply",
+            "bytes": 309466,
+            "crc32": 77765559
+          }
+        },
+        {
+          "suffix": 301,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_301.png",
+            "bytes": 1807302,
+            "crc32": 1959716152,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_301.png",
+            "bytes": 221297,
+            "crc32": 2196205287,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_301.ply",
+            "bytes": 312814,
+            "crc32": 1859954700
+          }
+        },
+        {
+          "suffix": 318,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_318.png",
+            "bytes": 1811705,
+            "crc32": 2719494406,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_318.png",
+            "bytes": 226049,
+            "crc32": 1851685476,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_318.ply",
+            "bytes": 310951,
+            "crc32": 3335441726
+          }
+        },
+        {
+          "suffix": 337,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_337.png",
+            "bytes": 1799040,
+            "crc32": 2631645422,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_337.png",
+            "bytes": 222129,
+            "crc32": 4015181109,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_337.ply",
+            "bytes": 307333,
+            "crc32": 2038678417
+          }
+        },
+        {
+          "suffix": 360,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_360.png",
+            "bytes": 1798372,
+            "crc32": 1163893574,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_360.png",
+            "bytes": 221362,
+            "crc32": 232765878,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_360.ply",
+            "bytes": 310627,
+            "crc32": 3523948546
+          }
+        },
+        {
+          "suffix": 381,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_381.png",
+            "bytes": 1789079,
+            "crc32": 2650562758,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_381.png",
+            "bytes": 225199,
+            "crc32": 450030583,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_381.ply",
+            "bytes": 303391,
+            "crc32": 1385045425
+          }
+        },
+        {
+          "suffix": 400,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_400.png",
+            "bytes": 1785356,
+            "crc32": 504409758,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_400.png",
+            "bytes": 217785,
+            "crc32": 3719771809,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_400.ply",
+            "bytes": 308440,
+            "crc32": 3185220782
+          }
+        },
+        {
+          "suffix": 419,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_419.png",
+            "bytes": 1790671,
+            "crc32": 3306480995,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_419.png",
+            "bytes": 225393,
+            "crc32": 4159567663,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_419.ply",
+            "bytes": 311410,
+            "crc32": 3321406922
+          }
+        },
+        {
+          "suffix": 439,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_439.png",
+            "bytes": 1788563,
+            "crc32": 157203802,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_439.png",
+            "bytes": 223792,
+            "crc32": 354557313,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_439.ply",
+            "bytes": 307306,
+            "crc32": 3900244911
+          }
+        },
+        {
+          "suffix": 459,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_459.png",
+            "bytes": 1782173,
+            "crc32": 529912330,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_459.png",
+            "bytes": 223723,
+            "crc32": 3878702546,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_459.ply",
+            "bytes": 308845,
+            "crc32": 2969147239
+          }
+        },
+        {
+          "suffix": 478,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_478.png",
+            "bytes": 1785521,
+            "crc32": 597562948,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_478.png",
+            "bytes": 223011,
+            "crc32": 791952399,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_478.ply",
+            "bytes": 314596,
+            "crc32": 3651779405
+          }
+        },
+        {
+          "suffix": 497,
+          "rgb": {
+            "member": "R10-10/R10-10_rgb_497.png",
+            "bytes": 1781089,
+            "crc32": 1204142147,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R10-10/R10-10_depth_497.png",
+            "bytes": 223673,
+            "crc32": 3992274053,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R10-10/R10-10_pcd_497.ply",
+            "bytes": 310276,
+            "crc32": 4041889781
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/R10-10/R10-10.obj",
+        "bytes": 2167000,
+        "crc32": 629634986
+      },
+      "registration": {
+        "member": "tmatrix/R10-10.json",
+        "bytes": 2196,
+        "crc32": 1536950471
+      },
+      "center_to_sfm_m": [
+        [
+          0.8271032378771914,
+          0.20398804458125752,
+          -0.5237261799461441,
+          0.15283445634509432
+        ],
+        [
+          -0.5271753974972161,
+          -0.04156398114054357,
+          -0.8487393803432246,
+          0.2995794506949372
+        ],
+        [
+          -0.1949008316214132,
+          0.978090646688569,
+          0.07315977510639406,
+          0.09142716526792555
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "tuber": "R9-2",
+      "selected_suffixes": [
+        220,
+        360,
+        503
+      ],
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "cultivar": "Sayaka",
+      "reason": "",
+      "frame_count": 15,
+      "frames": [
+        {
+          "suffix": 220,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_220.png",
+            "bytes": 1784885,
+            "crc32": 2190959711,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_220.png",
+            "bytes": 229804,
+            "crc32": 1930909278,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_220.ply",
+            "bytes": 286813,
+            "crc32": 3905055071
+          }
+        },
+        {
+          "suffix": 238,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_238.png",
+            "bytes": 1793130,
+            "crc32": 4187318917,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_238.png",
+            "bytes": 224748,
+            "crc32": 673460011,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_238.ply",
+            "bytes": 283249,
+            "crc32": 2772682602
+          }
+        },
+        {
+          "suffix": 259,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_259.png",
+            "bytes": 1788291,
+            "crc32": 656134533,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_259.png",
+            "bytes": 230003,
+            "crc32": 1469371088,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_259.ply",
+            "bytes": 285571,
+            "crc32": 2747068791
+          }
+        },
+        {
+          "suffix": 280,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_280.png",
+            "bytes": 1784181,
+            "crc32": 3131319424,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_280.png",
+            "bytes": 227297,
+            "crc32": 3466163143,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_280.ply",
+            "bytes": 281575,
+            "crc32": 2433769605
+          }
+        },
+        {
+          "suffix": 299,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_299.png",
+            "bytes": 1783597,
+            "crc32": 454620672,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_299.png",
+            "bytes": 225280,
+            "crc32": 2162689477,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_299.ply",
+            "bytes": 285976,
+            "crc32": 2033233082
+          }
+        },
+        {
+          "suffix": 319,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_319.png",
+            "bytes": 1774051,
+            "crc32": 3104299383,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_319.png",
+            "bytes": 227921,
+            "crc32": 1246746866,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_319.ply",
+            "bytes": 287407,
+            "crc32": 934933891
+          }
+        },
+        {
+          "suffix": 342,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_342.png",
+            "bytes": 1766624,
+            "crc32": 1537255180,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_342.png",
+            "bytes": 224842,
+            "crc32": 927044414,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_342.ply",
+            "bytes": 285625,
+            "crc32": 3853287565
+          }
+        },
+        {
+          "suffix": 360,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_360.png",
+            "bytes": 1776020,
+            "crc32": 3570949224,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_360.png",
+            "bytes": 227333,
+            "crc32": 2262125339,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_360.ply",
+            "bytes": 284707,
+            "crc32": 405717447
+          }
+        },
+        {
+          "suffix": 382,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_382.png",
+            "bytes": 1770675,
+            "crc32": 2089796567,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_382.png",
+            "bytes": 226685,
+            "crc32": 2151957537,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_382.ply",
+            "bytes": 282358,
+            "crc32": 1783737480
+          }
+        },
+        {
+          "suffix": 401,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_401.png",
+            "bytes": 1770826,
+            "crc32": 1586821340,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_401.png",
+            "bytes": 221822,
+            "crc32": 2281979307,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_401.ply",
+            "bytes": 286003,
+            "crc32": 1922297361
+          }
+        },
+        {
+          "suffix": 420,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_420.png",
+            "bytes": 1767604,
+            "crc32": 251644132,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_420.png",
+            "bytes": 226011,
+            "crc32": 1847653774,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_420.ply",
+            "bytes": 285355,
+            "crc32": 2804072695
+          }
+        },
+        {
+          "suffix": 441,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_441.png",
+            "bytes": 1780379,
+            "crc32": 693815716,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_441.png",
+            "bytes": 224498,
+            "crc32": 2056813988,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_441.ply",
+            "bytes": 285814,
+            "crc32": 3278518978
+          }
+        },
+        {
+          "suffix": 463,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_463.png",
+            "bytes": 1780054,
+            "crc32": 3240834345,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_463.png",
+            "bytes": 229252,
+            "crc32": 2303575230,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_463.ply",
+            "bytes": 283843,
+            "crc32": 3146114138
+          }
+        },
+        {
+          "suffix": 482,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_482.png",
+            "bytes": 1780647,
+            "crc32": 1309312148,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_482.png",
+            "bytes": 224835,
+            "crc32": 1150467986,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_482.ply",
+            "bytes": 292807,
+            "crc32": 1561646186
+          }
+        },
+        {
+          "suffix": 503,
+          "rgb": {
+            "member": "R9-2/R9-2_rgb_503.png",
+            "bytes": 1790288,
+            "crc32": 239773893,
+            "archive": "1R-B.zip"
+          },
+          "depth": {
+            "member": "R9-2/R9-2_depth_503.png",
+            "bytes": 225017,
+            "crc32": 2273879979,
+            "archive": "1R-B.zip"
+          },
+          "ply": {
+            "member": "2_pcd/R9-2/R9-2_pcd_503.ply",
+            "bytes": 293023,
+            "crc32": 3264841629
+          }
+        }
+      ],
+      "reference": {
+        "member": "3_mesh/R9-2/R9-2.obj",
+        "bytes": 1757452,
+        "crc32": 3116414860
+      },
+      "registration": {
+        "member": "tmatrix/R9-2.json",
+        "bytes": 2188,
+        "crc32": 651594493
+      },
+      "center_to_sfm_m": [
+        [
+          -0.4962602409202688,
+          0.20494728292314707,
+          -0.8436364053928538,
+          0.23501976494669247
+        ],
+        [
+          0.8055946990982588,
+          -0.2535402896651198,
+          -0.5354759586585687,
+          0.24904293851741605
+        ],
+        [
+          -0.3236401613930856,
+          -0.9453644444017061,
+          -0.03928247948527118,
+          0.08761582257164689
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "checkpoint_sha256": "01064c6dba73b0fc9fc8edf772248560a00a3acfd62ac6677e9eeebad9680e27",
+  "held_out_excluded_count": 45
+}

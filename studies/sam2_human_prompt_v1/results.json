@@ -1,0 +1,261 @@
+{
+  "roster": 40,
+  "center_iou_threshold": 0.5,
+  "potato_matches": 1,
+  "prior_potato_matches": 34,
+  "scorable": 39,
+  "paired_mae_g": {
+    "human": 148.4440450358324,
+    "provided": 16.33563326017969
+  },
+  "paired_mae_change_g": 132.1084117756527,
+  "gains": [],
+  "losses": [
+    "4R4-4",
+    "3R3-8",
+    "4R6-1",
+    "4R4-8",
+    "R9-4",
+    "R1-2",
+    "R4-4",
+    "3R1-7",
+    "R5-7",
+    "3R6-3",
+    "R8-1",
+    "2R1-9",
+    "R3-2",
+    "2R2-1",
+    "R1-3",
+    "R4-2",
+    "4R8-5",
+    "R4-7",
+    "R9-2",
+    "4R1-2",
+    "4R4-10",
+    "3R1-8",
+    "4R6-7",
+    "4R8-2",
+    "3R1-1",
+    "4R8-8",
+    "R11-5",
+    "R5-9",
+    "2R1-1",
+    "3R6-2",
+    "3R1-9",
+    "3R4-10",
+    "R5-1"
+  ],
+  "mask_failures": [
+    {
+      "tuber": "4R4-4",
+      "category": "never_tracked_potato"
+    },
+    {
+      "tuber": "R6-5",
+      "category": "never_tracked_potato"
+    },
+    {
+      "tuber": "3R3-8",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R6-1",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R4-8",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R9-4",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R3-1",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R1-2",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "3R7-10",
+      "category": "never_tracked_potato"
+    },
+    {
+      "tuber": "R4-4",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "3R1-7",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R5-8",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R5-7",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "3R6-3",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R8-1",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "2R1-9",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R3-2",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "2R2-1",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R1-3",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R4-2",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R8-5",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R4-7",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R9-2",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R1-2",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R4-10",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "3R1-8",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R6-7",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R8-2",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "3R1-1",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R8-8",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R11-5",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R5-9",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "2R1-1",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "3R6-2",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "3R1-9",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R10-10",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "3R4-10",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "4R8-3",
+      "category": "pin_at_entry"
+    },
+    {
+      "tuber": "R5-1",
+      "category": "pin_at_entry"
+    }
+  ],
+  "weight_failures": [
+    {
+      "tuber": "R6-5",
+      "category": "empty_center"
+    }
+  ],
+  "pin_selected_at_entry_among_failures": [
+    "3R3-8",
+    "4R6-1",
+    "4R4-8",
+    "R9-4",
+    "4R3-1",
+    "R1-2",
+    "R4-4",
+    "3R1-7",
+    "R5-8",
+    "R5-7",
+    "3R6-3",
+    "R8-1",
+    "2R1-9",
+    "R3-2",
+    "2R2-1",
+    "R1-3",
+    "R4-2",
+    "4R8-5",
+    "R4-7",
+    "R9-2",
+    "4R1-2",
+    "4R4-10",
+    "3R1-8",
+    "4R6-7",
+    "4R8-2",
+    "3R1-1",
+    "4R8-8",
+    "R11-5",
+    "R5-9",
+    "2R1-1",
+    "3R6-2",
+    "3R1-9",
+    "R10-10",
+    "3R4-10",
+    "4R8-3",
+    "R5-1"
+  ],
+  "lost_potato_later_among_failures": [],
+  "click_regions": {
+    "outside_potato": 2,
+    "pin_polygon": 35,
+    "potato_outside_pin": 3
+  },
+  "matches_by_click_region": {
+    "potato_outside_pin": 1
+  },
+  "tracking_wall_s": 810.5327682510087,
+  "clicks_sha256": "f8133155c12574fcbad8e762913c879278ad7a92d71091acbaaa3f574cbc2caa"
+}

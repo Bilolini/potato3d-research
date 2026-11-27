@@ -1,0 +1,27 @@
+{
+  "files": {
+    "studies/sam2_raft_end_to_end_v1/protocol.md": "35e7d0c5147b29b57cd3b3e2b9b205a5a3a14ba59a3e070128f297f5814b5036",
+    "studies/sam2_raft_end_to_end_v1/frame_manifest.json": "227739071c230fc287b8bbfaa1eb35e991eb641813236c8f686ac24ad0eadee7",
+    "studies/sam2_raft_end_to_end_v1/common.py": "3dfe68e187100ad8190d72988031b19b5cf413c00bf29ad44b8e19b8aaea8eca",
+    "studies/sam2_raft_end_to_end_v1/track.py": "aac4131bbb824050de48c7e8d9f0fe57fdc42cc432ae561e7683621d66ba1421",
+    "studies/sam2_raft_end_to_end_v1/build.py": "878223548ff22a756f869eb599732833790c9c088f706cad0652a9349617d15c",
+    "studies/sam2_raft_end_to_end_v1/provided.py": "e905044d88a21aa09aef3bdb237d7639270133dbc58a6d04c949e2fea15164c6",
+    "studies/sam2_raft_end_to_end_v1/evaluate.py": "c3612bc01df42a4010e525c482722b7d03a3d35d3d9b70e64d152cc86afc73a7",
+    "studies/sam2_raft_end_to_end_v1/audit.py": "dee210acf2594068ee33964ef2034d6c4135ac349d1c96d1725315009e94bfa1",
+    "studies/raft_fusion_geometry_v1/score.py": "192a4940c5da93531c01f2d002785ef95ee7db29d901221f690742391ea4fb1e",
+    "studies/raft_fusion_geometry_v1/score_freeze.json": "426ef5737431d81f0164577540d5e9bee09197bb33f781037e7276d6748b81c8",
+    "studies/raft_fusion_geometry_v1/registration.json": "3dcdbece1b92f4892e001693c51d8e81e56740431c341847c8009a952971b353",
+    "studies/raft_fusion_geometry_v1/per_potato.csv": "e7921a30385fd7a2e889a421dc2a93ace820cb36a7622dd792346bd7ea99156a",
+    "studies/raft_fusion_traits_v1/predictions_before_targets.json": "0f27a54169533b29f1fd1d127b88a6574df1d6ef3d5a7c2bd67078f9c7a73850",
+    "studies/raft_fusion_traits_v1/train_fit.json": "34a55416e8263010602a320670441782329c81e28204d690dfcb49a4b73d01fd",
+    "data/raw/3DPotatoTwin/3_pair/ground_truth.csv": "7f7e46ee83c0ce33263515d17b84c794f1f6dbe25aa2c717856e2fae3116229c"
+  },
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 5272401,
+  "geometry_voxel_mm": 1.0,
+  "geometry_samples": 50000,
+  "distance_threshold_mm": 2.0,
+  "equal_count_repeats": 10,
+  "geometry_sample_seed": 5272401,
+  "primary": "D-B weight absolute error"
+}

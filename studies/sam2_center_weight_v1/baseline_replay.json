@@ -1,0 +1,43 @@
+{
+  "tubers": 40,
+  "exact_pixel_replay": 40,
+  "max_xyz_difference_mm": 1.8646031472215155e-05,
+  "raw_extra_pixels": 12183,
+  "unfiltered_absolute_replay_discrepancy": {
+    "area_mm2": {
+      "median": 132.61885634963164,
+      "max": 4508.2042991137305
+    },
+    "height_mm": {
+      "median": 8.106231689453125e-06,
+      "max": 1.4543533325195312e-05
+    },
+    "proxy_cm3": {
+      "median": 5.760485659816048,
+      "max": 293.03325378404094
+    },
+    "predicted_g": {
+      "median": 4.4106751881513375,
+      "max": 224.36901645022033
+    }
+  },
+  "provided_absolute_replay_discrepancy": {
+    "area_mm2": {
+      "median": 9.762149238667917e-05,
+      "max": 0.0003219834416086087
+    },
+    "height_mm": {
+      "median": 8.106231689453125e-06,
+      "max": 1.4543533325195312e-05
+    },
+    "proxy_cm3": {
+      "median": 2.6537027494555332e-05,
+      "max": 5.6889512620728055e-05
+    },
+    "predicted_g": {
+      "median": 2.031880915609463e-05,
+      "max": 4.355902896691077e-05
+    }
+  },
+  "passed": true
+}

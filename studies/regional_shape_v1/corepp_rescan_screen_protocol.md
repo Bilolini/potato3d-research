@@ -1,0 +1,15 @@
+# Development rescan screen at a two-potato budget
+
+Use exactly the ten previously scored development potatoes from the expanded-grid CoRe++ study. Keep all fresh scored cohorts closed. The outcome is the archived `original_error_median_mm` in `corepp_pin_accuracy/per_potato.csv`, the median unedited symmetric surface error against the fixed reference in millimetres. Hash the target table at freeze. Read its outcome column only after the scan-only scores and selected IDs have been written. This is exploratory selection on previously analyzed objects.
+
+## Fixed scan scores and selection
+
+Decode the existing color, alpha and depth inputs through the released CPU preprocessing and verified 30³ prediction pipeline. Use no pin annotations or reference geometry. Foreground means alpha = 255. Count as depth-rejected every foreground pixel whose depth is zero or falls outside the released 50 mm histogram filter's inclusive range. Compute the rejected fraction relative to all foreground pixels.
+
+Make separate RGB exposure variants by multiplying the valid foreground RGB triplets by 0.9 or 1.1, rounding to nearest integer with ties to even, and clipping to [0,255]. Other pixels, alpha, depth, crop, camera and grid stay fixed. Pair interior seeds 133–148 and the archived outer seeds 10133–10148. For each seed, average the symmetric mean surface displacements of both variants from that seed's unchanged mesh. Use the median across the 16 seed averages as the single sensitivity score. Follow the established canonical mesh ordering and fixed 20,000 area-weighted samples per direction. Run gain 1.0 through the same exposure and preprocessing path, and verify exact input tensor, latent, SDF, inside/outside labels, volume and canonical mesh arrays, allowing the archived mesh self-distance tolerance. Check unchanged predictions against the archived tensor, latent and inner and outer SDF hashes and mesh volumes. Record per-potato CPU time for the entire scan scoring calculation, including the gain 1.0 check.
+
+Flag exactly two potatoes for each fixed deterministic rule. Rank descending by sensitivity, or rank descending by depth-rejected fraction. Break exact ties by ascending case-sensitive object ID. Require complete scores for all ten to compare these fixed-budget rules. The random rule selects uniformly among all 45 unordered pairs. Do not tune gains, thresholds or combine scores after scoring.
+
+## Decision outcome
+
+For both deterministic rules and for each random pair, compute the mean archived unedited reference error of the eight accepted potatoes. A smaller mean is better. Compare the sensitivity rule with the depth-rejection rule and the exact mean over the 45 random pairs. Require a strictly lower mean than both baselines to count as a positive development result. If either comparison fails, close this candidate at the prespecified gains. Report all ten rows, flagged IDs and their target errors, and the full random-pair enumeration. This evaluates selection at the given budget. It assumes nothing about what a second view would do for the flagged potatoes.

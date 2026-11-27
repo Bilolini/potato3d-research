@@ -1,0 +1,318 @@
+{
+  "stage": "scan_support_offset_development",
+  "frozen_predictions_sha256": "4bbff930c47dec1e207f712fd3af6ece5f06bdce224eff7765f881fda1204123",
+  "archived_development_sha256": "ac13f7cc22ec49dd8bef9d243348bf9ec6e61f3c63ec19be9478fd6c1869e3c9",
+  "archived_best_shifts_sha256": "4673087aec6a4c8f424d0a6a86ed4ee8ad2a1f64e5ff3ea1862454d0896d09cc",
+  "coverage": {
+    "selected_tubers": 12,
+    "scored_tubers": 7,
+    "scored_bands": 10,
+    "scored_cells": 12202
+  },
+  "fallback_count_on_scored_tubers": 0,
+  "equal_tuber_body_mae_mm": 5.5120918820304174,
+  "equal_tuber_shifted_mae_mm": 4.1068914380641415,
+  "equal_tuber_change_mm": -1.4052004439662757,
+  "omit_one_mean_change_range_mm": [
+    -1.7450124870261965,
+    -0.9612230115343863
+  ],
+  "shuffled_control": {
+    "assignments_including_identity": 5040,
+    "correct_assignment_mae_mm": 4.1068914380641415,
+    "mean_assignment_mae_mm": 6.095922887491577,
+    "matched_minus_mean_shuffled_mm": -1.9890314494274355,
+    "assignment_mae_min_median_max_mm": [
+      3.9527315113239583,
+      6.10361550184817,
+      7.831009395862408
+    ],
+    "assignments_strictly_better": 24,
+    "assignments_tied": 1,
+    "assignments_worse": 5015,
+    "correct_assignment_rank_from_lowest": [
+      25,
+      25
+    ],
+    "percent_at_or_below_correct_assignment": 0.49603174603174605,
+    "comparison_tolerance_mm": 1e-12,
+    "tuber_and_shift_source_order": [
+      "2R1-10",
+      "2R2-6",
+      "3R2-10",
+      "3R5-2",
+      "5R1-4",
+      "R10-1",
+      "R12-7"
+    ],
+    "tuber_by_assigned_shift_mae_mm": [
+      [
+        3.6012952665718814,
+        8.577344776247319,
+        3.3646416306051092,
+        4.412655750325407,
+        12.807949773931146,
+        7.657444534177067,
+        8.771670769732768
+      ],
+      [
+        3.2974707553291847,
+        3.0298362561079846,
+        3.658085145690481,
+        2.5654769174259577,
+        6.9213321172186335,
+        2.3886602033437745,
+        3.18515249051981
+      ],
+      [
+        2.947004316485339,
+        6.585836282462305,
+        2.9135956963364085,
+        3.2908519760439385,
+        10.705910164664921,
+        5.742129929899138,
+        6.767915522409428
+      ],
+      [
+        5.629211458772362,
+        4.8295872118526635,
+        5.871095695059623,
+        5.148270090001641,
+        6.951908702283977,
+        4.726651144848917,
+        4.869395710636336
+      ],
+      [
+        13.486970840695589,
+        7.968679129864974,
+        13.968376287794484,
+        12.285069304383367,
+        5.365504210368179,
+        8.876270113874936,
+        7.782164037070999
+      ],
+      [
+        6.637597018209528,
+        5.556988353895988,
+        6.899709262732878,
+        6.138472840268353,
+        6.554459835665393,
+        5.5468845414246815,
+        5.567311100188797
+      ],
+      [
+        7.377863945676541,
+        3.2171443963558795,
+        7.859269392775435,
+        6.17596240936432,
+        3.4404725630326403,
+        3.633817608822592,
+        3.1428540056382173
+      ]
+    ]
+  },
+  "decision_criteria": {
+    "better_than_body": true,
+    "better_than_mean_shuffled_assignment": true,
+    "gain_survives_each_tuber_omission": true
+  },
+  "meets_advancement_criterion": true,
+  "pairs": [
+    {
+      "object_id": "2R1-10",
+      "frame_id": "364",
+      "cultivar": "Kitahime",
+      "predicted_shift_mm": -4.623632191297929,
+      "plane_prediction_failure": null,
+      "coverage_failure": null,
+      "scored_bands": 1,
+      "scored_cells": 1699,
+      "comparison": {
+        "archived_best_shift_mm": -7.626428489611129,
+        "prediction_minus_best_shift_mm": 3.0027962983132,
+        "body_mae_mm": 7.670360305129493,
+        "shifted_mae_mm": 3.6012952665718814,
+        "change_mm": -4.0690650385576115,
+        "mean_change_if_omitted_mm": -0.9612230115343863
+      }
+    },
+    {
+      "object_id": "2R2-6",
+      "frame_id": "358",
+      "cultivar": "Kitahime",
+      "predicted_shift_mm": 0.9071499575388771,
+      "plane_prediction_failure": null,
+      "coverage_failure": null,
+      "scored_bands": 2,
+      "scored_cells": 1636,
+      "comparison": {
+        "archived_best_shift_mm": -1.4061831766331698,
+        "prediction_minus_best_shift_mm": 2.313333134172047,
+        "body_mae_mm": 2.3961644417147347,
+        "shifted_mae_mm": 3.0298362561079846,
+        "change_mm": 0.6336718143932498,
+        "mean_change_if_omitted_mm": -1.7450124870261965
+      }
+    },
+    {
+      "object_id": "2R3-10",
+      "frame_id": "363",
+      "cultivar": "Kitahime",
+      "predicted_shift_mm": 4.065991070509767,
+      "plane_prediction_failure": null,
+      "coverage_failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "comparison": null
+    },
+    {
+      "object_id": "3R2-10",
+      "frame_id": "367",
+      "cultivar": "Sayaka",
+      "predicted_shift_mm": -5.105037638396823,
+      "plane_prediction_failure": null,
+      "coverage_failure": null,
+      "scored_bands": 2,
+      "scored_cells": 2937,
+      "comparison": {
+        "archived_best_shift_mm": -5.185312888821322,
+        "prediction_minus_best_shift_mm": 0.08027525042449923,
+        "body_mae_mm": 5.753761803352328,
+        "shifted_mae_mm": 2.9135956963364085,
+        "change_mm": -2.840166107015919,
+        "mean_change_if_omitted_mm": -1.1660395001246684
+      }
+    },
+    {
+      "object_id": "3R5-2",
+      "frame_id": "359",
+      "cultivar": "Sayaka",
+      "predicted_shift_mm": -3.4217306549857085,
+      "plane_prediction_failure": null,
+      "coverage_failure": null,
+      "scored_bands": 1,
+      "scored_cells": 1720,
+      "comparison": {
+        "archived_best_shift_mm": -0.35569859855995567,
+        "prediction_minus_best_shift_mm": -3.066032056425753,
+        "body_mae_mm": 4.727194947476452,
+        "shifted_mae_mm": 5.148270090001641,
+        "change_mm": 0.4210751425251891,
+        "mean_change_if_omitted_mm": -1.70957970838152
+      }
+    },
+    {
+      "object_id": "5R1-4",
+      "frame_id": "362",
+      "cultivar": "Corolle",
+      "predicted_shift_mm": 5.137754955222704,
+      "plane_prediction_failure": null,
+      "coverage_failure": null,
+      "scored_bands": 1,
+      "scored_cells": 892,
+      "comparison": {
+        "archived_best_shift_mm": 5.492112710512531,
+        "prediction_minus_best_shift_mm": -0.3543577552898274,
+        "body_mae_mm": 8.86333864939766,
+        "shifted_mae_mm": 5.365504210368179,
+        "change_mm": -3.4978344390294804,
+        "mean_change_if_omitted_mm": -1.0564281114557417
+      }
+    },
+    {
+      "object_id": "5R2-3",
+      "frame_id": "356",
+      "cultivar": "Corolle",
+      "predicted_shift_mm": -1.4827364361131004,
+      "plane_prediction_failure": null,
+      "coverage_failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "comparison": null
+    },
+    {
+      "object_id": "5R3-1",
+      "frame_id": "360",
+      "cultivar": "Corolle",
+      "predicted_shift_mm": 7.830064184062508,
+      "plane_prediction_failure": null,
+      "coverage_failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "comparison": null
+    },
+    {
+      "object_id": "R10-1",
+      "frame_id": "362",
+      "cultivar": "Sayaka",
+      "predicted_shift_mm": -0.012931464477276222,
+      "plane_prediction_failure": null,
+      "coverage_failure": null,
+      "scored_bands": 2,
+      "scored_cells": 1867,
+      "comparison": {
+        "archived_best_shift_mm": 0.3380501243491194,
+        "prediction_minus_best_shift_mm": -0.35098158882639563,
+        "body_mae_mm": 5.5465398909972725,
+        "shifted_mae_mm": 5.5468845414246815,
+        "change_mm": 0.00034465042740894347,
+        "mean_change_if_omitted_mm": -1.6394579596985563
+      }
+    },
+    {
+      "object_id": "R12-7",
+      "frame_id": "353",
+      "cultivar": "Sayaka",
+      "predicted_shift_mm": 1.1014759510243266,
+      "plane_prediction_failure": null,
+      "coverage_failure": null,
+      "scored_bands": 1,
+      "scored_cells": 1451,
+      "comparison": {
+        "archived_best_shift_mm": 2.8362550902593515,
+        "prediction_minus_best_shift_mm": -1.734779139235025,
+        "body_mae_mm": 3.6272831361449835,
+        "shifted_mae_mm": 3.1428540056382173,
+        "change_mm": -0.4844291305067663,
+        "mean_change_if_omitted_mm": -1.5586623295428605
+      }
+    },
+    {
+      "object_id": "R4-10",
+      "frame_id": "352",
+      "cultivar": "Sayaka",
+      "predicted_shift_mm": -0.5316645309089267,
+      "plane_prediction_failure": null,
+      "coverage_failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "comparison": null
+    },
+    {
+      "object_id": "R8-2",
+      "frame_id": "350",
+      "cultivar": "Sayaka",
+      "predicted_shift_mm": 1.3898801933183336,
+      "plane_prediction_failure": null,
+      "coverage_failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "comparison": null
+    }
+  ]
+}

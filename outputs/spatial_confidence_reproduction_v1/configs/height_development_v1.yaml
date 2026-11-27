@@ -1,0 +1,22 @@
+protocol_id: height_development_v1
+scope: synthetic_development_only
+baseline_config: configs/baseline.yaml
+shape_seed: 527131101
+observation_seed: 527131201
+evaluation_seed: 527131301
+families: 12
+axes_ranges_mm: [[30.0, 54.0], [21.0, 35.0], [17.0, 30.0]]
+waist_range: [0.05, 0.50]
+yaw_range_rad: [-2.8, 2.8]
+underside_warps: [0.0, 1.8]
+conditions: [clean, depth_jitter_2mm, outliers_2percent, depth_gap, belt_plus3mm, belt_minus3mm]
+methods: [ellipsoid, convex, symmetry, symmetry_height95, symmetry_robust95]
+height_quantile: 0.95
+bootstrap_replicates: 2000
+bootstrap_seed: 527131401
+primary_comparison: [symmetry_robust95, symmetry]
+primary_condition: outliers_2percent
+primary_metrics: [hidden_chamfer_l1_mm, volume_absolute_error_analytic_ml]
+guardrail_metric: clean_observed_to_surface_mean_mm
+guardrail_max_degradation_mm: 0.5
+visualize_object_id: family_00_warp_0

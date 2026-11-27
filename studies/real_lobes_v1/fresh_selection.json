@@ -1,0 +1,204 @@
+{
+  "stage": "development_selection",
+  "metadata_sha256": {
+    "tmatrix.zip": "139bce4c1cbdb5293ee88bba95a47885386b250f23d8ec71955b0ed5332cec36",
+    "non-perfect.txt": "175754f8a5dbe3ee3decb6bc38aef46e2c13abc08c45eebc342f6752d97d911b",
+    "ground_truth.csv": "7f7e46ee83c0ce33263515d17b84c794f1f6dbe25aa2c717856e2fae3116229c",
+    "pin_regions.json": "4ef3b328155fe671f2015b6f6fecbed7ed5dd58edc35b890282e539bbe12fd9f",
+    "realsense_d405_camera_intrinsic.json": "463ce71a3f4d57f24945c2942c8556092f0f508d76ca16f742ca74f6b88681cf"
+  },
+  "warning_ids": [
+    "2R1-3",
+    "2R3-3",
+    "2R3-6",
+    "2R306",
+    "3R3-4",
+    "3R5-1",
+    "3R5-10",
+    "3R5-6",
+    "3R7-7",
+    "4R4-3",
+    "4R8-10",
+    "4R9-9",
+    "5R1-10",
+    "R1-5",
+    "R1-7",
+    "R11-10",
+    "R2-1",
+    "R6-4"
+  ],
+  "pairs": [
+    {
+      "object_id": "5R1-4",
+      "cultivar": "Corolle",
+      "acquisition_group": "20230922_barn_okadasan_sarabetsu_01",
+      "frame": "362",
+      "registration_member": "tmatrix/5R1-4.json",
+      "image_archives": [
+        "1_rgbd/1_images/5R.zip"
+      ],
+      "rgb": "5R1-4_rgb_362.png",
+      "depth": "5R1-4_depth_362.png",
+      "partial": "1_rgbd/2_pcd/5R1-4/5R1-4_pcd_362.ply",
+      "reference": "2_sfm/1_mesh/5R1-4/5R1-4.obj"
+    },
+    {
+      "object_id": "5R2-3",
+      "cultivar": "Corolle",
+      "acquisition_group": "20230922_barn_okadasan_sarabetsu_02",
+      "frame": "356",
+      "registration_member": "tmatrix/5R2-3.json",
+      "image_archives": [
+        "1_rgbd/1_images/5R.zip"
+      ],
+      "rgb": "5R2-3_rgb_356.png",
+      "depth": "5R2-3_depth_356.png",
+      "partial": "1_rgbd/2_pcd/5R2-3/5R2-3_pcd_356.ply",
+      "reference": "2_sfm/1_mesh/5R2-3/5R2-3.obj"
+    },
+    {
+      "object_id": "5R3-1",
+      "cultivar": "Corolle",
+      "acquisition_group": "20230922_barn_okadasan_sarabetsu_03",
+      "frame": "360",
+      "registration_member": "tmatrix/5R3-1.json",
+      "image_archives": [
+        "1_rgbd/1_images/5R.zip"
+      ],
+      "rgb": "5R3-1_rgb_360.png",
+      "depth": "5R3-1_depth_360.png",
+      "partial": "1_rgbd/2_pcd/5R3-1/5R3-1_pcd_360.ply",
+      "reference": "2_sfm/1_mesh/5R3-1/5R3-1.obj"
+    },
+    {
+      "object_id": "2R1-10",
+      "cultivar": "Kitahime",
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_01",
+      "frame": "364",
+      "registration_member": "tmatrix/2R1-10.json",
+      "image_archives": [
+        "1_rgbd/1_images/2R.zip"
+      ],
+      "rgb": "2R1-10_rgb_364.png",
+      "depth": "2R1-10_depth_364.png",
+      "partial": "1_rgbd/2_pcd/2R1-10/2R1-10_pcd_364.ply",
+      "reference": "2_sfm/1_mesh/2R1-10/2R1-10.obj"
+    },
+    {
+      "object_id": "2R2-6",
+      "cultivar": "Kitahime",
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_02",
+      "frame": "358",
+      "registration_member": "tmatrix/2R2-6.json",
+      "image_archives": [
+        "1_rgbd/1_images/2R.zip"
+      ],
+      "rgb": "2R2-6_rgb_358.png",
+      "depth": "2R2-6_depth_358.png",
+      "partial": "1_rgbd/2_pcd/2R2-6/2R2-6_pcd_358.ply",
+      "reference": "2_sfm/1_mesh/2R2-6/2R2-6.obj"
+    },
+    {
+      "object_id": "2R3-10",
+      "cultivar": "Kitahime",
+      "acquisition_group": "20230915_barn_okadasan_sarabetsu_03",
+      "frame": "363",
+      "registration_member": "tmatrix/2R3-10.json",
+      "image_archives": [
+        "1_rgbd/1_images/2R.zip"
+      ],
+      "rgb": "2R3-10_rgb_363.png",
+      "depth": "2R3-10_depth_363.png",
+      "partial": "1_rgbd/2_pcd/2R3-10/2R3-10_pcd_363.ply",
+      "reference": "2_sfm/1_mesh/2R3-10/2R3-10.obj"
+    },
+    {
+      "object_id": "R4-10",
+      "cultivar": "Sayaka",
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_02",
+      "frame": "352",
+      "registration_member": "tmatrix/R4-10.json",
+      "image_archives": [
+        "1_rgbd/1_images/1R-A.zip",
+        "1_rgbd/1_images/1R-B.zip"
+      ],
+      "rgb": "R4-10_rgb_352.png",
+      "depth": "R4-10_depth_352.png",
+      "partial": "1_rgbd/2_pcd/R4-10/R4-10_pcd_352.ply",
+      "reference": "2_sfm/1_mesh/R4-10/R4-10.obj"
+    },
+    {
+      "object_id": "R8-2",
+      "cultivar": "Sayaka",
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_03",
+      "frame": "350",
+      "registration_member": "tmatrix/R8-2.json",
+      "image_archives": [
+        "1_rgbd/1_images/1R-A.zip",
+        "1_rgbd/1_images/1R-B.zip"
+      ],
+      "rgb": "R8-2_rgb_350.png",
+      "depth": "R8-2_depth_350.png",
+      "partial": "1_rgbd/2_pcd/R8-2/R8-2_pcd_350.ply",
+      "reference": "2_sfm/1_mesh/R8-2/R8-2.obj"
+    },
+    {
+      "object_id": "R10-1",
+      "cultivar": "Sayaka",
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_04",
+      "frame": "362",
+      "registration_member": "tmatrix/R10-1.json",
+      "image_archives": [
+        "1_rgbd/1_images/1R-A.zip",
+        "1_rgbd/1_images/1R-B.zip"
+      ],
+      "rgb": "R10-1_rgb_362.png",
+      "depth": "R10-1_depth_362.png",
+      "partial": "1_rgbd/2_pcd/R10-1/R10-1_pcd_362.ply",
+      "reference": "2_sfm/1_mesh/R10-1/R10-1.obj"
+    },
+    {
+      "object_id": "R12-7",
+      "cultivar": "Sayaka",
+      "acquisition_group": "20230914_field_okadasan_sarabetsu_05",
+      "frame": "353",
+      "registration_member": "tmatrix/R12-7.json",
+      "image_archives": [
+        "1_rgbd/1_images/1R-A.zip",
+        "1_rgbd/1_images/1R-B.zip"
+      ],
+      "rgb": "R12-7_rgb_353.png",
+      "depth": "R12-7_depth_353.png",
+      "partial": "1_rgbd/2_pcd/R12-7/R12-7_pcd_353.ply",
+      "reference": "2_sfm/1_mesh/R12-7/R12-7.obj"
+    },
+    {
+      "object_id": "3R2-10",
+      "cultivar": "Sayaka",
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_03",
+      "frame": "367",
+      "registration_member": "tmatrix/3R2-10.json",
+      "image_archives": [
+        "1_rgbd/1_images/3R.zip"
+      ],
+      "rgb": "3R2-10_rgb_367.png",
+      "depth": "3R2-10_depth_367.png",
+      "partial": "1_rgbd/2_pcd/3R2-10/3R2-10_pcd_367.ply",
+      "reference": "2_sfm/1_mesh/3R2-10/3R2-10.obj"
+    },
+    {
+      "object_id": "3R5-2",
+      "cultivar": "Sayaka",
+      "acquisition_group": "20230921_field_okadasan_sarabetsu_04",
+      "frame": "359",
+      "registration_member": "tmatrix/3R5-2.json",
+      "image_archives": [
+        "1_rgbd/1_images/3R.zip"
+      ],
+      "rgb": "3R5-2_rgb_359.png",
+      "depth": "3R5-2_depth_359.png",
+      "partial": "1_rgbd/2_pcd/3R5-2/3R5-2_pcd_359.ply",
+      "reference": "2_sfm/1_mesh/3R5-2/3R5-2.obj"
+    }
+  ]
+}

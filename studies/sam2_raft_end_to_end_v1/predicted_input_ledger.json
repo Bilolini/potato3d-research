@@ -1,0 +1,205 @@
+{
+  "recipe": {
+    "manifest_sha256": "227739071c230fc287b8bbfaa1eb35e991eb641813236c8f686ac24ad0eadee7",
+    "tracking_replay_sha256": "8bf3822aaee1b684941e9e380b56a9d0f0294d355c69ad41b2e479f9eabccc36",
+    "code_sha256": "878223548ff22a756f869eb599732833790c9c088f706cad0652a9349617d15c",
+    "raft_checkpoint": "01064c6dba73b0fc9fc8edf772248560a00a3acfd62ac6677e9eeebad9680e27"
+  },
+  "raw_image_archives_opened": [
+    "1R-A.zip",
+    "1R-B.zip",
+    "2R.zip",
+    "3R.zip",
+    "4R.zip"
+  ],
+  "cloud_frame": "center camera, mm",
+  "measured_input_columns": [
+    "label",
+    "x3_depth_mm"
+  ],
+  "python_modules": [
+    "SAM 2 archived depth filter",
+    "RAFT archived model/crop",
+    "archived 3D lift and RANSAC"
+  ],
+  "geometry_preflight": {
+    "chain_round_trip_mm": 1.5888218580782548e-14,
+    "pinhole_lift_error_mm": 8.8336923618871e-14,
+    "rigid_ransac_with_outliers_mm": 4.322062729257126e-14,
+    "m_to_mm_anchor_error_mm": 1.1723955140041653e-13,
+    "icp_translation_error_mm": 1.7346558842822478e-13
+  },
+  "flow_preflight": {
+    "expected_dx_dy_px": [
+      8.0,
+      -6.0
+    ],
+    "median_dx_dy_px": [
+      8.007043838500977,
+      -6.242974281311035
+    ]
+  },
+  "raft_setup_wall_s": 0.02145925000149873,
+  "records": [
+    {
+      "tuber": "4R4-4",
+      "sha256": "1044e2d0a70f3a4c8ac24e0f0e424cb8d41b9e0795ee2e67c73697dc724b71f1"
+    },
+    {
+      "tuber": "R6-5",
+      "sha256": "3a831d9f8a4fc2624ab4ddb4969100b784dc9d273e7b1e72d0615e5d31e6c933"
+    },
+    {
+      "tuber": "3R3-8",
+      "sha256": "8092835154cd48e5bc600ffd858fce1b7d9344e2e0c42a762a5c463bb0822ecb"
+    },
+    {
+      "tuber": "4R6-1",
+      "sha256": "c6c1a73d329744890c2713cf83fd081135fb9f4ef158a568c36c40ed896626f8"
+    },
+    {
+      "tuber": "4R4-8",
+      "sha256": "ce31c9b4b5a8184a7504de7c1f4a4dcd4fc31b6eaada17147c4701fa220bd0b5"
+    },
+    {
+      "tuber": "R9-4",
+      "sha256": "581119fda3505a378cd7395bb22cdbefb47a1127114651ac3a790256ff0e5f66"
+    },
+    {
+      "tuber": "4R3-1",
+      "sha256": "98f77a10f81ddfc2fbba4cb8cb6f9b2c21c208df711cd868c1b9e8ee807443a3"
+    },
+    {
+      "tuber": "R1-2",
+      "sha256": "5a319a205725b04eaa281f575f9409209f80495ff39986c02de85a84b5c1745f"
+    },
+    {
+      "tuber": "3R7-10",
+      "sha256": "5f30b4e606ec63e5380f68b0c2d6712faebcf4eb5c1410e707d6ac4ee9111e2f"
+    },
+    {
+      "tuber": "R4-4",
+      "sha256": "842a63e65983243e55b16c60a4721982fc10ea3dab971bd42cb38843643cb584"
+    },
+    {
+      "tuber": "3R1-7",
+      "sha256": "d381f96e9fa3c40fe3effd5aeb4eb569caad0a38bd0a2f9952fad09b272de114"
+    },
+    {
+      "tuber": "R5-8",
+      "sha256": "e37fed7a72848ebbec29f16d8bae41bc77fc5b8ae7f986545d46937a2efbe858"
+    },
+    {
+      "tuber": "R5-7",
+      "sha256": "48665f94c2b6b8bac1b32aff6ec11f42e895840ee4f33eb6154fb334d3f6e282"
+    },
+    {
+      "tuber": "3R6-3",
+      "sha256": "d7eda54f876ff1a955f6d397f48949b7a6a5491721537bbe14b76e79976e7fd9"
+    },
+    {
+      "tuber": "R8-1",
+      "sha256": "41183aa382ffdf8f1a21cbe19c9c4a649e7d582598632824c3bac53e7b739dce"
+    },
+    {
+      "tuber": "2R1-9",
+      "sha256": "f04186c9883b2619c659d3a659234752f3ac8d2e8ab78211edd59fd9519a0052"
+    },
+    {
+      "tuber": "R3-2",
+      "sha256": "5f433e621b07f0e41b650e03a17e25e55f9f3c3c19680d1b1de2b2d006aad98c"
+    },
+    {
+      "tuber": "2R2-1",
+      "sha256": "4b0da64bf31477fb65af5740c3660327921639a674e316c628daeea7a4a33bd5"
+    },
+    {
+      "tuber": "R1-3",
+      "sha256": "5915eba60b619a118af13de496b20ddecc20805392cb78582e7601c4df0fcfe4"
+    },
+    {
+      "tuber": "R4-2",
+      "sha256": "5fbd7fd95f6c1e894f92ef5f4d93d29edab4f62baa7c29abd55c1910f9b0ab78"
+    },
+    {
+      "tuber": "4R8-5",
+      "sha256": "033eb92bfbe5e334fdef538351107ed9fb375d4522297c6f85f62f1d9501a005"
+    },
+    {
+      "tuber": "R4-7",
+      "sha256": "ffe73d78eb6ada59302165f86ea5cb825e74b5b94e5c21e7c098122b7da315b2"
+    },
+    {
+      "tuber": "R1-1",
+      "sha256": "bef70f663e5778be56a5a82af0016fa8b9f26202ce6fe2cc27a4c011ee804527"
+    },
+    {
+      "tuber": "R9-2",
+      "sha256": "32819c9cf2ed23ccda2985722bf35f5198f3745c924c9358b9a34d05b215c0f2"
+    },
+    {
+      "tuber": "4R1-2",
+      "sha256": "3bab8fd68be6789a8fbff4b57896762944abf607b002724e584eb5f45892e991"
+    },
+    {
+      "tuber": "4R4-10",
+      "sha256": "568bba674f39ebca69e50117dc3c11fff74c67fe4740e704c8d64c09994eb93f"
+    },
+    {
+      "tuber": "3R1-8",
+      "sha256": "816fd6878385b5bb43eea054d4b6558c6166a93d4ad42e214bc3306deb1cb66b"
+    },
+    {
+      "tuber": "4R6-7",
+      "sha256": "9f3724b541ba9be695bad77ca671f016f00f65e3aa245cdb7c4705ce9256afa4"
+    },
+    {
+      "tuber": "4R8-2",
+      "sha256": "1f3bc6988859f68017e62950b623ca2f4dd3dcedbebf05496fc03f21dce0f50b"
+    },
+    {
+      "tuber": "3R1-1",
+      "sha256": "13f5860898c869e03b4832730ee48f96f209a9f1611b9bb3d433a48c0f812e01"
+    },
+    {
+      "tuber": "4R8-8",
+      "sha256": "b899da8f909d001dd2264872ee10f3b506b639c58d554e8404dca99302569675"
+    },
+    {
+      "tuber": "R11-5",
+      "sha256": "1ee7ae3897994400e172d20201143319ab4136927008308280775360e7f416fe"
+    },
+    {
+      "tuber": "R5-9",
+      "sha256": "ad31b47f99fa2b4e61e0c8a786050a5c396512de642c20c30e912ad04cac2212"
+    },
+    {
+      "tuber": "2R1-1",
+      "sha256": "0479cf45114b3c0f804e0b2b95854ecd5b87aba162f3fbe1cf950e9ef94b8d14"
+    },
+    {
+      "tuber": "3R6-2",
+      "sha256": "ff5f85d190eba88272d7cb855371ea326740731cb75d52e4bb5419bf5483f5be"
+    },
+    {
+      "tuber": "3R1-9",
+      "sha256": "2dcaa95aa0a732544b2c9c6d5b9b185da1efbfc85aabaa28d0d41f1e45bdb8a3"
+    },
+    {
+      "tuber": "R10-10",
+      "sha256": "15f95ab47ff2538ecb3d680849eeda93979f90973894248c753cf9fe8cd56ec8"
+    },
+    {
+      "tuber": "3R4-10",
+      "sha256": "5e6de23015719cf1b689bf2e020cc6bcb96088c9751789da4179d687a33c6abb"
+    },
+    {
+      "tuber": "4R8-3",
+      "sha256": "9c1868e2539828d2b47f71e2188f02ae7e75a119efbf17bce0b6249913a90a0e"
+    },
+    {
+      "tuber": "R5-1",
+      "sha256": "2eb406289302b82f150d2be7f5fe849db5bbc3fb0ce50c4aa303db06b2a1ddf5"
+    }
+  ]
+}

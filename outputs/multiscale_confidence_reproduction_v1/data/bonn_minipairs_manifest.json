@@ -1,0 +1,105 @@
+{
+  "role": "preselected train/lab1 and val/lab15 frame 00001 data-access smoke audit; not a benchmark",
+  "source_url": "https://www.ipb.uni-bonn.de/html/projects/shape_completion/shape_completion_challenge.zip",
+  "archive_bytes": 8369655798,
+  "archive_etag": "\"1f2decff6-619fcf3fb4de8\"",
+  "directory_sha256": "4694326b10be48876c3cbe125a179a92a613f3a12e243c83c17d3dbd9b652974",
+  "members": [
+    {
+      "name": "shape_completion_challenge/train/lab1/gt/pcd/fruit.ply",
+      "compressed_bytes": 1158946,
+      "bytes": 1215853,
+      "offset": 494,
+      "compression": 8,
+      "crc32": 2744418278
+    },
+    {
+      "name": "shape_completion_challenge/train/lab1/input/intrinsic.json",
+      "compressed_bytes": 129,
+      "bytes": 202,
+      "offset": 1159786,
+      "compression": 8,
+      "crc32": 3749279125
+    },
+    {
+      "name": "shape_completion_challenge/train/lab1/input/color/00001.png",
+      "compressed_bytes": 781966,
+      "bytes": 781735,
+      "offset": 1160163,
+      "compression": 8,
+      "crc32": 4279660738
+    },
+    {
+      "name": "shape_completion_challenge/train/lab1/input/depth/00001.npy",
+      "compressed_bytes": 197463,
+      "bytes": 3686528,
+      "offset": 16272191,
+      "compression": 8,
+      "crc32": 1244474902
+    },
+    {
+      "name": "shape_completion_challenge/train/lab1/input/masks/00001.png",
+      "compressed_bytes": 1850,
+      "bytes": 3508,
+      "offset": 19903329,
+      "compression": 8,
+      "crc32": 1114880729
+    },
+    {
+      "name": "shape_completion_challenge/train/lab1/input/poses/00001.txt",
+      "compressed_bytes": 181,
+      "bytes": 408,
+      "offset": 19940213,
+      "compression": 8,
+      "crc32": 2247163340
+    },
+    {
+      "name": "shape_completion_challenge/val/lab15/gt/pcd/fruit.ply",
+      "compressed_bytes": 2002442,
+      "bytes": 2096221,
+      "offset": 4714048402,
+      "compression": 8,
+      "crc32": 2242320153
+    },
+    {
+      "name": "shape_completion_challenge/val/lab15/input/intrinsic.json",
+      "compressed_bytes": 128,
+      "bytes": 197,
+      "offset": 4716051187,
+      "compression": 8,
+      "crc32": 1272693019
+    },
+    {
+      "name": "shape_completion_challenge/val/lab15/input/color/00001.png",
+      "compressed_bytes": 846203,
+      "bytes": 845943,
+      "offset": 4716051561,
+      "compression": 8,
+      "crc32": 3237720749
+    },
+    {
+      "name": "shape_completion_challenge/val/lab15/input/depth/00001.npy",
+      "compressed_bytes": 220802,
+      "bytes": 3686528,
+      "offset": 4751717306,
+      "compression": 8,
+      "crc32": 4107870600
+    },
+    {
+      "name": "shape_completion_challenge/val/lab15/input/masks/00001.png",
+      "compressed_bytes": 1750,
+      "bytes": 3281,
+      "offset": 4761068261,
+      "compression": 8,
+      "crc32": 1322169496
+    },
+    {
+      "name": "shape_completion_challenge/val/lab15/input/poses/00001.txt",
+      "compressed_bytes": 181,
+      "bytes": 408,
+      "offset": 4761135753,
+      "compression": 8,
+      "crc32": 1428494378
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "roster": 40,
+  "center_iou_threshold": 0.5,
+  "potato_matches": 40,
+  "prior_potato_matches": 34,
+  "scorable": 40,
+  "paired_mae_g": {
+    "human": 15.572047642601836,
+    "provided": 16.22732341284482
+  },
+  "paired_mae_change_g": -0.6552757702429854,
+  "gains": [
+    "R6-5",
+    "4R3-1",
+    "3R7-10",
+    "R5-8",
+    "R10-10",
+    "4R8-3"
+  ],
+  "losses": [],
+  "mask_failures": [],
+  "weight_failures": [],
+  "pin_selected_at_entry_among_failures": [],
+  "lost_potato_later_among_failures": [],
+  "click_regions": {
+    "potato_outside_pin": 40
+  },
+  "matches_by_click_region": {
+    "potato_outside_pin": 40
+  },
+  "tracking_wall_s": 820.8712738319937,
+  "clicks_sha256": "0bf8bd360fb3ad2ef2560d74dd7f245e6659fdeefb44a59ae7b7b532a910136d",
+  "first_human_session": {
+    "roster": 40,
+    "potato_matches": 1,
+    "results_sha256": "ea8f39230d51837d3089902d279fda9d5e122309254ada2d0c8d80541d44c2a9"
+  }
+}

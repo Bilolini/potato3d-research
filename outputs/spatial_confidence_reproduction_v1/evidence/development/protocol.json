@@ -1,0 +1,134 @@
+{
+  "protocol_id": "spatial_confidence_v1",
+  "scope": "synthetic_development_then_independent_confirmation",
+  "baseline_config": "configs/baseline.yaml",
+  "splits": {
+    "development": {
+      "families": 6,
+      "shape_seed": 527132101,
+      "observation_seed": 527132201,
+      "evaluation_seed": 527132301
+    },
+    "confirmation": {
+      "families": 12,
+      "shape_seed": 527133101,
+      "observation_seed": 527133201,
+      "evaluation_seed": 527133301
+    }
+  },
+  "axes_ranges_mm": [
+    [
+      30.0,
+      54.0
+    ],
+    [
+      21.0,
+      35.0
+    ],
+    [
+      17.0,
+      30.0
+    ]
+  ],
+  "waist_range": [
+    0.05,
+    0.5
+  ],
+  "yaw_range_rad": [
+    -2.8,
+    2.8
+  ],
+  "underside_warps": [
+    0.0,
+    1.8
+  ],
+  "conditions": [
+    "clean",
+    "depth_jitter_2mm",
+    "outliers_2percent",
+    "depth_gap",
+    "belt_plus3mm",
+    "belt_minus3mm",
+    "correlated_outlier_patch"
+  ],
+  "baseline_methods": [
+    "ellipsoid",
+    "convex",
+    "symmetry",
+    "symmetry_height95",
+    "symmetry_robust95"
+  ],
+  "candidate_options": [
+    {
+      "name": "local32_t3",
+      "neighbors": 32,
+      "threshold_mm": 3.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5
+    },
+    {
+      "name": "local32_t5",
+      "neighbors": 32,
+      "threshold_mm": 5.0,
+      "robust_iterations": 3,
+      "sigma_multiplier": 3.0,
+      "scale_floor_mm": 0.5
+    }
+  ],
+  "confirmation_methods": [
+    "ellipsoid",
+    "convex",
+    "symmetry",
+    "symmetry_height95",
+    "symmetry_robust95",
+    "symmetry_spatial_height",
+    "symmetry_spatial_surface",
+    "symmetry_spatial"
+  ],
+  "selection": {
+    "score": "mean_hidden_clean_plus_mean_hidden_outliers_plus_0p02_mean_volume_mae_outliers",
+    "tie_break": "candidate_option_order",
+    "reject_if_any_development_failure": true
+  },
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 527134101,
+  "confirmation_criteria": [
+    {
+      "condition": "clean",
+      "metric": "hidden_chamfer_l1_mm",
+      "baseline": "symmetry_robust95",
+      "upper_difference_limit": 0.0,
+      "strict": true
+    },
+    {
+      "condition": "outliers_2percent",
+      "metric": "hidden_chamfer_l1_mm",
+      "baseline": "symmetry",
+      "upper_difference_limit": 0.0,
+      "strict": true
+    },
+    {
+      "condition": "outliers_2percent",
+      "metric": "hidden_chamfer_l1_mm",
+      "baseline": "symmetry_robust95",
+      "upper_difference_limit": 0.1,
+      "strict": false
+    },
+    {
+      "condition": "outliers_2percent",
+      "metric": "volume_absolute_error_analytic_ml",
+      "baseline": "symmetry_robust95",
+      "upper_difference_limit": 1.0,
+      "strict": false
+    },
+    {
+      "condition": "clean",
+      "metric": "clean_observed_to_surface_mean_mm",
+      "baseline": "symmetry",
+      "upper_difference_limit": 0.05,
+      "strict": false
+    }
+  ],
+  "visualize_family": 0
+}

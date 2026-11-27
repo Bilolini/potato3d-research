@@ -1,0 +1,44 @@
+{
+  "frozen_selection_sha256": "700057890eeac5627bf97b7853800e697ad04868877dfb84f9b69581777a0640",
+  "outcomes_sha256": "7d787988800a7c1ae31fcabc2c2dd929b34fe45be5ac5c42f24ca391bcac626b",
+  "n_potatoes": 10,
+  "budget": 2,
+  "failed_fits": {},
+  "policies": {
+    "center_all": {
+      "pair": [],
+      "mae_ml": 29.922069698702728
+    },
+    "disagreement": {
+      "pair": [
+        "5R3-1",
+        "3R2-10"
+      ],
+      "mae_ml": 31.991968662240794
+    },
+    "size": {
+      "pair": [
+        "3R2-10",
+        "3R5-2"
+      ],
+      "mae_ml": 29.859265366618228
+    },
+    "random": {
+      "pair_count": 45,
+      "mae_ml": 29.633338479847996
+    },
+    "oracle": {
+      "pair": [
+        "3R5-2",
+        "R10-1"
+      ],
+      "mae_ml": 26.3169247116938
+    }
+  },
+  "disagreement_minus_baseline_mae_ml": {
+    "center_all": 2.0698989635380656,
+    "random": 2.3586301823927975,
+    "size": 2.1327032956225658
+  },
+  "all_three_baselines_beaten": false
+}

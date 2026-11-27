@@ -1,0 +1,38 @@
+{
+  "stage": "before_inspecting_accuracy_values",
+  "tuber": "R12-7",
+  "frame": "353",
+  "seed": 137,
+  "initial_displacement_replay_limit_mm": 1e-06,
+  "initial_attempt_results_sha256": "3530c91936dacfd73b0eace53b1c0ec3882ded684d7982c7afed9fabbbbe3204",
+  "initial_protocol_manifest_sha256": "0109aabf047e904678273390d47993fe7d58d0ff2a0cfd59cce602bda1bbf74a",
+  "sampled_displacement_mm": {
+    "pin": {
+      "archived": 0.08260000497102737,
+      "replayed": [
+        0.08260000497102737,
+        0.08243011683225632
+      ]
+    },
+    "peel2": {
+      "archived": 0.008570774458348751,
+      "replayed": [
+        0.00856443215161562
+      ]
+    },
+    "peel3": {
+      "archived": 0.03540489822626114,
+      "replayed": [
+        0.03540489822626114,
+        0.035413213074207306
+      ]
+    }
+  },
+  "peel3_raw_triangle_sha256_prefixes": [
+    "8961fbe20f",
+    "a8efcb9318"
+  ],
+  "peel3_ordered_vertex_sha256_prefix": "bd0dc73a92",
+  "peel3_ordered_triangle_sha256_prefix": "3b8ad5f6d0",
+  "observations": "Shell and expanded SDF hashes and mesh volumes reproduced. Different mesh enumerations with the same sorted geometry produced small differences in the historical order-dependent sampling."
+}

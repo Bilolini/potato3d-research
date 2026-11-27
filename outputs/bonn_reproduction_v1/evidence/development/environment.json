@@ -1,0 +1,53 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "architecture": "arm64",
+  "processor": "arm",
+  "cpu_model_declared": "Apple M2 Pro",
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "device": "CPU only; no neural framework/CUDA dependency",
+  "packages": {
+    "potato3d": "0.1.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "trimesh": "4.12.2",
+    "rtree": "1.4.1",
+    "matplotlib": "3.11.2",
+    "plotly": "6.9.0",
+    "PyYAML": "6.0.3",
+    "Pillow": "12.3.0"
+  },
+  "source_sha256": {
+    "__init__.py": "f704b8d571a833ca0096eebe3f648ca888e02a9f2a436295364c2f6617e80022",
+    "bonn.py": "195aac80a208ad2c558776fa89b4ae16eb29f2e509db19d270afd17b4842d121",
+    "calibration.py": "22dbec92067cd0711efdaed43982017e2d136e254046b2d7cf4762a19a60746f",
+    "cli.py": "504559d488e47cd8d86d9b4b1d39396b49c22569408c5a2e8a4f9eeae67042f6",
+    "completion/__init__.py": "fe602652385ace748e6a8399f2afbf36a1a1363bf6183c2d1d921ab5976e17ff",
+    "completion/confidence.py": "f6b9962eae0c77995d0ad4d37daf3fabacb486473842f3f42588a113cfa2d1d7",
+    "completion/convex.py": "92072957b65cd5928e00a4c89957a455263d3f597959be1dc9b614fe17933b85",
+    "completion/ellipsoid.py": "8c7503ce40d6370d2b83371d01c1293f776dc42cdc803ffbc6671cd8decbac8a",
+    "completion/multiscale.py": "5b9bbab9bb72e7a98347038132e1e2c71488ea8e2a888197ab4493bd0fa26a01",
+    "completion/robust.py": "e0547b7c168bc13ccadf2c1a7289659bb4066ac32990628a29d716f077fcc4d1",
+    "completion/symmetry.py": "c55c924ab9e12e14b290c87f88699442e0922636a72c0ba485eabcab499b7b9b",
+    "development.py": "adefd4d6ab4d3818ea63060bf4993d54b6113d5aaf6fdd8caca1fdceb41dcdda",
+    "fruit_completion.py": "16489a366fddc3457f3a42ebc9d9dc5b3b226df3f23fa25349bf4894c367449e",
+    "fruit_study.py": "2336e09f87f9f592d6a3bf90c2b50e2df8dfec59c6a15fcb3e4e0bbc55cb4574",
+    "geometry.py": "5c60b055dcf36edd1d1703fbd34497bc10396aed07f4dcf61f94657c0aa1c918",
+    "io.py": "148daa49f0f08e2cc77195477d12b14705c44da024db6c7857c880f04d50595f",
+    "metrics.py": "2226e3063d2bef78537704bef50f801a74df4fbac581778c227b4f708148344e",
+    "multiscale_analysis.py": "2b5a1de43c006d69c224fefa3d0328f1461fc2d06b20f97408ddd92603658865",
+    "multiscale_study.py": "1086913da91321e8ca01c08556471c4b4e3b3e25b35bdcb777eca457b97d9cd0",
+    "pipeline.py": "a6eecb6718b02276d4ccfbb83e2023c9148d6bc48a56e69caad82ae6428fb0ef",
+    "protrusions.py": "a74ce6c70b46d387a104c3f1291334a62e9fd2ee4d9ec9082ed40828c8d9484e",
+    "spatial_analysis.py": "19397c8fb142f755a611973798e5414fba4159c6d7162a229d838640eca83a69",
+    "spatial_study.py": "cf0b13a0060d624d497b55048f605291bf16dcb317c58813bfb1badc60a2e623",
+    "study_analysis.py": "672db2e3bfc7a5ee6160877f88217540afe6a2bfaeac374f39bd8a011d7a36c7",
+    "synthetic.py": "dc6029f0e69ae646a09a775a43f12bd547a1ebaadf1bbc9db4de14a0b81a4c93",
+    "visualize.py": "fc0e45b77b7509baa40e07bd3064f30178c41eeec2e08f31782c78c5300b1e29"
+  },
+  "lock_sha256": "584f555f850482fcfd2e55db5a7e6a0080e3ee106c3c60545665cba6c63be5b4"
+}

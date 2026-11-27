@@ -1,0 +1,2412 @@
+{
+  "stage": "demo_development",
+  "threshold_mm": 1.5,
+  "pairs": [
+    {
+      "object_id": "2R2-8",
+      "frame_id": "356",
+      "eligible_centers": 3088,
+      "detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              79.0,
+              12.0
+            ],
+            "scan_relief_mm": 3.6247199870790183,
+            "scan_core_coherence": 1.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 28.50964792883343,
+            "scan_background_slope": 0.14632119782300484,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.14815947335620905,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.005659917102759593,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.39862166368867946,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.11426658977757387,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.01919736566929231,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.028276073469385654,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.34384526842022467,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.018551782408996464,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.046720947761698994,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.05252180874489154,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              87.0,
+              7.0
+            ],
+            "scan_relief_mm": -0.3901767229444246,
+            "scan_core_coherence": 0.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 28.6067384743652,
+            "scan_background_slope": 0.12863425154902877,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.1414090320051784,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.048435968283716324,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.09798329742855572,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.03533923697708241,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.20056395684080286,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.05951991361626696,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.17691734955371885,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.05966499927068636,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.06572039656811057,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.04704848976147957,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              57.0,
+              24.0
+            ],
+            "scan_relief_mm": 2.2696027761939632,
+            "scan_core_coherence": 1.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 10.719566676326378,
+            "scan_background_slope": 0.9837864647361592,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.18712602052850968,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.01798544578401362,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.15843535172126622,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.012141605797453714,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.2625545493085184,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.016150341029737447,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.2226255169828235,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.05618301508032708,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.13293625554174326,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.016641733494790145,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              102.0,
+              -19.0
+            ],
+            "scan_relief_mm": -0.15872467003647017,
+            "scan_core_coherence": 0.10344827586206896,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 10.799915547772969,
+            "scan_background_slope": 0.9805282121963105,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.07916512007220433,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.3040391429477469,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.11905189846265074,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.14138318697509433,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.07227474038649007,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.3968136534463449,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.02387280032997552,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.3526133147779138,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.14359764099287986,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.2303459056981647,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              100.0,
+              20.0
+            ],
+            "scan_relief_mm": 2.0579139384565934,
+            "scan_core_coherence": 1.0,
+            "scan_support": 0.8680555555555556,
+            "silhouette_distance_mm": 10.262306297567036,
+            "scan_background_slope": 1.227362158490744,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 3.1914741188935736,
+                  "core_coverage": 0.9310344827586207,
+                  "annulus_coverage": 0.9583333333333334
+                },
+                "underside": {
+                  "relief_mm": -0.13663619603416155,
+                  "core_coverage": 0.9310344827586207,
+                  "annulus_coverage": 0.9583333333333334
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 3.6917505018068297,
+                  "core_coverage": 0.8620689655172413,
+                  "annulus_coverage": 0.9722222222222222
+                },
+                "underside": {
+                  "relief_mm": -0.14786139666144194,
+                  "core_coverage": 0.8620689655172413,
+                  "annulus_coverage": 0.9722222222222222
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 2.964561923539236,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 0.9583333333333334
+                },
+                "underside": {
+                  "relief_mm": -0.14593589513619465,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 0.9583333333333334
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 3.648518697440778,
+                  "core_coverage": 0.896551724137931,
+                  "annulus_coverage": 0.9722222222222222
+                },
+                "underside": {
+                  "relief_mm": -0.12295850372846112,
+                  "core_coverage": 0.896551724137931,
+                  "annulus_coverage": 0.9722222222222222
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 3.1956823279022295,
+                  "core_coverage": 0.9655172413793104,
+                  "annulus_coverage": 0.9652777777777778
+                },
+                "underside": {
+                  "relief_mm": -0.13774164917695908,
+                  "core_coverage": 0.9655172413793104,
+                  "annulus_coverage": 0.9652777777777778
+                }
+              }
+            }
+          },
+          "control": null
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              87.0,
+              19.0
+            ],
+            "scan_relief_mm": 2.0151505259491387,
+            "scan_core_coherence": 0.9310344827586207,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 19.578248819745426,
+            "scan_background_slope": 0.4201614375160958,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.2174358140388648,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.06737330783496764,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.14836823795726417,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.08838920800222487,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.2290284855946254,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.04420498666180539,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.19144170599652455,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.09002637818648523,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.21544636081581103,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.04913271464188673,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              65.0,
+              -9.0
+            ],
+            "scan_relief_mm": -0.000355771684866113,
+            "scan_core_coherence": 0.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 19.496101354529358,
+            "scan_background_slope": 0.3960315026321284,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.061193212200109315,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.22696210549079088,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.0527926936640597,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.16116647709233634,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.056754597661928585,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.25852275506847566,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.04262048269565355,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1711016858304622,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.051943247622595834,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.23679060992830012,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "object_id": "4R3-4",
+      "frame_id": "367",
+      "eligible_centers": 1985,
+      "detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              -62.0,
+              17.0
+            ],
+            "scan_relief_mm": 2.3264938664135357,
+            "scan_core_coherence": 0.9310344827586207,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 28.860060847610903,
+            "scan_background_slope": 0.22940113507552434,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.20977162801979432,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.08659470312027995,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.30577914448676324,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.06784228183123714,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.012011510568811445,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.10320277805165673,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.22571855359326065,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.09483436632264933,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.20733209297638666,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.07732969572270854,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              -63.0,
+              3.0
+            ],
+            "scan_relief_mm": 0.44563289885611823,
+            "scan_core_coherence": 0.3103448275862069,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 27.19535565164997,
+            "scan_background_slope": 0.10677259828292893,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.11591951213789997,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.03698565011096688,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.09653666677034778,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.0539843255032304,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.10818367081689928,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.018436691570267616,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.11986009623893779,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.05714827007633794,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.09275893451773953,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.028805602341299252,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              -69.0,
+              11.0
+            ],
+            "scan_relief_mm": 1.758173911900748,
+            "scan_core_coherence": 0.9655172413793104,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 23.391819678104852,
+            "scan_background_slope": 0.27785543454963224,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.31849527294301083,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.22925691059126008,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.26303086417159705,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.21384445148450237,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.3451285633059413,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.22960728574661804,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.1717851927778966,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.23156451710471782,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.35847095948749086,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.2009965119674595,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              -55.0,
+              23.0
+            ],
+            "scan_relief_mm": -0.0621781145001421,
+            "scan_core_coherence": 0.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 21.96208829918642,
+            "scan_background_slope": 0.36975019267831283,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.05919107823610403,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1198687918892376,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.0437993499034377,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.12569284599216912,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.05884226988097652,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.11472155053985977,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.04399240531294879,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.09807451187954319,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.05843640794878979,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1222088920943758,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              -42.0,
+              12.0
+            ],
+            "scan_relief_mm": 1.5223552651150598,
+            "scan_core_coherence": 0.8275862068965517,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 10.013866831746647,
+            "scan_background_slope": 0.7992384709777044,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.20513605564077864,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.07177370466899391,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.22770404973147151,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.029839413636631562,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.21796950366900347,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.07949407393316843,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.2300071515102715,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.07204523078930158,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.17974511746705701,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.055767587384099926,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              -48.0,
+              33.0
+            ],
+            "scan_relief_mm": 0.162653577136453,
+            "scan_core_coherence": 0.1724137931034483,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 9.978820859982283,
+            "scan_background_slope": 0.7921152899520971,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.06229838582545,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.06588773090169446,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.08647054331024151,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.09821779799792396,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.044401408653172325,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.04472453981687363,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.06877870747819514,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.10402724203736513,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.04138407070315964,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.042914529911883825,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "object_id": "5R3-2",
+      "frame_id": "356",
+      "eligible_centers": 1245,
+      "detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              14.0,
+              7.0
+            ],
+            "scan_relief_mm": 2.706030239920004,
+            "scan_core_coherence": 1.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 17.458518901711294,
+            "scan_background_slope": 0.21270553096907746,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.3122677759911596,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.1720817205703744,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.4568726705209585,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.12358078289714758,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.06645908894191166,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.18416715781271353,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.4587141192435027,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.18263743042511216,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.13575334872049183,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.18087223777141936,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              23.0,
+              7.0
+            ],
+            "scan_relief_mm": 0.3347839256812364,
+            "scan_core_coherence": 0.3103448275862069,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 17.431432457269363,
+            "scan_background_slope": 0.27015885133561945,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.38609879126568103,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.13522420849709382,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.3238481929310737,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.10619253822537056,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.3520364129597837,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.13000745544774572,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.3699037427319496,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1877453330864065,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.34835996205216446,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.06095839748860099,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              18.0,
+              -5.0
+            ],
+            "scan_relief_mm": 2.288276722720454,
+            "scan_core_coherence": 0.9655172413793104,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 12.662554724528196,
+            "scan_background_slope": 0.8889455173374606,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.18408157099453604,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.05742630347705324,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.19817480938780108,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.051879026291401065,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.16710260422549084,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.07787297924984893,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.04509780718424139,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.056014934796962734,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.267464328133002,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.08497382794709951,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              27.0,
+              -2.0
+            ],
+            "scan_relief_mm": 0.01364234725723179,
+            "scan_core_coherence": 0.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 12.707313886977431,
+            "scan_background_slope": 0.8849629482141754,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.08432469102520201,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.02474371165220557,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.11194731292873428,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.012703234293099719,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.02405438624280265,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.02705409034280759,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.1400423971525484,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.023619741378275272,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.08093596562301286,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.02106773891657676,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              4.0,
+              3.0
+            ],
+            "scan_relief_mm": 1.997589545884452,
+            "scan_core_coherence": 0.896551724137931,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 20.67328440090918,
+            "scan_background_slope": 0.19597649501605557,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.2838232825407161,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.02362122758703436,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.32950204678734707,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.06942057759056697,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.17540386837396227,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.013176048558139586,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.288067320097376,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.008528433283523762,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.31306756091066035,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.05492686606206926,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": null
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              -6.0,
+              -7.0
+            ],
+            "scan_relief_mm": 1.5260106903225648,
+            "scan_core_coherence": 0.9310344827586207,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 13.423357322826853,
+            "scan_background_slope": 0.4953425093909891,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.175088510527587,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1417122375618896,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.19034025947360078,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.09935733379410316,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.16302813444993802,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.139900491635653,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.15505520777612247,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1156656619921197,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.20055899778162,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.16237137933718682,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              -7.0,
+              6.0
+            ],
+            "scan_relief_mm": 0.40471938675054986,
+            "scan_core_coherence": 0.2413793103448276,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 13.004533584127904,
+            "scan_background_slope": 0.4435546156449642,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.0818549970147302,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 0.9930555555555556
+                },
+                "underside": {
+                  "relief_mm": 0.39764550713621283,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 0.9930555555555556
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.15976702396277176,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.3869305571586681,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.004908719860871713,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.3039027560242067,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.054392222065438034,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.36548038969675734,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.24013884564840282,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.4302252271448097,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "object_id": "R13-8",
+      "frame_id": "357",
+      "eligible_centers": 5078,
+      "detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              156.0,
+              5.0
+            ],
+            "scan_relief_mm": 2.238575644551176,
+            "scan_core_coherence": 1.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 39.60883431398901,
+            "scan_background_slope": 0.08781005069937796,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.5608189887663144,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.04967502756306441,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.6059883293467294,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.058695443257737345,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.48124187885895253,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.055709219711483016,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.6257803675047455,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.03801363231938737,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.43293478051035095,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.06202604223873642,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              157.0,
+              -13.0
+            ],
+            "scan_relief_mm": 0.22492391838399328,
+            "scan_core_coherence": 0.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 38.64080809629576,
+            "scan_background_slope": 0.14370607146398406,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.13208616986730704,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.06136152279868945,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.1253799104062665,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.05448748430954886,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.1118128161469798,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.05146398703152677,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.14974684787313208,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.050878556781684736,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.09922773001950702,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.07466612654022953,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              140.0,
+              7.0
+            ],
+            "scan_relief_mm": 2.0245916669587345,
+            "scan_core_coherence": 0.896551724137931,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 23.755011334087726,
+            "scan_background_slope": 0.36065898908320704,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.09269504574229614,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.01472089700211665,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.06573413004062445,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.0059467724022675,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.10961118675416515,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.017224739418321144,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.09096196639713128,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.018515008655347387,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.09114504825194558,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.004013660274370223,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              147.0,
+              -26.0
+            ],
+            "scan_relief_mm": -0.20843795344927685,
+            "scan_core_coherence": 0.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 23.757884584909604,
+            "scan_background_slope": 0.363660354019248,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.05228685087452334,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.08086997872485702,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.03608051726384787,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.08295482302781476,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.03353405742062421,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.07813975861411594,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.0006081023380346551,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.11292027689127782,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.07118303487899169,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.04385030010356328,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              141.0,
+              30.0
+            ],
+            "scan_relief_mm": 1.7435028286930034,
+            "scan_core_coherence": 0.9655172413793104,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 22.634784600372257,
+            "scan_background_slope": 0.3438467557688885,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.080825170448108,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.017501484065043815,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.08745775969636327,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.03227482514260094,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.07027786743879005,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.0193458800944033,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.08653920554137784,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.00433485449165838,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.07563027738464001,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.03911706508388857,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              152.0,
+              37.0
+            ],
+            "scan_relief_mm": 0.2783313039200479,
+            "scan_core_coherence": 0.1724137931034483,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 22.590629143071723,
+            "scan_background_slope": 0.3420684564799367,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.03750124154248624,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.010320579615286096,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.015015353139261833,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.015826884437176628,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.06895343578320023,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.03291891515485246,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.004778884470894695,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.015241393286773985,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.08671565083930233,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.00706821054634732,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              162.0,
+              13.0
+            ],
+            "scan_relief_mm": 1.6838280501219458,
+            "scan_core_coherence": 0.9310344827586207,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 32.62066550316524,
+            "scan_background_slope": 0.10288231724522222,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.1452386371713601,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.046072582037643084,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.11782760981218132,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.06336100623914254,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.18175042393205842,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.038367691400106096,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.11597276973905934,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.020329707434696864,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.17106957663503408,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.05593445481327297,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              159.0,
+              -23.0
+            ],
+            "scan_relief_mm": -0.08350647913725595,
+            "scan_core_coherence": 0.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 32.44584123022692,
+            "scan_background_slope": 0.09888093288435272,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.022428614693012605,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.15804783781401888,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.02178286122111217,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.13809944279883535,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.02405885875693059,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.15277780744741287,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.013191713848868858,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.1471430409680976,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.027185542240388827,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.12900771020828028,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              135.0,
+              -20.0
+            ],
+            "scan_relief_mm": 1.6742574610152658,
+            "scan_core_coherence": 1.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 15.555948727113986,
+            "scan_background_slope": 0.6219616697562054,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.37977857825597283,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.01531704860969807,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.38149160985300057,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.0051667942253050825,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.337259239681309,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.048545203122785985,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.40502682246404476,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.0038601215197813232,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.32657057047786253,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.018127632885066802,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              132.0,
+              2.0
+            ],
+            "scan_relief_mm": 0.35369012561137225,
+            "scan_core_coherence": 0.1724137931034483,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 15.473479287000686,
+            "scan_background_slope": 0.6223085525275204,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.08864301752196013,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1011077648701253,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.09628765265096462,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.09206264473716175,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.10547621259321716,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.08497065287155614,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.10765047002026762,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.10669886203211565,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.09722348813485837,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.07440262705293499,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              148.0,
+              12.0
+            ],
+            "scan_relief_mm": 1.5160487702299577,
+            "scan_core_coherence": 0.9310344827586207,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 32.036543381174766,
+            "scan_background_slope": 0.30260663356262374,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.003776131697662777,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.031296584819831,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.003027792416745001,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.029261583731762908,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.021375731885370897,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.0005068953417879385,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.0027149016347749466,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.04877239604942618,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.005621932006235397,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.0005963466273164464,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              149.0,
+              -1.0
+            ],
+            "scan_relief_mm": -0.14932621688394931,
+            "scan_core_coherence": 0.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 32.207406260232844,
+            "scan_background_slope": 0.30084446332747056,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.17454558093085382,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.03862859256924578,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.14303748187596454,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.026412257629481406,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.2064737765373934,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.06316801402207384,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.1700037895681561,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.004435035491948902,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.18580632821112886,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.06314497841327826,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "object_id": "R7-7",
+      "frame_id": "357",
+      "eligible_centers": 437,
+      "detections": []
+    }
+  ]
+}

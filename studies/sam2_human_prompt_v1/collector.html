@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Potato click collection</title>
+<style>
+  :root { color-scheme: dark; background: #111715; color: #eff6f0; font: 16px/1.4 system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  main { padding: 0 16px 16px; max-width: 1312px; margin: 0 auto; }
+  header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px 20px;
+           position: sticky; top: 0; z-index: 1; background: #111715; padding: 11px 0; }
+  p { margin: 0; }
+  #instruction { flex: 1 1 450px; font-weight: 520; }
+  #controls { display: flex; gap: 14px; align-items: center; }
+  #progress { white-space: nowrap; color: #afc2b7; font-variant-numeric: tabular-nums; }
+  button { color: #eff6f0; border: 1px solid #63756a; background: #25312a; padding: 8px 12px;
+           border-radius: 6px; font: inherit; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; }
+  button:hover:not(:disabled) { background: #384c3e; }
+  .frame { position: relative; width: max-content; max-width: 100%; line-height: 0; }
+  img { display: block; width: auto; max-width: 100%; height: auto; cursor: crosshair; user-select: none; }
+  img[aria-disabled="true"] { cursor: wait; }
+  svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+  #status { color: #dfeadd; margin-bottom: 8px; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p id="instruction"></p>
+    <div id="controls">
+      <p id="progress" aria-live="polite"></p>
+      <button id="skip" type="button" disabled>Cannot identify target</button>
+    </div>
+  </header>
+  <p id="status" role="status" hidden></p>
+  <button id="retry" type="button" hidden>Retry</button>
+  <div id="frame" class="frame" hidden>
+    <img id="photo" alt="Conveyor scene with the target indicated by an arrow" draggable="false" aria-disabled="true">
+    <svg id="cue" aria-hidden="true" preserveAspectRatio="none"></svg>
+  </div>
+</main>
+<script>
+"use strict";
+const photo = document.querySelector("#photo");
+const cue = document.querySelector("#cue");
+const frame = document.querySelector("#frame");
+const skip = document.querySelector("#skip");
+const retry = document.querySelector("#retry");
+const status = document.querySelector("#status");
+const progress = document.querySelector("#progress");
+const instruction = document.querySelector("#instruction");
+let state = null;
+let ready = false;
+let pending = null;
+
+function lock() {
+  ready = false;
+  skip.disabled = true;
+  photo.setAttribute("aria-disabled", "true");
+}
+
+function storageKey(session) {
+  return "potato-click-" + session;
+}
+
+function drawCue(lines, width, height) {
+  cue.setAttribute("viewBox", `0 0 ${width} ${height}`);
+  const elements = [];
+  for (const [color, stroke] of [["#111713", 6], ["#d7ff53", 3]]) {
+    for (const [x1, y1, x2, y2] of lines) {
+      const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+      for (const [key, value] of Object.entries({x1, y1, x2, y2, stroke: color,
+                                                 "stroke-width": stroke, "stroke-linecap": "round"})) {
+        line.setAttribute(key, value);
+      }
+      elements.push(line);
+    }
+  }
+  cue.replaceChildren(...elements);
+}
+
+async function show(next) {
+  lock();
+  state = next;
+  frame.hidden = true;
+  retry.hidden = true;
+  status.hidden = true;
+  if (next.completed) {
+    progress.textContent = `${next.total} of ${next.total} complete`;
+    status.textContent = "Collection complete. Responses are saved.";
+    status.hidden = false;
+    skip.hidden = true;
+    instruction.hidden = true;
+    return;
+  }
+  instruction.textContent = next.instruction;
+  progress.textContent = `${next.trial} of ${next.total}`;
+  photo.src = next.image;
+  await photo.decode();
+  if (photo.naturalWidth !== next.width || photo.naturalHeight !== next.height) {
+    throw new Error("Image dimensions changed");
+  }
+  drawCue(next.cue_lines, next.width, next.height);
+  frame.hidden = false;
+  ready = true;
+  photo.setAttribute("aria-disabled", "false");
+  skip.disabled = false;
+}
+
+function showError() {
+  lock();
+  status.textContent = pending ? "The response could not be saved. Retry will use the same response." :
+    "The collector could not load the next image.";
+  status.hidden = false;
+  retry.hidden = false;
+}
+
+async function sendPending() {
+  if (!pending) return;
+  retry.hidden = true;
+  try {
+    const response = await fetch("/api/response", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify(pending),
+    });
+    if (!response.ok && response.status !== 409) throw new Error("Save failed");
+    const next = await response.json();
+    localStorage.removeItem(storageKey(state.session));
+    pending = null;
+    await show(next);
+  } catch (_) {
+    showError();
+  }
+}
+
+async function resume() {
+  try {
+    const response = await fetch("/api/current");
+    if (!response.ok) throw new Error("Load failed");
+    state = await response.json();
+    const stored = localStorage.getItem(storageKey(state.session));
+    if (stored) {
+      const prior = JSON.parse(stored);
+      if (!state.completed && prior.trial === state.trial) {
+        pending = prior;
+        lock();
+        await sendPending();
+        return;
+      }
+      localStorage.removeItem(storageKey(state.session));
+    }
+    await show(state);
+  } catch (_) {
+    showError();
+  }
+}
+
+function respond(response, x = null, y = null) {
+  if (!ready) return;
+  lock();
+  pending = {trial: state.trial, response, x, y};
+  localStorage.setItem(storageKey(state.session), JSON.stringify(pending));
+  sendPending();
+}
+
+photo.addEventListener("click", event => {
+  if (!ready || event.button !== 0 || event.detail > 1) return;
+  const box = photo.getBoundingClientRect();
+  const x = Math.floor((event.clientX - box.left) * state.width / box.width);
+  const y = Math.floor((event.clientY - box.top) * state.height / box.height);
+  if (x >= 0 && x < state.width && y >= 0 && y < state.height) respond("click", x, y);
+});
+skip.addEventListener("click", () => respond("cannot_identify"));
+retry.addEventListener("click", () => pending ? sendPending() : resume());
+resume();
+</script>
+</body>
+</html>

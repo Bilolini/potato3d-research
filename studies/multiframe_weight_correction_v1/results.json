@@ -1,0 +1,34 @@
+{
+  "train_tubers": 118,
+  "validation_tubers": 40,
+  "models": {
+    "A": {
+      "intercept_g": 11.134798597815616,
+      "center_proxy_cm3_coefficient_g_per_cm3": 0.7656776613331925
+    },
+    "B": {
+      "intercept_g": 10.97623043526917,
+      "center_proxy_cm3_coefficient_g_per_cm3": 0.7652506349131935,
+      "area_change_at_center_height_cm3_coefficient_g_per_cm3": -0.19644756176300388
+    }
+  },
+  "mae_g": {
+    "A": 16.22732414961927,
+    "B": 16.229838612531843
+  },
+  "B_minus_A": {
+    "mean_change_g": 0.0025144629125717797,
+    "median_change_g": 0.09865664454211753,
+    "bootstrap_95_g": [
+      -0.28098108819091455,
+      0.3028358811148882
+    ],
+    "wins": 17,
+    "ties": 0,
+    "losses": 23
+  },
+  "earlier_center_mae_g_all_training_frames": 16.148863867013233,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 5272401,
+  "predictions_sha256": "02253acf7276dd6a278e7cb662dcbf5c1d23c579348e0cc0ee4b69909d797a31"
+}

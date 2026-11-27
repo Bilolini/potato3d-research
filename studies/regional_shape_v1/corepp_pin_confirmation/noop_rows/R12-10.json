@@ -1,0 +1,731 @@
+{
+  "tuber": "R12-10",
+  "frame": "351",
+  "cultivar": "Sayaka",
+  "group": "20230914_field_okadasan_sarabetsu_05",
+  "pairs": [
+    {
+      "seed": 133,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "94f23864ee0ff5cb41ff28b67c49d66fd982b49d75c4a78f4c60fc641d32ee51",
+        "interior_sdf": "b5d66b504c87e7af45394058abf780817c94d05de0b200d253ab88be7462fc6e",
+        "shell_sdf": "31f6946fa343514801d87ca40cac828376e89de5e1054a6d69dc4adb676dbca4",
+        "grid_labels": "b3e68bbf4066843969ccf4ecd41c77a5082e59bb61360dbf7df0a2c0b8288818"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "94f23864ee0ff5cb41ff28b67c49d66fd982b49d75c4a78f4c60fc641d32ee51",
+        "interior_sdf": "b5d66b504c87e7af45394058abf780817c94d05de0b200d253ab88be7462fc6e",
+        "shell_sdf": "31f6946fa343514801d87ca40cac828376e89de5e1054a6d69dc4adb676dbca4",
+        "grid_labels": "b3e68bbf4066843969ccf4ecd41c77a5082e59bb61360dbf7df0a2c0b8288818"
+      },
+      "original_volume_ml": 68.59943269926775,
+      "noop_volume_ml": 68.59943269926775,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.466331339855969e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 4.562530193652492e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 134,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "afb120aa152c5cf9b0f87c2f7ebc192ce76fc8b561fb5136c99e320b675e5cab",
+        "interior_sdf": "dbec32d44411c70962b21881da2b9b6c9e94aee18c3982f2bb58188039a4f026",
+        "shell_sdf": "a3085a5c6e2fd72c92e5b88043d948b0a6bc33110f999249535d1145a7505c80",
+        "grid_labels": "663d104d59bd1eb5c778c879dd733ec6baa2db7e45657ed3443226497dedc758"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "afb120aa152c5cf9b0f87c2f7ebc192ce76fc8b561fb5136c99e320b675e5cab",
+        "interior_sdf": "dbec32d44411c70962b21881da2b9b6c9e94aee18c3982f2bb58188039a4f026",
+        "shell_sdf": "a3085a5c6e2fd72c92e5b88043d948b0a6bc33110f999249535d1145a7505c80",
+        "grid_labels": "663d104d59bd1eb5c778c879dd733ec6baa2db7e45657ed3443226497dedc758"
+      },
+      "original_volume_ml": 70.40925896363295,
+      "noop_volume_ml": 70.40925896363295,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.564947850369208e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 4.005769824289018e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 135,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "e664e5caca496a5f9763a53f86be0fd9462ae6117a0b802bc9ae0a3f555d1508",
+        "interior_sdf": "8da8ae9076d064e1e6518616db091d7c58b498699c794ca4edf9c7f11caf7f21",
+        "shell_sdf": "c9351f309ab89eb36bd119fc0ebad723505eb3a334582390ae3a2b7175dce859",
+        "grid_labels": "180e969d78f6b34ffe29d2f783bd6b34836fae1188e8b0175bd37122db21a85c"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "e664e5caca496a5f9763a53f86be0fd9462ae6117a0b802bc9ae0a3f555d1508",
+        "interior_sdf": "8da8ae9076d064e1e6518616db091d7c58b498699c794ca4edf9c7f11caf7f21",
+        "shell_sdf": "c9351f309ab89eb36bd119fc0ebad723505eb3a334582390ae3a2b7175dce859",
+        "grid_labels": "180e969d78f6b34ffe29d2f783bd6b34836fae1188e8b0175bd37122db21a85c"
+      },
+      "original_volume_ml": 67.62057672156526,
+      "noop_volume_ml": 67.62057672156526,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.65016011428088e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 4.267856184014818e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 136,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "f08eb86daa158ca8a93d99a48c3a839f643ef5de3d51226bf33cf13a0623c40d",
+        "interior_sdf": "84872464da314035aad5a8a2ed8437ad052dd22775148b20e005e22fc4b8fee3",
+        "shell_sdf": "7bfc4b9e0a6cc804a41657afc02105dae68fa2bf1c8cb93f776f96139a24c46e",
+        "grid_labels": "435a9bec4d09c44d61178264d9744b96983038c189e61afa35114a4fbc1fab1f"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "f08eb86daa158ca8a93d99a48c3a839f643ef5de3d51226bf33cf13a0623c40d",
+        "interior_sdf": "84872464da314035aad5a8a2ed8437ad052dd22775148b20e005e22fc4b8fee3",
+        "shell_sdf": "7bfc4b9e0a6cc804a41657afc02105dae68fa2bf1c8cb93f776f96139a24c46e",
+        "grid_labels": "435a9bec4d09c44d61178264d9744b96983038c189e61afa35114a4fbc1fab1f"
+      },
+      "original_volume_ml": 65.7784774939595,
+      "noop_volume_ml": 65.7784774939595,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.717698622400349e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 2.7939677238464355e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 137,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "e2f1c191bf3ca7815602e391cb30669e01606a14202f474ad977aaaa8fa41343",
+        "interior_sdf": "2064ec8ed37ceab9d8dbf473605e4d52dfad98b3311223dbfd4dd29eda8e961c",
+        "shell_sdf": "f6a98093d1c928784662a660ed0afa5b680320870284c027cc652c33e6bd8609",
+        "grid_labels": "db7d7f45f7052db3323d1de6679714afda2c1833e5c8bc5e20931228390f9832"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "e2f1c191bf3ca7815602e391cb30669e01606a14202f474ad977aaaa8fa41343",
+        "interior_sdf": "2064ec8ed37ceab9d8dbf473605e4d52dfad98b3311223dbfd4dd29eda8e961c",
+        "shell_sdf": "f6a98093d1c928784662a660ed0afa5b680320870284c027cc652c33e6bd8609",
+        "grid_labels": "db7d7f45f7052db3323d1de6679714afda2c1833e5c8bc5e20931228390f9832"
+      },
+      "original_volume_ml": 67.15056206120441,
+      "noop_volume_ml": 67.15056206120441,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.625897637808521e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 4.0320360312762205e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 138,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "dfa125781285d615b46d9dc160c4025013b5a4d26328e72413085c966dddb779",
+        "interior_sdf": "7d7e3bce8fd78f8e169bfdeb1f74bced7bc6384170c9237aad545779e26bdd5c",
+        "shell_sdf": "8fbb901bd6ed5a3acac038e504e47f25f56d5df0c31fc36e500aa72ce74ea4d0",
+        "grid_labels": "095cd47691672728c406da390ebe4e96cc584431f7df486c75492016d0c5ca89"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "dfa125781285d615b46d9dc160c4025013b5a4d26328e72413085c966dddb779",
+        "interior_sdf": "7d7e3bce8fd78f8e169bfdeb1f74bced7bc6384170c9237aad545779e26bdd5c",
+        "shell_sdf": "8fbb901bd6ed5a3acac038e504e47f25f56d5df0c31fc36e500aa72ce74ea4d0",
+        "grid_labels": "095cd47691672728c406da390ebe4e96cc584431f7df486c75492016d0c5ca89"
+      },
+      "original_volume_ml": 68.4258728430033,
+      "noop_volume_ml": 68.4258728430033,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.684744787184172e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 8.410956070292741e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 139,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "e7a99d3194a063a623043924869ab418a86721f5a8bb9e2b69130dbc7aca683b",
+        "interior_sdf": "2e2e540d77a010c10d6d0a7c57fb54c39f5f93570e92eb7982f097aaac28cc52",
+        "shell_sdf": "2d7937be5f2397e56f38db662c093fd7e8b2d354fa024db284699d49e064629d",
+        "grid_labels": "d9e7c498b5fe9ee2013d47f72c64438f1fa33dff22f537ed189dadf43322452b"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "e7a99d3194a063a623043924869ab418a86721f5a8bb9e2b69130dbc7aca683b",
+        "interior_sdf": "2e2e540d77a010c10d6d0a7c57fb54c39f5f93570e92eb7982f097aaac28cc52",
+        "shell_sdf": "2d7937be5f2397e56f38db662c093fd7e8b2d354fa024db284699d49e064629d",
+        "grid_labels": "d9e7c498b5fe9ee2013d47f72c64438f1fa33dff22f537ed189dadf43322452b"
+      },
+      "original_volume_ml": 71.39524173846151,
+      "noop_volume_ml": 71.39524173846151,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.718720667071466e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 3.985418516094796e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 140,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "d034f820b0b3e34599ade83aa355bc53309fe1910c72639ac61db7fc70fb0347",
+        "interior_sdf": "c9361cd0631326575154565ebc2898b4e8d1ecdb6e13b63883fba1633497636d",
+        "shell_sdf": "87fa152850aac083da184482d43e72b2e48aca1ef2a53ce071fbd2cc9c4f0a70",
+        "grid_labels": "25b0efd1058f9f22776b1e7786ab05a2e77abe14d057a5d73219e67cfe4b0a32"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "d034f820b0b3e34599ade83aa355bc53309fe1910c72639ac61db7fc70fb0347",
+        "interior_sdf": "c9361cd0631326575154565ebc2898b4e8d1ecdb6e13b63883fba1633497636d",
+        "shell_sdf": "87fa152850aac083da184482d43e72b2e48aca1ef2a53ce071fbd2cc9c4f0a70",
+        "grid_labels": "25b0efd1058f9f22776b1e7786ab05a2e77abe14d057a5d73219e67cfe4b0a32"
+      },
+      "original_volume_ml": 66.10379097971673,
+      "noop_volume_ml": 66.10379097971673,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.442274636559887e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 4.165001428191317e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 141,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "21e62709eed15bdade16b2bb30ef2477047be7e66395f7e31f9d037e1b93740a",
+        "interior_sdf": "5165ea06316698a9e29c71fe08651e596dad2c9cfe7e154ffc5f33d914400ace",
+        "shell_sdf": "93239119249529addbbf4734c86b3ba40300681a066c9a93b6ed7c3b43f9c6f4",
+        "grid_labels": "e4c33d3c044e37ee03bfdc17a0e515fe2dad457ce61122326f9f78af1e7802e4"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "21e62709eed15bdade16b2bb30ef2477047be7e66395f7e31f9d037e1b93740a",
+        "interior_sdf": "5165ea06316698a9e29c71fe08651e596dad2c9cfe7e154ffc5f33d914400ace",
+        "shell_sdf": "93239119249529addbbf4734c86b3ba40300681a066c9a93b6ed7c3b43f9c6f4",
+        "grid_labels": "e4c33d3c044e37ee03bfdc17a0e515fe2dad457ce61122326f9f78af1e7802e4"
+      },
+      "original_volume_ml": 67.63127543219836,
+      "noop_volume_ml": 67.63127543219836,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.71171528413106e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 4.005769824289018e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 142,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "2aed2a512056952dfcafeb534470c4296486a9d962af96ba28f7c5381aa69d96",
+        "interior_sdf": "e6a77366923ade32582d77cb7addfba9e0cc6e50e2493e1e84269131821628bc",
+        "shell_sdf": "f3970f2734de0118ecbfce0baf30e8e9e2c5e35d714b27b8fc8ef537fa6fa3bb",
+        "grid_labels": "5b6dca348410c5d8b6aa22150faff63cd129156ae6047a63624c755bf33f20cd"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "2aed2a512056952dfcafeb534470c4296486a9d962af96ba28f7c5381aa69d96",
+        "interior_sdf": "e6a77366923ade32582d77cb7addfba9e0cc6e50e2493e1e84269131821628bc",
+        "shell_sdf": "f3970f2734de0118ecbfce0baf30e8e9e2c5e35d714b27b8fc8ef537fa6fa3bb",
+        "grid_labels": "5b6dca348410c5d8b6aa22150faff63cd129156ae6047a63624c755bf33f20cd"
+      },
+      "original_volume_ml": 64.70086066599724,
+      "noop_volume_ml": 64.70086066599724,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.472363563465478e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 5.587935447692871e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 143,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "b623adf545a514323087ff5fdbfdddd27aa605f6ed15c90d56feb9a57dfe1d76",
+        "interior_sdf": "5500666afffaec35e602124c38e6b6b2cfa16db10bd93b255b833cb42dd66ce3",
+        "shell_sdf": "6e583483e154ecc633a7b864ae8926c62e6ce990c414b566e7dfe29d7678b96e",
+        "grid_labels": "4c57b315e6cf37be6cb8927fc90449709e314d2c7dae8d1beb8de0a0957e96a4"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "b623adf545a514323087ff5fdbfdddd27aa605f6ed15c90d56feb9a57dfe1d76",
+        "interior_sdf": "5500666afffaec35e602124c38e6b6b2cfa16db10bd93b255b833cb42dd66ce3",
+        "shell_sdf": "6e583483e154ecc633a7b864ae8926c62e6ce990c414b566e7dfe29d7678b96e",
+        "grid_labels": "4c57b315e6cf37be6cb8927fc90449709e314d2c7dae8d1beb8de0a0957e96a4"
+      },
+      "original_volume_ml": 64.84486678526456,
+      "noop_volume_ml": 64.84486678526456,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.4413708262e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 3.839941200567409e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 144,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "d5f130694c5f85ce488522003f7c2a9beca51fb3b1ca4e154163520b1c9934c4",
+        "interior_sdf": "bda280fa9ea1f90e7414143c5623a0c6f58273ad8c39cf6230f3c92ba5895d11",
+        "shell_sdf": "0e04e74616b860ddf7d8ad97432e5c06b3432163b557737b4ee224eb3714cf81",
+        "grid_labels": "77798318452fdb8c97ca7fd27df715cc3df870bd4071c5924cb6df517f98f20b"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "d5f130694c5f85ce488522003f7c2a9beca51fb3b1ca4e154163520b1c9934c4",
+        "interior_sdf": "bda280fa9ea1f90e7414143c5623a0c6f58273ad8c39cf6230f3c92ba5895d11",
+        "shell_sdf": "0e04e74616b860ddf7d8ad97432e5c06b3432163b557737b4ee224eb3714cf81",
+        "grid_labels": "77798318452fdb8c97ca7fd27df715cc3df870bd4071c5924cb6df517f98f20b"
+      },
+      "original_volume_ml": 66.53107162442893,
+      "noop_volume_ml": 66.53107162442893,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.376794428637368e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 2.9816872029186925e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 145,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "fb76c43e92f3a482158b51f8350db7578168d424dc4d16ff863b46d6475da6f7",
+        "interior_sdf": "46703606ea29ed8546aef3813692cc765b3863c5290f548bbbc724f01abea57b",
+        "shell_sdf": "64be727d358795addf41b314f94db9edde0cb93b149b6a4ea7f9567847ce888a",
+        "grid_labels": "1316317bcac216b5792369ebcc50f10c586945554a47528ddd75f9e669124341"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "fb76c43e92f3a482158b51f8350db7578168d424dc4d16ff863b46d6475da6f7",
+        "interior_sdf": "46703606ea29ed8546aef3813692cc765b3863c5290f548bbbc724f01abea57b",
+        "shell_sdf": "64be727d358795addf41b314f94db9edde0cb93b149b6a4ea7f9567847ce888a",
+        "grid_labels": "1316317bcac216b5792369ebcc50f10c586945554a47528ddd75f9e669124341"
+      },
+      "original_volume_ml": 73.64924266805748,
+      "noop_volume_ml": 73.64924266805748,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.748306529720139e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 3.8698244679835625e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 146,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "3f7c81c28bb8c64e65ab9f1369052e6877b84051887f48f91f88629166f3caf0",
+        "interior_sdf": "5f967e433bb8dd1026a2ea6a026279b7b87d843a129508c77295bae2bebf1341",
+        "shell_sdf": "46de82ee370a75d379ed9d9b7e68062e895a221e11c534272250a6fc63541011",
+        "grid_labels": "07dc0a01171b484639d0fc8d04732bd5be039b97e3de951be8d264b6b312cfc9"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "3f7c81c28bb8c64e65ab9f1369052e6877b84051887f48f91f88629166f3caf0",
+        "interior_sdf": "5f967e433bb8dd1026a2ea6a026279b7b87d843a129508c77295bae2bebf1341",
+        "shell_sdf": "46de82ee370a75d379ed9d9b7e68062e895a221e11c534272250a6fc63541011",
+        "grid_labels": "07dc0a01171b484639d0fc8d04732bd5be039b97e3de951be8d264b6b312cfc9"
+      },
+      "original_volume_ml": 70.00553650215105,
+      "noop_volume_ml": 70.00553650215105,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.904500876065867e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 4.086160970473429e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 147,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "bc3e1b93da38e8b8c03bd90911ffa065861c185e28f585e7206462b88411bfd6",
+        "interior_sdf": "aa8dd7922bb1a1b79b3de4828fbea232055bbc29884f227faf17f8d988a176f4",
+        "shell_sdf": "1749010eba2539e9e4d0a2c6af24df40d51412a8f7f47bd9a47554e16b17250a",
+        "grid_labels": "44a94314ca8b6648bc74f85e9889471f8b9b400d81a62182e4f9b77c3da90b42"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "bc3e1b93da38e8b8c03bd90911ffa065861c185e28f585e7206462b88411bfd6",
+        "interior_sdf": "aa8dd7922bb1a1b79b3de4828fbea232055bbc29884f227faf17f8d988a176f4",
+        "shell_sdf": "1749010eba2539e9e4d0a2c6af24df40d51412a8f7f47bd9a47554e16b17250a",
+        "grid_labels": "44a94314ca8b6648bc74f85e9889471f8b9b400d81a62182e4f9b77c3da90b42"
+      },
+      "original_volume_ml": 67.25611976104858,
+      "noop_volume_ml": 67.25611976104858,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.889370294833498e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 4.165001428191317e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    },
+    {
+      "seed": 148,
+      "passed": true,
+      "original_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "4ec775c9ccd4a94c9650a255a4944a840cf955e7b7a00c04d535bf182987df17",
+        "interior_sdf": "a3c5593663178514b2e8d51e6415d87cc71b540f8acb5f76629061bee2f21cdc",
+        "shell_sdf": "9c81e79531ecb270b4c1bc00a48d53da520f56121bff426ba9adeb0f9d6fd74e",
+        "grid_labels": "34d7566b0cc1c30d8306cda68361993f60aece8d3cc011d7d0844a32858d911d"
+      },
+      "noop_hashes": {
+        "tensor": "543c07b7617c3b2057e8d94e3dd18d310f877dedd3ca0baac31fefd1648a5fe0",
+        "latent": "92bb452a8fd4c040441d7f12f3b0efaad1cb481aaa5a80e529ccffef15bb570f",
+        "sdf": "4ec775c9ccd4a94c9650a255a4944a840cf955e7b7a00c04d535bf182987df17",
+        "interior_sdf": "a3c5593663178514b2e8d51e6415d87cc71b540f8acb5f76629061bee2f21cdc",
+        "shell_sdf": "9c81e79531ecb270b4c1bc00a48d53da520f56121bff426ba9adeb0f9d6fd74e",
+        "grid_labels": "34d7566b0cc1c30d8306cda68361993f60aece8d3cc011d7d0844a32858d911d"
+      },
+      "original_volume_ml": 68.94907379103675,
+      "noop_volume_ml": 68.94907379103675,
+      "boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "surface_distance": {
+        "mean_mm": 7.589853225908882e-07,
+        "p95_mm": 2.0825007140956586e-06,
+        "max_mm": 3.932357230951311e-06,
+        "identical_mesh_arrays": true
+      },
+      "mesh_failures": [
+        null,
+        null
+      ]
+    }
+  ],
+  "passed": 16,
+  "cache_sha256": "b5bd5137a2595fb1cb73290a8d088a7b281c2aeb1ca7386244b9396a86659dcd",
+  "failure": null
+}

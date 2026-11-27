@@ -1,0 +1,15 @@
+{
+  "manifest_sha256": "a5af54d34bd650c1544727a2b2a5be3f9d1ed8fd8e0cccafb9af64379989d229",
+  "checkpoint_sha256": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+  "source_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "config": "configs/sam2.1/sam2.1_hiera_t.yaml",
+  "device": "cpu",
+  "precision": "fp32",
+  "torch": "2.7.1",
+  "python": "3.13.1",
+  "host_machine": "arm64",
+  "host_os": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "threads": 6,
+  "interop_threads": 1,
+  "optional_postprocessing": false
+}

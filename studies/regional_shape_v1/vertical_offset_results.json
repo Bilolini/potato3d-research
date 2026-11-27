@@ -1,0 +1,345 @@
+{
+  "stage": "vertical_offset_development_diagnostic",
+  "decision_sha256": "25c0f00761ee6ebdf87bab47423c1436e67a7f0156d851bd40bcd5c07e337821",
+  "archived_development_sha256": "ac13f7cc22ec49dd8bef9d243348bf9ec6e61f3c63ec19be9478fd6c1869e3c9",
+  "development_selection_sha256": "8064270270a2d1c776abec7d9b56d0495b2201763994d5693035d7783df32016",
+  "archived_replay_byte_identical": true,
+  "coverage": {
+    "selected_tubers": 12,
+    "scored_tubers": 7,
+    "planned_bands": 24,
+    "scored_bands": 10,
+    "scored_cells": 12202
+  },
+  "archived_body_mean_mae_mm": 5.5120918820304174,
+  "equal_tuber_mean_mm": {
+    "body_mae_mm": 5.5120918820304174,
+    "best_achievable_mae_mm": 3.7381789939682313,
+    "best_change_mm": -1.773912888062186,
+    "held_out_body_mae_mm": 5.5120918820304174,
+    "held_out_shifted_mae_mm": 3.752327571843869,
+    "held_out_change_mm": -1.7597643101865483
+  },
+  "held_out_wins": 6,
+  "held_out_ties": 0,
+  "held_out_losses": 1,
+  "held_out_tie_tolerance_mm": 1e-12,
+  "held_out_omit_one_mean_change_range_mm": [
+    -2.054010707231562,
+    -1.2667158421199305
+  ],
+  "pairs": [
+    {
+      "object_id": "2R1-10",
+      "frame_id": "364",
+      "cultivar": "Kitahime",
+      "scored_bands": 1,
+      "scored_cells": 1699,
+      "failure": null,
+      "scores_mm": {
+        "vertical_shift_mm": -7.626428489611129,
+        "body_mae_mm": 7.670360305129493,
+        "best_achievable_mae_mm": 2.919241035548106,
+        "best_change_mm": -4.751119269581387,
+        "held_out_body_mae_mm": 7.670360305129493,
+        "held_out_shifted_mae_mm": 2.952305186543239,
+        "held_out_change_mm": -4.718055118586253,
+        "directions": {
+          "even_to_odd": {
+            "training_shift_mm": -7.673917841485276,
+            "training_cells": 859,
+            "held_out_cells": 840,
+            "body_mae_mm": 7.274271124547086,
+            "shifted_mae_mm": 3.3416049803511907,
+            "change_mm": -3.9326661441958954
+          },
+          "odd_to_even": {
+            "training_shift_mm": -6.995127899094571,
+            "training_cells": 840,
+            "held_out_cells": 859,
+            "body_mae_mm": 8.0664494857119,
+            "shifted_mae_mm": 2.5630053927352874,
+            "change_mm": -5.503444092976612
+          }
+        }
+      },
+      "held_out_mean_change_if_omitted_mm": -1.2667158421199305
+    },
+    {
+      "object_id": "2R2-6",
+      "frame_id": "358",
+      "cultivar": "Kitahime",
+      "scored_bands": 2,
+      "scored_cells": 1636,
+      "failure": null,
+      "scores_mm": {
+        "vertical_shift_mm": -1.4061831766331698,
+        "body_mae_mm": 2.3961644417147347,
+        "best_achievable_mae_mm": 1.9450945400052966,
+        "best_change_mm": -0.45106990170943817,
+        "held_out_body_mae_mm": 2.3961644417147347,
+        "held_out_shifted_mae_mm": 1.960246279772941,
+        "held_out_change_mm": -0.43591816194179345,
+        "directions": {
+          "even_to_odd": {
+            "training_shift_mm": -1.3360733857078908,
+            "training_cells": 822,
+            "held_out_cells": 814,
+            "body_mae_mm": 2.6413466580810416,
+            "shifted_mae_mm": 2.118033538103605,
+            "change_mm": -0.5233131199774368
+          },
+          "odd_to_even": {
+            "training_shift_mm": -1.5714766873172281,
+            "training_cells": 814,
+            "held_out_cells": 822,
+            "body_mae_mm": 2.1509822253484274,
+            "shifted_mae_mm": 1.8024590214422773,
+            "change_mm": -0.3485232039061501
+          }
+        }
+      },
+      "held_out_mean_change_if_omitted_mm": -1.9804053348940076
+    },
+    {
+      "object_id": "2R3-10",
+      "frame_id": "363",
+      "cultivar": "Kitahime",
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scores_mm": null
+    },
+    {
+      "object_id": "3R2-10",
+      "frame_id": "367",
+      "cultivar": "Sayaka",
+      "scored_bands": 2,
+      "scored_cells": 2937,
+      "failure": null,
+      "scores_mm": {
+        "vertical_shift_mm": -5.185312888821322,
+        "body_mae_mm": 5.753761803352328,
+        "best_achievable_mae_mm": 2.91276662882124,
+        "best_change_mm": -2.8409951745310877,
+        "held_out_body_mae_mm": 5.753761803352327,
+        "held_out_shifted_mae_mm": 2.9194538718591367,
+        "held_out_change_mm": -2.83430793149319,
+        "directions": {
+          "even_to_odd": {
+            "training_shift_mm": -5.273249510458525,
+            "training_cells": 1478,
+            "held_out_cells": 1459,
+            "body_mae_mm": 5.652984613424579,
+            "shifted_mae_mm": 2.846222495392494,
+            "change_mm": -2.8067621180320845
+          },
+          "odd_to_even": {
+            "training_shift_mm": -4.996504259800968,
+            "training_cells": 1459,
+            "held_out_cells": 1478,
+            "body_mae_mm": 5.854538993280075,
+            "shifted_mae_mm": 2.9926852483257798,
+            "change_mm": -2.861853744954295
+          }
+        }
+      },
+      "held_out_mean_change_if_omitted_mm": -1.5806737066354415
+    },
+    {
+      "object_id": "3R5-2",
+      "frame_id": "359",
+      "cultivar": "Sayaka",
+      "scored_bands": 1,
+      "scored_cells": 1720,
+      "failure": null,
+      "scores_mm": {
+        "vertical_shift_mm": -0.35569859855995567,
+        "body_mae_mm": 4.727194947476452,
+        "best_achievable_mae_mm": 4.721152085468317,
+        "best_change_mm": -0.006042862008134975,
+        "held_out_body_mae_mm": 4.727194947476452,
+        "held_out_shifted_mae_mm": 4.732909019559986,
+        "held_out_change_mm": 0.0057140720835340275,
+        "directions": {
+          "even_to_odd": {
+            "training_shift_mm": -0.21791790967312608,
+            "training_cells": 872,
+            "held_out_cells": 848,
+            "body_mae_mm": 4.920276952736298,
+            "shifted_mae_mm": 4.912758942053433,
+            "change_mm": -0.007518010682865395
+          },
+          "odd_to_even": {
+            "training_shift_mm": -0.698680895092858,
+            "training_cells": 848,
+            "held_out_cells": 872,
+            "body_mae_mm": 4.5341129422166055,
+            "shifted_mae_mm": 4.553059097066539,
+            "change_mm": 0.01894615484993345
+          }
+        }
+      },
+      "held_out_mean_change_if_omitted_mm": -2.054010707231562
+    },
+    {
+      "object_id": "5R1-4",
+      "frame_id": "362",
+      "cultivar": "Corolle",
+      "scored_bands": 1,
+      "scored_cells": 892,
+      "failure": null,
+      "scores_mm": {
+        "vertical_shift_mm": 5.492112710512531,
+        "body_mae_mm": 8.86333864939766,
+        "best_achievable_mae_mm": 5.354257527867478,
+        "best_change_mm": -3.5090811215301816,
+        "held_out_body_mae_mm": 8.86333864939766,
+        "held_out_shifted_mae_mm": 5.384620368777663,
+        "held_out_change_mm": -3.4787182806199968,
+        "directions": {
+          "even_to_odd": {
+            "training_shift_mm": 5.2599402078461495,
+            "training_cells": 443,
+            "held_out_cells": 449,
+            "body_mae_mm": 9.226759171818848,
+            "shifted_mae_mm": 6.038414178588493,
+            "change_mm": -3.1883449932303556
+          },
+          "odd_to_even": {
+            "training_shift_mm": 5.90311769987353,
+            "training_cells": 449,
+            "held_out_cells": 443,
+            "body_mae_mm": 8.499918126976471,
+            "shifted_mae_mm": 4.730826558966833,
+            "change_mm": -3.769091568009638
+          }
+        }
+      },
+      "held_out_mean_change_if_omitted_mm": -1.4732719817809734
+    },
+    {
+      "object_id": "5R2-3",
+      "frame_id": "356",
+      "cultivar": "Corolle",
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scores_mm": null
+    },
+    {
+      "object_id": "5R3-1",
+      "frame_id": "360",
+      "cultivar": "Corolle",
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scores_mm": null
+    },
+    {
+      "object_id": "R10-1",
+      "frame_id": "362",
+      "cultivar": "Sayaka",
+      "scored_bands": 2,
+      "scored_cells": 1867,
+      "failure": null,
+      "scores_mm": {
+        "vertical_shift_mm": 0.3380501243491194,
+        "body_mae_mm": 5.5465398909972725,
+        "best_achievable_mae_mm": 5.54297116214128,
+        "best_change_mm": -0.0035687288559929087,
+        "held_out_body_mae_mm": 5.5465398909972725,
+        "held_out_shifted_mae_mm": 5.544596494429251,
+        "held_out_change_mm": -0.0019433965680217824,
+        "directions": {
+          "even_to_odd": {
+            "training_shift_mm": 0.24497906716909768,
+            "training_cells": 909,
+            "held_out_cells": 958,
+            "body_mae_mm": 5.613242879829377,
+            "shifted_mae_mm": 5.610597717030521,
+            "change_mm": -0.002645162798856404
+          },
+          "odd_to_even": {
+            "training_shift_mm": 0.4616844994770197,
+            "training_cells": 958,
+            "held_out_cells": 909,
+            "body_mae_mm": 5.479836902165168,
+            "shifted_mae_mm": 5.478595271827981,
+            "change_mm": -0.0012416303371871606
+          }
+        }
+      },
+      "held_out_mean_change_if_omitted_mm": -2.0527344624563026
+    },
+    {
+      "object_id": "R12-7",
+      "frame_id": "353",
+      "cultivar": "Sayaka",
+      "scored_bands": 1,
+      "scored_cells": 1451,
+      "failure": null,
+      "scores_mm": {
+        "vertical_shift_mm": 2.8362550902593515,
+        "body_mae_mm": 3.6272831361449835,
+        "best_achievable_mae_mm": 2.7717699779259046,
+        "best_change_mm": -0.8555131582190789,
+        "held_out_body_mae_mm": 3.627283136144984,
+        "held_out_shifted_mae_mm": 2.7721617819648676,
+        "held_out_change_mm": -0.8551213541801161,
+        "directions": {
+          "even_to_odd": {
+            "training_shift_mm": 2.8554227488341555,
+            "training_cells": 695,
+            "held_out_cells": 756,
+            "body_mae_mm": 3.739559740371043,
+            "shifted_mae_mm": 3.0456253909750544,
+            "change_mm": -0.6939343493959886
+          },
+          "odd_to_even": {
+            "training_shift_mm": 2.8027238013098676,
+            "training_cells": 756,
+            "held_out_cells": 695,
+            "body_mae_mm": 3.515006531918925,
+            "shifted_mae_mm": 2.4986981729546813,
+            "change_mm": -1.0163083589642437
+          }
+        }
+      },
+      "held_out_mean_change_if_omitted_mm": -1.9105381361876201
+    },
+    {
+      "object_id": "R4-10",
+      "frame_id": "352",
+      "cultivar": "Sayaka",
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scores_mm": null
+    },
+    {
+      "object_id": "R8-2",
+      "frame_id": "350",
+      "cultivar": "Sayaka",
+      "scored_bands": 0,
+      "scored_cells": 0,
+      "failure": {
+        "stage": "coverage",
+        "message": "No band met all eight common-cell requirements"
+      },
+      "scores_mm": null
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "status": "numeric_mapping_passed",
+  "tuber": "5R1-4",
+  "frame": "362",
+  "seed": 133,
+  "source_sha256": {
+    "data_preparation/pcd_from_sfm.py": "594ee568cad66f56833b64f9f74de7ecb534f7fbfae37880f1d704fba00754da",
+    "dataloaders/cameralaser_w_masks.py": "57705741cb5ae8cfef9851d0864b39516074723741ee05bc954d3d638cdae297",
+    "test.py": "1e0d6a1715063537da3701e59e0b2c0c6a659acf26265c9c43499000baa60ad4",
+    "metrics_3d/chamfer_distance.py": "b9a9ddd7f04136e7ce7e466ffaf2de7d8d60413091d828edfd5035ba4aadb5b8",
+    "metrics_3d/metric.py": "e9e1f7a5402f5d886047f4eaa5f53f73d98772264f5219512c40c16de78bd512"
+  },
+  "archived_grid_provenance": {
+    "frozen_grid.json": "00ab2614dabfb49e58edab7f9d57af3ff38aad8def29563ba218cec38f999dc8",
+    "interior_replay.json": "3f138c72978d8eb787313a0f777a65c82899f2b87341e56788ae57b2b91de86b",
+    "results.json": "41480b8f125d7e29906b952bcd0b1dc2d4ea93b650873e794098d76ee74ab063",
+    "expanded_grid.npy": "bdc1888d4916979c73fc95975ee36f29a815f4abf63b47ce654f99cea3bdacaf"
+  },
+  "geometry_input_hashes": {
+    "partial": {
+      "path": "1_rgbd/2_pcd/5R1-4/5R1-4_pcd_362.ply",
+      "sha256": "fc5164c39292f619234272fafa2cd8c91d27188411760aa8fc0329e8106eed81"
+    },
+    "reference": {
+      "path": "2_sfm/1_mesh/5R1-4/5R1-4.obj",
+      "sha256": "7fcc2f6b5bde4f68b10eab9b8a72c88e9841c94d98331fde29778d36263ca8a8"
+    },
+    "registration": {
+      "path": "3_pair/tmatrix/5R1-4.json",
+      "sha256": "513f1890e11165e7fe65c143dbc2379952ad982f5300cf3a837a16f6f9fafbf9"
+    },
+    "rgb": {
+      "path": "1_rgbd/1_image/5R1-4/5R1-4_rgb_362.png",
+      "sha256": "619065a06e703216106a24508adcdaa35a6ecdec1c5b83b439c48607edc4ee89"
+    },
+    "depth": {
+      "path": "1_rgbd/1_image/5R1-4/5R1-4_depth_362.png",
+      "sha256": "f9e62b37a4d95cf489dd7d9cfabeaf55b052bec1281a2b1430f19d426dc3490a"
+    }
+  },
+  "sample_center_sfm_m": [
+    0.0008561164877874429,
+    0.00534581130355754,
+    0.12970996928991166
+  ],
+  "loader_target_sha256": "740be6789395ce3f33986b2c32e0a058b2a6d5c98da9901345d2f759f124e537",
+  "loader_float32_target_bitwise_equal": true,
+  "loader_target_mean_mm": [
+    -2.0489097085629737e-09,
+    1.5629920824267174e-07,
+    -1.2097879675820877e-07
+  ],
+  "reference_extent_xyz_mm": [
+    74.00799915194511,
+    69.64399851858616,
+    109.57900434732437
+  ],
+  "decoded_extent_xyz_mm": [
+    50.59374053962529,
+    67.32313241809607,
+    111.06132809072733
+  ],
+  "landmarks": {
+    "xmaximum_vertex": {
+      "vertex_index": 16775,
+      "raw_xyz_m": [
+        0.03913800045847893,
+        0.00937500037252903,
+        0.15710900723934174
+      ],
+      "centered_xyz_m": [
+        0.03828188397069149,
+        0.00402918906897149,
+        0.027399037949430077
+      ]
+    },
+    "ymaximum_vertex": {
+      "vertex_index": 16900,
+      "raw_xyz_m": [
+        0.005859000142663717,
+        0.042399998754262924,
+        0.15710900723934174
+      ],
+      "centered_xyz_m": [
+        0.005002883654876274,
+        0.037054187450705385,
+        0.027399037949430077
+      ]
+    },
+    "zmaximum_vertex": {
+      "vertex_index": 21548,
+      "raw_xyz_m": [
+        0.011718999594449997,
+        0.01875000074505806,
+        0.18059800565242767
+      ],
+      "centered_xyz_m": [
+        0.010862883106662554,
+        0.01340418944150052,
+        0.050888036362516015
+      ]
+    }
+  },
+  "rgbd_to_sfm": [
+    [
+      0.8679994139695283,
+      0.4553244766297653,
+      -0.1981328804877806,
+      0.22992656528199487
+    ],
+    [
+      0.34913254778598457,
+      -0.27586853557156604,
+      0.8955462105095792,
+      -0.21756663964891185
+    ],
+    [
+      0.3531054820093037,
+      -0.8465082232698216,
+      -0.3984223218038212,
+      0.3174919310471684
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "registered_and_sfm_pin_centres_centered_mm": [
+    [
+      11.681326350493526,
+      -26.884189985885886,
+      3.0408080670354387
+    ],
+    [
+      9.692977833978153,
+      -27.597520143266404,
+      4.018366987063065
+    ]
+  ],
+  "pin_center_distance_mm": 2.327657874062033,
+  "registered_scan_to_sfm_mm": {
+    "median": 0.7075844407081604,
+    "p95": 2.5266914844512933
+  },
+  "camera_roundtrip_max_mm": 1.1102230246251565e-13,
+  "synthetic_surface_checks": {
+    "identity_mm": 1.7416918599992393e-06,
+    "known_shift_mm": 4.0,
+    "observed_shift_mm": 4.0,
+    "mesh_order_invariant": true,
+    "tolerance_mm": 0.0001
+  }
+}

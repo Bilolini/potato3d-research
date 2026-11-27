@@ -1,0 +1,2817 @@
+{
+  "tuber": "R12-5",
+  "frame": "364",
+  "cultivar": "Sayaka",
+  "group": "20230914_field_okadasan_sarabetsu_05",
+  "pairs": [
+    {
+      "seed": 133,
+      "shell_seed": 10133,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 227.4877546010839,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.195996985394568,
+          "grid_label_changes": 192,
+          "volume_change_ml": -1.388521905866952,
+          "abs_volume_change_ml": 1.388521905866952,
+          "surface_distance": {
+            "mean_mm": 0.9496164917945862,
+            "p95_mm": 2.5667669773101807,
+            "max_mm": 4.693719863891602,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6659226668998599,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "ec421fd46c3dce52220f2cd09d757d35d141b627149dfc496dc01c2bca6523de",
+            "interior_sdf": "16559a4d506f85a2a90c28c5b6fda617911b74d04df42350d5919076a44ee0df",
+            "shell_sdf": "eda8c1f952b556893065ad3233a419bacb6c7cc0ff616715251dcb8df4050e0b",
+            "grid_labels": "573c659901be608a70b053de2413b8da2e058716f16eafbbc50e4f26ca5b80fd"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13538697295546256,
+          "grid_label_changes": 13,
+          "volume_change_ml": -1.1058932424410273,
+          "abs_volume_change_ml": 1.1058932424410273,
+          "surface_distance": {
+            "mean_mm": 0.072227843105793,
+            "p95_mm": 0.4720429480075836,
+            "max_mm": 1.6703977584838867,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7190568340010941,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "3f4578c4fafb77f4c215b3fb8efcbcd8dee551b0b0a5e2f87496a7f780ebbf2c",
+            "interior_sdf": "c1098d851b3c0e6906c36960676c101754c2968b223893b418e9ff845468b3a2",
+            "shell_sdf": "d4ac1982c5563a5b46de5f21d4bbb79c9a95d5d66883a69add00cdd6c89a32d2",
+            "grid_labels": "474163585d30681a37259ed124fc6bffefa59d0572108d177d0ffaccddc95212"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06748437244311424,
+          "grid_label_changes": 6,
+          "volume_change_ml": -0.7802581920218756,
+          "abs_volume_change_ml": 0.7802581920218756,
+          "surface_distance": {
+            "mean_mm": 0.051330845803022385,
+            "p95_mm": 0.4147361218929291,
+            "max_mm": 1.178894281387329,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7869992919731885,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "9b65324078faf211373477264b8dd18facce649fa91562d6ce4df24d6bf9e1bf",
+            "interior_sdf": "df67e7268a22cace2eac6fef2b867ffae7053b04f68fc6e8d78c9ec2a7a021bf",
+            "shell_sdf": "945f0ed3806c01fc411df4dbfbade7b53756d00934f40b0115a4b8c74cecb74f",
+            "grid_labels": "1509f00e3f65425d4fab7f97c6dc34325bffadfd5f324dd5647a8027d0526be3"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12439684995613923,
+          "grid_label_changes": 19,
+          "volume_change_ml": 1.2423810805296114,
+          "abs_volume_change_ml": 1.2423810805296114,
+          "surface_distance": {
+            "mean_mm": 0.07975267618894577,
+            "p95_mm": 0.5241732001304626,
+            "max_mm": 1.7992198467254639,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6554671660996974,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "92920b201d29a9426e33985447b367b5b3018eca5be23e842b623d899cbdcc3f",
+            "interior_sdf": "615992591c1d51fa7e22b4faed0d9154a9c66c83d51c8b736de4137bed36b42c",
+            "shell_sdf": "f3a33eb7f614d33b3c2776e1b6a8e753665e7eeccf8ff419c69d5c043e9e898b",
+            "grid_labels": "1b7636a92ac787dfb9bb0f64addc38d1ed6598aba156b6976e3d921bafe82eb4"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 0.8818460367619991,
+      "pin_minus_seedwise_max_peel_mm": 0.8698638156056404
+    },
+    {
+      "seed": 134,
+      "shell_seed": 10134,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 223.48135075132586,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1904262798316605,
+          "grid_label_changes": 190,
+          "volume_change_ml": 7.551812138637587,
+          "abs_volume_change_ml": 7.551812138637587,
+          "surface_distance": {
+            "mean_mm": 0.7993046045303345,
+            "p95_mm": 2.312068223953247,
+            "max_mm": 4.3806657791137695,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6515677080024034,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "9b54bad124c9d0fb9f942b5da7edcdbc415a8fae52da86b0213e21f7b17c55d5",
+            "interior_sdf": "8c10261cd43bacae1912b4bf8af2b9289c35553b7d06bc3825a139b5c5816e07",
+            "shell_sdf": "81c11f89c891422354427221d51d8a194900e24e3c5181f5256ac3fed5b343d4",
+            "grid_labels": "8e2040fc645b07cb92a44062680ab9d7d809da23fc5ad38be09600ffb7b45cb6"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13427456749249594,
+          "grid_label_changes": 22,
+          "volume_change_ml": -1.891479900844331,
+          "abs_volume_change_ml": 1.891479900844331,
+          "surface_distance": {
+            "mean_mm": 0.11594868451356888,
+            "p95_mm": 0.7269957065582275,
+            "max_mm": 2.4696567058563232,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6682842909358442,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "cc0cb815162abf019f0bdb773bfd3613001494b08a03c448285915acc4459bd9",
+            "interior_sdf": "0f13e7b26b142b810fc89a07c0890d8a1c8d40dabe5d66579c791ef4211d96de",
+            "shell_sdf": "de4127c714b4643623184f0874961ba21df497f4eddecb5c46511153b88e5828",
+            "grid_labels": "05c015da652a804e9e6e43c2ae496f1083b3b23085a619a22d80fa21abaf4e93"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06745445033798374,
+          "grid_label_changes": 19,
+          "volume_change_ml": -1.6276629632004926,
+          "abs_volume_change_ml": 1.6276629632004926,
+          "surface_distance": {
+            "mean_mm": 0.17189808189868927,
+            "p95_mm": 1.1660157442092896,
+            "max_mm": 2.6430397033691406,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.679080749861896,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "c919397c620b943df63020fcb987aa39247a71c344d40e95bba13489e390dd45",
+            "interior_sdf": "565ba7b7d1c5db46421ddba21b1eb9c41fa4219c3113e64675651d5876475caf",
+            "shell_sdf": "9a3b8b4c82349a465be90feda96431082db1026831dc402e43393045bb4f8998",
+            "grid_labels": "6a5e2db859f710adf207152ff9547a5fbeea483612aa803a145a44f7c148f4c5"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.1255525459763939,
+          "grid_label_changes": 29,
+          "volume_change_ml": 0.7033854598835205,
+          "abs_volume_change_ml": 0.7033854598835205,
+          "surface_distance": {
+            "mean_mm": 0.16576313972473145,
+            "p95_mm": 0.8777472972869873,
+            "max_mm": 2.410207748413086,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.697552208090201,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "adb6bc1faad9fa7d66829c03250b4cafc8f7ed27198ae23a94b200f5a9039d14",
+            "interior_sdf": "987b13bc4b7d96a2d08b6ba709f55d758d4c2f4fd052c8417166d8adebfee17c",
+            "shell_sdf": "95598b307130929a88b8ef56c68088af5272a046f35088a0123be3f0748e92e3",
+            "grid_labels": "bc8d2547def2c53aefb697cd65c6ad08abea1f84b0a95346de35e7cac902abfe"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 0.6481013024846712,
+      "pin_minus_seedwise_max_peel_mm": 0.6274065226316452
+    },
+    {
+      "seed": 135,
+      "shell_seed": 10135,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 228.12821070009096,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1891591920575593,
+          "grid_label_changes": 175,
+          "volume_change_ml": -3.4265127326334266,
+          "abs_volume_change_ml": 3.4265127326334266,
+          "surface_distance": {
+            "mean_mm": 1.127861499786377,
+            "p95_mm": 3.306871175765991,
+            "max_mm": 6.189419269561768,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6770990830846131,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "4b025d1841a7c407d15094faec419830bf0bf5726a988dff1de4783660a27830",
+            "interior_sdf": "080e239cf9dbf1f812a21e966e7d603545db9c25220a118f70cbf05abe2a62a4",
+            "shell_sdf": "9f09ca60ba0b0b3bf767bbc1c2b4fa1ae03b16a6ef12b790d8adc29e983be87f",
+            "grid_labels": "05cee62608573624d23c1805610d5e74aa9ead6155f985c923cea50ee6ba53b7"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.1345400704012718,
+          "grid_label_changes": 21,
+          "volume_change_ml": -4.534654377558269,
+          "abs_volume_change_ml": 4.534654377558269,
+          "surface_distance": {
+            "mean_mm": 0.2730933129787445,
+            "p95_mm": 1.7287334203720093,
+            "max_mm": 3.4629437923431396,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8045895420946181,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "ec3916974a7ec1a1bea51a03ffe25003064b0102acf9f3e1b951dda4173319c1",
+            "interior_sdf": "25610bb983a43c2aa85d76cfaa09b05e1b3e748caa098300b0429abca37b5c35",
+            "shell_sdf": "449281c3b2f94d64b8ae08a789609e009fe7549529586ee21493ff609fb1e1cb",
+            "grid_labels": "e9139d756e3f66ebe5f383961f12e51b5c24b6f087208494454df84faee74176"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06715380774026185,
+          "grid_label_changes": 11,
+          "volume_change_ml": -0.7032744092945222,
+          "abs_volume_change_ml": 0.7032744092945222,
+          "surface_distance": {
+            "mean_mm": 0.0722208172082901,
+            "p95_mm": 0.4594164192676544,
+            "max_mm": 1.5482313632965088,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7251905000302941,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "4ad2018c3d4f0201292a6920e0d39b4dbac9775d44bf86bd33dfed0c2df762f2",
+            "interior_sdf": "83d9f3e4880a2f25133e20375653c8c446eb700afe7652c35a919c6a8c6f6ad5",
+            "shell_sdf": "6add7e8f33f4f5d2f98ada3e1ee2502df0b4870c62e144a37abd717af2ccd466",
+            "grid_labels": "fa0c44f7b4a06fb09f15a462ebac7c983597121168ff9843dea93906b1e62995"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12470324793119086,
+          "grid_label_changes": 25,
+          "volume_change_ml": 0.6782497954238522,
+          "abs_volume_change_ml": 0.6782497954238522,
+          "surface_distance": {
+            "mean_mm": 0.10592399537563324,
+            "p95_mm": 0.6082911491394043,
+            "max_mm": 2.005417823791504,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7644803749863058,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "196e78728f015ca1ebc295b0a1fac20379686e508e58a5f1a0fb912a5aa4e516",
+            "interior_sdf": "24fd01a60b86c4448b3e113bf474ec35630ec2d1df5acc25f600e470cd33d810",
+            "shell_sdf": "e0b604f9961bd42e33095ddfdb382a00ec74d111527c345f99d1adecfa1fdee4",
+            "grid_labels": "db4474c1794e62b8671cb00855b867b115a31dd82762d47774fa85ec1aa5a025"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 0.9774487912654877,
+      "pin_minus_seedwise_max_peel_mm": 0.8547681868076324
+    },
+    {
+      "seed": 136,
+      "shell_seed": 10136,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 225.26375657395386,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1947625544540912,
+          "grid_label_changes": 198,
+          "volume_change_ml": -0.806404416614356,
+          "abs_volume_change_ml": 0.806404416614356,
+          "surface_distance": {
+            "mean_mm": 1.3201048374176025,
+            "p95_mm": 4.428842067718506,
+            "max_mm": 7.549871921539307,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8728689579293132,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "84c4b702640603559d5546144b9ae4ef88e80b3f2dcb42fa966d8e255eeba660",
+            "interior_sdf": "c059a916aa30fe3715847e60e8fd5218c65e151dd9327b189ac970977cb851c7",
+            "shell_sdf": "083b868b664a8819ddb7b73a7255f5f60eaf2f50457b9cf17e8769cb7c419b49",
+            "grid_labels": "803f2c51da97ab24e3821aa79fc4971baad2d26ba7fa2ed3c68d2e89bee45926"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.1360783906927315,
+          "grid_label_changes": 15,
+          "volume_change_ml": -2.933111777361944,
+          "abs_volume_change_ml": 2.933111777361944,
+          "surface_distance": {
+            "mean_mm": 0.19231489300727844,
+            "p95_mm": 1.072131633758545,
+            "max_mm": 2.602609872817993,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8183023328892887,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "ee86521f112ac666fc9c7a1624c516c179c3d05957acd296eefcc5924b708c72",
+            "interior_sdf": "17b94d721b14df7b2aa623ff2a64d406f8c81760314d9bcd6ae3a21680bac32d",
+            "shell_sdf": "8ea4806b5ae9f2c6366036bf8ce0728c23810b0c77083aef7e4312aef185b580",
+            "grid_labels": "9701de04cc03b710af7c91af169b5ca6dd0377ab8ce19708441395f5cf52f1c5"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06730525894952868,
+          "grid_label_changes": 15,
+          "volume_change_ml": -1.6564009732498448,
+          "abs_volume_change_ml": 1.6564009732498448,
+          "surface_distance": {
+            "mean_mm": 0.12197967618703842,
+            "p95_mm": 0.6985936164855957,
+            "max_mm": 2.44497013092041,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7195026660338044,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "d01989678f19532d72c359334e5aef921c950054a70679a97c9cebe4a3d209bd",
+            "interior_sdf": "703b1366bf6ccb4d41d39acb19eaf8b6d612b0676a24a1b3c70fcd3b304f4ed5",
+            "shell_sdf": "6a24a0fdf6f8cc7b86b9d3149b96e7ea6efa84d122f89e027a0e15b3be581e83",
+            "grid_labels": "637d3e1bb50b7e850829e6a60544fe048ba93ce4175246fb76da5c3370b5d65d"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12544855498169824,
+          "grid_label_changes": 36,
+          "volume_change_ml": 4.390588238295578,
+          "abs_volume_change_ml": 4.390588238295578,
+          "surface_distance": {
+            "mean_mm": 0.3813960552215576,
+            "p95_mm": 1.809032678604126,
+            "max_mm": 5.384024620056152,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6986005001235753,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "07255225234cc7f83fe5bbe819b04e58834dbe5dc1ce48d088206e0ed0832b8e",
+            "interior_sdf": "9d85eca82d295032352f3acb47c989c14114a1ab028c18ceed6d5effaf4de6bb",
+            "shell_sdf": "563eebdb3869f7f6f560d535e9b453e18d282e8092c628132218243632566f8b",
+            "grid_labels": "5e51432166b5d2f362064b7ce658fc42347211a1c4e420105d534da0b196af55"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.0882079626123111,
+      "pin_minus_seedwise_max_peel_mm": 0.9387087821960449
+    },
+    {
+      "seed": 137,
+      "shell_seed": 10137,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 217.9453584133203,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.2007771616821024,
+          "grid_label_changes": 172,
+          "volume_change_ml": 7.556450347004983,
+          "abs_volume_change_ml": 7.556450347004983,
+          "surface_distance": {
+            "mean_mm": 1.2374086380004883,
+            "p95_mm": 3.467759132385254,
+            "max_mm": 5.3240156173706055,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7023020419292152,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "f0a81fa614cc83cd89968f265edbe731e86440c121809f802e61e6a0fd1d959c",
+            "interior_sdf": "5696e589ed37b013a3808852fb8df239ba8d5dae6aa4c85a29d5b7fbb2ad0f99",
+            "shell_sdf": "a0f4c9ee7c2f3eb8ba9e9409278a8ba1cc0a74eb70922f16b7c3a3ad42e2992d",
+            "grid_labels": "509171f3564cf15bb8b625608af9b5c821ef431e1ee7255925fb5df7a4fb04e9"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13503248466467657,
+          "grid_label_changes": 27,
+          "volume_change_ml": -2.3746835405283946,
+          "abs_volume_change_ml": 2.3746835405283946,
+          "surface_distance": {
+            "mean_mm": 0.17388784885406494,
+            "p95_mm": 0.910161018371582,
+            "max_mm": 2.6293234825134277,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8398944172076881,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "9b669c976566c5034d4bcd1b27dfd033497608e182dab0a264c118c700a55164",
+            "interior_sdf": "c29c1a498b455f1a505e6e4a8ab453eae1207ea7098ed4317b5946e43150f298",
+            "shell_sdf": "0e343a7d9ae4980d3631289c81c6e57191c61f5e3750f11d58bec7ea7f58f2ce",
+            "grid_labels": "59ee3f1c36c40f99913c2b9c3ee1a9a749347da9bbb8712801f316d94846543a"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.0672010883669524,
+          "grid_label_changes": 13,
+          "volume_change_ml": -0.4677483062746717,
+          "abs_volume_change_ml": 0.4677483062746717,
+          "surface_distance": {
+            "mean_mm": 0.05294331535696983,
+            "p95_mm": 0.32227733731269836,
+            "max_mm": 1.9107338190078735,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6385791669599712,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "0074de6470990b163e0deb078ebb00759e97a57b51f4a0686926f33508a49494",
+            "interior_sdf": "91f82e60ace6e30adf05dd4208f1e80745a5266fd9016a17873ceac77923a2fc",
+            "shell_sdf": "a7dd053c9b2854239876bdafabfdb1155593f385e526345162f1b23a650acf50",
+            "grid_labels": "b513ce334854178c0f1557a5c931e8948d6195deb91d959c93f3d194276b3ebe"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12418320613883058,
+          "grid_label_changes": 20,
+          "volume_change_ml": 3.6211407212580866,
+          "abs_volume_change_ml": 3.6211407212580866,
+          "surface_distance": {
+            "mean_mm": 0.2278537154197693,
+            "p95_mm": 1.0884729623794556,
+            "max_mm": 2.6849985122680664,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.649700041860342,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "8ce6b96fe4f7b330082cd9d8f403bbedded248b1ee6e1c337a48ddeefd9152fd",
+            "interior_sdf": "9ee32fc7f491eece2fac6df56e784d8da2ddfb1839faf432b02ca7b6571f44e3",
+            "shell_sdf": "9d3dc9114615ba8a85188cd26562501313e3df3639a9284d6ebcce15cf24f22a",
+            "grid_labels": "08f0f42b6cb59e049fb83ea14de81b02530135b2a54ebc88de747eaa3ce831f4"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.085847011456887,
+      "pin_minus_seedwise_max_peel_mm": 1.009554922580719
+    },
+    {
+      "seed": 138,
+      "shell_seed": 10138,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 229.0869093939055,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1930551806376402,
+          "grid_label_changes": 187,
+          "volume_change_ml": 1.654259484385335,
+          "abs_volume_change_ml": 1.654259484385335,
+          "surface_distance": {
+            "mean_mm": 1.3458634614944458,
+            "p95_mm": 3.503391981124878,
+            "max_mm": 5.331279754638672,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 1.0520254170987755,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "1e7ba9c747915b97a43ccaa82c9535e22bd8b2f49ead1b38d945002637485750",
+            "interior_sdf": "b4b4bcef9780e4f89c04eebac93bb825d087611b114fe8b71425fbedd8d4e0ef",
+            "shell_sdf": "006bdd128625f3e613cf8c3be0e81301c98f9c313cb2a982d335157a5c03a97d",
+            "grid_labels": "b25755ac3c672b8fb3c533a5bc19234dedab6ab34424ec4d033c807dd82edacd"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13576238034551755,
+          "grid_label_changes": 16,
+          "volume_change_ml": -1.600201230341753,
+          "abs_volume_change_ml": 1.600201230341753,
+          "surface_distance": {
+            "mean_mm": 0.09955466538667679,
+            "p95_mm": 0.6149022579193115,
+            "max_mm": 1.8645378351211548,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8319211672060192,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "a3fb6d53bed28d43af11acb162991a331afd6c7f62bde5a858cc764720f7e888",
+            "interior_sdf": "75cf8b4b6f553a511ebcde31e591ab1a566297d4dc0ad6ebff953efc63f6a57b",
+            "shell_sdf": "74153b56a07316a3f07e27db0a74af4a0f2c776b6a8ed59a834657501de86613",
+            "grid_labels": "c9844585cb4ef35044e5aa0f1b08e02ab7ae1c75b153b5310c7e7ec54104a368"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06744075007089932,
+          "grid_label_changes": 13,
+          "volume_change_ml": -0.803710503476708,
+          "abs_volume_change_ml": 0.803710503476708,
+          "surface_distance": {
+            "mean_mm": 0.058940086513757706,
+            "p95_mm": 0.4645230174064636,
+            "max_mm": 1.191841721534729,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6493776659481227,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "4ee883f6275c5a28f191c6abbbe78ae3bf674e8c550ce2c319c972df2a845b6b",
+            "interior_sdf": "f7c6d522ece252bb961196189d93cb9519bcb3defd22a73a850008af2ebdf5bb",
+            "shell_sdf": "013b306159d324de0b1764e7289c9c2329e589e9d7dad5334bb9fc5e8e29bd26",
+            "grid_labels": "9ab64eaa642c27be220789b5c18d25938d7729f022315ea2a19cc0681c17e88a"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.1251563255877786,
+          "grid_label_changes": 25,
+          "volume_change_ml": 0.38651894676547727,
+          "abs_volume_change_ml": 0.38651894676547727,
+          "surface_distance": {
+            "mean_mm": 0.02184174582362175,
+            "p95_mm": 0.13029295206069946,
+            "max_mm": 1.0993220806121826,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6531128329224885,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "0c819b8db7f98cf9393faac46b3f287e9ced474dc4d3e73d6a486242f6f13a09",
+            "interior_sdf": "55648f715028a17eca201de557177d6e2673f5a2248fc6800602699ea6a7aa8b",
+            "shell_sdf": "0c7457be6e92f09dc536001fbf3c45f40a3cd9ad9630228a805ae4685220ba7b",
+            "grid_labels": "5f7d20451e9d0ce74b5d3c7568442b95731504c6d04817d6b2f397e68cba5706"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.285751295586427,
+      "pin_minus_seedwise_max_peel_mm": 1.246308796107769
+    },
+    {
+      "seed": 139,
+      "shell_seed": 10139,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 227.92703556658049,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1862946725019288,
+          "grid_label_changes": 203,
+          "volume_change_ml": 1.3945355272765028,
+          "abs_volume_change_ml": 1.3945355272765028,
+          "surface_distance": {
+            "mean_mm": 1.3000129461288452,
+            "p95_mm": 3.236281156539917,
+            "max_mm": 7.056029319763184,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6698480420745909,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "68fa8522b6b1b2fced88c577f69f3a3612790373901dd43fdca3cd33bf5b4601",
+            "interior_sdf": "1f827790d19c4b4c2eb9207414e2c88088d320f790f5aebd97e7a2613d9802c6",
+            "shell_sdf": "00418e3708307075c7d277fc43b3aeafca13cdcc796c77ad9de12c32cdafdf59",
+            "grid_labels": "8182564085dc61e8bcd3710c5c3090a0450016bb92fc983b8554f29345accddb"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13527861457421547,
+          "grid_label_changes": 32,
+          "volume_change_ml": -4.076136521291858,
+          "abs_volume_change_ml": 4.076136521291858,
+          "surface_distance": {
+            "mean_mm": 0.2690347731113434,
+            "p95_mm": 1.2073259353637695,
+            "max_mm": 2.2634339332580566,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8352867499925196,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "c26dd1a3822ae2838ef81a19eb83a067e9d9a3b1a767c772c95d9199e3334459",
+            "interior_sdf": "1f86d925643573d8a4e70cd23caf8c3bb58ff4359b2430d88f9436105b197a52",
+            "shell_sdf": "321a9c6ae765b70389e217d6bb31c52904ca762b1e95be3c1662033240c53624",
+            "grid_labels": "f2ec268e00aa35937bd340782a527606f2ef489278aa8dc60cb28627f63ed961"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06745643328974471,
+          "grid_label_changes": 16,
+          "volume_change_ml": -2.3112443734246426,
+          "abs_volume_change_ml": 2.3112443734246426,
+          "surface_distance": {
+            "mean_mm": 0.16322551667690277,
+            "p95_mm": 0.9967532753944397,
+            "max_mm": 2.0989861488342285,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7180055410135537,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "12775e79b99c279598a2859f55215f93ca93ca7ac8cc681ebe0186071fbea4b5",
+            "interior_sdf": "7e30a111da4d6997d80f5cf29bfa5eb0673f4a3d80bba07502146292df219abc",
+            "shell_sdf": "014cd52c0527426d47b3582620bf9192aa2ef3c52380af890a8952c37c732feb",
+            "grid_labels": "024a1e29358174bfdf2d3da8d1224c304d2ccce6bd6920df9687008746ff729e"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12475551023898232,
+          "grid_label_changes": 26,
+          "volume_change_ml": 1.4264964421504942,
+          "abs_volume_change_ml": 1.4264964421504942,
+          "surface_distance": {
+            "mean_mm": 0.11050975322723389,
+            "p95_mm": 0.7470347881317139,
+            "max_mm": 2.111760139465332,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6927102080080658,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "d49f65d3131163e2c151150569e77fa661f4a7909400726fd75280fede22a92f",
+            "interior_sdf": "338dcd2a9f3816519b1d82719729df74c670e5aef20da6c8b89db601ebcfc418",
+            "shell_sdf": "80ccac2698d7e45900adf9280bc9fed8c792d46cf56328d624a0fda6a555d77f",
+            "grid_labels": "85261464b4fa91471226e3ec363fdd2a09cc52d6efa52af69a6ea47eb38e8a2f"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.1190895984570186,
+      "pin_minus_seedwise_max_peel_mm": 1.0309781730175018
+    },
+    {
+      "seed": 140,
+      "shell_seed": 10140,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 230.6025528930555,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1921969879002536,
+          "grid_label_changes": 193,
+          "volume_change_ml": -0.9040710293682537,
+          "abs_volume_change_ml": 0.9040710293682537,
+          "surface_distance": {
+            "mean_mm": 1.3101733922958374,
+            "p95_mm": 3.100395441055298,
+            "max_mm": 4.553067684173584,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7226588330231607,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "c65387bd64ff72062084dfcf2f6924f270e27039e2e0061c1c3f93a41268e505",
+            "interior_sdf": "aabcc0c3b735e91e0f90801780aab416601dac47e892fa6ac06065d3fe447945",
+            "shell_sdf": "bb92db8b0d7480838025b674362d8321dcffeecaed58a4ab44a6c316494d9148",
+            "grid_labels": "cdcff0374f09f8a16b8cd76b252e005b5324908ed26330f2e537cfe70791b99e"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13493499999296746,
+          "grid_label_changes": 28,
+          "volume_change_ml": -5.453453117544825,
+          "abs_volume_change_ml": 5.453453117544825,
+          "surface_distance": {
+            "mean_mm": 0.31726720929145813,
+            "p95_mm": 1.373177170753479,
+            "max_mm": 2.287318706512451,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6620030000340194,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "59587e28f3d57a4d725ea6b7b2fcc2873453c879130f243f2d40489a3b0fd50d",
+            "interior_sdf": "d283c3f9495abf3138e59ff39b0afeb971d9d8f0fc80094be2069f6a9310940d",
+            "shell_sdf": "9eb454fce840f8de5a3044bcfd8f7770bf513851c145a52c70c0f680ed8dab1f",
+            "grid_labels": "f683ce6b5dc3a36bb4c42d3625bb7c182f53277a402f8d82e058e08a14c10c18"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.0672852410848632,
+          "grid_label_changes": 20,
+          "volume_change_ml": -4.536818072245694,
+          "abs_volume_change_ml": 4.536818072245694,
+          "surface_distance": {
+            "mean_mm": 0.26396575570106506,
+            "p95_mm": 1.2648202180862427,
+            "max_mm": 2.2927775382995605,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6504400831181556,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "897a784a0fd273cf25ea1d4ff7b3ba5888bbb6998fac6e95cd6c40146ba69fff",
+            "interior_sdf": "6597f05f5d0d4cf5dc5750fcdf31af03c71cc1db09aa6a207f74ffb96877e9cb",
+            "shell_sdf": "f02385c62d758246231edb3f61fc7009a9d83d2dc144eee61771fa1120c78ff5",
+            "grid_labels": "b128db3833369e5d32db53dbc8e6f25193d52f20ef42366895b6b246a1f9ba24"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12477427943182799,
+          "grid_label_changes": 25,
+          "volume_change_ml": 1.5175759820008068,
+          "abs_volume_change_ml": 1.5175759820008068,
+          "surface_distance": {
+            "mean_mm": 0.18103139102458954,
+            "p95_mm": 0.9515515565872192,
+            "max_mm": 2.77370023727417,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8740534579847008,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "10c72aebc00bdbcd97f2363f6ad2d46a98d296a484748a6a1ec61f850f19a5e5",
+            "interior_sdf": "dfdf6c68fac290fda463e7c103b63de5a816b4755251091a0cb95b69e59a69c3",
+            "shell_sdf": "edf2107e0f7409615c46a83601f574247fcdb4b971bcd05eb6307f37ca5412f8",
+            "grid_labels": "4b96418675b79c19791a3c8d41c40615af60aa44e15c7a3c3cac2dbf8dff6afb"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.0560852736234665,
+      "pin_minus_seedwise_max_peel_mm": 0.9929061830043793
+    },
+    {
+      "seed": 141,
+      "shell_seed": 10141,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 224.7158823142812,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.186739397390435,
+          "grid_label_changes": 209,
+          "volume_change_ml": 5.343505779899743,
+          "abs_volume_change_ml": 5.343505779899743,
+          "surface_distance": {
+            "mean_mm": 1.1240044832229614,
+            "p95_mm": 2.8816518783569336,
+            "max_mm": 4.463235378265381,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.857107250019908,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "c8e4c172a187eb2c6019eb01c17ed1417a389b1262c0c1f92732da4157cabc68",
+            "interior_sdf": "683d2648a076b77a7398245435f3eed16071b559ba8d173262998e4fb2862ed8",
+            "shell_sdf": "0df585327c11b9e58c6b5a8e822adb05c530d28069099f3903b0fe8f28741def",
+            "grid_labels": "9457137c16c22031e1869048d2b136b8c9b6b160d31bbe9de5a43c068ebc0248"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13507439412556038,
+          "grid_label_changes": 18,
+          "volume_change_ml": -0.8789109848477779,
+          "abs_volume_change_ml": 0.8789109848477779,
+          "surface_distance": {
+            "mean_mm": 0.073670394718647,
+            "p95_mm": 0.4405217170715332,
+            "max_mm": 1.3251264095306396,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7863242498133332,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "680aec62909e93ef1ace8288e12c86c5d0b564f9bed7e520a0c29405174bbf2e",
+            "interior_sdf": "531eb8125b3108a4ba738cf900fa18f2af57eaf9668d1a38017f645e7cab4a63",
+            "shell_sdf": "f6670d4a820ade8cdb72fc1c0cb078fb504e65e3adf8490ebccb68b5a34469df",
+            "grid_labels": "fd1fc32904ea00f19d060ea6bc7ee9a5c729f80a6580304a4a62104106a53099"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06739458718867455,
+          "grid_label_changes": 13,
+          "volume_change_ml": -1.9958070268047834,
+          "abs_volume_change_ml": 1.9958070268047834,
+          "surface_distance": {
+            "mean_mm": 0.12504929304122925,
+            "p95_mm": 0.710922360420227,
+            "max_mm": 2.9775781631469727,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7470528748817742,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "8b176eb44bf2ff33f13be32eeec96820c80ab9ebef24a0489829b9dd59fb4e90",
+            "interior_sdf": "d50564cc5a53e67d2cc6c11c01f94414815986b3b04617c3e7a5cddf1b6ca197",
+            "shell_sdf": "0bd6816611de9ba9808a3f628bd8e37805176200da3c8627607d75dd347b6b7c",
+            "grid_labels": "d72ba5250854637eb5fc1752d23f84166ff0cdffdb56074d22ba33e8eb7a9875"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.125699193931521,
+          "grid_label_changes": 32,
+          "volume_change_ml": 1.860239529555571,
+          "abs_volume_change_ml": 1.860239529555571,
+          "surface_distance": {
+            "mean_mm": 0.31832155585289,
+            "p95_mm": 1.4098562002182007,
+            "max_mm": 2.9775781631469727,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7445904589258134,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "048f1515575d7237012932d0806dd18385cbd2525f289ad1e0d63509e2a8b924",
+            "interior_sdf": "3121f79e66388fe9f4eb65cefc9cee49059e16e87342bd4a4d5961b198edc104",
+            "shell_sdf": "5a20787580982fb1ac87f76fa1755669611c60ac0910f9186c18c27f64054cf2",
+            "grid_labels": "2764e5de8b44376e2b317c2c1f29c7e5acff0428d85a41cfa1a7cc49f2032469"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 0.951657402018706,
+      "pin_minus_seedwise_max_peel_mm": 0.8056829273700714
+    },
+    {
+      "seed": 142,
+      "shell_seed": 10142,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 188.72228546968265,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1920351626672696,
+          "grid_label_changes": 168,
+          "volume_change_ml": 41.438795126473934,
+          "abs_volume_change_ml": 41.438795126473934,
+          "surface_distance": {
+            "mean_mm": 2.434217929840088,
+            "p95_mm": 5.000406742095947,
+            "max_mm": 7.521140098571777,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.678515458945185,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "9075a4e48f4a0084a5b7eecbe2ada8ccf5c859dd2b31564978ea88c0bc885a85",
+            "interior_sdf": "aa47a1c7b28264726d03f76eeb201b3b51c2e32d458f3cef7f1d3300f58a16fb",
+            "shell_sdf": "9d10231425e8c6cbcefd072d1b4831327fc8d52820eaf9fc3b71d8ad2fb064ea",
+            "grid_labels": "62ce39f526b0355b0ad78589d6b43f4fe71e49905ee710d003707304848a7e09"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13456602545489593,
+          "grid_label_changes": 15,
+          "volume_change_ml": 28.977821113654585,
+          "abs_volume_change_ml": 28.977821113654585,
+          "surface_distance": {
+            "mean_mm": 1.7103500366210938,
+            "p95_mm": 3.072782039642334,
+            "max_mm": 3.715630054473877,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6746694578323513,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "959db492a920a5034181dfccfff34049f62cc4b1aebda63ae355a1780dc838a7",
+            "interior_sdf": "62dac1ef50fd601dc625cd2a584ab4b59d79aa6aa87d79bc45485bb469ac488a",
+            "shell_sdf": "a8ab927a7f8876f5e01352efdf8dcf0a7f25d20730eaacad8172aad830a045fa",
+            "grid_labels": "6e7257dbe715c2fd56fa5b6e1079c4f9c2df5c3f96a5bf4bb8d0285b6f5bd77f"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06691799096814874,
+          "grid_label_changes": 7,
+          "volume_change_ml": -0.6160279438248324,
+          "abs_volume_change_ml": 0.6160279438248324,
+          "surface_distance": {
+            "mean_mm": 0.046781089156866074,
+            "p95_mm": 0.23777996003627777,
+            "max_mm": 2.227388620376587,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7991531251464039,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "fa2e7fe6af91b64a7fdf7c4c410f228d06930134dc5b1843d12ce39cad0e9606",
+            "interior_sdf": "a9bfda592f8d4be9d5d272698b3f837bc1817b748201d8b5e7d4f7d7dffb1b1b",
+            "shell_sdf": "342ab81f04f478f2ab45b43dcaa65f9c26e053333fe5772e274745ab7c71a60b",
+            "grid_labels": "721cc10a86aff5bfe499fddc0da65aa969d34b84b8e81906b9d4e99cbe87e796"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.1247822296777654,
+          "grid_label_changes": 15,
+          "volume_change_ml": 3.2732535260435895,
+          "abs_volume_change_ml": 3.2732535260435895,
+          "surface_distance": {
+            "mean_mm": 0.25265204906463623,
+            "p95_mm": 1.5184870958328247,
+            "max_mm": 3.9798049926757812,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7088154170196503,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "0db6a832e2e65ce475b32bf1f866ea53dba27abdccb20801a2ca9bcb2e580129",
+            "interior_sdf": "c99c50dbfe0699ddd8ac14cef122cef6fb405652f06ef27c0b2f44f7189e0d82",
+            "shell_sdf": "639104aa659117fa90c54b9d893ff8436ada031e72706244b5f8763422a6f384",
+            "grid_labels": "865949759c0795e84886ab4a9f9c200752c76e775a933e5be4c94c2ff8d73f25"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.7642902048925557,
+      "pin_minus_seedwise_max_peel_mm": 0.7238678932189941
+    },
+    {
+      "seed": 143,
+      "shell_seed": 10143,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 228.93778634002675,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1924816679545782,
+          "grid_label_changes": 186,
+          "volume_change_ml": -0.8249471412784999,
+          "abs_volume_change_ml": 0.8249471412784999,
+          "surface_distance": {
+            "mean_mm": 0.7695258855819702,
+            "p95_mm": 2.4816982746124268,
+            "max_mm": 5.0005106925964355,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8286376670002937,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "18bb2b58689d2a6ad0fd8a480beceb9b8f201e3a13165fdde56d5aea71321cd3",
+            "interior_sdf": "860afc8622135f2752e27f96035f09357f2beffed1f8bdb86ff10a2f215f0a0a",
+            "shell_sdf": "f783126e56107a2ac19a87cd8ddadddb8a1bafae3bf2101bfedb068603cc7070",
+            "grid_labels": "0afa881cfe3502a79f2e36b9a1c1d77a5ec2364938680eaa083d20739c5d6aa9"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13501107276641522,
+          "grid_label_changes": 24,
+          "volume_change_ml": -3.023355481038209,
+          "abs_volume_change_ml": 3.023355481038209,
+          "surface_distance": {
+            "mean_mm": 0.21071630716323853,
+            "p95_mm": 0.9403879046440125,
+            "max_mm": 3.138836622238159,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7334648328833282,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "c3f327b1f1c75eb90682004e75e902a106c7705850b022d3c90debc7d8e650b1",
+            "interior_sdf": "e20355e0a129df385631164b67c0560db885af1e6a9e0bcd35ccf41bdbcec003",
+            "shell_sdf": "3a70c1ae30847d9c19ed1f1f158ba1215555193939c142e17b11ff4836b87ffa",
+            "grid_labels": "31b662826f2de7412a144fbdca20569203badf5614e36363b9007fe9a51f5fd9"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06722295266593359,
+          "grid_label_changes": 12,
+          "volume_change_ml": -0.7820727629060968,
+          "abs_volume_change_ml": 0.7820727629060968,
+          "surface_distance": {
+            "mean_mm": 0.11852914094924927,
+            "p95_mm": 0.7211912870407104,
+            "max_mm": 1.9153802394866943,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7514432079624385,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "0e6d6d85517ba5bf0b9014fce8ed050a685d08930a562792b1c77929470021e3",
+            "interior_sdf": "8c1c551edb5c83ec5737238f13f244be419abee93cd87d1cec9e2945a51815f7",
+            "shell_sdf": "c632944c22eed7c696a86b4ffae9802837c3437e3423716d7a4fc36d5ec27554",
+            "grid_labels": "b212bd71df6f4d3d917bc82b720afe60aa27e0c0cc41ff195db053975b67032a"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12461883485041282,
+          "grid_label_changes": 29,
+          "volume_change_ml": 0.6923599744567639,
+          "abs_volume_change_ml": 0.6923599744567639,
+          "surface_distance": {
+            "mean_mm": 0.17872409522533417,
+            "p95_mm": 1.0043749809265137,
+            "max_mm": 2.4299886226654053,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 1.1777844170574099,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "cc91dad20804fdedb728f6478652756bce635121c5cab1eb6ec276d91aa2e1e7",
+            "interior_sdf": "63f3b3de8a98dc8f92bd2874936829f7fdf04c2e60147dc00ffae48acff22ca7",
+            "shell_sdf": "c87a156f3514418bbaf6fddd919c68df621a37b03d09902ff4801bbad21446cd",
+            "grid_labels": "33c4f3e6ea0872989dc3163bda8cac9556b86603a34481c56ad5688ad242ac7f"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 0.6002027044693629,
+      "pin_minus_seedwise_max_peel_mm": 0.5588095784187317
+    },
+    {
+      "seed": 144,
+      "shell_seed": 10144,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 222.06755566522125,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1918146367544842,
+          "grid_label_changes": 194,
+          "volume_change_ml": 4.472515547181985,
+          "abs_volume_change_ml": 4.472515547181985,
+          "surface_distance": {
+            "mean_mm": 1.1438395977020264,
+            "p95_mm": 3.1309847831726074,
+            "max_mm": 5.028405666351318,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 1.0331775001250207,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "f2464a6fe1772e1edc6ac53ca1f742461a658805c989fba94e66149c6f8c5981",
+            "interior_sdf": "5c8a5f6d6acc6374654afb2a842911cd3ed73812eb514bad56278c0869d3dfc9",
+            "shell_sdf": "3d24243c88fc9627b71de451e9fe805e5f7628e8cfc0bbca2cd4839954d12267",
+            "grid_labels": "cc56be022ae3aa1487c470c9da4314d51c5446c2c30faf8a0e173d0d8ae26806"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13611574492339668,
+          "grid_label_changes": 23,
+          "volume_change_ml": -2.6796193748782855,
+          "abs_volume_change_ml": 2.6796193748782855,
+          "surface_distance": {
+            "mean_mm": 0.215781107544899,
+            "p95_mm": 0.8903275728225708,
+            "max_mm": 2.1811442375183105,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7651977499481291,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "fa8a7b6c434819811590742809a16b569b8604fa028f79d45c37ed36e106363d",
+            "interior_sdf": "9c790837ec2de56ec5a9c17d94da6ed1468ab3aecbb35ca274bc93cbcb3eb050",
+            "shell_sdf": "d776d2df7a32d36c816fc08c209e651bd9ac3745bfb137bd2fb84fc267c42eca",
+            "grid_labels": "7cb9bbe91ba01d0ece7a6c4f884219c120335ea57d6714db8d5f8a37fe2726ac"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06750005298117348,
+          "grid_label_changes": 16,
+          "volume_change_ml": -2.5403784449809166,
+          "abs_volume_change_ml": 2.5403784449809166,
+          "surface_distance": {
+            "mean_mm": 0.17342743277549744,
+            "p95_mm": 0.840277373790741,
+            "max_mm": 2.425827741622925,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6518874999601394,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "cd292662f671417f876c38cfa66aacdda0e89f839afb43ca02a6214b707bc18d",
+            "interior_sdf": "74027c95b2583e15476c900f75d2506f71f4f96ac4e6af356427e998021c8e7c",
+            "shell_sdf": "6d489dec43afad47c2aabe6d032cd825a7fd464b34b1a062e38c00a19e61617e",
+            "grid_labels": "b50e84a5c053f2e66ddc094a46e7c2efe2192810e72dc371366bb0692a558c50"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12454427030213452,
+          "grid_label_changes": 24,
+          "volume_change_ml": -0.2341319669021118,
+          "abs_volume_change_ml": 0.2341319669021118,
+          "surface_distance": {
+            "mean_mm": 0.12067684531211853,
+            "p95_mm": 0.6218321323394775,
+            "max_mm": 1.6358674764633179,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7373699159361422,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "4d3873d941a18f86388b868a067593a14926ceacd0c0eb91228c8f894e7b889f",
+            "interior_sdf": "13a16ad3a0a265790218252802e3fa6c1f8b7f3de4097cd271025a7f20454070",
+            "shell_sdf": "094ea1968865cd2ca0d8ad26874822ee6d02219a41a6fdd59e858e23ab896231",
+            "grid_labels": "2c8fcf03df8d3fd91d757de0e71958535e3a1e979cc57488794157eb59ec1bcd"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 0.973877802491188,
+      "pin_minus_seedwise_max_peel_mm": 0.9280584901571274
+    },
+    {
+      "seed": 145,
+      "shell_seed": 10145,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 204.31697408620124,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1899833541182387,
+          "grid_label_changes": 182,
+          "volume_change_ml": 23.192033899845512,
+          "abs_volume_change_ml": 23.192033899845512,
+          "surface_distance": {
+            "mean_mm": 1.680393934249878,
+            "p95_mm": 3.413433074951172,
+            "max_mm": 4.9128007888793945,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7140435411129147,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "61a576b0addd244bef4b308d85c971ac3d99b12b16e714c86b011395cc5a19c6",
+            "interior_sdf": "51280aed40b46592b9fd5b96a679aef41418431e3758f36d5a86c51d8d83ec08",
+            "shell_sdf": "604c0ff42d786d6f44520830babc9939732e946406695f7a49db36b60b608a59",
+            "grid_labels": "178df4e9af36e1885180e8dc075a1a1ef56277fe019aa02388581c4e85a122ff"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13559880215540976,
+          "grid_label_changes": 25,
+          "volume_change_ml": -3.280988880443715,
+          "abs_volume_change_ml": 3.280988880443715,
+          "surface_distance": {
+            "mean_mm": 0.36830753087997437,
+            "p95_mm": 1.9107741117477417,
+            "max_mm": 3.4143881797790527,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.670856875134632,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "490f9f1875d15d217fe0d3df8753abd05089665d650f616b286481d2e720627b",
+            "interior_sdf": "a72e696ad8ace58b85a2d4d6b0d62c72b4a534f21d6af3970a10bd996b7f3aa2",
+            "shell_sdf": "1a82ef05a242a4b92f42f7d1983f5cda2b1bd71556a35bb4263c383061c04a2e",
+            "grid_labels": "541a881383666d8147c8c8666db6727c988669b69b4afedc5bc495d624f1fc72"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06698616527029555,
+          "grid_label_changes": 16,
+          "volume_change_ml": -1.0860309585223433,
+          "abs_volume_change_ml": 1.0860309585223433,
+          "surface_distance": {
+            "mean_mm": 0.09356771409511566,
+            "p95_mm": 0.548386812210083,
+            "max_mm": 2.2242190837860107,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8762667910195887,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "56ba07b33123c9b718794e0de796fded0ac950c48fa3f7a1180cc08218f3d731",
+            "interior_sdf": "0d63283cc92073f939922135f56df37184b93277ee30fc51b9164294cb54bb5f",
+            "shell_sdf": "3fdb6b19ae93336c625540a88eb5022832b0fa07867de87218c93da5af0212f8",
+            "grid_labels": "3884a33c06dd6c123f9020aa3b27b78127c454e5753de470cbe7f9e6cc3bde6f"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12439452316633565,
+          "grid_label_changes": 22,
+          "volume_change_ml": 2.865975260665664,
+          "abs_volume_change_ml": 2.865975260665664,
+          "surface_distance": {
+            "mean_mm": 0.20789963006973267,
+            "p95_mm": 0.8962455987930298,
+            "max_mm": 3.184406280517578,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6955507081001997,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "d8ab9f247b4ad684357c42e2c0a8c5c5c74cb58519f2520d918733699567fbc7",
+            "interior_sdf": "e491f0a175d5432e198fa75b65bac312e56b461c704de72702804d2444dcf272",
+            "shell_sdf": "f6a73fa1597390dcc4c0d4e1e5549301ef202e1e5a6907c22a6ac69ccbde68a5",
+            "grid_labels": "fcdbebd2ab0979aa40f72a77c64bca73f63a0fa588d282607b98162400cc4cd6"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.4571356425682704,
+      "pin_minus_seedwise_max_peel_mm": 1.3120864033699036
+    },
+    {
+      "seed": 146,
+      "shell_seed": 10146,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 226.53813546924235,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.1994630562883146,
+          "grid_label_changes": 199,
+          "volume_change_ml": -1.6081959708742488,
+          "abs_volume_change_ml": 1.6081959708742488,
+          "surface_distance": {
+            "mean_mm": 1.2602238655090332,
+            "p95_mm": 3.2306032180786133,
+            "max_mm": 6.160085678100586,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6778322919271886,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "250ff76cc7623783365ccf191f888f31c0d31ca146f8d227bd5b47db110347f2",
+            "interior_sdf": "3257b7112da842ee19601bf919e49f2e7f09d7ec95baaba14cbed023f64868c6",
+            "shell_sdf": "5895c636eaf9d9c91dd4708d1d38d8321db1a140005cbc3f12bd1ab87336bc7b",
+            "grid_labels": "86347a1d2aa3c5e6f03c6efd53a76140e5bfa90c396151b307f34deddfa96400"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13647534327659133,
+          "grid_label_changes": 28,
+          "volume_change_ml": -2.9025447505776185,
+          "abs_volume_change_ml": 2.9025447505776185,
+          "surface_distance": {
+            "mean_mm": 0.1709318608045578,
+            "p95_mm": 0.9333505034446716,
+            "max_mm": 2.1763291358947754,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7458231248892844,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "81ba568127446a6a916a81528d33089e92b09fc760d709b3f7ae6f3d35392a28",
+            "interior_sdf": "ed4cf39957ca046f364078e26762d8da16c777b785c30e322d6c48a5f5520dcc",
+            "shell_sdf": "64523685f0b128eeaf0e3febd745735ae1a41ac2c2028e1f1a0f1ae716942db4",
+            "grid_labels": "9944ea66a99199e3e9590ecf88a1b7ba2129235269fed2429b85cc860d104993"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06711441381075592,
+          "grid_label_changes": 11,
+          "volume_change_ml": -1.3006825126154524,
+          "abs_volume_change_ml": 1.3006825126154524,
+          "surface_distance": {
+            "mean_mm": 0.09148550778627396,
+            "p95_mm": 0.6225884556770325,
+            "max_mm": 2.1763291358947754,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7340377080254257,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "416a08486fce4501ec7df1f2437acd9cce1f4e7b71edd2ee0a3086b3b2742237",
+            "interior_sdf": "8e5b7dcf5d020837aefcfd480f90b7826bc2644cb35641337ae37a33ad2803fb",
+            "shell_sdf": "e1f55ea9750cc980e72456af76f309c1dcfb5c84ad3e516c19bba4e017f2e310",
+            "grid_labels": "04ce1589bdb05bbc921ff474e3ec38c12b895f2e413e955e2c057af017f23036"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.1253351259500185,
+          "grid_label_changes": 28,
+          "volume_change_ml": 1.519516148234203,
+          "abs_volume_change_ml": 1.519516148234203,
+          "surface_distance": {
+            "mean_mm": 0.0985654816031456,
+            "p95_mm": 0.6449129581451416,
+            "max_mm": 1.6348650455474854,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7508164159953594,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "46b7230e56c8f1dab75c3f7b59bb68d4d524c2d967995ecf71840df405d70ed5",
+            "interior_sdf": "3d7de8a958adb43a38261ecdbe7cf3c0121b57f252f8850d32578cf5c4c055ad",
+            "shell_sdf": "ef27c3470a3056215ed6e58b5674bbf900c0d2edf33c3a8ec8d62bd8acaf8025",
+            "grid_labels": "b1dbfb47a0c3dd7d871f962a6a1b76f8ea96ec1973b79395dbeb2997f0895871"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.1398962487777073,
+      "pin_minus_seedwise_max_peel_mm": 1.0892920047044754
+    },
+    {
+      "seed": 147,
+      "shell_seed": 10147,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 226.50031023792022,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.186898993004838,
+          "grid_label_changes": 185,
+          "volume_change_ml": 3.0183450242035974,
+          "abs_volume_change_ml": 3.0183450242035974,
+          "surface_distance": {
+            "mean_mm": 1.5294485092163086,
+            "p95_mm": 4.069934368133545,
+            "max_mm": 6.5063395500183105,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7306026658043265,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "a6d3a2b3993fc1f232c6a29423192e719d006231f6bc2b588a69165739ccd6ab",
+            "interior_sdf": "03387db8a23f9beb4b8c72c100620240b8fe2bf72757ff80ede86e3a4e543d23",
+            "shell_sdf": "7b3a83b545a74e77834cb13f10151e3d19afecce00b91d81814c3b4e5118da33",
+            "grid_labels": "5239256a6ece45eb1bb0af5f8738491ec8b5c5500fc2d0ab3d3f33ada7eba813"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.1350049044779519,
+          "grid_label_changes": 22,
+          "volume_change_ml": -6.3158167423489715,
+          "abs_volume_change_ml": 6.3158167423489715,
+          "surface_distance": {
+            "mean_mm": 0.4448750913143158,
+            "p95_mm": 2.369946002960205,
+            "max_mm": 4.806975841522217,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.763257791986689,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "cd1bc6560569889f5ba665e14cd63f9d489fff2cb02714716ec5f3541682f786",
+            "interior_sdf": "eacb679591c8c6353118e68099c1bd756362846a3408df07f8cf672c39da59cc",
+            "shell_sdf": "dcb23200f00c1fb8d53b199dc5405d828f1eb311f05c0cad139317e4917a06fa",
+            "grid_labels": "0eb695ee4eccd0648d19c813463e199603a52394844a79f1ea0046cffbfbf789"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.0670680350621869,
+          "grid_label_changes": 11,
+          "volume_change_ml": -0.12310484211332096,
+          "abs_volume_change_ml": 0.12310484211332096,
+          "surface_distance": {
+            "mean_mm": 0.0076728761196136475,
+            "p95_mm": 0.015532544814050198,
+            "max_mm": 0.5601571798324585,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.9133115420117974,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "3320c8f2043c397e91e7c462397ed452ef4c6018be9cd7a4303291b4f4546c59",
+            "interior_sdf": "70f0aa3542b3c85030f1f55d7c46ba9c1b0758b812d35544b52fda591d82991e",
+            "shell_sdf": "259bc83a535319cb3322c5d17b32b515febd577aaba08d56f37e3b1453456a61",
+            "grid_labels": "c05218211781f2ff67351b0887a5eff4af6b079b10800ba0b0ff49307c85f07d"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12384578218485265,
+          "grid_label_changes": 22,
+          "volume_change_ml": 3.049460980940154,
+          "abs_volume_change_ml": 3.049460980940154,
+          "surface_distance": {
+            "mean_mm": 0.2647472321987152,
+            "p95_mm": 1.3768365383148193,
+            "max_mm": 2.7039453983306885,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.6956965001299977,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "59b46a1ef9bc1fcf3268538dee781c0513675a09571fd83b8abdb2fb8bb52267",
+            "interior_sdf": "6065f15d16767e51e540977680c7ed5cd0de926ac2848fdcab7abe6fbf553f2e",
+            "shell_sdf": "33507061a74f5727a46cf60506621a5bca7467a0d0935a3a724986fe970036fc",
+            "grid_labels": "23d691f99be8adefe02cf7179a1fc60ba43a0405e0bdf24bc6a86ed942087997"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.2903501093387604,
+      "pin_minus_seedwise_max_peel_mm": 1.0845734179019928
+    },
+    {
+      "seed": 148,
+      "shell_seed": 10148,
+      "original_boundary": {
+        "inside_on_any_grid_face": 0,
+        "inside_by_grid_face": {
+          "xmin": 0,
+          "xmax": 0,
+          "ymin": 0,
+          "ymax": 0,
+          "zmin": 0,
+          "zmax": 0
+        },
+        "mesh_faces_touched": [],
+        "inside_on_any_logical_grid_face": 0
+      },
+      "original_volume_ml": 220.42190117981914,
+      "conditions": {
+        "pin": {
+          "latent_l2": 0.36627525091171265,
+          "mean_abs_sdf_change_mm": 1.193240836138742,
+          "grid_label_changes": 177,
+          "volume_change_ml": 5.251677819510377,
+          "abs_volume_change_ml": 5.251677819510377,
+          "surface_distance": {
+            "mean_mm": 1.4049344062805176,
+            "p95_mm": 3.225525140762329,
+            "max_mm": 4.905915260314941,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7820758330635726,
+          "hashes": {
+            "tensor": "ccd9ad8df8ab4ba460cf837503d7cd7729e168e5b774672ecad4f85252520b93",
+            "latent": "4268221ba5baba3d8297f1cef070583cf69ae6620690289698fcee94c2993c25",
+            "sdf": "99a23c28e104adabc379a0acb0fb80f732deb16e5a6820ae123353aee968a545",
+            "interior_sdf": "59833de136ec21db9ba151037db9141ed3d4fbb02292c7819867cfb1245fa577",
+            "shell_sdf": "430069cc3f893868976c774c97db8a5f37f0533e69e46a25ad5e357ba2b796c5",
+            "grid_labels": "1e90b5eda9a491ded4c67cc6b60afb64cae3c48ad4c79f8c3b94a171e97fc875"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel1": {
+          "latent_l2": 0.050084859132766724,
+          "mean_abs_sdf_change_mm": 0.13586161972489208,
+          "grid_label_changes": 23,
+          "volume_change_ml": -1.2078040287679244,
+          "abs_volume_change_ml": 1.2078040287679244,
+          "surface_distance": {
+            "mean_mm": 0.09090082347393036,
+            "p95_mm": 0.5603145360946655,
+            "max_mm": 1.3487110137939453,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8365613750647753,
+          "hashes": {
+            "tensor": "4426db7f781e83b4a3d0f5679ab5efaf64848db38fe714b159d40e90d9c2aa62",
+            "latent": "59007c4329518cf4e0a6f35abda3491a032387b408ac05898bfffd5c98941904",
+            "sdf": "49c5c65e2039c6a310ae533bd4aa5895839116f55df4466f43733fb3df769576",
+            "interior_sdf": "02290acf38628418f13a51042b469950144a054ba7dd4dfe64f0837a46fee1d6",
+            "shell_sdf": "ed5df31f52950eb325de99e6a46f30c59e83e167cffd8d98a89efeb1c05d3161",
+            "grid_labels": "2d1022bf4050899ef430a4b8444f765648a244bda69a5b4ee0b2e56a9efca82b"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel2": {
+          "latent_l2": 0.015651941299438477,
+          "mean_abs_sdf_change_mm": 0.06720830749772075,
+          "grid_label_changes": 12,
+          "volume_change_ml": -0.9059661041338245,
+          "abs_volume_change_ml": 0.9059661041338245,
+          "surface_distance": {
+            "mean_mm": 0.05529351159930229,
+            "p95_mm": 0.3911493122577667,
+            "max_mm": 1.3487110137939453,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.7073924171272665,
+          "hashes": {
+            "tensor": "184ffe3329bea4f5be7900913d2339c67180f266b4f8217578189c9a6a2c1e99",
+            "latent": "d0ecc1efb388681f2ff6ad430d813bfbf81b4ce660836aac8fda06d2d9ae6d7e",
+            "sdf": "bebb976c21559f3b47c8f1ed2d13d6939a49e981ac08ce1c97530c80d22cc531",
+            "interior_sdf": "e55b408fec5d14568aacfcf3cb2c8c77107118dea9607c20a6effe91e48d6287",
+            "shell_sdf": "5e00affd58eafb99144a3dfaeece04c1a263045367f5065c1f1571949af5b888",
+            "grid_labels": "665815e71f1220f63d615a7ef693f8caaa38daeb7a38d3070bb93d1a93b1102c"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        },
+        "peel3": {
+          "latent_l2": 0.04741377383470535,
+          "mean_abs_sdf_change_mm": 0.12467617017467057,
+          "grid_label_changes": 22,
+          "volume_change_ml": 2.7693915268087608,
+          "abs_volume_change_ml": 2.7693915268087608,
+          "surface_distance": {
+            "mean_mm": 0.25713878870010376,
+            "p95_mm": 1.5862280130386353,
+            "max_mm": 3.4183435440063477,
+            "identical_mesh_arrays": false
+          },
+          "mesh_failure": null,
+          "runtime_seconds": 0.8722703328821808,
+          "hashes": {
+            "tensor": "228f2439177d331a02b767caa7097add504dc5923ca41c23d481fd8a8a361043",
+            "latent": "e42b9fefc8c3aca363b07b6964da57b3bdcffec2c4377140fe6830cfc3e9a19e",
+            "sdf": "e6ce56783301f90611f8b703e626f42795634ee333fc5c3c2ff5e4ee82cc9726",
+            "interior_sdf": "91388c4ca41c2d93058de3b0ade8e6178e6fead2e6882b6587a681662828531c",
+            "shell_sdf": "d3b3385c3c2e73fb0a30446f52bd1177c2b1894266d5875b71950d4663d1f387",
+            "grid_labels": "1e7e8109871f0f7368aa9df79ae9911b47b7f5477ca6ac16c145cb7a23cce5f7"
+          },
+          "boundary": {
+            "inside_on_any_grid_face": 0,
+            "inside_by_grid_face": {
+              "xmin": 0,
+              "xmax": 0,
+              "ymin": 0,
+              "ymax": 0,
+              "zmin": 0,
+              "zmax": 0
+            },
+            "mesh_faces_touched": [],
+            "inside_on_any_logical_grid_face": 0
+          }
+        }
+      },
+      "pin_minus_mean_peel_mm": 1.2704900316894054,
+      "pin_minus_seedwise_max_peel_mm": 1.1477956175804138
+    }
+  ],
+  "summary": {
+    "complete_seed_pairs": 16,
+    "by_condition": {
+      "pin": {
+        "latent_l2": {
+          "n": 16,
+          "median": 0.36627525091171265,
+          "min": 0.36627525091171265,
+          "max": 0.36627525091171265
+        },
+        "mean_abs_sdf_change_mm": {
+          "n": 16,
+          "median": 1.1921160752837616,
+          "min": 1.1862946725019288,
+          "max": 1.2007771616821024
+        },
+        "grid_label_changes": {
+          "n": 16,
+          "median": 188.5,
+          "min": 168,
+          "max": 209
+        },
+        "volume_change_ml": {
+          "n": 16,
+          "median": 2.3363022542944663,
+          "min": -3.4265127326334266,
+          "max": 41.438795126473934
+        },
+        "mean_surface_mm": {
+          "n": 16,
+          "median": 1.2801184058189392,
+          "min": 0.7695258855819702,
+          "max": 2.434217929840088
+        }
+      },
+      "peel1": {
+        "latent_l2": {
+          "n": 16,
+          "median": 0.050084859132766724,
+          "min": 0.050084859132766724,
+          "max": 0.050084859132766724
+        },
+        "mean_abs_sdf_change_mm": {
+          "n": 16,
+          "median": 0.13517650434988793,
+          "min": 0.13427456749249594,
+          "max": 0.13647534327659133
+        },
+        "grid_label_changes": {
+          "n": 16,
+          "median": 22.5,
+          "min": 13,
+          "max": 32
+        },
+        "volume_change_ml": {
+          "n": 16,
+          "median": -2.791082062727952,
+          "min": -6.3158167423489715,
+          "max": 28.977821113654585
+        },
+        "mean_surface_mm": {
+          "n": 16,
+          "median": 0.20151560008525848,
+          "min": 0.072227843105793,
+          "max": 1.7103500366210938
+        }
+      },
+      "peel2": {
+        "latent_l2": {
+          "n": 16,
+          "median": 0.015651941299438477,
+          "min": 0.015651941299438477,
+          "max": 0.015651941299438477
+        },
+        "mean_abs_sdf_change_mm": {
+          "n": 16,
+          "median": 0.06725409687539839,
+          "min": 0.06691799096814874,
+          "max": 0.06750005298117348
+        },
+        "grid_label_changes": {
+          "n": 16,
+          "median": 13.0,
+          "min": 6,
+          "max": 20
+        },
+        "volume_change_ml": {
+          "n": 16,
+          "median": -0.9959985313280839,
+          "min": -4.536818072245694,
+          "max": -0.12310484211332096
+        },
+        "mean_surface_mm": {
+          "n": 16,
+          "median": 0.09252661094069481,
+          "min": 0.0076728761196136475,
+          "max": 0.26396575570106506
+        }
+      },
+      "peel3": {
+        "latent_l2": {
+          "n": 16,
+          "median": 0.04741377383470535,
+          "min": 0.04741377383470535,
+          "max": 0.04741377383470535
+        },
+        "mean_abs_sdf_change_mm": {
+          "n": 16,
+          "median": 0.12472937908508659,
+          "min": 0.12384578218485265,
+          "max": 0.125699193931521
+        },
+        "grid_label_changes": {
+          "n": 16,
+          "median": 25.0,
+          "min": 15,
+          "max": 36
+        },
+        "volume_change_ml": {
+          "n": 16,
+          "median": 1.518546065117505,
+          "min": -0.2341319669021118,
+          "max": 4.390588238295578
+        },
+        "mean_surface_mm": {
+          "n": 16,
+          "median": 0.17987774312496185,
+          "min": 0.02184174582362175,
+          "max": 0.3813960552215576
+        }
+      }
+    },
+    "primary": {
+      "n": 16,
+      "median": 1.087027487034599,
+      "min": 0.6002027044693629,
+      "max": 1.7642902048925557
+    },
+    "strongest_peel": "peel1",
+    "pin_minus_strongest_peel": {
+      "n": 16,
+      "median": 1.0406561307609081,
+      "min": 0.5588095784187317,
+      "max": 1.3140335828065872
+    },
+    "pin_minus_seedwise_max_peel": {
+      "n": 16,
+      "median": 0.9658074826002121,
+      "min": 0.5588095784187317,
+      "max": 1.3120864033699036
+    }
+  },
+  "failure": null
+}

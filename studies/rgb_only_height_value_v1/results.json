@@ -1,0 +1,176 @@
+{
+  "predictions_sha256": "acf08f90850f24f55032a06593917b419433554233ab9f61db15d25296c21651",
+  "per_potato_sha256": "f17f4bb7336ee2658019e6908d89068a1cdae78e5b7a0e521b9f9db2cc433359",
+  "training_input_summary": {
+    "enrolled": 118,
+    "silhouette_usable": 118,
+    "height_usable": 118,
+    "height_failures": {},
+    "height_range_mm": [
+      37.0,
+      73.0
+    ],
+    "valid_fraction_range": [
+      0.922919229192292,
+      0.9981770178526528
+    ]
+  },
+  "validation_input_summary": {
+    "enrolled": 40,
+    "silhouette_usable": 40,
+    "height_usable": 40,
+    "height_failures": {},
+    "height_range_mm": [
+      37.0,
+      80.0
+    ],
+    "valid_fraction_range": [
+      0.9339131625804684,
+      0.9992394473317278
+    ]
+  },
+  "traits": {
+    "weight": {
+      "available": {
+        "mask_only": {
+          "scored": 40,
+          "failed": 0,
+          "mae": 16.019686240249456
+        },
+        "depth_assisted": {
+          "scored": 40,
+          "failed": 0,
+          "mae": 14.184905699207642
+        }
+      },
+      "paired": {
+        "ids": [
+          "2R1-1",
+          "2R1-9",
+          "2R2-1",
+          "3R1-1",
+          "3R1-7",
+          "3R1-8",
+          "3R1-9",
+          "3R3-8",
+          "3R4-10",
+          "3R6-2",
+          "3R6-3",
+          "3R7-10",
+          "4R1-2",
+          "4R3-1",
+          "4R4-10",
+          "4R4-4",
+          "4R4-8",
+          "4R6-1",
+          "4R6-7",
+          "4R8-2",
+          "4R8-3",
+          "4R8-5",
+          "4R8-8",
+          "R1-1",
+          "R1-2",
+          "R1-3",
+          "R10-10",
+          "R11-5",
+          "R3-2",
+          "R4-2",
+          "R4-4",
+          "R4-7",
+          "R5-1",
+          "R5-7",
+          "R5-8",
+          "R5-9",
+          "R6-5",
+          "R8-1",
+          "R9-2",
+          "R9-4"
+        ],
+        "n": 40,
+        "mask_only_mae": 16.019686240249456,
+        "depth_assisted_mae": 14.184905699207642,
+        "mean_change": -1.834780541041816,
+        "interval_95": [
+          -3.156491328288094,
+          -0.5746336599506676
+        ],
+        "wins": 28,
+        "ties": 0,
+        "losses": 12
+      },
+      "target": "weight_g_inctack",
+      "unit": "g"
+    },
+    "volume": {
+      "available": {
+        "mask_only": {
+          "scored": 40,
+          "failed": 0,
+          "mae": 16.994610243271616
+        },
+        "depth_assisted": {
+          "scored": 40,
+          "failed": 0,
+          "mae": 15.115058179286354
+        }
+      },
+      "paired": {
+        "ids": [
+          "2R1-1",
+          "2R1-9",
+          "2R2-1",
+          "3R1-1",
+          "3R1-7",
+          "3R1-8",
+          "3R1-9",
+          "3R3-8",
+          "3R4-10",
+          "3R6-2",
+          "3R6-3",
+          "3R7-10",
+          "4R1-2",
+          "4R3-1",
+          "4R4-10",
+          "4R4-4",
+          "4R4-8",
+          "4R6-1",
+          "4R6-7",
+          "4R8-2",
+          "4R8-3",
+          "4R8-5",
+          "4R8-8",
+          "R1-1",
+          "R1-2",
+          "R1-3",
+          "R10-10",
+          "R11-5",
+          "R3-2",
+          "R4-2",
+          "R4-4",
+          "R4-7",
+          "R5-1",
+          "R5-7",
+          "R5-8",
+          "R5-9",
+          "R6-5",
+          "R8-1",
+          "R9-2",
+          "R9-4"
+        ],
+        "n": 40,
+        "mask_only_mae": 16.994610243271616,
+        "depth_assisted_mae": 15.115058179286354,
+        "mean_change": -1.879552063985263,
+        "interval_95": [
+          -2.9058062684726047,
+          -0.9483581558685117
+        ],
+        "wins": 28,
+        "ties": 0,
+        "losses": 12
+      },
+      "target": "volume_ml",
+      "unit": "mL"
+    }
+  }
+}

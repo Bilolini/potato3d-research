@@ -1,0 +1,19 @@
+{
+  "seed": 527,
+  "methods": [
+    "ellipsoid",
+    "convex",
+    "symmetry"
+  ],
+  "surface_samples": 10000,
+  "thresholds_mm": [
+    2.0,
+    5.0,
+    10.0
+  ],
+  "max_fit_points": 5000,
+  "ellipsoid_subdivisions": 4,
+  "synthetic_points": 2500,
+  "synthetic_noise_mm": 0.0,
+  "bootstrap_replicates": 1000
+}

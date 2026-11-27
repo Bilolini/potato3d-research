@@ -1,0 +1,59 @@
+{
+  "release_file": "3_pair/ground_truth.csv",
+  "source_sha256": "7f7e46ee83c0ce33263515d17b84c794f1f6dbe25aa2c717856e2fae3116229c",
+  "field": "volume_ml",
+  "join_key": "label",
+  "method": "water displacement",
+  "by_tuber": {
+    "R4-10": {
+      "csv_line": 41,
+      "volume_ml": 90.0,
+      "release_value": "90"
+    },
+    "R8-2": {
+      "csv_line": 73,
+      "volume_ml": 55.0,
+      "release_value": "55"
+    },
+    "R10-1": {
+      "csv_line": 92,
+      "volume_ml": 200.0,
+      "release_value": "200"
+    },
+    "R12-7": {
+      "csv_line": 118,
+      "volume_ml": 250.0,
+      "release_value": "250"
+    },
+    "2R2-6": {
+      "csv_line": 148,
+      "volume_ml": 105.0,
+      "release_value": "105"
+    },
+    "2R3-10": {
+      "csv_line": 162,
+      "volume_ml": 220.0,
+      "release_value": "220"
+    },
+    "3R2-10": {
+      "csv_line": 181,
+      "volume_ml": 310.0,
+      "release_value": "310"
+    },
+    "3R5-2": {
+      "csv_line": 202,
+      "volume_ml": 320.0,
+      "release_value": "320"
+    },
+    "5R1-4": {
+      "csv_line": 314,
+      "volume_ml": 200.0,
+      "release_value": "200"
+    },
+    "5R3-1": {
+      "csv_line": 331,
+      "volume_ml": 60.0,
+      "release_value": "60"
+    }
+  }
+}

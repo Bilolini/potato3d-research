@@ -1,0 +1,26 @@
+{
+  "observed": {
+    "inside_pin": 12,
+    "inside_pin_ending_on_pin": 12,
+    "outside_pin": 28,
+    "outside_pin_ending_on_pin": 4
+  },
+  "expected": {
+    "inside_pin": 12,
+    "inside_pin_ending_on_pin": 12,
+    "outside_pin": 28,
+    "outside_pin_ending_on_pin": 4
+  },
+  "observed_minus_expected": {
+    "inside_pin": 0,
+    "inside_pin_ending_on_pin": 0,
+    "outside_pin": 0,
+    "outside_pin_ending_on_pin": 0
+  },
+  "outside_pin_failures": [
+    "4R3-1",
+    "4R8-3",
+    "R10-10",
+    "R6-5"
+  ]
+}

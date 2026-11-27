@@ -1,0 +1,256 @@
+{
+  "stage": "center_only_selection_frozen_before_outcome_join",
+  "code_sha256": {
+    "corepp_volume_rescan.py": "2030317b9bfdb835953bac279ce74e15ff2f870e07f5d30f23e6d89e51909693",
+    "corepp_volume_rescan_protocol.md": "fea025c2a37d510300ab5a03c0538d3131bacf3bae6795c2f90e7cc2c5415597"
+  },
+  "center_roster_sha256": "b57cc7abd3c273ba4e5aea4fbc855c772ab0d11bc15f28bbcaf3dcac9858f330",
+  "dev_manifest_sha256": "8064270270a2d1c776abec7d9b56d0495b2201763994d5693035d7783df32016",
+  "partial_index_sha256": "bd302e6e2940612a0787a67e8c402753a60c5e51fa852cb353c73669212a868e",
+  "points_archive": "1_rgbd/2_pcd.zip",
+  "registration_archive": "3_pair/tmatrix.zip",
+  "belt_depth_mm": 350.0,
+  "budget": 2,
+  "flags": {
+    "disagreement": [
+      "5R3-1",
+      "3R2-10"
+    ],
+    "size": [
+      "3R2-10",
+      "3R5-2"
+    ]
+  },
+  "per_potato": [
+    {
+      "tuber": "5R1-4",
+      "center_frame": "362",
+      "center_ml": 185.5745143437022,
+      "registration_member": "tmatrix/5R1-4.json",
+      "ellipsoid_ml": 195.26767259173678,
+      "disagreement_ml": 9.693158248034592,
+      "fit_failure": null,
+      "partial_member": "2_pcd/5R1-4/5R1-4_pcd_362.ply",
+      "partial_sha256": "fc5164c39292f619234272fafa2cd8c91d27188411760aa8fc0329e8106eed81",
+      "point_count": 20893,
+      "min_height_mm": 35.00000238418579,
+      "max_height_mm": 62.00001239776611,
+      "axes_mm": [
+        57.1907634184885,
+        26.35078255920902,
+        31.000006198883057
+      ],
+      "disagreement_rank": 9,
+      "disagreement_flagged": false,
+      "size_rank": 4,
+      "size_flagged": false
+    },
+    {
+      "tuber": "5R3-1",
+      "center_frame": "360",
+      "center_ml": 90.67687119157992,
+      "registration_member": "tmatrix/5R3-1.json",
+      "ellipsoid_ml": 267.29853652073086,
+      "disagreement_ml": 176.62166532915094,
+      "fit_failure": null,
+      "partial_member": "2_pcd/5R3-1/5R3-1_pcd_360.ply",
+      "partial_sha256": "84e38d47a68cfbc2ca6488a0f19d52f23619aa16986c6f1d929869489a407df4",
+      "point_count": 8294,
+      "min_height_mm": 19.99998688697815,
+      "max_height_mm": 39.99999761581421,
+      "axes_mm": [
+        114.5015609848934,
+        27.925827157804786,
+        19.999998807907104
+      ],
+      "disagreement_rank": 1,
+      "disagreement_flagged": true,
+      "size_rank": 9,
+      "size_flagged": false
+    },
+    {
+      "tuber": "2R2-6",
+      "center_frame": "358",
+      "center_ml": 144.92553448026675,
+      "registration_member": "tmatrix/2R2-6.json",
+      "ellipsoid_ml": 117.87555488740226,
+      "disagreement_ml": 27.04997959286449,
+      "fit_failure": null,
+      "partial_member": "2_pcd/2R2-6/2R2-6_pcd_358.ply",
+      "partial_sha256": "8293b9a1513971994c6af5ea1821970ac25ebad25ef8e5625e24d2d73cbfb1a1",
+      "point_count": 13924,
+      "min_height_mm": 30.9999942779541,
+      "max_height_mm": 53.999996185302734,
+      "axes_mm": [
+        34.33469553877909,
+        30.421292224609708,
+        26.999998092651367
+      ],
+      "disagreement_rank": 4,
+      "disagreement_flagged": false,
+      "size_rank": 7,
+      "size_flagged": false
+    },
+    {
+      "tuber": "2R3-10",
+      "center_frame": "363",
+      "center_ml": 151.29961207233117,
+      "registration_member": "tmatrix/2R3-10.json",
+      "ellipsoid_ml": 129.73674262629675,
+      "disagreement_ml": 21.562869446034426,
+      "fit_failure": null,
+      "partial_member": "2_pcd/2R3-10/2R3-10_pcd_363.ply",
+      "partial_sha256": "0ac5bd9be50ee7392cc6d890ed3546760c2f048f9171079d85b8bb2a708e1662",
+      "point_count": 13915,
+      "min_height_mm": 28.999990224838257,
+      "max_height_mm": 56.00000023841858,
+      "axes_mm": [
+        36.68081008601111,
+        30.22156011507493,
+        28.00000011920929
+      ],
+      "disagreement_rank": 6,
+      "disagreement_flagged": false,
+      "size_rank": 6,
+      "size_flagged": false
+    },
+    {
+      "tuber": "R4-10",
+      "center_frame": "352",
+      "center_ml": 91.11888472902984,
+      "registration_member": "tmatrix/R4-10.json",
+      "ellipsoid_ml": 68.55657672455872,
+      "disagreement_ml": 22.56230800447112,
+      "fit_failure": null,
+      "partial_member": "2_pcd/R4-10/R4-10_pcd_352.ply",
+      "partial_sha256": "8d30beaa2d1e0998ef6a9405051261388f5fc166882e17aaba42ca16bd050be9",
+      "point_count": 8554,
+      "min_height_mm": 32.00001120567322,
+      "max_height_mm": 51.00000500679016,
+      "axes_mm": [
+        29.58563158817,
+        21.740969034174107,
+        25.50000250339508
+      ],
+      "disagreement_rank": 5,
+      "disagreement_flagged": false,
+      "size_rank": 8,
+      "size_flagged": false
+    },
+    {
+      "tuber": "R8-2",
+      "center_frame": "350",
+      "center_ml": 73.2263429376435,
+      "registration_member": "tmatrix/R8-2.json",
+      "ellipsoid_ml": 60.34731838078649,
+      "disagreement_ml": 12.879024556857004,
+      "fit_failure": null,
+      "partial_member": "2_pcd/R8-2/R8-2_pcd_350.ply",
+      "partial_sha256": "832b5421f4c626fdc6d84fa46ecda77eeeb87831bbad864825913716c58075fe",
+      "point_count": 7628,
+      "min_height_mm": 28.999990224838257,
+      "max_height_mm": 53.000009059906006,
+      "axes_mm": [
+        25.159469839429157,
+        21.655159391921952,
+        26.500004529953003
+      ],
+      "disagreement_rank": 8,
+      "disagreement_flagged": false,
+      "size_rank": 10,
+      "size_flagged": false
+    },
+    {
+      "tuber": "R10-1",
+      "center_frame": "362",
+      "center_ml": 162.40188952334321,
+      "registration_member": "tmatrix/R10-1.json",
+      "ellipsoid_ml": 183.73464195633517,
+      "disagreement_ml": 21.332752432991953,
+      "fit_failure": null,
+      "partial_member": "2_pcd/R10-1/R10-1_pcd_362.ply",
+      "partial_sha256": "357083b860b29e276d8934a21a7fff30654dc9e009cd295f61fe7c8f0c62c829",
+      "point_count": 18063,
+      "min_height_mm": 32.999998331069946,
+      "max_height_mm": 60.999995470047,
+      "axes_mm": [
+        43.845322765781184,
+        32.87144613719444,
+        30.4999977350235
+      ],
+      "disagreement_rank": 7,
+      "disagreement_flagged": false,
+      "size_rank": 5,
+      "size_flagged": false
+    },
+    {
+      "tuber": "R12-7",
+      "center_frame": "353",
+      "center_ml": 266.76571501595924,
+      "registration_member": "tmatrix/R12-7.json",
+      "ellipsoid_ml": 217.61414416788378,
+      "disagreement_ml": 49.151570848075465,
+      "fit_failure": null,
+      "partial_member": "2_pcd/R12-7/R12-7_pcd_353.ply",
+      "partial_sha256": "765e479b9e7084ec0073dc608a1e4404a754258162a9a55441d5c6c8a201a8ae",
+      "point_count": 22910,
+      "min_height_mm": 30.000007152557373,
+      "max_height_mm": 58.99999141693115,
+      "axes_mm": [
+        48.83175774432356,
+        36.14212231110692,
+        29.499995708465576
+      ],
+      "disagreement_rank": 3,
+      "disagreement_flagged": false,
+      "size_rank": 3,
+      "size_flagged": false
+    },
+    {
+      "tuber": "3R2-10",
+      "center_frame": "367",
+      "center_ml": 356.0120416306329,
+      "registration_member": "tmatrix/3R2-10.json",
+      "ellipsoid_ml": 258.7731087906241,
+      "disagreement_ml": 97.23893284000877,
+      "fit_failure": null,
+      "partial_member": "2_pcd/3R2-10/3R2-10_pcd_367.ply",
+      "partial_sha256": "e5396046b9117a37207f363cf6842d108bf60a7e340f258b8fe19a93b600b948",
+      "point_count": 27285,
+      "min_height_mm": 32.999998331069946,
+      "max_height_mm": 62.00001239776611,
+      "axes_mm": [
+        54.68420017553865,
+        36.52130941630764,
+        31.000006198883057
+      ],
+      "disagreement_rank": 2,
+      "disagreement_flagged": true,
+      "size_rank": 1,
+      "size_flagged": true
+    },
+    {
+      "tuber": "3R5-2",
+      "center_frame": "359",
+      "center_ml": 294.2286770587083,
+      "registration_member": "tmatrix/3R5-2.json",
+      "ellipsoid_ml": 297.7423924897342,
+      "disagreement_ml": 3.5137154310259007,
+      "fit_failure": null,
+      "partial_member": "2_pcd/3R5-2/3R5-2_pcd_359.ply",
+      "partial_sha256": "e62234e57a6c02ba1c6620d404ad422fdd5b3d815ff183bce5e74f52ae2058d7",
+      "point_count": 28444,
+      "min_height_mm": 32.00001120567322,
+      "max_height_mm": 67.99999475479126,
+      "axes_mm": [
+        59.68962787685743,
+        35.1005370023121,
+        33.99999737739563
+      ],
+      "disagreement_rank": 10,
+      "disagreement_flagged": false,
+      "size_rank": 2,
+      "size_flagged": true
+    }
+  ]
+}

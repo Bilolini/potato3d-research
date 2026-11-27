@@ -1,0 +1,662 @@
+[
+  {
+    "object_id": "lab16",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.7237796737917943,
+        -0.38737941297358464,
+        0.5710343021308659,
+        -0.2779683364992799
+      ],
+      [
+        -0.6874350782020026,
+        -0.47651414842543677,
+        0.5480577338271839,
+        -0.21975111971889902
+      ],
+      [
+        0.059799640995995954,
+        -0.7892220579498672,
+        -0.6111894519558791,
+        0.2837836909982274
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 2,
+      "kept_points": 20232,
+      "raw_valid_points": 20234,
+      "retained_fraction": 0.9999011564693091,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "depth": "6e38b6ea779bb48840b17a5add1763f04f474fadd37e0ebd743cc8aac3c33310",
+      "mask": "51318052de613ba9fab4bdfb12ebc15e8dd9e35090eea3a2dcf03b782a3e4594",
+      "pose": "fa56f7196824e390f505372165da9ff26c26254d5d53e17be2b55d36e6a48a33"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab17",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.6672605638334838,
+        -0.3983723246894792,
+        0.6293352293286317,
+        -0.239906217512918
+      ],
+      [
+        -0.7373894271022787,
+        -0.4724126480385575,
+        0.48278682953346025,
+        -0.2061266870923095
+      ],
+      [
+        0.10497701058038364,
+        -0.7862097562957988,
+        -0.6089778701684547,
+        0.27304512255836594
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 2,
+      "kept_points": 27002,
+      "raw_valid_points": 27005,
+      "retained_fraction": 0.9998889094612109,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "depth": "7861b5797216f3fcc5e569530786fe2e80dc7ffb503aa9202dcd9794ffdf15b6",
+      "mask": "8e9e0849712c86a2578ca9d722d1b57e40352a2616a9a8ce9a04615afa8ca584",
+      "pose": "95612ed0ddc436971c8edb060613c567bc1aa0ab5fb33063375259a822b594a9"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab29",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.7658039823510986,
+        -0.17012225290236385,
+        0.6201634298171929,
+        -0.1911090514343882
+      ],
+      [
+        -0.6294032623368409,
+        -0.3960740062725313,
+        0.6685633215447667,
+        -0.2999206413580978
+      ],
+      [
+        0.1318931157223263,
+        -0.9023213400018043,
+        -0.41039055228209825,
+        0.07996081940814122
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 6,
+      "kept_points": 45044,
+      "raw_valid_points": 45090,
+      "retained_fraction": 0.9989798181414948,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "depth": "e6be440f23529538c367929c6dee39a1c7c363da64d4d3dafd60edc8a8096250",
+      "mask": "42df557c8f97dd23f50e515c9320d3f9d6bcb53cf3bd3c744a1d7ff2a0b62bae",
+      "pose": "3e7038633b84fa17f7e1c1f5a224ac7014b5f1d8032b5fb3d22d0ff019bedf31"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab30",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.6964082902258804,
+        -0.20530446410526532,
+        0.6876522161115428,
+        -0.2723161261752512
+      ],
+      [
+        -0.7057487504907153,
+        -0.36967843953762614,
+        0.6043645857607979,
+        -0.29989775099741806
+      ],
+      [
+        0.1301314507928847,
+        -0.9061942001356423,
+        -0.402340499024227,
+        0.10465736037043068
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 3,
+      "kept_points": 23247,
+      "raw_valid_points": 23265,
+      "retained_fraction": 0.9992263056092844,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "depth": "e150f14ffba8ef6e5586324da050e8424b918e89b9733920fd7fd43f5f74ad42",
+      "mask": "aeedb592341db635ac3ac831b65112cb2a35993756dc820a165d255f210b5001",
+      "pose": "e9071ce200a2dfaa881856afe0858223afb658e4a098a8e0c1ec156884498d9e"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab32",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.7717758286767298,
+        -0.21827082046936475,
+        0.5972603445751088,
+        -0.26259329385162516
+      ],
+      [
+        -0.6343088790799314,
+        -0.3305427458549628,
+        0.6988517289690436,
+        -0.2825336362286482
+      ],
+      [
+        0.044881134017630164,
+        -0.9182044119335802,
+        -0.3935560210630746,
+        0.11301502438746418
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 7,
+      "kept_points": 30810,
+      "raw_valid_points": 30857,
+      "retained_fraction": 0.9984768448002074,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "depth": "bb046f449ccc9b01aa2711b804de5bd65ae7a5767e2836fe19a824274b428706",
+      "mask": "40409eb60516e1eb5ee8dc82fa5990374b3bfd40992c6837f67769e43ec827cd",
+      "pose": "6ce489063d53d7e39c856c45405650adf89ad15d035e8a4d199ffbcca90f0ca2"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab45",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.7729424757698725,
+        -0.2169023728425697,
+        0.5962493520382244,
+        -0.19347665462914895
+      ],
+      [
+        -0.6251661211498042,
+        -0.42075797805911075,
+        0.6573659900436878,
+        -0.3108441417678902
+      ],
+      [
+        0.10829242871617745,
+        -0.8808609904831028,
+        -0.4608217283591123,
+        0.12368738536254308
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 1,
+      "kept_points": 30150,
+      "raw_valid_points": 30150,
+      "retained_fraction": 1.0,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "depth": "6770e062636a00bee26040a3d607f4e46968ccb9556565c99eca5fef314e2d14",
+      "mask": "f5984d4a53619109abbf35aa8147d45547b1ac199d676820c6787dca884b4dc0",
+      "pose": "08af829e1fcfc7010c82520aba9560b7f85b85bfd4b425da47373494d175baa2"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab48",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.8398973231156573,
+        -0.19537096837722046,
+        0.5063621938281909,
+        -0.13020260842667158
+      ],
+      [
+        -0.5291965650422884,
+        -0.5019481728784652,
+        0.6841045441242234,
+        -0.32406695305846056
+      ],
+      [
+        0.12051341074998549,
+        -0.8425427089823511,
+        -0.5249745721176288,
+        0.13395483412238776
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 6,
+      "kept_points": 40976,
+      "raw_valid_points": 40991,
+      "retained_fraction": 0.999634066014491,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "77748260c17cb9681e91d0ebf9eff7998293db9e196739feb71546a15f2e52d0",
+      "depth": "73645ba13461f49e6f1d80ff2f2c329e898cb444ccd70e68d6ca097a202f4c39",
+      "mask": "e60fd2784fb1dd859eadec24920b0373641e9260174e667179d717fa9dc9f931",
+      "pose": "d15fd540a5b964f63c583395a69ade3f9592445644ab0215859636daa7f3fa4b"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab62",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.812898104848157,
+        -0.1836116981618858,
+        0.5527055413440167,
+        -0.3171588109895974
+      ],
+      [
+        -0.5733994771849892,
+        -0.4185644437288672,
+        0.7042846342281817,
+        -0.35698399075150805
+      ],
+      [
+        0.1020279897785619,
+        -0.8894327128816728,
+        -0.4455330947950929,
+        0.13645231715979902
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 1,
+      "kept_points": 16661,
+      "raw_valid_points": 16661,
+      "retained_fraction": 1.0,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "depth": "4f3399d79660cdab1174a0a810626eb8f7f786740ab447e63179d55ed1041aed",
+      "mask": "10003cb1754609a3bdead1db8b780a84f1502cbbd1a9db2e991cdd1241fe5513",
+      "pose": "43f58036f63650fe6b05efd4d283654635540696d5ad41cb741abb719ed98ef2"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab63",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.7395646589903949,
+        -0.22276246780475262,
+        0.6351543104710514,
+        -0.2216237837817175
+      ],
+      [
+        -0.6618666048997481,
+        -0.4122567452273103,
+        0.6260806444325407,
+        -0.3907667826141591
+      ],
+      [
+        0.12237937935330968,
+        -0.8834145453591544,
+        -0.45232955746554737,
+        0.18935291249802313
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 6,
+      "kept_points": 27806,
+      "raw_valid_points": 27822,
+      "retained_fraction": 0.9994249155344691,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "depth": "a3942c54121a4b1ddd7862bb2e98ecfd5133dd443418bf3a2fad0743ecce08aa",
+      "mask": "f90e131e6c5dc1ace446c58d19a7e47de038b47708bf2ceb20c5daf16bb9d69a",
+      "pose": "d35d54b56a72fa190843bdba80e016553a3f9f59088569a48792348fef7181c0"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab76",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.947000153960497,
+        -0.14786755761692086,
+        0.28517695173909463,
+        -0.2750790649083965
+      ],
+      [
+        -0.32076486744854815,
+        -0.3873651345112926,
+        0.8643252584390688,
+        -0.47283979671211246
+      ],
+      [
+        -0.017338056682064503,
+        -0.9099908999377161,
+        -0.4142655595400545,
+        0.1394332072549995
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 2,
+      "kept_points": 16994,
+      "raw_valid_points": 16995,
+      "retained_fraction": 0.9999411591644601,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "depth": "5cc3a6f4eb4faa04d0e1043937a23b02b482f1483fe45474407bf7ad438cc60a",
+      "mask": "c373c3916a52079a8934e37e6b56e18e6dec25c39a95f73d39e6d08ea058d8ad",
+      "pose": "9f7e6a02e911ee35a6a750b86f6a8ab66a56fd16a1a2a4d38d41520de6a77c8d"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab77",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.8281176403493062,
+        -0.3298375761321009,
+        0.4532420403201778,
+        -0.24347967872300105
+      ],
+      [
+        -0.5582191114368203,
+        -0.41151764277500386,
+        0.7204475368211022,
+        -0.307338661819874
+      ],
+      [
+        -0.05111357323632127,
+        -0.8496236832011009,
+        -0.524906657963882,
+        0.1824738386591462
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 1,
+      "kept_points": 27960,
+      "raw_valid_points": 27960,
+      "retained_fraction": 1.0,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "depth": "a3481a6cf9572be1759c800ebeb41938eb6a9895eb0f0a740dfc4982931ef35c",
+      "mask": "89e6e446d0bdc78fff0566d80b21de33b68e60890a465e1099d7e99abcc3a9de",
+      "pose": "394ca2a77ddb823536b076c5d293b71c87fcea689d8a2353da1f7d47905742f0"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  },
+  {
+    "object_id": "lab90",
+    "frame_id": "00001",
+    "mask_values": [
+      0,
+      1
+    ],
+    "depth_shape": [
+      720,
+      1280
+    ],
+    "camera_to_canonical_m": [
+      [
+        0.8497035123636679,
+        -0.22530853913425097,
+        0.4766969721636982,
+        -0.20447077454014076
+      ],
+      [
+        -0.5251581804011393,
+        -0.44230776908294045,
+        0.7270300701942369,
+        -0.39538368353628817
+      ],
+      [
+        0.047040691264182366,
+        -0.8681013187422669,
+        -0.49415308737609487,
+        0.19724485340833445
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "component_audit": {
+      "components": 1,
+      "kept_points": 18615,
+      "raw_valid_points": 18615,
+      "retained_fraction": 1.0,
+      "neighbor_jump_mm": 10.0,
+      "connectivity": 4,
+      "minimum_points": 100
+    },
+    "input_sha256": {
+      "intrinsic": "e5cbdffde2ba063df3f6980593908757431d805a3c2e3f8d6d05687b46fa571d",
+      "depth": "55b238caa54c724be2555f50547c21e2957a55eb55f5802ddd11f02d698e6c04",
+      "mask": "ae9b8c0380f466db2399583ea5e8032512a9979a5828bc4bc29a73022832239c",
+      "pose": "1b664c064ae5af971da58a2c52ed40d5a0c5b621c4785c4e30475c809f6a8376"
+    },
+    "units": "source depth and pose translation m; canonical output mm",
+    "alignment": "provided pose only; no reference geometry accessed"
+  }
+]

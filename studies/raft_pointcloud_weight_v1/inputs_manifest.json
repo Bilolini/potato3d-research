@@ -1,0 +1,3107 @@
+{
+  "frame_manifest_sha256": "8e7c2dfc90c3ea5721a66406e1bbdb6b6c15d3fabf2ab6476f44377a5e05402a",
+  "dataset_sha256": "2dbba05e3608a620da2a86d00cc8e34081f5844307f5aeb7abdc26f8311a791c",
+  "raw_payload_archives": [
+    "data/raw/3DPotatoTwin/1_rgbd/1_images/1R-A.zip",
+    "data/raw/3DPotatoTwin/1_rgbd/1_images/1R-B.zip",
+    "data/raw/3DPotatoTwin/1_rgbd/1_images/2R.zip",
+    "data/raw/3DPotatoTwin/1_rgbd/1_images/3R.zip",
+    "data/raw/3DPotatoTwin/1_rgbd/1_images/4R.zip",
+    "data/raw/3DPotatoTwin/1_rgbd/2_pcd.zip"
+  ],
+  "poses": "cached RGB-D relative-to-center, composed and replayed",
+  "elapsed_s": 19.13090341700081,
+  "entries": [
+    {
+      "tuber": "2R1-11",
+      "split": "train",
+      "error": null,
+      "input_index": 0,
+      "arms": {
+        "center": {
+          "area_mm2": 2315.30335303973,
+          "height_mm": 65.99999070167542,
+          "proxy_cm3": 152.8099997721801,
+          "voxels": 3392
+        },
+        "fused": {
+          "area_mm2": 2566.688525098307,
+          "height_mm": 65.72471628798269,
+          "proxy_cm3": 168.69487511170695,
+          "voxels": 7673
+        }
+      },
+      "wall_s": 0.18146954199983156
+    },
+    {
+      "tuber": "2R1-2",
+      "split": "train",
+      "error": null,
+      "input_index": 1,
+      "arms": {
+        "center": {
+          "area_mm2": 4576.815499425596,
+          "height_mm": 72.00000286102295,
+          "proxy_cm3": 329.53072905301707,
+          "voxels": 6231
+        },
+        "fused": {
+          "area_mm2": 4824.724696787156,
+          "height_mm": 72.28063602748432,
+          "proxy_cm3": 348.7341697412871,
+          "voxels": 14545
+        }
+      },
+      "wall_s": 0.14489079200211563
+    },
+    {
+      "tuber": "2R1-4",
+      "split": "train",
+      "error": null,
+      "input_index": 2,
+      "arms": {
+        "center": {
+          "area_mm2": 4822.974615350914,
+          "height_mm": 63.99998664855957,
+          "proxy_cm3": 308.6703109888002,
+          "voxels": 6492
+        },
+        "fused": {
+          "area_mm2": 4998.4556269570785,
+          "height_mm": 63.99998664855957,
+          "proxy_cm3": 319.90109338867046,
+          "voxels": 15225
+        }
+      },
+      "wall_s": 0.14558383300027344
+    },
+    {
+      "tuber": "2R1-5",
+      "split": "train",
+      "error": null,
+      "input_index": 3,
+      "arms": {
+        "center": {
+          "area_mm2": 4295.87972684582,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 227.681664443095,
+          "voxels": 5499
+        },
+        "fused": {
+          "area_mm2": 4596.160492780432,
+          "height_mm": 52.573367765122725,
+          "proxy_cm3": 241.63563589447335,
+          "voxels": 12972
+        }
+      },
+      "wall_s": 0.13456049999876996
+    },
+    {
+      "tuber": "2R1-6",
+      "split": "train",
+      "error": null,
+      "input_index": 4,
+      "arms": {
+        "center": {
+          "area_mm2": 2884.280543048441,
+          "height_mm": 51.00000500679016,
+          "proxy_cm3": 147.0983221364579,
+          "voxels": 3935
+        },
+        "fused": {
+          "area_mm2": 3064.8831726446774,
+          "height_mm": 50.78251509567889,
+          "proxy_cm3": 155.64247598132056,
+          "voxels": 9593
+        }
+      },
+      "wall_s": 0.12577704200157314
+    },
+    {
+      "tuber": "2R1-8",
+      "split": "train",
+      "error": null,
+      "input_index": 5,
+      "arms": {
+        "center": {
+          "area_mm2": 2972.9945032353335,
+          "height_mm": 49.000000953674316,
+          "proxy_cm3": 145.67673349379984,
+          "voxels": 4068
+        },
+        "fused": {
+          "area_mm2": 3146.6723821948176,
+          "height_mm": 48.36977119188401,
+          "proxy_cm3": 152.20382314258393,
+          "voxels": 9539
+        }
+      },
+      "wall_s": 0.12079033400004846
+    },
+    {
+      "tuber": "2R2-2",
+      "split": "train",
+      "error": null,
+      "input_index": 6,
+      "arms": {
+        "center": {
+          "area_mm2": 3760.0844093897513,
+          "height_mm": 56.99998736381531,
+          "proxy_cm3": 214.32476382209478,
+          "voxels": 4971
+        },
+        "fused": {
+          "area_mm2": 4085.3972649703637,
+          "height_mm": 56.856490310489846,
+          "proxy_cm3": 232.2813500102892,
+          "voxels": 11005
+        }
+      },
+      "wall_s": 0.13350891699883505
+    },
+    {
+      "tuber": "2R2-3",
+      "split": "train",
+      "error": null,
+      "input_index": 7,
+      "arms": {
+        "center": {
+          "area_mm2": 4426.5066709724815,
+          "height_mm": 62.50000596046448,
+          "proxy_cm3": 276.6566933198159,
+          "voxels": 5934
+        },
+        "fused": {
+          "area_mm2": 4801.717929587486,
+          "height_mm": 62.81692587344372,
+          "proxy_cm3": 301.6291592480828,
+          "voxels": 13458
+        }
+      },
+      "wall_s": 0.14047187499818392
+    },
+    {
+      "tuber": "2R2-5",
+      "split": "train",
+      "error": null,
+      "input_index": 8,
+      "arms": {
+        "center": {
+          "area_mm2": 2863.3975879738673,
+          "height_mm": 48.00001382827759,
+          "proxy_cm3": 137.44312381860232,
+          "voxels": 3798
+        },
+        "fused": {
+          "area_mm2": 3028.5728947377806,
+          "height_mm": 48.153782879017626,
+          "proxy_cm3": 145.837241606481,
+          "voxels": 8904
+        }
+      },
+      "wall_s": 0.123569082999893
+    },
+    {
+      "tuber": "2R2-7",
+      "split": "train",
+      "error": null,
+      "input_index": 9,
+      "arms": {
+        "center": {
+          "area_mm2": 4950.045050189339,
+          "height_mm": 60.00000834465027,
+          "proxy_cm3": 297.0027443177551,
+          "voxels": 6506
+        },
+        "fused": {
+          "area_mm2": 5179.119071084874,
+          "height_mm": 60.00000834465027,
+          "proxy_cm3": 310.7471874830298,
+          "voxels": 14659
+        }
+      },
+      "wall_s": 0.14776229099879856
+    },
+    {
+      "tuber": "2R2-9",
+      "split": "train",
+      "error": null,
+      "input_index": 10,
+      "arms": {
+        "center": {
+          "area_mm2": 4219.184209003466,
+          "height_mm": 62.00001239776611,
+          "proxy_cm3": 261.5894732666739,
+          "voxels": 5714
+        },
+        "fused": {
+          "area_mm2": 4491.038207877812,
+          "height_mm": 61.6983071464478,
+          "proxy_cm3": 277.0894547560777,
+          "voxels": 13378
+        }
+      },
+      "wall_s": 0.1396407909996924
+    },
+    {
+      "tuber": "3R1-10",
+      "split": "train",
+      "error": null,
+      "input_index": 11,
+      "arms": {
+        "center": {
+          "area_mm2": 1828.5287563964287,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 84.11234066840007,
+          "voxels": 2557
+        },
+        "fused": {
+          "area_mm2": 2057.866535382306,
+          "height_mm": 45.59388039658205,
+          "proxy_cm3": 93.82612068634955,
+          "voxels": 6500
+        }
+      },
+      "wall_s": 0.10875624999971478
+    },
+    {
+      "tuber": "3R1-2",
+      "split": "train",
+      "error": null,
+      "input_index": 12,
+      "arms": {
+        "center": {
+          "area_mm2": 3086.659541035005,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 141.9863690602065,
+          "voxels": 4047
+        },
+        "fused": {
+          "area_mm2": 3383.841395413658,
+          "height_mm": 45.884298095896156,
+          "proxy_cm3": 155.2651872963935,
+          "voxels": 9335
+        }
+      },
+      "wall_s": 0.1465699999971548
+    },
+    {
+      "tuber": "3R1-3",
+      "split": "train",
+      "error": null,
+      "input_index": 13,
+      "arms": {
+        "center": {
+          "area_mm2": 4329.989495757007,
+          "height_mm": 46.99999690055847,
+          "proxy_cm3": 203.50949288003008,
+          "voxels": 5621
+        },
+        "fused": {
+          "area_mm2": 4512.122579113907,
+          "height_mm": 46.53328290069112,
+          "proxy_cm3": 209.96387645650347,
+          "voxels": 12637
+        }
+      },
+      "wall_s": 0.13841708399922936
+    },
+    {
+      "tuber": "3R1-4",
+      "split": "train",
+      "error": null,
+      "input_index": 14,
+      "arms": {
+        "center": {
+          "area_mm2": 1742.0681613747042,
+          "height_mm": 39.00001049041748,
+          "proxy_cm3": 67.94067656863575,
+          "voxels": 2641
+        },
+        "fused": {
+          "area_mm2": 2149.9182678940124,
+          "height_mm": 38.791918511833785,
+          "proxy_cm3": 83.39945425524738,
+          "voxels": 6774
+        }
+      },
+      "wall_s": 0.11276879100114456
+    },
+    {
+      "tuber": "3R1-5",
+      "split": "train",
+      "error": null,
+      "input_index": 15,
+      "arms": {
+        "center": {
+          "area_mm2": 2504.0545845778734,
+          "height_mm": 41.000014543533325,
+          "proxy_cm3": 102.6662743854941,
+          "voxels": 3437
+        },
+        "fused": {
+          "area_mm2": 2553.9548051599163,
+          "height_mm": 40.16130159055143,
+          "proxy_cm3": 102.57014917866542,
+          "voxels": 7718
+        }
+      },
+      "wall_s": 0.11652737500116928
+    },
+    {
+      "tuber": "3R3-1",
+      "split": "train",
+      "error": null,
+      "input_index": 16,
+      "arms": {
+        "center": {
+          "area_mm2": 5351.566580416047,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 315.7423823116824,
+          "voxels": 7273
+        },
+        "fused": {
+          "area_mm2": 5576.409582133153,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 329.0081174831486,
+          "voxels": 15731
+        }
+      },
+      "wall_s": 0.1548407500013127
+    },
+    {
+      "tuber": "3R3-10",
+      "split": "train",
+      "error": null,
+      "input_index": 17,
+      "arms": {
+        "center": {
+          "area_mm2": 2969.9235966516244,
+          "height_mm": 37.000006437301636,
+          "proxy_cm3": 109.88719219440412,
+          "voxels": 3941
+        },
+        "fused": {
+          "area_mm2": 3056.069151810621,
+          "height_mm": 37.000006437301636,
+          "proxy_cm3": 113.07457828983193,
+          "voxels": 8690
+        }
+      },
+      "wall_s": 0.11902950000148849
+    },
+    {
+      "tuber": "3R3-5",
+      "split": "train",
+      "error": null,
+      "input_index": 18,
+      "arms": {
+        "center": {
+          "area_mm2": 5574.3886678463,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 328.88888355757,
+          "voxels": 7032
+        },
+        "fused": {
+          "area_mm2": 6230.523883914591,
+          "height_mm": 59.12138694622956,
+          "proxy_cm3": 368.3572134186396,
+          "voxels": 15625
+        }
+      },
+      "wall_s": 0.1567545420002716
+    },
+    {
+      "tuber": "3R3-6",
+      "split": "train",
+      "error": null,
+      "input_index": 19,
+      "arms": {
+        "center": {
+          "area_mm2": 4948.726968203239,
+          "height_mm": 55.00001311302185,
+          "proxy_cm3": 272.180048143943,
+          "voxels": 6440
+        },
+        "fused": {
+          "area_mm2": 5058.521027616165,
+          "height_mm": 54.652799501732034,
+          "proxy_cm3": 276.46233549760177,
+          "voxels": 13728
+        }
+      },
+      "wall_s": 0.14327699999921606
+    },
+    {
+      "tuber": "3R3-9",
+      "split": "train",
+      "error": null,
+      "input_index": 20,
+      "arms": {
+        "center": {
+          "area_mm2": 4921.711409655276,
+          "height_mm": 49.72320592829158,
+          "proxy_cm3": 244.7232699419115,
+          "voxels": 6536
+        },
+        "fused": {
+          "area_mm2": 5291.153323310828,
+          "height_mm": 49.12360633224972,
+          "proxy_cm3": 259.92053289789595,
+          "voxels": 14475
+        }
+      },
+      "wall_s": 0.14305199999944307
+    },
+    {
+      "tuber": "3R4-1",
+      "split": "train",
+      "error": null,
+      "input_index": 21,
+      "arms": {
+        "center": {
+          "area_mm2": 3273.6166222013285,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 170.2280385982653,
+          "voxels": 4383
+        },
+        "fused": {
+          "area_mm2": 3447.5430885718556,
+          "height_mm": 51.479614771763124,
+          "proxy_cm3": 177.47819010873357,
+          "voxels": 9203
+        }
+      },
+      "wall_s": 0.12655304199870443
+    },
+    {
+      "tuber": "3R4-6",
+      "split": "train",
+      "error": null,
+      "input_index": 22,
+      "arms": {
+        "center": {
+          "area_mm2": 1759.5070552792515,
+          "height_mm": 49.000000953674316,
+          "proxy_cm3": 86.21584738668003,
+          "voxels": 2424
+        },
+        "fused": {
+          "area_mm2": 2074.2279158084148,
+          "height_mm": 48.055225884456945,
+          "proxy_cm3": 99.67749103001971,
+          "voxels": 6120
+        }
+      },
+      "wall_s": 0.11184020799919381
+    },
+    {
+      "tuber": "3R4-7",
+      "split": "train",
+      "error": null,
+      "input_index": 23,
+      "arms": {
+        "center": {
+          "area_mm2": 4881.735669838922,
+          "height_mm": 70.99998593330383,
+          "proxy_cm3": 346.603163888671,
+          "voxels": 6528
+        },
+        "fused": {
+          "area_mm2": 5255.483052129889,
+          "height_mm": 70.88753060908914,
+          "proxy_cm3": 372.54821572340677,
+          "voxels": 14680
+        }
+      },
+      "wall_s": 0.1501822499994887
+    },
+    {
+      "tuber": "3R4-8",
+      "split": "train",
+      "error": null,
+      "input_index": 24,
+      "arms": {
+        "center": {
+          "area_mm2": 3282.23626455688,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 193.6519114371961,
+          "voxels": 4423
+        },
+        "fused": {
+          "area_mm2": 3561.36253568222,
+          "height_mm": 58.43731089891389,
+          "proxy_cm3": 208.1164497214062,
+          "voxels": 10407
+        }
+      },
+      "wall_s": 0.1295012910013611
+    },
+    {
+      "tuber": "3R5-3",
+      "split": "train",
+      "error": null,
+      "input_index": 25,
+      "arms": {
+        "center": {
+          "area_mm2": 4155.662242937721,
+          "height_mm": 56.00000023841858,
+          "proxy_cm3": 232.7170865952995,
+          "voxels": 5398
+        },
+        "fused": {
+          "area_mm2": 4360.231629268171,
+          "height_mm": 55.792959716542896,
+          "proxy_cm3": 243.27022764655527,
+          "voxels": 11786
+        }
+      },
+      "wall_s": 0.1415575840001111
+    },
+    {
+      "tuber": "3R5-4",
+      "split": "train",
+      "error": null,
+      "input_index": 26,
+      "arms": {
+        "center": {
+          "area_mm2": 3763.028790032472,
+          "height_mm": 53.48500281572342,
+          "proxy_cm3": 201.26560543053506,
+          "voxels": 5143
+        },
+        "fused": {
+          "area_mm2": 3957.412546348554,
+          "height_mm": 53.018550866417115,
+          "proxy_cm3": 209.8162783879781,
+          "voxels": 11402
+        }
+      },
+      "wall_s": 0.13861870899927453
+    },
+    {
+      "tuber": "3R5-7",
+      "split": "train",
+      "error": null,
+      "input_index": 27,
+      "arms": {
+        "center": {
+          "area_mm2": 2932.195468607275,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 152.47414129761233,
+          "voxels": 4293
+        },
+        "fused": {
+          "area_mm2": 3052.1526357893126,
+          "height_mm": 52.20182626896144,
+          "proxy_cm3": 159.32794163982643,
+          "voxels": 9420
+        }
+      },
+      "wall_s": 0.13011900000128662
+    },
+    {
+      "tuber": "3R5-8",
+      "split": "train",
+      "error": null,
+      "input_index": 28,
+      "arms": {
+        "center": {
+          "area_mm2": 3496.1162875228583,
+          "height_mm": 67.00000762939453,
+          "proxy_cm3": 234.239817937282,
+          "voxels": 5101
+        },
+        "fused": {
+          "area_mm2": 3929.9308225716795,
+          "height_mm": 67.03382881572065,
+          "proxy_cm3": 263.4383100178942,
+          "voxels": 11414
+        }
+      },
+      "wall_s": 0.1437102500021865
+    },
+    {
+      "tuber": "3R5-9",
+      "split": "train",
+      "error": null,
+      "input_index": 29,
+      "arms": {
+        "center": {
+          "area_mm2": 2435.856088625277,
+          "height_mm": 55.00001311302185,
+          "proxy_cm3": 133.97211681582436,
+          "voxels": 3372
+        },
+        "fused": {
+          "area_mm2": 2682.4001219685456,
+          "height_mm": 55.104121087628016,
+          "proxy_cm3": 147.81130112642288,
+          "voxels": 7949
+        }
+      },
+      "wall_s": 0.1197468749996915
+    },
+    {
+      "tuber": "3R6-10",
+      "split": "train",
+      "error": null,
+      "input_index": 30,
+      "arms": {
+        "center": {
+          "area_mm2": 2740.4499508375743,
+          "height_mm": 56.00000023841858,
+          "proxy_cm3": 153.46519790027835,
+          "voxels": 3762
+        },
+        "fused": {
+          "area_mm2": 3134.231871469131,
+          "height_mm": 55.593179695635854,
+          "proxy_cm3": 174.24191563837246,
+          "voxels": 9292
+        }
+      },
+      "wall_s": 0.11972745799721451
+    },
+    {
+      "tuber": "3R6-5",
+      "split": "train",
+      "error": null,
+      "input_index": 31,
+      "arms": {
+        "center": {
+          "area_mm2": 5790.771909859354,
+          "height_mm": 60.00000834465027,
+          "proxy_cm3": 347.44636291352765,
+          "voxels": 7453
+        },
+        "fused": {
+          "area_mm2": 6112.4779394603775,
+          "height_mm": 59.292587492517725,
+          "proxy_cm3": 362.4246330215389,
+          "voxels": 16326
+        }
+      },
+      "wall_s": 0.15043599999989965
+    },
+    {
+      "tuber": "3R6-9",
+      "split": "train",
+      "error": null,
+      "input_index": 32,
+      "arms": {
+        "center": {
+          "area_mm2": 5829.859014420837,
+          "height_mm": 60.200005769729614,
+          "proxy_cm3": 350.9575463048446,
+          "voxels": 7617
+        },
+        "fused": {
+          "area_mm2": 6242.022453971759,
+          "height_mm": 60.42371222916108,
+          "proxy_cm3": 377.1661684867514,
+          "voxels": 16870
+        }
+      },
+      "wall_s": 0.15495266700236243
+    },
+    {
+      "tuber": "3R7-2",
+      "split": "train",
+      "error": null,
+      "input_index": 33,
+      "arms": {
+        "center": {
+          "area_mm2": 4053.758497518418,
+          "height_mm": 51.00000500679016,
+          "proxy_cm3": 206.7417036697575,
+          "voxels": 5292
+        },
+        "fused": {
+          "area_mm2": 4312.391196255939,
+          "height_mm": 51.00000500679016,
+          "proxy_cm3": 219.9319726002907,
+          "voxels": 11231
+        }
+      },
+      "wall_s": 0.13525899999876856
+    },
+    {
+      "tuber": "3R7-5",
+      "split": "train",
+      "error": null,
+      "input_index": 34,
+      "arms": {
+        "center": {
+          "area_mm2": 3698.159166108133,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 192.30424754119775,
+          "voxels": 4817
+        },
+        "fused": {
+          "area_mm2": 4033.067253923827,
+          "height_mm": 51.71244440424965,
+          "proxy_cm3": 208.55976614713572,
+          "voxels": 10985
+        }
+      },
+      "wall_s": 0.13196279200201388
+    },
+    {
+      "tuber": "3R7-9",
+      "split": "train",
+      "error": null,
+      "input_index": 35,
+      "arms": {
+        "center": {
+          "area_mm2": 2336.6197095244365,
+          "height_mm": 39.00001049041748,
+          "proxy_cm3": 91.12819318356927,
+          "voxels": 3085
+        },
+        "fused": {
+          "area_mm2": 2464.0856289366934,
+          "height_mm": 38.583262494055134,
+          "proxy_cm3": 95.07246262909338,
+          "voxels": 7008
+        }
+      },
+      "wall_s": 0.11343154100177344
+    },
+    {
+      "tuber": "4R1-1",
+      "split": "train",
+      "error": null,
+      "input_index": 36,
+      "arms": {
+        "center": {
+          "area_mm2": 4290.388992463872,
+          "height_mm": 56.00000023841858,
+          "proxy_cm3": 240.26178460088528,
+          "voxels": 5398
+        },
+        "fused": {
+          "area_mm2": 4547.851857186693,
+          "height_mm": 56.47442104576817,
+          "proxy_cm3": 256.8373006365401,
+          "voxels": 11468
+        }
+      },
+      "wall_s": 0.1360267499985639
+    },
+    {
+      "tuber": "4R1-3",
+      "split": "train",
+      "error": null,
+      "input_index": 37,
+      "arms": {
+        "center": {
+          "area_mm2": 3454.983376386822,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 179.6591083889512,
+          "voxels": 4667
+        },
+        "fused": {
+          "area_mm2": 3598.162326190476,
+          "height_mm": 52.29751764524957,
+          "proxy_cm3": 188.17495774441866,
+          "voxels": 10551
+        }
+      },
+      "wall_s": 0.129626083002222
+    },
+    {
+      "tuber": "4R1-4",
+      "split": "train",
+      "error": null,
+      "input_index": 38,
+      "arms": {
+        "center": {
+          "area_mm2": 2977.896437534324,
+          "height_mm": 51.00000500679016,
+          "proxy_cm3": 151.8727332239531,
+          "voxels": 4076
+        },
+        "fused": {
+          "area_mm2": 3183.8922728629345,
+          "height_mm": 51.00000500679016,
+          "proxy_cm3": 162.3785218570902,
+          "voxels": 8914
+        }
+      },
+      "wall_s": 0.1254152500005148
+    },
+    {
+      "tuber": "4R1-5",
+      "split": "train",
+      "error": null,
+      "input_index": 39,
+      "arms": {
+        "center": {
+          "area_mm2": 2704.713419719805,
+          "height_mm": 37.999993562698364,
+          "proxy_cm3": 102.77909253829648,
+          "voxels": 3502
+        },
+        "fused": {
+          "area_mm2": 2826.343118324345,
+          "height_mm": 37.20338509040016,
+          "proxy_cm3": 105.14953142862304,
+          "voxels": 7836
+        }
+      },
+      "wall_s": 0.13069008299862617
+    },
+    {
+      "tuber": "4R1-6",
+      "split": "train",
+      "error": null,
+      "input_index": 40,
+      "arms": {
+        "center": {
+          "area_mm2": 4108.410709900572,
+          "height_mm": 53.999996185302734,
+          "proxy_cm3": 221.8541626622878,
+          "voxels": 5289
+        },
+        "fused": {
+          "area_mm2": 4332.79479741785,
+          "height_mm": 54.175565412706476,
+          "proxy_cm3": 234.731607967345,
+          "voxels": 11376
+        }
+      },
+      "wall_s": 0.13188679200175102
+    },
+    {
+      "tuber": "4R1-7",
+      "split": "train",
+      "error": null,
+      "input_index": 41,
+      "arms": {
+        "center": {
+          "area_mm2": 1465.9272656086714,
+          "height_mm": 37.999993562698364,
+          "proxy_cm3": 55.70522665651353,
+          "voxels": 1901
+        },
+        "fused": {
+          "area_mm2": 1649.9266269255675,
+          "height_mm": 37.999993562698364,
+          "proxy_cm3": 62.697201202096196,
+          "voxels": 4603
+        }
+      },
+      "wall_s": 0.10292724999817437
+    },
+    {
+      "tuber": "4R1-9",
+      "split": "train",
+      "error": null,
+      "input_index": 42,
+      "arms": {
+        "center": {
+          "area_mm2": 4751.781603551701,
+          "height_mm": 53.999996185302734,
+          "proxy_cm3": 256.59618846518356,
+          "voxels": 6053
+        },
+        "fused": {
+          "area_mm2": 5060.863908433442,
+          "height_mm": 54.22399945073698,
+          "proxy_cm3": 274.4202817911496,
+          "voxels": 12942
+        }
+      },
+      "wall_s": 0.14054337500056135
+    },
+    {
+      "tuber": "4R2-2",
+      "split": "train",
+      "error": null,
+      "input_index": 43,
+      "arms": {
+        "center": {
+          "area_mm2": 1853.8821879556294,
+          "height_mm": 41.000014543533325,
+          "proxy_cm3": 76.00919666817819,
+          "voxels": 2500
+        },
+        "fused": {
+          "area_mm2": 2007.9228568356643,
+          "height_mm": 41.000014543533325,
+          "proxy_cm3": 82.32486633255522,
+          "voxels": 5537
+        }
+      },
+      "wall_s": 0.10769349999827682
+    },
+    {
+      "tuber": "4R2-3",
+      "split": "train",
+      "error": null,
+      "input_index": 44,
+      "arms": {
+        "center": {
+          "area_mm2": 3661.396104273257,
+          "height_mm": 56.99998736381531,
+          "proxy_cm3": 208.69953167749824,
+          "voxels": 4721
+        },
+        "fused": {
+          "area_mm2": 3973.530172883553,
+          "height_mm": 56.66464312371227,
+          "proxy_cm3": 225.15866918774924,
+          "voxels": 10511
+        }
+      },
+      "wall_s": 0.12880645800032653
+    },
+    {
+      "tuber": "4R2-6",
+      "split": "train",
+      "error": null,
+      "input_index": 45,
+      "arms": {
+        "center": {
+          "area_mm2": 3475.5105708839537,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 180.72652234129797,
+          "voxels": 4689
+        },
+        "fused": {
+          "area_mm2": 3694.2821832881205,
+          "height_mm": 52.38234422232665,
+          "proxy_cm3": 193.51516097940677,
+          "voxels": 10404
+        }
+      },
+      "wall_s": 0.12425341699781711
+    },
+    {
+      "tuber": "4R2-7",
+      "split": "train",
+      "error": null,
+      "input_index": 46,
+      "arms": {
+        "center": {
+          "area_mm2": 3290.635872104255,
+          "height_mm": 46.99999690055847,
+          "proxy_cm3": 154.65987578976652,
+          "voxels": 4082
+        },
+        "fused": {
+          "area_mm2": 3516.164917916606,
+          "height_mm": 46.79254774886141,
+          "proxy_cm3": 164.53031481448414,
+          "voxels": 9082
+        }
+      },
+      "wall_s": 0.12138837500242516
+    },
+    {
+      "tuber": "4R2-9",
+      "split": "train",
+      "error": null,
+      "input_index": 47,
+      "arms": {
+        "center": {
+          "area_mm2": 3492.0810759878773,
+          "height_mm": 60.00000834465027,
+          "proxy_cm3": 209.52489369946795,
+          "voxels": 4778
+        },
+        "fused": {
+          "area_mm2": 3833.2779904808885,
+          "height_mm": 59.690300452462225,
+          "proxy_cm3": 228.80951496961487,
+          "voxels": 10842
+        }
+      },
+      "wall_s": 0.12985683300212258
+    },
+    {
+      "tuber": "4R3-2",
+      "split": "train",
+      "error": null,
+      "input_index": 48,
+      "arms": {
+        "center": {
+          "area_mm2": 4763.655383867035,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 281.05562676137293,
+          "voxels": 6407
+        },
+        "fused": {
+          "area_mm2": 5123.895969649215,
+          "height_mm": 58.90551512761925,
+          "proxy_cm3": 301.82573155251913,
+          "voxels": 14206
+        }
+      },
+      "wall_s": 0.14454154100167216
+    },
+    {
+      "tuber": "4R3-5",
+      "split": "train",
+      "error": null,
+      "input_index": 49,
+      "arms": {
+        "center": {
+          "area_mm2": 5382.7247299600585,
+          "height_mm": 56.32082944115001,
+          "proxy_cm3": 303.15952144474073,
+          "voxels": 6877
+        },
+        "fused": {
+          "area_mm2": 5850.098529613159,
+          "height_mm": 55.9896533180069,
+          "proxy_cm3": 327.5449885492227,
+          "voxels": 15108
+        }
+      },
+      "wall_s": 0.1467611250009213
+    },
+    {
+      "tuber": "4R3-6",
+      "split": "train",
+      "error": null,
+      "input_index": 50,
+      "arms": {
+        "center": {
+          "area_mm2": 3274.0188826266153,
+          "height_mm": 46.99999690055847,
+          "proxy_cm3": 153.87887733582085,
+          "voxels": 4253
+        },
+        "fused": {
+          "area_mm2": 3519.5406093070947,
+          "height_mm": 47.27718517178994,
+          "proxy_cm3": 166.39397310584587,
+          "voxels": 9337
+        }
+      },
+      "wall_s": 0.12445516699881409
+    },
+    {
+      "tuber": "4R3-8",
+      "split": "train",
+      "error": null,
+      "input_index": 51,
+      "arms": {
+        "center": {
+          "area_mm2": 3087.9749142455307,
+          "height_mm": 51.666663090388,
+          "proxy_cm3": 159.54535952589362,
+          "voxels": 4398
+        },
+        "fused": {
+          "area_mm2": 3227.9831492424064,
+          "height_mm": 51.46374183029366,
+          "proxy_cm3": 166.12409142514946,
+          "voxels": 9671
+        }
+      },
+      "wall_s": 0.12515758299923618
+    },
+    {
+      "tuber": "4R4-1",
+      "split": "train",
+      "error": null,
+      "input_index": 52,
+      "arms": {
+        "center": {
+          "area_mm2": 2635.7808771114774,
+          "height_mm": 37.999993562698364,
+          "proxy_cm3": 100.15965636291959,
+          "voxels": 3368
+        },
+        "fused": {
+          "area_mm2": 2719.2199631267526,
+          "height_mm": 38.22752052213281,
+          "proxy_cm3": 103.94903694462116,
+          "voxels": 7518
+        }
+      },
+      "wall_s": 0.11559908400158747
+    },
+    {
+      "tuber": "4R4-2",
+      "split": "train",
+      "error": null,
+      "input_index": 53,
+      "arms": {
+        "center": {
+          "area_mm2": 4760.717849313329,
+          "height_mm": 67.00000762939453,
+          "proxy_cm3": 318.9681322253877,
+          "voxels": 6398
+        },
+        "fused": {
+          "area_mm2": 4899.476779517519,
+          "height_mm": 67.00000762939453,
+          "proxy_cm3": 328.26498160771513,
+          "voxels": 13434
+        }
+      },
+      "wall_s": 0.14630837499862537
+    },
+    {
+      "tuber": "4R4-5",
+      "split": "train",
+      "error": null,
+      "input_index": 54,
+      "arms": {
+        "center": {
+          "area_mm2": 3125.166584215945,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 165.6338572771606,
+          "voxels": 4318
+        },
+        "fused": {
+          "area_mm2": 3438.8330001209765,
+          "height_mm": 52.90845785601266,
+          "proxy_cm3": 181.94335086076626,
+          "voxels": 9942
+        }
+      },
+      "wall_s": 0.12483379100012826
+    },
+    {
+      "tuber": "4R4-7",
+      "split": "train",
+      "error": null,
+      "input_index": 55,
+      "arms": {
+        "center": {
+          "area_mm2": 5218.3960772670525,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 276.5750393733318,
+          "voxels": 7051
+        },
+        "fused": {
+          "area_mm2": 5284.78011300142,
+          "height_mm": 52.51417341931955,
+          "proxy_cm3": 277.52585933712777,
+          "voxels": 15908
+        }
+      },
+      "wall_s": 0.14869150000231457
+    },
+    {
+      "tuber": "4R4-9",
+      "split": "train",
+      "error": null,
+      "input_index": 56,
+      "arms": {
+        "center": {
+          "area_mm2": 2704.286045939335,
+          "height_mm": 44.0000057220459,
+          "proxy_cm3": 118.98860149537963,
+          "voxels": 3601
+        },
+        "fused": {
+          "area_mm2": 2875.6390475929306,
+          "height_mm": 43.37190919319181,
+          "proxy_cm3": 124.72195564459717,
+          "voxels": 8017
+        }
+      },
+      "wall_s": 0.12023412500275299
+    },
+    {
+      "tuber": "4R5-4",
+      "split": "train",
+      "error": null,
+      "input_index": 57,
+      "arms": {
+        "center": {
+          "area_mm2": 4947.832405161353,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 257.28724613976965,
+          "voxels": 6254
+        },
+        "fused": {
+          "area_mm2": 5052.673111984038,
+          "height_mm": 51.9957484047614,
+          "proxy_cm3": 262.71751990222486,
+          "voxels": 12831
+        }
+      },
+      "wall_s": 0.143988415999047
+    },
+    {
+      "tuber": "4R5-5",
+      "split": "train",
+      "error": null,
+      "input_index": 58,
+      "arms": {
+        "center": {
+          "area_mm2": 3550.5129767264307,
+          "height_mm": 56.00000023841858,
+          "proxy_cm3": 198.82872754318836,
+          "voxels": 4734
+        },
+        "fused": {
+          "area_mm2": 3830.5630875691786,
+          "height_mm": 56.097494892334964,
+          "proxy_cm3": 214.88499323967886,
+          "voxels": 10183
+        }
+      },
+      "wall_s": 0.12925883299976704
+    },
+    {
+      "tuber": "4R5-8",
+      "split": "train",
+      "error": null,
+      "input_index": 59,
+      "arms": {
+        "center": {
+          "area_mm2": 3202.879711654054,
+          "height_mm": 52.85000652074814,
+          "proxy_cm3": 169.27221364608866,
+          "voxels": 4209
+        },
+        "fused": {
+          "area_mm2": 3333.518263625697,
+          "height_mm": 52.27814898544432,
+          "proxy_cm3": 174.27016443152382,
+          "voxels": 9321
+        }
+      },
+      "wall_s": 0.12297162499817205
+    },
+    {
+      "tuber": "4R6-10",
+      "split": "train",
+      "error": null,
+      "input_index": 60,
+      "arms": {
+        "center": {
+          "area_mm2": 2461.509015218379,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 127.99844942466281,
+          "voxels": 3383
+        },
+        "fused": {
+          "area_mm2": 2681.895874289319,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 139.45856436238907,
+          "voxels": 7952
+        }
+      },
+      "wall_s": 0.11525845900177956
+    },
+    {
+      "tuber": "4R6-2",
+      "split": "train",
+      "error": null,
+      "input_index": 61,
+      "arms": {
+        "center": {
+          "area_mm2": 3730.938967776553,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 197.73979909411366,
+          "voxels": 5064
+        },
+        "fused": {
+          "area_mm2": 3830.3281490839263,
+          "height_mm": 52.45583913940044,
+          "proxy_cm3": 200.92307723946385,
+          "voxels": 10948
+        }
+      },
+      "wall_s": 0.12965620800241595
+    },
+    {
+      "tuber": "4R6-4",
+      "split": "train",
+      "error": null,
+      "input_index": 62,
+      "arms": {
+        "center": {
+          "area_mm2": 2154.4782003391933,
+          "height_mm": 41.000014543533325,
+          "proxy_cm3": 88.33363754763243,
+          "voxels": 2882
+        },
+        "fused": {
+          "area_mm2": 2243.841496088369,
+          "height_mm": 40.96941996188167,
+          "proxy_cm3": 91.92888458114125,
+          "voxels": 6179
+        }
+      },
+      "wall_s": 0.11110729199936031
+    },
+    {
+      "tuber": "4R6-5",
+      "split": "train",
+      "error": null,
+      "input_index": 63,
+      "arms": {
+        "center": {
+          "area_mm2": 4045.469290541844,
+          "height_mm": 60.999995470047,
+          "proxy_cm3": 246.77360839726674,
+          "voxels": 5678
+        },
+        "fused": {
+          "area_mm2": 4192.625924229362,
+          "height_mm": 60.59218872121744,
+          "proxy_cm3": 254.04038123837418,
+          "voxels": 12053
+        }
+      },
+      "wall_s": 0.13937908300067647
+    },
+    {
+      "tuber": "4R6-6",
+      "split": "train",
+      "error": null,
+      "input_index": 64,
+      "arms": {
+        "center": {
+          "area_mm2": 3828.145853153186,
+          "height_mm": 60.48500210046768,
+          "proxy_cm3": 231.54540996886712,
+          "voxels": 5066
+        },
+        "fused": {
+          "area_mm2": 4319.085700965618,
+          "height_mm": 60.25204802630515,
+          "proxy_cm3": 260.23375908430825,
+          "voxels": 11806
+        }
+      },
+      "wall_s": 0.13445045899788965
+    },
+    {
+      "tuber": "4R8-6",
+      "split": "train",
+      "error": null,
+      "input_index": 65,
+      "arms": {
+        "center": {
+          "area_mm2": 2969.717168083476,
+          "height_mm": 42.49999523162842,
+          "proxy_cm3": 126.21296548283277,
+          "voxels": 3793
+        },
+        "fused": {
+          "area_mm2": 3234.0380094410984,
+          "height_mm": 42.00305998748428,
+          "proxy_cm3": 135.8394925123587,
+          "voxels": 8653
+        }
+      },
+      "wall_s": 0.11882333299945458
+    },
+    {
+      "tuber": "4R8-9",
+      "split": "train",
+      "error": null,
+      "input_index": 66,
+      "arms": {
+        "center": {
+          "area_mm2": 4907.89678768048,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 260.11857421214904,
+          "voxels": 6160
+        },
+        "fused": {
+          "area_mm2": 5001.364066747829,
+          "height_mm": 53.35172445105189,
+          "proxy_cm3": 266.8313975685225,
+          "voxels": 12568
+        }
+      },
+      "wall_s": 0.1404121670020686
+    },
+    {
+      "tuber": "R1-8",
+      "split": "train",
+      "error": null,
+      "input_index": 67,
+      "arms": {
+        "center": {
+          "area_mm2": 4995.642298231641,
+          "height_mm": 58.000004291534424,
+          "proxy_cm3": 289.74727473640604,
+          "voxels": 6396
+        },
+        "fused": {
+          "area_mm2": 5215.814275412972,
+          "height_mm": 57.25686419943037,
+          "proxy_cm3": 298.64116965677084,
+          "voxels": 13155
+        }
+      },
+      "wall_s": 0.14027716700002202
+    },
+    {
+      "tuber": "R1-9",
+      "split": "train",
+      "error": null,
+      "input_index": 68,
+      "arms": {
+        "center": {
+          "area_mm2": 2753.7046397748645,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 145.94637085637302,
+          "voxels": 4005
+        },
+        "fused": {
+          "area_mm2": 2905.001697800599,
+          "height_mm": 52.40287252717991,
+          "proxy_cm3": 152.23043366108598,
+          "voxels": 8818
+        }
+      },
+      "wall_s": 0.12132862499856856
+    },
+    {
+      "tuber": "R10-4",
+      "split": "train",
+      "error": null,
+      "input_index": 69,
+      "arms": {
+        "center": {
+          "area_mm2": 2949.2175448318503,
+          "height_mm": 44.99999284744263,
+          "proxy_cm3": 132.71476842298557,
+          "voxels": 3818
+        },
+        "fused": {
+          "area_mm2": 3199.21018875184,
+          "height_mm": 44.41662010592836,
+          "proxy_cm3": 142.09810359280584,
+          "voxels": 9063
+        }
+      },
+      "wall_s": 0.11805866699796752
+    },
+    {
+      "tuber": "R10-6",
+      "split": "train",
+      "error": null,
+      "input_index": 70,
+      "arms": {
+        "center": {
+          "area_mm2": 3535.267847432632,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 208.58077265507796,
+          "voxels": 4641
+        },
+        "fused": {
+          "area_mm2": 3854.3763050355087,
+          "height_mm": 58.90016643033704,
+          "proxy_cm3": 227.023405851739,
+          "voxels": 10473
+        }
+      },
+      "wall_s": 0.12458612500267918
+    },
+    {
+      "tuber": "R10-7",
+      "split": "train",
+      "error": null,
+      "input_index": 71,
+      "arms": {
+        "center": {
+          "area_mm2": 3410.059068839932,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 201.19345579278422,
+          "voxels": 4537
+        },
+        "fused": {
+          "area_mm2": 3585.9397636445233,
+          "height_mm": 59.30751163107959,
+          "proxy_cm3": 212.67316424069836,
+          "voxels": 10035
+        }
+      },
+      "wall_s": 0.12281875000189757
+    },
+    {
+      "tuber": "R10-8",
+      "split": "train",
+      "error": null,
+      "input_index": 72,
+      "arms": {
+        "center": {
+          "area_mm2": 4577.80157438833,
+          "height_mm": 67.8283302982648,
+          "proxy_cm3": 310.50463722752824,
+          "voxels": 6396
+        },
+        "fused": {
+          "area_mm2": 4730.562507535951,
+          "height_mm": 67.43664198876809,
+          "proxy_cm3": 319.01325022619096,
+          "voxels": 14052
+        }
+      },
+      "wall_s": 0.14388245800000732
+    },
+    {
+      "tuber": "R10-9",
+      "split": "train",
+      "error": null,
+      "input_index": 73,
+      "arms": {
+        "center": {
+          "area_mm2": 1548.124721416615,
+          "height_mm": 37.999993562698364,
+          "proxy_cm3": 58.82872944808557,
+          "voxels": 2062
+        },
+        "fused": {
+          "area_mm2": 1652.935500724351,
+          "height_mm": 37.999993562698364,
+          "proxy_cm3": 62.81153838708093,
+          "voxels": 4842
+        }
+      },
+      "wall_s": 0.10108783300165669
+    },
+    {
+      "tuber": "R11-1",
+      "split": "train",
+      "error": null,
+      "input_index": 74,
+      "arms": {
+        "center": {
+          "area_mm2": 3541.53023472565,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 184.1595443416358,
+          "voxels": 4535
+        },
+        "fused": {
+          "area_mm2": 3725.0676577016493,
+          "height_mm": 52.091303458550044,
+          "proxy_cm3": 194.04362976096684,
+          "voxels": 10115
+        }
+      },
+      "wall_s": 0.12383716699696379
+    },
+    {
+      "tuber": "R11-2",
+      "split": "train",
+      "error": null,
+      "input_index": 75,
+      "arms": {
+        "center": {
+          "area_mm2": 2788.8716456102593,
+          "height_mm": 42.000001668930054,
+          "proxy_cm3": 117.1326137700626,
+          "voxels": 3481
+        },
+        "fused": {
+          "area_mm2": 3005.780118664657,
+          "height_mm": 42.3207094314526,
+          "proxy_cm3": 127.20674701684406,
+          "voxels": 7714
+        }
+      },
+      "wall_s": 0.1140016250028566
+    },
+    {
+      "tuber": "R11-6",
+      "split": "train",
+      "error": null,
+      "input_index": 76,
+      "arms": {
+        "center": {
+          "area_mm2": 4805.004435548208,
+          "height_mm": 65.99999070167542,
+          "proxy_cm3": 317.13024806769084,
+          "voxels": 6415
+        },
+        "fused": {
+          "area_mm2": 5130.918785630982,
+          "height_mm": 65.65150732273645,
+          "proxy_cm3": 336.8525522272184,
+          "voxels": 13409
+        }
+      },
+      "wall_s": 0.14327716699699522
+    },
+    {
+      "tuber": "R11-7",
+      "split": "train",
+      "error": null,
+      "input_index": 77,
+      "arms": {
+        "center": {
+          "area_mm2": 4955.696184899164,
+          "height_mm": 60.00000834465027,
+          "proxy_cm3": 297.34181244750135,
+          "voxels": 6455
+        },
+        "fused": {
+          "area_mm2": 5155.265440566119,
+          "height_mm": 59.99659404218647,
+          "proxy_cm3": 309.29836781735906,
+          "voxels": 13768
+        }
+      },
+      "wall_s": 0.14301945899933344
+    },
+    {
+      "tuber": "R11-9",
+      "split": "train",
+      "error": null,
+      "input_index": 78,
+      "arms": {
+        "center": {
+          "area_mm2": 4922.068722021771,
+          "height_mm": 58.49999785423279,
+          "proxy_cm3": 287.94100967665986,
+          "voxels": 6702
+        },
+        "fused": {
+          "area_mm2": 5157.397279752269,
+          "height_mm": 58.20781170383168,
+          "proxy_cm3": 300.2008097416738,
+          "voxels": 14356
+        }
+      },
+      "wall_s": 0.14094695799940382
+    },
+    {
+      "tuber": "R13-2",
+      "split": "train",
+      "error": null,
+      "input_index": 79,
+      "arms": {
+        "center": {
+          "area_mm2": 3554.863928896889,
+          "height_mm": 70.99998593330383,
+          "proxy_cm3": 252.3952889464883,
+          "voxels": 5051
+        },
+        "fused": {
+          "area_mm2": 3703.346184110472,
+          "height_mm": 71.17444478834096,
+          "proxy_cm3": 263.583608513084,
+          "voxels": 11087
+        }
+      },
+      "wall_s": 0.12687179100248613
+    },
+    {
+      "tuber": "R13-4",
+      "split": "train",
+      "error": null,
+      "input_index": 80,
+      "arms": {
+        "center": {
+          "area_mm2": 4177.20097783188,
+          "height_mm": 49.000000953674316,
+          "proxy_cm3": 204.6828518974514,
+          "voxels": 5230
+        },
+        "fused": {
+          "area_mm2": 4427.247190790724,
+          "height_mm": 48.955020523905375,
+          "proxy_cm3": 216.7359770895623,
+          "voxels": 11258
+        }
+      },
+      "wall_s": 0.12921016700056498
+    },
+    {
+      "tuber": "R2-10",
+      "split": "train",
+      "error": null,
+      "input_index": 81,
+      "arms": {
+        "center": {
+          "area_mm2": 2217.822571868715,
+          "height_mm": 44.242502599954605,
+          "proxy_cm3": 98.12202090213962,
+          "voxels": 2938
+        },
+        "fused": {
+          "area_mm2": 2407.824716488913,
+          "height_mm": 43.57521907241136,
+          "proxy_cm3": 104.92148950897115,
+          "voxels": 6955
+        }
+      },
+      "wall_s": 0.10880383299809182
+    },
+    {
+      "tuber": "R2-2",
+      "split": "train",
+      "error": null,
+      "input_index": 82,
+      "arms": {
+        "center": {
+          "area_mm2": 3861.9686596040156,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 227.85611776909403,
+          "voxels": 5316
+        },
+        "fused": {
+          "area_mm2": 4062.5944864884796,
+          "height_mm": 59.42083068806579,
+          "proxy_cm3": 241.40273913590153,
+          "voxels": 11505
+        }
+      },
+      "wall_s": 0.13093979199766181
+    },
+    {
+      "tuber": "R2-4",
+      "split": "train",
+      "error": null,
+      "input_index": 83,
+      "arms": {
+        "center": {
+          "area_mm2": 1850.146127973988,
+          "height_mm": 37.000006437301636,
+          "proxy_cm3": 68.45541864498627,
+          "voxels": 2490
+        },
+        "fused": {
+          "area_mm2": 1933.0214953970374,
+          "height_mm": 37.000006437301636,
+          "proxy_cm3": 71.52180777313282,
+          "voxels": 5600
+        }
+      },
+      "wall_s": 0.10668575000090641
+    },
+    {
+      "tuber": "R2-7",
+      "split": "train",
+      "error": null,
+      "input_index": 84,
+      "arms": {
+        "center": {
+          "area_mm2": 2991.003172111675,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 158.52319522012638,
+          "voxels": 3926
+        },
+        "fused": {
+          "area_mm2": 3126.156561081983,
+          "height_mm": 53.868400035890204,
+          "proxy_cm3": 168.4010522071871,
+          "voxels": 8336
+        }
+      },
+      "wall_s": 0.11964712500048336
+    },
+    {
+      "tuber": "R3-1",
+      "split": "train",
+      "error": null,
+      "input_index": 85,
+      "arms": {
+        "center": {
+          "area_mm2": 2462.9490552374773,
+          "height_mm": 48.00001382827759,
+          "proxy_cm3": 118.22158870974214,
+          "voxels": 3246
+        },
+        "fused": {
+          "area_mm2": 2757.396875995248,
+          "height_mm": 47.437664817727125,
+          "proxy_cm3": 130.80446877291047,
+          "voxels": 7531
+        }
+      },
+      "wall_s": 0.11643424999783747
+    },
+    {
+      "tuber": "R3-3",
+      "split": "train",
+      "error": null,
+      "input_index": 86,
+      "arms": {
+        "center": {
+          "area_mm2": 2664.31209750711,
+          "height_mm": 42.1999990940094,
+          "proxy_cm3": 112.43396810095832,
+          "voxels": 3901
+        },
+        "fused": {
+          "area_mm2": 2810.8100852522534,
+          "height_mm": 42.63057909653878,
+          "proxy_cm3": 119.8264616646951,
+          "voxels": 9246
+        }
+      },
+      "wall_s": 0.11962845800007926
+    },
+    {
+      "tuber": "R3-8",
+      "split": "train",
+      "error": null,
+      "input_index": 87,
+      "arms": {
+        "center": {
+          "area_mm2": 6461.219734379747,
+          "height_mm": 65.99999070167542,
+          "proxy_cm3": 426.440442390545,
+          "voxels": 8702
+        },
+        "fused": {
+          "area_mm2": 6806.513081710279,
+          "height_mm": 65.51264484038063,
+          "proxy_cm3": 445.91267412349015,
+          "voxels": 18399
+        }
+      },
+      "wall_s": 0.1626885420009785
+    },
+    {
+      "tuber": "R4-3",
+      "split": "train",
+      "error": null,
+      "input_index": 88,
+      "arms": {
+        "center": {
+          "area_mm2": 3752.4910386020824,
+          "height_mm": 53.999996185302734,
+          "proxy_cm3": 202.63450176989514,
+          "voxels": 4701
+        },
+        "fused": {
+          "area_mm2": 4089.3221599415015,
+          "height_mm": 53.99546169766637,
+          "proxy_cm3": 220.80483805653964,
+          "voxels": 10542
+        }
+      },
+      "wall_s": 0.12794529199891258
+    },
+    {
+      "tuber": "R4-5",
+      "split": "train",
+      "error": null,
+      "input_index": 89,
+      "arms": {
+        "center": {
+          "area_mm2": 2274.818298036928,
+          "height_mm": 42.99998879432678,
+          "proxy_cm3": 97.81716132471742,
+          "voxels": 3212
+        },
+        "fused": {
+          "area_mm2": 2487.1307734945462,
+          "height_mm": 42.73809496179251,
+          "proxy_cm3": 106.29523118000638,
+          "voxels": 7201
+        }
+      },
+      "wall_s": 0.11226208299922291
+    },
+    {
+      "tuber": "R4-6",
+      "split": "train",
+      "error": null,
+      "input_index": 90,
+      "arms": {
+        "center": {
+          "area_mm2": 3118.6790976333623,
+          "height_mm": 55.00001311302185,
+          "proxy_cm3": 171.52739126514206,
+          "voxels": 4316
+        },
+        "fused": {
+          "area_mm2": 3234.379704945787,
+          "height_mm": 55.197266689046614,
+          "proxy_cm3": 178.52891914753252,
+          "voxels": 9651
+        }
+      },
+      "wall_s": 0.12051579199760454
+    },
+    {
+      "tuber": "R4-9",
+      "split": "train",
+      "error": null,
+      "input_index": 91,
+      "arms": {
+        "center": {
+          "area_mm2": 2946.937898930295,
+          "height_mm": 49.999988079071045,
+          "proxy_cm3": 147.34685981627743,
+          "voxels": 3745
+        },
+        "fused": {
+          "area_mm2": 3324.8374431912966,
+          "height_mm": 50.02694424076134,
+          "proxy_cm3": 166.3314573801265,
+          "voxels": 8766
+        }
+      },
+      "wall_s": 0.11553470899889362
+    },
+    {
+      "tuber": "R5-10",
+      "split": "train",
+      "error": null,
+      "input_index": 92,
+      "arms": {
+        "center": {
+          "area_mm2": 3902.628416850524,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 206.8393414505244,
+          "voxels": 5092
+        },
+        "fused": {
+          "area_mm2": 4131.489800811768,
+          "height_mm": 53.127894402503216,
+          "proxy_cm3": 219.49735386254665,
+          "voxels": 10953
+        }
+      },
+      "wall_s": 0.12701716700030374
+    },
+    {
+      "tuber": "R5-3",
+      "split": "train",
+      "error": null,
+      "input_index": 93,
+      "arms": {
+        "center": {
+          "area_mm2": 4034.67483286473,
+          "height_mm": 60.999995470047,
+          "proxy_cm3": 246.11514652786116,
+          "voxels": 5023
+        },
+        "fused": {
+          "area_mm2": 4513.8499911355675,
+          "height_mm": 61.630887963201815,
+          "proxy_cm3": 278.1925830863757,
+          "voxels": 11297
+        }
+      },
+      "wall_s": 0.12987012500161654
+    },
+    {
+      "tuber": "R5-4",
+      "split": "train",
+      "error": null,
+      "input_index": 94,
+      "arms": {
+        "center": {
+          "area_mm2": 2045.5651659572525,
+          "height_mm": 41.000014543533325,
+          "proxy_cm3": 83.8682015539925,
+          "voxels": 2692
+        },
+        "fused": {
+          "area_mm2": 2108.991292526722,
+          "height_mm": 41.384389749374975,
+          "proxy_cm3": 87.27931762796396,
+          "voxels": 6029
+        }
+      },
+      "wall_s": 0.10509512499993434
+    },
+    {
+      "tuber": "R6-1",
+      "split": "train",
+      "error": null,
+      "input_index": 95,
+      "arms": {
+        "center": {
+          "area_mm2": 3335.1228111436167,
+          "height_mm": 44.99999284744263,
+          "proxy_cm3": 150.08050264680548,
+          "voxels": 4475
+        },
+        "fused": {
+          "area_mm2": 3501.5043618935397,
+          "height_mm": 44.98993218432224,
+          "proxy_cm3": 157.53244378469887,
+          "voxels": 10251
+        }
+      },
+      "wall_s": 0.11838045900003635
+    },
+    {
+      "tuber": "R6-2",
+      "split": "train",
+      "error": null,
+      "input_index": 96,
+      "arms": {
+        "center": {
+          "area_mm2": 3300.0011281459824,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 151.80008415275998,
+          "voxels": 4220
+        },
+        "fused": {
+          "area_mm2": 3468.2377341693827,
+          "height_mm": 46.740700365947646,
+          "proxy_cm3": 162.1078607306843,
+          "voxels": 9587
+        }
+      },
+      "wall_s": 0.12059258299996145
+    },
+    {
+      "tuber": "R6-3",
+      "split": "train",
+      "error": null,
+      "input_index": 97,
+      "arms": {
+        "center": {
+          "area_mm2": 4999.04287410422,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 259.95019012188436,
+          "voxels": 6380
+        },
+        "fused": {
+          "area_mm2": 5167.374359025317,
+          "height_mm": 52.220925223774145,
+          "proxy_cm3": 269.84507000590895,
+          "voxels": 13559
+        }
+      },
+      "wall_s": 0.13889533300243784
+    },
+    {
+      "tuber": "R6-7",
+      "split": "train",
+      "error": null,
+      "input_index": 98,
+      "arms": {
+        "center": {
+          "area_mm2": 2292.941265372823,
+          "height_mm": 37.5,
+          "proxy_cm3": 85.98529745148087,
+          "voxels": 2982
+        },
+        "fused": {
+          "area_mm2": 2528.771027710996,
+          "height_mm": 37.79575533445956,
+          "proxy_cm3": 95.57681106023465,
+          "voxels": 6756
+        }
+      },
+      "wall_s": 0.10885941699962132
+    },
+    {
+      "tuber": "R6-8",
+      "split": "train",
+      "error": null,
+      "input_index": 99,
+      "arms": {
+        "center": {
+          "area_mm2": 3264.890233172365,
+          "height_mm": 49.48499470949173,
+          "proxy_cm3": 161.5630759156057,
+          "voxels": 4299
+        },
+        "fused": {
+          "area_mm2": 3465.8043216473698,
+          "height_mm": 49.40473081713401,
+          "proxy_cm3": 171.22712957584804,
+          "voxels": 9209
+        }
+      },
+      "wall_s": 0.12002191699866671
+    },
+    {
+      "tuber": "R6-9",
+      "split": "train",
+      "error": null,
+      "input_index": 100,
+      "arms": {
+        "center": {
+          "area_mm2": 4266.171652372814,
+          "height_mm": 56.99998736381531,
+          "proxy_cm3": 243.17173027711746,
+          "voxels": 5743
+        },
+        "fused": {
+          "area_mm2": 4395.516036376251,
+          "height_mm": 57.27362770898338,
+          "proxy_cm3": 251.74714905627965,
+          "voxels": 12208
+        }
+      },
+      "wall_s": 0.13788320800085785
+    },
+    {
+      "tuber": "R7-10",
+      "split": "train",
+      "error": null,
+      "input_index": 101,
+      "arms": {
+        "center": {
+          "area_mm2": 2242.3837036099303,
+          "height_mm": 37.000006437301636,
+          "proxy_cm3": 82.9682114684677,
+          "voxels": 3123
+        },
+        "fused": {
+          "area_mm2": 2465.8204095285487,
+          "height_mm": 37.004943402372135,
+          "proxy_cm3": 91.24754469501802,
+          "voxels": 6924
+        }
+      },
+      "wall_s": 0.10941879199890536
+    },
+    {
+      "tuber": "R7-2",
+      "split": "train",
+      "error": null,
+      "input_index": 102,
+      "arms": {
+        "center": {
+          "area_mm2": 4666.991390426612,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 247.3505859751138,
+          "voxels": 6024
+        },
+        "fused": {
+          "area_mm2": 4918.830391067136,
+          "height_mm": 52.98081115427095,
+          "proxy_cm3": 260.6036240490167,
+          "voxels": 13156
+        }
+      },
+      "wall_s": 0.15233574999729171
+    },
+    {
+      "tuber": "R7-3",
+      "split": "train",
+      "error": null,
+      "input_index": 103,
+      "arms": {
+        "center": {
+          "area_mm2": 2827.705267677706,
+          "height_mm": 51.499998569488525,
+          "proxy_cm3": 145.62681724033703,
+          "voxels": 3764
+        },
+        "fused": {
+          "area_mm2": 2966.7602729188725,
+          "height_mm": 51.107579820674346,
+          "proxy_cm3": 151.6239374570069,
+          "voxels": 8476
+        }
+      },
+      "wall_s": 0.11684345899993787
+    },
+    {
+      "tuber": "R7-5",
+      "split": "train",
+      "error": null,
+      "input_index": 104,
+      "arms": {
+        "center": {
+          "area_mm2": 1933.5231535879639,
+          "height_mm": 49.999988079071045,
+          "proxy_cm3": 96.67613463000603,
+          "voxels": 2773
+        },
+        "fused": {
+          "area_mm2": 2077.9375446981585,
+          "height_mm": 50.00256352489305,
+          "proxy_cm3": 103.90220407952995,
+          "voxels": 6802
+        }
+      },
+      "wall_s": 0.10848662500211503
+    },
+    {
+      "tuber": "R7-9",
+      "split": "train",
+      "error": null,
+      "input_index": 105,
+      "arms": {
+        "center": {
+          "area_mm2": 4265.389635483301,
+          "height_mm": 49.000000953674316,
+          "proxy_cm3": 209.00409620647432,
+          "voxels": 5542
+        },
+        "fused": {
+          "area_mm2": 4428.850024845492,
+          "height_mm": 49.16169950581326,
+          "proxy_cm3": 217.72979407776768,
+          "voxels": 11749
+        }
+      },
+      "wall_s": 0.1314684170029068
+    },
+    {
+      "tuber": "R8-10",
+      "split": "train",
+      "error": null,
+      "input_index": 106,
+      "arms": {
+        "center": {
+          "area_mm2": 3752.825007177266,
+          "height_mm": 48.00001382827759,
+          "proxy_cm3": 180.1356522396147,
+          "voxels": 4822
+        },
+        "fused": {
+          "area_mm2": 3856.5505928903003,
+          "height_mm": 48.10844706345057,
+          "proxy_cm3": 185.53266004558193,
+          "voxels": 10759
+        }
+      },
+      "wall_s": 0.12754033400051412
+    },
+    {
+      "tuber": "R8-3",
+      "split": "train",
+      "error": null,
+      "input_index": 107,
+      "arms": {
+        "center": {
+          "area_mm2": 5692.307564998117,
+          "height_mm": 63.99998664855957,
+          "proxy_cm3": 364.3076081593741,
+          "voxels": 7524
+        },
+        "fused": {
+          "area_mm2": 5871.754063801584,
+          "height_mm": 63.60149143908154,
+          "proxy_cm3": 373.4523158212687,
+          "voxels": 15499
+        }
+      },
+      "wall_s": 0.1471107090001169
+    },
+    {
+      "tuber": "R8-4",
+      "split": "train",
+      "error": null,
+      "input_index": 108,
+      "arms": {
+        "center": {
+          "area_mm2": 2400.5953601257534,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 110.42741003199258,
+          "voxels": 3192
+        },
+        "fused": {
+          "area_mm2": 2613.9556227395874,
+          "height_mm": 45.73965664921093,
+          "proxy_cm3": 119.56143268038306,
+          "voxels": 7528
+        }
+      },
+      "wall_s": 0.11276820800048881
+    },
+    {
+      "tuber": "R8-6",
+      "split": "train",
+      "error": null,
+      "input_index": 109,
+      "arms": {
+        "center": {
+          "area_mm2": 5165.125908825528,
+          "height_mm": 63.99998664855957,
+          "proxy_cm3": 330.56798920296296,
+          "voxels": 6814
+        },
+        "fused": {
+          "area_mm2": 5387.427312349794,
+          "height_mm": 64.45144924003262,
+          "proxy_cm3": 347.2274979562781,
+          "voxels": 14413
+        }
+      },
+      "wall_s": 0.14514374999998836
+    },
+    {
+      "tuber": "R8-7",
+      "split": "train",
+      "error": null,
+      "input_index": 110,
+      "arms": {
+        "center": {
+          "area_mm2": 2456.539405209387,
+          "height_mm": 44.71249654889107,
+          "proxy_cm3": 109.83800967763963,
+          "voxels": 3336
+        },
+        "fused": {
+          "area_mm2": 2545.419765591615,
+          "height_mm": 44.77120127071754,
+          "proxy_cm3": 113.96150064376485,
+          "voxels": 7179
+        }
+      },
+      "wall_s": 0.10989108400099212
+    },
+    {
+      "tuber": "R8-9",
+      "split": "train",
+      "error": null,
+      "input_index": 111,
+      "arms": {
+        "center": {
+          "area_mm2": 2191.3107945489696,
+          "height_mm": 39.99999761581421,
+          "proxy_cm3": 87.65242655746673,
+          "voxels": 3003
+        },
+        "fused": {
+          "area_mm2": 2342.166113217397,
+          "height_mm": 39.985273086339134,
+          "proxy_cm3": 93.65215165056713,
+          "voxels": 6894
+        }
+      },
+      "wall_s": 0.10817354100072407
+    },
+    {
+      "tuber": "R9-3",
+      "split": "train",
+      "error": null,
+      "input_index": 112,
+      "arms": {
+        "center": {
+          "area_mm2": 2301.3064346740794,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 105.86011849065028,
+          "voxels": 3174
+        },
+        "fused": {
+          "area_mm2": 2449.7549504644785,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 112.68875166811688,
+          "voxels": 7463
+        }
+      },
+      "wall_s": 0.10888916700059781
+    },
+    {
+      "tuber": "R9-5",
+      "split": "train",
+      "error": null,
+      "input_index": 113,
+      "arms": {
+        "center": {
+          "area_mm2": 5180.443311972102,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 269.3830114637895,
+          "voxels": 6518
+        },
+        "fused": {
+          "area_mm2": 5370.235796577251,
+          "height_mm": 52.25740985200258,
+          "proxy_cm3": 280.63461302363294,
+          "voxels": 13578
+        }
+      },
+      "wall_s": 0.14071291700020083
+    },
+    {
+      "tuber": "R9-6",
+      "split": "train",
+      "error": null,
+      "input_index": 114,
+      "arms": {
+        "center": {
+          "area_mm2": 3181.7463855078586,
+          "height_mm": 56.99998736381531,
+          "proxy_cm3": 181.35950376881297,
+          "voxels": 4499
+        },
+        "fused": {
+          "area_mm2": 3305.188030199112,
+          "height_mm": 56.76548155528508,
+          "proxy_cm3": 187.6205901650167,
+          "voxels": 10584
+        }
+      },
+      "wall_s": 0.1213317920010013
+    },
+    {
+      "tuber": "R9-7",
+      "split": "train",
+      "error": null,
+      "input_index": 115,
+      "arms": {
+        "center": {
+          "area_mm2": 2711.872140925822,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 124.74614499157661,
+          "voxels": 3788
+        },
+        "fused": {
+          "area_mm2": 2835.0537197345934,
+          "height_mm": 46.140832353311055,
+          "proxy_cm3": 130.81173839490478,
+          "voxels": 8495
+        }
+      },
+      "wall_s": 0.11264708399903611
+    },
+    {
+      "tuber": "R9-9",
+      "split": "train",
+      "error": null,
+      "input_index": 116,
+      "arms": {
+        "center": {
+          "area_mm2": 2377.175597618136,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 140.2533398560082,
+          "voxels": 3402
+        },
+        "fused": {
+          "area_mm2": 2566.034818873615,
+          "height_mm": 58.999847368173164,
+          "proxy_cm3": 151.39566265496117,
+          "voxels": 7524
+        }
+      },
+      "wall_s": 0.11126833299931604
+    },
+    {
+      "tuber": "2R1-1",
+      "split": "val",
+      "error": null,
+      "input_index": 117,
+      "arms": {
+        "center": {
+          "area_mm2": 7002.820944318371,
+          "height_mm": 62.00001239776611,
+          "proxy_cm3": 434.17498536707524,
+          "voxels": 8993
+        },
+        "fused": {
+          "area_mm2": 7282.476937108734,
+          "height_mm": 61.865280308772014,
+          "proxy_cm3": 450.5324770563993,
+          "voxels": 19181
+        }
+      },
+      "wall_s": 0.16706362499826355
+    },
+    {
+      "tuber": "2R2-1",
+      "split": "val",
+      "error": null,
+      "input_index": 118,
+      "arms": {
+        "center": {
+          "area_mm2": 2646.074502153367,
+          "height_mm": 51.00000500679016,
+          "proxy_cm3": 134.94981285816152,
+          "voxels": 3749
+        },
+        "fused": {
+          "area_mm2": 2890.5327019028355,
+          "height_mm": 51.17871284368164,
+          "proxy_cm3": 147.93374311595642,
+          "voxels": 9099
+        }
+      },
+      "wall_s": 0.11943966699982411
+    },
+    {
+      "tuber": "3R1-1",
+      "split": "val",
+      "error": null,
+      "input_index": 119,
+      "arms": {
+        "center": {
+          "area_mm2": 2979.000046921406,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 175.76097719940046,
+          "voxels": 4057
+        },
+        "fused": {
+          "area_mm2": 3215.6386299206683,
+          "height_mm": 59.35485503028019,
+          "proxy_cm3": 190.86376470871008,
+          "voxels": 8848
+        }
+      },
+      "wall_s": 0.12117187500189175
+    },
+    {
+      "tuber": "3R1-7",
+      "split": "val",
+      "error": null,
+      "input_index": 120,
+      "arms": {
+        "center": {
+          "area_mm2": 4896.024734957688,
+          "height_mm": 56.99998736381531,
+          "proxy_cm3": 279.07334802551543,
+          "voxels": 6389
+        },
+        "fused": {
+          "area_mm2": 5124.143587831488,
+          "height_mm": 57.792417163438586,
+          "proxy_cm3": 296.1366438333162,
+          "voxels": 13656
+        }
+      },
+      "wall_s": 0.1393850829990697
+    },
+    {
+      "tuber": "3R1-8",
+      "split": "val",
+      "error": null,
+      "input_index": 121,
+      "arms": {
+        "center": {
+          "area_mm2": 3877.2112109821783,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 178.3517536055469,
+          "voxels": 5178
+        },
+        "fused": {
+          "area_mm2": 4033.014008076614,
+          "height_mm": 46.09693907082624,
+          "proxy_cm3": 185.9096010020964,
+          "voxels": 10893
+        }
+      },
+      "wall_s": 0.12739487500221003
+    },
+    {
+      "tuber": "3R1-9",
+      "split": "val",
+      "error": null,
+      "input_index": 122,
+      "arms": {
+        "center": {
+          "area_mm2": 5054.103984879992,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 267.8675569883466,
+          "voxels": 6577
+        },
+        "fused": {
+          "area_mm2": 5309.171539458638,
+          "height_mm": 53.02648284126673,
+          "proxy_cm3": 281.5266935384451,
+          "voxels": 14163
+        }
+      },
+      "wall_s": 0.14063349999923958
+    },
+    {
+      "tuber": "3R3-8",
+      "split": "val",
+      "error": null,
+      "input_index": 123,
+      "arms": {
+        "center": {
+          "area_mm2": 4484.549023822867,
+          "height_mm": 58.99999141693115,
+          "proxy_cm3": 264.5883539143561,
+          "voxels": 6183
+        },
+        "fused": {
+          "area_mm2": 4633.802689912957,
+          "height_mm": 58.42266877078225,
+          "proxy_cm3": 270.7191197019445,
+          "voxels": 14126
+        }
+      },
+      "wall_s": 0.13580591699792421
+    },
+    {
+      "tuber": "3R4-10",
+      "split": "val",
+      "error": null,
+      "input_index": 124,
+      "arms": {
+        "center": {
+          "area_mm2": 2626.000472673457,
+          "height_mm": 53.999996185302734,
+          "proxy_cm3": 141.80401550696985,
+          "voxels": 3439
+        },
+        "fused": {
+          "area_mm2": 2785.708450425555,
+          "height_mm": 54.427438515120286,
+          "proxy_cm3": 151.6189754065879,
+          "voxels": 7822
+        }
+      },
+      "wall_s": 0.11532787500254926
+    },
+    {
+      "tuber": "3R6-2",
+      "split": "val",
+      "error": null,
+      "input_index": 125,
+      "arms": {
+        "center": {
+          "area_mm2": 5092.745219864874,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 264.8227113642059,
+          "voxels": 6429
+        },
+        "fused": {
+          "area_mm2": 5478.441023190582,
+          "height_mm": 51.00000500679016,
+          "proxy_cm3": 279.4005196121243,
+          "voxels": 14866
+        }
+      },
+      "wall_s": 0.14053599999897415
+    },
+    {
+      "tuber": "3R6-3",
+      "split": "val",
+      "error": null,
+      "input_index": 126,
+      "arms": {
+        "center": {
+          "area_mm2": 3925.3007064404783,
+          "height_mm": 51.99999213218689,
+          "proxy_cm3": 204.1156058513725,
+          "voxels": 5091
+        },
+        "fused": {
+          "area_mm2": 4168.662133330658,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 220.939130834212,
+          "voxels": 11375
+        }
+      },
+      "wall_s": 0.12965183300184435
+    },
+    {
+      "tuber": "4R1-2",
+      "split": "val",
+      "error": null,
+      "input_index": 127,
+      "arms": {
+        "center": {
+          "area_mm2": 2862.9794673928523,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 131.69708348615856,
+          "voxels": 3867
+        },
+        "fused": {
+          "area_mm2": 3030.4002264029164,
+          "height_mm": 45.58679181965732,
+          "proxy_cm3": 138.14622425127214,
+          "voxels": 8694
+        }
+      },
+      "wall_s": 0.120802833000198
+    },
+    {
+      "tuber": "4R3-1",
+      "split": "val",
+      "error": null,
+      "input_index": 128,
+      "arms": {
+        "center": {
+          "area_mm2": 2755.516871281304,
+          "height_mm": 55.00001311302185,
+          "proxy_cm3": 151.55346405362465,
+          "voxels": 3754
+        },
+        "fused": {
+          "area_mm2": 3018.211602837276,
+          "height_mm": 55.00001311302185,
+          "proxy_cm3": 166.00167773392488,
+          "voxels": 8961
+        }
+      },
+      "wall_s": 0.11972833300023922
+    },
+    {
+      "tuber": "4R4-4",
+      "split": "val",
+      "error": null,
+      "input_index": 129,
+      "arms": {
+        "center": {
+          "area_mm2": 4474.061396102743,
+          "height_mm": 49.000000953674316,
+          "proxy_cm3": 219.22901267583185,
+          "voxels": 6146
+        },
+        "fused": {
+          "area_mm2": 4769.55628250561,
+          "height_mm": 48.21041822220724,
+          "proxy_cm3": 229.94230311395148,
+          "voxels": 13671
+        }
+      },
+      "wall_s": 0.16525883400026942
+    },
+    {
+      "tuber": "4R6-1",
+      "split": "val",
+      "error": null,
+      "input_index": 130,
+      "arms": {
+        "center": {
+          "area_mm2": 4189.27947206462,
+          "height_mm": 56.99998736381531,
+          "proxy_cm3": 238.78887697117418,
+          "voxels": 5567
+        },
+        "fused": {
+          "area_mm2": 4439.707107607502,
+          "height_mm": 57.24172420510746,
+          "proxy_cm3": 254.13648980512397,
+          "voxels": 12296
+        }
+      },
+      "wall_s": 0.1361193339980673
+    },
+    {
+      "tuber": "4R8-2",
+      "split": "val",
+      "error": null,
+      "input_index": 131,
+      "arms": {
+        "center": {
+          "area_mm2": 3464.3288825392074,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 183.60946216107203,
+          "voxels": 4467
+        },
+        "fused": {
+          "area_mm2": 3642.02069020152,
+          "height_mm": 53.00836119714984,
+          "proxy_cm3": 193.05754823369512,
+          "voxels": 9333
+        }
+      },
+      "wall_s": 0.12682279200089397
+    },
+    {
+      "tuber": "4R8-3",
+      "split": "val",
+      "error": null,
+      "input_index": 132,
+      "arms": {
+        "center": {
+          "area_mm2": 3414.7035250949643,
+          "height_mm": 46.00000977516174,
+          "proxy_cm3": 157.07639553364763,
+          "voxels": 4320
+        },
+        "fused": {
+          "area_mm2": 3683.8425173447727,
+          "height_mm": 45.56456560322033,
+          "proxy_cm3": 167.85268405348822,
+          "voxels": 9166
+        }
+      },
+      "wall_s": 0.12419154199960758
+    },
+    {
+      "tuber": "4R8-5",
+      "split": "val",
+      "error": null,
+      "input_index": 133,
+      "arms": {
+        "center": {
+          "area_mm2": 2718.885068408285,
+          "height_mm": 49.999988079071045,
+          "proxy_cm3": 135.94422100877853,
+          "voxels": 3624
+        },
+        "fused": {
+          "area_mm2": 2984.7952069755215,
+          "height_mm": 50.295335318896264,
+          "proxy_cm3": 150.12127579306824,
+          "voxels": 8267
+        }
+      },
+      "wall_s": 0.11587054199844715
+    },
+    {
+      "tuber": "R1-1",
+      "split": "val",
+      "error": null,
+      "input_index": 134,
+      "arms": {
+        "center": {
+          "area_mm2": 2333.858973641419,
+          "height_mm": 39.99999761581421,
+          "proxy_cm3": 93.35435338130337,
+          "voxels": 2960
+        },
+        "fused": {
+          "area_mm2": 2487.9756734382167,
+          "height_mm": 40.5176431298986,
+          "proxy_cm3": 100.80691045223881,
+          "voxels": 6911
+        }
+      },
+      "wall_s": 0.10860649999813177
+    },
+    {
+      "tuber": "R1-2",
+      "split": "val",
+      "error": null,
+      "input_index": 135,
+      "arms": {
+        "center": {
+          "area_mm2": 5047.704453935879,
+          "height_mm": 58.000004291534424,
+          "proxy_cm3": 292.76687999067843,
+          "voxels": 6282
+        },
+        "fused": {
+          "area_mm2": 5359.181437491547,
+          "height_mm": 58.300164341429934,
+          "proxy_cm3": 312.4411585412979,
+          "voxels": 13461
+        }
+      },
+      "wall_s": 0.13916337500268128
+    },
+    {
+      "tuber": "R3-2",
+      "split": "val",
+      "error": null,
+      "input_index": 136,
+      "arms": {
+        "center": {
+          "area_mm2": 2165.8029573061617,
+          "height_mm": 51.00000500679016,
+          "proxy_cm3": 110.45596166633518,
+          "voxels": 2971
+        },
+        "fused": {
+          "area_mm2": 2327.547554813544,
+          "height_mm": 51.21880629550725,
+          "proxy_cm3": 119.21420735357647,
+          "voxels": 6551
+        }
+      },
+      "wall_s": 0.11134416699860594
+    },
+    {
+      "tuber": "R4-2",
+      "split": "val",
+      "error": null,
+      "input_index": 137,
+      "arms": {
+        "center": {
+          "area_mm2": 4314.107143180231,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 228.64771767395746,
+          "voxels": 5823
+        },
+        "fused": {
+          "area_mm2": 4826.82905582005,
+          "height_mm": 53.10875228985981,
+          "proxy_cm3": 256.3468686710449,
+          "voxels": 12957
+        }
+      },
+      "wall_s": 0.1411617080011638
+    },
+    {
+      "tuber": "R4-4",
+      "split": "val",
+      "error": null,
+      "input_index": 138,
+      "arms": {
+        "center": {
+          "area_mm2": 1525.6332480224198,
+          "height_mm": 39.00001049041748,
+          "proxy_cm3": 59.49971267740407,
+          "voxels": 2195
+        },
+        "fused": {
+          "area_mm2": 1630.6711550489315,
+          "height_mm": 39.333356075913116,
+          "proxy_cm3": 64.13976918426015,
+          "voxels": 5016
+        }
+      },
+      "wall_s": 0.10082799999872805
+    },
+    {
+      "tuber": "R4-7",
+      "split": "val",
+      "error": null,
+      "input_index": 139,
+      "arms": {
+        "center": {
+          "area_mm2": 3097.078194807732,
+          "height_mm": 44.242502599954605,
+          "proxy_cm3": 137.0224900860438,
+          "voxels": 3865
+        },
+        "fused": {
+          "area_mm2": 3384.687114597781,
+          "height_mm": 44.34902997162078,
+          "proxy_cm3": 150.10759028985566,
+          "voxels": 8877
+        }
+      },
+      "wall_s": 0.1172847499983618
+    },
+    {
+      "tuber": "R5-1",
+      "split": "val",
+      "error": null,
+      "input_index": 140,
+      "arms": {
+        "center": {
+          "area_mm2": 2839.368045855624,
+          "height_mm": 39.500004053115845,
+          "proxy_cm3": 112.15504931958476,
+          "voxels": 3628
+        },
+        "fused": {
+          "area_mm2": 3081.8513815567544,
+          "height_mm": 39.21472024726819,
+          "proxy_cm3": 120.8539397714051,
+          "voxels": 8055
+        }
+      },
+      "wall_s": 0.11209291699924506
+    },
+    {
+      "tuber": "R5-7",
+      "split": "val",
+      "error": null,
+      "input_index": 141,
+      "arms": {
+        "center": {
+          "area_mm2": 2699.9358879612,
+          "height_mm": 39.99999761581421,
+          "proxy_cm3": 107.99742908129923,
+          "voxels": 3830
+        },
+        "fused": {
+          "area_mm2": 2793.2411862649874,
+          "height_mm": 40.32370358625968,
+          "proxy_cm3": 112.63382963988172,
+          "voxels": 8708
+        }
+      },
+      "wall_s": 0.11447629100075574
+    },
+    {
+      "tuber": "R5-8",
+      "split": "val",
+      "error": null,
+      "input_index": 142,
+      "arms": {
+        "center": {
+          "area_mm2": 3057.981071086472,
+          "height_mm": 56.00000023841858,
+          "proxy_cm3": 171.24694070992194,
+          "voxels": 4078
+        },
+        "fused": {
+          "area_mm2": 3317.492700332053,
+          "height_mm": 56.02275117537522,
+          "proxy_cm3": 185.85506807682626,
+          "voxels": 9209
+        }
+      },
+      "wall_s": 0.11631962499814108
+    },
+    {
+      "tuber": "R5-9",
+      "split": "val",
+      "error": null,
+      "input_index": 143,
+      "arms": {
+        "center": {
+          "area_mm2": 3143.0867051634377,
+          "height_mm": 49.999988079071045,
+          "proxy_cm3": 157.15429778965856,
+          "voxels": 4150
+        },
+        "fused": {
+          "area_mm2": 3289.280917807414,
+          "height_mm": 50.19433524633439,
+          "proxy_cm3": 165.10326910779582,
+          "voxels": 9351
+        }
+      },
+      "wall_s": 0.11524141599875293
+    },
+    {
+      "tuber": "R6-5",
+      "split": "val",
+      "error": null,
+      "input_index": 144,
+      "arms": {
+        "center": {
+          "area_mm2": 4187.170591863956,
+          "height_mm": 49.999988079071045,
+          "proxy_cm3": 209.35847967823466,
+          "voxels": 5347
+        },
+        "fused": {
+          "area_mm2": 4494.5994362669435,
+          "height_mm": 49.37784717409431,
+          "proxy_cm3": 221.93364407275956,
+          "voxels": 11519
+        }
+      },
+      "wall_s": 0.13128895800036844
+    },
+    {
+      "tuber": "R8-1",
+      "split": "val",
+      "error": null,
+      "input_index": 145,
+      "arms": {
+        "center": {
+          "area_mm2": 4072.0718087002238,
+          "height_mm": 53.000009059906006,
+          "proxy_cm3": 215.8198427536997,
+          "voxels": 5238
+        },
+        "fused": {
+          "area_mm2": 4251.933560383066,
+          "height_mm": 52.70324807033853,
+          "proxy_cm3": 224.09070921146645,
+          "voxels": 10899
+        }
+      },
+      "wall_s": 0.13076079199890955
+    },
+    {
+      "tuber": "R9-4",
+      "split": "val",
+      "error": null,
+      "input_index": 146,
+      "arms": {
+        "center": {
+          "area_mm2": 3849.2915277979796,
+          "height_mm": 60.00000834465027,
+          "proxy_cm3": 230.95752378887036,
+          "voxels": 5505
+        },
+        "fused": {
+          "area_mm2": 4068.389783031463,
+          "height_mm": 59.2815080799287,
+          "proxy_cm3": 241.18028179507903,
+          "voxels": 11949
+        }
+      },
+      "wall_s": 0.1361174999983632
+    }
+  ],
+  "complete_by_split": {
+    "train": 117,
+    "val": 30
+  }
+}

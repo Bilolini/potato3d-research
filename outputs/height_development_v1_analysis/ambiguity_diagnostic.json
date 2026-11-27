@@ -1,0 +1,171 @@
+{
+  "scope": "post-hoc explanatory diagnostic; not a new primary endpoint or calibrated uncertainty interval",
+  "bound_definition": "For identical observed inputs and a shared deterministic volume prediction, mean absolute error across two equiprobable hidden volumes is at least half their absolute difference.",
+  "mean_two_profile_volume_mae_lower_bound_ml": 6.528827351926238,
+  "family_lower_bounds_ml": {
+    "family_00": 3.973289636886168,
+    "family_01": 8.003054968167774,
+    "family_02": 6.142801673321294,
+    "family_03": 6.821088376949739,
+    "family_04": 7.10669501500859,
+    "family_05": 6.879665981436808,
+    "family_06": 7.120956634741454,
+    "family_07": 7.059475668687824,
+    "family_08": 7.7506009354835825,
+    "family_09": 5.797210518606924,
+    "family_10": 4.7464900533759256,
+    "family_11": 6.94459876044877
+  },
+  "excess_mae_over_two_profile_bound": [
+    {
+      "condition": "belt_minus3mm",
+      "method": "convex",
+      "mean_excess_ml": 14.737298538518862
+    },
+    {
+      "condition": "belt_minus3mm",
+      "method": "ellipsoid",
+      "mean_excess_ml": 0.0
+    },
+    {
+      "condition": "belt_minus3mm",
+      "method": "symmetry",
+      "mean_excess_ml": 0.0
+    },
+    {
+      "condition": "belt_minus3mm",
+      "method": "symmetry_height95",
+      "mean_excess_ml": 0.0
+    },
+    {
+      "condition": "belt_minus3mm",
+      "method": "symmetry_robust95",
+      "mean_excess_ml": 0.0
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "convex",
+      "mean_excess_ml": 31.129081578612745
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "ellipsoid",
+      "mean_excess_ml": 9.207390746617184
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "symmetry",
+      "mean_excess_ml": 7.496507218048161
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "symmetry_height95",
+      "mean_excess_ml": 9.184227190999392
+    },
+    {
+      "condition": "belt_plus3mm",
+      "method": "symmetry_robust95",
+      "mean_excess_ml": 9.144035574240055
+    },
+    {
+      "condition": "clean",
+      "method": "convex",
+      "mean_excess_ml": 22.933190058565813
+    },
+    {
+      "condition": "clean",
+      "method": "ellipsoid",
+      "mean_excess_ml": 0.2301127112286411
+    },
+    {
+      "condition": "clean",
+      "method": "symmetry",
+      "mean_excess_ml": 0.0
+    },
+    {
+      "condition": "clean",
+      "method": "symmetry_height95",
+      "mean_excess_ml": 0.988335670952452
+    },
+    {
+      "condition": "clean",
+      "method": "symmetry_robust95",
+      "mean_excess_ml": 0.9481440541931155
+    },
+    {
+      "condition": "depth_gap",
+      "method": "convex",
+      "mean_excess_ml": 22.685012777681994
+    },
+    {
+      "condition": "depth_gap",
+      "method": "ellipsoid",
+      "mean_excess_ml": 0.6785496342657057
+    },
+    {
+      "condition": "depth_gap",
+      "method": "symmetry",
+      "mean_excess_ml": 0.0
+    },
+    {
+      "condition": "depth_gap",
+      "method": "symmetry_height95",
+      "mean_excess_ml": 1.4698427484382492
+    },
+    {
+      "condition": "depth_gap",
+      "method": "symmetry_robust95",
+      "mean_excess_ml": 1.3696348344377949
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "convex",
+      "mean_excess_ml": 33.69554009903573
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "ellipsoid",
+      "mean_excess_ml": 0.7490631139265632
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "symmetry",
+      "mean_excess_ml": 2.049355784109999
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "symmetry_height95",
+      "mean_excess_ml": 0.0
+    },
+    {
+      "condition": "depth_jitter_2mm",
+      "method": "symmetry_robust95",
+      "mean_excess_ml": 0.0
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "convex",
+      "mean_excess_ml": 61.11230632079161
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "ellipsoid",
+      "mean_excess_ml": 8.362426765498972
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "symmetry",
+      "mean_excess_ml": 32.19665408582393
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "symmetry_height95",
+      "mean_excess_ml": 1.6312961360806852
+    },
+    {
+      "condition": "outliers_2percent",
+      "method": "symmetry_robust95",
+      "mean_excess_ml": 1.2311553846877434
+    }
+  ]
+}

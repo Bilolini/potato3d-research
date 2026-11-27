@@ -1,0 +1,45 @@
+{
+  "stage": "sealed_before_inference",
+  "intake_sha256": "d95aa31147d3e320d365a1f66fd95c91854cdfe19fde87745e89ec636fe7573f",
+  "review_sha256": "6beae5da97179d503ff91a7171a139f54030ff46ea3d72601edb60b9af811068",
+  "review": {
+    "status": "reviewed",
+    "crop_sha256": "5a8883f5eb25d18a3093b5cfe14c15b097c65dd208419ab052b4946ad5e18c39",
+    "native": "The white pin and its purple rim are at the upper-right site. The lower-left site is ordinary textured peel. The native edits are confined to their archived masks.",
+    "swapped": "The bright circular core appears at the lower-left site with a crisp cutout boundary. The upper-right textured patch shows a narrow residual purple rim beyond the exchanged mask. Both edited swapped crops remain visibly composited.",
+    "rgb_depth_context": "The bright pin pixels now overlay the original peel depth, while the transplant at the original pin site retains the original pin-site depth. The surrounding pixels and both depth footprints are fixed. The exchange changes RGB/depth correspondence and leaves a visible seam."
+  },
+  "provenance_sha256": {
+    "corepp_pin_swap_pilot.py": "70fa68d1b9aba869239bff7f93ba134c401e30b6210888229d4b6f44771b3127",
+    "corepp_pin_swap_pilot_protocol.md": "152e69809c4560a645348899205865b23a6d6697f6ca205bdb52b88e84b78aa2",
+    "frozen_inputs.json": "0a8a5f2172aa1a4d575fb1de425182f76055c0dc3caa1d2f6b961c445fc48963",
+    "no_op_replay.json": "9b04eb2e0c1c47fa25f37fd5a8a62b273bc22ee5237256904c5d58498b41df2d",
+    "results.json": "9e67c0ef1daf1632b8d0b22c0cc57081ac838fa54986ac957023123f749c361d",
+    "frozen_grid.json": "00ab2614dabfb49e58edab7f9d57af3ff38aad8def29563ba218cec38f999dc8",
+    "expanded_grid.npy": "bdc1888d4916979c73fc95975ee36f29a815f4abf63b47ce654f99cea3bdacaf",
+    "corepp_pin_pilot.py": "0ed008e8d38559025cf5e2dac40602b0ef553197b31b3d2399c57e35d445cc90",
+    "corepp_pin_multituber.py": "41658f137b1a0aa276d98e8880cff81e78584313bc0a17c6f918a5c30b0f496e",
+    "corepp_pin_grid_boundary.py": "64f801a576408f39050d05724d6bf2b9cfa866259ef904bfc9f3e83785976db3",
+    "corepp_pin_confirmation.py": "d5f736eac45fdfe500b2b36e48d58d900b8dc4444a434f0f8a8d1f88230f1b08",
+    "corepp_pin_accuracy.py": "53a3eccd838df6f1f7ad38e38660ba1a7a3906c235330b520e26cba926e93052"
+  },
+  "cpu_seeds": [
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148
+  ],
+  "geometry_order": "canonical vertex and face ordering for surface metric"
+}

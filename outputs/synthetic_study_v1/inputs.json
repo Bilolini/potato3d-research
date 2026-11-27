@@ -1,0 +1,182 @@
+[
+  {
+    "object_id": "ellipsoid",
+    "frame_id": "000",
+    "condition": "clean",
+    "input_points": 2500,
+    "fit_points": 2500,
+    "split": "synthetic_development_only",
+    "axes_mm": [
+      40.0,
+      27.0,
+      23.0
+    ],
+    "waist": 0.0,
+    "yaw_rad": 0.35,
+    "visibility": "orthographic top root; uniform unit-disk samples followed by shape warp",
+    "corruption": {},
+    "belt_depth_mm": null,
+    "canonical_partial_sha256": "ed9a085aa0288937db66f71a3b197366a3af5a8463058db079d70e52c44d1e73",
+    "canonical_reference_sha256": "eaf2b4299c67865b6861ae2b152ee21de8fefe9604c1985139090ddc99d7f0bd",
+    "sample_total_seconds_including_visualization": 0.8398951250128448
+  },
+  {
+    "object_id": "ellipsoid",
+    "frame_id": "000",
+    "condition": "depth_jitter_2mm",
+    "input_points": 2500,
+    "fit_points": 2500,
+    "split": "synthetic_development_only",
+    "axes_mm": [
+      40.0,
+      27.0,
+      23.0
+    ],
+    "waist": 0.0,
+    "yaw_rad": 0.35,
+    "visibility": "orthographic top root; uniform unit-disk samples followed by shape warp",
+    "corruption": {
+      "noise_mm": 2.0
+    },
+    "belt_depth_mm": null,
+    "canonical_partial_sha256": "c3eb58cfdd9e9fa54245f8560f5fd66bcfcf612dfe8299d95946789ec51d61ec",
+    "canonical_reference_sha256": "eaf2b4299c67865b6861ae2b152ee21de8fefe9604c1985139090ddc99d7f0bd",
+    "sample_total_seconds_including_visualization": 0.7850290830247104
+  },
+  {
+    "object_id": "ellipsoid",
+    "frame_id": "000",
+    "condition": "outliers_2percent",
+    "input_points": 2500,
+    "fit_points": 2500,
+    "split": "synthetic_development_only",
+    "axes_mm": [
+      40.0,
+      27.0,
+      23.0
+    ],
+    "waist": 0.0,
+    "yaw_rad": 0.35,
+    "visibility": "orthographic top root; uniform unit-disk samples followed by shape warp",
+    "corruption": {
+      "outlier_fraction": 0.02
+    },
+    "belt_depth_mm": null,
+    "canonical_partial_sha256": "5da21f10bac4a352a8ac0d1022e65954c9024a4fa71b4e527212da0fc2c0a88f",
+    "canonical_reference_sha256": "eaf2b4299c67865b6861ae2b152ee21de8fefe9604c1985139090ddc99d7f0bd",
+    "sample_total_seconds_including_visualization": 1.0139688330236822
+  },
+  {
+    "object_id": "ellipsoid",
+    "frame_id": "000",
+    "condition": "depth_gap",
+    "input_points": 2181,
+    "fit_points": 2181,
+    "split": "synthetic_development_only",
+    "axes_mm": [
+      40.0,
+      27.0,
+      23.0
+    ],
+    "waist": 0.0,
+    "yaw_rad": 0.35,
+    "visibility": "orthographic top root; uniform unit-disk samples followed by shape warp",
+    "corruption": {
+      "gap": true
+    },
+    "belt_depth_mm": null,
+    "canonical_partial_sha256": "cb1888056480ea6ebd284844673e6821017c0d50529d7c028a07e59c039a0663",
+    "canonical_reference_sha256": "eaf2b4299c67865b6861ae2b152ee21de8fefe9604c1985139090ddc99d7f0bd",
+    "sample_total_seconds_including_visualization": 0.7083951249951497
+  },
+  {
+    "object_id": "waisted",
+    "frame_id": "000",
+    "condition": "clean",
+    "input_points": 2500,
+    "fit_points": 2500,
+    "split": "synthetic_development_only",
+    "axes_mm": [
+      40.0,
+      27.0,
+      23.0
+    ],
+    "waist": 0.55,
+    "yaw_rad": 0.35,
+    "visibility": "orthographic top root; uniform unit-disk samples followed by shape warp",
+    "corruption": {},
+    "belt_depth_mm": null,
+    "canonical_partial_sha256": "cec58229f4d3529adcdcfeb156b84b72eb863e818376da58336b6845bed4020c",
+    "canonical_reference_sha256": "b735dce2479e215a6fe1c4ed32cbdf9c9350779956033fa516601a4c8cf09ce9",
+    "sample_total_seconds_including_visualization": 0.7170517919585109
+  },
+  {
+    "object_id": "waisted",
+    "frame_id": "000",
+    "condition": "depth_jitter_2mm",
+    "input_points": 2500,
+    "fit_points": 2500,
+    "split": "synthetic_development_only",
+    "axes_mm": [
+      40.0,
+      27.0,
+      23.0
+    ],
+    "waist": 0.55,
+    "yaw_rad": 0.35,
+    "visibility": "orthographic top root; uniform unit-disk samples followed by shape warp",
+    "corruption": {
+      "noise_mm": 2.0
+    },
+    "belt_depth_mm": null,
+    "canonical_partial_sha256": "da610f8cd4df8e2a1bfc1a77d1243ebe48eb6a1cfc37a7087db9bef2c2c97bf0",
+    "canonical_reference_sha256": "b735dce2479e215a6fe1c4ed32cbdf9c9350779956033fa516601a4c8cf09ce9",
+    "sample_total_seconds_including_visualization": 0.8048248330596834
+  },
+  {
+    "object_id": "waisted",
+    "frame_id": "000",
+    "condition": "outliers_2percent",
+    "input_points": 2500,
+    "fit_points": 2500,
+    "split": "synthetic_development_only",
+    "axes_mm": [
+      40.0,
+      27.0,
+      23.0
+    ],
+    "waist": 0.55,
+    "yaw_rad": 0.35,
+    "visibility": "orthographic top root; uniform unit-disk samples followed by shape warp",
+    "corruption": {
+      "outlier_fraction": 0.02
+    },
+    "belt_depth_mm": null,
+    "canonical_partial_sha256": "b97ebed07d95b285a1a3d29b8b09d9bb4aee2179a88d6ccf41e54c13c33b2e56",
+    "canonical_reference_sha256": "b735dce2479e215a6fe1c4ed32cbdf9c9350779956033fa516601a4c8cf09ce9",
+    "sample_total_seconds_including_visualization": 0.8317394580226392
+  },
+  {
+    "object_id": "waisted",
+    "frame_id": "000",
+    "condition": "depth_gap",
+    "input_points": 2153,
+    "fit_points": 2153,
+    "split": "synthetic_development_only",
+    "axes_mm": [
+      40.0,
+      27.0,
+      23.0
+    ],
+    "waist": 0.55,
+    "yaw_rad": 0.35,
+    "visibility": "orthographic top root; uniform unit-disk samples followed by shape warp",
+    "corruption": {
+      "gap": true
+    },
+    "belt_depth_mm": null,
+    "canonical_partial_sha256": "e16359a48cbae50d44891544769536025657b10a3e558ffc6749618cec0be7b0",
+    "canonical_reference_sha256": "b735dce2479e215a6fe1c4ed32cbdf9c9350779956033fa516601a4c8cf09ce9",
+    "sample_total_seconds_including_visualization": 0.6860807089833543
+  }
+]

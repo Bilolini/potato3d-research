@@ -1,0 +1,1129 @@
+{
+  "stage": "demo_development_screen",
+  "rules": {
+    "foreground_margin_px": 3,
+    "depth_step_mm": 4,
+    "depth_edge_buffer_px": 1,
+    "marker_buffer_px": 2,
+    "footprint_radius_mm": 9
+  },
+  "marker_sha256": "597a647b53fe5a01fb0154d5dbc9ef3574ab5317890b1e438c53a7d1ecd22446",
+  "pairs": [
+    {
+      "object_id": "2R2-8",
+      "frame_id": "356",
+      "eligible_centers": 1710,
+      "detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              57.0,
+              24.0
+            ],
+            "scan_relief_mm": 2.2696027761939632,
+            "scan_core_coherence": 1.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 10.719566676326378,
+            "scan_background_slope": 0.9837864647361592,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.18712602052850968,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.01798544578401362,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.15843535172126622,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.012141605797453714,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.2625545493085184,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.016150341029737447,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.2226255169828235,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.05618301508032708,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.13293625554174326,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.016641733494790145,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              49.0,
+              4.0
+            ],
+            "scan_relief_mm": -0.4415446510551533,
+            "scan_core_coherence": 0.06896551724137931,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 10.40362328514815,
+            "scan_background_slope": 0.9593893254291491,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.1331241246742394,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.2024626949767354,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.07581549979138202,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.20631495362191554,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.17343798668769494,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.21581944110480134,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.12398137026806921,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.2140434521346961,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.14878373956584312,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1563805347612659,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        }
+      ],
+      "original_eligible_centers": 3088,
+      "excluded_centers_by_reason": {
+        "foreground_boundary_or_missing_depth": 673,
+        "depth_discontinuity": 45,
+        "marker_overlap": 812
+      },
+      "rgb_sha256": "3e2c8449942d7c2e07b5cb8f4db092a04aad5ae8cc6a090387b282f69986bcba",
+      "depth_sha256": "8ec41435d1cb937c979b027848c17a0903c85d0455e7caee59cf2dc1ff30c41d",
+      "original_detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              79.0,
+              12.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              87.0,
+              7.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              57.0,
+              24.0
+            ],
+            "screen_reasons": []
+          },
+          "control": {
+            "xy_mm": [
+              102.0,
+              -19.0
+            ],
+            "screen_reasons": [
+              "foreground_boundary_or_missing_depth"
+            ]
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              100.0,
+              20.0
+            ],
+            "screen_reasons": [
+              "foreground_boundary_or_missing_depth"
+            ]
+          },
+          "control": null
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              87.0,
+              19.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              65.0,
+              -9.0
+            ],
+            "screen_reasons": []
+          }
+        }
+      ]
+    },
+    {
+      "object_id": "4R3-4",
+      "frame_id": "367",
+      "eligible_centers": 871,
+      "detections": [],
+      "original_eligible_centers": 1985,
+      "excluded_centers_by_reason": {
+        "foreground_boundary_or_missing_depth": 302,
+        "depth_discontinuity": 13,
+        "marker_overlap": 842
+      },
+      "rgb_sha256": "707c08330b0493c9e02f736ccb652573286a85e86a41482b2a223ee88af76ddd",
+      "depth_sha256": "f0259582f0899c19482313e3a4c16c55e453417bf74f47bd876aa35d009a44d1",
+      "original_detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              -62.0,
+              17.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              -63.0,
+              3.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              -69.0,
+              11.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              -55.0,
+              23.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              -42.0,
+              12.0
+            ],
+            "screen_reasons": [
+              "foreground_boundary_or_missing_depth"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              -48.0,
+              33.0
+            ],
+            "screen_reasons": []
+          }
+        }
+      ]
+    },
+    {
+      "object_id": "5R3-2",
+      "frame_id": "356",
+      "eligible_centers": 348,
+      "detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              -6.0,
+              -7.0
+            ],
+            "scan_relief_mm": 1.5260106903225648,
+            "scan_core_coherence": 0.9310344827586207,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 13.423357322826853,
+            "scan_background_slope": 0.4953425093909891,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.175088510527587,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1417122375618896,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.19034025947360078,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.09935733379410316,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.16302813444993802,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.139900491635653,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.15505520777612247,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1156656619921197,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.20055899778162,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.16237137933718682,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              -7.0,
+              6.0
+            ],
+            "scan_relief_mm": 0.40471938675054986,
+            "scan_core_coherence": 0.2413793103448276,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 13.004533584127904,
+            "scan_background_slope": 0.4435546156449642,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.0818549970147302,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 0.9930555555555556
+                },
+                "underside": {
+                  "relief_mm": 0.39764550713621283,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 0.9930555555555556
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.15976702396277176,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.3869305571586681,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.004908719860871713,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.3039027560242067,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.054392222065438034,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.36548038969675734,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.24013884564840282,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.4302252271448097,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        }
+      ],
+      "original_eligible_centers": 1245,
+      "excluded_centers_by_reason": {
+        "foreground_boundary_or_missing_depth": 238,
+        "marker_overlap": 746
+      },
+      "rgb_sha256": "554371c1d42cae27804a776d7910b74a94872399bcaa70e17a74fe932dcd97ac",
+      "depth_sha256": "54498d55cf5849e1e1a937152543bbd69c719d8b38553ea37dced9d887835a12",
+      "original_detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              14.0,
+              7.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              23.0,
+              7.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              18.0,
+              -5.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              27.0,
+              -2.0
+            ],
+            "screen_reasons": []
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              4.0,
+              3.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": null
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              -6.0,
+              -7.0
+            ],
+            "screen_reasons": []
+          },
+          "control": {
+            "xy_mm": [
+              -7.0,
+              6.0
+            ],
+            "screen_reasons": []
+          }
+        }
+      ]
+    },
+    {
+      "object_id": "R13-8",
+      "frame_id": "357",
+      "eligible_centers": 3449,
+      "detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              140.0,
+              7.0
+            ],
+            "scan_relief_mm": 2.0245916669587345,
+            "scan_core_coherence": 0.896551724137931,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 23.755011334087726,
+            "scan_background_slope": 0.36065898908320704,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.09269504574229614,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.01472089700211665,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.06573413004062445,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.0059467724022675,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.10961118675416515,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.017224739418321144,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.09096196639713128,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.018515008655347387,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.09114504825194558,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.004013660274370223,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              147.0,
+              -26.0
+            ],
+            "scan_relief_mm": -0.20843795344927685,
+            "scan_core_coherence": 0.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 23.757884584909604,
+            "scan_background_slope": 0.363660354019248,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.05228685087452334,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.08086997872485702,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.03608051726384787,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.08295482302781476,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.03353405742062421,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.07813975861411594,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.0006081023380346551,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.11292027689127782,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.07118303487899169,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.04385030010356328,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              141.0,
+              30.0
+            ],
+            "scan_relief_mm": 1.7435028286930034,
+            "scan_core_coherence": 0.9655172413793104,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 22.634784600372257,
+            "scan_background_slope": 0.3438467557688885,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": -0.080825170448108,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.017501484065043815,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": -0.08745775969636327,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.03227482514260094,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": -0.07027786743879005,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.0193458800944033,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.08653920554137784,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.00433485449165838,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": -0.07563027738464001,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.03911706508388857,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              152.0,
+              37.0
+            ],
+            "scan_relief_mm": 0.2783313039200479,
+            "scan_core_coherence": 0.1724137931034483,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 22.590629143071723,
+            "scan_background_slope": 0.3420684564799367,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.03750124154248624,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.010320579615286096,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.015015353139261833,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.015826884437176628,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.06895343578320023,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.03291891515485246,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": -0.004778884470894695,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.015241393286773985,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.08671565083930233,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.00706821054634732,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              135.0,
+              -20.0
+            ],
+            "scan_relief_mm": 1.6742574610152658,
+            "scan_core_coherence": 1.0,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 15.555948727113986,
+            "scan_background_slope": 0.6219616697562054,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.37977857825597283,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.01531704860969807,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.38149160985300057,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.0051667942253050825,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.337259239681309,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.048545203122785985,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.40502682246404476,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": 0.0038601215197813232,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.32657057047786253,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.018127632885066802,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          },
+          "control": {
+            "xy_mm": [
+              132.0,
+              2.0
+            ],
+            "scan_relief_mm": 0.35369012561137225,
+            "scan_core_coherence": 0.1724137931034483,
+            "scan_support": 1.0,
+            "silhouette_distance_mm": 15.473479287000686,
+            "scan_background_slope": 0.6223085525275204,
+            "reference": {
+              "nominal": {
+                "top": {
+                  "relief_mm": 0.08864301752196013,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.1011077648701253,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_plus": {
+                "top": {
+                  "relief_mm": 0.09628765265096462,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.09206264473716175,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "x_minus": {
+                "top": {
+                  "relief_mm": 0.10547621259321716,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.08497065287155614,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_plus": {
+                "top": {
+                  "relief_mm": 0.10765047002026762,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.10669886203211565,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              },
+              "y_minus": {
+                "top": {
+                  "relief_mm": 0.09722348813485837,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                },
+                "underside": {
+                  "relief_mm": -0.07440262705293499,
+                  "core_coverage": 1.0,
+                  "annulus_coverage": 1.0
+                }
+              }
+            }
+          }
+        }
+      ],
+      "original_eligible_centers": 5078,
+      "excluded_centers_by_reason": {
+        "foreground_boundary_or_missing_depth": 725,
+        "marker_overlap": 904
+      },
+      "rgb_sha256": "38db1db38b0a9fef4f5356c3fe1e43f75cb549c1da097733d20d84eb69a53147",
+      "depth_sha256": "e8fa08618036b7032f750718195b1e8be5591ccb3e17745735a017d74dc151b4",
+      "original_detections": [
+        {
+          "candidate": {
+            "xy_mm": [
+              156.0,
+              5.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              157.0,
+              -13.0
+            ],
+            "screen_reasons": []
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              140.0,
+              7.0
+            ],
+            "screen_reasons": []
+          },
+          "control": {
+            "xy_mm": [
+              147.0,
+              -26.0
+            ],
+            "screen_reasons": []
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              141.0,
+              30.0
+            ],
+            "screen_reasons": []
+          },
+          "control": {
+            "xy_mm": [
+              152.0,
+              37.0
+            ],
+            "screen_reasons": []
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              162.0,
+              13.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              159.0,
+              -23.0
+            ],
+            "screen_reasons": []
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              135.0,
+              -20.0
+            ],
+            "screen_reasons": []
+          },
+          "control": {
+            "xy_mm": [
+              132.0,
+              2.0
+            ],
+            "screen_reasons": []
+          }
+        },
+        {
+          "candidate": {
+            "xy_mm": [
+              148.0,
+              12.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          },
+          "control": {
+            "xy_mm": [
+              149.0,
+              -1.0
+            ],
+            "screen_reasons": [
+              "marker_overlap"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "object_id": "R7-7",
+      "frame_id": "357",
+      "eligible_centers": 56,
+      "detections": [],
+      "original_eligible_centers": 437,
+      "excluded_centers_by_reason": {
+        "foreground_boundary_or_missing_depth": 136,
+        "depth_discontinuity": 19,
+        "marker_overlap": 309
+      },
+      "rgb_sha256": "7e482403c5765d23adf466e7fde9678eb8cc45d3fc22e627f6518e5d8fee65fe",
+      "depth_sha256": "2eed9a388d77aeb83b230e8ef2f45e11dffe710312d4a54a96624644283bc829",
+      "original_detections": []
+    }
+  ]
+}

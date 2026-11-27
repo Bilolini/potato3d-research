@@ -1,0 +1,123 @@
+{
+  "role": "train/validation data-access smoke checks only; no method score",
+  "objects": [
+    {
+      "split": "train",
+      "object_id": "lab1",
+      "frame": "00001",
+      "depth_shape": [
+        720,
+        1280
+      ],
+      "mask_values": [
+        0,
+        1
+      ],
+      "partial_points": 41632,
+      "reference_points": 25326,
+      "reference_has_triangle_faces": false,
+      "source_units": "meters, as used by the official loader; checked against fruit-scale extents",
+      "partial_depth_median_m": 0.31200000643730164,
+      "camera_to_canonical_m": [
+        [
+          0.8041052164066959,
+          -0.25099519253033836,
+          0.5389027874062261,
+          -0.19674485696151844
+        ],
+        [
+          -0.593178818497779,
+          -0.27864527815407103,
+          0.7553116563697534,
+          -0.2581715880870291
+        ],
+        [
+          -0.03941687751612337,
+          -0.9270157616184843,
+          -0.3729451534445526,
+          0.10986458067467599
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "canonical_partial_extents_mm": [
+        303.6129993430833,
+        333.45893623988496,
+        103.1126217238622
+      ],
+      "canonical_reference_extents_mm": [
+        77.068678700361,
+        81.0183333333333,
+        115.63773023578366
+      ],
+      "raw_partial_to_reference_mean_mm": 3.598881355388748,
+      "raw_partial_to_reference_median_mm": 1.6401645005998229,
+      "raw_partial_to_reference_p95_mm": 5.740320162237947,
+      "alignment_policy": "provided pose only, as official loader; no ICP or direction search",
+      "download_manifest_sha256": "2e1fa1cd4553a68781955adc9f5b77a08bc837907e59c18b6d95781f6dc338cc"
+    },
+    {
+      "split": "val",
+      "object_id": "lab15",
+      "frame": "00001",
+      "depth_shape": [
+        720,
+        1280
+      ],
+      "mask_values": [
+        0,
+        1
+      ],
+      "partial_points": 26927,
+      "reference_points": 43667,
+      "reference_has_triangle_faces": false,
+      "source_units": "meters, as used by the official loader; checked against fruit-scale extents",
+      "partial_depth_median_m": 0.41600000858306885,
+      "camera_to_canonical_m": [
+        [
+          0.7845004175030535,
+          -0.4096828012242417,
+          0.4655309842734331,
+          -0.23899455030445846
+        ],
+        [
+          -0.6132537256347561,
+          -0.40105878915040655,
+          0.6804937293173992,
+          -0.27643467653110315
+        ],
+        [
+          -0.09208128437758287,
+          -0.8193362252618075,
+          -0.5658702917110127,
+          0.2503178225690803
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "canonical_partial_extents_mm": [
+        78.77617574266182,
+        74.59056256734564,
+        102.45476628867992
+      ],
+      "canonical_reference_extents_mm": [
+        85.98238683767329,
+        92.9141266427717,
+        124.51419688566561
+      ],
+      "raw_partial_to_reference_mean_mm": 3.4552665942248724,
+      "raw_partial_to_reference_median_mm": 3.1517051205587423,
+      "raw_partial_to_reference_p95_mm": 7.781756664121973,
+      "alignment_policy": "provided pose only, as official loader; no ICP or direction search",
+      "download_manifest_sha256": "2e1fa1cd4553a68781955adc9f5b77a08bc837907e59c18b6d95781f6dc338cc"
+    }
+  ]
+}
